@@ -9,6 +9,16 @@ The Indonesian UD conforms to the UD guidelines, but there are some exceptions.
 The primary exception is that there are no morphological features defined.
 
 ===================================
+STATS
+===================================
+Tree count:  5593
+Word count:  121923
+Token count: 121923
+Dep. relations: 28 of which 0 language specific
+POS tags: 16
+Category=value feature pairs: 0
+
+===================================
 LEGACY README FILE BELOW
 ===================================
 
