@@ -30,7 +30,7 @@
 30	Sampul	_	PROPN	_	_	33	nmod	_	_
 31	resmi	_	ADJ	_	_	30	amod	_	_
 32	album	_	NOUN	_	_	30	nmod	_	_
-33	menunjukkan	_	VERB	_	_	0	root	_	_
+33	menunjukkan	_	VERB	_	_	6	dep	_	_
 34	Perry	_	PROPN	_	_	36	nmod	_	_
 35	sedang	_	ADV	_	_	36	advmod	_	_
 36	berbaring	_	VERB	_	_	33	ccomp	_	_
@@ -549,7 +549,7 @@
 25	Semenanjung	_	PROPN	_	_	28	nmod	_	_
 26	Antartika	_	PROPN	_	_	25	nmod	_	_
 27	barat	_	NOUN	_	_	25	nmod	_	_
-28	mengalami	_	VERB	_	_	0	root	_	_
+28	mengalami	_	VERB	_	_	3	dep	_	_
 29	bagian	_	NOUN	_	_	28	nmod	_	_
 30	matahari	_	NOUN	_	_	29	nmod	_	_
 31	yang	_	PRON	_	_	32	nmod	_	_
@@ -773,7 +773,7 @@
 14	Pelabuhan	_	NOUN	_	_	17	nmod	_	_
 15	ini	_	DET	_	_	14	det	_	_
 16	sudah	_	ADV	_	_	17	advmod	_	_
-17	berdiri	_	VERB	_	_	0	root	_	_
+17	berdiri	_	VERB	_	_	1	dep	_	_
 18	sejak	_	ADP	_	_	19	case	_	_
 19	abad	_	NOUN	_	_	17	nmod	_	_
 20	X	_	NUM	_	_	19	nummod	_	_
@@ -1869,7 +1869,7 @@
 34	,	_	PUNCT	_	_	29	punct	_	_
 35	Bagas	_	PROPN	_	_	37	nmod	_	_
 36	akhirnya	_	ADV	_	_	37	advmod	_	_
-37	terpilih	_	VERB	_	_	0	root	_	_
+37	terpilih	_	VERB	_	_	12	dep	_	_
 38	sebagai	_	ADP	_	_	39	case	_	_
 39	Juara	_	PROPN	_	_	37	nmod	_	_
 40	Pertama	_	PROPN	_	_	39	nmod	_	_
@@ -1908,7 +1908,7 @@
 20	III	_	NUM	_	_	19	nummod	_	_
 21	.	_	PUNCT	_	_	5	punct	_	_
 22	Celeron	_	PROPN	_	_	23	nmod	_	_
-23	merupakan	_	VERB	_	_	0	root	_	_
+23	merupakan	_	VERB	_	_	5	dep	_	_
 24	hasil	_	NOUN	_	_	23	nmod	_	_
 25	praktik	_	NOUN	_	_	24	nmod	_	_
 26	tandingan	_	NOUN	_	_	25	nmod	_	_
@@ -2105,7 +2105,7 @@
 11	tahun	_	NOUN	_	_	14	nmod	_	_
 12	2006	_	NUM	_	_	11	nummod	_	_
 13	,	_	PUNCT	_	_	14	punct	_	_
-14	memiliki	_	VERB	_	_	0	root	_	_
+14	memiliki	_	VERB	_	_	3	dep	_	_
 15	penduduk	_	NOUN	_	_	14	nmod	_	_
 16	sebanyak	_	ADP	_	_	18	case	_	_
 17	21.401	_	NUM	_	_	18	nummod	_	_
@@ -2315,7 +2315,7 @@
 53	stasiun	_	NOUN	_	_	10	nmod	_	_
 54	Pasar	_	NOUN	_	_	53	nmod	_	_
 55	Senen	_	PROPN	_	_	53	nmod	_	_
-56	Berangkat	_	VERB	_	_	0	root	_	_
+56	Berangkat	_	VERB	_	_	4	dep	_	_
 57	pada	_	ADP	_	_	58	case	_	_
 58	pagi	_	NOUN	_	_	56	nmod	_	_
 59	hari	_	NOUN	_	_	58	nmod	_	_
@@ -2349,7 +2349,7 @@
 16	.	_	PUNCT	_	_	9	punct	_	_
 17	Peserta	_	NOUN	_	_	19	nmod	_	_
 18	harus	_	ADV	_	_	19	advmod	_	_
-19	menyelesaikan	_	VERB	_	_	0	root	_	_
+19	menyelesaikan	_	VERB	_	_	9	dep	_	_
 20	kedua	_	DET	_	_	21	det	_	_
 21	tantangan	_	NOUN	_	_	19	nmod	_	_
 22	tersebut	_	DET	_	_	21	det	_	_
@@ -2590,7 +2590,7 @@
 30	bahasa	_	NOUN	_	_	28	nmod	_	_
 31	tersebut	_	DET	_	_	30	det	_	_
 32	selain	_	ADV	_	_	33	advmod	_	_
-33	digunakan	_	VERB	_	_	0	root	_	_
+33	digunakan	_	VERB	_	_	3	dep	_	_
 34	untuk	_	ADP	_	_	35	case	_	_
 35	perundangan	_	NOUN	_	_	33	nmod	_	_
 36	,	_	PUNCT	_	_	33	punct	_	_
@@ -3326,7 +3326,7 @@
 23	drive	_	NOUN	_	_	22	nmod	_	_
 24	eksternal	_	ADJ	_	_	23	amod	_	_
 25	sebenarnya	_	ADV	_	_	26	advmod	_	_
-26	adalah	_	VERB	_	_	0	root	_	_
+26	adalah	_	VERB	_	_	4	dep	_	_
 27	drive	_	NOUN	_	_	26	nmod	_	_
 28	SCSI	_	PROPN	_	_	27	nmod	_	_
 29	yang	_	PRON	_	_	30	nmod	_	_
@@ -3837,7 +3837,7 @@
 10	.	_	PUNCT	_	_	7	punct	_	_
 11	Dave	_	PROPN	_	_	13	nmod	_	_
 12	kembali	_	ADV	_	_	13	advmod	_	_
-13	mendirikan	_	VERB	_	_	0	root	_	_
+13	mendirikan	_	VERB	_	_	7	dep	_	_
 14	sebuah	_	DET	_	_	15	det	_	_
 15	band	_	NOUN	_	_	13	nmod	_	_
 16	pada	_	ADP	_	_	18	case	_	_
@@ -4535,7 +4535,7 @@
 16	.	_	PUNCT	_	_	8	punct	_	_
 17	Selain	_	ADP	_	_	19	case	_	_
 18	itu	_	DET	_	_	19	det	_	_
-19	ditemukan	_	VERB	_	_	0	root	_	_
+19	ditemukan	_	VERB	_	_	8	dep	_	_
 20	pula	_	ADV	_	_	19	advmod	_	_
 21	nama	_	NOUN	_	_	19	nmod	_	_
 22	Rakryan	_	PROPN	_	_	21	nmod	_	_
@@ -4556,7 +4556,7 @@
 37	pada	_	ADP	_	_	38	case	_	_
 38	awal	_	ADJ	_	_	34	acl	_	_
 39	berdirinya	_	PRON	_	_	38	nmod	_	_
-40	diperkirakan	_	VERB	_	_	0	root	_	_
+40	diperkirakan	_	VERB	_	_	8	dep	_	_
 41	terletak	_	VERB	_	_	40	advcl	_	_
 42	di	_	ADP	_	_	43	case	_	_
 43	daerah	_	NOUN	_	_	41	nmod	_	_
@@ -5379,7 +5379,7 @@
 25	.	_	PUNCT	_	_	5	punct	_	_
 26	Kam	_	PROPN	_	_	28	nmod	_	_
 27	turut	_	ADV	_	_	28	advmod	_	_
-28	berjasa	_	VERB	_	_	0	root	_	_
+28	berjasa	_	VERB	_	_	5	dep	_	_
 29	menanamkan	_	VERB	_	_	28	ccomp	_	_
 30	kesadaran	_	NOUN	_	_	29	nmod	_	_
 31	akan	_	ADP	_	_	32	case	_	_
@@ -5394,7 +5394,7 @@
 40	,	_	PUNCT	_	_	43	punct	_	_
 41	Kam	_	PROPN	_	_	43	nmod	_	_
 42	juga	_	ADV	_	_	43	advmod	_	_
-43	membentuk	_	VERB	_	_	0	root	_	_
+43	membentuk	_	VERB	_	_	5	dep	_	_
 44	komunitas	_	NOUN	_	_	43	nmod	_	_
 45	kecil	_	ADJ	_	_	44	amod	_	_
 46	Orang	_	NOUN	_	_	44	nmod	_	_
@@ -5464,7 +5464,7 @@
 11	.	_	PUNCT	_	_	3	punct	_	_
 12	Bintang	_	NOUN	_	_	14	nmod	_	_
 13	ini	_	DET	_	_	12	det	_	_
-14	bermagnitudo	_	VERB	_	_	0	root	_	_
+14	bermagnitudo	_	VERB	_	_	3	dep	_	_
 15	5.16	_	NUM	_	_	14	dobj	_	_
 16	.	_	PUNCT	_	_	14	punct	_	_
 
@@ -5546,7 +5546,7 @@
 22	”	_	PUNCT	_	_	20	punct	_	_
 23	.	_	PUNCT	_	_	3	punct	_	_
 24	Ia	_	PRON	_	_	25	nmod	_	_
-25	dilahirkan	_	VERB	_	_	0	root	_	_
+25	dilahirkan	_	VERB	_	_	3	dep	_	_
 26	di	_	ADP	_	_	27	case	_	_
 27	Madinah	_	PROPN	_	_	25	nmod	_	_
 28	dan	_	CONJ	_	_	25	cc	_	_
@@ -6496,7 +6496,7 @@
 33	Siak	_	PROPN	_	_	32	nmod	_	_
 34	Sri	_	PROPN	_	_	33	nmod	_	_
 35	Inderapura	_	PROPN	_	_	34	nmod	_	_
-36	diperebutkan	_	VERB	_	_	0	root	_	_
+36	diperebutkan	_	VERB	_	_	17	dep	_	_
 37	oleh	_	ADP	_	_	38	case	_	_
 38	Raja	_	PROPN	_	_	36	nmod	_	_
 39	Ismail	_	PROPN	_	_	38	nmod	_	_
@@ -6507,7 +6507,7 @@
 44	.	_	PUNCT	_	_	36	punct	_	_
 45	Suksesi	_	PROPN	_	_	47	nmod	_	_
 46	ini	_	DET	_	_	45	det	_	_
-47	dimenangi	_	VERB	_	_	0	root	_	_
+47	dimenangi	_	VERB	_	_	17	dep	_	_
 48	oleh	_	ADP	_	_	49	case	_	_
 49	Raja	_	PROPN	_	_	47	nmod	_	_
 50	Muhammad	_	PROPN	_	_	49	nmod	_	_
@@ -6516,7 +6516,7 @@
 53	Kemudian	_	SCONJ	_	_	56	mark	_	_
 54	Raja	_	PROPN	_	_	56	nmod	_	_
 55	Ismail	_	PROPN	_	_	54	nmod	_	_
-56	memilih	_	VERB	_	_	0	root	_	_
+56	memilih	_	VERB	_	_	17	dep	_	_
 57	untuk	_	ADP	_	_	58	case	_	_
 58	berkelana	_	VERB	_	_	56	xcomp	_	_
 59	.	_	PUNCT	_	_	56	punct	_	_
@@ -6672,7 +6672,7 @@
 48	Hulu	_	PROPN	_	_	47	nmod	_	_
 49	.	_	PUNCT	_	_	20	punct	_	_
 50	Anggaotanya	_	NOUN	_	_	51	nmod	_	_
-51	terdiri	_	VERB	_	_	0	root	_	_
+51	terdiri	_	VERB	_	_	20	dep	_	_
 52	dari	_	ADP	_	_	54	case	_	_
 53	12	_	NUM	_	_	54	nummod	_	_
 54	Ketemenggungan	_	NOUN	_	_	51	nmod	_	_
@@ -6691,7 +6691,7 @@
 67	dalam	_	ADP	_	_	68	case	_	_
 68	kabupaten	_	NOUN	_	_	65	nmod	_	_
 69	ini	_	DET	_	_	68	det	_	_
-70	meliputi	_	VERB	_	_	0	root	_	_
+70	meliputi	_	VERB	_	_	20	dep	_	_
 71	:	_	PUNCT	_	_	70	punct	_	_
 72	Kecamatan	_	NOUN	_	_	79	nmod	_	_
 73	yang	_	PRON	_	_	74	nmod	_	_
@@ -6729,7 +6729,7 @@
 14	Kecamatan	_	PROPN	_	_	17	nmod	_	_
 15	Payakumbuh	_	PROPN	_	_	14	nmod	_	_
 16	Timur	_	PROPN	_	_	15	nmod	_	_
-17	terdiri	_	VERB	_	_	0	root	_	_
+17	terdiri	_	VERB	_	_	4	dep	_	_
 18	dari	_	ADP	_	_	20	case	_	_
 19	14	_	NUM	_	_	20	nummod	_	_
 20	kelurahan	_	NOUN	_	_	17	nmod	_	_
@@ -6856,7 +6856,7 @@
 20	atas	_	ADP	_	_	19	case	_	_
 21	.	_	PUNCT	_	_	10	punct	_	_
 22	FHF	_	PROPN	_	_	23	nmod	_	_
-23	adalah	_	VERB	_	_	0	root	_	_
+23	adalah	_	VERB	_	_	10	dep	_	_
 24	anggota	_	NOUN	_	_	23	nmod	_	_
 25	CONCACAF	_	PROPN	_	_	24	nmod	_	_
 26	sejak	_	ADP	_	_	27	case	_	_
@@ -6961,7 +6961,7 @@
 9	.	_	PUNCT	_	_	2	punct	_	_
 10	Kemudian	_	SCONJ	_	_	12	mark	_	_
 11	ia	_	PRON	_	_	12	nmod	_	_
-12	menjadi	_	VERB	_	_	0	root	_	_
+12	menjadi	_	VERB	_	_	2	dep	_	_
 13	pendeta	_	NOUN	_	_	12	nmod	_	_
 14	di	_	ADP	_	_	15	case	_	_
 15	New	_	PROPN	_	_	12	nmod	_	_
@@ -7072,7 +7072,7 @@
 26	TK	_	PROPN	_	_	21	nmod	_	_
 27	)	_	PUNCT	_	_	26	punct	_	_
 28	.	_	PUNCT	_	_	13	punct	_	_
-29	Jumlah	_	NOUN	_	_	0	root	_	_
+29	Jumlah	_	NOUN	_	_	13	dep	_	_
 30	Taman	_	PROPN	_	_	29	nmod	_	_
 31	Kanak	_	PROPN	_	_	30	nmod	_	_
 32	–	_	PUNCT	_	_	31	punct	_	_
@@ -7457,7 +7457,7 @@
 19	-	_	PUNCT	_	_	18	punct	_	_
 20	4	_	NUM	_	_	18	nummod	_	_
 21	ini	_	DET	_	_	14	det	_	_
-22	memiliki	_	VERB	_	_	0	root	_	_
+22	memiliki	_	VERB	_	_	4	dep	_	_
 23	ukuran	_	NOUN	_	_	22	nmod	_	_
 24	yang	_	PRON	_	_	26	nmod	_	_
 25	sangat	_	ADV	_	_	26	advmod	_	_
@@ -7682,7 +7682,7 @@
 20	.	_	PUNCT	_	_	7	punct	_	_
 21	Kota	_	NOUN	_	_	23	nmod	_	_
 22	ini	_	DET	_	_	21	det	_	_
-23	memiliki	_	VERB	_	_	0	root	_	_
+23	memiliki	_	VERB	_	_	7	dep	_	_
 24	angka	_	NOUN	_	_	23	nmod	_	_
 25	kepadatan	_	NOUN	_	_	24	nmod	_	_
 26	penduduk	_	NOUN	_	_	24	nmod	_	_
@@ -7828,7 +7828,7 @@
 12	Henry	_	PROPN	_	_	11	nmod	_	_
 13	III	_	NUM	_	_	12	nummod	_	_
 14	.	_	PUNCT	_	_	5	punct	_	_
-15	Menandatangani	_	VERB	_	_	0	root	_	_
+15	Menandatangani	_	VERB	_	_	5	dep	_	_
 16	perjanjian	_	NOUN	_	_	15	nmod	_	_
 17	di	_	ADP	_	_	18	case	_	_
 18	Regensburg	_	PROPN	_	_	16	nmod	_	_
@@ -7858,7 +7858,7 @@
 42	Bohemia	_	PROPN	_	_	41	nmod	_	_
 43	.	_	PUNCT	_	_	15	punct	_	_
 44	Itu	_	DET	_	_	45	nsubj	_	_
-45	adalah	_	VERB	_	_	0	root	_	_
+45	adalah	_	VERB	_	_	5	dep	_	_
 46	keberhasilan	_	NOUN	_	_	45	nmod	_	_
 47	Casimir	_	PROPN	_	_	46	nmod	_	_
 48	dalam	_	ADP	_	_	49	case	_	_
@@ -7947,7 +7947,7 @@
 12	.	_	PUNCT	_	_	7	punct	_	_
 13	Klub	_	NOUN	_	_	15	nmod	_	_
 14	ini	_	DET	_	_	13	det	_	_
-15	dibentuk	_	VERB	_	_	0	root	_	_
+15	dibentuk	_	VERB	_	_	7	dep	_	_
 16	pada	_	ADP	_	_	17	case	_	_
 17	tahun	_	NOUN	_	_	15	nmod	_	_
 18	1908	_	NUM	_	_	17	nummod	_	_
@@ -8139,7 +8139,7 @@
 13	Kantor	_	PROPN	_	_	16	nmod	_	_
 14	pusat	_	ADJ	_	_	13	amod	_	_
 15	CAA	_	PROPN	_	_	13	nmod	_	_
-16	terletak	_	VERB	_	_	0	root	_	_
+16	terletak	_	VERB	_	_	7	dep	_	_
 17	di	_	ADP	_	_	18	case	_	_
 18	Terminal	_	PROPN	_	_	16	nmod	_	_
 19	1	_	PROPN	_	_	18	nmod	_	_
@@ -8312,7 +8312,7 @@
 15	You	_	PROPN	_	_	14	nmod	_	_
 16	.	_	PUNCT	_	_	2	punct	_	_
 17	Dia	_	PRON	_	_	18	nmod	_	_
-18	dilahirkan	_	VERB	_	_	0	root	_	_
+18	dilahirkan	_	VERB	_	_	2	dep	_	_
 19	di	_	ADP	_	_	20	case	_	_
 20	Memphis	_	PROPN	_	_	18	nmod	_	_
 21	,	_	PUNCT	_	_	20	punct	_	_
@@ -8748,7 +8748,7 @@
 31	Rancangan	_	NOUN	_	_	34	nmod	_	_
 32	awal	_	ADJ	_	_	31	amod	_	_
 33	bandara	_	NOUN	_	_	31	nmod	_	_
-34	memiliki	_	VERB	_	_	0	root	_	_
+34	memiliki	_	VERB	_	_	4	dep	_	_
 35	tampilan	_	NOUN	_	_	34	nmod	_	_
 36	yang	_	PRON	_	_	37	nmod	_	_
 37	berbeda	_	ADJ	_	_	35	amod	_	_
@@ -8768,7 +8768,7 @@
 51	baru	_	ADJ	_	_	50	amod	_	_
 52	bagi	_	ADP	_	_	53	case	_	_
 53	bandara	_	NOUN	_	_	50	nmod	_	_
-54	mengubah	_	VERB	_	_	0	root	_	_
+54	mengubah	_	VERB	_	_	4	dep	_	_
 55	tampilan	_	NOUN	_	_	54	nmod	_	_
 56	ini	_	DET	_	_	55	det	_	_
 57	.	_	PUNCT	_	_	54	punct	_	_
@@ -8860,7 +8860,7 @@
 35	milenial	_	NOUN	_	_	33	nmod	_	_
 36	dispensasional	_	ADJ	_	_	35	amod	_	_
 37	,	_	PUNCT	_	_	38	punct	_	_
-38	ada	_	VERB	_	_	0	root	_	_
+38	ada	_	VERB	_	_	15	dep	_	_
 39	orang	_	NOUN	_	_	38	nmod	_	_
 40	-	_	PUNCT	_	_	39	punct	_	_
 41	orang	_	NOUN	_	_	39	nmod	_	_
@@ -9108,7 +9108,7 @@
 153	tiga	_	NUM	_	_	154	nummod	_	_
 154	hal	_	NOUN	_	_	151	nmod	_	_
 155	:	_	PUNCT	_	_	151	punct	_	_
-156	ialah	_	VERB	_	_	0	root	_	_
+156	ialah	_	VERB	_	_	22	dep	_	_
 157	Tuhan	_	NOUN	_	_	156	nmod	_	_
 158	Pencipta	_	PROPN	_	_	157	nmod	_	_
 159	,	_	PUNCT	_	_	157	punct	_	_
@@ -10110,7 +10110,7 @@
 39	622	_	NUM	_	_	37	nummod	_	_
 40	,	_	PUNCT	_	_	42	punct	_	_
 41	Liu	_	PROPN	_	_	42	nmod	_	_
-42	menggelari	_	VERB	_	_	0	root	_	_
+42	menggelari	_	VERB	_	_	16	dep	_	_
 43	dirinya	_	PRON	_	_	42	nmod	_	_
 44	sebagai	_	ADP	_	_	45	case	_	_
 45	Pangeran	_	PROPN	_	_	42	nmod	_	_
@@ -10138,7 +10138,7 @@
 67	Xia	_	PROPN	_	_	65	nmod	_	_
 68	.	_	PUNCT	_	_	42	punct	_	_
 69	Sejarah	_	PROPN	_	_	70	nmod	_	_
-70	mencatat	_	VERB	_	_	0	root	_	_
+70	mencatat	_	VERB	_	_	16	dep	_	_
 71	bahwa	_	SCONJ	_	_	72	mark	_	_
 72	ia	_	PRON	_	_	70	nmod	_	_
 73	lebih	_	ADV	_	_	74	advmod	_	_
@@ -10155,7 +10155,7 @@
 84	Dou	_	PROPN	_	_	74	nmod	_	_
 85	.	_	PUNCT	_	_	70	punct	_	_
 86	Ia	_	PRON	_	_	87	nmod	_	_
-87	menjadikan	_	VERB	_	_	0	root	_	_
+87	menjadikan	_	VERB	_	_	16	dep	_	_
 88	Mingzhou	_	PROPN	_	_	87	nmod	_	_
 89	(	_	PUNCT	_	_	91	punct	_	_
 90	sekarang	_	NOUN	_	_	91	nmod	_	_
@@ -10245,7 +10245,7 @@
 13	Jhang	_	PROPN	_	_	5	nmod	_	_
 14	Road	_	PROPN	_	_	13	nmod	_	_
 15	.	_	PUNCT	_	_	5	punct	_	_
-16	Bandar	_	PROPN	_	_	0	root	_	_
+16	Bandar	_	PROPN	_	_	5	dep	_	_
 17	udara	_	NOUN	_	_	16	nmod	_	_
 18	ini	_	DET	_	_	17	det	_	_
 19	tidak	_	PART	_	_	21	neg	_	_
@@ -10516,7 +10516,7 @@
 10	,	_	PUNCT	_	_	13	punct	_	_
 11	kota	_	NOUN	_	_	13	nmod	_	_
 12	ini	_	DET	_	_	11	det	_	_
-13	memiliki	_	VERB	_	_	0	root	_	_
+13	memiliki	_	VERB	_	_	1	dep	_	_
 14	jumlah	_	NOUN	_	_	13	nmod	_	_
 15	penduduk	_	NOUN	_	_	14	nmod	_	_
 16	sebanyak	_	ADV	_	_	15	advmod	_	_
@@ -10534,7 +10534,7 @@
 28	.	_	PUNCT	_	_	13	punct	_	_
 29	Kota	_	NOUN	_	_	31	nmod	_	_
 30	ini	_	DET	_	_	29	det	_	_
-31	memiliki	_	VERB	_	_	0	root	_	_
+31	memiliki	_	VERB	_	_	1	dep	_	_
 32	jumlah	_	NOUN	_	_	31	nmod	_	_
 33	kepadatan	_	NOUN	_	_	32	nmod	_	_
 34	penduduk	_	NOUN	_	_	33	nmod	_	_
@@ -10839,7 +10839,7 @@
 26	.	_	PUNCT	_	_	25	punct	_	_
 27	Khoirul	_	PROPN	_	_	29	nmod	_	_
 28	Anwar	_	PROPN	_	_	27	nmod	_	_
-29	adalah	_	VERB	_	_	0	root	_	_
+29	adalah	_	VERB	_	_	9	dep	_	_
 30	anak	_	NOUN	_	_	29	nmod	_	_
 31	dari	_	ADP	_	_	32	case	_	_
 32	pasangan	_	NOUN	_	_	30	nmod	_	_
@@ -11384,7 +11384,7 @@
 26	di	_	ADP	_	_	28	case	_	_
 27	seberang	_	ADP	_	_	28	case	_	_
 28	vila	_	NOUN	_	_	29	nmod	_	_
-29	ada	_	VERB	_	_	0	root	_	_
+29	ada	_	VERB	_	_	14	dep	_	_
 30	hiburan	_	NOUN	_	_	29	nmod	_	_
 31	pasar	_	NOUN	_	_	30	nmod	_	_
 32	malam	_	NOUN	_	_	31	nmod	_	_
@@ -11971,7 +11971,7 @@
 20	.	_	PUNCT	_	_	13	punct	_	_
 21	Hasil	_	NOUN	_	_	23	nmod	_	_
 22	ranpokan	_	NOUN	_	_	21	nmod	_	_
-23	dilarikan	_	VERB	_	_	0	root	_	_
+23	dilarikan	_	VERB	_	_	12	dep	_	_
 24	.	_	PUNCT	_	_	23	punct	_	_
 
 1	Sindanghayu	_	PROPN	_	_	2	nmod	_	_
@@ -12286,7 +12286,7 @@
 22	(	_	PUNCT	_	_	23	punct	_	_
 23	RNAS	_	PROPN	_	_	18	nmod	_	_
 24	)	_	PUNCT	_	_	23	punct	_	_
-25	mulai	_	VERB	_	_	0	root	_	_
+25	mulai	_	VERB	_	_	3	dep	_	_
 26	menggunakan	_	VERB	_	_	25	xcomp	_	_
 27	Sopwith	_	NOUN	_	_	26	nmod	_	_
 28	triplane	_	NOUN	_	_	27	nmod	_	_
