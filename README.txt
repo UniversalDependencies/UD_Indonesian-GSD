@@ -26,7 +26,9 @@ Data source: automatic
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0 US
 Genre: news blog
+Contributors: McDonald, Ryan; Nivre, Joakim
 ===============================================================================
+(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 
 
 
