@@ -18,6 +18,18 @@ Dep. relations: 28 of which 0 language specific
 POS tags: 16
 Category=value feature pairs: 0
 
+
+
+=== Machine-readable metadata =================================================
+Documentation status: stub
+Data source: automatic
+Data available since: UD v1.1
+License: CC BY-NC-SA 3.0 US
+Genre: news blog
+===============================================================================
+
+
+
 ===================================
 LEGACY README FILE BELOW
 ===================================
@@ -132,7 +144,7 @@ representation for clitics.
 Licenses and terms-of-use
 =========================
 
-For the following languages 
+For the following languages
 
   German, Spanish, French, Indonesian, Italian, Japanese, Korean and Brazilian
   Portuguese
@@ -199,9 +211,3 @@ Contact
 ryanmcd@google.com
 joakim.nivre@lingfil.uu.se
 slav@google.com
-
-
-Documentation status: stub
-Data source: unknown
-Data available since: UD v1.1
-License: CC BY-NC-SA 3.0 US
