@@ -8,6 +8,10 @@ The README for that project is included here.
 The Indonesian UD conforms to the UD guidelines, but there are some exceptions.
 The primary exception is that there are no morphological features defined.
 
+CHANGELOG
+
+No change since v1.1
+
 ===================================
 STATS
 ===================================
