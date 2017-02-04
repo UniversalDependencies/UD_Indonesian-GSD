@@ -1,3 +1,14 @@
+=== Machine-readable metadata =================================================
+Documentation status: stub
+Data source: automatic
+Data available since: UD v1.1
+License: CC BY-NC-SA 3.0 US
+Genre: news blog
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
+(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+
 The Indonesian UD is converted from the standard version of the universal
 dependency treebank v2.0 (legacy):
 
@@ -10,30 +21,13 @@ The primary exception is that there are no morphological features defined.
 
 CHANGELOG
 
-No change since v1.1
-
-===================================
-STATS
-===================================
-Tree count:  5593
-Word count:  121923
-Token count: 121923
-Dep. relations: 28 of which 0 language specific
-POS tags: 16
-Category=value feature pairs: 0
-
-
-
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: automatic
-Data available since: UD v1.1
-License: CC BY-NC-SA 3.0 US
-Genre: news blog
-Contributors: McDonald, Ryan; Nivre, Joakim
-Contact:
-===============================================================================
-(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+2017-03-01 v2.0
+  * Converted to UD v2 guidelines (Dan Zeman).
+  * Reduplicative plurals are now connected neither with mwe nor with fixed,
+    but with compound:plur
+    (https://github.com/UniversalDependencies/docs/issues/238)
+2015-05-01 v1.1
+  * Initial release (Ryan McDonald).
 
 
 
