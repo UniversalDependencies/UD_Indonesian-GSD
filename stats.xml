@@ -15,8 +15,8 @@
     <tag name="ADJ">4574</tag><!-- _ -->
     <tag name="ADP">12019</tag><!-- _ -->
     <tag name="ADV">4760</tag><!-- _ -->
-    <tag name="AUX">1</tag><!-- _ -->
-    <tag name="CONJ">3659</tag><!-- _ -->
+    <tag name="AUX">1056</tag><!-- _ -->
+    <tag name="CCONJ">3659</tag><!-- _ -->
     <tag name="DET">3963</tag><!-- _ -->
     <tag name="NOUN">27313</tag><!-- _ -->
     <tag name="NUM">4386</tag><!-- _ -->
@@ -26,17 +26,19 @@
     <tag name="PUNCT">18228</tag><!-- _ -->
     <tag name="SCONJ">1475</tag><!-- _ -->
     <tag name="SYM">418</tag><!-- _ -->
-    <tag name="VERB">13257</tag><!-- _ -->
+    <tag name="VERB">12202</tag><!-- _ -->
     <tag name="X">39</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="0">
+  <feats unique="2">
+    <feat name="NumType" value="Card" upos="NUM">4386</feat><!-- dua, pertama, kedua, 1, satu, 2, 3, 5, tiga, 4 -->
+    <feat name="Polarity" value="Neg" upos="ADJ,ADV,NOUN,PART,PROPN">538</feat><!-- tidak, tak, bukan, bukankah, belum, bukanlah, jangan, non, tanpa, tidakkah -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="30">
+  <deps unique="31">
     <dep name="acl">3346</dep>
     <dep name="advcl">1356</dep>
-    <dep name="advmod">4750</dep>
+    <dep name="advmod">5288</dep>
     <dep name="amod">4566</dep>
     <dep name="appos">2662</dep>
     <dep name="aux">3</dep>
@@ -44,24 +46,25 @@
     <dep name="cc">3571</dep>
     <dep name="ccomp">482</dep>
     <dep name="compound">7432</dep>
+    <dep name="compound:plur">679</dep>
     <dep name="conj">4806</dep>
     <dep name="cop">1055</dep>
     <dep name="csubj">26</dep>
-    <dep name="csubjpass">8</dep>
-    <dep name="dep">566</dep>
+    <dep name="csubj:pass">8</dep>
+    <dep name="dep">565</dep>
     <dep name="det">4475</dep>
-    <dep name="dobj">5795</dep>
+    <dep name="fixed">615</dep>
+    <dep name="flat">11402</dep>
     <dep name="iobj">22</dep>
     <dep name="mark">1574</dep>
-    <dep name="mwe">1294</dep>
-    <dep name="name">11402</dep>
-    <dep name="neg">538</dep>
-    <dep name="nmod">10788</dep>
+    <dep name="nmod">4442</dep>
     <dep name="nsubj">7125</dep>
-    <dep name="nsubjpass">2216</dep>
+    <dep name="nsubj:pass">2216</dep>
     <dep name="nummod">4316</dep>
+    <dep name="obj">5795</dep>
+    <dep name="obl">6346</dep>
     <dep name="parataxis">404</dep>
-    <dep name="punct">18482</dep>
+    <dep name="punct">18483</dep>
     <dep name="root">5593</dep>
     <dep name="xcomp">1373</dep>
   </deps>
