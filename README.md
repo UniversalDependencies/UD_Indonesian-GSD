@@ -1,32 +1,22 @@
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: automatic
-Data available since: UD v1.1
-License: CC BY-NC-SA 3.0 US
-Genre: news blog
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
-(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+# Summary
 
-The Indonesian UD is converted from the standard version of the universal
-dependency treebank v2.0 (legacy):
+The Indonesian UD is converted from the content head version of the [universal
+dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
-https://code.google.com/p/uni-dep-tb/
 
-The README for that project is included here.
+# Introduction
 
 The Indonesian UD conforms to the UD guidelines, but there are some exceptions.
 The primary exception is that there are no morphological features defined.
 
-CHANGELOG
+# Changelog
 
-2017-03-01 v2.0
+* 2017-03-01 v2.0
   * Converted to UD v2 guidelines (Dan Zeman).
   * Reduplicative plurals are now connected neither with mwe nor with fixed,
     but with compound:plur
     (https://github.com/UniversalDependencies/docs/issues/238)
-2015-05-01 v1.1
+* 2015-05-01 v1.1
   * Initial release (Ryan McDonald).
 
 
@@ -212,3 +202,21 @@ Contact
 ryanmcd@google.com
 joakim.nivre@lingfil.uu.se
 slav@google.com
+
+
+
+=== Machine-readable metadata =================================================
+Data available since: UD v1.1
+License: CC BY-NC-SA 3.0 US
+Includes text: yes
+Genre: news blog
+Lemmas: not available
+UPOS: converted from manual
+XPOS: not available
+Features: not available
+Relations: converted from manual
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
+Contributing: to be adopted
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
+(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
