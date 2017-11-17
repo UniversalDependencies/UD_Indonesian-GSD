@@ -7,27 +7,27 @@
   <size>
     <total><sentences>5593</sentences><tokens>121923</tokens><words>121923</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
+  <lemmas unique="16734" /><!-- ,, ., yang, dan, di, -, pada, dari, dengan, ini, ), (, adalah, untuk, dalam -->
   <forms unique="19982" /><!-- ,, ., yang, dan, di, -, pada, dari, dengan, ini, ), (, adalah, untuk, dalam -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">4574</tag><!-- _ -->
-    <tag name="ADP">12019</tag><!-- _ -->
-    <tag name="ADV">4760</tag><!-- _ -->
-    <tag name="AUX">1056</tag><!-- _ -->
-    <tag name="CCONJ">3659</tag><!-- _ -->
-    <tag name="DET">3963</tag><!-- _ -->
-    <tag name="NOUN">27313</tag><!-- _ -->
-    <tag name="NUM">4386</tag><!-- _ -->
-    <tag name="PART">590</tag><!-- _ -->
-    <tag name="PRON">4397</tag><!-- _ -->
-    <tag name="PROPN">22844</tag><!-- _ -->
-    <tag name="PUNCT">18228</tag><!-- _ -->
-    <tag name="SCONJ">1475</tag><!-- _ -->
-    <tag name="SYM">418</tag><!-- _ -->
-    <tag name="VERB">12202</tag><!-- _ -->
-    <tag name="X">39</tag><!-- _ -->
+    <tag name="ADJ">4574</tag><!-- lain, _, besar, baru, lainnya, sama, kecil, utama, pertama, tinggi -->
+    <tag name="ADP">12019</tag><!-- di, pada, dari, dengan, untuk, dalam, oleh, sebagai, ke, seperti -->
+    <tag name="ADV">4760</tag><!-- juga, akan, dapat, _, telah, lebih, kemudian, hanya, bisa, masih -->
+    <tag name="AUX">1056</tag><!-- adalah, ialah, rata -->
+    <tag name="CCONJ">3659</tag><!-- dan, atau, serta, karena, maupun, tetapi, _, namun, tapi, and -->
+    <tag name="DET">3963</tag><!-- ini, itu, sebuah, tersebut, satu, seorang, salah, beberapa, para, berbagai -->
+    <tag name="NOUN">27313</tag><!-- _, tahun, orang, desa, kota, nama, bahasa, wilayah, negara, saat -->
+    <tag name="NUM">4386</tag><!-- dua, pertama, ke+dua, 1, satu, 2, 3, 5, tiga, 4 -->
+    <tag name="PART">590</tag><!-- tidak, tak, bukan, _, pun, belum, kan, ya, jangan, non -->
+    <tag name="PRON">4397</tag><!-- yang, ia, mereka, dia, kita, _, aku, kamu, engkau, kami -->
+    <tag name="PROPN">22844</tag><!-- _, indonesia, kabupaten, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
+    <tag name="PUNCT">18228</tag><!-- ,, ., -, ), (, ?, ", :, _, ; -->
+    <tag name="SCONJ">1475</tag><!-- karena, bahwa, namun, ketika, sehingga, maka, jika, setelah, yaitu, sementara -->
+    <tag name="SYM">418</tag><!-- /, %, =, *, km, &amp;amp;, cm, °, #, + -->
+    <tag name="VERB">12202</tag><!-- _, meN+jadi, merupakan, ada, ter+letak, ber+ada, di+kenal, terjadi, di+sebut, meN+buat -->
+    <tag name="X">39</tag><!-- jpg, an, www, anti, b, dkk, s, x, y, &amp;amp;nbsp -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="2">
