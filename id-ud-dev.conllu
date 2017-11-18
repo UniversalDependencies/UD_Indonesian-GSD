@@ -927,7 +927,7 @@
 63	Sri	sri	PROPN	F--	_	62	flat	_	MorphInd=^sri<f>_F--$
 64	Kartini	kartini	PROPN	X--	_	63	flat	_	SpaceAfter=No|MorphInd=^kartini<x>_X--$
 65	,	,	PUNCT	Z--	_	66	punct	_	MorphInd=^,<z>_Z--$
-66	Kustilah	_	PROPN	_	_	25	conj	_	SpaceAfter=No|MorphInd=^aku<p>_PS1+st<f>+i_VSA+lah<t>_T--$
+66	Kustilah	sti	PROPN	PS1+VSA+T--	Number=Sing|Person=1	25	conj	_	SpaceAfter=No|MorphInd=^aku<p>_PS1+st<f>+i_VSA+lah<t>_T--$
 67	,	,	PUNCT	Z--	_	68	punct	_	MorphInd=^,<z>_Z--$
 68	Herlina	herlina	PROPN	X--	_	25	conj	_	SpaceAfter=No|MorphInd=^herlina<x>_X--$
 69	,	,	PUNCT	Z--	_	70	punct	_	MorphInd=^,<z>_Z--$
@@ -2759,7 +2759,7 @@
 # text = Stres atau penyalah-gunaan zat???
 1	Stres	stres	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^stres<n>_NSD$
 2	atau	atau	CCONJ	H--	_	3	cc	_	MorphInd=^atau<h>_H--$
-3	penyalah-gunaan	_	NOUN	_	_	1	conj	_	MorphInd=^peN+salah<a>_NSD$DASH^guna<n>+an_NSD$
+3	penyalah-gunaan	penyalah-gunaan	NOUN	_	_	1	conj	_	MorphInd=^peN+salah<a>_NSD$DASH^guna<n>+an_NSD$
 4	zat	zat	NOUN	NSD	Number=Sing	3	compound	_	SpaceAfter=No|MorphInd=^zat<n>_NSD$
 5	?	?	PUNCT	Z--	_	1	punct	_	SpaceAfter=No|MorphInd=^?<z>_Z--$
 6	?	?	PUNCT	Z--	_	1	punct	_	SpaceAfter=No|MorphInd=^?<z>_Z--$
@@ -4277,7 +4277,7 @@
 14	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	15	case	_	MorphInd=^dalam<a>_ASP$
 15	Kitab	kitab	NOUN	NSD	Number=Sing	12	nmod	_	MorphInd=^kitab<n>_NSD$
 16	Matius	matius	PROPN	X--	_	15	flat	_	MorphInd=^matius<x>_X--$
-17	19:4-6	_	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No|MorphInd=^19:4<x>_X--$DASH^6<c>_CC-$
+17	19:4-6	19:4-6	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No|MorphInd=^19:4<x>_X--$DASH^6<c>_CC-$
 18	:	:	PUNCT	Z--	_	2	punct	_	MorphInd=^:<z>_Z--$
 19	``	``	PUNCT	Z--	_	22	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
 20	Tidakkah	tidak	PART	G--+T--	Polarity=Neg	22	advmod	_	MorphInd=^tidak<g>_G--+kah<t>_T--$
@@ -5990,7 +5990,7 @@
 4	kisah	kisah	NOUN	NSD	Number=Sing	2	nmod	_	MorphInd=^kisah<n>_NSD$
 5	cinta	cinta	NOUN	NSD	Number=Sing	4	compound	_	MorphInd=^cinta<n>_NSD$
 6	MAT	mat	PROPN	F--	_	5	flat	_	MorphInd=^mat<f>_F--$
-7	PEI-AISAH	_	PROPN	_	_	6	flat	_	SpaceAfter=No|MorphInd=^pei<f>_F--$DASH^aisah<x>_X--$
+7	PEI-AISAH	pei-aisah	PROPN	_	_	6	flat	_	SpaceAfter=No|MorphInd=^pei<f>_F--$DASH^aisah<x>_X--$
 8	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s227
@@ -8649,7 +8649,7 @@
 10	Sebulu	sebulu	PROPN	ASP	Degree=Pos|Number=Sing	9	flat	_	SpaceAfter=No|MorphInd=^se+bulu<n>_ASP$
 11	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 12	kabupaten	kabupaten	NOUN	NSD	Number=Sing	8	appos	_	MorphInd=^kabupaten<n>_NSD$
-13	Kutai	_	PROPN	_	_	12	flat	_	MorphInd=^aku<p>_PS1+ta<f>+i_VSA$
+13	Kutai	tai	PROPN	PS1+VSA	Number=Sing|Person=1|Voice=Act	12	flat	_	MorphInd=^aku<p>_PS1+ta<f>+i_VSA$
 14	Kartanegara	kartanegara	PROPN	X--	_	13	flat	_	SpaceAfter=No|MorphInd=^kartanegara<x>_X--$
 15	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
 16	Provinsi	provinsi	PROPN	NSD	Number=Sing	12	appos	_	MorphInd=^provinsi<n>_NSD$
@@ -14166,7 +14166,7 @@
 14	operasi	operasi	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^operasi<n>_NSD$
 15	ini	ini	DET	B--	_	13	det	_	MorphInd=^ini<b>_B--$
 16	memiliki	menmiliki	VERB	VSA	Number=Sing|Voice=Act	11	acl	_	MorphInd=^meN+milik<v>+i_VSA$
-17	antarmuka	_	NOUN	_	_	16	obj	_	MorphInd=^antar<r>_R--+muka<n>_NSD$
+17	antarmuka	antarmuka	NOUN	NSD	Number=Sing	16	obj	_	MorphInd=^antar<r>_R--+muka<n>_NSD$
 18	pemprograman	pemprograman	NOUN	X--	_	17	compound	_	MorphInd=^pemprograman<x>_X--$
 19	aplikasi	aplikasi	NOUN	NSD	Number=Sing	18	compound	_	MorphInd=^aplikasi<n>_NSD$
 20	(	(	PUNCT	Z--	_	21	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
