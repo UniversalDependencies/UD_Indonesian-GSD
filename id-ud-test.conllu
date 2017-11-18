@@ -76,7 +76,7 @@
 
 # sent_id = test-s3
 # text = Bagaimana sejarah berdirinya SMAN 1 Pekanbaru yang sudah berusia setengah abad itu?
-1	Bagaimana	bagaimana	ADJ	W--	_	2	amod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	DET	W--	PronType=Int	2	amod	_	MorphInd=^bagaimana<w>_W--$
 2	sejarah	sejarah	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^sejarah<n>_NSD$
 3	berdirinya	berdiri	NOUN	VSA+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Act	2	compound	_	MorphInd=^ber+diri<n>_VSA+dia<p>_PS3$
 4	SMAN	sman	PROPN	X--	_	2	flat	_	MorphInd=^sman<x>_X--$
@@ -145,10 +145,10 @@
 
 # sent_id = test-s7
 # text = Siapa dapat memastikan apakah sebuah kenyataan itu sesungguhnya impian dan sebuah impian itu justru sesungguhnya kenyataan?
-1	Siapa	siapa	PRON	W--	_	3	nsubj	_	MorphInd=^siapa<w>_W--$
+1	Siapa	siapa	PRON	W--	PronType=Int	3	nsubj	_	MorphInd=^siapa<w>_W--$
 2	dapat	dapat	ADV	VSA	Number=Sing|Voice=Act	3	advmod	_	MorphInd=^dapat<v>_VSA$
 3	memastikan	menpastikan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+pasti<a>+kan_VSA$
-4	apakah	_	ADV	_	_	6	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+4	apakah	apa	ADV	W--+T--	PronType=Int	6	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 5	sebuah	sebuah	DET	B--	_	6	det	_	MorphInd=^sebuah<b>_B--$
 6	kenyataan	kenyataan	NOUN	NSD	Number=Sing	3	advcl	_	MorphInd=^ke+nyata<a>+an_NSD$
 7	itu	itu	DET	B--	_	6	det	_	MorphInd=^itu<b>_B--$
@@ -321,7 +321,7 @@
 # text = Kamila bertanya kenapa Eyang Tini menyuruhnya naik mobil?
 1	Kamila	kamila	PROPN	X--	_	2	nsubj	_	MorphInd=^kamila<x>_X--$
 2	bertanya	bertanya	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+tanya<v>_VSA$
-3	kenapa	kenapa	ADV	W--	_	6	advmod	_	MorphInd=^kenapa<w>_W--$
+3	kenapa	kenapa	ADV	W--	PronType=Int	6	advmod	_	MorphInd=^kenapa<w>_W--$
 4	Eyang	eyang	PROPN	X--	_	6	nsubj	_	MorphInd=^eyang<x>_X--$
 5	Tini	tini	PROPN	VSA	Number=Sing|Voice=Act	4	flat	_	MorphInd=^tin<n>+i_VSA$
 6	menyuruhnya	mensuruh	VERB	VSA+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Act	2	ccomp	_	MorphInd=^meN+suruh<v>_VSA+dia<p>_PS3$
@@ -487,7 +487,7 @@
 
 # sent_id = test-s19
 # text = Siapakah sebenarnya gadis yang mirip si Cemong?
-1	Siapakah	_	PRON	_	_	0	root	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
+1	Siapakah	siapa	PRON	W--+T--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
 2	sebenarnya	sebenarnya	ADV	D--	_	3	advmod	_	MorphInd=^sebenarnya<d>_D--$
 3	gadis	gadis	NOUN	NSD	Number=Sing	1	acl	_	MorphInd=^gadis<n>_NSD$
 4	yang	yang	PRON	S--	_	5	nsubj	_	MorphInd=^yang<s>_S--$
@@ -922,7 +922,7 @@
 8	kepada	kepada	ADP	R--	_	9	case	_	MorphInd=^kepada<r>_R--$
 9	ayahnya	ayah	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	SpaceAfter=No|MorphInd=^ayah<n>_NSD+dia<p>_PS3$
 10	:	:	PUNCT	Z--	_	9	punct	_	MorphInd=^:<z>_Z--$
-11	Apakah	_	NOUN	_	_	7	parataxis	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+11	Apakah	apa	PRON	W--+T--	PronType=Int	7	parataxis	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 12	arti	arti	NOUN	NSD	Number=Sing	11	acl	_	MorphInd=^arti<n>_NSD$
 13	batu-batu	batu	NOUN	NPD	Number=Plur	12	compound	_	MorphInd=^batu<n>_NPD$
 14	ini	ini	DET	B--	_	13	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
@@ -1178,7 +1178,7 @@
 # sent_id = test-s46
 # text = Dan bagaimanakah kamu lihat keadaannya sekarang?
 1	Dan	dan	SCONJ	H--	_	4	mark	_	MorphInd=^dan<h>_H--$
-2	bagaimanakah	_	ADV	_	_	4	advmod	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
+2	bagaimanakah	bagaimana	ADV	W--+T--	PronType=Int	4	advmod	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
 3	kamu	kamu	PRON	PS2	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	MorphInd=^kamu<p>_PS2$
 4	lihat	lihat	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^lihat<v>_VSA$
 5	keadaannya	keadaan	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	MorphInd=^ke+ada<a>+an_NSD+dia<p>_PS3$
@@ -1253,7 +1253,7 @@
 13	abu	abu	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^abu<n>_NSD$
 14	ayahnya	ayah	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	13	compound	_	SpaceAfter=No|MorphInd=^ayah<n>_NSD+dia<p>_PS3$
 15	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
-16	siapa	siapa	PRON	W--	_	0	root	_	MorphInd=^siapa<w>_W--$
+16	siapa	siapa	PRON	W--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--$
 17	lagi	lagi	ADV	D--	_	16	advmod	_	MorphInd=^lagi<d>_D--$
 18	yang	yang	PRON	S--	_	20	nsubj	_	MorphInd=^yang<s>_S--$
 19	akan	akan	ADV	M--	_	20	advmod	_	MorphInd=^akan<m>_M--$
@@ -1357,7 +1357,7 @@
 
 # sent_id = test-s54
 # text = Bagaimana nasib Maya, Naomy dan Ryan?
-1	Bagaimana	bagaimana	ADJ	W--	_	2	amod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	DET	W--	PronType=Int	2	amod	_	MorphInd=^bagaimana<w>_W--$
 2	nasib	nasib	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^nasib<n>_NSD$
 3	Maya	maya	PROPN	X--	_	2	det	_	SpaceAfter=No|MorphInd=^maya<x>_X--$
 4	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
@@ -1387,7 +1387,7 @@
 4	kemudian	kemudian	ADV	S--	_	5	advmod	_	MorphInd=^kemudian<s>_S--$
 5	berkata	berkata	VERB	VSA	Number=Sing|Voice=Act	2	xcomp	_	MorphInd=^ber+kata<n>_VSA$
 6	``	``	PUNCT	Z--	_	2	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
-7	Apakah	_	ADJ	_	_	8	amod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+7	Apakah	apa	DET	W--+T--	PronType=Int	8	amod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 8	dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	ccomp	_	MorphInd=^dia<p>_PS3$
 9	itu	itu	DET	B--	_	8	det	_	MorphInd=^itu<b>_B--$
 10	nabi	nabi	NOUN	NSD	Number=Sing	8	acl	_	MorphInd=^nabi<n>_NSD$
@@ -1500,7 +1500,7 @@
 6	beberapa	beberapa	DET	B--	_	7	det	_	MorphInd=^beberapa<b>_B--$
 7	komune	komune	NOUN	X--	_	2	obj	_	MorphInd=^komune<x>_X--$
 8	Perancis	perancis	PROPN	NSD	Number=Sing	7	flat	_	MorphInd=^perancis<n>_NSD$
-9	dimana	dimana	SCONJ	W--	_	11	mark	_	MorphInd=^dimana<w>_W--$
+9	dimana	dimana	SCONJ	W--	PronType=Int	11	mark	_	MorphInd=^dimana<w>_W--$
 10	batasannya	batasan	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	11	nsubj:pass	_	MorphInd=^batas<n>+an_NSD+dia<p>_PS3$
 11	diperluas	diperluas	VERB	VSP	Number=Sing|Voice=Pass	2	xcomp	_	MorphInd=^di+per+luas<a>_VSP$
 12	untuk	untuk	ADP	R--	_	13	case	_	MorphInd=^untuk<r>_R--$
@@ -1955,7 +1955,7 @@
 
 # sent_id = test-s83
 # text = Apa nama lembaga yang akan melayani radio-radio ini?
-1	Apa	apa	NOUN	W--	_	0	root	_	MorphInd=^apa<w>_W--$
+1	Apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 2	nama	nama	NOUN	NSD	Number=Sing	1	acl	_	MorphInd=^nama<n>_NSD$
 3	lembaga	lembaga	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^lembaga<n>_NSD$
 4	yang	yang	PRON	S--	_	6	nsubj	_	MorphInd=^yang<s>_S--$
@@ -2137,7 +2137,7 @@
 
 # sent_id = test-s89
 # text = Akankah Mat Bunglon dan Dul Bajing berhasil mendapatkan patung yang diinginkannya?
-1	Akankah	_	ADV	_	_	7	advmod	_	MorphInd=^akan<m>_M--+kah<t>_T--$
+1	Akankah	akan	ADV	M--+T--	_	7	advmod	_	MorphInd=^akan<m>_M--+kah<t>_T--$
 2	Mat	mat	PROPN	F--	_	7	nsubj	_	MorphInd=^mat<f>_F--$
 3	Bunglon	bunglon	PROPN	X--	_	2	flat	_	MorphInd=^bunglon<x>_X--$
 4	dan	dan	CCONJ	H--	_	5	cc	_	MorphInd=^dan<h>_H--$
@@ -2152,7 +2152,7 @@
 
 # sent_id = test-s90
 # text = Bagaimana Kayla menghadapi Rita sebagai madunya, sementara dirinya semakin lama menjadi semakin sehat?
-1	Bagaimana	bagaimana	ADV	W--	_	3	advmod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	ADV	W--	PronType=Int	3	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	Kayla	kayla	PROPN	X--	_	3	nsubj	_	MorphInd=^kayla<x>_X--$
 3	menghadapi	menhadapi	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+hadap<v>+i_VSA$
 4	Rita	rita	NOUN	F--	_	3	obj	_	MorphInd=^rita<f>_F--$
@@ -2838,7 +2838,7 @@
 
 # sent_id = test-s114
 # text = Akankah kebahagian mereka terwujud?
-1	Akankah	_	ADV	_	_	4	advmod	_	MorphInd=^akan<m>_M--+kah<t>_T--$
+1	Akankah	akan	ADV	M--+T--	_	4	advmod	_	MorphInd=^akan<m>_M--+kah<t>_T--$
 2	kebahagian	kebahagian	NOUN	X--	_	4	nsubj:pass	_	MorphInd=^kebahagian<x>_X--$
 3	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	2	det	_	MorphInd=^mereka<p>_PP3$
 4	terwujud	terwujud	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	SpaceAfter=No|MorphInd=^ter+wujud<n>_VSP$
@@ -2951,7 +2951,7 @@
 12	jelasnya	jelas	ADJ	ASP+PS3	Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	advmod	_	MorphInd=^jelas<a>_ASP+dia<p>_PS3$
 13	teori	teori	NOUN	NSD	Number=Sing	14	nsubj	_	MorphInd=^teori<n>_NSD$
 14	merupakan	merupakan	VERB	O--	_	2	conj	_	MorphInd=^merupakan<o>_O--$
-15	bagaimana	bagaimana	ADP	W--	_	16	case	_	MorphInd=^bagaimana<w>_W--$
+15	bagaimana	bagaimana	ADP	W--	PronType=Int	16	case	_	MorphInd=^bagaimana<w>_W--$
 16	konsep	konsep	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^konsep<n>_NSD$
 17	-	-	PUNCT	Z--	_	16	punct	_	MorphInd=^-<z>_Z--$
 18	konsep	konsep	NOUN	NSD	Number=Sing	16	compound:plur	_	MorphInd=^konsep<n>_NSD$
@@ -3271,7 +3271,7 @@
 
 # sent_id = test-s131
 # text = Bagaimana kisah selanjutnya?
-1	Bagaimana	bagaimana	ADV	W--	_	2	advmod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	ADV	W--	PronType=Int	2	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	kisah	kisah	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^kisah<n>_NSD$
 3	selanjutnya	selanjutnya	ADJ	D--	_	2	amod	_	SpaceAfter=No|MorphInd=^selanjutnya<d>_D--$
 4	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
@@ -3668,7 +3668,7 @@
 11	Delisa	delisa	PROPN	X--	_	12	nsubj	_	MorphInd=^delisa<x>_X--$
 12	mencoba	mencoba	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+coba<v>_VSA$
 13	memahami	menpahami	VERB	VSA	Number=Sing|Voice=Act	12	xcomp	_	MorphInd=^meN+paham<n>+i_VSA$
-14	apa	apa	NOUN	W--	_	13	obj	_	MorphInd=^apa<w>_W--$
+14	apa	apa	PRON	W--	PronType=Int	13	obj	_	MorphInd=^apa<w>_W--$
 15	itu	itu	DET	B--	_	16	det	_	MorphInd=^itu<b>_B--$
 16	ikhlas	ikhlas	NOUN	ASP	Degree=Pos|Number=Sing	14	compound	_	SpaceAfter=No|MorphInd=^ikhlas<a>_ASP$
 17	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
@@ -3757,7 +3757,7 @@
 
 # sent_id = test-s153
 # text = Dengarkah kau?
-1	Dengarkah	_	VERB	_	_	0	root	_	MorphInd=^dengar<v>_VSA+kah<t>_T--$
+1	Dengarkah	dengar	VERB	VSA+T--	Number=Sing|Voice=Act	0	root	_	MorphInd=^dengar<v>_VSA+kah<t>_T--$
 2	kau	kau	PRON	PS2	Number=Sing|Person=2|PronType=Prs	1	nsubj	_	SpaceAfter=No|MorphInd=^kau<p>_PS2$
 3	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
@@ -3801,7 +3801,7 @@
 
 # sent_id = test-s156
 # text = Bagaimana persahabatannya dengan Aldo?
-1	Bagaimana	bagaimana	ADV	W--	_	2	advmod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	ADV	W--	PronType=Int	2	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	persahabatannya	persahabatan	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	MorphInd=^per+sahabat<n>+an_NSD+dia<p>_PS3$
 3	dengan	dengan	ADP	R--	_	4	case	_	MorphInd=^dengan<r>_R--$
 4	Aldo	aldo	PROPN	F--	_	2	nmod	_	SpaceAfter=No|MorphInd=^aldo<f>_F--$
@@ -3945,7 +3945,7 @@
 
 # sent_id = test-s162
 # text = Bagaimana manusia sebagai individu dapat masuk ke dalam suatu hubungan dengan Allah?
-1	Bagaimana	bagaimana	ADV	W--	_	6	advmod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	ADV	W--	PronType=Int	6	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	manusia	manusia	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^manusia<n>_NSD$
 3	sebagai	sebagai	ADP	R--	_	4	case	_	MorphInd=^sebagai<r>_R--$
 4	individu	individu	NOUN	NSD	Number=Sing	2	nmod	_	MorphInd=^individu<n>_NSD$
@@ -4015,7 +4015,7 @@
 6	atau	atau	CCONJ	H--	_	7	cc	_	MorphInd=^atau<h>_H--$
 7	mati	mati	ADJ	ASP	Degree=Pos|Number=Sing	4	conj	_	SpaceAfter=No|MorphInd=^mati<a>_ASP$
 8	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
-9	bagaimana	bagaimana	ADV	W--	_	10	advmod	_	MorphInd=^bagaimana<w>_W--$
+9	bagaimana	bagaimana	ADV	W--	PronType=Int	10	advmod	_	MorphInd=^bagaimana<w>_W--$
 10	nasib	nasib	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^nasib<n>_NSD$
 11	ciptaan-Nya	ciptaan	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	10	det	_	MorphInd=^cipta<v>+an_NSD+dia<p>_PS3$
 12	seperti	seperti	ADP	R--	_	13	case	_	MorphInd=^seperti<r>_R--$
@@ -4546,7 +4546,7 @@
 1	Selain	selain	ADP	ASP	Degree=Pos|Number=Sing	4	case	_	MorphInd=^se+lain<a>_ASP$
 2	itu	itu	DET	B--	_	4	det	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
 3	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
-4	apa	apa	NOUN	W--	_	0	root	_	MorphInd=^apa<w>_W--$
+4	apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 5	yang	yang	PRON	S--	_	8	obj	_	MorphInd=^yang<s>_S--$
 6	dapat	dapat	ADV	VSA	Number=Sing|Voice=Act	8	advmod	_	MorphInd=^dapat<v>_VSA$
 7	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	8	nsubj	_	MorphInd=^kita<p>_PP1$
@@ -4605,7 +4605,7 @@
 
 # sent_id = test-s192
 # text = Apakah orang-orang yang telah engkau tangkap dengan pedang dan panahmu itu harus engkau bunuh?
-1	Apakah	_	ADV	_	_	14	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+1	Apakah	apa	ADV	W--+T--	PronType=Int	14	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 2	orang-orang	orang	NOUN	NPD	Number=Plur	14	obj	_	MorphInd=^orang<n>_NPD$
 3	yang	yang	PRON	S--	_	6	obj	_	MorphInd=^yang<s>_S--$
 4	telah	telah	ADV	D--	_	6	advmod	_	MorphInd=^telah<d>_D--$
@@ -4658,7 +4658,7 @@
 
 # sent_id = test-s195
 # text = Kemana impian jiwa muda ini membawa mereka?
-1	Kemana	kemana	ADV	W--	_	6	advmod	_	MorphInd=^kemana<w>_W--$
+1	Kemana	kemana	ADV	W--	PronType=Int	6	advmod	_	MorphInd=^kemana<w>_W--$
 2	impian	impian	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^impian<n>_NSD$
 3	jiwa	jiwa	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^jiwa<n>_NSD$
 4	muda	muda	ADJ	ASP	Degree=Pos|Number=Sing	3	amod	_	MorphInd=^muda<a>_ASP$
@@ -4919,7 +4919,7 @@
 
 # sent_id = test-s207
 # text = Bagaimana dengan ramalan Florence tentang akan terjadinya pasang tertinggi tersebut?
-1	Bagaimana	bagaimana	ADV	W--	_	7	advmod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	ADV	W--	PronType=Int	7	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	dengan	dengan	ADP	R--	_	3	case	_	MorphInd=^dengan<r>_R--$
 3	ramalan	ramalan	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^ramal<v>+an_NSD$
 4	Florence	florence	PROPN	F--	_	3	flat	_	MorphInd=^florence<f>_F--$
@@ -5387,7 +5387,7 @@
 
 # sent_id = test-s222
 # text = Benarkah?
-1	Benarkah	_	ADJ	_	_	0	root	_	SpaceAfter=No|MorphInd=^benar<a>_ASP+kah<t>_T--$
+1	Benarkah	benar	ADJ	ASP+T--	Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|MorphInd=^benar<a>_ASP+kah<t>_T--$
 2	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s223
@@ -5417,7 +5417,7 @@
 2	selalu	selalu	ADV	D--	_	3	advmod	_	MorphInd=^selalu<d>_D--$
 3	bertanya	bertanya	VERB	VSA	Number=Sing|Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^ber+tanya<v>_VSA$
 4	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
-5	siapakah	_	PRON	_	_	6	nsubj:pass	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
+5	siapakah	siapa	PRON	W--+T--	PronType=Int	6	nsubj:pass	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
 6	diriku	diri	VERB	NSD+PS1	Number=Sing|Number[psor]=Sing|Person[psor]=1	3	advcl	_	MorphInd=^diri<n>_NSD+aku<p>_PS1$
 7	sebenarnya	sebenarnya	ADJ	D--	_	6	amod	_	MorphInd=^sebenarnya<d>_D--$
 8	di	di	ADP	R--	_	10	case	_	MorphInd=^di<r>_R--$
@@ -5695,7 +5695,7 @@
 # sent_id = test-s238
 # text = Lalu siapa yang akan memperhatikan nasib rakyat kita?
 1	Lalu	lalu	SCONJ	ASP	Degree=Pos|Number=Sing	2	mark	_	MorphInd=^lalu<a>_ASP$
-2	siapa	siapa	NOUN	W--	_	0	root	_	MorphInd=^siapa<w>_W--$
+2	siapa	siapa	PRON	W--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--$
 3	yang	yang	PRON	S--	_	5	nsubj	_	MorphInd=^yang<s>_S--$
 4	akan	akan	ADV	M--	_	5	advmod	_	MorphInd=^akan<m>_M--$
 5	memperhatikan	menperhatikan	VERB	VSA	Number=Sing|Voice=Act	2	dep	_	MorphInd=^meN+perhatikan<v>_VSA$
@@ -5733,7 +5733,7 @@
 
 # sent_id = test-s241
 # text = Mengapa begitu?
-1	Mengapa	mengapa	ADV	W--	_	2	advmod	_	MorphInd=^mengapa<w>_W--$
+1	Mengapa	mengapa	ADV	W--	PronType=Int	2	advmod	_	MorphInd=^mengapa<w>_W--$
 2	begitu	begitu	NOUN	B--	_	0	root	_	SpaceAfter=No|MorphInd=^begitu<b>_B--$
 3	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
 
@@ -5796,7 +5796,7 @@
 5	kepadanya	kepada	NOUN	R--+PS3	Number[psor]=Sing|Person[psor]=3	4	obj	_	SpaceAfter=No|MorphInd=^kepada<r>_R--+dia<p>_PS3$
 6	:	:	PUNCT	Z--	_	4	punct	_	MorphInd=^:<z>_Z--$
 7	Anak	anak	NOUN	NSD	Number=Sing	9	acl	_	MorphInd=^anak<n>_NSD$
-8	siapakah	_	PRON	_	_	7	det	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
+8	siapakah	siapa	PRON	W--+T--	PronType=Int	7	det	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
 9	engkau	engkau	PRON	PS2	Number=Sing|Person=2|PronType=Prs	4	advcl	_	SpaceAfter=No|MorphInd=^engkau<p>_PS2$
 10	?	?	PUNCT	Z--	_	4	punct	_	MorphInd=^?<z>_Z--$
 
@@ -5830,7 +5830,7 @@
 9	menjadi	menjadi	VERB	VSA	Number=Sing|Voice=Act	8	xcomp	_	MorphInd=^meN+jadi<a>_VSA$
 10	Bupati	bupati	NOUN	X--	_	9	obj	_	SpaceAfter=No|MorphInd=^bupati<x>_X--$
 11	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
-12	bagaimana	bagaimana	PRON	W--	_	18	advmod	_	MorphInd=^bagaimana<w>_W--$
+12	bagaimana	bagaimana	PRON	W--	PronType=Int	18	advmod	_	MorphInd=^bagaimana<w>_W--$
 13	kalau	kalau	SCONJ	S--	_	17	mark	_	MorphInd=^kalau<s>_S--$
 14	seandainya	seandainya	ADV	S--	_	17	mark	_	MorphInd=^seandainya<s>_S--$
 15	nanti	nanti	ADV	VSA	Number=Sing|Voice=Act	17	advmod	_	MorphInd=^nanti<v>_VSA$
@@ -5908,7 +5908,7 @@
 # sent_id = test-s249
 # text = Lalu apa yang menentukan suatu campuran akan menghasilkan efek kacang Brasil atau kebalikannya?
 1	Lalu	lalu	SCONJ	ASP	Degree=Pos|Number=Sing	8	mark	_	MorphInd=^lalu<a>_ASP$
-2	apa	apa	NOUN	W--	_	8	nsubj	_	MorphInd=^apa<w>_W--$
+2	apa	apa	PRON	W--	PronType=Int	8	nsubj	_	MorphInd=^apa<w>_W--$
 3	yang	yang	PRON	S--	_	4	obj	_	MorphInd=^yang<s>_S--$
 4	menentukan	mententukan	VERB	VSA	Number=Sing|Voice=Act	2	acl	_	MorphInd=^meN+tentu<a>+kan_VSA$
 5	suatu	suatu	DET	B--	_	6	det	_	MorphInd=^suatu<b>_B--$
@@ -6635,7 +6635,7 @@
 4	dengan	dengan	ADP	R--	_	5	case	_	MorphInd=^dengan<r>_R--$
 5	adegan	adegan	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^adegan<n>_NSD$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
-7	mana	mana	NOUN	W--	_	3	obl	_	MorphInd=^mana<w>_W--$
+7	mana	mana	PRON	W--	PronType=Int	3	obl	_	MorphInd=^mana<w>_W--$
 8	semua	semua	NOUN	B--	_	9	nsubj	_	MorphInd=^semua<b>_B--$
 9	berkumpul	berkumpul	VERB	VSA	Number=Sing|Voice=Act	3	advcl	_	MorphInd=^ber+kumpul<v>_VSA$
 10	di	di	ADP	R--	_	11	case	_	MorphInd=^di<r>_R--$
@@ -6931,7 +6931,7 @@
 15	ke	ke	ADP	R--	_	16	case	_	MorphInd=^ke<r>_R--$
 16	Eropa	eropa	PROPN	NSD	Number=Sing	14	obl	_	SpaceAfter=No|MorphInd=^eropa<n>_NSD$
 17	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
-18	dimana	dimana	SCONJ	W--	_	21	mark	_	MorphInd=^dimana<w>_W--$
+18	dimana	dimana	SCONJ	W--	PronType=Int	21	mark	_	MorphInd=^dimana<w>_W--$
 19	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	21	nsubj	_	MorphInd=^ia<p>_PS3$
 20	mulai	mulai	ADV	VSA	Number=Sing|Voice=Act	21	advmod	_	MorphInd=^mulai<v>_VSA$
 21	bekerja	bekerja	VERB	VSA	Number=Sing|Voice=Act	5	advcl	_	MorphInd=^bekerja<v>_VSA$
@@ -7204,7 +7204,7 @@
 
 # sent_id = test-s307
 # text = Bagaimana caranya mereka menukarkan jiwa mereka kembali?
-1	Bagaimana	bagaimana	ADV	W--	_	4	advmod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	ADV	W--	PronType=Int	4	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	caranya	cara	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	MorphInd=^cara<n>_NSD+dia<p>_PS3$
 3	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	2	det	_	MorphInd=^mereka<p>_PP3$
 4	menukarkan	mentukarkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tukar<v>+kan_VSA$
@@ -7432,7 +7432,7 @@
 
 # sent_id = test-s314
 # text = Apa hubungannya dengan masa lalu Bunga?
-1	Apa	apa	NOUN	W--	_	0	root	_	MorphInd=^apa<w>_W--$
+1	Apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 2	hubungannya	hubungan	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	1	acl	_	MorphInd=^hubung<v>+an_NSD+dia<p>_PS3$
 3	dengan	dengan	ADP	R--	_	4	case	_	MorphInd=^dengan<r>_R--$
 4	masa	masa	NOUN	NSD	Number=Sing	1	nmod	_	MorphInd=^masa<n>_NSD$
@@ -7585,7 +7585,7 @@
 8	musuh	musuh	NOUN	NSD	Number=Sing	7	obj	_	SpaceAfter=No|MorphInd=^musuh<n>_NSD$
 9	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 10	musuh	musuh	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^musuh<n>_NSD$
-11	mana	mana	NOUN	W--	_	10	compound	_	MorphInd=^mana<w>_W--$
+11	mana	mana	PRON	W--	PronType=Int	10	compound	_	MorphInd=^mana<w>_W--$
 12	yang	yang	PRON	S--	_	15	nsubj	_	MorphInd=^yang<s>_S--$
 13	tak	tak	PART	G--	Polarity=Neg	15	advmod	_	MorphInd=^tak<g>_G--$
 14	akan	akan	ADV	M--	_	15	advmod	_	MorphInd=^akan<m>_M--$
@@ -7621,7 +7621,7 @@
 5	itu	itu	DET	B--	_	4	det	_	MorphInd=^itu<b>_B--$
 6	adalah	adalah	AUX	O--	_	8	cop	_	SpaceAfter=No|MorphInd=^adalah<o>_O--$
 7	:	:	PUNCT	Z--	_	8	punct	_	MorphInd=^:<z>_Z--$
-8	siapa	siapa	PRON	W--	_	0	root	_	MorphInd=^siapa<w>_W--$
+8	siapa	siapa	PRON	W--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--$
 9	yang	yang	PRON	S--	_	11	obj	_	MorphInd=^yang<s>_S--$
 10	akan	akan	ADV	M--	_	11	advmod	_	MorphInd=^akan<m>_M--$
 11	menggantikan	mengantikan	VERB	VSA	Number=Sing|Voice=Act	8	acl	_	MorphInd=^meN+ganti<v>+kan_VSA$
@@ -7630,7 +7630,7 @@
 14	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 15	dan	dan	CCONJ	H--	_	8	cc	_	MorphInd=^dan<h>_H--$
 16	sebesar	sebesar	ADP	R--	_	17	case	_	MorphInd=^sebesar<r>_R--$
-17	apa	apa	NOUN	W--	_	8	nmod	_	MorphInd=^apa<w>_W--$
+17	apa	apa	PRON	W--	PronType=Int	8	nmod	_	MorphInd=^apa<w>_W--$
 18	kekuasaan	kekuasaan	NOUN	NSD	Number=Sing	17	compound	_	MorphInd=^ke+kuasa<n>+an_NSD$
 19	yang	yang	PRON	S--	_	21	nsubj:pass	_	MorphInd=^yang<s>_S--$
 20	akan	akan	ADV	M--	_	21	advmod	_	MorphInd=^akan<m>_M--$
@@ -7806,7 +7806,7 @@
 
 # sent_id = test-s331
 # text = Bagaimana kita tahu bahwa 7 ditambah 8 selalu ada 15?
-1	Bagaimana	bagaimana	ADV	W--	_	3	advmod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	ADV	W--	PronType=Int	3	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	MorphInd=^kita<p>_PP1$
 3	tahu	tahu	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^tahu<v>_VSA$
 4	bahwa	bahwa	PRON	S--	_	6	mark	_	MorphInd=^bahwa<s>_S--$
@@ -7836,7 +7836,7 @@
 1	Dia	dia	PRON	B--	_	3	nsubj	_	MorphInd=^dia<b>_B--$
 2	lalu	lalu	ADV	ASP	Degree=Pos|Number=Sing	3	advmod	_	MorphInd=^lalu<a>_ASP$
 3	bertanya	bertanya	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+tanya<v>_VSA$
-4	apakah	_	ADV	_	_	8	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+4	apakah	apa	ADV	W--+T--	PronType=Int	8	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 5	negeri	negeri	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^negeri<n>_NSD$
 6	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	5	det	_	MorphInd=^kita<p>_PP1$
 7	pernah	pernah	ADV	D--	_	8	advmod	_	MorphInd=^pernah<d>_D--$
@@ -8497,7 +8497,7 @@
 
 # sent_id = test-s364
 # text = Apakah benar Neo adalah cinta sejatinya, seperti yang selama ini diyakininya?
-1	Apakah	_	ADV	_	_	5	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+1	Apakah	apa	ADV	W--+T--	PronType=Int	5	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 2	benar	benar	ADJ	ASP	Degree=Pos|Number=Sing	5	amod	_	MorphInd=^benar<a>_ASP$
 3	Neo	neo	PROPN	F--	_	5	nsubj	_	MorphInd=^neo<f>_F--$
 4	adalah	adalah	AUX	O--	_	5	cop	_	MorphInd=^adalah<o>_O--$
@@ -8570,7 +8570,7 @@
 20	1042	1042	NUM	CC-	NumType=Card	18	appos	_	SpaceAfter=No|MorphInd=^1042<c>_CC-$
 21	)	)	PUNCT	Z--	_	20	punct	_	MorphInd=^)<z>_Z--$
 22	di	di	ADP	R--	_	23	case	_	MorphInd=^di<r>_R--$
-23	mana	mana	NOUN	W--	_	25	obl	_	MorphInd=^mana<w>_W--$
+23	mana	mana	PRON	W--	PronType=Int	25	obl	_	MorphInd=^mana<w>_W--$
 24	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	MorphInd=^ia<p>_PS3$
 25	meninggalkan	mentinggalkan	VERB	VSA	Number=Sing|Voice=Act	16	ccomp	_	MorphInd=^meN+tinggal<v>+kan_VSA$
 26	klaim	klaim	NOUN	NSD	Number=Sing	25	obj	_	MorphInd=^klaim<n>_NSD$
@@ -8615,7 +8615,7 @@
 # sent_id = test-s368
 # text = Dan siapakah yang lebih mengampuni dosa selain Allah?
 1	Dan	dan	CCONJ	H--	_	2	cc	_	MorphInd=^dan<h>_H--$
-2	siapakah	_	PRON	_	_	0	root	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
+2	siapakah	siapa	PRON	W--+T--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
 3	yang	yang	PRON	S--	_	5	nsubj	_	MorphInd=^yang<s>_S--$
 4	lebih	lebih	ADV	D--	_	5	advmod	_	MorphInd=^lebih<d>_D--$
 5	mengampuni	menampuni	VERB	VSA	Number=Sing|Voice=Act	2	acl	_	MorphInd=^meN+ampun<n>+i_VSA$
@@ -8653,7 +8653,7 @@
 # text = Namun, apa saja yang ditata oleh pemerintah kolonial selanjutnya?
 1	Namun	namun	SCONJ	S--	_	3	mark	_	SpaceAfter=No|MorphInd=^namun<s>_S--$
 2	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
-3	apa	apa	NOUN	W--	_	0	root	_	MorphInd=^apa<w>_W--$
+3	apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 4	saja	saja	ADV	D--	_	3	advmod	_	MorphInd=^saja<d>_D--$
 5	yang	yang	PRON	S--	_	6	nsubj:pass	_	MorphInd=^yang<s>_S--$
 6	ditata	ditata	VERB	VSP	Number=Sing|Voice=Pass	3	acl	_	MorphInd=^di+tata<v>_VSP$
@@ -8713,7 +8713,7 @@
 34	A	a	PROPN	F--	_	33	flat	_	SpaceAfter=No|MorphInd=^a<f>_F--$
 35	,	,	PUNCT	Z--	_	21	punct	_	MorphInd=^,<z>_Z--$
 36	di	di	ADP	R--	_	37	case	_	MorphInd=^di<r>_R--$
-37	mana	mana	NOUN	W--	_	21	obl	_	MorphInd=^mana<w>_W--$
+37	mana	mana	PRON	W--	PronType=Int	21	obl	_	MorphInd=^mana<w>_W--$
 38	tim	tim	NOUN	NSD	Number=Sing	40	nsubj	_	MorphInd=^tim<n>_NSD$
 39	itu	itu	DET	B--	_	38	det	_	MorphInd=^itu<b>_B--$
 40	mendapat	mendapat	VERB	VSA	Number=Sing|Voice=Act	21	ccomp	_	MorphInd=^meN+dapat<v>_VSA$
@@ -8769,7 +8769,7 @@
 10	Firaun	firaun	PROPN	NSD	Number=Sing	8	det	_	SpaceAfter=No|MorphInd=^firaun<n>_NSD$
 11	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 12	di	di	CCONJ	R--	_	24	mark	_	MorphInd=^di<r>_R--$
-13	mana	mana	SCONJ	W--	_	12	fixed	_	MorphInd=^mana<w>_W--$
+13	mana	mana	SCONJ	W--	PronType=Int	12	fixed	_	MorphInd=^mana<w>_W--$
 14	dalam	dalam	ADP	R--	_	15	case	_	MorphInd=^dalam<r>_R--$
 15	pertemuan	pertemuan	NOUN	NSD	Number=Sing	24	obl	_	MorphInd=^per+temu<n>+an_NSD$
 16	awal	awal	ADJ	NSD	Number=Sing	15	amod	_	MorphInd=^awal<n>_NSD$
@@ -8804,11 +8804,11 @@
 8	saudara-saudaranya	saudara	NOUN	NPD+PS3	Number=Plur|Number[psor]=Sing|Person[psor]=3	6	obl	_	SpaceAfter=No|MorphInd=^saudara<n>_NPD+dia<p>_PS3$
 9	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
 10	'	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	Apa	apa	NOUN	W--	_	6	parataxis	_	MorphInd=^apa<w>_W--$
+11	Apa	apa	PRON	W--	PronType=Int	6	parataxis	_	MorphInd=^apa<w>_W--$
 12	pendapat	pendapat	NOUN	NSD	Number=Sing	11	acl	_	MorphInd=^peN+dapat<v>_NSD$
 13	kalian	kalian	PRON	PP2	Number=Plur|Person=2|PronType=Prs	12	det	_	MorphInd=^kalian<p>_PP2$
 14	tentang	tentang	ADP	VSA	Number=Sing|Voice=Act	15	case	_	MorphInd=^tentang<v>_VSA$
-15	apa	apa	NOUN	W--	_	11	nmod	_	MorphInd=^apa<w>_W--$
+15	apa	apa	PRON	W--	PronType=Int	11	nmod	_	MorphInd=^apa<w>_W--$
 16	yang	yang	PRON	S--	_	19	nsubj	_	MorphInd=^yang<s>_S--$
 17	baru	baru	ADJ	ASP	Degree=Pos|Number=Sing	19	amod	_	MorphInd=^baru<a>_ASP$
 18	saja	saja	ADV	D--	_	19	advmod	_	MorphInd=^saja<d>_D--$
@@ -9564,7 +9564,7 @@
 35	tampilan	tampilan	NOUN	NSD	Number=Sing	34	obj	_	MorphInd=^tampil<v>+an_NSD$
 36	yang	yang	PRON	S--	_	37	obj	_	MorphInd=^yang<s>_S--$
 37	berbeda	berbeda	ADJ	VSA	Number=Sing|Voice=Act	35	amod	_	MorphInd=^ber+beda<a>_VSA$
-38	dimana	dimana	ADV	W--	_	39	advmod	_	MorphInd=^dimana<w>_W--$
+38	dimana	dimana	ADV	W--	PronType=Int	39	advmod	_	MorphInd=^dimana<w>_W--$
 39	terdiri	terdiri	VERB	VSP	Number=Sing|Voice=Pass	35	xcomp	_	MorphInd=^ter+diri<n>_VSP$
 40	dari	dari	ADP	R--	_	42	case	_	MorphInd=^dari<r>_R--$
 41	tiga	tiga	NUM	CC-	NumType=Card	42	nummod	_	MorphInd=^tiga<c>_CC-$
@@ -9849,7 +9849,7 @@
 68	yang	yang	PRON	S--	_	69	nsubj	_	MorphInd=^yang<s>_S--$
 69	sesungguhnya	sesungguhnya	ADV	D--	_	66	advmod	_	SpaceAfter=No|MorphInd=^sesungguhnya<d>_D--$
 70	,	,	PUNCT	Z--	_	66	punct	_	MorphInd=^,<z>_Z--$
-71	dimana	dimana	ADV	W--	_	72	advmod	_	MorphInd=^dimana<w>_W--$
+71	dimana	dimana	ADV	W--	PronType=Int	72	advmod	_	MorphInd=^dimana<w>_W--$
 72	umat	umat	NOUN	NSD	Number=Sing	75	nsubj	_	MorphInd=^umat<n>_NSD$
 73	tersebut	tersebut	DET	B--	_	72	obj	_	MorphInd=^tersebut<b>_B--$
 74	mampu	mampu	ADV	M--	_	75	advmod	_	MorphInd=^mampu<m>_M--$
@@ -10077,7 +10077,7 @@
 
 # sent_id = test-s421
 # text = Apa yang herus dilakukan Winnie?
-1	Apa	apa	PRON	W--	_	0	root	_	MorphInd=^apa<w>_W--$
+1	Apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 2	yang	yang	PRON	S--	_	4	nsubj:pass	_	MorphInd=^yang<s>_S--$
 3	herus	herus	ADV	X--	_	4	advmod	_	MorphInd=^herus<x>_X--$
 4	dilakukan	dilakukan	VERB	VSP	Number=Sing|Voice=Pass	1	acl	_	MorphInd=^di+laku<a>+kan_VSP$
@@ -10102,7 +10102,7 @@
 
 # sent_id = test-s423
 # text = Apa saja 3 ranah berbeda warna itu?
-1	Apa	apa	NOUN	W--	_	0	root	_	MorphInd=^apa<w>_W--$
+1	Apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 2	saja	saja	ADV	D--	_	1	advmod	_	MorphInd=^saja<d>_D--$
 3	3	3	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^3<c>_CC-$
 4	ranah	ranah	NOUN	X--	_	1	acl	_	MorphInd=^ranah<x>_X--$
@@ -10113,7 +10113,7 @@
 
 # sent_id = test-s424
 # text = Apakah Anda ingin perilaku besar dari seseorang bernama Gaga?
-1	Apakah	_	ADV	_	_	3	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+1	Apakah	apa	ADV	W--+T--	PronType=Int	3	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 2	Anda	anda	PRON	PS2	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	MorphInd=^anda<p>_PS2$
 3	ingin	ingin	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ingin<v>_VSA$
 4	perilaku	perilaku	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^perilaku<n>_NSD$
@@ -10231,7 +10231,7 @@
 
 # sent_id = test-s429
 # text = Bagaimana King bisa tertarik pada bisnis perhotelan dan pijat kesehatan?
-1	Bagaimana	bagaimana	ADV	W--	_	4	advmod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	ADV	W--	PronType=Int	4	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	King	king	PROPN	F--	_	4	nsubj:pass	_	MorphInd=^king<f>_F--$
 3	bisa	bisa	ADV	M--	_	4	advmod	_	MorphInd=^bisa<m>_M--$
 4	tertarik	tertarik	VERB	ASP	Degree=Pos|Number=Sing	0	root	_	MorphInd=^tertarik<a>_ASP$
@@ -10419,7 +10419,7 @@
 5	perangkat	perangkat	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^perangkat<n>_NSD$
 6	yang	yang	PRON	S--	_	5	det	_	MorphInd=^yang<s>_S--$
 7	mendukungnya	mendukung	VERB	VSA+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Act	5	acl	_	MorphInd=^meN+dukung<v>_VSA+dia<p>_PS3$
-8	dimana	dimana	ADV	W--	_	5	mark	_	MorphInd=^dimana<w>_W--$
+8	dimana	dimana	ADV	W--	PronType=Int	5	mark	_	MorphInd=^dimana<w>_W--$
 9	microSD	microsd	PROPN	X--	_	8	nsubj	_	MorphInd=^microsd<x>_X--$
 10	pun	pun	PART	T--	_	9	det	_	MorphInd=^pun<t>_T--$
 11	dapat	dapat	ADV	VSA	Number=Sing|Voice=Act	9	advmod	_	MorphInd=^dapat<v>_VSA$
@@ -10428,7 +10428,7 @@
 
 # sent_id = test-s436
 # text = Apa aku harus memukul engkau sampai jatuh?
-1	Apa	apa	ADV	W--	_	4	advmod	_	MorphInd=^apa<w>_W--$
+1	Apa	apa	ADV	W--	PronType=Int	4	advmod	_	MorphInd=^apa<w>_W--$
 2	aku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	MorphInd=^aku<p>_PS1$
 3	harus	harus	ADV	VSA	Number=Sing|Voice=Act	4	advmod	_	MorphInd=^harus<v>_VSA$
 4	memukul	menpukul	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+pukul<v>_VSA$
@@ -10452,7 +10452,7 @@
 
 # sent_id = test-s438
 # text = Siapa yang akan mengira bahwa Argentina, sebuah negara yang terisolir akan pergi berperang melawan pelanggan terbesarnya dalam ekspor hasil pertanian -- Inggris?
-1	Siapa	siapa	PRON	W--	_	0	root	_	MorphInd=^siapa<w>_W--$
+1	Siapa	siapa	PRON	W--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--$
 2	yang	yang	PRON	S--	_	4	nsubj	_	MorphInd=^yang<s>_S--$
 3	akan	akan	ADV	M--	_	4	advmod	_	MorphInd=^akan<m>_M--$
 4	mengira	menkira	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^meN+kira<v>_VSA$
@@ -10570,7 +10570,7 @@
 
 # sent_id = test-s444
 # text = Akankah Ajeng dkk bisa melewati itu semua dan dapat terus menjalin persahabatan yang tulus?
-1	Akankah	_	ADV	_	_	5	advmod	_	MorphInd=^akan<m>_M--+kah<t>_T--$
+1	Akankah	akan	ADV	M--+T--	_	5	advmod	_	MorphInd=^akan<m>_M--+kah<t>_T--$
 2	Ajeng	ajeng	PROPN	X--	_	5	nsubj:pass	_	MorphInd=^ajeng<x>_X--$
 3	dkk	dkk	X	X--	_	5	nsubj	_	MorphInd=^dkk<x>_X--$
 4	bisa	bisa	ADV	M--	_	5	advmod	_	MorphInd=^bisa<m>_M--$
@@ -10588,7 +10588,7 @@
 
 # sent_id = test-s445
 # text = Apakah Kevin cs bisa memenangkan pertaruhan dengan Mike, yaitu membawa seorang gadis cantik ke pesta dan mendapatkan hati Jessica kembali?
-1	Apakah	_	ADV	_	_	5	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+1	Apakah	apa	ADV	W--+T--	PronType=Int	5	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 2	Kevin	kevin	PROPN	F--	_	5	nsubj	_	MorphInd=^kevin<f>_F--$
 3	cs	cs	PROPN	F--	_	2	flat	_	MorphInd=^cs<f>_F--$
 4	bisa	bisa	ADV	M--	_	5	advmod	_	MorphInd=^bisa<m>_M--$
@@ -10643,7 +10643,7 @@
 
 # sent_id = test-s448
 # text = Apakah SAFIRA akan berhasil dengan segala rencana liciknya?
-1	Apakah	_	ADV	_	_	4	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+1	Apakah	apa	ADV	W--+T--	PronType=Int	4	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 2	SAFIRA	safira	PROPN	X--	_	4	nsubj	_	MorphInd=^safira<x>_X--$
 3	akan	akan	ADV	M--	_	4	advmod	_	MorphInd=^akan<m>_M--$
 4	berhasil	berhasil	VERB	ASP	Degree=Pos|Number=Sing	0	root	_	MorphInd=^berhasil<a>_ASP$
@@ -10670,7 +10670,7 @@
 
 # sent_id = test-s450
 # text = Siapakah pendusta itu?
-1	Siapakah	_	PROPN	_	_	0	root	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
+1	Siapakah	siapa	PRON	W--+T--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
 2	pendusta	pendusta	NOUN	NSD	Number=Sing	1	acl	_	MorphInd=^peN+dusta<n>_NSD$
 3	itu	itu	DET	B--	_	2	det	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
 4	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
@@ -11137,7 +11137,7 @@
 
 # sent_id = test-s467
 # text = Mengapa diletakkan di perbatasan?
-1	Mengapa	mengapa	ADV	W--	_	2	advmod	_	MorphInd=^mengapa<w>_W--$
+1	Mengapa	mengapa	ADV	W--	PronType=Int	2	advmod	_	MorphInd=^mengapa<w>_W--$
 2	diletakkan	diletakkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+letak<n>+kan_VSP$
 3	di	di	ADP	R--	_	4	case	_	MorphInd=^di<r>_R--$
 4	perbatasan	perbatasan	NOUN	NSD	Number=Sing	2	obl	_	SpaceAfter=No|MorphInd=^per+batas<n>+an_NSD$
@@ -11377,10 +11377,10 @@
 4	Belalang	belalang	PROPN	NSD	Number=Sing	3	flat	_	SpaceAfter=No|MorphInd=^belalang<n>_NSD$
 5	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 6	dari	dari	ADP	R--	_	7	case	_	MorphInd=^dari<r>_R--$
-7	mana	mana	NOUN	W--	_	8	obl	_	MorphInd=^mana<w>_W--$
+7	mana	mana	PRON	W--	PronType=Int	8	obl	_	MorphInd=^mana<w>_W--$
 8	datang	datang	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^datang<v>_VSA$
 9	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
-10	apakah	_	ADV	_	_	11	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+10	apakah	apa	ADV	W--+T--	PronType=Int	11	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 11	hajat	hajat	NOUN	X--	_	8	conj	_	SpaceAfter=No|MorphInd=^hajat<x>_X--$
 12	?	?	PUNCT	Z--	_	8	punct	_	MorphInd=^?<z>_Z--$
 
@@ -12162,7 +12162,7 @@
 
 # sent_id = test-s509
 # text = Bagaimana pasangan ini bertahan hidup di tengah pertikaian antara manusia dan fangire?
-1	Bagaimana	bagaimana	ADV	W--	_	4	advmod	_	MorphInd=^bagaimana<w>_W--$
+1	Bagaimana	bagaimana	ADV	W--	PronType=Int	4	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	pasangan	pasangan	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^pasang<v>+an_NSD$
 3	ini	ini	DET	B--	_	2	det	_	MorphInd=^ini<b>_B--$
 4	bertahan	bertahan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+tahan<v>_VSA$
@@ -12340,7 +12340,7 @@
 
 # sent_id = test-s515
 # text = Bagaimanakah kisah selanjutnya?
-1	Bagaimanakah	_	ADV	_	_	2	advmod	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
+1	Bagaimanakah	bagaimana	ADV	W--+T--	PronType=Int	2	advmod	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
 2	kisah	kisah	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^kisah<n>_NSD$
 3	selanjutnya	selanjutnya	ADJ	D--	_	2	amod	_	SpaceAfter=No|MorphInd=^selanjutnya<d>_D--$
 4	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
@@ -12498,7 +12498,7 @@
 # sent_id = test-s521
 # text = Begitu mudahkah semua itu berdiri di kompleks Regina Pacis?
 1	Begitu	begitu	ADV	B--	_	2	advmod	_	MorphInd=^begitu<b>_B--$
-2	mudahkah	_	ADJ	_	_	5	amod	_	MorphInd=^mudah<a>_ASP+kah<t>_T--$
+2	mudahkah	mudah	ADJ	ASP+T--	Degree=Pos|Number=Sing	5	amod	_	MorphInd=^mudah<a>_ASP+kah<t>_T--$
 3	semua	semua	DET	B--	_	5	nsubj	_	MorphInd=^semua<b>_B--$
 4	itu	itu	DET	B--	_	3	det	_	MorphInd=^itu<b>_B--$
 5	berdiri	berdiri	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+diri<n>_VSA$
@@ -12515,7 +12515,7 @@
 3	berbeda	berbeda	ADJ	VSA	Number=Sing|Voice=Act	1	amod	_	SpaceAfter=No|MorphInd=^ber+beda<a>_VSA$
 4	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 5	tetapi	tetapi	SCONJ	S--	_	8	mark	_	MorphInd=^tetapi<s>_S--$
-6	bagaimanakah	_	ADV	_	_	8	advmod	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
+6	bagaimanakah	bagaimana	ADV	W--+T--	PronType=Int	8	advmod	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
 7	bisa	bisa	ADV	M--	_	8	advmod	_	MorphInd=^bisa<m>_M--$
 8	dikenali	dikenali	VERB	VSP	Number=Sing|Voice=Pass	1	advcl	_	SpaceAfter=No|MorphInd=^di+kenal<v>+i_VSP$
 9	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
@@ -12689,7 +12689,7 @@
 40	yang	yang	PRON	S--	_	41	nsubj:pass	_	MorphInd=^yang<s>_S--$
 41	terletak	terletak	VERB	VSP	Number=Sing|Voice=Pass	39	acl	_	MorphInd=^ter+letak<n>_VSP$
 42	didaerah	didaerah	ADP	VSP	Number=Sing|Voice=Pass	48	case	_	MorphInd=^di+daerah<n>_VSP$
-43	dimana	dimana	ADP	W--	_	48	case	_	MorphInd=^dimana<w>_W--$
+43	dimana	dimana	ADP	W--	PronType=Int	48	case	_	MorphInd=^dimana<w>_W--$
 44	lingkungan	lingkungan	NOUN	NSD	Number=Sing	48	nsubj	_	MorphInd=^lingkung<v>+an_NSD$
 45	internet	internet	NOUN	NSD	Number=Sing	44	compound	_	MorphInd=^internet<n>_NSD$
 46	tidak	tidak	PART	G--	Polarity=Neg	48	advmod	_	MorphInd=^tidak<g>_G--$
@@ -12720,7 +12720,7 @@
 
 # sent_id = test-s530
 # text = Mungkinkah, nama wuku Kuningan mengilhami atau mendorong pemberian nama bagi daerah ini?
-1	Mungkinkah	_	ADV	_	_	6	advmod	_	SpaceAfter=No|MorphInd=^mungkin<d>_D--+kah<t>_T--$
+1	Mungkinkah	mungkin	ADV	D--+T--	_	6	advmod	_	SpaceAfter=No|MorphInd=^mungkin<d>_D--+kah<t>_T--$
 2	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 3	nama	nama	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^nama<n>_NSD$
 4	wuku	wu	NOUN	F--+PS1	Number[psor]=Sing|Person[psor]=1	3	compound	_	MorphInd=^wu<f>_F--+aku<p>_PS1$
@@ -12737,13 +12737,13 @@
 
 # sent_id = test-s531
 # text = Siapakah yang dapat mengatakan kepada manusia apa yang akan terjadi di bawah matahari sesudah dia?
-1	Siapakah	_	PRON	_	_	0	root	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
+1	Siapakah	siapa	PRON	W--+T--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
 2	yang	yang	PRON	S--	_	4	nsubj	_	MorphInd=^yang<s>_S--$
 3	dapat	dapat	ADV	VSA	Number=Sing|Voice=Act	4	advmod	_	MorphInd=^dapat<v>_VSA$
 4	mengatakan	menkatakan	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^meN+kata<n>+kan_VSA$
 5	kepada	kepada	ADP	R--	_	6	case	_	MorphInd=^kepada<r>_R--$
 6	manusia	manusia	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^manusia<n>_NSD$
-7	apa	apa	PRON	W--	_	10	mark	_	MorphInd=^apa<w>_W--$
+7	apa	apa	PRON	W--	PronType=Int	10	mark	_	MorphInd=^apa<w>_W--$
 8	yang	yang	PRON	S--	_	10	nsubj	_	MorphInd=^yang<s>_S--$
 9	akan	akan	ADV	M--	_	10	advmod	_	MorphInd=^akan<m>_M--$
 10	terjadi	terjadi	VERB	VSP	Number=Sing|Voice=Pass	6	acl	_	MorphInd=^terjadi<v>_VSP$
@@ -13023,7 +13023,7 @@
 7	bahkan	bahkan	SCONJ	D--	_	8	mark	_	MorphInd=^bahkan<d>_D--$
 8	terdapat	terdapat	VERB	VSP	Number=Sing|Voice=Pass	1	advcl	_	MorphInd=^ter+dapat<v>_VSP$
 9	keraguan	keraguan	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^ke+ragu<a>+an_NSD$
-10	apakah	_	ADP	_	_	11	case	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+10	apakah	apa	ADP	W--+T--	PronType=Int	11	case	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 11	Gaudapa	gaudapa	PROPN	X--	_	9	nmod	_	MorphInd=^gaudapa<x>_X--$
 12	pernah	pernah	ADV	D--	_	13	advmod	_	MorphInd=^pernah<d>_D--$
 13	hidup	hidup	ADJ	NSD	Number=Sing	11	amod	_	MorphInd=^hidup<n>_NSD$
@@ -13364,7 +13364,7 @@
 
 # sent_id = test-s554
 # text = Apakah ada perkembangan perbaikan?
-1	Apakah	_	ADV	_	_	2	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+1	Apakah	apa	ADV	W--+T--	PronType=Int	2	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 2	ada	ada	VERB	ASP	Degree=Pos|Number=Sing	0	root	_	MorphInd=^ada<a>_ASP$
 3	perkembangan	perkembangan	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^per+kembang<n>+an_NSD$
 4	perbaikan	perbaikan	NOUN	NSD	Number=Sing	3	compound	_	SpaceAfter=No|MorphInd=^per+baik<a>+an_NSD$
@@ -13444,7 +13444,7 @@
 13	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
 14	kepunyaan	kepunyaan	NOUN	NSD	Number=Sing	12	conj	_	MorphInd=^ke+punya<v>+an_NSD$
 15	tetapi	tetapi	CCONJ	S--	_	10	cc	_	MorphInd=^tetapi<s>_S--$
-16	apakah	_	ADV	_	_	10	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+16	apakah	apa	ADV	W--+T--	PronType=Int	10	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 17	gunanya	guna	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	16	acl	_	MorphInd=^guna<n>_NSD+dia<p>_PS3$
 18	bagiku	bagi	NOUN	R--+PS1	Number[psor]=Sing|Person[psor]=1	17	compound	_	SpaceAfter=No|MorphInd=^bagi<r>_R--+aku<p>_PS1$
 19	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
