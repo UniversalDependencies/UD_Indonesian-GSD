@@ -12,17 +12,17 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">4544</tag><!-- lain, besar, baru, lainnya, utama, sama, kecil, pertama, tinggi, baik -->
+    <tag name="ADJ">4541</tag><!-- lain, besar, baru, lainnya, utama, sama, kecil, pertama, tinggi, baik -->
     <tag name="ADP">12019</tag><!-- di, pada, dari, dengan, untuk, dalam, oleh, sebagai, ke, seperti -->
     <tag name="ADV">4760</tag><!-- juga, akan, dapat, telah, lebih, kemudian, hanya, bisa, masih, sangat -->
     <tag name="AUX">1056</tag><!-- adalah, ialah, rata -->
     <tag name="CCONJ">3659</tag><!-- dan, atau, serta, karena, maupun, tetapi, namun, tapi, and, juga -->
-    <tag name="DET">3996</tag><!-- ini, itu, sebuah, tersebut, satu, seorang, salah, beberapa, para, berbagai -->
-    <tag name="NOUN">27112</tag><!-- tahun, orang, desa, kota, nama, bagian, bahasa, anak, wilayah, negara -->
+    <tag name="DET">3999</tag><!-- ini, itu, sebuah, tersebut, satu, seorang, salah, beberapa, para, berbagai -->
+    <tag name="NOUN">27053</tag><!-- tahun, orang, desa, kota, nama, bagian, bahasa, anak, wilayah, negara -->
     <tag name="NUM">4383</tag><!-- dua, pertama, kedua, 1, satu, 2, 3, 5, tiga, 4 -->
     <tag name="PART">590</tag><!-- tidak, bukan, tak, pun, belum, kan, ya, jangan, non, tanpa -->
-    <tag name="PRON">4631</tag><!-- yang, ia, mereka, dia, apa, kita, siapa, kamu, aku, engkau -->
-    <tag name="PROPN">22811</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
+    <tag name="PRON">4695</tag><!-- yang, ia, mereka, dia, apa, kita, siapa, kamu, aku, engkau -->
+    <tag name="PROPN">22806</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
     <tag name="PUNCT">18228</tag><!-- ,, ., -, ), (, ?, ", :, _, ; -->
     <tag name="SCONJ">1475</tag><!-- karena, bahwa, namun, ketika, sehingga, maka, jika, setelah, yaitu, sementara -->
     <tag name="SYM">418</tag><!-- /, %, =, *, km, &amp;, cm, °, #, + -->
@@ -30,7 +30,7 @@
     <tag name="X">39</tag><!-- jpg, an, www, anti, b, dkk, s, x, y, &amp;nbsp -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="21">
+  <feats unique="24">
     <feat name="Clusivity" value="Ex" upos="PRON">28</feat><!-- kami, kamilah -->
     <feat name="Clusivity" value="In" upos="PRON">65</feat><!-- kita -->
     <feat name="Degree" value="Pos" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">6003</feat><!-- dalam, ada, salah, lain, besar, baru, sama, atas, baik, sendiri -->
@@ -40,7 +40,7 @@
     <feat name="Number" value="Plur" upos="ADJ,ADV,NOUN,PRON,PROPN,VERB">532</feat><!-- mereka, kita, kami, kalian, orang-orang, laki-laki, pertanyaan-pertanyaan, berlaksa-laksa, diam-diam, hal-hal -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,SYM,VERB,X">49803</feat><!-- dalam, tahun, ia, indonesia, menjadi, orang, kota, kecamatan, memiliki, desa -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">1877</feat><!-- ayahnya, dirinya, namanya, antaranya, penduduknya, satunya, utamanya, anaknya, keduanya, artinya -->
-    <feat name="NumType" value="Card" upos="DET,NUM">4386</feat><!-- dua, pertama, kedua, 1, satu, 2, 3, 5, tiga, 4 -->
+    <feat name="NumType" value="Card" upos="ADV,DET,NUM,PRON">4684</feat><!-- beberapa, dua, banyak, pertama, kedua, 1, satu, 2, 3, 5 -->
     <feat name="Person" value="1" upos="PRON,PROPN,VERB">156</feat><!-- kita, aku, kami, saya, Kutai, kukatakan, Kubebaskankah, Kumari, Kusambut, Kustilah -->
     <feat name="Person" value="2" upos="PRON,VERB">109</feat><!-- kamu, engkau, anda, kalian, kau, kaukatakan -->
     <feat name="Person" value="3" upos="PRON">885</feat><!-- ia, mereka, dia, beliau, Nya, merekapun -->
@@ -48,8 +48,11 @@
     <feat name="Person[psor]" value="2" upos="ADJ,ADP,ADV,NOUN,PRON,PROPN,VERB">51</feat><!-- bakau, kepadamu, bagimu, istrimu, matamu, menurutmu, namu, untukmu, Allahmu, Amu -->
     <feat name="Person[psor]" value="3" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">1785</feat><!-- ayahnya, dirinya, namanya, antaranya, penduduknya, satunya, utamanya, anaknya, keduanya, artinya -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,NOUN,PART,PROPN">543</feat><!-- tidak, tak, bukan, bukankah, belum, bukanlah, jangan, non, tanpa, tidakkah -->
+    <feat name="PronType" value="Dem" upos="ADV,CCONJ,DET,PRON,SCONJ,VERB">2048</feat><!-- ini, itu, tersebut, para, begitu, itulah, inilah, Inikah, Tersebutlah, beginilah -->
+    <feat name="PronType" value="Ind" upos="ADP,ADV,DET,PRON,VERB">1087</feat><!-- sebuah, seorang, beberapa, banyak, berbagai, suatu, adanya, Banyaknya -->
     <feat name="PronType" value="Int" upos="ADP,ADV,CCONJ,DET,PRON,SCONJ,VERB">573</feat><!-- apakah, apa, bagaimana, mengapa, dimana, siapa, siapakah, kenapa, mana, bagaimanakah -->
     <feat name="PronType" value="Prs" upos="PRON">1136</feat><!-- ia, mereka, kita, dia, kamu, engkau, aku, kami, beliau, saya -->
+    <feat name="PronType" value="Tot" upos="ADV,DET,PRON">214</feat><!-- semua, setiap, seluruh, semuanya -->
     <feat name="Voice" value="Act" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">9352</feat><!-- menjadi, memiliki, dapat, mulai, berada, tanggal, menggunakan, kembali, tentang, membuat -->
     <feat name="Voice" value="Pass" upos="ADJ,ADP,ADV,NOUN,PART,PROPN,SCONJ,VERB">3527</feat><!-- terletak, digunakan, dikenal, terjadi, disebut, terdapat, terdiri, dilakukan, dirilis, ditemukan -->
   </feats>
