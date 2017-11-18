@@ -2332,7 +2332,7 @@
 # sent_id = dev-s82
 # text = Jagoan kita Tintin berusaha untuk mendaratkan pesawatnya sebisa mungkin, namun dia tidak beruntung karena pesawatnya baru berhenti di ujung jurang dan mengalami kebakaran.
 1	Jagoan	jagoan	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^jago<n>+an_NSD$
-2	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	1	det	_	MorphInd=^kita<p>_PP1$
+2	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	1	det	_	MorphInd=^kita<p>_PP1$
 3	Tintin	tintin	PROPN	X--	_	1	appos	_	MorphInd=^tintin<x>_X--$
 4	berusaha	berusaha	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+usaha<n>_VSA$
 5	untuk	untuk	ADP	R--	_	6	case	_	MorphInd=^untuk<r>_R--$
@@ -5958,10 +5958,10 @@
 4	ada	ada	VERB	ASP	Degree=Pos|Number=Sing	11	advcl	_	MorphInd=^ada<a>_ASP$
 5	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 6	dekat	dekat	ADJ	ASP	Degree=Pos|Number=Sing	7	amod	_	MorphInd=^dekat<a>_ASP$
-7	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
+7	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
 8	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
 9	tidakkah	tidak	PART	G--+T--	Polarity=Neg	11	advmod	_	MorphInd=^tidak<g>_G--+kah<t>_T--$
-10	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	11	nsubj	_	MorphInd=^kita<p>_PP1$
+10	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	MorphInd=^kita<p>_PP1$
 11	mencium	mencium	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+cium<v>_VSA$
 12	baunya	bau	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obj	_	SpaceAfter=No|MorphInd=^bau<n>_NSD+dia<p>_PS3$
 13	?	?	PUNCT	Z--	_	11	punct	_	MorphInd=^?<z>_Z--$
@@ -6995,7 +6995,7 @@
 1	Siapakah	siapa	PRON	W--+T--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
 2	yang	yang	PRON	S--	_	3	nsubj	_	MorphInd=^yang<s>_S--$
 3	menolong	mentolong	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^meN+tolong<v>_VSA$
-4	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	3	obj	_	MorphInd=^kita<p>_PP1$
+4	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	obj	_	MorphInd=^kita<p>_PP1$
 5	dari	dari	ADP	R--	_	6	case	_	MorphInd=^dari<r>_R--$
 6	tangan	tangan	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^tangan<n>_NSD$
 7	Allah	allah	PROPN	NSD	Number=Sing	6	det	_	MorphInd=^allah<n>_NSD$
@@ -8370,7 +8370,7 @@
 3	engkau	engkau	PRON	PS2	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	MorphInd=^engkau<p>_PS2$
 4	serukan	serukan	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^seru<a>+kan_VSA$
 5	kepada	kepada	ADP	R--	_	6	case	_	MorphInd=^kepada<r>_R--$
-6	kami	kami	PRON	PP1	Number=Plur|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No|MorphInd=^kami<p>_PP1$
+6	kami	kami	PRON	PP1	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No|MorphInd=^kami<p>_PP1$
 7	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s323
@@ -8417,7 +8417,7 @@
 8	UTC	utc	PROPN	X--	_	4	appos	_	SpaceAfter=No|MorphInd=^utc<x>_X--$
 9	)	)	PUNCT	Z--	_	8	punct	_	MorphInd=^)<z>_Z--$
 10	Setelah	setelah	SCONJ	R--	_	12	mark	_	MorphInd=^setelah<r>_R--$
-11	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	12	nsubj	_	MorphInd=^kita<p>_PP1$
+11	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	MorphInd=^kita<p>_PP1$
 12	melihat	menlihat	VERB	VSA	Number=Sing|Voice=Act	4	advcl	_	MorphInd=^meN+lihat<v>_VSA$
 13	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
 14	membaca	menbaca	VERB	VSA	Number=Sing|Voice=Act	12	conj	_	MorphInd=^meN+baca<v>_VSA$
@@ -11998,7 +11998,7 @@
 4	Engkau	engkau	PRON	PS2	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	MorphInd=^engkau<p>_PS2$
 5	sudah	sudah	ADV	D--	_	6	advmod	_	MorphInd=^sudah<d>_D--$
 6	membuang	menbuang	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+buang<v>_VSA$
-7	kami	kami	PRON	PP1	Number=Plur|Person=1|PronType=Prs	6	obj	_	MorphInd=^kami<p>_PP1$
+7	kami	kami	PRON	PP1	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	6	obj	_	MorphInd=^kami<p>_PP1$
 8	sama	sama	ADV	ASP	Degree=Pos|Number=Sing	6	advmod	_	MorphInd=^sama<a>_ASP$
 9	sekali	sekali	ADV	D--	_	8	fixed	_	SpaceAfter=No|MorphInd=^sekali<d>_D--$
 10	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
@@ -12418,7 +12418,7 @@
 1	Bagaimanakah	bagaimana	PRON	W--+T--	PronType=Int	0	root	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
 2	dengan	dengan	ADP	R--	_	3	case	_	MorphInd=^dengan<r>_R--$
 3	umur	umur	NOUN	NSD	Number=Sing	1	nmod	_	MorphInd=^umur<n>_NSD$
-4	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	3	det	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
+4	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	det	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
 5	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s483
@@ -12796,7 +12796,7 @@
 24	mengingatkan	meningatkan	VERB	VSA	Number=Sing|Voice=Act	13	conj	_	MorphInd=^meN+ingat<v>+kan_VSA$
 25	dan	dan	CCONJ	H--	_	26	cc	_	MorphInd=^dan<h>_H--$
 26	mendidik	mendidik	VERB	VSA	Number=Sing|Voice=Act	24	conj	_	MorphInd=^meN+didik<v>_VSA$
-27	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	24	obj	_	MorphInd=^kita<p>_PP1$
+27	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	24	obj	_	MorphInd=^kita<p>_PP1$
 28	akan	akan	ADP	M--	_	29	case	_	MorphInd=^akan<m>_M--$
 29	harga	harga	NOUN	NSD	Number=Sing	27	nmod	_	MorphInd=^harga<n>_NSD$
 30	sebuah	sebuah	DET	B--	_	31	det	_	MorphInd=^sebuah<b>_B--$

@@ -1396,7 +1396,7 @@
 13	kamu	kamu	PRON	PS2	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	MorphInd=^kamu<p>_PS2$
 14	katakan	katakan	VERB	VSA	Number=Sing|Voice=Act	10	acl	_	MorphInd=^kata<n>+kan_VSA$
 15	pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
-16	kami	kami	PRON	PP1	Number=Plur|Person=1|PronType=Prs	14	obl	_	MorphInd=^kami<p>_PP1$
+16	kami	kami	PRON	PP1	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	14	obl	_	MorphInd=^kami<p>_PP1$
 17	yang	yang	PRON	S--	_	19	nsubj	_	MorphInd=^yang<s>_S--$
 18	akan	akan	ADV	M--	_	19	advmod	_	MorphInd=^akan<m>_M--$
 19	membenarkan	menbenarkan	VERB	VSA	Number=Sing|Voice=Act	10	acl	_	MorphInd=^meN+benar<a>+kan_VSA$
@@ -3025,12 +3025,12 @@
 16	:	:	PUNCT	Z--	_	20	punct	_	MorphInd=^:<z>_Z--$
 17	"	"	PUNCT	Z--	_	20	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 18	Janganlah	jangan	ADV	G--+T--	_	20	advmod	_	MorphInd=^jangan<g>_G--+lah<t>_T--$
-19	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	20	nsubj:pass	_	MorphInd=^kita<p>_PP1$
+19	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	20	nsubj:pass	_	MorphInd=^kita<p>_PP1$
 20	tertipu	tertipu	VERB	VSP	Number=Sing|Voice=Pass	14	advcl	_	SpaceAfter=No|MorphInd=^ter+tipu<n>_VSP$
 21	:	:	PUNCT	Z--	_	20	punct	_	MorphInd=^:<z>_Z--$
 22	hari	hari	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^hari<n>_NSD$
 23	ini	ini	DET	B--	_	22	det	_	MorphInd=^ini<b>_B--$
-24	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	25	nsubj	_	MorphInd=^kita<p>_PP1$
+24	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	MorphInd=^kita<p>_PP1$
 25	ada	ada	VERB	ASP	Degree=Pos|Number=Sing	20	xcomp	_	MorphInd=^ada<a>_ASP$
 26	di	di	ADP	R--	_	27	case	_	MorphInd=^di<r>_R--$
 27	tengah	tengah	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^tengah<n>_NSD$
@@ -3065,7 +3065,7 @@
 20	terdapat	terdapat	VERB	VSP	Number=Sing|Voice=Pass	18	acl	_	MorphInd=^ter+dapat<v>_VSP$
 21	pada	pada	ADP	R--	_	22	case	_	MorphInd=^pada<r>_R--$
 22	halaman	halaman	NOUN	NSD	Number=Sing	20	obl	_	MorphInd=^halaman<n>_NSD$
-23	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	22	det	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
+23	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	22	det	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
 24	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s126
@@ -4549,7 +4549,7 @@
 4	apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 5	yang	yang	PRON	S--	_	8	obj	_	MorphInd=^yang<s>_S--$
 6	dapat	dapat	ADV	VSA	Number=Sing|Voice=Act	8	advmod	_	MorphInd=^dapat<v>_VSA$
-7	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	8	nsubj	_	MorphInd=^kita<p>_PP1$
+7	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	MorphInd=^kita<p>_PP1$
 8	pelajari	pelajari	VERB	VSA	Number=Sing|Voice=Act	4	acl	_	MorphInd=^pelajar<n>+i_VSA$
 9	dari	dari	ADP	R--	_	10	case	_	MorphInd=^dari<r>_R--$
 10	pria	pria	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^pria<n>_NSD$
@@ -5701,7 +5701,7 @@
 5	memperhatikan	menperhatikan	VERB	VSA	Number=Sing|Voice=Act	2	dep	_	MorphInd=^meN+perhatikan<v>_VSA$
 6	nasib	nasib	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^nasib<n>_NSD$
 7	rakyat	rakyat	NOUN	NSD	Number=Sing	6	det	_	MorphInd=^rakyat<n>_NSD$
-8	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	7	det	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
+8	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	7	det	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
 9	?	?	PUNCT	Z--	_	5	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s239
@@ -7576,7 +7576,7 @@
 # sent_id = test-s321
 # text = Bila kita menggunakan semua ini untuk melawan musuh, musuh mana yang tak akan kalah?
 1	Bila	bila	SCONJ	S--	_	3	mark	_	MorphInd=^bila<s>_S--$
-2	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	MorphInd=^kita<p>_PP1$
+2	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	MorphInd=^kita<p>_PP1$
 3	menggunakan	mengunakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
 4	semua	semua	DET	B--	_	5	det	_	MorphInd=^semua<b>_B--$
 5	ini	ini	DET	B--	_	3	obj	_	MorphInd=^ini<b>_B--$
@@ -7807,7 +7807,7 @@
 # sent_id = test-s331
 # text = Bagaimana kita tahu bahwa 7 ditambah 8 selalu ada 15?
 1	Bagaimana	bagaimana	ADV	W--	PronType=Int	3	advmod	_	MorphInd=^bagaimana<w>_W--$
-2	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	MorphInd=^kita<p>_PP1$
+2	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	MorphInd=^kita<p>_PP1$
 3	tahu	tahu	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^tahu<v>_VSA$
 4	bahwa	bahwa	PRON	S--	_	6	mark	_	MorphInd=^bahwa<s>_S--$
 5	7	7	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^7<c>_CC-$
@@ -7838,7 +7838,7 @@
 3	bertanya	bertanya	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+tanya<v>_VSA$
 4	apakah	apa	ADV	W--+T--	PronType=Int	8	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 5	negeri	negeri	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^negeri<n>_NSD$
-6	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	5	det	_	MorphInd=^kita<p>_PP1$
+6	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	det	_	MorphInd=^kita<p>_PP1$
 7	pernah	pernah	ADV	D--	_	8	advmod	_	MorphInd=^pernah<d>_D--$
 8	berperang	berperang	VERB	VSA	Number=Sing|Voice=Act	3	advcl	_	SpaceAfter=No|MorphInd=^ber+perang<n>_VSA$
 9	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
@@ -9246,7 +9246,7 @@
 # sent_id = test-s396
 # text = Jika kita menangkap atau memanggil Pokémon masuk ke dalam bola, maka pancaran sinar merah akan terlihat.
 1	Jika	jika	SCONJ	S--	_	3	mark	_	MorphInd=^jika<s>_S--$
-2	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	MorphInd=^kita<p>_PP1$
+2	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	MorphInd=^kita<p>_PP1$
 3	menangkap	mentangkap	VERB	VSA	Number=Sing|Voice=Act	17	ccomp	_	MorphInd=^meN+tangkap<v>_VSA$
 4	atau	atau	CCONJ	H--	_	5	cc	_	MorphInd=^atau<h>_H--$
 5	memanggil	menpanggil	VERB	VSA	Number=Sing|Voice=Act	3	conj	_	MorphInd=^meN+panggil<v>_VSA$
@@ -9788,11 +9788,11 @@
 7	dari	dari	ADP	R--	_	8	case	_	MorphInd=^dari<r>_R--$
 8	Tuhan	tuhan	NOUN	NSD	Number=Sing	2	nmod	_	MorphInd=^tuhan<n>_NSD$
 9	untuk	untuk	ADP	R--	_	10	case	_	MorphInd=^untuk<r>_R--$
-10	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
+10	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
 11	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 12	dan	dan	CCONJ	H--	_	8	cc	_	MorphInd=^dan<h>_H--$
 13	dari	dari	ADP	R--	_	14	case	_	MorphInd=^dari<r>_R--$
-14	kita	kita	PRON	PP1	Number=Plur|Person=1|PronType=Prs	8	nmod	_	MorphInd=^kita<p>_PP1$
+14	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	8	nmod	_	MorphInd=^kita<p>_PP1$
 15	untuk	untuk	ADP	R--	_	16	case	_	MorphInd=^untuk<r>_R--$
 16	Tuhan	tuhan	NOUN	NSD	Number=Sing	14	nmod	_	SpaceAfter=No|MorphInd=^tuhan<n>_NSD$
 17	"	"	PUNCT	Z--	_	16	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$

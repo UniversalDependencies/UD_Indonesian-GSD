@@ -30,7 +30,9 @@
     <tag name="X">39</tag><!-- jpg, an, www, anti, b, dkk, s, x, y, &amp;nbsp -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="19">
+  <feats unique="21">
+    <feat name="Clusivity" value="Ex" upos="PRON">28</feat><!-- kami, kamilah -->
+    <feat name="Clusivity" value="In" upos="PRON">65</feat><!-- kita -->
     <feat name="Degree" value="Pos" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">6003</feat><!-- dalam, ada, salah, lain, besar, baru, sama, atas, baik, sendiri -->
     <feat name="Degree" value="Sup" upos="ADJ,ADP,ADV,NOUN,PROPN,SCONJ,VERB">279</feat><!-- terbesar, terutama, terbaik, terakhir, ternyata, tertinggi, terdekat, terlebih, tertua, teratas -->
     <feat name="Gender" value="Fem" upos="NOUN,PROPN">3</feat><!-- Indrawati, Selawati, seniwati -->
