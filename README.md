@@ -6,11 +6,14 @@ dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 # Introduction
 
-The Indonesian UD conforms to the UD guidelines, but there are some exceptions.
-The primary exception is that there are no morphological features defined.
+Lemmas, XPOS and morphological features added by MorphInd
+(created by Septina Dian Larasati, run and converted by Dan Zeman,
+http://septinalarasati.com/morphind/).
 
 # Changelog
 
+* 2018-03-01 v2.2
+  * Added lemmas and morphological features from MorphInd.
 * 2017-03-01 v2.0
   * Converted to UD v2 guidelines (Dan Zeman).
   * Reduplicative plurals are now connected neither with mwe nor with fixed,
@@ -210,12 +213,12 @@ Data available since: UD v1.1
 License: CC BY-NC-SA 3.0 US
 Includes text: yes
 Genre: news blog
-Lemmas: not available
+Lemmas: automatic
 UPOS: converted from manual
-XPOS: not available
-Features: not available
+XPOS: automatic
+Features: automatic
 Relations: converted from manual
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Larasati, Septina Dian
 Contributing: to be adopted
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
