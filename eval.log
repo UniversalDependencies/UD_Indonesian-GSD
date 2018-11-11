@@ -1,10 +1,10 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 87d374bbd458d29331d76014d05c52eaac32518d
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 09:21:53 2018 +0200
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Indonesian-GSD:
-commit 66ad49937b5ed2c021f279edb7955c67bee501ea
-Merge: 01a2adc 093546b
+commit d8b841c0bf54689935a1d39d9aca7816a3624848
+Merge: 5167ba4 643f3d3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 121923 of 121923 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60677939586964.
@@ -21,7 +21,7 @@ Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi: found 17653 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 121923 words.
-Genres: found 2 out of 14 known.
+Genres: found 2 out of 17 known.
 validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-dev.conllu
 *** PASSED ***
 validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-test.conllu
@@ -30,13 +30,13 @@ validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
-(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
 (weight=0.256410256410256) * (score{size}=0.69536188008134) = 0.178297917969574
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.605405405405405) = 0.0465696465696466
-(TOTAL score=0.409672563461867) * (availability=1) * (validity=1) = 0.409672563461867
+(TOTAL score=0.407733326228512) * (availability=1) * (validity=1) = 0.407733326228512
 STARS = 2
-UD_Indonesian-GSD	0.409672563461867	2
+UD_Indonesian-GSD	0.407733326228512	2
