@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>5593</sentences><tokens>121923</tokens><words>121923</words><fused>0</fused></total>
+    <train><sentences>4477</sentences><tokens>97531</tokens><words>97531</words><fused>0</fused></train>
+    <dev><sentences>559</sentences><tokens>12612</tokens><words>12612</words><fused>0</fused></dev>
+    <test><sentences>557</sentences><tokens>11780</tokens><words>11780</words><fused>0</fused></test>
   </size>
   <lemmas unique="18934" /><!-- ,, ., yang, dan, di, -, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
   <forms unique="19982" /><!-- ,, ., yang, dan, di, -, pada, dari, dengan, ini, ), (, adalah, untuk, dalam -->
