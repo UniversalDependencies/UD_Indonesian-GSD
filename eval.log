@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Indonesian-GSD:
-commit d8b841c0bf54689935a1d39d9aca7816a3624848
-Merge: 5167ba4 643f3d3
+commit 115a343904469bb9992253fe701cfb1acc32bfca
+Merge: 9acdcd1 488d72e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 121923 of 121923 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60677939586964.
