@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Indonesian-GSD:
-commit 115a343904469bb9992253fe701cfb1acc32bfca
-Merge: 9acdcd1 488d72e
+commit 388903c3ee207f1e43810c737fe7395d1740f1c2
+Merge: 6f876de 3095a0c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 121923 of 121923 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60677939586964.
@@ -23,12 +23,48 @@ Udapi: found 17653 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 121923 words.
 Genres: found 2 out of 17 known.
 validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-dev.conllu
-*** PASSED ***
+[Line 35 Sent dev-s2 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [9, 15, 21]
+[Line 35 Sent dev-s2 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+[Line 42 Sent dev-s2 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15, 21]
+[Line 42 Sent dev-s2 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+[Line 207 Sent dev-s8 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
+[Line 207 Sent dev-s8 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15]
+[Line 418 Sent dev-s16 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 595 Sent dev-s23 Node 24]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART'
+[Line 657 Sent dev-s26 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PUNCT'
+...suppressing further errors regarding Syntax
+Syntax errors: 209
+*** FAILED *** with 209 errors
+Exit code: 1
 validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-test.conllu
-*** PASSED ***
+[Line 242 Sent test-s11 Node 5]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'PROPN'
+[Line 462 Sent test-s18 Node 16]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SYM'
+[Line 471 Sent test-s18 Node 25]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SYM'
+[Line 471 Sent test-s18 Node 25]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [26]
+[Line 471 Sent test-s18 Node 25]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [26]
+[Line 473 Sent test-s18 Node 27]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SYM'
+[Line 642 Sent test-s26 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 656 Sent test-s26 Node 36]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [41]
+[Line 952 Sent test-s38 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+...suppressing further errors regarding Syntax
+Syntax errors: 166
+*** FAILED *** with 166 errors
+Exit code: 1
 validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 61 Sent train-s3 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15, 20]
+[Line 96 Sent train-s4 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 118 Sent train-s4 Node 38]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 267 Sent train-s10 Node 34]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 298 Sent train-s12 Node 7]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'ccomp'
+[Line 358 Sent train-s14 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 457 Sent train-s18 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
+[Line 457 Sent train-s18 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
+[Line 458 Sent train-s18 Node 13]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+...suppressing further errors regarding Syntax
+Syntax errors: 1506
+*** FAILED *** with 1506 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.605405405405405) = 0.0465696465696466
-(TOTAL score=0.407733326228512) * (availability=1) * (validity=1) = 0.407733326228512
-STARS = 2
-UD_Indonesian-GSD	0.407733326228512	2
+(TOTAL score=0.407733326228512) * (availability=1) * (validity=0.01) = 0.00407733326228512
+STARS = 0
+UD_Indonesian-GSD	0.00407733326228512	0
