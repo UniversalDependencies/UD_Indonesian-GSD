@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Indonesian-GSD:
-commit 684dff6cec91f906d787541491f957b185850473
+commit eb2870f25dd96f2f6a223d434515b9c565d34e35
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:17:31 2019 +0100
+Date:   Sun May 10 18:13:52 2020 +0200
 Size: counted 121923 of 121923 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60677939586964.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,38 +23,32 @@ Udapi: found 17728 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 121923 words.
 Genres: found 2 out of 17 known.
 validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-dev.conllu
-[Line 35 Sent dev-s2 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [9, 15, 21]
 [Line 35 Sent dev-s2 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
-[Line 42 Sent dev-s2 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15, 21]
 [Line 42 Sent dev-s2 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
-[Line 207 Sent dev-s8 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
 [Line 207 Sent dev-s8 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15]
 [Line 418 Sent dev-s16 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
 [Line 595 Sent dev-s23 Node 24]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART'
 [Line 657 Sent dev-s26 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PUNCT'
+[Line 657 Sent dev-s26 Node 11]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'det'
+[Line 786 Sent dev-s34 Node 3]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SYM'
+[Line 830 Sent dev-s35 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
 ...suppressing further errors regarding Syntax
-[Line 5286 Sent dev-s200 Node 7]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-[Line 5811 Sent dev-s220 Node 11]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-[Line 12297 Sent dev-s478 Node 22]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-Morpho errors: 3
-Syntax errors: 209
-*** FAILED *** with 212 errors
+Syntax errors: 183
+*** FAILED *** with 183 errors
 Exit code: 1
 validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-test.conllu
 [Line 242 Sent test-s11 Node 5]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'PROPN'
 [Line 462 Sent test-s18 Node 16]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SYM'
 [Line 471 Sent test-s18 Node 25]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SYM'
-[Line 471 Sent test-s18 Node 25]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [26]
 [Line 471 Sent test-s18 Node 25]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [26]
 [Line 473 Sent test-s18 Node 27]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SYM'
 [Line 642 Sent test-s26 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 656 Sent test-s26 Node 36]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [41]
 [Line 952 Sent test-s38 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 1284 Sent test-s50 Node 20]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [21]
 ...suppressing further errors regarding Syntax
-[Line 9937 Sent test-s413 Node 156]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-Morpho errors: 1
-Syntax errors: 166
-*** FAILED *** with 167 errors
+Syntax errors: 142
+*** FAILED *** with 142 errors
 Exit code: 1
 validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-train.conllu
 [Line 61 Sent train-s3 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15, 20]
@@ -63,23 +57,14 @@ validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-train.conllu
 [Line 267 Sent train-s10 Node 34]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 298 Sent train-s12 Node 7]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'ccomp'
 [Line 358 Sent train-s14 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 457 Sent train-s18 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
 [Line 457 Sent train-s18 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
 [Line 458 Sent train-s18 Node 13]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 462 Sent train-s18 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 ...suppressing further errors regarding Syntax
-[Line 4274 Sent train-s176 Node 8]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-[Line 7582 Sent train-s313 Node 2]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-[Line 7823 Sent train-s325 Node 7]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-[Line 17330 Sent train-s703 Node 6]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-[Line 28254 Sent train-s1164 Node 2]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-[Line 38350 Sent train-s1567 Node 21]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
 [Line 38944 Sent train-s1589 Node 4]: [L5 Morpho aux-lemma] 'rata' is not an auxiliary verb in language [id]
-[Line 40015 Sent train-s1637 Node 6]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-[Line 46330 Sent train-s1889 Node 2]: [L5 Morpho aux-lemma] 'ialah' is not an auxiliary verb in language [id]
-...suppressing further errors regarding Morpho
-Morpho errors: 34
-Syntax errors: 1506
-*** FAILED *** with 1540 errors
+Morpho errors: 1
+Syntax errors: 1320
+*** FAILED *** with 1321 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
