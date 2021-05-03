@@ -443,7 +443,7 @@
 11	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s18
-# text = Jejaring Pendidikan Nasional (JARDIKNAS) merupakan infrastruktur jaringan skala nasional yang menghubungkan seluruh institusi / lembaga pendidikan, kantor dinas pendidikan tingkat provinsi / kota / kabupaten, perguruan tinggi, dan sekolah - sekolah di seluruh Indonesia.
+# text = Jejaring Pendidikan Nasional (JARDIKNAS) merupakan infrastruktur jaringan skala nasional yang menghubungkan seluruh institusi / lembaga pendidikan, kantor dinas pendidikan tingkat provinsi / kota / kabupaten, perguruan tinggi, dan sekolah-sekolah di seluruh Indonesia.
 1	Jejaring	jejaring	PROPN	X--	_	7	nsubj	_	MorphInd=^jejaring<x>_X--$
 2	Pendidikan	pendidikan	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^peN+didik<v>+an_NSD$
 3	Nasional	nasional	PROPN	ASP	Degree=Pos|Number=Sing	2	flat	_	MorphInd=^nasional<a>_ASP$
@@ -550,7 +550,7 @@
 18	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s23
-# text = Ketika mereka melihat Dia mereka menyembahnya, tetapi beberapa orang ragu - ragu.
+# text = Ketika mereka melihat Dia mereka menyembahnya, tetapi beberapa orang ragu-ragu.
 1	Ketika	ketika	SCONJ	S--	_	3	mark	_	MorphInd=^ketika<s>_S--$
 2	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	MorphInd=^mereka<p>_PP3$
 3	melihat	menlihat	VERB	VSA	Number=Sing|Voice=Act	6	advcl	_	MorphInd=^meN+lihat<v>_VSA$
@@ -662,7 +662,7 @@
 46	"	"	PUNCT	Z--	_	31	punct	_	MorphInd=^"<z>_Z--$
 
 # sent_id = test-s27
-# text = Daerah - daerah konflik yang paling sengit antara pasukan Muslim dan Kroat Bosnia melawan Serbia Bosnia terjadi di daerah - daerah strategis utamanya di Gunung Ozren (sebelah utara kota Sarajevo), kota Brcko (bagian utara Bosnia Herzegovina), Gorazde, Maglaj dan Olovo, akhirnya meluas ke wilayah Sarajevo yaitu di kota Vares (lebih kurang 40&amp;nbsp; km dari Sarajevo).
+# text = Daerah-daerah konflik yang paling sengit antara pasukan Muslim dan Kroat Bosnia melawan Serbia Bosnia terjadi di daerah-daerah strategis utamanya di Gunung Ozren (sebelah utara kota Sarajevo), kota Brcko (bagian utara Bosnia Herzegovina), Gorazde, Maglaj dan Olovo, akhirnya meluas ke wilayah Sarajevo yaitu di kota Vares (lebih kurang 40&amp;nbsp; km dari Sarajevo).
 1	Daerah-daerah	daerah	NOUN	NSD	Number=Plur	15	nsubj	_	MorphInd=^daerah<n>_NSD$
 2	konflik	konflik	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^konflik<n>_NSD$
 3	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	MorphInd=^yang<s>_S--$
@@ -1178,7 +1178,7 @@
 7	?	?	PUNCT	Z--	_	4	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s47
-# text = Mereka dirikan gereja dan sekolah - sekolah untuk mengajarkan dan mengembangkan ajaran Yahudi di seluruh pelosok wilayah kerajaan atau kekuasaannya.
+# text = Mereka dirikan gereja dan sekolah-sekolah untuk mengajarkan dan mengembangkan ajaran Yahudi di seluruh pelosok wilayah kerajaan atau kekuasaannya.
 1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	MorphInd=^mereka<p>_PP3$
 2	dirikan	dirikan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^diri<n>+kan_VSA$
 3	gereja	gereja	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^gereja<n>_NSD$
@@ -1500,7 +1500,7 @@
 16	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s61
-# text = Film ini menghadirkan keganjilan - keganjilan yang ditemukan dalam kasus kematian Munir.
+# text = Film ini menghadirkan keganjilan-keganjilan yang ditemukan dalam kasus kematian Munir.
 1	Film	film	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^film<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	menghadirkan	menhadirkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+hadir<v>+kan_VSA$
@@ -1556,7 +1556,7 @@
 24	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s64
-# text = Habitat bangau mahkota merah ada di rawa - rawa, pinggir sungai, persawahan dan lahan - lahan basah.
+# text = Habitat bangau mahkota merah ada di rawa-rawa, pinggir sungai, persawahan dan lahan-lahan basah.
 1	Habitat	habitat	PROPN	NSD	Number=Sing	5	nsubj	_	MorphInd=^habitat<n>_NSD$
 2	bangau	bangau	VERB	X--	_	1	dep	_	MorphInd=^bangau<x>_X--$
 3	mahkota	mahkota	NOUN	X--	_	2	obj	_	MorphInd=^mahkota<x>_X--$
@@ -1668,7 +1668,7 @@
 19	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s70
-# text = Baru - baru ini, resor telah menggunakan kata - kata "Maximum Vegas" karena banyaknya aktivitas yang ditawarkan MGM Grand pada tamunya.
+# text = Baru-baru ini, resor telah menggunakan kata-kata "Maximum Vegas" karena banyaknya aktivitas yang ditawarkan MGM Grand pada tamunya.
 1	Baru-baru	baru	ADJ	ASP	Degree=Pos|Number=Plur	6	amod	_	MorphInd=^baru<a>_ASP$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
@@ -1963,7 +1963,7 @@
 14	.	.	PUNCT	Z--	_	13	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s85
-# text = Anak - anak, wanita dan orang tua berkumpul di Potocari untuk mencari perlindungan dari pasukan Belanda.
+# text = Anak-anak, wanita dan orang tua berkumpul di Potocari untuk mencari perlindungan dari pasukan Belanda.
 1	Anak-anak	anak	PROPN	NSD	Number=Plur	7	nsubj	_	MorphInd=^anak<n>_NSD$|SpaceAfter=No
 2	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 3	wanita	wanita	NOUN	NSD	Number=Sing	1	conj	_	MorphInd=^wanita<n>_NSD$
@@ -2568,7 +2568,7 @@
 14	.	.	PUNCT	Z--	_	13	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s105
-# text = Adalah sebuah kemungkinan untuk membayangkan ruang - waktu yang terputus, masing - masing sudah ada tapi tidak dapat berinteraksi satu sama lain.
+# text = Adalah sebuah kemungkinan untuk membayangkan ruang - waktu yang terputus, masing-masing sudah ada tapi tidak dapat berinteraksi satu sama lain.
 1	Adalah	adalah	AUX	O--	_	3	cop	_	MorphInd=^adalah<o>_O--$
 2	sebuah	sebuah	DET	B--	PronType=Ind	3	det	_	MorphInd=^sebuah<b>_B--$
 3	kemungkinan	kemungkinan	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^kemungkinan<n>_NSD$
@@ -2625,7 +2625,7 @@
 19	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s108
-# text = Namun demikian, pada akhir - akhir ini budaya gotong royong hampir terkikis dengan masuknya budaya - budaya dari luar desa Padaherang dan kemajuan teknologi.
+# text = Namun demikian, pada akhir-akhir ini budaya gotong royong hampir terkikis dengan masuknya budaya-budaya dari luar desa Padaherang dan kemajuan teknologi.
 1	Namun	namun	CCONJ	S--	_	11	cc	_	MorphInd=^namun<s>_S--$
 2	demikian	demikian	ADV	S--	_	1	advmod	_	SpaceAfter=No|MorphInd=^demikian<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
@@ -2755,7 +2755,7 @@
 26	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s113
-# text = Semua perundangan ditulis dalam bahasa Walio menggunakan huruf Arab, yang dinamakan Buru Wolio seperti kerajaan - kerajaan Melayu menggunakan bahasa Melayu tulisan Melayu / Jawi. Huruf dan bahasa tersebut selain digunakan untuk perundangan, juga digunakan dalam penulisan salasilah kesultanan, naskhah - naskhah dan lain - lain.
+# text = Semua perundangan ditulis dalam bahasa Walio menggunakan huruf Arab, yang dinamakan Buru Wolio seperti kerajaan-kerajaan Melayu menggunakan bahasa Melayu tulisan Melayu / Jawi. Huruf dan bahasa tersebut selain digunakan untuk perundangan, juga digunakan dalam penulisan salasilah kesultanan, naskhah-naskhah dan lain-lain.
 1	Semua	semua	PRON	B--	PronType=Tot	3	nsubj:pass	_	MorphInd=^semua<b>_B--$
 2	perundangan	perundangan	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^per+undang<n>+an_NSD$
 3	ditulis	ditulis	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+tulis<v>_VSP$
@@ -2902,7 +2902,7 @@
 12	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s120
-# text = Teori merupakan sebuah relasi dari konsep - konsep atau secara lebih jelasnya teori merupakan bagaimana konsep - konsep berhubungan.
+# text = Teori merupakan sebuah relasi dari konsep-konsep atau secara lebih jelasnya teori merupakan bagaimana konsep-konsep berhubungan.
 1	Teori	teori	PROPN	NSD	Number=Sing	2	nsubj	_	MorphInd=^teori<n>_NSD$
 2	merupakan	merupakan	VERB	O--	_	0	root	_	MorphInd=^merupakan<o>_O--$
 3	sebuah	sebuah	DET	B--	PronType=Ind	4	det	_	MorphInd=^sebuah<b>_B--$
@@ -2968,7 +2968,7 @@
 10	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s124
-# text = Dalam sebuah pidato di South Carolina pada tanggal 16 April 1947, Baruch menyatakan bahwa: "Janganlah kita tertipu: hari ini kita ada di tengah - tengah perang dingin."
+# text = Dalam sebuah pidato di South Carolina pada tanggal 16 April 1947, Baruch menyatakan bahwa: "Janganlah kita tertipu: hari ini kita ada di tengah-tengah perang dingin."
 1	Dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	3	case	_	MorphInd=^dalam<a>_ASP$
 2	sebuah	sebuah	DET	B--	PronType=Ind	3	det	_	MorphInd=^sebuah<b>_B--$
 3	pidato	pidato	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^pidato<n>_NSD$
@@ -3040,7 +3040,7 @@
 8	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s127
-# text = "C" yakni konsekuensi - konsekuensi berupa gejala neurotik dan emosi negatif seperti panik, dendam, dan amarah karena depresi yang bersumber dari keyakinan yang keliru.
+# text = "C" yakni konsekuensi-konsekuensi berupa gejala neurotik dan emosi negatif seperti panik, dendam, dan amarah karena depresi yang bersumber dari keyakinan yang keliru.
 1	"	"	PUNCT	Z--	_	2	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 2	C	c	PROPN	F--	_	0	root	_	SpaceAfter=No|MorphInd=^c<f>_F--$
 3	"	"	PUNCT	Z--	_	2	punct	_	MorphInd=^"<z>_Z--$
@@ -3070,7 +3070,7 @@
 27	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s128
-# text = Di rumah pada waktu senggang, ia mencoba mengarang lagu anak - anak sambil memetik gitar miliknya.
+# text = Di rumah pada waktu senggang, ia mencoba mengarang lagu anak-anak sambil memetik gitar miliknya.
 1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
 2	rumah	rumah	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^rumah<n>_NSD$
 3	pada	pada	ADP	R--	_	4	case	_	MorphInd=^pada<r>_R--$
@@ -3089,7 +3089,7 @@
 16	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s129
-# text = Dari segi fasilitas, SMK Negeri 2 Depok memiliki gedung sekolah bagi setiap jurusan, sarana praktik, dua lokasi tempat parkir (bagi guru dan bagi siswa), auditorium, lab bahasa, kantin yang dinyatakan sebagai kantin terbaik antara SMA / SMK di kabupaten Sleman, masjid, ruang sidang, gedung - gedung dan ruangan untuk berbagai subsekbid (organisasi - organisasi dibawah OSIS SMK Negeri 2 Depok, yaitu; KTYME - K (YOC), KTYME - I KBPL, KBBP, BPPK, PAKS, dan KJDK) dan lapangan sepak bola, voli, basket.
+# text = Dari segi fasilitas, SMK Negeri 2 Depok memiliki gedung sekolah bagi setiap jurusan, sarana praktik, dua lokasi tempat parkir (bagi guru dan bagi siswa), auditorium, lab bahasa, kantin yang dinyatakan sebagai kantin terbaik antara SMA / SMK di kabupaten Sleman, masjid, ruang sidang, gedung-gedung dan ruangan untuk berbagai subsekbid (organisasi-organisasi dibawah OSIS SMK Negeri 2 Depok, yaitu; KTYME - K (YOC), KTYME - I KBPL, KBBP, BPPK, PAKS, dan KJDK) dan lapangan sepak bola, voli, basket.
 1	Dari	dari	ADP	R--	_	2	case	_	MorphInd=^dari<r>_R--$
 2	segi	segi	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^segi<n>_NSD$
 3	fasilitas	fasilitas	NOUN	NSD	Number=Sing	2	compound	_	SpaceAfter=No|MorphInd=^fasilitas<n>_NSD$
@@ -3229,7 +3229,7 @@
 4	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s132
-# text = Dikenal karena kemampuannya yang mengacau permainan bek, wataknya agresif, saat diarahkan dalam arah yang benar, dapat dijadikan sebagai penggerak kawan - kawan setimnya.
+# text = Dikenal karena kemampuannya yang mengacau permainan bek, wataknya agresif, saat diarahkan dalam arah yang benar, dapat dijadikan sebagai penggerak kawan-kawan setimnya.
 1	Dikenal	dikenal	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+kenal<v>_VSP$
 2	karena	karena	CCONJ	S--	_	3	cc	_	MorphInd=^karena<s>_S--$
 3	kemampuannya	kemampuan	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	_	MorphInd=^ke+mampu<a>+an_NSD+dia<p>_PS3$
@@ -3865,7 +3865,7 @@
 22	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s161
-# text = Buku ini terkenal dengan gaya penulisannya yang secara bebas mempergunakan catatan kaki untuk menyuarakan komentar - komentar sarkastis dari salah satu tokoh utamanya, Bartimaeus.
+# text = Buku ini terkenal dengan gaya penulisannya yang secara bebas mempergunakan catatan kaki untuk menyuarakan komentar-komentar sarkastis dari salah satu tokoh utamanya, Bartimaeus.
 1	Buku	buku	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^buku<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	terkenal	terkenal	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^ter+kenal<v>_VSP$
@@ -4293,7 +4293,7 @@
 24	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s182
-# text = Menurut tradisi, bangsa Saxon (beserta suku - suku lainnya) pertama kali memasuki Britania secara bersama - sama sebagai bagian dari kesepakatan untuk melindungi suku Briton dari gangguan suku Pikt, suku Gael, dan sejumlah suku lainnya.
+# text = Menurut tradisi, bangsa Saxon (beserta suku-suku lainnya) pertama kali memasuki Britania secara bersama - sama sebagai bagian dari kesepakatan untuk melindungi suku Briton dari gangguan suku Pikt, suku Gael, dan sejumlah suku lainnya.
 1	Menurut	menurut	ADP	R--	_	2	case	_	MorphInd=^menurut<r>_R--$
 2	tradisi	tradisi	NOUN	NSD	Number=Sing	13	obl	_	SpaceAfter=No|MorphInd=^tradisi<n>_NSD$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
@@ -4507,7 +4507,7 @@
 16	?	?	PUNCT	Z--	_	4	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s191
-# text = Akan tetapi, pada waktu yang sama, Peter dari Torres, Giudice Cagliari dan saudara laki - laki Konstantinus, memberontak melawan warga Pisa dan mengusir mereka, bersekutu dengan Genoa melawan mereka dan melawan Peter dari Arborea.
+# text = Akan tetapi, pada waktu yang sama, Peter dari Torres, Giudice Cagliari dan saudara laki-laki Konstantinus, memberontak melawan warga Pisa dan mengusir mereka, bersekutu dengan Genoa melawan mereka dan melawan Peter dari Arborea.
 1	Akan	akan	ADV	M--	_	0	root	_	MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	dep	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
@@ -4941,7 +4941,7 @@
 9	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s210
-# text = [376] musik Rock mewarisi tradisi rakyat dari lagu protes, membuat pernyataan politik tentang topik, seperti perang, agama, kemiskinan, hak - hak sipil, keadilan dan lingkungan [377] aktivisme politik.
+# text = [376] musik Rock mewarisi tradisi rakyat dari lagu protes, membuat pernyataan politik tentang topik, seperti perang, agama, kemiskinan, hak-hak sipil, keadilan dan lingkungan [377] aktivisme politik.
 1	[	[	PUNCT	Z--	_	2	punct	_	SpaceAfter=No|MorphInd=^[<z>_Z--$
 2	376	376	NUM	CC-	NumType=Card	6	nummod	_	SpaceAfter=No|MorphInd=^376<c>_CC-$
 3	]	]	PUNCT	Z--	_	2	punct	_	MorphInd=^]<z>_Z--$
@@ -4981,7 +4981,7 @@
 37	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s211
-# text = Love Indonesia menyediakan filter pencarian untuk Hotel yang tersedia di Jakarta dan kota - kota lain berdasarkan nama, terdekat ke pengguna, akreditasi Hotel bintang, tipe, lokasi dan promosi.
+# text = Love Indonesia menyediakan filter pencarian untuk Hotel yang tersedia di Jakarta dan kota-kota lain berdasarkan nama, terdekat ke pengguna, akreditasi Hotel bintang, tipe, lokasi dan promosi.
 1	Love	love	PROPN	F--	_	3	nsubj	_	MorphInd=^love<f>_F--$
 2	Indonesia	indonesia	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^indonesia<n>_NSD$
 3	menyediakan	mensediakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+sedia<v>+kan_VSA$
@@ -5081,7 +5081,7 @@
 10	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s215
-# text = Juru bicara BMKG menyatakan, gempa Bumi dirasakan di kota - kota terdekat, tapi tidak ada kerusakan maupun korban jiwa yang dilaporkan.
+# text = Juru bicara BMKG menyatakan, gempa Bumi dirasakan di kota-kota terdekat, tapi tidak ada kerusakan maupun korban jiwa yang dilaporkan.
 1	Juru	juru	PROPN	NSD	Number=Sing	4	nsubj	_	MorphInd=^juru<n>_NSD$
 2	bicara	bicara	NOUN	VSA	Number=Sing|Voice=Act	1	compound	_	MorphInd=^bicara<v>_VSA$
 3	BMKG	bmkg	ADP	X--	_	2	case	_	MorphInd=^bmkg<x>_X--$
@@ -5131,7 +5131,7 @@
 22	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s217
-# text = Bentuk pameran inilah yang dipilih oleh para sponsor dari berbagai negara untuk menyelenggarakan aneka kegiatan pekan raya di kota - kota di Inggris guna menampilkan produk - produk makanan, anggur, bahan - bahan pakaian, barang pecah - belah, benda - benda kaca atau souvenir.
+# text = Bentuk pameran inilah yang dipilih oleh para sponsor dari berbagai negara untuk menyelenggarakan aneka kegiatan pekan raya di kota-kota di Inggris guna menampilkan produk-produk makanan, anggur, bahan-bahan pakaian, barang pecah - belah, benda-benda kaca atau souvenir.
 1	Bentuk	bentuk	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^bentuk<n>_NSD$
 2	pameran	pameran	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^pamer<v>+an_NSD$
 3	inilah	ini	DET	B--+T--	PronType=Dem	2	det	_	MorphInd=^ini<b>_B--+lah<t>_T--$
@@ -5321,7 +5321,7 @@
 2	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s223
-# text = “Kuburan Keling” di Minangkabau dalam bahaya kepunahan karena dibongkar oleh akar - akar pohon karet.
+# text = “Kuburan Keling” di Minangkabau dalam bahaya kepunahan karena dibongkar oleh akar-akar pohon karet.
 1	“	“	PUNCT	Z--	_	2	punct	_	SpaceAfter=No|MorphInd=^“<z>_Z--$
 2	Kuburan	kuburan	PROPN	NSD	Number=Sing	0	root	_	MorphInd=^kubur<v>+an_NSD$
 3	Keling	keling	PROPN	X--	_	2	flat	_	SpaceAfter=No|MorphInd=^keling<x>_X--$
@@ -5467,7 +5467,7 @@
 12	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s231
-# text = Nikel Raney yang tersedia secara komersial memiliki luas permukaan rata - rata 100 m² per gram katalis.
+# text = Nikel Raney yang tersedia secara komersial memiliki luas permukaan rata-rata 100 m² per gram katalis.
 1	Nikel	nikel	PROPN	NSD	Number=Sing	7	nsubj	_	MorphInd=^nikel<n>_NSD$
 2	Raney	raney	PROPN	X--	_	1	flat	_	MorphInd=^raney<x>_X--$
 3	yang	yang	PRON	S--	PronType=Rel	4	det	_	MorphInd=^yang<s>_S--$
@@ -5773,7 +5773,7 @@
 26	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s248
-# text = Di Surabaya, ia bertemu dengan seorang pedagang arloji asal Jerman, Johannes Emde, yang sangat peduli dengan penginjilan di kalangan orang Jawa. Kam turut berjasa menanamkan kesadaran akan panginjilan di dalam diri Emde. Selain itu, Kam juga membentuk komunitas kecil Orang - orang Saleh Surabaya, yang giat dalam penginjilan.
+# text = Di Surabaya, ia bertemu dengan seorang pedagang arloji asal Jerman, Johannes Emde, yang sangat peduli dengan penginjilan di kalangan orang Jawa. Kam turut berjasa menanamkan kesadaran akan panginjilan di dalam diri Emde. Selain itu, Kam juga membentuk komunitas kecil Orang-orang Saleh Surabaya, yang giat dalam penginjilan.
 1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
 2	Surabaya	surabaya	PROPN	NSD	Number=Sing	5	obl	_	SpaceAfter=No|MorphInd=^surabaya<n>_NSD$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
@@ -6009,7 +6009,7 @@
 11	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s258
-# text = Selain para tentara utama, Pasukan Akhemeniyah juga memiliki satuan tambahan berupa kelompok - kelompok tentara bersenjatakan panah atau lembing.
+# text = Selain para tentara utama, Pasukan Akhemeniyah juga memiliki satuan tambahan berupa kelompok-kelompok tentara bersenjatakan panah atau lembing.
 1	Selain	selain	ADP	ASP	Degree=Pos|Number=Sing	3	case	_	MorphInd=^se+lain<a>_ASP$
 2	para	para	DET	B--	PronType=Dem	3	det	_	MorphInd=^para<b>_B--$
 3	tentara	tentara	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^tentara<n>_NSD$
@@ -6226,7 +6226,7 @@
 12	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s268
-# text = Dari pipa - pipa yang dicat hijau itu, meluncur air dengan derasnya.
+# text = Dari pipa-pipa yang dicat hijau itu, meluncur air dengan derasnya.
 1	Dari	dari	ADP	R--	_	2	case	_	MorphInd=^dari<r>_R--$
 2	pipa-pipa	pipa	NOUN	NSD	Number=Plur	8	obl	_	MorphInd=^pipa<n>_NSD$
 3	yang	yang	PRON	S--	PronType=Rel	4	nsubj:pass	_	MorphInd=^yang<s>_S--$
@@ -6271,7 +6271,7 @@
 6	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s271
-# text = Selain itu dengan latar belakang gunung - gunung (Gunung Selili).
+# text = Selain itu dengan latar belakang gunung-gunung (Gunung Selili).
 1	Selain	selain	ADP	ASP	Degree=Pos|Number=Sing	3	dep	_	MorphInd=^se+lain<a>_ASP$
 2	itu	itu	DET	B--	PronType=Dem	1	det	_	MorphInd=^itu<b>_B--$
 3	dengan	dengan	ADP	R--	_	0	root	_	MorphInd=^dengan<r>_R--$
@@ -6711,7 +6711,7 @@
 24	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s291
-# text = Namun seorang bijak telah muncul - - si petugas sensus - - dan perkiraan besarnya tentang minat insani ternyata lebih disukai dalam cerita - cerita singkat 'Four Million.'"
+# text = Namun seorang bijak telah muncul - - si petugas sensus - - dan perkiraan besarnya tentang minat insani ternyata lebih disukai dalam cerita-cerita singkat 'Four Million.'"
 1	Namun	namun	SCONJ	S--	_	5	mark	_	MorphInd=^namun<s>_S--$
 2	seorang	seorang	DET	B--	PronType=Ind	3	det	_	MorphInd=^seorang<b>_B--$
 3	bijak	bijak	NOUN	ASP	Degree=Pos|Number=Sing	5	nsubj	_	MorphInd=^bijak<a>_ASP$
@@ -6856,7 +6856,7 @@
 24	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s298
-# text = Armada Farragut terdiri dari 18 kapal Union, 4 kapal ironclad dan 14 kapal lainnya, yang dapat berhadapan dengan kapal - kapal konfederasi yang mempertahankan Teluk Mobile.
+# text = Armada Farragut terdiri dari 18 kapal Union, 4 kapal ironclad dan 14 kapal lainnya, yang dapat berhadapan dengan kapal-kapal konfederasi yang mempertahankan Teluk Mobile.
 1	Armada	armada	PROPN	NSD	Number=Sing	3	nsubj	_	MorphInd=^armada<n>_NSD$
 2	Farragut	farragut	PROPN	X--	_	1	flat	_	MorphInd=^farragut<x>_X--$
 3	terdiri	terdiri	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^ter+diri<n>_VSP$
@@ -7662,7 +7662,7 @@
 48	.	.	PUNCT	Z--	_	29	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s328
-# text = Yeonsangun akhirnya disingkirkan oleh sisa - sisa faksi Hungu dan adiknya yang lain ibu naik tahta jadi Raja Jungjong pada tahun 1506.
+# text = Yeonsangun akhirnya disingkirkan oleh sisa-sisa faksi Hungu dan adiknya yang lain ibu naik tahta jadi Raja Jungjong pada tahun 1506.
 1	Yeonsangun	yeonsangun	PROPN	X--	_	3	nsubj:pass	_	MorphInd=^yeonsangun<x>_X--$
 2	akhirnya	akhirnya	ADV	B--	_	3	advmod	_	MorphInd=^akhirnya<b>_B--$
 3	disingkirkan	disingkirkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+singkir<v>+kan_VSP$
@@ -7798,7 +7798,7 @@
 8	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s336
-# text = ひ, dalam hiragana, atau ヒ dalam katakana, adalah sebuah kana dalam bahasa Jepang, yang masing - masing melambangkan suatu mora.
+# text = ひ, dalam hiragana, atau ヒ dalam katakana, adalah sebuah kana dalam bahasa Jepang, yang masing-masing melambangkan suatu mora.
 1	ひ	ひ	PROPN	X--	_	13	nsubj	_	SpaceAfter=No|MorphInd=^ひ<x>_X--$
 2	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
 3	dalam	dalam	ADP	R--	_	4	case	_	MorphInd=^dalam<r>_R--$
@@ -7824,7 +7824,7 @@
 23	.	.	PUNCT	Z--	_	13	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s337
-# text = Mereka terutama mempelajari teks - teks berima dari masa pra - Qin, terutama Shijing, dan petunjuk dari fakta bahwa karakter - karakter yang memiliki komponen fonetis yang sama (形聲), dahulu adalah homofon atau hampir - homofon ketika karakter - karakter ini diciptakan.
+# text = Mereka terutama mempelajari teks-teks berima dari masa pra - Qin, terutama Shijing, dan petunjuk dari fakta bahwa karakter-karakter yang memiliki komponen fonetis yang sama (形聲), dahulu adalah homofon atau hampir - homofon ketika karakter-karakter ini diciptakan.
 1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	MorphInd=^mereka<p>_PP3$
 2	terutama	terutama	ADV	ASS	Degree=Sup|Number=Sing	3	advmod	_	MorphInd=^ter+utama<a>_ASS$
 3	mempelajari	menpelajari	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+pelajar<n>+i_VSA$
@@ -7869,7 +7869,7 @@
 42	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s338
-# text = Daya yang diboroskan rata - rata adalah kecil karena transistor hanya hidup sebentar selama periode siklus.
+# text = Daya yang diboroskan rata-rata adalah kecil karena transistor hanya hidup sebentar selama periode siklus.
 1	Daya	daya	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^daya<n>_NSD$
 2	yang	yang	PRON	S--	PronType=Rel	3	nsubj	_	MorphInd=^yang<s>_S--$
 3	diboroskan	diboroskan	VERB	VSP	Number=Sing|Voice=Pass	1	acl	_	MorphInd=^di+boros<a>+kan_VSP$
@@ -7929,7 +7929,7 @@
 19	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s341
-# text = Ditemukannya H - FABP dalam berbagai jenis jaringan merupakan tanda - tanda infak miokardial akut.
+# text = Ditemukannya H - FABP dalam berbagai jenis jaringan merupakan tanda-tanda infak miokardial akut.
 1	Ditemukannya	ditemukan	VERB	VSP+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Pass	9	csubj	_	MorphInd=^di+temu<v>+kan_VSP+dia<p>_PS3$
 2	H	h	PROPN	F--	_	1	obj	_	MorphInd=^h<f>_F--$
 3	-	-	PUNCT	Z--	_	4	punct	_	MorphInd=^-<z>_Z--$
@@ -7958,7 +7958,7 @@
 9	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s343
-# text = Robertson menuduh acuan mengenai dua belas rasul dan Perjamuan Kudus Yesus sebagai interpolasi, dan menyatakan bahwa figur Yesus dalam surat - surat Paulus hanya disebutkan sebagai penyelamat yang disalibkan dan "bukan sebagai guru atau pembawa mukjizat".
+# text = Robertson menuduh acuan mengenai dua belas rasul dan Perjamuan Kudus Yesus sebagai interpolasi, dan menyatakan bahwa figur Yesus dalam surat-surat Paulus hanya disebutkan sebagai penyelamat yang disalibkan dan "bukan sebagai guru atau pembawa mukjizat".
 1	Robertson	robertson	PROPN	F--	_	2	nsubj	_	MorphInd=^robertson<f>_F--$
 2	menuduh	mentuduh	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tuduh<v>_VSA$
 3	acuan	acuan	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^acu<v>+an_NSD$
@@ -9163,7 +9163,7 @@
 18	.	.	PUNCT	Z--	_	17	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s397
-# text = Garis kebijakan yang dikeluarkan sejak dilantik tanggal 18 Maret 1996 lalu tertuang dalam butir - butir kebijakan, yaitu: Sosialisasi Gerakan Displin National, Pembentukan / Kerjasama Tim, Konsistensi Pendekatan Hukum, Pelayanan Terbaik dan Amankan dan Sukseskan Pemilu 1997 &amp; Sidang Umum MPR 1998, yang diarahkan untuk mewujudkan penampilan peroranjyan / individu, penampilan satuan dan pennmpilan operasional.
+# text = Garis kebijakan yang dikeluarkan sejak dilantik tanggal 18 Maret 1996 lalu tertuang dalam butir-butir kebijakan, yaitu: Sosialisasi Gerakan Displin National, Pembentukan / Kerjasama Tim, Konsistensi Pendekatan Hukum, Pelayanan Terbaik dan Amankan dan Sukseskan Pemilu 1997 &amp; Sidang Umum MPR 1998, yang diarahkan untuk mewujudkan penampilan peroranjyan / individu, penampilan satuan dan pennmpilan operasional.
 1	Garis	garis	PROPN	NSD	Number=Sing	2	nsubj	_	MorphInd=^garis<n>_NSD$
 2	kebijakan	kebijakan	NOUN	NSD	Number=Sing	12	nsubj:pass	_	MorphInd=^ke+bijak<a>+an_NSD$
 3	yang	yang	PRON	S--	PronType=Rel	4	nsubj:pass	_	MorphInd=^yang<s>_S--$
@@ -9252,7 +9252,7 @@
 22	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s399
-# text = Sejak perang pecah pada 7 Juli, Jepang memfokuskan diri pada operasi - operasi militer, utamanya di Cina Utara, meliputi propinsi Hebei, Shanxi, dan Chahar.
+# text = Sejak perang pecah pada 7 Juli, Jepang memfokuskan diri pada operasi-operasi militer, utamanya di Cina Utara, meliputi propinsi Hebei, Shanxi, dan Chahar.
 1	Sejak	sejak	ADP	S--	_	2	case	_	MorphInd=^sejak<s>_S--$
 2	perang	perang	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^perang<n>_NSD$
 3	pecah	pecah	ADJ	VSA	Number=Sing|Voice=Act	2	amod	_	MorphInd=^pecah<v>_VSA$
@@ -9534,7 +9534,7 @@
 22	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s409
-# text = Bagi sebagian orang, Israel, Uni Eropa, atau Perserikatan Bangsa - Bangsa dipandang sebagai pemain - pemain utama yang peranannya telah diramalkan dalam Kitab Suci. Di antara para penulis pra - milenial dispensasional, ada orang - orang yang percaya bahwa orang Kristen secara adikodrati akan dikumpulkan ke surga oleh Yesus dalam suatu peristiwa yang disebut Pengangkatan, yang terjadi sebelum “Penderitaan Besar” yang dinubuatkan dalam Matius 24 - 25; Markus 13 dan Lukas 21.
+# text = Bagi sebagian orang, Israel, Uni Eropa, atau Perserikatan Bangsa-Bangsa dipandang sebagai pemain-pemain utama yang peranannya telah diramalkan dalam Kitab Suci. Di antara para penulis pra - milenial dispensasional, ada orang-orang yang percaya bahwa orang Kristen secara adikodrati akan dikumpulkan ke surga oleh Yesus dalam suatu peristiwa yang disebut Pengangkatan, yang terjadi sebelum “Penderitaan Besar” yang dinubuatkan dalam Matius 24 - 25; Markus 13 dan Lukas 21.
 1	Bagi	bagi	ADP	VSA	Number=Sing|Voice=Act	13	nsubj	_	MorphInd=^bagi<v>_VSA$
 2	sebagian	sebagian	DET	ASP	Degree=Pos|Number=Sing	3	det	_	MorphInd=^sebagian<a>_ASP$
 3	orang	orang	NOUN	NSD	Number=Sing	1	nmod	_	SpaceAfter=No|MorphInd=^orang<n>_NSD$
@@ -9613,7 +9613,7 @@
 76	.	.	PUNCT	Z--	_	34	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s410
-# text = Semasa perang, pemerintah membagikan pakaian seragam untuk penduduk laki - laki.
+# text = Semasa perang, pemerintah membagikan pakaian seragam untuk penduduk laki-laki.
 1	Semasa	semasa	ADV	ASP	Degree=Pos|Number=Sing	5	advmod	_	MorphInd=^se+masa<n>_ASP$
 2	perang	perang	NOUN	NSD	Number=Sing	1	compound	_	SpaceAfter=No|MorphInd=^perang<n>_NSD$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
@@ -9664,7 +9664,7 @@
 14	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s413
-# text = 'SOLA GRACIA' ("dari Tuhan untuk kita, dan dari kita untuk Tuhan") Gereja Duta Injil memiliki pameo "Satu Duta Injil yang diberkati, bawa dua jiwa baru bagi Tuhan, Jadilah tiga Duta Injil Sejati, beribu - ribu malaikat diSurga bersorak sorai.." Dalam setiap acara reguler dan kebaktian, sangat ditekankan sikap jemaat sebagai Dua Injil yang sesungguhnya, dimana umat tersebut mampu membawa pesan keselamatan Tuhan dalam kesaksian dan sikap kehidupan sehari - hari tanpa harus berbicara, sehingga menjadi kitab terbuka bagi lingkungan dimanapun mereka berada... Web - site untuk jadwal kebaktian, updated info dan lain - lain Mal Ambasador, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Telp. (021) 5760617, 5760676 Fax. (021) 5760677 Umat Gereja Duta Injili percaya akan tiga hal: ialah Tuhan Pencipta, Ia selalu benar.
+# text = 'SOLA GRACIA' ("dari Tuhan untuk kita, dan dari kita untuk Tuhan") Gereja Duta Injil memiliki pameo "Satu Duta Injil yang diberkati, bawa dua jiwa baru bagi Tuhan, Jadilah tiga Duta Injil Sejati, beribu - ribu malaikat diSurga bersorak sorai.." Dalam setiap acara reguler dan kebaktian, sangat ditekankan sikap jemaat sebagai Dua Injil yang sesungguhnya, dimana umat tersebut mampu membawa pesan keselamatan Tuhan dalam kesaksian dan sikap kehidupan sehari - hari tanpa harus berbicara, sehingga menjadi kitab terbuka bagi lingkungan dimanapun mereka berada... Web - site untuk jadwal kebaktian, updated info dan lain-lain Mal Ambasador, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Telp. (021) 5760617, 5760676 Fax. (021) 5760677 Umat Gereja Duta Injili percaya akan tiga hal: ialah Tuhan Pencipta, Ia selalu benar.
 1	'	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	SOLA	sola	PROPN	X--	_	22	parataxis	_	MorphInd=^sola<x>_X--$
 3	GRACIA	gracia	PROPN	X--	_	2	flat	_	SpaceAfter=No|MorphInd=^gracia<x>_X--$
@@ -9914,7 +9914,7 @@
 17	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s419
-# text = Negara - negara (bagian) diwakili di Dewan Federal (Bundesrat) dengan 43 kursi (Prusia mendapatkan 17 kursi).
+# text = Negara-negara (bagian) diwakili di Dewan Federal (Bundesrat) dengan 43 kursi (Prusia mendapatkan 17 kursi).
 1	Negara-negara	negara	PROPN	NSD	Number=Plur	5	nsubj:pass	_	MorphInd=^negara<n>_NSD$
 2	(	(	PUNCT	Z--	_	3	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 3	bagian	bagian	NOUN	NSD	Number=Sing	1	appos	_	SpaceAfter=No|MorphInd=^bagi<v>+an_NSD$
@@ -10065,7 +10065,7 @@
 11	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s428
-# text = Fotografer atau juru foto () adalah orang - orang yang membuat gambar dengan cara menangkap cahaya dari subyek gambar dengan kamera maupun peralatan fotografi lainnya, dan umumnya memikirkan seni dan teknik untuk menghasilkan foto yang lebih bagus serta berusaha mengembangkan ilmunya.
+# text = Fotografer atau juru foto () adalah orang-orang yang membuat gambar dengan cara menangkap cahaya dari subyek gambar dengan kamera maupun peralatan fotografi lainnya, dan umumnya memikirkan seni dan teknik untuk menghasilkan foto yang lebih bagus serta berusaha mengembangkan ilmunya.
 1	Fotografer	fotografer	PROPN	X--	_	8	nsubj	_	MorphInd=^fotografer<x>_X--$
 2	atau	atau	CCONJ	H--	_	3	cc	_	MorphInd=^atau<h>_H--$
 3	juru	juru	NOUN	NSD	Number=Sing	1	conj	_	MorphInd=^juru<n>_NSD$
@@ -10137,7 +10137,7 @@
 10	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s431
-# text = Rhipicephalus sanguineus juga dapat menularkan Boutonneuse fever, Babesiosis anjing, Erlichiosis anjing dan sejumlah penyakit - penyakit lain termasuk Rocky Mountain Spotted Fever dan Q Fever.
+# text = Rhipicephalus sanguineus juga dapat menularkan Boutonneuse fever, Babesiosis anjing, Erlichiosis anjing dan sejumlah penyakit-penyakit lain termasuk Rocky Mountain Spotted Fever dan Q Fever.
 1	Rhipicephalus	rhipicephalus	PROPN	X--	_	5	nsubj	_	MorphInd=^rhipicephalus<x>_X--$
 2	sanguineus	sanguineus	PROPN	X--	_	1	flat	_	MorphInd=^sanguineus<x>_X--$
 3	juga	juga	ADV	D--	_	5	advmod	_	MorphInd=^juga<d>_D--$
@@ -10619,7 +10619,7 @@
 22	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s455
-# text = Pada saat yang sama pertemuan yang tersisah disediakan untuk anak - anak dan remaja sesuai dengan kelompok masing - masing (mirip dengan sekolah Minggu di gereja kristen lainnya).
+# text = Pada saat yang sama pertemuan yang tersisah disediakan untuk anak-anak dan remaja sesuai dengan kelompok masing-masing (mirip dengan sekolah Minggu di gereja kristen lainnya).
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
 2	saat	saat	PRON	S--	PronType=Rel	8	obl	_	MorphInd=^saat<s>_S--$
 3	yang	yang	PRON	S--	PronType=Rel	4	nsubj	_	MorphInd=^yang<s>_S--$
@@ -10872,7 +10872,7 @@
 15	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s465
-# text = Kaisar Gaozu yang baru menyadari bahwa Liu bukanlah lawan yang bisa dipandang sebelah mata, mengirim putra keduanya, Li Shimin dan putra keempat, Li Yuanji, Pangeran Qi untuk menumpas pemberontakan Liu. Pada musim panas 622, Liu menggelari dirinya sebagai Pangeran Handong (汉 东 王), ia mengorganisasi pemerintahannya sama seperti Dou dulu, ia banyak mempekerjakan para mantan pejabat Xia. Sejarah mencatat bahwa ia lebih hebat dan lebih tegas dalam tindakan - tindakan militernya daripada Dou. Ia menjadikan Mingzhou (sekarang wilayah Handan) sebagai ibukotanya.
+# text = Kaisar Gaozu yang baru menyadari bahwa Liu bukanlah lawan yang bisa dipandang sebelah mata, mengirim putra keduanya, Li Shimin dan putra keempat, Li Yuanji, Pangeran Qi untuk menumpas pemberontakan Liu. Pada musim panas 622, Liu menggelari dirinya sebagai Pangeran Handong (汉 东 王), ia mengorganisasi pemerintahannya sama seperti Dou dulu, ia banyak mempekerjakan para mantan pejabat Xia. Sejarah mencatat bahwa ia lebih hebat dan lebih tegas dalam tindakan-tindakan militernya daripada Dou. Ia menjadikan Mingzhou (sekarang wilayah Handan) sebagai ibukotanya.
 1	Kaisar	kaisar	PROPN	NSD	Number=Sing	16	nsubj	_	MorphInd=^kaisar<n>_NSD$
 2	Gaozu	gaozu	NOUN	X--	_	1	compound	_	MorphInd=^gaozu<x>_X--$
 3	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	MorphInd=^yang<s>_S--$
@@ -11202,7 +11202,7 @@
 29	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s475
-# text = Syair Hamzah al - Fansuri banyak terpengaruh puisi - puisi Arab dan Persia (seperti rubaiyat karya Umar Khayyam), namun terdapat perbedaan.
+# text = Syair Hamzah al - Fansuri banyak terpengaruh puisi-puisi Arab dan Persia (seperti rubaiyat karya Umar Khayyam), namun terdapat perbedaan.
 1	Syair	syair	PROPN	NSD	Number=Sing	7	nsubj:pass	_	MorphInd=^syair<n>_NSD$
 2	Hamzah	hamzah	PROPN	X--	_	1	flat	_	MorphInd=^hamzah<x>_X--$
 3	al	al	PROPN	F--	_	5	det	_	MorphInd=^al<f>_F--$
@@ -11410,7 +11410,7 @@
 26	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s483
-# text = Sebagian besar dari teks - teks ini ditulis setelah abad ke - 11.
+# text = Sebagian besar dari teks-teks ini ditulis setelah abad ke - 11.
 1	Sebagian	sebagian	DET	ASP	Degree=Pos|Number=Sing	4	det	_	MorphInd=^sebagian<a>_ASP$
 2	besar	besar	ADJ	ASP	Degree=Pos|Number=Sing	1	amod	_	MorphInd=^besar<a>_ASP$
 3	dari	dari	ADP	R--	_	4	case	_	MorphInd=^dari<r>_R--$
@@ -11801,7 +11801,7 @@
 35	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s499
-# text = Di tengah keberhasilan menaklukan para pesaingnya, konflik antara putra - putra Gaozu, Li Jiancheng dan Li Shimin semakin tajam.
+# text = Di tengah keberhasilan menaklukan para pesaingnya, konflik antara putra-putra Gaozu, Li Jiancheng dan Li Shimin semakin tajam.
 1	Di	di	ADP	R--	_	4	case	_	MorphInd=^di<r>_R--$
 2	tengah	tengah	ADP	NSD	Number=Sing	3	case	_	MorphInd=^tengah<n>_NSD$
 3	keberhasilan	keberhasilan	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^ke+berhasil<a>+an_NSD$
@@ -11851,7 +11851,7 @@
 24	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s501
-# text = Diketahui ada transfer dana ke rekening Milana dalam lima kali transfer, antara 4 Desember 2009 hingga 11 Januari 2010 Tanggal 30 September Istri Gayus melahirkan anak kembar laki - laki.
+# text = Diketahui ada transfer dana ke rekening Milana dalam lima kali transfer, antara 4 Desember 2009 hingga 11 Januari 2010 Tanggal 30 September Istri Gayus melahirkan anak kembar laki-laki.
 1	Diketahui	diketahui	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+ketahui<v>_VSP$
 2	ada	ada	VERB	ASP	Degree=Pos|Number=Sing	1	advcl	_	MorphInd=^ada<a>_ASP$
 3	transfer	transfer	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^transfer<n>_NSD$
@@ -12041,7 +12041,7 @@
 13	?	?	PUNCT	Z--	_	4	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s510
-# text = ketika orang mengambil hak cipta seseorang maka orang tersebut akan mendapat hukuman yang sesuai pada kejahatan yang di lakukan Menurut UU No. 19 Tahun 2002 pasal 13, tidak ada hak cipta atas hasil rapat terbuka lembaga - lembaga Negara, peraturan perundang - undangan, pidato kenegaraan atau pidato pejabat Pemerintah, putusan pengadilan atau penetapan hakim, ataupun keputusan badan arbitrase atau keputusan badan - badan sejenis lainnya (misalnya keputusan - keputusan yang memutuskan suatu sengketa).
+# text = ketika orang mengambil hak cipta seseorang maka orang tersebut akan mendapat hukuman yang sesuai pada kejahatan yang di lakukan Menurut UU No. 19 Tahun 2002 pasal 13, tidak ada hak cipta atas hasil rapat terbuka lembaga-lembaga Negara, peraturan perundang - undangan, pidato kenegaraan atau pidato pejabat Pemerintah, putusan pengadilan atau penetapan hakim, ataupun keputusan badan arbitrase atau keputusan badan - badan sejenis lainnya (misalnya keputusan-keputusan yang memutuskan suatu sengketa).
 1	ketika	ketika	SCONJ	S--	_	3	mark	_	MorphInd=^ketika<s>_S--$
 2	orang	orang	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^orang<n>_NSD$
 3	mengambil	menambil	VERB	VSA	Number=Sing|Voice=Act	11	advcl	_	MorphInd=^meN+ambil<v>_VSA$
@@ -12670,7 +12670,7 @@
 29	!	!	PUNCT	Z--	_	16	punct	_	MorphInd=^!<z>_Z--$
 
 # sent_id = test-s534
-# text = Karya - karya terawalnya masih terikat kepada bentuk - bentuk bahasa Melayu Klasik.
+# text = Karya-karya terawalnya masih terikat kepada bentuk - bentuk bahasa Melayu Klasik.
 1	Karya-karya	karya	NOUN	NSD	Number=Plur	4	nsubj	_	MorphInd=^karya<n>_NSD$
 2	terawalnya	terawal	ADJ	VSP+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Pass	1	amod	_	MorphInd=^ter+awal<n>_VSP+dia<p>_PS3$
 3	masih	masih	ADV	D--	_	4	advmod	_	MorphInd=^masih<d>_D--$
@@ -12685,7 +12685,7 @@
 12	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s535
-# text = Film ini dirilis 17 April 2008, dua bulan setelah Ayat - ayat Cinta dirilis pada 28 Februari 2008.
+# text = Film ini dirilis 17 April 2008, dua bulan setelah Ayat-ayat Cinta dirilis pada 28 Februari 2008.
 1	Film	film	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^film<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	dirilis	dirilis	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+rilis<v>_VSP$
@@ -12726,7 +12726,7 @@
 17	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s537
-# text = Demikian juga untuk produk - produk herbal yang berasal dari bahan alami juga telah dipersiapkan proses registrasinya untuk memasuki pasar baru seperti: Filipina, Myanmar, Pakistan, Uni Emirat Arab, Oman, Bahrain and Bangladesh.
+# text = Demikian juga untuk produk-produk herbal yang berasal dari bahan alami juga telah dipersiapkan proses registrasinya untuk memasuki pasar baru seperti: Filipina, Myanmar, Pakistan, Uni Emirat Arab, Oman, Bahrain and Bangladesh.
 1	Demikian	demikian	SCONJ	S--	_	4	mark	_	MorphInd=^demikian<s>_S--$
 2	juga	juga	ADV	D--	_	4	advmod	_	MorphInd=^juga<d>_D--$
 3	untuk	untuk	ADP	R--	_	4	case	_	MorphInd=^untuk<r>_R--$
@@ -12799,7 +12799,7 @@
 12	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s540
-# text = Dibangun oleh Pemerintah dengan bantuan dana dari ADB (Asian Development Bank) Loan 356 pada tahun 1987 untuk 5 jurusan (Bangunan, Elektronika, Listrik, Teknologi Pengerjaan Logam (TPL) dan Otomotif) dengan tujuan untuk menghasilkan tenaga - tenaga ahli teknik tingkat madya yang memiliki keterampilan yang memadai dan siap pakai untuk mengisi kesempatan dalam pembangunan di tanah air.
+# text = Dibangun oleh Pemerintah dengan bantuan dana dari ADB (Asian Development Bank) Loan 356 pada tahun 1987 untuk 5 jurusan (Bangunan, Elektronika, Listrik, Teknologi Pengerjaan Logam (TPL) dan Otomotif) dengan tujuan untuk menghasilkan tenaga-tenaga ahli teknik tingkat madya yang memiliki keterampilan yang memadai dan siap pakai untuk mengisi kesempatan dalam pembangunan di tanah air.
 1	Dibangun	dibangun	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+bangun<v>_VSP$
 2	oleh	oleh	ADP	R--	_	3	case	_	MorphInd=^oleh<r>_R--$
 3	Pemerintah	penperintah	NOUN	NSD	Number=Sing	1	obl	_	MorphInd=^peN+perintah<n>_NSD$
@@ -12884,7 +12884,7 @@
 16	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s542
-# text = Setelah sebuah perampokan bank yang sukses, Ibrahim tiba - tiba menyewa pembunuh bayaran untuk menghabisi kompanyonya, Umar. Hasil ranpokan dilarikan.
+# text = Setelah sebuah perampokan bank yang sukses, Ibrahim tiba-tiba menyewa pembunuh bayaran untuk menghabisi kompanyonya, Umar. Hasil ranpokan dilarikan.
 1	Setelah	setelah	ADP	R--	_	3	case	_	MorphInd=^setelah<r>_R--$
 2	sebuah	sebuah	DET	B--	PronType=Ind	3	nsubj	_	MorphInd=^sebuah<b>_B--$
 3	perampokan	penrampokan	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^peN+rampok<v>+an_NSD$
@@ -13098,7 +13098,7 @@
 38	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s549
-# text = Meskipun begitu, ada perbedaan dengan kedua bentuk tersebut: Di luar diskusi keagamaan, rasionalisme dapat diterapkan secara lebih umum, misalnya kepada masalah - masalah politik atau sosial.
+# text = Meskipun begitu, ada perbedaan dengan kedua bentuk tersebut: Di luar diskusi keagamaan, rasionalisme dapat diterapkan secara lebih umum, misalnya kepada masalah-masalah politik atau sosial.
 1	Meskipun	meskipun	ADP	S--	_	2	case	_	MorphInd=^meskipun<s>_S--$
 2	begitu	begitu	PRON	B--	PronType=Dem	4	obl	_	SpaceAfter=No|MorphInd=^begitu<b>_B--$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
@@ -13130,7 +13130,7 @@
 29	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s550
-# text = Seruan Luther kepada Gereja agar kembali kepada ajaran - ajaran Alkitab telah melahirkan tradisi baru dalam agama Kristen.
+# text = Seruan Luther kepada Gereja agar kembali kepada ajaran-ajaran Alkitab telah melahirkan tradisi baru dalam agama Kristen.
 1	Seruan	seruan	PROPN	NSD	Number=Sing	11	nsubj	_	MorphInd=^seru<a>+an_NSD$
 2	Luther	luther	PROPN	F--	_	1	flat	_	MorphInd=^luther<f>_F--$
 3	kepada	kepada	ADP	R--	_	4	case	_	MorphInd=^kepada<r>_R--$

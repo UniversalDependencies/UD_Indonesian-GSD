@@ -287,7 +287,7 @@
 39	.	.	PUNCT	Z--	_	28	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s11
-# text = Bit - bit ganjil dapat ditingkatkan cukup banyak dengan mempertimbangkan setiap blok yang akan dikirim sebagai matriks persegi panjang dengan lebar n bit dan tinggi k bit.
+# text = Bit-bit ganjil dapat ditingkatkan cukup banyak dengan mempertimbangkan setiap blok yang akan dikirim sebagai matriks persegi panjang dengan lebar n bit dan tinggi k bit.
 1	Bit-bit	bit	NOUN	F--	Number=Plur	4	nsubj:pass	_	MorphInd=^bit<f>_F--$
 2	ganjil	ganjil	ADJ	ASP	Degree=Pos|Number=Sing	1	amod	_	MorphInd=^ganjil<a>_ASP$
 3	dapat	dapat	ADV	M--	_	4	advmod	_	MorphInd=^dapat<m>_M--$
@@ -460,7 +460,7 @@
 16	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s19
-# text = Pertemuannya dengan Jiang Wen Qing justru membuat mereka tahu tugas dan fungsi mereka masing - masing.
+# text = Pertemuannya dengan Jiang Wen Qing justru membuat mereka tahu tugas dan fungsi mereka masing-masing.
 1	Pertemuannya	pertemuan	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	MorphInd=^per+temu<n>+an_NSD+dia<p>_PS3$
 2	dengan	dengan	ADP	R--	_	3	case	_	MorphInd=^dengan<r>_R--$
 3	Jiang	jiang	PROPN	F--	_	1	nmod	_	MorphInd=^jiang<f>_F--$
@@ -478,7 +478,7 @@
 15	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s20
-# text = Dea depresi karena pacarnya, Adit telah merekam dan menyebarkan adegan mesra mereka ke teman - teman sekolah Dea melalui internet dan telepon genggam.
+# text = Dea depresi karena pacarnya, Adit telah merekam dan menyebarkan adegan mesra mereka ke teman-teman sekolah Dea melalui internet dan telepon genggam.
 1	Dea	dea	PROPN	F--	_	0	root	_	MorphInd=^dea<f>_F--$
 2	depresi	depresi	ADJ	NSD	Number=Sing	1	xcomp	_	MorphInd=^depresi<n>_NSD$
 3	karena	karena	CCONJ	S--	_	8	cc	_	MorphInd=^karena<s>_S--$
@@ -562,7 +562,7 @@
 14	?	?	PUNCT	Z--	_	11	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s23
-# text = Kisah - kisah ini diceritakannya dalam waktu seribu satu malam dan setiap malam Scheherezade mengakhiri kisahnya dengan akhir yang menegangkan sehingga sang raja pun selalu menangguhkan perintah hukuman mati pada diri Scheherazade.
+# text = Kisah-kisah ini diceritakannya dalam waktu seribu satu malam dan setiap malam Scheherezade mengakhiri kisahnya dengan akhir yang menegangkan sehingga sang raja pun selalu menangguhkan perintah hukuman mati pada diri Scheherazade.
 1	Kisah-kisah	kisah	PROPN	NSD	Number=Plur	3	nsubj:pass	_	MorphInd=^kisah<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	diceritakannya	diceritakan	VERB	VSP+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Pass	0	root	_	MorphInd=^di+cerita<n>+kan_VSP+dia<p>_PS3$
@@ -834,7 +834,7 @@
 22	.	.	PUNCT	Z--	_	17	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s36
-# text = Masing - masing jenis filsafat merupakan suatu sistem - sistem pemikiran yang luas dan plural.
+# text = Masing-masing jenis filsafat merupakan suatu sistem-sistem pemikiran yang luas dan plural.
 1	Masing-masing	masing	DET	X--	Number=Plur	3	det	_	MorphInd=^masing<x>_X--$
 2	jenis	jenis	ADJ	NSD	Number=Sing	3	amod	_	MorphInd=^jenis<n>_NSD$
 3	filsafat	filsafat	NOUN	X--	_	4	nsubj	_	MorphInd=^filsafat<x>_X--$
@@ -1116,7 +1116,7 @@
 66	.	.	PUNCT	Z--	_	35	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s45
-# text = Kitab - kitab Injil mencatat bahwa Yesus sendiri jauh - jauh hari telah memberitahukan kematian - Nya dan kebangkitan - Nya sebanyak empat kali.
+# text = Kitab-kitab Injil mencatat bahwa Yesus sendiri jauh-jauh hari telah memberitahukan kematian - Nya dan kebangkitan - Nya sebanyak empat kali.
 1	Kitab-kitab	kitab	NOUN	NSD	Number=Plur	3	nsubj	_	MorphInd=^kitab<n>_NSD$
 2	Injil	injil	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^injil<n>_NSD$
 3	mencatat	mencatat	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+catat<v>_VSA$
@@ -1181,7 +1181,7 @@
 29	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s48
-# text = Calon Pengantin (Novel) berkisah tentang Anggoro, seorang anggota Intelijen anti teror ibukota yang terperangkap cinta terlarang dengan MANDIRA Novel ini tersedia di toko - toko buku terdekat anda, seperti di Toko Buku Gramedia, Salemba, ataupun Togamas.
+# text = Calon Pengantin (Novel) berkisah tentang Anggoro, seorang anggota Intelijen anti teror ibukota yang terperangkap cinta terlarang dengan MANDIRA Novel ini tersedia di toko-toko buku terdekat anda, seperti di Toko Buku Gramedia, Salemba, ataupun Togamas.
 1	Calon	calon	PROPN	NSD	Number=Sing	6	nsubj	_	MorphInd=^calon<n>_NSD$
 2	Pengantin	pengantin	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^pengantin<n>_NSD$
 3	(	(	PUNCT	Z--	_	4	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
@@ -1239,7 +1239,7 @@
 11	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s50
-# text = Bidikan belakang AK - 47 bisa diatur, dengan setingan jarak yang selisihnya masing - masing 100 meter.
+# text = Bidikan belakang AK - 47 bisa diatur, dengan setingan jarak yang selisihnya masing-masing 100 meter.
 1	Bidikan	bidikan	NOUN	NSD	Number=Sing	7	nsubj:pass	_	MorphInd=^bidik<v>+an_NSD$
 2	belakang	belakang	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^belakang<n>_NSD$
 3	AK	ak	PROPN	F--	_	1	flat	_	MorphInd=^ak<f>_F--$
@@ -1484,7 +1484,7 @@
 18	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s59
-# text = Dia dituntut untuk membayar keseluruhan bayaran anggota lainnya yang telah ia selewengkan, dan menyerahkan hak - hak dari keluaran Dead Kennedys selama ini pada mantan anggota lainnya, yang mana mereka menemukan label lainnya untuk mengeluarkan album - album Dead Kennedys terdahulu melalui Manifesto Records.
+# text = Dia dituntut untuk membayar keseluruhan bayaran anggota lainnya yang telah ia selewengkan, dan menyerahkan hak-hak dari keluaran Dead Kennedys selama ini pada mantan anggota lainnya, yang mana mereka menemukan label lainnya untuk mengeluarkan album-album Dead Kennedys terdahulu melalui Manifesto Records.
 1	Dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	MorphInd=^dia<p>_PS3$
 2	dituntut	dituntut	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+tuntut<v>_VSP$
 3	untuk	untuk	ADP	R--	_	4	case	_	MorphInd=^untuk<r>_R--$
@@ -1530,7 +1530,7 @@
 43	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s60
-# text = Selain isu - isu penegakan HAM, LPHAM di bawah koordinasi dosen Hukum Islam dan Hukum Tata Negara Universitas Jakarta ini juga aktif mendorong penegakan hukum dibidang pelestarian lingkungan yang pada oktober 2004 menyelenggarakan serangkaian kampanye penyelamatan Kawasan Ekosistem Leuser (KEL) melalui diskusi, pameran dan sarana sosialisasi lainnya bagi para anggota DPR dan DPD RI hasil pemilu 2004 untuk menentang kebijakan pemerintah yang membangun jalan poros Ladia Galaska yang melewati dan merusak KEL. Pada awal tahun 2006, mantan koordinator Kampanye Aliansi Ornop untuk menolak Ladia Galaska ini bersama mantan wakil ketua komisi II DPR RI, Hamdan Zoelva, pakar otonomi daerah Ryaas Rasyid, ekonom Faisal Basri, Adi Sasono dan beberapa akademisi lainnya mendirikan Pusat Pemberdayaan dan Pengembangan Otonomi Daerah (The Regional Autonomy Center) dimana ia duduk sebagai Chief Executive.
+# text = Selain isu-isu penegakan HAM, LPHAM di bawah koordinasi dosen Hukum Islam dan Hukum Tata Negara Universitas Jakarta ini juga aktif mendorong penegakan hukum dibidang pelestarian lingkungan yang pada oktober 2004 menyelenggarakan serangkaian kampanye penyelamatan Kawasan Ekosistem Leuser (KEL) melalui diskusi, pameran dan sarana sosialisasi lainnya bagi para anggota DPR dan DPD RI hasil pemilu 2004 untuk menentang kebijakan pemerintah yang membangun jalan poros Ladia Galaska yang melewati dan merusak KEL. Pada awal tahun 2006, mantan koordinator Kampanye Aliansi Ornop untuk menolak Ladia Galaska ini bersama mantan wakil ketua komisi II DPR RI, Hamdan Zoelva, pakar otonomi daerah Ryaas Rasyid, ekonom Faisal Basri, Adi Sasono dan beberapa akademisi lainnya mendirikan Pusat Pemberdayaan dan Pengembangan Otonomi Daerah (The Regional Autonomy Center) dimana ia duduk sebagai Chief Executive.
 1	Selain	selain	ADP	ASP	Degree=Pos|Number=Sing	2	case	_	MorphInd=^se+lain<a>_ASP$
 2	isu-isu	isu	NOUN	NSD	Number=Plur	22	obl	_	MorphInd=^isu<n>_NSD$
 3	penegakan	pentegakan	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^peN+tegak<a>+an_NSD$
@@ -1898,7 +1898,7 @@
 29	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s70
-# text = NMT 450, Nordic Mobile Telephone, standar komunikasi seluler analog yang bekerja pada frekuensi 450 MHz. Standar ini dikembangkan dan digunakan oleh negara - negara nordic tahun 1981 AMPS, Advanced Mobile Phone System, standar komunikasi seluler analog yang bekerja pada frekuensi 800 MHz. Standar ini dikembangkan dan digunakan tahun 1983 TACS, Total Access Communication System, standar komunikasi seluler analog; serupa dengan AMPS; hanya bekerja pada frekuensi 900 MHz. Standar ini dikembangkan dan digunakan 1985 NMT 900, Nordic Mobile Telephony, standar komunikasi seluler analog yang bekerja pada frekuensi 900 MHz. Standar ini dikembangkan dan digunakan oleh negara - negara nordic tahun 1986 GSM, Global System for Mobile Communication, standar komunikasi seluler digital yang bekerja pada frekuensi 900 MHz. Standar ini dikembangkan oleh gabungan negara - negara Eropa dan digunakan secara komersial pada tahun 1991.
+# text = NMT 450, Nordic Mobile Telephone, standar komunikasi seluler analog yang bekerja pada frekuensi 450 MHz. Standar ini dikembangkan dan digunakan oleh negara-negara nordic tahun 1981 AMPS, Advanced Mobile Phone System, standar komunikasi seluler analog yang bekerja pada frekuensi 800 MHz. Standar ini dikembangkan dan digunakan tahun 1983 TACS, Total Access Communication System, standar komunikasi seluler analog; serupa dengan AMPS; hanya bekerja pada frekuensi 900 MHz. Standar ini dikembangkan dan digunakan 1985 NMT 900, Nordic Mobile Telephony, standar komunikasi seluler analog yang bekerja pada frekuensi 900 MHz. Standar ini dikembangkan dan digunakan oleh negara-negara nordic tahun 1986 GSM, Global System for Mobile Communication, standar komunikasi seluler digital yang bekerja pada frekuensi 900 MHz. Standar ini dikembangkan oleh gabungan negara - negara Eropa dan digunakan secara komersial pada tahun 1991.
 1	NMT	nmt	PROPN	X--	_	0	root	_	MorphInd=^nmt<x>_X--$
 2	450	450	NUM	CC-	NumType=Card	1	nummod	_	SpaceAfter=No|MorphInd=^450<c>_CC-$
 3	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
@@ -2047,7 +2047,7 @@
 146	.	.	PUNCT	Z--	_	132	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s71
-# text = Jenis - jenis otot yang ada dalam tubuh: Memiliki desain yang efektif untuk pergerakan yang spontan dan membutuhkan tenaga besar.
+# text = Jenis-jenis otot yang ada dalam tubuh: Memiliki desain yang efektif untuk pergerakan yang spontan dan membutuhkan tenaga besar.
 1	Jenis-jenis	jenis	NOUN	NSD	Number=Plur	8	nsubj	_	MorphInd=^jenis<n>_NSD$
 2	otot	otot	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^otot<n>_NSD$
 3	yang	yang	PRON	S--	PronType=Rel	4	nsubj	_	MorphInd=^yang<s>_S--$
@@ -2381,7 +2381,7 @@
 28	.	.	PUNCT	Z--	_	23	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s85
-# text = Bentuk anhidratnya berbentuk bubuk hijau pucat atau abu - abu putih, sedangkan bentuk pentahidratnya (CuSO4 · 5H2O), berwarna biru terang.
+# text = Bentuk anhidratnya berbentuk bubuk hijau pucat atau abu-abu putih, sedangkan bentuk pentahidratnya (CuSO4 · 5H2O), berwarna biru terang.
 1	Bentuk	bentuk	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^bentuk<n>_NSD$
 2	anhidratnya	anhidratnya	NOUN	X--	_	1	compound	_	MorphInd=^anhidratnya<x>_X--$
 3	berbentuk	berbentuk	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+bentuk<n>_VSA$
@@ -2489,7 +2489,7 @@
 13	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s90
-# text = Film ini dikenal untuk pemeran - pemerannya yang merupakan aktor - aktor bintang Uni Soviet: Marina Ladynina, Nikolai Kryuchkov, Boris Andreyev, Stepan Kayukov, Pyotr Alejnikov, Vladimir Kolchin, dan masih banyak lagi.
+# text = Film ini dikenal untuk pemeran - pemerannya yang merupakan aktor-aktor bintang Uni Soviet: Marina Ladynina, Nikolai Kryuchkov, Boris Andreyev, Stepan Kayukov, Pyotr Alejnikov, Vladimir Kolchin, dan masih banyak lagi.
 1	Film	film	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^film<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	dikenal	dikenal	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+kenal<v>_VSP$
@@ -2529,7 +2529,7 @@
 37	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s91
-# text = Ritual - ritual Shaman dilakukan untuk mengobati yang sakit, mendamaikan keluarga - keluarga yang berantakan.
+# text = Ritual-ritual Shaman dilakukan untuk mengobati yang sakit, mendamaikan keluarga-keluarga yang berantakan.
 1	Ritual-ritual	ritual	NOUN	F--	Number=Plur	3	nsubj:pass	_	MorphInd=^ritual<f>_F--$
 2	Shaman	shaman	PROPN	X--	_	1	flat	_	MorphInd=^shaman<x>_X--$
 3	dilakukan	dilakukan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
@@ -3229,7 +3229,7 @@
 12	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s119
-# text = Dua gambar di dinding keempat, yang diselesaikan oleh para pekerjanya, dan di lunette (langit - langit yang melengkung) di atasnya, menceritakan tentang Kebajikan Utama, dilukis pada tahun 1511.
+# text = Dua gambar di dinding keempat, yang diselesaikan oleh para pekerjanya, dan di lunette (langit-langit yang melengkung) di atasnya, menceritakan tentang Kebajikan Utama, dilukis pada tahun 1511.
 1	Dua	dua	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^dua<c>_CC-$
 2	gambar	gambar	NOUN	VSA	Number=Sing|Voice=Act	24	nsubj	_	MorphInd=^gambar<v>_VSA$
 3	di	di	ADP	R--	_	4	case	_	MorphInd=^di<r>_R--$
@@ -3495,7 +3495,7 @@
 9	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s129
-# text = Setiap tahunnya, Pimpinan Eksekutif kontes ini adalah Svante Stockselius, yang juga merupakan kepala bidang dari "Steering Group", yang bertugas untuk menetapkan aturan - aturan yang berlaku dalam kontes ini, menentukan penyiar mana yang akan menjadi tuan rumah kontes ini, dan memantau produksi dari setiap program stasiun televisi yang bersangkutan (semuanya).
+# text = Setiap tahunnya, Pimpinan Eksekutif kontes ini adalah Svante Stockselius, yang juga merupakan kepala bidang dari "Steering Group", yang bertugas untuk menetapkan aturan-aturan yang berlaku dalam kontes ini, menentukan penyiar mana yang akan menjadi tuan rumah kontes ini, dan memantau produksi dari setiap program stasiun televisi yang bersangkutan (semuanya).
 1	Setiap	setiap	DET	B--	PronType=Tot	2	det	_	MorphInd=^setiap<b>_B--$
 2	tahunnya	tahun	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nmod	_	SpaceAfter=No|MorphInd=^tahun<n>_NSD+dia<p>_PS3$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
@@ -3568,7 +3568,7 @@
 9	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s131
-# text = Album - album berikutnya, "Flying Colours" dan "Into the Light" sampai di urutan pertama tangga album Britania ketika dirilis pada tahun 1988.
+# text = Album-album berikutnya, "Flying Colours" dan "Into the Light" sampai di urutan pertama tangga album Britania ketika dirilis pada tahun 1988.
 1	Album-album	album	NOUN	NSD	Number=Plur	14	nsubj:pass	_	MorphInd=^album<n>_NSD$
 2	berikutnya	berikutnya	ADJ	D--	_	1	amod	_	SpaceAfter=No|MorphInd=^berikutnya<d>_D--$
 3	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
@@ -3892,7 +3892,7 @@
 44	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s149
-# text = Namun saat ia berhasil mendapatkan Putri kembali, tiba - tiba Gladis (Eriska Reinisa) yang mengaku pacar Rafael datang untuk mempertanyakan kembali cintanya.
+# text = Namun saat ia berhasil mendapatkan Putri kembali, tiba-tiba Gladis (Eriska Reinisa) yang mengaku pacar Rafael datang untuk mempertanyakan kembali cintanya.
 1	Namun	namun	SCONJ	S--	_	19	mark	_	MorphInd=^namun<s>_S--$
 2	saat	saat	SCONJ	S--	_	4	mark	_	MorphInd=^saat<s>_S--$
 3	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	MorphInd=^ia<p>_PS3$
@@ -4528,7 +4528,7 @@
 21	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s174
-# text = Menara Pengawal telah menyatakan bahwa “Berbagai produk medis telah diperoleh dari sumber - sumber biologis, baik binatang maupun manusia....
+# text = Menara Pengawal telah menyatakan bahwa “Berbagai produk medis telah diperoleh dari sumber-sumber biologis, baik binatang maupun manusia....
 1	Menara	menara	PROPN	NSD	Number=Sing	4	nsubj	_	MorphInd=^menara<n>_NSD$
 2	Pengawal	penkawal	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^peN+kawal<v>_NSD$
 3	telah	telah	ADV	D--	_	4	advmod	_	MorphInd=^telah<d>_D--$
@@ -5333,7 +5333,7 @@
 41	.	.	PUNCT	Z--	_	25	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s204
-# text = Pada masa Revolusi Industri, di Manchester apapun bisa terjadi karena proses industri, kajian kapitalisme Manchester memperkenalkan konsep perdagangan bebas dan laissez - faire, kelas atau kelompok baru dalam masyarakat, sekte agama baru, dan bentuk - bentuk baru dari organisasi buruh.
+# text = Pada masa Revolusi Industri, di Manchester apapun bisa terjadi karena proses industri, kajian kapitalisme Manchester memperkenalkan konsep perdagangan bebas dan laissez - faire, kelas atau kelompok baru dalam masyarakat, sekte agama baru, dan bentuk-bentuk baru dari organisasi buruh.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
 2	masa	masa	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^masa<n>_NSD$
 3	Revolusi	revolusi	PROPN	NSD	Number=Sing	2	flat	_	MorphInd=^revolusi<n>_NSD$
@@ -5719,7 +5719,7 @@
 27	.	.	PUNCT	Z--	_	19	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s219
-# text = Bahasa ini berbeda dengan bahasa Serbia Bahasa ini masih berhubungan dengan Bahasa Polandia, Bahasa Ceko dan bahasa - bahasa Slavik lainnya.
+# text = Bahasa ini berbeda dengan bahasa Serbia Bahasa ini masih berhubungan dengan Bahasa Polandia, Bahasa Ceko dan bahasa-bahasa Slavik lainnya.
 1	Bahasa	bahasa	PROPN	NSD	Number=Sing	3	nsubj	_	MorphInd=^bahasa<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	berbeda	berbeda	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+beda<a>_VSA$
@@ -5807,7 +5807,7 @@
 61	.	.	PUNCT	Z--	_	56	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s221
-# text = Ketika polio menyerang Amerika selama dasawarsa seusai Perang Dunia II, penyakit itu disebut 'momok semua orang tua', karena menjangkiti anak - anak terutama yang berumur di bawah lima tahun.
+# text = Ketika polio menyerang Amerika selama dasawarsa seusai Perang Dunia II, penyakit itu disebut 'momok semua orang tua', karena menjangkiti anak-anak terutama yang berumur di bawah lima tahun.
 1	Ketika	ketika	SCONJ	S--	_	3	mark	_	MorphInd=^ketika<s>_S--$
 2	polio	polio	NOUN	X--	_	3	nsubj	_	MorphInd=^polio<x>_X--$
 3	menyerang	menserang	VERB	VSA	Number=Sing|Voice=Act	14	advcl	_	MorphInd=^meN+serang<v>_VSA$
@@ -5938,7 +5938,7 @@
 8	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s227
-# text = Media massa di Blok Timur merupakan organ negara, operasionalnya benar - benar bergantung dan tunduk pada peraturan partai komunis, media televisi dan radio ditetapkan sebagai badan usaha milik negara, sedangkan media cetak biasanya dimiliki oleh organisasi politik, sebagian besarnya dimiliki oleh partai komunis lokal.
+# text = Media massa di Blok Timur merupakan organ negara, operasionalnya benar-benar bergantung dan tunduk pada peraturan partai komunis, media televisi dan radio ditetapkan sebagai badan usaha milik negara, sedangkan media cetak biasanya dimiliki oleh organisasi politik, sebagian besarnya dimiliki oleh partai komunis lokal.
 1	Media	media	PROPN	NSD	Number=Sing	6	nsubj	_	MorphInd=^media<n>_NSD$
 2	massa	massa	NOUN	F--	_	1	amod	_	MorphInd=^massa<f>_F--$
 3	di	di	ADP	R--	_	4	case	_	MorphInd=^di<r>_R--$
@@ -6190,7 +6190,7 @@
 18	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s239
-# text = Berikut adalah raja - raja Pajajaran: Raja - Raja Pajajaran, seperti juga Raja - Raja Singasari, Majapahit, Dharmasraya, dan Pagaruyung periode awal, beserta para pembesarnya adalah pengikut sekte keagamaan Tantra.
+# text = Berikut adalah raja-raja Pajajaran: Raja-Raja Pajajaran, seperti juga Raja-Raja Singasari, Majapahit, Dharmasraya, dan Pagaruyung periode awal, beserta para pembesarnya adalah pengikut sekte keagamaan Tantra.
 1	Berikut	berikut	DET	VSA	Number=Sing|Voice=Act	3	det	_	MorphInd=^ber+ikut<v>_VSA$
 2	adalah	adalah	AUX	O--	_	3	cop	_	MorphInd=^adalah<o>_O--$
 3	raja-raja	raja	NOUN	NSD	Number=Plur	0	root	_	MorphInd=^raja<n>_NSD$
@@ -6758,7 +6758,7 @@
 26	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s264
-# text = Melihat situasi negara saat itu yang diperintah oleh Raja Jie yang tiran, timbullah niatnya untuk menumbangkan Dinasti Xia. Untuk menunjang ekspansinya ke barat, ia memindahkan ibukotanya ke Bo (亳, sekarang wilayah Zhengzhou, Henan) sebagai basis untuk melawan Raja Jie. Ia mengatur administrasi negara dengan baik dan mempekerjakan orang - orang berbakat.
+# text = Melihat situasi negara saat itu yang diperintah oleh Raja Jie yang tiran, timbullah niatnya untuk menumbangkan Dinasti Xia. Untuk menunjang ekspansinya ke barat, ia memindahkan ibukotanya ke Bo (亳, sekarang wilayah Zhengzhou, Henan) sebagai basis untuk melawan Raja Jie. Ia mengatur administrasi negara dengan baik dan mempekerjakan orang-orang berbakat.
 1	Melihat	menlihat	VERB	VSA	Number=Sing|Voice=Act	14	advcl	_	MorphInd=^meN+lihat<v>_VSA$
 2	situasi	situasi	NOUN	NSD	Number=Sing	14	nsubj	_	MorphInd=^situasi<n>_NSD$
 3	negara	negara	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^negara<n>_NSD$
@@ -6999,7 +6999,7 @@
 25	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s271
-# text = Sehingga mereka jarang yang tertulis dalam bentuk asli seperti pada waktu dibuat dahulu, kecuali jika ditulis pada bahan tulisan yang awet seperti batu, tembaga dan lain - lain.
+# text = Sehingga mereka jarang yang tertulis dalam bentuk asli seperti pada waktu dibuat dahulu, kecuali jika ditulis pada bahan tulisan yang awet seperti batu, tembaga dan lain-lain.
 1	Sehingga	sehingga	SCONJ	S--	_	12	mark	_	MorphInd=^sehingga<s>_S--$
 2	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	12	nsubj	_	MorphInd=^mereka<p>_PP3$
 3	jarang	jarang	ADV	ASP	Degree=Pos|Number=Sing	5	advmod	_	MorphInd=^jarang<a>_ASP$
@@ -7243,7 +7243,7 @@
 23	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s283
-# text = Pemberian nama tersebut didasari untuk mengenang jasa - jasa Dr. Adnan Kapau Gani yang banyak berjuang membantu APRI melawan Kolonial Belanda.
+# text = Pemberian nama tersebut didasari untuk mengenang jasa-jasa Dr. Adnan Kapau Gani yang banyak berjuang membantu APRI melawan Kolonial Belanda.
 1	Pemberian	penberian	PROPN	NSD	Number=Sing	4	nsubj:pass	_	MorphInd=^peN+beri<v>+an_NSD$
 2	nama	nama	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^nama<n>_NSD$
 3	tersebut	tersebut	DET	B--	PronType=Dem	2	det	_	MorphInd=^tersebut<b>_B--$
@@ -7278,7 +7278,7 @@
 8	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s285
-# text = Peristiwa ini ditandai dengan ditemukannya 30 mayat orang Tionghoa (laki - laki dan perempuan) di bekas pabrik pembuatan mi di Mergosono.
+# text = Peristiwa ini ditandai dengan ditemukannya 30 mayat orang Tionghoa (laki-laki dan perempuan) di bekas pabrik pembuatan mi di Mergosono.
 1	Peristiwa	peristiwa	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^peristiwa<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	ditandai	ditandai	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+tanda<n>+i_VSP$
@@ -7731,7 +7731,7 @@
 20	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s307
-# text = Data terbuka dimaksudkan untuk mewujudkan komitmen konkret dari kalangan pemerintah dalam upaya peningkatan transparansi, peningkatan partisipasi masyarakat, pemberantasan korupsi dan pemanfaatan teknologi - teknologi baru guna mewujudkan tata kelola pemerintahan yang lebih terbuka, efektif dan akuntabel, yang disebut birokrasi terbuka atau open government.
+# text = Data terbuka dimaksudkan untuk mewujudkan komitmen konkret dari kalangan pemerintah dalam upaya peningkatan transparansi, peningkatan partisipasi masyarakat, pemberantasan korupsi dan pemanfaatan teknologi-teknologi baru guna mewujudkan tata kelola pemerintahan yang lebih terbuka, efektif dan akuntabel, yang disebut birokrasi terbuka atau open government.
 1	Data	data	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^data<n>_NSD$
 2	terbuka	terbuka	ADJ	ASP	Degree=Pos|Number=Sing	1	amod	_	MorphInd=^terbuka<a>_ASP$
 3	dimaksudkan	dimaksudkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+maksud<n>+kan_VSP$
@@ -8207,7 +8207,7 @@
 20	.	.	PUNCT	Z--	_	14	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s319
-# text = Lingkungan pengembangan terintegrasi yang ada dapat menjalankan program BASIC untuk kebutuhan debugging, atau menghasilkan file EXE untuk MS - DOS yang benar - benar mandiri dan dapat dijalankan pada sistem lain meski tanpa melibatkan produk Turbo Basic atau keberadaan pustaka runtime.
+# text = Lingkungan pengembangan terintegrasi yang ada dapat menjalankan program BASIC untuk kebutuhan debugging, atau menghasilkan file EXE untuk MS - DOS yang benar-benar mandiri dan dapat dijalankan pada sistem lain meski tanpa melibatkan produk Turbo Basic atau keberadaan pustaka runtime.
 1	Lingkungan	lingkungan	NOUN	NSD	Number=Sing	7	nsubj	_	MorphInd=^lingkung<v>+an_NSD$
 2	pengembangan	penkembangan	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^peN+kembang<n>+an_NSD$
 3	terintegrasi	terintegrasi	VERB	VSP	Number=Sing|Voice=Pass	2	acl	_	MorphInd=^ter+integrasi<n>_VSP$
@@ -8491,7 +8491,7 @@
 12	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s331
-# text = Bidang ilmu yang mempelajari cara - cara pengukuran dinamakan metrologi.
+# text = Bidang ilmu yang mempelajari cara-cara pengukuran dinamakan metrologi.
 1	Bidang	bidang	PROPN	NSD	Number=Sing	7	nsubj:pass	_	MorphInd=^bidang<n>_NSD$
 2	ilmu	ilmu	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^ilmu<n>_NSD$
 3	yang	yang	PRON	S--	PronType=Rel	4	nsubj	_	MorphInd=^yang<s>_S--$
@@ -9253,7 +9253,7 @@
 25	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s365
-# text = Waktu subuh juga ramai, setelah salat, para jamah biasanya jalan - jalan keliling kota.
+# text = Waktu subuh juga ramai, setelah salat, para jamah biasanya jalan-jalan keliling kota.
 1	Waktu	waktu	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^waktu<n>_NSD$
 2	subuh	subuh	NOUN	NSD	Number=Sing	12	nmod	_	MorphInd=^subuh<n>_NSD$
 3	juga	juga	ADV	D--	_	4	advmod	_	MorphInd=^juga<d>_D--$
@@ -9384,7 +9384,7 @@
 17	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s373
-# text = Sungai - sungai besar yang mengalir diantaranya adalah Kali Sragi dan Kali Sengkarang beserta anak - anak sungainya, yang kesemuanya bermuara ke Laut Jawa. Kajen, ibukota Kabupaten Pekalongan, berada di bagian tengah - tengah wilayah kabupaten, sekitar 25 km sebelah selatan Kota Pekalongan.
+# text = Sungai-sungai besar yang mengalir diantaranya adalah Kali Sragi dan Kali Sengkarang beserta anak-anak sungainya, yang kesemuanya bermuara ke Laut Jawa. Kajen, ibukota Kabupaten Pekalongan, berada di bagian tengah-tengah wilayah kabupaten, sekitar 25 km sebelah selatan Kota Pekalongan.
 1	Sungai-sungai	sungai	NOUN	NSD	Number=Plur	7	nsubj	_	MorphInd=^sungai<n>_NSD$
 2	besar	besar	ADJ	ASP	Degree=Pos|Number=Sing	1	amod	_	MorphInd=^besar<a>_ASP$
 3	yang	yang	PRON	S--	PronType=Rel	4	nsubj	_	MorphInd=^yang<s>_S--$
@@ -9574,7 +9574,7 @@
 17	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s380
-# text = Kambing betina menghabiskan sebagian besar kehidupan mereka dengan anak - anak mereka.
+# text = Kambing betina menghabiskan sebagian besar kehidupan mereka dengan anak-anak mereka.
 1	Kambing	kambing	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^kambing<n>_NSD$
 2	betina	betina	ADJ	ASP	Degree=Pos|Number=Sing	1	amod	_	MorphInd=^betina<a>_ASP$
 3	menghabiskan	menhabiskan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+habis<a>+kan_VSA$
@@ -9617,7 +9617,7 @@
 26	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s382
-# text = edition, ISBN 0 - 06 - 066935 - 7) berarti bahwa ucapan - ucapan itu disajikan sebagai pengajaran Yesus Kristus setelah kebangkitan, seperti yang terlihat dari penggunaan istilah "yang hidup."
+# text = edition, ISBN 0 - 06 - 066935 - 7) berarti bahwa ucapan-ucapan itu disajikan sebagai pengajaran Yesus Kristus setelah kebangkitan, seperti yang terlihat dari penggunaan istilah "yang hidup."
 1	edition	edition	PROPN	X--	_	12	nsubj	_	SpaceAfter=No|MorphInd=^edition<x>_X--$
 2	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 3	ISBN	isbn	PROPN	X--	_	1	appos	_	MorphInd=^isbn<x>_X--$
@@ -9823,7 +9823,7 @@
 23	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s390
-# text = Hasil panen ganja berupa daun berikut ranting dan bunga serta buahnya berupa biji - biji kecil.
+# text = Hasil panen ganja berupa daun berikut ranting dan bunga serta buahnya berupa biji-biji kecil.
 1	Hasil	hasil	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^hasil<n>_NSD$
 2	panen	panen	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^panen<n>_NSD$
 3	ganja	ganja	NOUN	X--	_	2	compound	_	MorphInd=^ganja<x>_X--$
@@ -10134,7 +10134,7 @@
 45	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s402
-# text = Telah dikenal bahwa pada bagian - bagian Final Fantasy yang berporos pada karakter, terdapat sebuah elemen signifikan yang digunakan dalam musik pada tiap permainan, yaitu penggunaan leitmotif.
+# text = Telah dikenal bahwa pada bagian-bagian Final Fantasy yang berporos pada karakter, terdapat sebuah elemen signifikan yang digunakan dalam musik pada tiap permainan, yaitu penggunaan leitmotif.
 1	Telah	telah	ADV	D--	_	2	advmod	_	MorphInd=^telah<d>_D--$
 2	dikenal	dikenal	VERB	VSP	Number=Sing|Voice=Pass	13	ccomp	_	MorphInd=^di+kenal<v>_VSP$
 3	bahwa	bahwa	ADP	S--	_	5	case	_	MorphInd=^bahwa<s>_S--$
@@ -10194,7 +10194,7 @@
 26	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s404
-# text = Maka dibunuhlah mereka dengan mata pedang, lalu mayatnya dibuang; kemudian masuklah bentara - bentara dan perwira - perwira itu ke gedung rumah Baal. Mereka mengeluarkan tiang berhala rumah Baal itu, lalu dibakar.
+# text = Maka dibunuhlah mereka dengan mata pedang, lalu mayatnya dibuang; kemudian masuklah bentara-bentara dan perwira-perwira itu ke gedung rumah Baal. Mereka mengeluarkan tiang berhala rumah Baal itu, lalu dibakar.
 1	Maka	maka	SCONJ	S--	_	2	mark	_	MorphInd=^maka<s>_S--$
 2	dibunuhlah	dibunuh	VERB	VSP+T--	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+bunuh<v>_VSP+lah<t>_T--$
 3	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	2	nsubj:pass	_	MorphInd=^mereka<p>_PP3$
@@ -10344,7 +10344,7 @@
 36	.	.	PUNCT	Z--	_	16	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s410
-# text = Pada facebook terdapat aplikasi 'Movie Theater' yang menghubungkan facebook dengan situs The Auteurs, dan di twitter terdapat akun The Auteurs, serta The Auteurs Daily, yang memberikan info - info terbaru mengenai dunia film setiap harinya.
+# text = Pada facebook terdapat aplikasi 'Movie Theater' yang menghubungkan facebook dengan situs The Auteurs, dan di twitter terdapat akun The Auteurs, serta The Auteurs Daily, yang memberikan info-info terbaru mengenai dunia film setiap harinya.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
 2	facebook	facebook	NOUN	F--	_	3	obl	_	MorphInd=^facebook<f>_F--$
 3	terdapat	terdapat	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^ter+dapat<v>_VSP$
@@ -10833,7 +10833,7 @@
 25	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s425
-# text = Dalam bahasa Indonesia, bentuk serapannya yaitu kata "umat", juga digunakan oleh agama - agama selain Islam di Indonesia untuk menyebut para pemeluknya, contohnya umat Kristiani, umat Hindu, dan lain - lain.
+# text = Dalam bahasa Indonesia, bentuk serapannya yaitu kata "umat", juga digunakan oleh agama-agama selain Islam di Indonesia untuk menyebut para pemeluknya, contohnya umat Kristiani, umat Hindu, dan lain-lain.
 1	Dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	2	case	_	MorphInd=^dalam<a>_ASP$
 2	bahasa	bahasa	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^bahasa<n>_NSD$
 3	Indonesia	indonesia	PROPN	NSD	Number=Sing	2	flat	_	SpaceAfter=No|MorphInd=^indonesia<n>_NSD$
@@ -11084,7 +11084,7 @@
 21	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s435
-# text = Gedung - gedung instansi dan sarana umum sudah mulai lengkap, misalnya kantor polisi, kantor pos, gedung perwatin, rumah sakit, sekolah, Masjid Agung, dan pasar.
+# text = Gedung-gedung instansi dan sarana umum sudah mulai lengkap, misalnya kantor polisi, kantor pos, gedung perwatin, rumah sakit, sekolah, Masjid Agung, dan pasar.
 1	Gedung-gedung	gedung	PROPN	NSD	Number=Plur	7	nsubj	_	MorphInd=^gedung<n>_NSD$
 2	instansi	instansi	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^instansi<n>_NSD$
 3	dan	dan	CCONJ	H--	_	4	cc	_	MorphInd=^dan<h>_H--$
@@ -11240,7 +11240,7 @@
 29	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s441
-# text = Generasi berikutnya, Putera Sampoerna adalah generasi yang membawa HM Sampoerna melangkah lebih jauh dengan terobosan - terobosan yang dilakukannya, seperti perkenalan rokok bernikotin rendah, A Mild dan perluasan bisnis melalui kepemilikan di perusahaan supermarket Alfa, dan untuk suatu saat, dalam bidang perbankan.
+# text = Generasi berikutnya, Putera Sampoerna adalah generasi yang membawa HM Sampoerna melangkah lebih jauh dengan terobosan-terobosan yang dilakukannya, seperti perkenalan rokok bernikotin rendah, A Mild dan perluasan bisnis melalui kepemilikan di perusahaan supermarket Alfa, dan untuk suatu saat, dalam bidang perbankan.
 1	Generasi	generasi	PROPN	NSD	Number=Sing	7	nsubj	_	MorphInd=^generasi<n>_NSD$
 2	berikutnya	berikutnya	ADJ	D--	_	1	amod	_	SpaceAfter=No|MorphInd=^berikutnya<d>_D--$
 3	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
@@ -11550,7 +11550,7 @@
 21	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s452
-# text = Di Britania atau Irlandia ia disebut Buku putih karena aslinya dokumen - dokumen yang tipis ini dijilid dengan segera dalam sampul putih tanpa sampul resmi, berbeda dengan sampul biru dari kebanyakan laporan pemerintah.
+# text = Di Britania atau Irlandia ia disebut Buku putih karena aslinya dokumen-dokumen yang tipis ini dijilid dengan segera dalam sampul putih tanpa sampul resmi, berbeda dengan sampul biru dari kebanyakan laporan pemerintah.
 1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
 2	Britania	britania	PROPN	X--	_	6	obl	_	MorphInd=^britania<x>_X--$
 3	atau	atau	CCONJ	H--	_	4	cc	_	MorphInd=^atau<h>_H--$
@@ -11699,7 +11699,7 @@
 11	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s460
-# text = Khusus bagi raja - raja keraton Surakarta, bagi raja yang meninggal akan dimakamkan di pemakaman hereditas di Makam Imogiri di puncak sebuah bukit 12 km di sebelah selatan Yogjakarta Kode area untuk kota Solo adalah 271.
+# text = Khusus bagi raja-raja keraton Surakarta, bagi raja yang meninggal akan dimakamkan di pemakaman hereditas di Makam Imogiri di puncak sebuah bukit 12 km di sebelah selatan Yogjakarta Kode area untuk kota Solo adalah 271.
 1	Khusus	khusus	ADV	ASP	Degree=Pos|Number=Sing	12	advmod	_	MorphInd=^khusus<a>_ASP$
 2	bagi	bagi	ADP	R--	_	3	case	_	MorphInd=^bagi<r>_R--$
 3	raja-raja	raja	NOUN	NSD	Number=Plur	1	nmod	_	MorphInd=^raja<n>_NSD$
@@ -11750,7 +11750,7 @@
 9	?	?	PUNCT	Z--	_	4	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s462
-# text = Kapal - kapal dalam Kesatuan Perlindungan yang dipimpin Marumo diberangkatkan dari Irlandia Baru pada 29 April menuju Teluk Thousand Ships, Kepulauan Santa Isabel, sebelum diposkan sebagai pangkalan pesawat amfibi pendukung invasi Tulagi pada 2 Mei. Kesatuan invasi di bawah komando Shima diberangkatkan dari Rabaul pada 30 April.
+# text = Kapal-kapal dalam Kesatuan Perlindungan yang dipimpin Marumo diberangkatkan dari Irlandia Baru pada 29 April menuju Teluk Thousand Ships, Kepulauan Santa Isabel, sebelum diposkan sebagai pangkalan pesawat amfibi pendukung invasi Tulagi pada 2 Mei. Kesatuan invasi di bawah komando Shima diberangkatkan dari Rabaul pada 30 April.
 1	Kapal-kapal	kapal	NOUN	NSD	Number=Plur	8	nsubj:pass	_	MorphInd=^kapal<n>_NSD$
 2	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	3	case	_	MorphInd=^dalam<a>_ASP$
 3	Kesatuan	kesatuan	PROPN	X--	_	1	nmod	_	MorphInd=^kesatuan<x>_X--$
@@ -12479,7 +12479,7 @@
 18	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s490
-# text = Berbagai stupa besar dibangun bersamaan dengan kuil dalam gua dan biara - biara diukir dari batu - batu cadas.
+# text = Berbagai stupa besar dibangun bersamaan dengan kuil dalam gua dan biara-biara diukir dari batu-batu cadas.
 1	Berbagai	berbagai	DET	B--	PronType=Ind	2	det	_	MorphInd=^berbagai<b>_B--$
 2	stupa	stupa	NOUN	X--	_	4	nsubj:pass	_	MorphInd=^stupa<x>_X--$
 3	besar	besar	ADJ	ASP	Degree=Pos|Number=Sing	2	amod	_	MorphInd=^besar<a>_ASP$
@@ -12498,7 +12498,7 @@
 16	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s491
-# text = Di bagian utara terletak ngarai - ngarai yang panjang dan dalam, serta gunung Nebo dimana Musa mati.
+# text = Di bagian utara terletak ngarai-ngarai yang panjang dan dalam, serta gunung Nebo dimana Musa mati.
 1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
 2	bagian	bagian	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^bagi<v>+an_NSD$
 3	utara	utara	NOUN	NSD	Number=Sing	2	amod	_	MorphInd=^utara<n>_NSD$
@@ -12574,7 +12574,7 @@
 9	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s495
-# text = Dari timur laut hingga barat daya, pulau - pulau yang berpenduduk di Kepulauan Ryukyu dibagi menjadi tiga gugus kepulauan: Berikut ini adalah daftar kota - kota kecil dan desa di setiap distrik.
+# text = Dari timur laut hingga barat daya, pulau-pulau yang berpenduduk di Kepulauan Ryukyu dibagi menjadi tiga gugus kepulauan: Berikut ini adalah daftar kota-kota kecil dan desa di setiap distrik.
 1	Dari	dari	ADP	R--	_	2	case	_	MorphInd=^dari<r>_R--$
 2	timur	timur	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^timur<n>_NSD$
 3	laut	laut	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^laut<n>_NSD$
@@ -12680,7 +12680,7 @@
 32	?	?	PUNCT	Z--	_	10	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s498
-# text = Pada awal tahun 1870 - an, Jepang kembali berusaha merebut Korea yang berada dalam pengaruh Cina. Pada tahun 1895, Maharani Myeongseong dibunuh oleh mata - mata Jepang.
+# text = Pada awal tahun 1870 - an, Jepang kembali berusaha merebut Korea yang berada dalam pengaruh Cina. Pada tahun 1895, Maharani Myeongseong dibunuh oleh mata-mata Jepang.
 1	Pada	pada	ADP	R--	_	3	case	_	MorphInd=^pada<r>_R--$
 2	awal	awal	ADJ	NSD	Number=Sing	3	amod	_	MorphInd=^awal<n>_NSD$
 3	tahun	tahun	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^tahun<n>_NSD$
@@ -12899,7 +12899,7 @@
 17	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s507
-# text = Keinginan awal mereka adalah ingin memasukkan unsur - unsur yang tidak pernah ada sebelumnya di Blink - 182, seperti drum elektronik, keyboard dan rekaman digital penuh.
+# text = Keinginan awal mereka adalah ingin memasukkan unsur-unsur yang tidak pernah ada sebelumnya di Blink - 182, seperti drum elektronik, keyboard dan rekaman digital penuh.
 1	Keinginan	keinginan	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^ke+ingin<v>+an_NSD$
 2	awal	awal	ADJ	NSD	Number=Sing	1	amod	_	MorphInd=^awal<n>_NSD$
 3	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	1	det	_	MorphInd=^mereka<p>_PP3$
@@ -12929,7 +12929,7 @@
 27	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s508
-# text = Pemerintah Daerah Kabupaten Ogan Komering Ulu Selatan juga menggalakkan peran aktif badan perwakilan desa (BPD) dalam menentukan kebijakan desa di daerah masing - masing.
+# text = Pemerintah Daerah Kabupaten Ogan Komering Ulu Selatan juga menggalakkan peran aktif badan perwakilan desa (BPD) dalam menentukan kebijakan desa di daerah masing-masing.
 1	Pemerintah	penperintah	PROPN	NSD	Number=Sing	9	nsubj	_	MorphInd=^peN+perintah<n>_NSD$
 2	Daerah	daerah	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^daerah<n>_NSD$
 3	Kabupaten	kabupaten	PROPN	NSD	Number=Sing	2	flat	_	MorphInd=^kabupaten<n>_NSD$
@@ -13280,7 +13280,7 @@
 11	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s526
-# text = Kemudian mereka menamai bayi tersebut Wasusena, karena pada saat ditemukan, anak tersebut disertai dengan baju zirah dan anting - anting.
+# text = Kemudian mereka menamai bayi tersebut Wasusena, karena pada saat ditemukan, anak tersebut disertai dengan baju zirah dan anting-anting.
 1	Kemudian	kemudian	ADV	S--	_	3	advmod	_	MorphInd=^kemudian<s>_S--$
 2	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	MorphInd=^mereka<p>_PP3$
 3	menamai	mennamai	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nama<n>+i_VSA$
@@ -13304,7 +13304,7 @@
 21	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s527
-# text = Loji - Loji awal berkimpul di kedai atau tempat umum tetap lainnya dengan ruangan khusus.
+# text = Loji-Loji awal berkimpul di kedai atau tempat umum tetap lainnya dengan ruangan khusus.
 1	Loji-Loji	loji	PROPN	X--	Number=Plur	3	nsubj	_	MorphInd=^loji<x>_X--$
 2	awal	awal	ADV	NSD	Number=Sing	3	advmod	_	MorphInd=^awal<n>_NSD$
 3	berkimpul	berkimpul	VERB	X--	_	0	root	_	MorphInd=^berkimpul<x>_X--$
@@ -13574,7 +13574,7 @@
 30	.	.	PUNCT	Z--	_	15	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s536
-# text = Krishna mulai dikenal masyarakat melalui tembang - tembang hitsnya di Ada Band. Grup musik yang didirikannya bersama Ibrahim Imran, Dika, Iso Eddy H dan Elif Ritonga.
+# text = Krishna mulai dikenal masyarakat melalui tembang-tembang hitsnya di Ada Band. Grup musik yang didirikannya bersama Ibrahim Imran, Dika, Iso Eddy H dan Elif Ritonga.
 1	Krishna	krishna	PROPN	F--	_	2	nsubj	_	MorphInd=^krishna<f>_F--$
 2	mulai	mulai	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^mulai<v>_VSA$
 3	dikenal	dikenal	VERB	VSP	Number=Sing|Voice=Pass	2	xcomp	_	MorphInd=^di+kenal<v>_VSP$
@@ -13897,7 +13897,7 @@
 8	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s552
-# text = HDH didirikan oleh perusahaan batik asal Solo PT Batik Danar Hadi pada tahun 2008 dan mengkhususkan Batik beserta aspek - aspek budayanya sebagai obyek wisata utamanya.
+# text = HDH didirikan oleh perusahaan batik asal Solo PT Batik Danar Hadi pada tahun 2008 dan mengkhususkan Batik beserta aspek-aspek budayanya sebagai obyek wisata utamanya.
 1	HDH	hdh	PROPN	X--	_	2	nsubj:pass	_	MorphInd=^hdh<x>_X--$
 2	didirikan	didirikan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+diri<n>+kan_VSP$
 3	oleh	oleh	ADP	R--	_	4	case	_	MorphInd=^oleh<r>_R--$
