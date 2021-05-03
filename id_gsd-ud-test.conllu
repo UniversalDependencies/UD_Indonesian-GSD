@@ -2861,7 +2861,7 @@
 8	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s118
-# text = Matrix Auto adalah layanan selular pasca bayar yang dapat diisi ulang, kombinasi dari manfaat layanan pasca bayar dan pra - bayar.
+# text = Matrix Auto adalah layanan selular pasca bayar yang dapat diisi ulang, kombinasi dari manfaat layanan pasca bayar dan pra-bayar.
 1	Matrix	matrix	PROPN	F--	_	4	nsubj	_	MorphInd=^matrix<f>_F--$
 2	Auto	auto	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^auto<n>_NSD$
 3	adalah	adalah	AUX	O--	_	4	cop	_	MorphInd=^adalah<o>_O--$
@@ -2881,9 +2881,9 @@
 17	pasca	pasca	ADP	ASP	Degree=Pos|Number=Sing	18	case	_	MorphInd=^pasca<a>_ASP$
 18	bayar	bayar	NOUN	VSA	Number=Sing|Voice=Act	13	nmod	_	MorphInd=^bayar<v>_VSA$
 19	dan	dan	CCONJ	H--	_	18	cc	_	MorphInd=^dan<h>_H--$
-20	pra	pra	ADJ	ASP	Degree=Pos|Number=Sing	22	amod	_	MorphInd=^pra<a>_ASP$
-21	-	-	PUNCT	Z--	_	20	punct	_	MorphInd=^-<z>_Z--$
-22	bayar	bayar	NOUN	VSA	Number=Sing|Voice=Act	18	compound:plur	_	SpaceAfter=No|MorphInd=^bayar<v>_VSA$
+20	pra	pra	ADJ	ASP	Degree=Pos|Number=Sing	22	amod	_	SpaceAfter=No|MorphInd=^pra<a>_ASP$
+21	-	-	PUNCT	Z--	_	20	punct	_	SpaceAfter=No|MorphInd=^-<z>_Z--$
+22	bayar	bayar	NOUN	VSA	Number=Sing|Voice=Act	18	conj	_	SpaceAfter=No|MorphInd=^bayar<v>_VSA$
 23	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s119
