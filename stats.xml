@@ -40,7 +40,7 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADP,ADV,NOUN,PROPN,SCONJ,VERB">279</feat><!-- terbesar, terutama, terbaik, terakhir, ternyata, tertinggi, terdekat, terlebih, tertua, teratas -->
     <feat name="Gender" value="Fem" upos="NOUN,PROPN">3</feat><!-- Indrawati, Selawati, seniwati -->
     <feat name="Gender" value="Masc" upos="ADJ,NOUN,PROPN">39</feat><!-- ilmuwan, Taiwan, bangsawan, fisikawan, karyawan, wisatawan, karyawannya, rohaniwan, Belawan, bangsawannya -->
-    <feat name="Number" value="Plur" upos="ADJ,ADV,NOUN,PRON,PROPN,VERB">532</feat><!-- mereka, kita, kami, kalian, orang-orang, laki-laki, p​e​r​t​a​n​y​a​a​n​-​p​e​r​t​a​n​y​a​a​n, berlaksa-laksa, diam-diam, hal-hal -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,NOUN,PRON,PROPN,VERB">532</feat><!-- mereka, kita, kami, kalian, orang-orang, laki-laki, pertanyaan-pertanyaan, berlaksa-laksa, diam-diam, hal-hal -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,SYM,VERB,X">49803</feat><!-- dalam, tahun, ia, indonesia, menjadi, orang, kota, kecamatan, memiliki, desa -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">1877</feat><!-- ayahnya, dirinya, namanya, antaranya, penduduknya, satunya, utamanya, anaknya, keduanya, artinya -->
     <feat name="NumType" value="Card" upos="ADV,DET,NUM,PRON">4714</feat><!-- beberapa, dua, banyak, pertama, kedua, 1, satu, 2, 3, 5 -->
@@ -65,22 +65,22 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="31">
     <dep name="acl">3346</dep>
-    <dep name="advcl">1356</dep>
+    <dep name="advcl">1355</dep>
     <dep name="advmod">5288</dep>
     <dep name="amod">4566</dep>
     <dep name="appos">2662</dep>
     <dep name="aux">3</dep>
     <dep name="case">11897</dep>
     <dep name="cc">3571</dep>
-    <dep name="ccomp">482</dep>
-    <dep name="compound">7432</dep>
+    <dep name="ccomp">481</dep>
+    <dep name="compound">7428</dep>
     <dep name="compound:plur">679</dep>
     <dep name="conj">4806</dep>
     <dep name="cop">1055</dep>
     <dep name="csubj">26</dep>
     <dep name="csubj:pass">8</dep>
-    <dep name="dep">565</dep>
-    <dep name="det">4475</dep>
+    <dep name="dep">560</dep>
+    <dep name="det">4474</dep>
     <dep name="fixed">615</dep>
     <dep name="flat">11402</dep>
     <dep name="iobj">22</dep>
@@ -89,10 +89,10 @@
     <dep name="nsubj">7125</dep>
     <dep name="nsubj:pass">2216</dep>
     <dep name="nummod">4316</dep>
-    <dep name="obj">5795</dep>
+    <dep name="obj">5794</dep>
     <dep name="obl">6346</dep>
     <dep name="parataxis">404</dep>
-    <dep name="punct">18483</dep>
+    <dep name="punct">18496</dep>
     <dep name="root">5593</dep>
     <dep name="xcomp">1373</dep>
   </deps>
