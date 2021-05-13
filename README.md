@@ -12,6 +12,9 @@ http://septinalarasati.com/morphind/).
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Fixed non-projective punctuation with Udapi ud.FixPunct.
+  * Reduplicated plurals are now single tokens as in the other Indonesian treebanks.
 * 2019-11-15 v2.5
   * Google gave permission to drop the "NC" restriction from the license.
     This applies to the UD annotations (not the underlying content, of which Google claims no ownership or copyright).
