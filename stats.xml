@@ -10,7 +10,7 @@
     <dev><sentences>559</sentences><tokens>12474</tokens><words>12474</words><fused>0</fused></dev>
     <test><sentences>557</sentences><tokens>11622</tokens><words>11622</words><fused>0</fused></test>
   </size>
-  <lemmas unique="18934" /><!-- ,, ., yang, dan, di, pada, ini, dari, dengan, ), (, adalah, -, untuk, dalam -->
+  <lemmas unique="18669" /><!-- ,, ., yang, dan, di, pada, ini, dari, dengan, ), (, adalah, -, untuk, dalam -->
   <forms unique="20248" /><!-- ,, ., yang, dan, di, pada, dari, dengan, ini, ), (, adalah, -, untuk, dalam -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">17557</tag><!-- ,, ., ), (, -, ?, ", :, _, ; -->
     <tag name="SCONJ">1475</tag><!-- karena, bahwa, namun, ketika, sehingga, maka, jika, setelah, yaitu, sementara -->
     <tag name="SYM">418</tag><!-- /, %, =, *, km, &amp;, cm, °, #, + -->
-    <tag name="VERB">12201</tag><!-- menjadi, merupakan, menmiliki, ada, terletak, digunakan, berada, mengunakan, dikenal, terjadi -->
+    <tag name="VERB">12201</tag><!-- jadi, merupakan, miliki, ada, terletak, digunakan, berada, gunakan, dikenal, mulai -->
     <tag name="X">39</tag><!-- jpg, an, www, anti, b, dkk, s, x, y, &amp;nbsp -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
