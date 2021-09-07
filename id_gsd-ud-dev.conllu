@@ -2222,7 +2222,7 @@
 40	Amman	amman	PROPN	F--	_	38	obl	_	SpaceAfter=No|MorphInd=^amman<f>_F--$
 41	,	,	PUNCT	Z--	_	43	punct	_	MorphInd=^,<z>_Z--$
 42	telah	telah	ADV	D--	_	43	advmod	_	MorphInd=^telah<d>_D--$
-43	memenangkan	ang	VERB	VSA	Number=Sing|Voice=Act	10	advcl	_	MorphInd=^meN+menang<a>+kan_VSA$
+43	memenangkan	menang	VERB	VSA	Number=Sing|Voice=Act	10	advcl	_	MorphInd=^meN+menang<a>+kan_VSA$
 44	Liga	liga	PROPN	NSD	Number=Sing	43	obj	_	MorphInd=^liga<n>_NSD$
 45	sebanyak	sebanyak	ADP	R--	_	47	case	_	MorphInd=^sebanyak<r>_R--$
 46	31	31	NUM	CC-	NumType=Card	47	nummod	_	MorphInd=^31<c>_CC-$
@@ -10187,7 +10187,7 @@
 19	direktur	direktur	NOUN	NSD	Number=Sing	18	compound	_	MorphInd=^direktur<n>_NSD$
 20	maupun	maupun	CCONJ	H--	_	22	cc	_	MorphInd=^maupun<h>_H--$
 21	untuk	untuk	ADP	R--	_	22	case	_	MorphInd=^untuk<r>_R--$
-22	memenangkan	ang	VERB	VSA	Number=Sing|Voice=Act	11	conj	_	MorphInd=^meN+menang<a>+kan_VSA$
+22	memenangkan	menang	VERB	VSA	Number=Sing|Voice=Act	11	conj	_	MorphInd=^meN+menang<a>+kan_VSA$
 23	kejuaraan	kejuaraan	NOUN	NSD	Number=Sing	22	obj	_	MorphInd=^ke+juara<n>+an_NSD$
 24	demi	demi	ADP	R--	_	25	case	_	MorphInd=^demi<r>_R--$
 25	kejuaraan	kejuaraan	NOUN	NSD	Number=Sing	22	obl	_	SpaceAfter=No|MorphInd=^ke+juara<n>+an_NSD$

@@ -10,7 +10,7 @@
     <dev><sentences>559</sentences><tokens>12474</tokens><words>12474</words><fused>0</fused></dev>
     <test><sentences>557</sentences><tokens>11622</tokens><words>11622</words><fused>0</fused></test>
   </size>
-  <lemmas unique="18418" /><!-- ,, ., yang, dan, di, pada, ini, dari, dengan, ), (, adalah, -, untuk, dalam -->
+  <lemmas unique="18417" /><!-- ,, ., yang, dan, di, pada, ini, dari, dengan, ), (, adalah, -, untuk, dalam -->
   <forms unique="20248" /><!-- ,, ., yang, dan, di, pada, dari, dengan, ini, ), (, adalah, -, untuk, dalam -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->

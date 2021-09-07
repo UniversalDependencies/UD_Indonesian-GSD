@@ -269,7 +269,7 @@
 32	Tengah	tengah	PROPN	NSD	Number=Sing	31	amod	_	MorphInd=^tengah<n>_NSD$
 33	tidak	tidak	PART	G--	Polarity=Neg	35	advmod	_	MorphInd=^tidak<g>_G--$
 34	bisa	bisa	ADV	M--	_	35	advmod	_	MorphInd=^bisa<m>_M--$
-35	memenangkan	ang	VERB	VSA	Number=Sing|Voice=Act	28	ccomp	_	MorphInd=^meN+menang<a>+kan_VSA$
+35	memenangkan	menang	VERB	VSA	Number=Sing|Voice=Act	28	ccomp	_	MorphInd=^meN+menang<a>+kan_VSA$
 36	perang	perang	NOUN	NSD	Number=Sing	35	obj	_	SpaceAfter=No|MorphInd=^perang<n>_NSD$
 37	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
@@ -1011,7 +1011,7 @@
 56	Boavista	boavista	PROPN	X--	_	48	conj	_	MorphInd=^boavista<x>_X--$
 57	Futebol	futebol	PROPN	X--	_	56	flat	_	MorphInd=^futebol<x>_X--$
 58	Clube	clube	PROPN	X--	_	57	flat	_	MorphInd=^clube<x>_X--$
-59	memenangi	angi	VERB	VSA	Number=Sing|Voice=Act	48	xcomp	_	MorphInd=^meN+menang<a>+i_VSA$
+59	memenangi	menangi	VERB	VSA	Number=Sing|Voice=Act	48	xcomp	_	MorphInd=^meN+menang<a>+i_VSA$
 60	2	2	NUM	CC-	NumType=Card	61	nummod	_	MorphInd=^2<c>_CC-$
 61	gelar	gelar	NOUN	VSA	Number=Sing|Voice=Act	59	obj	_	MorphInd=^gelar<v>_VSA$
 62	lainnya	lainnya	ADJ	D--	_	61	amod	_	SpaceAfter=No|MorphInd=^lainnya<d>_D--$
@@ -2153,7 +2153,7 @@
 3	tersebut	tersebut	DET	B--	PronType=Dem	2	det	_	SpaceAfter=No|MorphInd=^tersebut<b>_B--$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	MorphInd=^ia<p>_PS3$
-6	memenangkan	ang	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+menang<a>+kan_VSA$
+6	memenangkan	menang	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+menang<a>+kan_VSA$
 7	tendangan	tendangan	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^tendang<v>+an_NSD$
 8	penalti	penalti	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^penalti<n>_NSD$
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
@@ -10466,7 +10466,7 @@
 2	Kevin	kevin	PROPN	F--	_	5	nsubj	_	MorphInd=^kevin<f>_F--$
 3	cs	cs	PROPN	F--	_	2	flat	_	MorphInd=^cs<f>_F--$
 4	bisa	bisa	ADV	M--	_	5	advmod	_	MorphInd=^bisa<m>_M--$
-5	memenangkan	ang	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+menang<a>+kan_VSA$
+5	memenangkan	menang	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+menang<a>+kan_VSA$
 6	pertaruhan	pertaruhan	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^per+taruh<v>+an_NSD$
 7	dengan	dengan	ADP	R--	_	8	case	_	MorphInd=^dengan<r>_R--$
 8	Mike	mike	PROPN	F--	_	5	obl	_	SpaceAfter=No|MorphInd=^mike<f>_F--$
