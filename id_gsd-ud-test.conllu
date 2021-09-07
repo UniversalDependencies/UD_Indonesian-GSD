@@ -561,7 +561,7 @@
 8	tetapi	tetapi	SCONJ	S--	_	10	mark	_	MorphInd=^tetapi<s>_S--$
 9	beberapa	beberapa	DET	B--	NumType=Card|PronType=Ind	10	det	_	MorphInd=^beberapa<b>_B--$
 10	orang	orang	NOUN	NSD	Number=Sing	6	advcl	_	MorphInd=^orang<n>_NSD$
-11	ragu-ragu	ragu	ADJ	ASP	Degree=Pos|Number=Plur	10	amod	_	MorphInd=^ragu<a>_ASP$|SpaceAfter=No
+11	ragu-ragu	ragu	ADJ	ASP	Degree=Pos	10	amod	_	MorphInd=^ragu<a>_ASP$|SpaceAfter=No
 12	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s24
@@ -1669,7 +1669,7 @@
 
 # sent_id = test-s70
 # text = Baru-baru ini, resor telah menggunakan kata-kata "Maximum Vegas" karena banyaknya aktivitas yang ditawarkan MGM Grand pada tamunya.
-1	Baru-baru	baru	ADJ	ASP	Degree=Pos|Number=Plur	6	amod	_	MorphInd=^baru<a>_ASP$
+1	Baru-baru	baru	ADJ	ASP	Degree=Pos	6	amod	_	MorphInd=^baru<a>_ASP$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	resor	resor	NOUN	X--	_	6	nsubj	_	MorphInd=^resor<x>_X--$
@@ -2580,7 +2580,7 @@
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj:pass	_	MorphInd=^yang<s>_S--$
 10	terputus	terputus	VERB	ASS	Degree=Sup|Number=Sing	6	acl	_	SpaceAfter=No|MorphInd=^ter+putus<a>_ASS$
 11	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
-12	masing-masing	masing	DET	X--	Number=Plur	14	det	_	MorphInd=^masing<x>_X--$
+12	masing-masing	masing	DET	X--	_	14	det	_	MorphInd=^masing<x>_X--$
 13	sudah	sudah	ADV	D--	_	14	advmod	_	MorphInd=^sudah<d>_D--$
 14	ada	ada	VERB	ASP	Degree=Pos|Number=Sing	3	advcl	_	MorphInd=^ada<a>_ASP$
 15	tapi	tapi	SCONJ	S--	_	18	mark	_	MorphInd=^tapi<s>_S--$
@@ -7558,7 +7558,7 @@
 3	angkuh	angkuh	ADJ	ASP	Degree=Pos|Number=Sing	1	amod	_	MorphInd=^angkuh<a>_ASP$
 4	dan	dan	CCONJ	H--	_	5	cc	_	MorphInd=^dan<h>_H--$
 5	dicintai	dicintai	VERB	VSP	Number=Sing|Voice=Pass	3	conj	_	MorphInd=^di+cinta<n>+i_VSP$
-6	mati-matian	matian	ADV	NPD	Number=Plur	5	advmod	_	MorphInd=^mati<a>+an_NPD$
+6	mati-matian	matian	ADV	NPD	_	5	advmod	_	MorphInd=^mati<a>+an_NPD$
 7	oleh	oleh	ADP	R--	_	8	case	_	MorphInd=^oleh<r>_R--$
 8	Janet	janet	PROPN	F--	_	5	obl	_	SpaceAfter=No|MorphInd=^janet<f>_F--$
 9	?	?	PUNCT	Z--	_	5	punct	_	MorphInd=^?<z>_Z--$
@@ -7813,7 +7813,7 @@
 16	Jepang	jepang	PROPN	NSD	Number=Sing	15	flat	_	SpaceAfter=No|MorphInd=^jepang<n>_NSD$
 17	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
 18	yang	yang	PRON	S--	PronType=Rel	20	nsubj	_	MorphInd=^yang<s>_S--$
-19	masing-masing	masing	ADV	X--	Number=Plur	20	advmod	_	MorphInd=^masing<x>_X--$
+19	masing-masing	masing	ADV	X--	_	20	advmod	_	MorphInd=^masing<x>_X--$
 20	melambangkan	menlambangkan	VERB	VSA	Number=Sing|Voice=Act	13	acl	_	MorphInd=^meN+lambang<n>+kan_VSA$
 21	suatu	suatu	DET	B--	PronType=Ind	22	det	_	MorphInd=^suatu<b>_B--$
 22	mora	mora	NOUN	X--	_	20	obj	_	SpaceAfter=No|MorphInd=^mora<x>_X--$
@@ -7869,7 +7869,7 @@
 1	Daya	daya	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^daya<n>_NSD$
 2	yang	yang	PRON	S--	PronType=Rel	3	nsubj	_	MorphInd=^yang<s>_S--$
 3	diboroskan	diboroskan	VERB	VSP	Number=Sing|Voice=Pass	1	acl	_	MorphInd=^di+boros<a>+kan_VSP$
-4	rata-rata	rata	ADV	ASP	Degree=Pos|Number=Plur	3	advmod	_	MorphInd=^rata<a>_ASP$
+4	rata-rata	rata	ADV	ASP	Degree=Pos	3	advmod	_	MorphInd=^rata<a>_ASP$
 5	adalah	adalah	AUX	O--	_	6	cop	_	MorphInd=^adalah<o>_O--$
 6	kecil	kecil	ADJ	ASP	Degree=Pos|Number=Sing	0	root	_	MorphInd=^kecil<a>_ASP$
 7	karena	karena	SCONJ	S--	_	10	mark	_	MorphInd=^karena<s>_S--$
@@ -9773,7 +9773,7 @@
 110	updated	updated	ADJ	X--	_	107	amod	_	MorphInd=^updated<x>_X--$
 111	info	info	NOUN	F--	_	110	compound	_	MorphInd=^info<f>_F--$
 112	dan	dan	CCONJ	H--	_	107	cc	_	MorphInd=^dan<h>_H--$
-113	lain-lain	lain	ADJ	ASP	Degree=Pos|Number=Plur	112	amod	_	MorphInd=^lain<a>_ASP$
+113	lain-lain	lain	ADJ	ASP	Degree=Pos	112	amod	_	MorphInd=^lain<a>_ASP$
 114	Mal	mal	PROPN	F--	_	155	nsubj	_	MorphInd=^mal<f>_F--$
 115	Ambasador	ambasador	PROPN	X--	_	114	flat	_	SpaceAfter=No|MorphInd=^ambasador<x>_X--$
 116	,	,	PUNCT	Z--	_	117	punct	_	MorphInd=^,<z>_Z--$
@@ -10631,7 +10631,7 @@
 13	sesuai	sesuai	ADJ	ASP	Degree=Pos|Number=Sing	15	amod	_	MorphInd=^sesuai<a>_ASP$
 14	dengan	dengan	ADP	R--	_	15	case	_	MorphInd=^dengan<r>_R--$
 15	kelompok	kelompok	NOUN	NSD	Number=Sing	10	nmod	_	MorphInd=^kelompok<n>_NSD$
-16	masing-masing	masing	DET	X--	Number=Plur	15	det	_	MorphInd=^masing<x>_X--$
+16	masing-masing	masing	DET	X--	_	15	det	_	MorphInd=^masing<x>_X--$
 17	(	(	PUNCT	Z--	_	18	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 18	mirip	mirip	ADJ	ASP	Degree=Pos|Number=Sing	10	appos	_	MorphInd=^mirip<a>_ASP$
 19	dengan	dengan	ADP	R--	_	20	case	_	MorphInd=^dengan<r>_R--$
@@ -12889,7 +12889,7 @@
 6	sukses	sukses	ADJ	NSD	Number=Sing	4	amod	_	SpaceAfter=No|MorphInd=^sukses<n>_NSD$
 7	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 8	Ibrahim	ibrahim	PROPN	NSD	Number=Sing	10	nsubj	_	MorphInd=^ibrahim<n>_NSD$
-9	tiba-tiba	tiba	ADV	NSD	Number=Plur	10	advmod	_	MorphInd=^tiba<n>_NSD$
+9	tiba-tiba	tiba	ADV	NSD	_	10	advmod	_	MorphInd=^tiba<n>_NSD$
 10	menyewa	mensewa	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+sewa<v>_VSA$
 11	pembunuh	penbunuh	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^peN+bunuh<v>_NSD$
 12	bayaran	bayaran	ADJ	NSD	Number=Sing	11	amod	_	MorphInd=^bayar<v>+an_NSD$

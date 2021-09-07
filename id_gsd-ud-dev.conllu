@@ -474,7 +474,7 @@
 11	dan	dan	CCONJ	H--	_	12	cc	_	MorphInd=^dan<h>_H--$
 12	fungsi	fungsi	NOUN	NSD	Number=Sing	10	conj	_	MorphInd=^fungsi<n>_NSD$
 13	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	10	det	_	MorphInd=^mereka<p>_PP3$
-14	masing-masing	masing	DET	X--	Number=Plur	10	det	_	MorphInd=^masing<x>_X--$|SpaceAfter=No
+14	masing-masing	masing	DET	X--	_	10	det	_	MorphInd=^masing<x>_X--$|SpaceAfter=No
 15	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s20
@@ -835,7 +835,7 @@
 
 # sent_id = dev-s36
 # text = Masing-masing jenis filsafat merupakan suatu sistem-sistem pemikiran yang luas dan plural.
-1	Masing-masing	masing	DET	X--	Number=Plur	3	det	_	MorphInd=^masing<x>_X--$
+1	Masing-masing	masing	DET	X--	_	3	det	_	MorphInd=^masing<x>_X--$
 2	jenis	jenis	ADJ	NSD	Number=Sing	3	amod	_	MorphInd=^jenis<n>_NSD$
 3	filsafat	filsafat	NOUN	X--	_	4	nsubj	_	MorphInd=^filsafat<x>_X--$
 4	merupakan	merupakan	VERB	O--	_	0	root	_	MorphInd=^merupakan<o>_O--$
@@ -1123,7 +1123,7 @@
 4	bahwa	bahwa	SCONJ	S--	_	10	mark	_	MorphInd=^bahwa<s>_S--$
 5	Yesus	yesus	PROPN	F--	_	10	nsubj	_	MorphInd=^yesus<f>_F--$
 6	sendiri	sendiri	ADV	ASP	Degree=Pos|Number=Sing	5	advmod	_	MorphInd=^sendiri<a>_ASP$
-7	jauh-jauh	jauh	ADJ	ASP	Degree=Pos|Number=Plur	8	amod	_	MorphInd=^jauh<a>_ASP$
+7	jauh-jauh	jauh	ADJ	ASP	Degree=Pos	8	amod	_	MorphInd=^jauh<a>_ASP$
 8	hari	hari	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^hari<n>_NSD$
 9	telah	telah	ADV	D--	_	10	advmod	_	MorphInd=^telah<d>_D--$
 10	memberitahukan	menberitahukan	VERB	VSA	Number=Sing|Voice=Act	3	ccomp	_	MorphInd=^meN+beritahu<v>+kan_VSA$
@@ -1253,7 +1253,7 @@
 11	jarak	jarak	NOUN	ASP	Degree=Pos|Number=Sing	10	compound	_	MorphInd=^jarak<a>_ASP$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj	_	MorphInd=^yang<s>_S--$
 13	selisihnya	selisih	ADV	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	11	advmod	_	MorphInd=^selisih<n>_NSD+dia<p>_PS3$
-14	masing-masing	masing	DET	X--	Number=Plur	13	det	_	MorphInd=^masing<x>_X--$
+14	masing-masing	masing	DET	X--	_	13	det	_	MorphInd=^masing<x>_X--$
 15	100	100	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^100<c>_CC-$
 16	meter	meter	NOUN	NSD	Number=Sing	13	nummod	_	SpaceAfter=No|MorphInd=^meter<n>_NSD$
 17	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
@@ -2389,7 +2389,7 @@
 5	hijau	hijau	ADJ	ASP	Degree=Pos|Number=Sing	4	amod	_	MorphInd=^hijau<a>_ASP$
 6	pucat	pucat	ADJ	ASP	Degree=Pos|Number=Sing	5	amod	_	MorphInd=^pucat<a>_ASP$
 7	atau	atau	CCONJ	H--	_	8	cc	_	MorphInd=^atau<h>_H--$
-8	abu-abu	abu	ADJ	NSD	Number=Plur	5	conj	_	MorphInd=^abu<n>_NSD$
+8	abu-abu	abu	ADJ	NSD	_	5	conj	_	MorphInd=^abu<n>_NSD$
 9	putih	putih	ADJ	ASP	Degree=Pos|Number=Sing	8	amod	_	SpaceAfter=No|MorphInd=^putih<a>_ASP$
 10	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
 11	sedangkan	sedangkan	SCONJ	S--	_	20	mark	_	MorphInd=^sedangkan<s>_S--$
@@ -3901,7 +3901,7 @@
 6	Putri	putri	PROPN	NSD	Number=Sing	5	obj	_	MorphInd=^putri<n>_NSD$
 7	kembali	kembali	ADV	VSA	Number=Sing|Voice=Act	5	advmod	_	SpaceAfter=No|MorphInd=^kembali<v>_VSA$
 8	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
-9	tiba-tiba	tiba	ADV	NSD	Number=Plur	19	advmod	_	MorphInd=^tiba<n>_NSD$
+9	tiba-tiba	tiba	ADV	NSD	_	19	advmod	_	MorphInd=^tiba<n>_NSD$
 10	Gladis	gladis	PROPN	X--	_	19	nsubj	_	MorphInd=^gladis<x>_X--$
 11	(	(	PUNCT	Z--	_	12	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 12	Eriska	eriska	PROPN	X--	_	10	appos	_	MorphInd=^eriska<x>_X--$
@@ -4245,7 +4245,7 @@
 30	semula	semula	NOUN	NSD	Number=Sing	28	nmod	_	MorphInd=^semula<n>_NSD$
 31	menjadikan	menjadikan	VERB	VSA	Number=Sing|Voice=Act	22	advcl	_	MorphInd=^meN+jadi<a>+kan_VSA$
 32	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	31	nsubj	_	MorphInd=^mereka<p>_PP3$
-33	laki-laki	laki	ADJ	NPD	Number=Plur	31	amod	_	MorphInd=^laki<n>_NPD$
+33	laki-laki	laki	ADJ	NPD	_	31	amod	_	MorphInd=^laki<n>_NPD$
 34	dan	dan	CCONJ	H--	_	35	cc	_	MorphInd=^dan<h>_H--$
 35	perempuan	perempuan	ADJ	NSD	Number=Sing	33	conj	_	SpaceAfter=No|MorphInd=^perempuan<n>_NSD$
 36	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
@@ -5949,7 +5949,7 @@
 8	negara	negara	NOUN	NSD	Number=Sing	7	compound	_	SpaceAfter=No|MorphInd=^negara<n>_NSD$
 9	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
 10	operasionalnya	operasional	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	12	nsubj	_	MorphInd=^operasional<n>_NSD+dia<p>_PS3$
-11	benar-benar	benar	ADV	ASP	Degree=Pos|Number=Plur	12	advmod	_	MorphInd=^benar<a>_ASP$
+11	benar-benar	benar	ADV	ASP	Degree=Pos	12	advmod	_	MorphInd=^benar<a>_ASP$
 12	bergantung	bergantung	VERB	VSA	Number=Sing|Voice=Act	6	parataxis	_	MorphInd=^ber+gantung<v>_VSA$
 13	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
 14	tunduk	tunduk	VERB	VSA	Number=Sing|Voice=Act	12	conj	_	MorphInd=^tunduk<v>_VSA$
@@ -7027,7 +7027,7 @@
 25	,	,	PUNCT	Z--	_	26	punct	_	MorphInd=^,<z>_Z--$
 26	tembaga	tembaga	ADJ	NSD	Number=Sing	24	conj	_	MorphInd=^tembaga<n>_NSD$
 27	dan	dan	CCONJ	H--	_	26	cc	_	MorphInd=^dan<h>_H--$
-28	lain-lain	lain	ADJ	ASP	Degree=Pos|Number=Plur	24	amod	_	MorphInd=^lain<a>_ASP$|SpaceAfter=No
+28	lain-lain	lain	ADJ	ASP	Degree=Pos	24	amod	_	MorphInd=^lain<a>_ASP$|SpaceAfter=No
 29	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s272
@@ -8230,7 +8230,7 @@
 20	-	-	PUNCT	Z--	_	21	punct	_	MorphInd=^-<z>_Z--$
 21	DOS	dos	PROPN	F--	_	19	flat	_	MorphInd=^dos<f>_F--$
 22	yang	yang	PRON	S--	PronType=Rel	24	nsubj	_	MorphInd=^yang<s>_S--$
-23	benar-benar	benar	ADV	ASP	Degree=Pos|Number=Plur	24	advmod	_	MorphInd=^benar<a>_ASP$
+23	benar-benar	benar	ADV	ASP	Degree=Pos	24	advmod	_	MorphInd=^benar<a>_ASP$
 24	mandiri	mandiri	ADJ	ASP	Degree=Pos|Number=Sing	19	amod	_	MorphInd=^mandiri<a>_ASP$
 25	dan	dan	CCONJ	H--	_	27	cc	_	MorphInd=^dan<h>_H--$
 26	dapat	dapat	ADV	M--	_	27	advmod	_	MorphInd=^dapat<m>_M--$
@@ -9416,7 +9416,7 @@
 29	berada	berada	VERB	VSA	Number=Sing|Voice=Act	7	dep	_	MorphInd=^ber+ada<a>_VSA$
 30	di	di	ADP	R--	_	33	case	_	MorphInd=^di<r>_R--$
 31	bagian	bagian	NOUN	NSD	Number=Sing	33	compound	_	MorphInd=^bagi<v>+an_NSD$
-32	tengah-tengah	tengah	ADJ	NSD	Number=Plur	31	acl	_	MorphInd=^tengah<n>_NSD$
+32	tengah-tengah	tengah	ADJ	NSD	_	31	acl	_	MorphInd=^tengah<n>_NSD$
 33	wilayah	wilayah	NOUN	NSD	Number=Sing	29	obl	_	MorphInd=^wilayah<n>_NSD$
 34	kabupaten	kabupaten	NOUN	NSD	Number=Sing	33	compound	_	SpaceAfter=No|MorphInd=^kabupaten<n>_NSD$
 35	,	,	PUNCT	Z--	_	38	punct	_	MorphInd=^,<z>_Z--$
@@ -9757,7 +9757,7 @@
 3	akhirnya	akhirnya	ADV	B--	_	8	xcomp	_	SpaceAfter=No|MorphInd=^akhirnya<b>_B--$
 4	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 5	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	MorphInd=^ia<p>_PS3$
-6	betul-betul	betul	ADV	APP	Degree=Pos|Number=Plur	5	advmod	_	MorphInd=^betul<a>_APP$
+6	betul-betul	betul	ADV	APP	Degree=Pos	5	advmod	_	MorphInd=^betul<a>_APP$
 7	bisa	bisa	ADV	M--	_	8	advmod	_	MorphInd=^bisa<m>_M--$
 8	mengeluarkan	menkeluarkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+keluar<v>+kan_VSA$
 9	tenaga	tenaga	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^tenaga<n>_NSD$
@@ -10867,7 +10867,7 @@
 31	Hindu	hindu	PROPN	F--	_	30	flat	_	SpaceAfter=No|MorphInd=^hindu<f>_F--$
 32	,	,	PUNCT	Z--	_	33	punct	_	MorphInd=^,<z>_Z--$
 33	dan	dan	CCONJ	H--	_	30	cc	_	MorphInd=^dan<h>_H--$
-34	lain-lain	lain	ADJ	ASP	Degree=Pos|Number=Plur	27	amod	_	MorphInd=^lain<a>_ASP$|SpaceAfter=No
+34	lain-lain	lain	ADJ	ASP	Degree=Pos	27	amod	_	MorphInd=^lain<a>_ASP$|SpaceAfter=No
 35	.	.	PUNCT	Z--	_	14	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s426
@@ -12953,7 +12953,7 @@
 21	desa	desa	NOUN	NSD	Number=Sing	20	obj	_	MorphInd=^desa<n>_NSD$
 22	di	di	ADP	R--	_	23	case	_	MorphInd=^di<r>_R--$
 23	daerah	daerah	NOUN	NSD	Number=Sing	21	nmod	_	MorphInd=^daerah<n>_NSD$
-24	masing-masing	masing	DET	X--	Number=Plur	23	det	_	MorphInd=^masing<x>_X--$|SpaceAfter=No
+24	masing-masing	masing	DET	X--	_	23	det	_	MorphInd=^masing<x>_X--$|SpaceAfter=No
 25	.	.	PUNCT	Z--	_	9	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s509
