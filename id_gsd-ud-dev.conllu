@@ -91,7 +91,7 @@
 25	seperti	seperti	ADP	R--	_	22	case	_	MorphInd=^seperti<r>_R--$
 26	yang	yang	PRON	S--	PronType=Rel	28	nsubj:pass	_	MorphInd=^yang<s>_S--$
 27	telah	telah	ADV	D--	_	28	advmod	_	MorphInd=^telah<d>_D--$
-28	disebutkan	disebutkan	VERB	VSP	Number=Sing|Voice=Pass	22	acl	_	MorphInd=^di+sebut<v>+kan_VSP$
+28	disebutkan	disebut	VERB	VSP	Number=Sing|Voice=Pass	22	acl	_	MorphInd=^di+sebut<v>+kan_VSP$
 29	di	di	ADP	R--	_	30	case	_	MorphInd=^di<r>_R--$
 30	awal	awal	NOUN	NSD	Number=Sing	28	obl	_	SpaceAfter=No|MorphInd=^awal<n>_NSD$
 31	,	,	PUNCT	Z--	_	22	punct	_	MorphInd=^,<z>_Z--$
@@ -221,7 +221,7 @@
 28	memperoleh	peroleh	VERB	VSA	Number=Sing|Voice=Act	24	acl	_	MorphInd=^meN+peroleh<v>_VSA$
 29	pengalaman	pengalaman	NOUN	NSD	Number=Sing	28	obj	_	MorphInd=^pengalaman<n>_NSD$
 30	kerja	kerja	NOUN	NSD	Number=Sing	29	compound	_	MorphInd=^kerja<n>_NSD$
-31	dilaksanakan	dilaksanakan	VERB	VSP	Number=Sing|Voice=Pass	29	ccomp	_	MorphInd=^di+laksana<v>+kan_VSP$
+31	dilaksanakan	dilaksana	VERB	VSP	Number=Sing|Voice=Pass	29	ccomp	_	MorphInd=^di+laksana<v>+kan_VSP$
 32	pada	pada	ADP	R--	_	33	case	_	MorphInd=^pada<r>_R--$
 33	tahun	tahun	NOUN	NSD	Number=Sing	31	obl	_	MorphInd=^tahun<n>_NSD$
 34	keempat	keempat	NUM	CO-	NumType=Card	33	nummod	_	SpaceAfter=No|MorphInd=^ke+empat<c>_CO-$
@@ -291,11 +291,11 @@
 1	Bit-bit	bit	NOUN	F--	Number=Plur	4	nsubj:pass	_	MorphInd=^bit<f>_F--$
 2	ganjil	ganjil	ADJ	ASP	Degree=Pos|Number=Sing	1	amod	_	MorphInd=^ganjil<a>_ASP$
 3	dapat	dapat	ADV	M--	_	4	advmod	_	MorphInd=^dapat<m>_M--$
-4	ditingkatkan	ditingkatkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+tingkat<n>+kan_VSP$
+4	ditingkatkan	ditingkat	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+tingkat<n>+kan_VSP$
 5	cukup	cukup	ADV	D--	_	6	advmod	_	MorphInd=^cukup<d>_D--$
 6	banyak	banyak	ADV	ASP	Degree=Pos|Number=Sing	4	advmod	_	MorphInd=^banyak<a>_ASP$
 7	dengan	dengan	ADP	R--	_	8	case	_	MorphInd=^dengan<r>_R--$
-8	mempertimbangkan	pertimbangkan	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+per+timbang<v>+kan_VSA$
+8	mempertimbangkan	pertimbang	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+per+timbang<v>+kan_VSA$
 9	setiap	setiap	DET	B--	PronType=Tot	10	det	_	MorphInd=^setiap<b>_B--$
 10	blok	blok	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^blok<n>_NSD$
 11	yang	yang	PRON	S--	PronType=Rel	13	nsubj:pass	_	MorphInd=^yang<s>_S--$
@@ -394,7 +394,7 @@
 13	lunak	lunak	ADJ	ASP	Degree=Pos|Number=Sing	12	amod	_	MorphInd=^lunak<a>_ASP$
 14	komputer	komputer	NOUN	NSD	Number=Sing	12	compound	_	MorphInd=^komputer<n>_NSD$
 15	yang	yang	PRON	S--	PronType=Rel	16	nsubj	_	MorphInd=^yang<s>_S--$
-16	menyebabkan	sebabkan	VERB	VSA	Number=Sing|Voice=Act	4	acl	_	MorphInd=^meN+sebab<n>+kan_VSA$
+16	menyebabkan	sebab	VERB	VSA	Number=Sing|Voice=Act	4	acl	_	MorphInd=^meN+sebab<n>+kan_VSA$
 17	peralatan	peralatan	NOUN	NSD	Number=Sing	16	obj	_	MorphInd=^per+alat<n>+an_NSD$
 18	atau	atau	CCONJ	H--	_	19	cc	_	MorphInd=^atau<h>_H--$
 19	program	program	NOUN	NSD	Number=Sing	17	conj	_	MorphInd=^program<n>_NSD$
@@ -488,7 +488,7 @@
 7	telah	telah	ADV	D--	_	8	advmod	_	MorphInd=^telah<d>_D--$
 8	merekam	rekam	VERB	VSA	Number=Sing|Voice=Act	2	advcl	_	MorphInd=^meN+rekam<v>_VSA$
 9	dan	dan	CCONJ	H--	_	10	cc	_	MorphInd=^dan<h>_H--$
-10	menyebarkan	sebarkan	VERB	VSA	Number=Sing|Voice=Act	8	conj	_	MorphInd=^meN+sebar<v>+kan_VSA$
+10	menyebarkan	sebar	VERB	VSA	Number=Sing|Voice=Act	8	conj	_	MorphInd=^meN+sebar<v>+kan_VSA$
 11	adegan	adegan	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^adegan<n>_NSD$
 12	mesra	mesra	NOUN	ASP	Degree=Pos|Number=Sing	11	compound	_	MorphInd=^mesra<a>_ASP$
 13	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	11	det	_	MorphInd=^mereka<p>_PP3$
@@ -580,13 +580,13 @@
 15	dengan	dengan	ADP	R--	_	16	case	_	MorphInd=^dengan<r>_R--$
 16	akhir	akhir	NOUN	NSD	Number=Sing	14	nmod	_	MorphInd=^akhir<n>_NSD$
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj	_	MorphInd=^yang<s>_S--$
-18	menegangkan	tegangkan	VERB	VSA	Number=Sing|Voice=Act	16	acl	_	MorphInd=^meN+tegang<a>+kan_VSA$
+18	menegangkan	tegang	VERB	VSA	Number=Sing|Voice=Act	16	acl	_	MorphInd=^meN+tegang<a>+kan_VSA$
 19	sehingga	sehingga	SCONJ	S--	_	24	mark	_	MorphInd=^sehingga<s>_S--$
 20	sang	sang	DET	F--	_	21	det	_	MorphInd=^sang<f>_F--$
 21	raja	raja	NOUN	NSD	Number=Sing	24	nsubj	_	MorphInd=^raja<n>_NSD$
 22	pun	pun	PART	T--	_	21	det	_	MorphInd=^pun<t>_T--$
 23	selalu	selalu	ADV	D--	_	24	advmod	_	MorphInd=^selalu<d>_D--$
-24	menangguhkan	tangguhkan	VERB	VSA	Number=Sing|Voice=Act	13	advcl	_	MorphInd=^meN+tangguh<a>+kan_VSA$
+24	menangguhkan	tangguh	VERB	VSA	Number=Sing|Voice=Act	13	advcl	_	MorphInd=^meN+tangguh<a>+kan_VSA$
 25	perintah	perintah	NOUN	NSD	Number=Sing	24	obj	_	MorphInd=^perintah<n>_NSD$
 26	hukuman	hukuman	NOUN	NSD	Number=Sing	25	compound	_	MorphInd=^hukum<n>+an_NSD$
 27	mati	mati	ADJ	ASP	Degree=Pos|Number=Sing	26	amod	_	MorphInd=^mati<a>_ASP$
@@ -600,7 +600,7 @@
 1	Bangunan	bangunan	NOUN	NSD	Number=Sing	4	nsubj:pass	_	MorphInd=^bangun<v>+an_NSD$
 2	tersebut	tersebut	DET	B--	PronType=Dem	1	det	_	MorphInd=^tersebut<b>_B--$
 3	kemudian	kemudian	ADV	S--	_	4	advmod	_	MorphInd=^kemudian<s>_S--$
-4	diwariskan	diwariskan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+waris<n>+kan_VSP$
+4	diwariskan	diwaris	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+waris<n>+kan_VSP$
 5	kepada	kepada	ADP	R--	_	6	case	_	MorphInd=^kepada<r>_R--$
 6	putranya	putra	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	MorphInd=^putra<n>_NSD+dia<p>_PS3$
 7	yang	yang	PRON	S--	PronType=Rel	8	nsubj	_	MorphInd=^yang<s>_S--$
@@ -706,7 +706,7 @@
 5	pemerintah	penperintah	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^peN+perintah<n>_NSD$
 6	propinsi	propinsi	NOUN	NSD	Number=Sing	5	compound	_	MorphInd=^propinsi<n>_NSD$
 7	sangat	sangat	ADV	D--	_	8	advmod	_	MorphInd=^sangat<d>_D--$
-8	membutuhkan	butuhkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+butuh<v>+kan_VSA$
+8	membutuhkan	butuh	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+butuh<v>+kan_VSA$
 9	sumber	sumber	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^sumber<n>_NSD$
 10	daya	daya	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^daya<n>_NSD$
 11	manusia	manusia	NOUN	NSD	Number=Sing	10	compound	_	MorphInd=^manusia<n>_NSD$
@@ -766,7 +766,7 @@
 1	Kenapa	kenapa	ADV	W--	PronType=Int	4	advmod	_	MorphInd=^kenapa<w>_W--$
 2	para	para	DET	B--	PronType=Dem	3	det	_	MorphInd=^para<b>_B--$
 3	penambang	pentambang	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^peN+tambang<n>_NSD$
-4	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
+4	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
 5	tembakau	tembakau	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^tembakau<n>_NSD$
 6	kunyah	kunyah	ADJ	VSA	Number=Sing|Voice=Act	5	amod	_	SpaceAfter=No|MorphInd=^kunyah<v>_VSA$
 7	?	?	PUNCT	Z--	_	4	punct	_	MorphInd=^?<z>_Z--$
@@ -788,7 +788,7 @@
 13	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 14	mineral	mineral	NOUN	F--	_	8	conj	_	MorphInd=^mineral<f>_F--$
 15	yang	yang	PRON	S--	PronType=Rel	16	nsubj:pass	_	MorphInd=^yang<s>_S--$
-16	diperlukan	diperlukan	VERB	VSP	Number=Sing|Voice=Pass	14	acl	_	MorphInd=^di+perlu<v>+kan_VSP$
+16	diperlukan	diperlu	VERB	VSP	Number=Sing|Voice=Pass	14	acl	_	MorphInd=^di+perlu<v>+kan_VSP$
 17	untuk	untuk	ADP	R--	_	18	case	_	MorphInd=^untuk<r>_R--$
 18	fungsi	fungsi	NOUN	NSD	Number=Sing	16	obl	_	MorphInd=^fungsi<n>_NSD$
 19	enzim	enzim	NOUN	NSD	Number=Sing	18	compound	_	SpaceAfter=No|MorphInd=^enzim<n>_NSD$
@@ -993,7 +993,7 @@
 3	aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	6	nsubj:pass	_	MorphInd=^aku<p>_PS1$
 4	mungkin	mungkin	ADV	D--	_	6	advmod	_	MorphInd=^mungkin<d>_D--$
 5	tidak	tidak	PART	G--	Polarity=Neg	6	advmod	_	MorphInd=^tidak<g>_G--$
-6	dimakamkan	dimakamkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+makam<n>+kan_VSP$
+6	dimakamkan	dimakam	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+makam<n>+kan_VSP$
 7	secara	secara	ADP	R--	_	8	case	_	MorphInd=^secara<r>_R--$
 8	besar-besaran	besaran	NOUN	NPD	Number=Plur	6	obl	_	SpaceAfter=No|MorphInd=^besar<a>+an_NPD$
 9	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
@@ -1012,7 +1012,7 @@
 3	desa	desa	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^desa<n>_NSD$
 4	di	di	ADP	R--	_	5	case	_	MorphInd=^di<r>_R--$
 5	kecamatan	kecamatan	PROPN	NSD	Number=Sing	3	nmod	_	MorphInd=^ke+camat<n>+an_NSD$
-6	Susukan	susukan	PROPN	VSA	Number=Sing|Voice=Act	5	flat	_	SpaceAfter=No|MorphInd=^susu<n>+kan_VSA$
+6	Susukan	susu	PROPN	VSA	Number=Sing|Voice=Act	5	flat	_	SpaceAfter=No|MorphInd=^susu<n>+kan_VSA$
 7	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 8	Cirebon	cirebon	PROPN	F--	_	5	appos	_	SpaceAfter=No|MorphInd=^cirebon<f>_F--$
 9	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
@@ -1065,7 +1065,7 @@
 15	dibawah	dibawah	ADP	VSP	Number=Sing|Voice=Pass	16	case	_	MorphInd=^di+bawah<n>_VSP$
 16	mandat	mandat	NOUN	NSD	Number=Sing	5	nmod	_	MorphInd=^mandat<n>_NSD$
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj:pass	_	MorphInd=^yang<s>_S--$
-18	diberikan	diberikan	VERB	VSP	Number=Sing|Voice=Pass	16	acl	_	MorphInd=^di+beri<v>+kan_VSP$
+18	diberikan	diberi	VERB	VSP	Number=Sing|Voice=Pass	16	acl	_	MorphInd=^di+beri<v>+kan_VSP$
 19	oleh	oleh	ADP	R--	_	20	case	_	MorphInd=^oleh<r>_R--$
 20	General	general	PROPN	F--	_	18	obl	_	MorphInd=^general<f>_F--$
 21	Conference	conference	PROPN	F--	_	20	flat	_	MorphInd=^conference<f>_F--$
@@ -1082,7 +1082,7 @@
 32	tahun	tahun	NOUN	NSD	Number=Sing	18	obl	_	MorphInd=^tahun<n>_NSD$
 33	1954	1954	NUM	CC-	NumType=Card	32	nummod	_	SpaceAfter=No|MorphInd=^1954<c>_CC-$
 34	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
-35	menjabarkan	jabarkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jabar<v>+kan_VSA$
+35	menjabarkan	jabar	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jabar<v>+kan_VSA$
 36	detik	detik	NOUN	NSD	Number=Sing	35	obj	_	MorphInd=^detik<n>_NSD$
 37	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	38	case	_	MorphInd=^dalam<a>_ASP$
 38	periode	periode	NOUN	NSD	Number=Sing	36	nmod	_	MorphInd=^periode<n>_NSD$
@@ -1109,7 +1109,7 @@
 59	cukup	cukup	ADV	D--	_	60	advmod	_	MorphInd=^cukup<d>_D--$
 60	seragam	seragam	ADJ	NSD	Number=Sing	52	amod	_	MorphInd=^seragam<n>_NSD$
 61	untuk	untuk	ADP	R--	_	62	case	_	MorphInd=^untuk<r>_R--$
-62	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	60	ccomp	_	MorphInd=^di+guna<n>+kan_VSP$
+62	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	60	ccomp	_	MorphInd=^di+guna<n>+kan_VSP$
 63	sebagai	sebagai	ADP	R--	_	65	case	_	MorphInd=^sebagai<r>_R--$
 64	standar	standar	ADJ	NSD	Number=Sing	65	amod	_	MorphInd=^standar<n>_NSD$
 65	waktu	waktu	NOUN	NSD	Number=Sing	62	obl	_	SpaceAfter=No|MorphInd=^waktu<n>_NSD$
@@ -1126,7 +1126,7 @@
 7	jauh-jauh	jauh	ADJ	ASP	Degree=Pos	8	amod	_	MorphInd=^jauh<a>_ASP$
 8	hari	hari	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^hari<n>_NSD$
 9	telah	telah	ADV	D--	_	10	advmod	_	MorphInd=^telah<d>_D--$
-10	memberitahukan	beritahukan	VERB	VSA	Number=Sing|Voice=Act	3	ccomp	_	MorphInd=^meN+beritahu<v>+kan_VSA$
+10	memberitahukan	beritahu	VERB	VSA	Number=Sing|Voice=Act	3	ccomp	_	MorphInd=^meN+beritahu<v>+kan_VSA$
 11	kematian	kematian	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^ke+mati<a>+an_NSD$
 12	-	-	PUNCT	Z--	_	13	punct	_	MorphInd=^-<z>_Z--$
 13	Nya	nya	PROPN	B--	_	11	det	_	MorphInd=^nya<b>_B--$
@@ -1262,7 +1262,7 @@
 # text = Hal ini meningkatkan posisi dari perguruan mereka, sekaligus memberikannya kesempatan untuk membalas dendam atas kematian ayahnya.
 1	Hal	hal	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^hal<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
-3	meningkatkan	tingkatkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tingkat<n>+kan_VSA$
+3	meningkatkan	tingkat	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tingkat<n>+kan_VSA$
 4	posisi	posisi	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^posisi<n>_NSD$
 5	dari	dari	ADP	R--	_	6	case	_	MorphInd=^dari<r>_R--$
 6	perguruan	perguruan	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^per+guru<n>+an_NSD$
@@ -1294,7 +1294,7 @@
 11	kecelakaan	kecelakaan	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^ke+celaka<a>+an_NSD$
 12	mobil	mobil	NOUN	NSD	Number=Sing	11	compound	_	SpaceAfter=No|MorphInd=^mobil<n>_NSD$
 13	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
-14	mengejutkan	kejutkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+kejut<v>+kan_VSA$
+14	mengejutkan	kejut	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+kejut<v>+kan_VSA$
 15	Pentagon	pentagon	PROPN	F--	_	14	obj	_	MorphInd=^pentagon<f>_F--$
 16	saat	saat	SCONJ	S--	_	17	mark	_	MorphInd=^saat<s>_S--$
 17	mengambil	ambil	VERB	VSA	Number=Sing|Voice=Act	14	advcl	_	MorphInd=^meN+ambil<v>_VSA$
@@ -1318,7 +1318,7 @@
 5	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
 6	kegiatan	kegiatan	NOUN	NSD	Number=Sing	8	nsubj:pass	_	MorphInd=^ke+giat<n>+an_NSD$
 7	ini	ini	DET	B--	PronType=Dem	6	det	_	MorphInd=^ini<b>_B--$
-8	diselenggarakan	diselenggarakan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+selenggara<n>+kan_VSP$
+8	diselenggarakan	diselenggara	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+selenggara<n>+kan_VSP$
 9	oleh	oleh	ADP	R--	_	10	case	_	MorphInd=^oleh<r>_R--$
 10	PERMIAS	permias	PROPN	X--	_	8	obl	_	MorphInd=^permias<x>_X--$
 11	Berkeley	berkeley	PROPN	F--	_	10	flat	_	MorphInd=^berkeley<f>_F--$
@@ -1392,10 +1392,10 @@
 2	sumber	sumber	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^sumber<n>_NSD$
 3	sering	sering	ADV	D--	_	5	advmod	_	MorphInd=^sering<d>_D--$
 4	salah	salah	ADJ	ASP	Degree=Pos|Number=Sing	5	amod	_	MorphInd=^salah<a>_ASP$
-5	menyebutkan	sebutkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+sebut<v>+kan_VSA$
+5	menyebutkan	sebut	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+sebut<v>+kan_VSA$
 6	bahwa	bahwa	SCONJ	S--	_	12	mark	_	MorphInd=^bahwa<s>_S--$
 7	yang	yang	PRON	S--	PronType=Rel	8	nsubj	_	MorphInd=^yang<s>_S--$
-8	menemukan	temukan	VERB	VSA	Number=Sing|Voice=Act	12	csubj	_	MorphInd=^meN+temu<v>+kan_VSA$
+8	menemukan	temu	VERB	VSA	Number=Sing|Voice=Act	12	csubj	_	MorphInd=^meN+temu<v>+kan_VSA$
 9	kelenjar	kelenjar	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^kelenjar<n>_NSD$
 10	ini	ini	DET	B--	PronType=Dem	9	det	_	MorphInd=^ini<b>_B--$
 11	adalah	adalah	AUX	O--	_	12	cop	_	MorphInd=^adalah<o>_O--$
@@ -1433,7 +1433,7 @@
 13	yang	yang	PRON	S--	PronType=Rel	16	nsubj:pass	_	MorphInd=^yang<s>_S--$
 14	hanya	hanya	ADV	D--	_	16	advmod	_	MorphInd=^hanya<d>_D--$
 15	bisa	bisa	ADV	M--	_	16	advmod	_	MorphInd=^bisa<m>_M--$
-16	dibandingkan	dibandingkan	VERB	VSP	Number=Sing|Voice=Pass	12	acl	_	MorphInd=^di+banding<v>+kan_VSP$
+16	dibandingkan	dibanding	VERB	VSP	Number=Sing|Voice=Pass	12	acl	_	MorphInd=^di+banding<v>+kan_VSP$
 17	dengan	dengan	ADP	R--	_	18	case	_	MorphInd=^dengan<r>_R--$
 18	kekaisaran	kekaisaran	NOUN	NSD	Number=Sing	16	obl	_	MorphInd=^ke+kaisar<n>+an_NSD$
 19	Romawi	romawi	PROPN	NSD	Number=Sing	18	flat	_	MorphInd=^romawi<n>_NSD$
@@ -1499,7 +1499,7 @@
 12	selewengkan	selewengkan	VERB	X--	_	6	acl	_	SpaceAfter=No|MorphInd=^selewengkan<x>_X--$
 13	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 14	dan	dan	CCONJ	H--	_	15	cc	_	MorphInd=^dan<h>_H--$
-15	menyerahkan	serahkan	VERB	VSA	Number=Sing|Voice=Act	2	conj	_	MorphInd=^meN+serah<v>+kan_VSA$
+15	menyerahkan	serah	VERB	VSA	Number=Sing|Voice=Act	2	conj	_	MorphInd=^meN+serah<v>+kan_VSA$
 16	hak-hak	hak	NOUN	NSD	Number=Plur	15	obj	_	MorphInd=^hak<n>_NSD$
 17	dari	dari	ADP	R--	_	18	case	_	MorphInd=^dari<r>_R--$
 18	keluaran	keluaran	NOUN	NSD	Number=Sing	16	nmod	_	MorphInd=^keluar<v>+an_NSD$
@@ -1515,11 +1515,11 @@
 28	yang	yang	CCONJ	S--	_	31	mark	_	MorphInd=^yang<s>_S--$
 29	mana	mana	SCONJ	W--	PronType=Int	28	fixed	_	MorphInd=^mana<w>_W--$
 30	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	31	nsubj	_	MorphInd=^mereka<p>_PP3$
-31	menemukan	temukan	VERB	VSA	Number=Sing|Voice=Act	24	acl	_	MorphInd=^meN+temu<v>+kan_VSA$
+31	menemukan	temu	VERB	VSA	Number=Sing|Voice=Act	24	acl	_	MorphInd=^meN+temu<v>+kan_VSA$
 32	label	label	NOUN	NSD	Number=Sing	31	obj	_	MorphInd=^label<n>_NSD$
 33	lainnya	lainnya	ADJ	D--	_	32	amod	_	MorphInd=^lainnya<d>_D--$
 34	untuk	untuk	ADP	R--	_	35	case	_	MorphInd=^untuk<r>_R--$
-35	mengeluarkan	keluarkan	VERB	VSA	Number=Sing|Voice=Act	31	xcomp	_	MorphInd=^meN+keluar<v>+kan_VSA$
+35	mengeluarkan	keluar	VERB	VSA	Number=Sing|Voice=Act	31	xcomp	_	MorphInd=^meN+keluar<v>+kan_VSA$
 36	album-album	album	NOUN	NSD	Number=Plur	35	obj	_	MorphInd=^album<n>_NSD$
 37	Dead	dead	PROPN	X--	_	36	flat	_	MorphInd=^dead<x>_X--$
 38	Kennedys	kennedys	PROPN	X--	_	37	flat	_	MorphInd=^kennedys<x>_X--$
@@ -1562,7 +1562,7 @@
 29	pada	pada	ADP	R--	_	30	case	_	MorphInd=^pada<r>_R--$
 30	oktober	oktober	PROPN	NSD	Number=Sing	32	obl	_	MorphInd=^oktober<n>_NSD$
 31	2004	2004	NUM	CC-	NumType=Card	30	nummod	_	MorphInd=^2004<c>_CC-$
-32	menyelenggarakan	selenggarakan	VERB	VSA	Number=Sing|Voice=Act	23	acl	_	MorphInd=^meN+selenggara<n>+kan_VSA$
+32	menyelenggarakan	selenggara	VERB	VSA	Number=Sing|Voice=Act	23	acl	_	MorphInd=^meN+selenggara<n>+kan_VSA$
 33	serangkaian	serangkaian	DET	X--	_	34	det	_	MorphInd=^serangkaian<x>_X--$
 34	kampanye	kampanye	NOUN	NSD	Number=Sing	32	obj	_	MorphInd=^kampanye<n>_NSD$
 35	penyelamatan	penselamatan	NOUN	NSD	Number=Sing	34	compound	_	MorphInd=^peN+selamat<a>+an_NSD$
@@ -1649,7 +1649,7 @@
 116	beberapa	beberapa	DET	B--	NumType=Card|PronType=Ind	117	det	_	MorphInd=^beberapa<b>_B--$
 117	akademisi	akademisi	NOUN	NSD	Number=Sing	100	conj	_	MorphInd=^akademisi<n>_NSD$
 118	lainnya	lainnya	ADJ	D--	_	117	amod	_	MorphInd=^lainnya<d>_D--$
-119	mendirikan	dirikan	VERB	VSA	Number=Sing|Voice=Act	22	dep	_	MorphInd=^meN+diri<n>+kan_VSA$
+119	mendirikan	diri	VERB	VSA	Number=Sing|Voice=Act	22	dep	_	MorphInd=^meN+diri<n>+kan_VSA$
 120	Pusat	pusat	PROPN	ASP	Degree=Pos|Number=Sing	119	obj	_	MorphInd=^pusat<a>_ASP$
 121	Pemberdayaan	pemberdayaan	PROPN	NSD	Number=Sing	120	flat	_	MorphInd=^pemberdayaan<n>_NSD$
 122	dan	dan	CCONJ	H--	_	123	cc	_	MorphInd=^dan<h>_H--$
@@ -1696,7 +1696,7 @@
 22	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 23	Bahasa	bahasa	PROPN	NSD	Number=Sing	25	nsubj	_	MorphInd=^bahasa<n>_NSD$
 24	Azerbaijan	azerbaijan	PROPN	F--	_	23	flat	_	MorphInd=^azerbaijan<f>_F--$
-25	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	7	dep	_	MorphInd=^di+guna<n>+kan_VSP$
+25	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	7	dep	_	MorphInd=^di+guna<n>+kan_VSP$
 26	oleh	oleh	ADP	R--	_	28	case	_	MorphInd=^oleh<r>_R--$
 27	semua	semua	DET	B--	PronType=Tot	28	det	_	MorphInd=^semua<b>_B--$
 28	penduduk	penduduk	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^penduduk<n>_NSD$
@@ -1743,7 +1743,7 @@
 15	Situs	situs	PROPN	NSD	Number=Sing	18	nsubj	_	MorphInd=^situs<n>_NSD$
 16	resmi	resmi	ADJ	ASP	Degree=Pos|Number=Sing	15	amod	_	MorphInd=^resmi<a>_ASP$
 17	universitas	universitas	PROPN	NSD	Number=Sing	15	flat	_	MorphInd=^universitas<n>_NSD$
-18	melaporkan	laporkan	VERB	VSA	Number=Sing|Voice=Act	6	dep	_	MorphInd=^meN+lapor<v>+kan_VSA$
+18	melaporkan	lapor	VERB	VSA	Number=Sing|Voice=Act	6	dep	_	MorphInd=^meN+lapor<v>+kan_VSA$
 19	kemungkinan	kemungkinan	NOUN	NSD	Number=Sing	18	obj	_	MorphInd=^kemungkinan<n>_NSD$
 20	adanya	adanya	VERB	B--	PronType=Ind	19	acl	_	MorphInd=^adanya<b>_B--$
 21	seorang	seorang	PRON	B--	PronType=Ind	20	obj	_	MorphInd=^seorang<b>_B--$
@@ -1795,7 +1795,7 @@
 # text = Awalnya Euristheus merencanakan bahwa masa pemerintahan mereka hanya sementara, namun ternyata dia meninggal dalam pertempruan sehingga Atreus dapat terus memerintah Mykenai.
 1	Awalnya	awal	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	MorphInd=^awal<n>_NSD+dia<p>_PS3$
 2	Euristheus	euristheus	PROPN	X--	_	3	nsubj	_	MorphInd=^euristheus<x>_X--$
-3	merencanakan	rencanakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+rencana<n>+kan_VSA$
+3	merencanakan	rencana	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+rencana<n>+kan_VSA$
 4	bahwa	bahwa	SCONJ	S--	_	5	mark	_	MorphInd=^bahwa<s>_S--$
 5	masa	masa	NOUN	NSD	Number=Sing	3	ccomp	_	MorphInd=^masa<n>_NSD$
 6	pemerintahan	penperintahan	NOUN	NSD	Number=Sing	5	compound	_	MorphInd=^peN+perintah<n>+an_NSD$
@@ -1830,7 +1830,7 @@
 9	apa	apa	PRON	W--	PronType=Int	2	advcl	_	MorphInd=^apa<w>_W--$
 10	yang	yang	PRON	S--	PronType=Rel	12	nsubj:pass	_	MorphInd=^yang<s>_S--$
 11	harus	harus	ADV	M--	_	12	advmod	_	MorphInd=^harus<m>_M--$
-12	dilakukan	dilakukan	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	SpaceAfter=No|MorphInd=^di+laku<a>+kan_VSP$
+12	dilakukan	dilaku	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	SpaceAfter=No|MorphInd=^di+laku<a>+kan_VSP$
 13	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s68
@@ -1857,11 +1857,11 @@
 20	suara	suara	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^suara<n>_NSD$
 21	terbanyak	terbanyak	ADJ	ASS	Degree=Sup|Number=Sing	20	amod	_	MorphInd=^ter+banyak<a>_ASS$
 22	untuk	untuk	ADP	R--	_	23	case	_	MorphInd=^untuk<r>_R--$
-23	menggantikan	gantikan	VERB	VSA	Number=Sing|Voice=Act	9	xcomp	_	MorphInd=^meN+ganti<v>+kan_VSA$
+23	menggantikan	ganti	VERB	VSA	Number=Sing|Voice=Act	9	xcomp	_	MorphInd=^meN+ganti<v>+kan_VSA$
 24	PERMIAS	permias	PROPN	X--	_	23	obj	_	MorphInd=^permias<x>_X--$
 25	Hawaii	hawaii	PROPN	F--	_	24	flat	_	MorphInd=^hawaii<f>_F--$
 26	yang	yang	PRON	S--	PronType=Rel	27	nsubj	_	MorphInd=^yang<s>_S--$
-27	mengundurkan	undurkan	VERB	VSA	Number=Sing|Voice=Act	24	acl	_	MorphInd=^meN+undur<v>+kan_VSA$
+27	mengundurkan	undur	VERB	VSA	Number=Sing|Voice=Act	24	acl	_	MorphInd=^meN+undur<v>+kan_VSA$
 28	diri	diri	NOUN	NSD	Number=Sing	27	obj	_	SpaceAfter=No|MorphInd=^diri<n>_NSD$
 29	.	.	PUNCT	Z--	_	9	punct	_	MorphInd=^.<z>_Z--$
 
@@ -1887,7 +1887,7 @@
 18	deret	deret	NOUN	NSD	Number=Sing	21	nsubj:pass	_	MorphInd=^deret<n>_NSD$
 19	AAUAAA	aauaaa	PROPN	X--	_	18	flat	_	MorphInd=^aauaaa<x>_X--$
 20	akan	akan	ADV	M--	_	21	advmod	_	MorphInd=^akan<m>_M--$
-21	ditambahkan	ditambahkan	VERB	VSP	Number=Sing|Voice=Pass	5	conj	_	MorphInd=^di+tambah<v>+kan_VSP$
+21	ditambahkan	ditambah	VERB	VSP	Number=Sing|Voice=Pass	5	conj	_	MorphInd=^di+tambah<v>+kan_VSP$
 22	pada	pada	ADP	R--	_	23	case	_	MorphInd=^pada<r>_R--$
 23	pangkal	pangkal	NOUN	NSD	Number=Sing	21	obl	_	MorphInd=^pangkal<n>_NSD$
 24	3	3	NUM	CC-	NumType=Card	23	nummod	_	MorphInd=^3<c>_CC-$
@@ -1919,9 +1919,9 @@
 18	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 19	Standar	standar	PROPN	NSD	Number=Sing	21	nsubj:pass	_	MorphInd=^standar<n>_NSD$
 20	ini	ini	DET	B--	PronType=Dem	19	det	_	MorphInd=^ini<b>_B--$
-21	dikembangkan	dikembangkan	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
+21	dikembangkan	dikembang	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
 22	dan	dan	CCONJ	H--	_	23	cc	_	MorphInd=^dan<h>_H--$
-23	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	21	conj	_	MorphInd=^di+guna<n>+kan_VSP$
+23	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	21	conj	_	MorphInd=^di+guna<n>+kan_VSP$
 24	oleh	oleh	ADP	R--	_	25	case	_	MorphInd=^oleh<r>_R--$
 25	negara-negara	negara	NOUN	NSD	Number=Plur	23	obl	_	MorphInd=^negara<n>_NSD$
 26	nordic	nordic	PROPN	X--	_	25	flat	_	MorphInd=^nordic<x>_X--$
@@ -1947,9 +1947,9 @@
 46	.	.	PUNCT	Z--	_	21	punct	_	MorphInd=^.<z>_Z--$
 47	Standar	standar	PROPN	NSD	Number=Sing	49	nsubj:pass	_	MorphInd=^standar<n>_NSD$
 48	ini	ini	DET	B--	PronType=Dem	47	det	_	MorphInd=^ini<b>_B--$
-49	dikembangkan	dikembangkan	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
+49	dikembangkan	dikembang	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
 50	dan	dan	CCONJ	H--	_	51	cc	_	MorphInd=^dan<h>_H--$
-51	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	49	conj	_	MorphInd=^di+guna<n>+kan_VSP$
+51	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	49	conj	_	MorphInd=^di+guna<n>+kan_VSP$
 52	tahun	tahun	NOUN	NSD	Number=Sing	51	compound	_	MorphInd=^tahun<n>_NSD$
 53	1983	1983	NUM	CC-	NumType=Card	52	nummod	_	MorphInd=^1983<c>_CC-$
 54	TACS	tacs	PROPN	X--	_	49	flat	_	SpaceAfter=No|MorphInd=^tacs<x>_X--$
@@ -1977,9 +1977,9 @@
 76	.	.	PUNCT	Z--	_	49	punct	_	MorphInd=^.<z>_Z--$
 77	Standar	standar	PROPN	NSD	Number=Sing	79	nsubj:pass	_	MorphInd=^standar<n>_NSD$
 78	ini	ini	DET	B--	PronType=Dem	77	det	_	MorphInd=^ini<b>_B--$
-79	dikembangkan	dikembangkan	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
+79	dikembangkan	dikembang	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
 80	dan	dan	CCONJ	H--	_	81	cc	_	MorphInd=^dan<h>_H--$
-81	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	79	conj	_	MorphInd=^di+guna<n>+kan_VSP$
+81	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	79	conj	_	MorphInd=^di+guna<n>+kan_VSP$
 82	1985	1985	NUM	CC-	NumType=Card	83	nummod	_	MorphInd=^1985<c>_CC-$
 83	NMT	nmt	PROPN	X--	_	81	obj	_	MorphInd=^nmt<x>_X--$
 84	900	900	NUM	CC-	NumType=Card	83	nummod	_	SpaceAfter=No|MorphInd=^900<c>_CC-$
@@ -2001,9 +2001,9 @@
 100	.	.	PUNCT	Z--	_	79	punct	_	MorphInd=^.<z>_Z--$
 101	Standar	standar	PROPN	NSD	Number=Sing	103	nsubj:pass	_	MorphInd=^standar<n>_NSD$
 102	ini	ini	DET	B--	PronType=Dem	101	det	_	MorphInd=^ini<b>_B--$
-103	dikembangkan	dikembangkan	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
+103	dikembangkan	dikembang	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
 104	dan	dan	CCONJ	H--	_	105	cc	_	MorphInd=^dan<h>_H--$
-105	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	103	conj	_	MorphInd=^di+guna<n>+kan_VSP$
+105	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	103	conj	_	MorphInd=^di+guna<n>+kan_VSP$
 106	oleh	oleh	ADP	R--	_	107	case	_	MorphInd=^oleh<r>_R--$
 107	negara-negara	negara	NOUN	NSD	Number=Plur	105	obl	_	MorphInd=^negara<n>_NSD$
 108	nordic	nordic	PROPN	X--	_	107	flat	_	MorphInd=^nordic<x>_X--$
@@ -2030,7 +2030,7 @@
 129	.	.	PUNCT	Z--	_	103	punct	_	MorphInd=^.<z>_Z--$
 130	Standar	standar	PROPN	NSD	Number=Sing	132	nsubj:pass	_	MorphInd=^standar<n>_NSD$
 131	ini	ini	DET	B--	PronType=Dem	130	det	_	MorphInd=^ini<b>_B--$
-132	dikembangkan	dikembangkan	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
+132	dikembangkan	dikembang	VERB	VSP	Number=Sing|Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
 133	oleh	oleh	ADP	R--	_	134	case	_	MorphInd=^oleh<r>_R--$
 134	gabungan	gabungan	NOUN	NSD	Number=Sing	132	obl	_	MorphInd=^gabung<v>+an_NSD$
 135	negara	negara	NOUN	NSD	Number=Sing	134	compound	_	MorphInd=^negara<n>_NSD$
@@ -2038,7 +2038,7 @@
 137	negara	negara	NOUN	NSD	Number=Sing	135	compound	_	MorphInd=^negara<n>_NSD$
 138	Eropa	eropa	PROPN	NSD	Number=Sing	137	flat	_	MorphInd=^eropa<n>_NSD$
 139	dan	dan	CCONJ	H--	_	140	cc	_	MorphInd=^dan<h>_H--$
-140	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	132	conj	_	MorphInd=^di+guna<n>+kan_VSP$
+140	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	132	conj	_	MorphInd=^di+guna<n>+kan_VSP$
 141	secara	secara	ADP	R--	_	142	case	_	MorphInd=^secara<r>_R--$
 142	komersial	komersial	ADJ	ASP	Degree=Pos|Number=Sing	140	xcomp	_	MorphInd=^komersial<a>_ASP$
 143	pada	pada	ADP	R--	_	144	case	_	MorphInd=^pada<r>_R--$
@@ -2064,7 +2064,7 @@
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj	_	MorphInd=^yang<s>_S--$
 15	spontan	spontan	ADJ	ASP	Degree=Pos|Number=Sing	13	amod	_	MorphInd=^spontan<a>_ASP$
 16	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
-17	membutuhkan	butuhkan	VERB	VSA	Number=Sing|Voice=Act	15	conj	_	MorphInd=^meN+butuh<v>+kan_VSA$
+17	membutuhkan	butuh	VERB	VSA	Number=Sing|Voice=Act	15	conj	_	MorphInd=^meN+butuh<v>+kan_VSA$
 18	tenaga	tenaga	NOUN	NSD	Number=Sing	17	obj	_	MorphInd=^tenaga<n>_NSD$
 19	besar	besar	ADJ	ASP	Degree=Pos|Number=Sing	18	amod	_	SpaceAfter=No|MorphInd=^besar<a>_ASP$
 20	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
@@ -2222,7 +2222,7 @@
 40	Amman	amman	PROPN	F--	_	38	obl	_	SpaceAfter=No|MorphInd=^amman<f>_F--$
 41	,	,	PUNCT	Z--	_	43	punct	_	MorphInd=^,<z>_Z--$
 42	telah	telah	ADV	D--	_	43	advmod	_	MorphInd=^telah<d>_D--$
-43	memenangkan	angkan	VERB	VSA	Number=Sing|Voice=Act	10	advcl	_	MorphInd=^meN+menang<a>+kan_VSA$
+43	memenangkan	ang	VERB	VSA	Number=Sing|Voice=Act	10	advcl	_	MorphInd=^meN+menang<a>+kan_VSA$
 44	Liga	liga	PROPN	NSD	Number=Sing	43	obj	_	MorphInd=^liga<n>_NSD$
 45	sebanyak	sebanyak	ADP	R--	_	47	case	_	MorphInd=^sebanyak<r>_R--$
 46	31	31	NUM	CC-	NumType=Card	47	nummod	_	MorphInd=^31<c>_CC-$
@@ -2304,7 +2304,7 @@
 3	Tintin	tintin	PROPN	X--	_	1	appos	_	MorphInd=^tintin<x>_X--$
 4	berusaha	berusaha	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+usaha<n>_VSA$
 5	untuk	untuk	ADP	R--	_	6	case	_	MorphInd=^untuk<r>_R--$
-6	mendaratkan	daratkan	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+darat<n>+kan_VSA$
+6	mendaratkan	darat	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+darat<n>+kan_VSA$
 7	pesawatnya	pesawat	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	MorphInd=^pesawat<n>_NSD+dia<p>_PS3$
 8	sebisa	sebisa	ADV	ASP	Degree=Pos|Number=Sing	4	advmod	_	MorphInd=^se+bisa<n>_ASP$
 9	mungkin	mungkin	ADV	D--	_	8	advmod	_	SpaceAfter=No|MorphInd=^mungkin<d>_D--$
@@ -2334,13 +2334,13 @@
 5	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
 6	dan	dan	CCONJ	H--	_	3	cc	_	MorphInd=^dan<h>_H--$
 7	Laban	laban	PROPN	X--	_	6	conj	_	MorphInd=^laban<x>_X--$
-8	memberikan	berikan	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+beri<v>+kan_VSA$
+8	memberikan	beri	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+beri<v>+kan_VSA$
 9	Rahel	rahel	PROPN	X--	_	8	obj	_	MorphInd=^rahel<x>_X--$
 10	untuk	untuk	ADP	R--	_	11	case	_	MorphInd=^untuk<r>_R--$
 11	dinikahinya	dinikahi	VERB	VSP+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Pass	8	xcomp	_	SpaceAfter=No|MorphInd=^di+nikah<v>+i_VSP+dia<p>_PS3$
 12	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 13	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
-14	memberikan	berikan	VERB	VSA	Number=Sing|Voice=Act	8	conj	_	MorphInd=^meN+beri<v>+kan_VSA$
+14	memberikan	beri	VERB	VSA	Number=Sing|Voice=Act	8	conj	_	MorphInd=^meN+beri<v>+kan_VSA$
 15	Bilha	bilha	NOUN	X--	_	14	obj	_	MorphInd=^bilha<x>_X--$
 16	kepada	kepada	ADP	R--	_	17	case	_	MorphInd=^kepada<r>_R--$
 17	Rahel	rahel	PROPN	X--	_	15	nmod	_	MorphInd=^rahel<x>_X--$
@@ -2373,7 +2373,7 @@
 20	Kali	kali	PROPN	VSA	Number=Sing|Voice=Act	23	nsubj	_	MorphInd=^kali<v>_VSA$
 21	ini	ini	DET	B--	PronType=Dem	20	det	_	MorphInd=^ini<b>_B--$
 22	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	_	MorphInd=^ia<p>_PS3$
-23	ditugaskan	ditugaskan	VERB	VSP	Number=Sing|Voice=Pass	11	dep	_	MorphInd=^di+tugas<n>+kan_VSP$
+23	ditugaskan	ditugas	VERB	VSP	Number=Sing|Voice=Pass	11	dep	_	MorphInd=^di+tugas<n>+kan_VSP$
 24	membuat	buat	VERB	VSA	Number=Sing|Voice=Act	23	xcomp	_	MorphInd=^meN+buat<v>_VSA$
 25	atap	atap	NOUN	NSD	Number=Sing	24	obj	_	MorphInd=^atap<n>_NSD$
 26	berbentuk	berbentuk	VERB	VSA	Number=Sing|Voice=Act	25	amod	_	MorphInd=^ber+bentuk<n>_VSA$
@@ -2457,12 +2457,12 @@
 2	Poseidon	poseidon	PROPN	X--	_	5	obl	_	SpaceAfter=No|MorphInd=^poseidon<x>_X--$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 4	Amimone	amimone	PROPN	X--	_	5	nsubj	_	MorphInd=^amimone<x>_X--$
-5	melahirkan	lahirkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+lahir<v>+kan_VSA$
+5	melahirkan	lahir	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+lahir<v>+kan_VSA$
 6	Nauplios	nauplios	PROPN	X--	_	5	obj	_	SpaceAfter=No|MorphInd=^nauplios<x>_X--$
 7	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
 8	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
 9	namanya	nama	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nsubj:pass	_	MorphInd=^nama<n>_NSD+dia<p>_PS3$
-10	diabadikan	diabadikan	VERB	VSP	Number=Sing|Voice=Pass	6	conj	_	MorphInd=^di+abadi<a>+kan_VSP$
+10	diabadikan	diabadi	VERB	VSP	Number=Sing|Voice=Pass	6	conj	_	MorphInd=^di+abadi<a>+kan_VSP$
 11	sebagai	sebagai	ADP	R--	_	12	case	_	MorphInd=^sebagai<r>_R--$
 12	nama	nama	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^nama<n>_NSD$
 13	salah	salah	DET	ASP	Degree=Pos|Number=Sing	15	det	_	MorphInd=^salah<a>_ASP$
@@ -2532,13 +2532,13 @@
 # text = Ritual-ritual Shaman dilakukan untuk mengobati yang sakit, mendamaikan keluarga-keluarga yang berantakan.
 1	Ritual-ritual	ritual	NOUN	F--	Number=Plur	3	nsubj:pass	_	MorphInd=^ritual<f>_F--$
 2	Shaman	shaman	PROPN	X--	_	1	flat	_	MorphInd=^shaman<x>_X--$
-3	dilakukan	dilakukan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
+3	dilakukan	dilaku	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
 4	untuk	untuk	ADP	R--	_	5	case	_	MorphInd=^untuk<r>_R--$
 5	mengobati	obati	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^meN+obat<n>+i_VSA$
 6	yang	yang	PRON	S--	PronType=Rel	7	obj	_	MorphInd=^yang<s>_S--$
 7	sakit	sakit	ADJ	NSD	Number=Sing	5	amod	_	SpaceAfter=No|MorphInd=^sakit<n>_NSD$
 8	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
-9	mendamaikan	damaikan	VERB	VSA	Number=Sing|Voice=Act	3	advcl	_	MorphInd=^meN+damai<a>+kan_VSA$
+9	mendamaikan	damai	VERB	VSA	Number=Sing|Voice=Act	3	advcl	_	MorphInd=^meN+damai<a>+kan_VSA$
 10	keluarga-keluarga	keluarga	NOUN	NSD	Number=Plur	9	obj	_	MorphInd=^keluarga<n>_NSD$
 11	yang	yang	PRON	S--	PronType=Rel	12	obj	_	MorphInd=^yang<s>_S--$
 12	berantakan	berantakan	VERB	X--	_	10	acl	_	SpaceAfter=No|MorphInd=^berantakan<x>_X--$
@@ -2575,7 +2575,7 @@
 # text = Jalur ini menghubungkan Kota Kutoarjo ke Pantai Ketawang yang cukup besar ombaknya.
 1	Jalur	jalur	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^jalur<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
-3	menghubungkan	hubungkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+hubung<v>+kan_VSA$
+3	menghubungkan	hubung	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+hubung<v>+kan_VSA$
 4	Kota	kota	PROPN	NSD	Number=Sing	3	obj	_	MorphInd=^kota<n>_NSD$
 5	Kutoarjo	kutoarjo	PROPN	X--	_	4	flat	_	MorphInd=^kutoarjo<x>_X--$
 6	ke	ke	ADP	R--	_	7	case	_	MorphInd=^ke<r>_R--$
@@ -2647,7 +2647,7 @@
 # text = Mereka akan menyediakan kereta otomatis untuk Canada Line antara Vancouver dan Richmond di British Columbia, Kanada.
 1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	MorphInd=^mereka<p>_PP3$
 2	akan	akan	ADV	M--	_	3	advmod	_	MorphInd=^akan<m>_M--$
-3	menyediakan	sediakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+sedia<v>+kan_VSA$
+3	menyediakan	sedia	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+sedia<v>+kan_VSA$
 4	kereta	kereta	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^kereta<n>_NSD$
 5	otomatis	otomatis	ADJ	ASP	Degree=Pos|Number=Sing	4	amod	_	MorphInd=^otomatis<a>_ASP$
 6	untuk	untuk	ADP	R--	_	7	case	_	MorphInd=^untuk<r>_R--$
@@ -2757,13 +2757,13 @@
 2	pengintai	penintai	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^peN+intai<v>_NSD$
 3	Amerika	amerika	PROPN	NSD	Number=Sing	1	det	_	MorphInd=^amerika<n>_NSD$
 4	Serikat	serikat	PROPN	NSD	Number=Sing	3	flat	_	MorphInd=^serikat<n>_NSD$
-5	menemukan	temukan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+temu<v>+kan_VSA$
+5	menemukan	temu	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+temu<v>+kan_VSA$
 6	armada	armada	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^armada<n>_NSD$
 7	Jepang	jepang	PROPN	NSD	Number=Sing	6	det	_	MorphInd=^jepang<n>_NSD$
 8	sedang	sedang	ADV	D--	_	9	advmod	_	MorphInd=^sedang<d>_D--$
 9	mendekat	dekat	VERB	VSA	Number=Sing|Voice=Act	5	acl	_	MorphInd=^meN+dekat<a>_VSA$
 10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
-11	memperingatkan	peringatkan	VERB	VSA	Number=Sing|Voice=Act	9	conj	_	MorphInd=^meN+per+ingat<v>+kan_VSA$
+11	memperingatkan	peringat	VERB	VSA	Number=Sing|Voice=Act	9	conj	_	MorphInd=^meN+per+ingat<v>+kan_VSA$
 12	markas	markas	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^markas<n>_NSD$
 13	komando	komando	PROPN	NSD	Number=Sing	12	flat	_	MorphInd=^komando<n>_NSD$
 14	Sekutu	sekutu	PROPN	NSD	Number=Sing	13	flat	_	SpaceAfter=No|MorphInd=^sekutu<n>_NSD$
@@ -2944,7 +2944,7 @@
 23	XM	xm	PROPN	X--	_	22	flat	_	SpaceAfter=No|MorphInd=^xm<x>_X--$
 24	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 25	Musik	musik	PROPN	NSD	Number=Sing	26	nsubj:pass	_	MorphInd=^musik<n>_NSD$
-26	disediakan	disediakan	VERB	VSP	Number=Sing|Voice=Pass	2	dep	_	MorphInd=^di+sedia<v>+kan_VSP$
+26	disediakan	disedia	VERB	VSP	Number=Sing|Voice=Pass	2	dep	_	MorphInd=^di+sedia<v>+kan_VSP$
 27	oleh	oleh	ADP	R--	_	28	case	_	MorphInd=^oleh<r>_R--$
 28	radio	radio	PROPN	NSD	Number=Sing	26	obl	_	MorphInd=^radio<n>_NSD$
 29	satelit	satelit	NOUN	NSD	Number=Sing	28	compound	_	MorphInd=^satelit<n>_NSD$
@@ -2958,14 +2958,14 @@
 37	pada	pada	ADP	R--	_	38	case	_	MorphInd=^pada<r>_R--$
 38	kelas	kelas	NOUN	NSD	Number=Sing	36	obl	_	MorphInd=^kelas<n>_NSD$
 39	yang	yang	PRON	S--	PronType=Rel	40	nsubj:pass	_	MorphInd=^yang<s>_S--$
-40	diperlihatkan	diperlihatkan	VERB	VSP	Number=Sing|Voice=Pass	38	acl	_	MorphInd=^di+per+lihat<v>+kan_VSP$
+40	diperlihatkan	diperlihat	VERB	VSP	Number=Sing|Voice=Pass	38	acl	_	MorphInd=^di+per+lihat<v>+kan_VSP$
 41	di	di	ADP	R--	_	42	case	_	MorphInd=^di<r>_R--$
 42	situs	situs	NOUN	NSD	Number=Sing	40	obl	_	MorphInd=^situs<n>_NSD$
 43	webnya	web	NOUN	F--+PS3	Number[psor]=Sing|Person[psor]=3	42	compound	_	SpaceAfter=No|MorphInd=^web<f>_F--+dia<p>_PS3$
 44	,	,	PUNCT	Z--	_	45	punct	_	MorphInd=^,<z>_Z--$
 45	bocoran	bocoran	NOUN	NSD	Number=Sing	36	iobj	_	MorphInd=^bocor<a>+an_NSD$
 46	yang	yang	PRON	S--	PronType=Rel	47	nsubj:pass	_	MorphInd=^yang<s>_S--$
-47	diberikan	diberikan	VERB	VSP	Number=Sing|Voice=Pass	45	acl	_	MorphInd=^di+beri<v>+kan_VSP$
+47	diberikan	diberi	VERB	VSP	Number=Sing|Voice=Pass	45	acl	_	MorphInd=^di+beri<v>+kan_VSP$
 48	pada	pada	ADP	R--	_	49	case	_	MorphInd=^pada<r>_R--$
 49	sertifikat	sertifikat	NOUN	NSD	Number=Sing	47	obl	_	MorphInd=^sertifikat<n>_NSD$
 50	pembaruan	penbaruan	NOUN	NSD	Number=Sing	49	compound	_	MorphInd=^peN+baru<a>+an_NSD$
@@ -3034,7 +3034,7 @@
 # text = Hal itu disebabkan Lord Ashley, yang merupakan sahabat Locke, adalah salah satu pemimpin kaum yang anti terhadap pemerintahan Raja Charles II. Raja Charles II melihat Lord Ashley sebagai musuhnya yang amat berbahaya dan ingin membunuhnya, namun beberapa kali usahanya gagal.
 1	Hal	hal	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^hal<n>_NSD$
 2	itu	itu	DET	B--	PronType=Dem	1	det	_	MorphInd=^itu<b>_B--$
-3	disebabkan	disebabkan	VERB	VSP	Number=Sing|Voice=Pass	15	csubj	_	MorphInd=^di+sebab<n>+kan_VSP$
+3	disebabkan	disebab	VERB	VSP	Number=Sing|Voice=Pass	15	csubj	_	MorphInd=^di+sebab<n>+kan_VSP$
 4	Lord	lord	PROPN	F--	_	3	obj	_	MorphInd=^lord<f>_F--$
 5	Ashley	ashley	PROPN	F--	_	4	flat	_	SpaceAfter=No|MorphInd=^ashley<f>_F--$
 6	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
@@ -3131,7 +3131,7 @@
 15	tuduhan	tuduhan	NOUN	NSD	Number=Sing	9	appos	_	MorphInd=^tuduh<v>+an_NSD$
 16	yang	yang	PRON	S--	PronType=Rel	18	nsubj	_	MorphInd=^yang<s>_S--$
 17	hanya	hanya	ADV	D--	_	18	advmod	_	MorphInd=^hanya<d>_D--$
-18	dijatuhkan	dijatuhkan	VERB	VSP	Number=Sing|Voice=Pass	15	acl	_	MorphInd=^di+jatuh<v>+kan_VSP$
+18	dijatuhkan	dijatuh	VERB	VSP	Number=Sing|Voice=Pass	15	acl	_	MorphInd=^di+jatuh<v>+kan_VSP$
 19	terhadap	terhadap	ADP	R--	_	21	case	_	MorphInd=^terhadap<r>_R--$
 20	para	para	DET	B--	PronType=Dem	21	det	_	MorphInd=^para<b>_B--$
 21	Ksatria	ksatria	NOUN	NSD	Number=Sing	18	obl	_	MorphInd=^ksatria<n>_NSD$
@@ -3175,7 +3175,7 @@
 # text = Setiap anggota diasosiasikan dengan satu warna yaitu merah, merah muda, biru, hijau, kuning, dan lain.
 1	Setiap	setiap	DET	B--	PronType=Tot	2	det	_	MorphInd=^setiap<b>_B--$
 2	anggota	anggota	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^anggota<n>_NSD$
-3	diasosiasikan	diasosiasikan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+asosiasi<n>+kan_VSP$
+3	diasosiasikan	diasosiasi	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+asosiasi<n>+kan_VSP$
 4	dengan	dengan	ADP	R--	_	6	case	_	MorphInd=^dengan<r>_R--$
 5	satu	satu	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^satu<c>_CC-$
 6	warna	warna	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^warna<n>_NSD$
@@ -3237,7 +3237,7 @@
 5	keempat	keempat	NUM	CO-	NumType=Card	4	nummod	_	SpaceAfter=No|MorphInd=^ke+empat<c>_CO-$
 6	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 7	yang	yang	PRON	S--	PronType=Rel	8	nsubj:pass	_	MorphInd=^yang<s>_S--$
-8	diselesaikan	diselesaikan	VERB	VSP	Number=Sing|Voice=Pass	4	acl	_	MorphInd=^di+selesai<a>+kan_VSP$
+8	diselesaikan	diselesai	VERB	VSP	Number=Sing|Voice=Pass	4	acl	_	MorphInd=^di+selesai<a>+kan_VSP$
 9	oleh	oleh	ADP	R--	_	11	case	_	MorphInd=^oleh<r>_R--$
 10	para	para	DET	B--	PronType=Dem	11	det	_	MorphInd=^para<b>_B--$
 11	pekerjanya	pekerja	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	SpaceAfter=No|MorphInd=^pekerja<n>_NSD+dia<p>_PS3$
@@ -3253,7 +3253,7 @@
 21	di	di	ADP	R--	_	22	case	_	MorphInd=^di<r>_R--$
 22	atasnya	atas	NOUN	ASP+PS3	Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3	17	nmod	_	SpaceAfter=No|MorphInd=^atas<a>_ASP+dia<p>_PS3$
 23	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
-24	menceritakan	ceritakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+cerita<n>+kan_VSA$
+24	menceritakan	cerita	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+cerita<n>+kan_VSA$
 25	tentang	tentang	ADP	R--	_	26	case	_	MorphInd=^tentang<r>_R--$
 26	Kebajikan	kebajikan	PROPN	X--	_	24	obl	_	MorphInd=^kebajikan<x>_X--$
 27	Utama	utama	PROPN	ASP	Degree=Pos|Number=Sing	26	amod	_	SpaceAfter=No|MorphInd=^utama<a>_ASP$
@@ -3380,10 +3380,10 @@
 14	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 15	cinta	cinta	NOUN	NSD	Number=Sing	20	nsubj:pass	_	MorphInd=^cinta<n>_NSD$
 16	tidak	tidak	PART	G--	Polarity=Neg	17	advmod	_	MorphInd=^tidak<g>_G--$
-17	terbalaskan	terbalaskan	VERB	VSP	Number=Sing|Voice=Pass	15	acl	_	MorphInd=^ter+balas<v>+kan_VSP$
+17	terbalaskan	terbalas	VERB	VSP	Number=Sing|Voice=Pass	15	acl	_	MorphInd=^ter+balas<v>+kan_VSP$
 18	alaminya	alami	ADV	VSA+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Act	20	advmod	_	MorphInd=^alami<v>_VSA+dia<p>_PS3$
 19	sering	sering	ADV	D--	_	20	advmod	_	MorphInd=^sering<d>_D--$
-20	dijadikan	dijadikan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+jadi<a>+kan_VSP$
+20	dijadikan	dijadi	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+jadi<a>+kan_VSP$
 21	subyek	subyek	NOUN	F--	_	20	obj	_	MorphInd=^subyek<f>_F--$
 22	budaya	budaya	NOUN	NSD	Number=Sing	21	compound	_	MorphInd=^budaya<n>_NSD$
 23	masyarakat	masyarakat	NOUN	NSD	Number=Sing	22	compound	_	SpaceAfter=No|MorphInd=^masyarakat<n>_NSD$
@@ -3420,7 +3420,7 @@
 11	16	16	NUM	CC-	NumType=Card	9	nummod	_	MorphInd=^16<c>_CC-$
 12	TH	th	PROPN	X--	_	7	flat	_	MorphInd=^th<x>_X--$
 13	Bandung	bandung	PROPN	NSD	Number=Sing	7	flat	_	MorphInd=^bandung<n>_NSD$
-14	diadakan	diadakan	VERB	VSP	Number=Sing|Voice=Pass	1	flat	_	MorphInd=^di+ada<a>+kan_VSP$
+14	diadakan	diada	VERB	VSP	Number=Sing|Voice=Pass	1	flat	_	MorphInd=^di+ada<a>+kan_VSP$
 15	di	di	ADP	R--	_	16	case	_	MorphInd=^di<r>_R--$
 16	Aula	aula	PROPN	NSD	Number=Sing	1	obl	_	MorphInd=^aula<n>_NSD$
 17	/	/	SYM	Z--	_	16	punct	_	MorphInd=^/<z>_Z--$
@@ -3473,7 +3473,7 @@
 64	CGJ	cgj	PROPN	X--	_	58	appos	_	MorphInd=^cgj<x>_X--$
 65	Vreedenburgh	vreedenburgh	PROPN	X--	_	64	flat	_	MorphInd=^vreedenburgh<x>_X--$
 66	yang	yang	PRON	S--	PronType=Rel	67	nsubj	_	MorphInd=^yang<s>_S--$
-67	melaporkan	laporkan	VERB	VSA	Number=Sing|Voice=Act	58	acl	_	MorphInd=^meN+lapor<v>+kan_VSA$
+67	melaporkan	lapor	VERB	VSA	Number=Sing|Voice=Act	58	acl	_	MorphInd=^meN+lapor<v>+kan_VSA$
 68	perkembangan	perkembangan	NOUN	NSD	Number=Sing	67	obj	_	MorphInd=^per+kembang<n>+an_NSD$
 69	TH	th	PROPN	X--	_	68	flat	_	MorphInd=^th<x>_X--$
 70	selama	selama	ADP	R--	_	72	case	_	MorphInd=^selama<r>_R--$
@@ -3521,7 +3521,7 @@
 23	yang	yang	PRON	S--	PronType=Rel	24	nsubj	_	MorphInd=^yang<s>_S--$
 24	bertugas	bertugas	VERB	VSA	Number=Sing|Voice=Act	15	acl	_	MorphInd=^ber+tugas<n>_VSA$
 25	untuk	untuk	ADP	R--	_	26	case	_	MorphInd=^untuk<r>_R--$
-26	menetapkan	tetapkan	VERB	VSA	Number=Sing|Voice=Act	24	xcomp	_	MorphInd=^meN+tetap<a>+kan_VSA$
+26	menetapkan	tetap	VERB	VSA	Number=Sing|Voice=Act	24	xcomp	_	MorphInd=^meN+tetap<a>+kan_VSA$
 27	aturan-aturan	aturan	NOUN	NSD	Number=Plur	26	obj	_	MorphInd=^atur<v>+an_NSD$
 28	yang	yang	PRON	S--	PronType=Rel	29	nsubj	_	MorphInd=^yang<s>_S--$
 29	berlaku	berlaku	VERB	VSA	Number=Sing|Voice=Act	27	acl	_	MorphInd=^ber+laku<a>_VSA$
@@ -3529,7 +3529,7 @@
 31	kontes	kontes	NOUN	NSD	Number=Sing	29	obl	_	MorphInd=^kontes<n>_NSD$
 32	ini	ini	DET	B--	PronType=Dem	31	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
 33	,	,	PUNCT	Z--	_	34	punct	_	MorphInd=^,<z>_Z--$
-34	menentukan	tentukan	VERB	VSA	Number=Sing|Voice=Act	26	conj	_	MorphInd=^meN+tentu<a>+kan_VSA$
+34	menentukan	tentu	VERB	VSA	Number=Sing|Voice=Act	26	conj	_	MorphInd=^meN+tentu<a>+kan_VSA$
 35	penyiar	pensiar	NOUN	NSD	Number=Sing	34	obj	_	MorphInd=^peN+siar<v>_NSD$
 36	mana	mana	PRON	W--	PronType=Int	35	compound	_	MorphInd=^mana<w>_W--$
 37	yang	yang	PRON	S--	PronType=Rel	39	nsubj	_	MorphInd=^yang<s>_S--$
@@ -3688,7 +3688,7 @@
 # text = Iskandar Muda menobatkan Tun Seri Lanang menjadi raja pertama Samalanga.
 1	Iskandar	iskandar	PROPN	F--	_	3	nsubj	_	MorphInd=^iskandar<f>_F--$
 2	Muda	muda	PROPN	ASP	Degree=Pos|Number=Sing	1	flat	_	MorphInd=^muda<a>_ASP$
-3	menobatkan	tobatkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tobat<v>+kan_VSA$
+3	menobatkan	tobat	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tobat<v>+kan_VSA$
 4	Tun	tun	PROPN	X--	_	3	obj	_	MorphInd=^tun<x>_X--$
 5	Seri	seri	PROPN	ASP	Degree=Pos|Number=Sing	4	flat	_	MorphInd=^seri<a>_ASP$
 6	Lanang	lanang	PROPN	X--	_	5	flat	_	MorphInd=^lanang<x>_X--$
@@ -3763,7 +3763,7 @@
 8	Tantalos	tantalos	PROPN	X--	_	5	appos	_	SpaceAfter=No|MorphInd=^tantalos<x>_X--$
 9	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 10	Klotho	klotho	PROPN	X--	_	11	nsubj	_	MorphInd=^klotho<x>_X--$
-11	menghidupkan	hidupkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+hidup<v>+kan_VSA$
+11	menghidupkan	hidup	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+hidup<v>+kan_VSA$
 12	kembali	kembali	ADV	VSA	Number=Sing|Voice=Act	11	advmod	_	MorphInd=^kembali<v>_VSA$
 13	Pelops	pelops	PROPN	X--	_	12	obj	_	SpaceAfter=No|MorphInd=^pelops<x>_X--$
 14	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
@@ -3789,7 +3789,7 @@
 17	eukaryota	eukaryota	NOUN	X--	_	16	compound	_	SpaceAfter=No|MorphInd=^eukaryota<x>_X--$
 18	"	"	PUNCT	Z--	_	17	punct	_	MorphInd=^"<z>_Z--$
 19	yang	yang	PRON	S--	PronType=Rel	20	nsubj	_	MorphInd=^yang<s>_S--$
-20	menjelaskan	jelaskan	VERB	VSA	Number=Sing|Voice=Act	15	acl	_	MorphInd=^meN+jelas<a>+kan_VSA$
+20	menjelaskan	jelas	VERB	VSA	Number=Sing|Voice=Act	15	acl	_	MorphInd=^meN+jelas<a>+kan_VSA$
 21	proses	proses	NOUN	NSD	Number=Sing	20	obj	_	MorphInd=^proses<n>_NSD$
 22	di	di	ADP	R--	_	24	case	_	MorphInd=^di<r>_R--$
 23	mana	mana	ADP	W--	PronType=Int	24	case	_	MorphInd=^mana<w>_W--$
@@ -3803,12 +3803,12 @@
 # text = Namun, nyatakan bahwa bidang Euklidean datar diberikan dengan mengambil p (x, y) = 0.
 1	Namun	namun	SCONJ	S--	_	3	mark	_	SpaceAfter=No|MorphInd=^namun<s>_S--$
 2	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
-3	nyatakan	nyatakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^nyata<a>+kan_VSA$
+3	nyatakan	nyata	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^nyata<a>+kan_VSA$
 4	bahwa	bahwa	SCONJ	S--	_	8	mark	_	MorphInd=^bahwa<s>_S--$
 5	bidang	bidang	NOUN	NSD	Number=Sing	8	nsubj:pass	_	MorphInd=^bidang<n>_NSD$
 6	Euklidean	euklidean	NOUN	X--	_	5	compound	_	MorphInd=^euklidean<x>_X--$
 7	datar	datar	NOUN	ASP	Degree=Pos|Number=Sing	6	compound	_	MorphInd=^datar<a>_ASP$
-8	diberikan	diberikan	VERB	VSP	Number=Sing|Voice=Pass	3	ccomp	_	MorphInd=^di+beri<v>+kan_VSP$
+8	diberikan	diberi	VERB	VSP	Number=Sing|Voice=Pass	3	ccomp	_	MorphInd=^di+beri<v>+kan_VSP$
 9	dengan	dengan	ADP	R--	_	10	case	_	MorphInd=^dengan<r>_R--$
 10	mengambil	ambil	VERB	VSA	Number=Sing|Voice=Act	8	xcomp	_	MorphInd=^meN+ambil<v>_VSA$
 11	p	p	NOUN	F--	_	10	obj	_	MorphInd=^p<f>_F--$
@@ -3838,7 +3838,7 @@
 2	E	e	PROPN	F--	_	1	flat	_	MorphInd=^e<f>_F--$
 3	-	-	PUNCT	Z--	_	4	punct	_	MorphInd=^-<z>_Z--$
 4	Jets	jets	PROPN	F--	_	2	flat	_	MorphInd=^jets<f>_F--$
-5	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
+5	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
 6	kursi	kursi	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^kursi<n>_NSD$
 7	empat	empat	NUM	CC-	NumType=Card	8	nummod	_	MorphInd=^empat<c>_CC-$
 8	kolom	kolom	NOUN	NSD	Number=Sing	6	compound	_	SpaceAfter=No|MorphInd=^kolom<n>_NSD$
@@ -3851,7 +3851,7 @@
 3	Madrid	madrid	PROPN	F--	_	2	flat	_	SpaceAfter=No|MorphInd=^madrid<f>_F--$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	Pedro	pedro	PROPN	F--	_	6	nsubj:pass	_	MorphInd=^pedro<f>_F--$
-6	diharuskan	diharuskan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+harus<v>+kan_VSP$
+6	diharuskan	diharus	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+harus<v>+kan_VSP$
 7	membantu	bantu	VERB	VSA	Number=Sing|Voice=Act	6	xcomp	_	MorphInd=^meN+bantu<v>_VSA$
 8	Alfonso	alfonso	PROPN	X--	_	7	obj	_	MorphInd=^alfonso<x>_X--$
 9	XI	xi	PROPN	F--	_	8	flat	_	MorphInd=^xi<f>_F--$
@@ -3897,7 +3897,7 @@
 2	saat	saat	SCONJ	S--	_	4	mark	_	MorphInd=^saat<s>_S--$
 3	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	MorphInd=^ia<p>_PS3$
 4	berhasil	berhasil	VERB	ASP	Degree=Pos|Number=Sing	19	ccomp	_	MorphInd=^berhasil<a>_ASP$
-5	mendapatkan	dapatkan	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+dapat<v>+kan_VSA$
+5	mendapatkan	dapat	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+dapat<v>+kan_VSA$
 6	Putri	putri	PROPN	NSD	Number=Sing	5	obj	_	MorphInd=^putri<n>_NSD$
 7	kembali	kembali	ADV	VSA	Number=Sing|Voice=Act	5	advmod	_	SpaceAfter=No|MorphInd=^kembali<v>_VSA$
 8	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
@@ -3913,7 +3913,7 @@
 18	Rafael	rafael	PROPN	F--	_	17	det	_	MorphInd=^rafael<f>_F--$
 19	datang	datang	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^datang<v>_VSA$
 20	untuk	untuk	ADP	R--	_	21	case	_	MorphInd=^untuk<r>_R--$
-21	mempertanyakan	pertanyakan	VERB	VSA	Number=Sing|Voice=Act	19	xcomp	_	MorphInd=^meN+per+tanya<v>+kan_VSA$
+21	mempertanyakan	pertanya	VERB	VSA	Number=Sing|Voice=Act	19	xcomp	_	MorphInd=^meN+per+tanya<v>+kan_VSA$
 22	kembali	kembali	ADV	VSA	Number=Sing|Voice=Act	21	advmod	_	MorphInd=^kembali<v>_VSA$
 23	cintanya	cinta	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	21	obj	_	SpaceAfter=No|MorphInd=^cinta<n>_NSD+dia<p>_PS3$
 24	.	.	PUNCT	Z--	_	19	punct	_	MorphInd=^.<z>_Z--$
@@ -4081,7 +4081,7 @@
 5	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 6	sosok	sosok	NOUN	X--	_	8	nsubj:pass	_	MorphInd=^sosok<x>_X--$
 7	kuntilanak	kuntilanak	NOUN	X--	_	6	compound	_	MorphInd=^kuntilanak<x>_X--$
-8	digambarkan	digambarkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+gambar<v>+kan_VSP$
+8	digambarkan	digambar	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+gambar<v>+kan_VSP$
 9	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	10	case	_	MorphInd=^dalam<a>_ASP$
 10	bentuk	bentuk	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^bentuk<n>_NSD$
 11	wanita	wanita	NOUN	NSD	Number=Sing	10	compound	_	MorphInd=^wanita<n>_NSD$
@@ -4146,7 +4146,7 @@
 # sent_id = dev-s157
 # text = Dia dilahirkan di Hazle Township, Pennsylvania, Amerika Serikat.
 1	Dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	MorphInd=^dia<p>_PS3$
-2	dilahirkan	dilahirkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+lahir<v>+kan_VSP$
+2	dilahirkan	dilahir	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+lahir<v>+kan_VSP$
 3	di	di	ADP	R--	_	4	case	_	MorphInd=^di<r>_R--$
 4	Hazle	hazle	PROPN	X--	_	2	obl	_	MorphInd=^hazle<x>_X--$
 5	Township	township	PROPN	F--	_	4	flat	_	SpaceAfter=No|MorphInd=^township<f>_F--$
@@ -4239,11 +4239,11 @@
 24	bahwa	bahwa	SCONJ	S--	_	31	mark	_	MorphInd=^bahwa<s>_S--$
 25	Ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	31	nsubj	_	MorphInd=^ia<p>_PS3$
 26	yang	yang	PRON	S--	PronType=Rel	27	nsubj	_	MorphInd=^yang<s>_S--$
-27	menciptakan	ciptakan	VERB	VSA	Number=Sing|Voice=Act	25	acl	_	MorphInd=^meN+cipta<v>+kan_VSA$
+27	menciptakan	cipta	VERB	VSA	Number=Sing|Voice=Act	25	acl	_	MorphInd=^meN+cipta<v>+kan_VSA$
 28	manusia	manusia	NOUN	NSD	Number=Sing	27	obj	_	MorphInd=^manusia<n>_NSD$
 29	sejak	sejak	ADP	S--	_	30	case	_	MorphInd=^sejak<s>_S--$
 30	semula	semula	NOUN	NSD	Number=Sing	28	nmod	_	MorphInd=^semula<n>_NSD$
-31	menjadikan	jadikan	VERB	VSA	Number=Sing|Voice=Act	22	advcl	_	MorphInd=^meN+jadi<a>+kan_VSA$
+31	menjadikan	jadi	VERB	VSA	Number=Sing|Voice=Act	22	advcl	_	MorphInd=^meN+jadi<a>+kan_VSA$
 32	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	31	nsubj	_	MorphInd=^mereka<p>_PP3$
 33	laki-laki	laki	ADJ	NPD	_	31	amod	_	MorphInd=^laki<n>_NPD$
 34	dan	dan	CCONJ	H--	_	35	cc	_	MorphInd=^dan<h>_H--$
@@ -4254,7 +4254,7 @@
 # text = Pesawat ini dikembangkan pada tahun 1960 - an sebagai pesawat khusus untuk pertempuran COIN (COunter - INsurgency) atau anti - gerilya.
 1	Pesawat	pesawat	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^pesawat<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
-3	dikembangkan	dikembangkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+kembang<v>+kan_VSP$
+3	dikembangkan	dikembang	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+kembang<v>+kan_VSP$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
 5	tahun	tahun	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^tahun<n>_NSD$
 6	1960	1960	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^1960<c>_CC-$
@@ -4314,13 +4314,13 @@
 3	seperti	seperti	ADP	R--	_	4	case	_	MorphInd=^seperti<r>_R--$
 4	OO	oo	PROPN	X--	_	1	nmod	_	SpaceAfter=No|MorphInd=^oo<x>_X--$
 5	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
-6	melambangkan	lambangkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+lambang<n>+kan_VSA$
+6	melambangkan	lambang	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+lambang<n>+kan_VSA$
 7	bunyi	bunyi	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^bunyi<n>_NSD$
 8	atau	atau	CCONJ	H--	_	12	cc	_	SpaceAfter=No|MorphInd=^atau<h>_H--$
 9	;	;	PUNCT	Z--	_	8	punct	_	MorphInd=^;<z>_Z--$
 10	OI	oi	NOUN	VSA	Number=Sing|Voice=Act	12	nsubj	_	MorphInd=^o<f>+i_VSA$
 11	biasanya	biasanya	ADV	D--	_	12	advmod	_	MorphInd=^biasanya<d>_D--$
-12	melambangkan	lambangkan	VERB	VSA	Number=Sing|Voice=Act	6	conj	_	MorphInd=^meN+lambang<n>+kan_VSA$
+12	melambangkan	lambang	VERB	VSA	Number=Sing|Voice=Act	6	conj	_	MorphInd=^meN+lambang<n>+kan_VSA$
 13	diftong	diftong	NOUN	X--	_	12	obj	_	SpaceAfter=No|MorphInd=^diftong<x>_X--$
 14	;	;	PUNCT	Z--	_	22	punct	_	MorphInd=^;<z>_Z--$
 15	dan	dan	CCONJ	H--	_	22	cc	_	MorphInd=^dan<h>_H--$
@@ -4330,7 +4330,7 @@
 19	,	,	PUNCT	Z--	_	21	punct	_	MorphInd=^,<z>_Z--$
 20	dan	dan	CCONJ	H--	_	21	cc	_	MorphInd=^dan<h>_H--$
 21	OU	ou	NOUN	F--	_	16	conj	_	MorphInd=^ou<f>_F--$
-22	melambangkan	lambangkan	VERB	VSA	Number=Sing|Voice=Act	12	conj	_	MorphInd=^meN+lambang<n>+kan_VSA$
+22	melambangkan	lambang	VERB	VSA	Number=Sing|Voice=Act	12	conj	_	MorphInd=^meN+lambang<n>+kan_VSA$
 23	berbagai	berbagai	DET	B--	PronType=Ind	24	det	_	MorphInd=^berbagai<b>_B--$
 24	pelafalan	pelafalan	NOUN	X--	_	22	obj	_	MorphInd=^pelafalan<x>_X--$
 25	tergantung	tergantung	VERB	VSP	Number=Sing|Voice=Pass	24	acl	_	MorphInd=^ter+gantung<v>_VSP$
@@ -4397,7 +4397,7 @@
 # text = Bahasa perdagangan menggunakan bahasa Melayu di berbagai pelabuhan Nusantara bercampur dengan bahasa Portugis, bahasa Tionghoa, maupun bahasa setempat.
 1	Bahasa	bahasa	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^bahasa<n>_NSD$
 2	perdagangan	perdagangan	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^per+dagang<v>+an_NSD$
-3	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
+3	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
 4	bahasa	bahasa	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^bahasa<n>_NSD$
 5	Melayu	melayu	PROPN	NSD	Number=Sing	4	flat	_	MorphInd=^melayu<n>_NSD$
 6	di	di	ADP	R--	_	8	case	_	MorphInd=^di<r>_R--$
@@ -4493,7 +4493,7 @@
 14	pada	pada	ADP	R--	_	10	case	_	MorphInd=^pada<r>_R--$
 15	1963	1963	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^1963<c>_CC-$
 16	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	17	nsubj	_	MorphInd=^ia<p>_PS3$
-17	mendirikan	dirikan	VERB	VSA	Number=Sing|Voice=Act	2	conj	_	MorphInd=^meN+diri<n>+kan_VSA$
+17	mendirikan	diri	VERB	VSA	Number=Sing|Voice=Act	2	conj	_	MorphInd=^meN+diri<n>+kan_VSA$
 18	Pemuda	pemuda	PROPN	NSD	Number=Sing	17	obj	_	MorphInd=^pemuda<n>_NSD$
 19	Demokratis	demokratis	PROPN	NSD	Number=Sing	18	flat	_	MorphInd=^demokratis<n>_NSD$
 20	Lambrakis	lambrakis	PROPN	X--	_	19	flat	_	MorphInd=^lambrakis<x>_X--$
@@ -4532,7 +4532,7 @@
 1	Menara	menara	PROPN	NSD	Number=Sing	4	nsubj	_	MorphInd=^menara<n>_NSD$
 2	Pengawal	penkawal	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^peN+kawal<v>_NSD$
 3	telah	telah	ADV	D--	_	4	advmod	_	MorphInd=^telah<d>_D--$
-4	menyatakan	nyatakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
+4	menyatakan	nyata	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
 5	bahwa	bahwa	SCONJ	S--	_	11	mark	_	MorphInd=^bahwa<s>_S--$
 6	“	“	PUNCT	Z--	_	5	punct	_	SpaceAfter=No|MorphInd=^“<z>_Z--$
 7	Berbagai	berbagai	ADP	B--	PronType=Ind	8	case	_	MorphInd=^berbagai<b>_B--$
@@ -4639,7 +4639,7 @@
 # sent_id = dev-s178
 # text = Rob menjelaskan bahwa tujuan Rob ke Crystal Lake adalah untuk membalas dendam kematian adiknya, Sandra Dyer (dibunuh oleh Jason di Part 2).
 1	Rob	rob	PROPN	F--	_	2	nsubj	_	MorphInd=^rob<f>_F--$
-2	menjelaskan	jelaskan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jelas<a>+kan_VSA$
+2	menjelaskan	jelas	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jelas<a>+kan_VSA$
 3	bahwa	bahwa	SCONJ	S--	_	11	mark	_	MorphInd=^bahwa<s>_S--$
 4	tujuan	tujuan	NOUN	NSD	Number=Sing	11	nsubj	_	MorphInd=^tuju<v>+an_NSD$
 5	Rob	rob	PROPN	F--	_	4	flat	_	MorphInd=^rob<f>_F--$
@@ -4682,7 +4682,7 @@
 1	Sebagai	sebagai	ADP	R--	_	2	case	_	MorphInd=^sebagai<r>_R--$
 2	terjemahan	terjemahan	NOUN	NSD	Number=Sing	6	nmod	_	MorphInd=^terjemah<v>+an_NSD$
 3	yang	yang	PRON	S--	PronType=Rel	4	nsubj:pass	_	MorphInd=^yang<s>_S--$
-4	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	2	acl	_	MorphInd=^di+guna<n>+kan_VSP$
+4	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	2	acl	_	MorphInd=^di+guna<n>+kan_VSP$
 5	adalah	adalah	AUX	O--	_	6	cop	_	MorphInd=^adalah<o>_O--$
 6	Tafsir	tafsir	PROPN	NSD	Number=Sing	0	root	_	MorphInd=^tafsir<n>_NSD$
 7	Al	al	PROPN	F--	_	6	flat	_	MorphInd=^al<f>_F--$
@@ -4773,10 +4773,10 @@
 # text = Hal ini disebabkan karena dengan menggunakan sepeda motor akan lebih menekan biaya perjalanan, di samping itu bila sudah sampai di kampung halaman dapat digunakan sebagai kendaraan yang efektif.
 1	Hal	hal	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^hal<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
-3	disebabkan	disebabkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+sebab<n>+kan_VSP$
+3	disebabkan	disebab	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+sebab<n>+kan_VSP$
 4	karena	karena	SCONJ	S--	_	5	mark	_	MorphInd=^karena<s>_S--$
 5	dengan	dengan	ADP	R--	_	3	advcl	_	MorphInd=^dengan<r>_R--$
-6	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	5	dep	_	MorphInd=^meN+guna<n>+kan_VSA$
+6	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	5	dep	_	MorphInd=^meN+guna<n>+kan_VSA$
 7	sepeda	sepeda	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^sepeda<n>_NSD$
 8	motor	motor	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^motor<n>_NSD$
 9	akan	akan	ADV	M--	_	11	advmod	_	MorphInd=^akan<m>_M--$
@@ -4795,7 +4795,7 @@
 22	kampung	kampung	NOUN	NSD	Number=Sing	20	obl	_	MorphInd=^kampung<n>_NSD$
 23	halaman	halaman	NOUN	NSD	Number=Sing	22	compound	_	MorphInd=^halaman<n>_NSD$
 24	dapat	dapat	ADV	M--	_	25	advmod	_	MorphInd=^dapat<m>_M--$
-25	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	20	xcomp	_	MorphInd=^di+guna<n>+kan_VSP$
+25	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	20	xcomp	_	MorphInd=^di+guna<n>+kan_VSP$
 26	sebagai	sebagai	ADP	R--	_	27	case	_	MorphInd=^sebagai<r>_R--$
 27	kendaraan	kendaraan	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^kendara<v>+an_NSD$
 28	yang	yang	PRON	S--	PronType=Rel	29	nsubj	_	MorphInd=^yang<s>_S--$
@@ -4822,7 +4822,7 @@
 16	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
 17	kota	kota	NOUN	NSD	Number=Sing	19	nsubj:pass	_	MorphInd=^kota<n>_NSD$
 18	ini	ini	DET	B--	PronType=Dem	17	det	_	MorphInd=^ini<b>_B--$
-19	dipisahkan	dipisahkan	VERB	VSP	Number=Sing|Voice=Pass	3	dep	_	MorphInd=^di+pisah<v>+kan_VSP$
+19	dipisahkan	dipisah	VERB	VSP	Number=Sing|Voice=Pass	3	dep	_	MorphInd=^di+pisah<v>+kan_VSP$
 20	menjadi	jadi	VERB	VSA	Number=Sing|Voice=Act	19	xcomp	_	MorphInd=^meN+jadi<a>_VSA$
 21	tiga	tiga	NUM	CC-	NumType=Card	22	nummod	_	MorphInd=^tiga<c>_CC-$
 22	bagian	bagian	NOUN	NSD	Number=Sing	20	obj	_	SpaceAfter=No|MorphInd=^bagi<v>+an_NSD$
@@ -5053,7 +5053,7 @@
 47	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
 48	Sejarawan	sejarawan	PROPN	X--	_	50	nsubj	_	MorphInd=^sejarawan<x>_X--$
 49	biasanya	biasanya	ADV	D--	_	50	advmod	_	MorphInd=^biasanya<d>_D--$
-50	menempatkan	tempatkan	VERB	VSA	Number=Sing|Voice=Act	12	dep	_	MorphInd=^meN+tempat<n>+kan_VSA$
+50	menempatkan	tempat	VERB	VSA	Number=Sing|Voice=Act	12	dep	_	MorphInd=^meN+tempat<n>+kan_VSA$
 51	permulaan	permulaan	NOUN	NSD	Number=Sing	50	obj	_	MorphInd=^per+mula<n>+an_NSD$
 52	matematika	matematika	NOUN	NSD	Number=Sing	51	compound	_	MorphInd=^matematika<n>_NSD$
 53	Yunani	yunani	PROPN	NSD	Number=Sing	52	flat	_	MorphInd=^yunani<n>_NSD$
@@ -5149,7 +5149,7 @@
 4	sendiri	sendiri	ADJ	ASP	Degree=Pos|Number=Sing	3	amod	_	MorphInd=^sendiri<a>_ASP$
 5	pada	pada	ADP	R--	_	6	case	_	MorphInd=^pada<r>_R--$
 6	awalnya	awal	ADV	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	advmod	_	MorphInd=^awal<n>_NSD+dia<p>_PS3$
-7	dipisahkan	dipisahkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+pisah<v>+kan_VSP$
+7	dipisahkan	dipisah	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+pisah<v>+kan_VSP$
 8	ke	ke	ADP	R--	_	11	case	_	MorphInd=^ke<r>_R--$
 9	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	11	case	_	MorphInd=^dalam<a>_ASP$
 10	2	2	NUM	CC-	NumType=Card	11	nummod	_	MorphInd=^2<c>_CC-$
@@ -5202,7 +5202,7 @@
 10	di	di	ADP	R--	_	11	case	_	MorphInd=^di<r>_R--$
 11	Cina	cina	PROPN	NSD	Number=Sing	9	nmod	_	MorphInd=^cina<n>_NSD$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj	_	MorphInd=^yang<s>_S--$
-13	disebutkan	disebutkan	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	MorphInd=^di+sebut<v>+kan_VSP$
+13	disebutkan	disebut	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	MorphInd=^di+sebut<v>+kan_VSP$
 14	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	15	case	_	MorphInd=^dalam<a>_ASP$
 15	literatur	literatur	NOUN	NSD	Number=Sing	13	obl	_	MorphInd=^literatur<n>_NSD$
 16	sekitar	sekitar	ADP	D--	_	17	case	_	MorphInd=^sekitar<d>_D--$
@@ -5252,7 +5252,7 @@
 2	kabarnya	kabar	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	1	fixed	_	MorphInd=^kabar<n>_NSD+dia<p>_PS3$
 3	desa	desa	NOUN	NSD	Number=Sing	5	nsubj:pass	_	MorphInd=^desa<n>_NSD$
 4	ini	ini	DET	B--	PronType=Dem	3	det	_	MorphInd=^ini<b>_B--$
-5	didirikan	didirikan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+diri<n>+kan_VSP$
+5	didirikan	didiri	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+diri<n>+kan_VSP$
 6	oleh	oleh	ADP	R--	_	8	case	_	MorphInd=^oleh<r>_R--$
 7	seorang	seorang	DET	B--	PronType=Ind	8	det	_	MorphInd=^seorang<b>_B--$
 8	ulama	ulama	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^ulama<n>_NSD$
@@ -5299,7 +5299,7 @@
 7	“	“	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|MorphInd=^“<z>_Z--$
 8	Alone	alone	PROPN	X--	_	6	obj	_	SpaceAfter=No|MorphInd=^alone<x>_X--$
 9	”	”	PUNCT	Z--	_	8	punct	_	MorphInd=^”<z>_Z--$
-10	dijadikan	dijadikan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+jadi<a>+kan_VSP$
+10	dijadikan	dijadi	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+jadi<a>+kan_VSP$
 11	sebagai	sebagai	ADP	R--	_	12	case	_	MorphInd=^sebagai<r>_R--$
 12	lagu	lagu	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^lagu<n>_NSD$
 13	tema	tema	NOUN	NSD	Number=Sing	12	compound	_	MorphInd=^tema<n>_NSD$
@@ -5351,7 +5351,7 @@
 15	kajian	kajian	NOUN	NSD	Number=Sing	18	nsubj	_	MorphInd=^kaji<v>+an_NSD$
 16	kapitalisme	kapitalisme	NOUN	NSD	Number=Sing	15	compound	_	MorphInd=^kapitalisme<n>_NSD$
 17	Manchester	manchester	PROPN	F--	_	16	flat	_	MorphInd=^manchester<f>_F--$
-18	memperkenalkan	perkenalkan	VERB	VSA	Number=Sing|Voice=Act	10	parataxis	_	MorphInd=^meN+per+kenal<v>+kan_VSA$
+18	memperkenalkan	perkenal	VERB	VSA	Number=Sing|Voice=Act	10	parataxis	_	MorphInd=^meN+per+kenal<v>+kan_VSA$
 19	konsep	konsep	NOUN	NSD	Number=Sing	18	obj	_	MorphInd=^konsep<n>_NSD$
 20	perdagangan	perdagangan	NOUN	NSD	Number=Sing	19	compound	_	MorphInd=^per+dagang<v>+an_NSD$
 21	bebas	bebas	ADJ	ASP	Degree=Pos|Number=Sing	19	amod	_	MorphInd=^bebas<a>_ASP$
@@ -5428,7 +5428,7 @@
 1	Nyamuk	nyamuk	PROPN	NSD	Number=Sing	4	nsubj	_	MorphInd=^nyamuk<n>_NSD$
 2	selalu	selalu	ADV	D--	_	4	advmod	_	MorphInd=^selalu<d>_D--$
 3	dapat	dapat	ADV	M--	_	4	advmod	_	MorphInd=^dapat<m>_M--$
-4	menemukan	temukan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+temu<v>+kan_VSA$
+4	menemukan	temu	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+temu<v>+kan_VSA$
 5	sasarannya	sasaran	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	MorphInd=^sasar<v>+an_NSD+dia<p>_PS3$
 6	dengan	dengan	ADP	R--	_	4	case	_	MorphInd=^dengan<r>_R--$
 7	tepat	tepat	ADJ	ASP	Degree=Pos|Number=Sing	4	amod	_	MorphInd=^tepat<a>_ASP$
@@ -5458,7 +5458,7 @@
 8	besar	besar	ADJ	ASP	Degree=Pos|Number=Sing	6	amod	_	MorphInd=^besar<a>_ASP$
 9	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
 10	cukup	cukup	ADV	D--	_	11	advmod	_	MorphInd=^cukup<d>_D--$
-11	membanggakan	banggakan	VERB	VSA	Number=Sing|Voice=Act	8	conj	_	SpaceAfter=No|MorphInd=^meN+bangga<a>+kan_VSA$
+11	membanggakan	bangga	VERB	VSA	Number=Sing|Voice=Act	8	conj	_	SpaceAfter=No|MorphInd=^meN+bangga<a>+kan_VSA$
 12	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 13	antara	antara	ADP	R--	_	14	case	_	MorphInd=^antara<r>_R--$
 14	lain	lain	ADJ	ASP	Degree=Pos|Number=Sing	6	acl	_	MorphInd=^lain<a>_ASP$
@@ -5505,12 +5505,12 @@
 17	yang	yang	PRON	S--	PronType=Rel	20	nsubj	_	MorphInd=^yang<s>_S--$
 18	biasa	biasa	ADV	ASP	Degree=Pos|Number=Sing	20	advmod	_	MorphInd=^biasa<a>_ASP$
 19	akan	akan	ADV	M--	_	20	advmod	_	MorphInd=^akan<m>_M--$
-20	menghasilkan	hasilkan	VERB	VSA	Number=Sing|Voice=Act	16	acl	_	MorphInd=^meN+hasil<n>+kan_VSA$
+20	menghasilkan	hasil	VERB	VSA	Number=Sing|Voice=Act	16	acl	_	MorphInd=^meN+hasil<n>+kan_VSA$
 21	gelombang	gelombang	NOUN	NSD	Number=Sing	20	obj	_	MorphInd=^gelombang<n>_NSD$
 22	bergerak	bergerak	VERB	VSA	Number=Sing|Voice=Act	20	xcomp	_	MorphInd=^ber+gerak<v>_VSA$
 23	yang	yang	PRON	S--	PronType=Rel	25	nsubj	_	MorphInd=^yang<s>_S--$
 24	akan	akan	ADV	M--	_	25	advmod	_	MorphInd=^akan<m>_M--$
-25	menyebabkan	sebabkan	VERB	VSA	Number=Sing|Voice=Act	22	ccomp	_	MorphInd=^meN+sebab<n>+kan_VSA$
+25	menyebabkan	sebab	VERB	VSA	Number=Sing|Voice=Act	22	ccomp	_	MorphInd=^meN+sebab<n>+kan_VSA$
 26	jembatan	jembatan	NOUN	NSD	Number=Sing	25	obj	_	MorphInd=^jembatan<n>_NSD$
 27	dan	dan	CCONJ	H--	_	28	cc	_	MorphInd=^dan<h>_H--$
 28	pejalan	pejalan	VERB	NSD	Number=Sing	25	conj	_	MorphInd=^pejalan<n>_NSD$
@@ -5555,7 +5555,7 @@
 # text = Orang Yahudi menjelaskan kepada Nabi bahwa pada hari itu, Nabi Musa telah diselamatkan dari kejaran tentara Firaun.
 1	Orang	orang	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^orang<n>_NSD$
 2	Yahudi	yahudi	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^yahudi<n>_NSD$
-3	menjelaskan	jelaskan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jelas<a>+kan_VSA$
+3	menjelaskan	jelas	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jelas<a>+kan_VSA$
 4	kepada	kepada	ADP	R--	_	5	case	_	MorphInd=^kepada<r>_R--$
 5	Nabi	nabi	PROPN	NSD	Number=Sing	3	obl	_	MorphInd=^nabi<n>_NSD$
 6	bahwa	bahwa	SCONJ	S--	_	14	mark	_	MorphInd=^bahwa<s>_S--$
@@ -5566,7 +5566,7 @@
 11	Nabi	nabi	PROPN	NSD	Number=Sing	14	nsubj:pass	_	MorphInd=^nabi<n>_NSD$
 12	Musa	musa	PROPN	F--	_	11	flat	_	MorphInd=^musa<f>_F--$
 13	telah	telah	ADV	D--	_	14	advmod	_	MorphInd=^telah<d>_D--$
-14	diselamatkan	diselamatkan	VERB	VSP	Number=Sing|Voice=Pass	3	ccomp	_	MorphInd=^di+selamat<a>+kan_VSP$
+14	diselamatkan	diselamat	VERB	VSP	Number=Sing|Voice=Pass	3	ccomp	_	MorphInd=^di+selamat<a>+kan_VSP$
 15	dari	dari	ADP	R--	_	16	case	_	MorphInd=^dari<r>_R--$
 16	kejaran	kejaran	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^kejar<v>+an_NSD$
 17	tentara	tentara	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^tentara<n>_NSD$
@@ -5614,7 +5614,7 @@
 12	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
 13	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	MorphInd=^ia<p>_PS3$
 14	tega	tega	ADJ	F--	_	9	conj	_	MorphInd=^tega<f>_F--$
-15	mengorbankan	korbankan	VERB	VSA	Number=Sing|Voice=Act	14	advcl	_	MorphInd=^meN+korban<n>+kan_VSA$
+15	mengorbankan	korban	VERB	VSA	Number=Sing|Voice=Act	14	advcl	_	MorphInd=^meN+korban<n>+kan_VSA$
 16	rumah	rumah	NOUN	NSD	Number=Sing	15	obj	_	MorphInd=^rumah<n>_NSD$
 17	tangga	tangga	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^tangga<n>_NSD$
 18	anak	anak	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^anak<n>_NSD$
@@ -5747,7 +5747,7 @@
 1	Kelakuannya	kelakuan	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	12	nsubj	_	MorphInd=^ke+laku<n>+an_NSD+dia<p>_PS3$
 2	yang	yang	PRON	S--	PronType=Rel	4	nsubj	_	MorphInd=^yang<s>_S--$
 3	paling	paling	ADV	VSA	Number=Sing|Voice=Act	4	advmod	_	MorphInd=^paling<v>_VSA$
-4	menjengkelkan	jengkelkan	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^meN+jengkel<v>+kan_VSA$
+4	menjengkelkan	jengkel	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^meN+jengkel<v>+kan_VSA$
 5	bagi	bagi	ADP	R--	_	6	case	_	MorphInd=^bagi<r>_R--$
 6	Naruto	naruto	PROPN	X--	_	4	obl	_	MorphInd=^naruto<x>_X--$
 7	dan	dan	CCONJ	H--	_	8	cc	_	MorphInd=^dan<h>_H--$
@@ -5859,7 +5859,7 @@
 14	bagaimana	bagaimana	ADP	W--	PronType=Int	12	xcomp	_	MorphInd=^bagaimana<w>_W--$
 15	seharusnya	seharusnya	ADV	D--	_	17	advmod	_	MorphInd=^seharusnya<d>_D--$
 16	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	17	nsubj	_	MorphInd=^mereka<p>_PP3$
-17	melaksanakan	laksanakan	VERB	VSA	Number=Sing|Voice=Act	14	advcl	_	MorphInd=^meN+laksana<v>+kan_VSA$
+17	melaksanakan	laksana	VERB	VSA	Number=Sing|Voice=Act	14	advcl	_	MorphInd=^meN+laksana<v>+kan_VSA$
 18	tugasnya	tugas	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	17	obj	_	MorphInd=^tugas<n>_NSD+dia<p>_PS3$
 19	sebagai	sebagai	ADP	R--	_	20	case	_	MorphInd=^sebagai<r>_R--$
 20	umat	umat	NOUN	NSD	Number=Sing	17	obl	_	MorphInd=^umat<n>_NSD$
@@ -5962,7 +5962,7 @@
 21	televisi	televisi	NOUN	NSD	Number=Sing	20	compound	_	MorphInd=^televisi<n>_NSD$
 22	dan	dan	CCONJ	H--	_	23	cc	_	MorphInd=^dan<h>_H--$
 23	radio	radio	PROPN	NSD	Number=Sing	21	conj	_	MorphInd=^radio<n>_NSD$
-24	ditetapkan	ditetapkan	VERB	VSP	Number=Sing|Voice=Pass	6	parataxis	_	MorphInd=^di+tetap<a>+kan_VSP$
+24	ditetapkan	ditetap	VERB	VSP	Number=Sing|Voice=Pass	6	parataxis	_	MorphInd=^di+tetap<a>+kan_VSP$
 25	sebagai	sebagai	ADP	R--	_	26	case	_	MorphInd=^sebagai<r>_R--$
 26	badan	badan	NOUN	NSD	Number=Sing	24	obl	_	MorphInd=^badan<n>_NSD$
 27	usaha	usaha	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^usaha<n>_NSD$
@@ -6010,14 +6010,14 @@
 19	isterinya	isteri	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	17	conj	_	MorphInd=^isteri<n>_NSD+dia<p>_PS3$
 20	yang	yang	PRON	S--	PronType=Rel	22	obj	_	MorphInd=^yang<s>_S--$
 21	tidak	tidak	PART	G--	Polarity=Neg	22	advmod	_	MorphInd=^tidak<g>_G--$
-22	disebutkan	disebutkan	VERB	VSP	Number=Sing|Voice=Pass	19	acl	_	MorphInd=^di+sebut<v>+kan_VSP$
+22	disebutkan	disebut	VERB	VSP	Number=Sing|Voice=Pass	19	acl	_	MorphInd=^di+sebut<v>+kan_VSP$
 23	namanya	nama	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	22	obj	_	SpaceAfter=No|MorphInd=^nama<n>_NSD+dia<p>_PS3$
 24	.	.	PUNCT	Z--	_	15	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s229
 # text = Irene menjelaskan, bahwa dirinya tidak pernah mengetahui hal ini, sampai kakaknya, Paula, memberitahunya.
 1	Irene	irene	PROPN	X--	_	2	nsubj	_	MorphInd=^irene<x>_X--$
-2	menjelaskan	jelaskan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^meN+jelas<a>+kan_VSA$
+2	menjelaskan	jelas	VERB	VSA	Number=Sing|Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^meN+jelas<a>+kan_VSA$
 3	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 4	bahwa	bahwa	SCONJ	S--	_	8	mark	_	MorphInd=^bahwa<s>_S--$
 5	dirinya	diri	PRON	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
@@ -6096,9 +6096,9 @@
 # text = Hosogaya pertama direncanakan untuk melakukan serangan udara ke Dutch Harbor, diikuti serangan amfibi ke Pulau Adak, 480 mil di sebelah barat.
 1	Hosogaya	hosogaya	PROPN	X--	_	3	nsubj:pass	_	MorphInd=^hosogaya<x>_X--$
 2	pertama	pertama	NUM	CO-	NumType=Card	1	nummod	_	MorphInd=^pertama<c>_CO-$
-3	direncanakan	direncanakan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+rencana<n>+kan_VSP$
+3	direncanakan	direncana	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+rencana<n>+kan_VSP$
 4	untuk	untuk	ADP	R--	_	5	case	_	MorphInd=^untuk<r>_R--$
-5	melakukan	lakukan	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^meN+laku<a>+kan_VSA$
+5	melakukan	laku	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^meN+laku<a>+kan_VSA$
 6	serangan	serangan	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^serang<v>+an_NSD$
 7	udara	udara	NOUN	NSD	Number=Sing	6	compound	_	MorphInd=^udara<n>_NSD$
 8	ke	ke	ADP	R--	_	10	case	_	MorphInd=^ke<r>_R--$
@@ -6173,7 +6173,7 @@
 1	Peserta	peserta	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^peserta<n>_NSD$
 2	lokakarya	lokakarya	NOUN	X--	_	1	compound	_	MorphInd=^lokakarya<x>_X--$
 3	sepakat	sepakat	VERB	ASP	Degree=Pos|Number=Sing	0	root	_	MorphInd=^sepakat<a>_ASP$
-4	menugaskan	tugaskan	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^meN+tugas<n>+kan_VSA$
+4	menugaskan	tugas	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^meN+tugas<n>+kan_VSA$
 5	Komite	komite	PROPN	NSD	Number=Sing	9	nsubj	_	MorphInd=^komite<n>_NSD$
 6	Pengembangan	penkembangan	PROPN	NSD	Number=Sing	5	flat	_	MorphInd=^peN+kembang<n>+an_NSD$
 7	Ekonomi	ekonomi	PROPN	NSD	Number=Sing	6	flat	_	MorphInd=^ekonomi<n>_NSD$
@@ -6243,7 +6243,7 @@
 # sent_id = dev-s241
 # text = Hunt memperkenalkan tim kepada Luther Stickell dan kemudian memberi tugas baru.
 1	Hunt	hunt	PROPN	F--	_	2	nsubj	_	MorphInd=^hunt<f>_F--$
-2	memperkenalkan	perkenalkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+per+kenal<v>+kan_VSA$
+2	memperkenalkan	perkenal	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+per+kenal<v>+kan_VSA$
 3	tim	tim	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^tim<n>_NSD$
 4	kepada	kepada	ADP	R--	_	5	case	_	MorphInd=^kepada<r>_R--$
 5	Luther	luther	PROPN	F--	_	2	obl	_	MorphInd=^luther<f>_F--$
@@ -6261,7 +6261,7 @@
 2	satu	satu	DET	CC-	_	1	fixed	_	MorphInd=^satu<c>_CC-$
 3	dari	dari	ADP	R--	_	4	case	_	MorphInd=^dari<r>_R--$
 4	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	1	nmod	_	MorphInd=^mereka<p>_PP3$
-5	dipersembahkan	dipersembahkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+per+sembah<v>+kan_VSP$
+5	dipersembahkan	dipersembah	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+per+sembah<v>+kan_VSP$
 6	kepada	kepada	ADP	R--	_	7	case	_	MorphInd=^kepada<r>_R--$
 7	Dretarastra	dretarastra	PROPN	X--	_	5	obl	_	SpaceAfter=No|MorphInd=^dretarastra<x>_X--$
 8	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
@@ -6291,7 +6291,7 @@
 17	,	,	PUNCT	Z--	_	22	punct	_	MorphInd=^,<z>_Z--$
 18	seperti	seperti	ADP	R--	_	22	case	_	MorphInd=^seperti<r>_R--$
 19	yang	yang	PRON	S--	PronType=Rel	20	nsubj	_	MorphInd=^yang<s>_S--$
-20	dikatakan	dikatakan	VERB	VSP	Number=Sing|Voice=Pass	22	acl	_	MorphInd=^di+kata<n>+kan_VSP$
+20	dikatakan	dikata	VERB	VSP	Number=Sing|Voice=Pass	22	acl	_	MorphInd=^di+kata<n>+kan_VSP$
 21	pembatasan	penbatasan	NOUN	NSD	Number=Sing	22	nsubj	_	MorphInd=^peN+batas<n>+an_NSD$
 22	mewakili	wakili	VERB	VSA	Number=Sing|Voice=Act	16	xcomp	_	MorphInd=^meN+wakil<n>+i_VSA$
 23	berkurangnya	berkurang	NOUN	VSA+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Act	22	obj	_	MorphInd=^ber+kurang<a>_VSA+dia<p>_PS3$
@@ -6437,7 +6437,7 @@
 26	,	,	PUNCT	Z--	_	29	punct	_	MorphInd=^,<z>_Z--$
 27	dan	dan	CCONJ	H--	_	29	cc	_	MorphInd=^dan<h>_H--$
 28	baru	baru	ADV	ASP	Degree=Pos|Number=Sing	29	advmod	_	MorphInd=^baru<a>_ASP$
-29	dibukukan	dibukukan	VERB	VSP	Number=Sing|Voice=Pass	4	conj	_	MorphInd=^di+buku<n>+kan_VSP$
+29	dibukukan	dibuku	VERB	VSP	Number=Sing|Voice=Pass	4	conj	_	MorphInd=^di+buku<n>+kan_VSP$
 30	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	31	case	_	MorphInd=^dalam<a>_ASP$
 31	bentuk	bentuk	NOUN	NSD	Number=Sing	29	obl	_	MorphInd=^bentuk<n>_NSD$
 32	album	album	NOUN	NSD	Number=Sing	31	compound	_	MorphInd=^album<n>_NSD$
@@ -6476,7 +6476,7 @@
 5	lain	lain	ADJ	ASP	Degree=Pos|Number=Sing	4	amod	_	SpaceAfter=No|MorphInd=^lain<a>_ASP$
 6	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 7	Hippias	hippias	PROPN	X--	_	8	nsubj	_	MorphInd=^hippias<x>_X--$
-8	mencurahkan	curahkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+curah<v>+kan_VSA$
+8	mencurahkan	curah	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+curah<v>+kan_VSA$
 9	perhatian	perhatian	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^per+hati<n>+an_NSD$
 10	terhadap	terhadap	ADP	R--	_	11	case	_	MorphInd=^terhadap<r>_R--$
 11	pertanyaan	pertanyaan	NOUN	NSD	Number=Sing	9	nmod	_	SpaceAfter=No|MorphInd=^per+tanya<v>+an_NSD$
@@ -6484,7 +6484,7 @@
 13	``	``	PUNCT	Z--	_	14	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
 14	Apakah	apa	PRON	W--+T--	PronType=Int	8	parataxis	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 15	yang	yang	PRON	S--	PronType=Rel	16	nsubj	_	MorphInd=^yang<s>_S--$
-16	menentukan	tentukan	VERB	VSA	Number=Sing|Voice=Act	14	acl	_	MorphInd=^meN+tentu<a>+kan_VSA$
+16	menentukan	tentu	VERB	VSA	Number=Sing|Voice=Act	14	acl	_	MorphInd=^meN+tentu<a>+kan_VSA$
 17	tingkah	tingkah	NOUN	NSD	Number=Sing	16	obj	_	MorphInd=^tingkah<n>_NSD$
 18	laku	laku	NOUN	ASP	Degree=Pos|Number=Sing	17	compound	_	MorphInd=^laku<a>_ASP$
 19	manusia	manusia	NOUN	NSD	Number=Sing	17	compound	_	SpaceAfter=No|MorphInd=^manusia<n>_NSD$
@@ -6662,7 +6662,7 @@
 4	kemudian	kemudian	ADV	S--	_	3	advmod	_	SpaceAfter=No|MorphInd=^kemudian<s>_S--$
 5	:	:	PUNCT	Z--	_	7	punct	_	MorphInd=^:<z>_Z--$
 6	bagaimana	bagaimana	ADV	W--	PronType=Int	7	advmod	_	MorphInd=^bagaimana<w>_W--$
-7	menghubungkan	hubungkan	VERB	VSA	Number=Sing|Voice=Act	2	advcl	_	MorphInd=^meN+hubung<v>+kan_VSA$
+7	menghubungkan	hubung	VERB	VSA	Number=Sing|Voice=Act	2	advcl	_	MorphInd=^meN+hubung<v>+kan_VSA$
 8	tuntutan	tuntutan	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^tuntut<v>+an_NSD$
 9	politis	politis	ADJ	ASP	Degree=Pos|Number=Sing	8	amod	_	MorphInd=^politis<a>_ASP$
 10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
@@ -6690,9 +6690,9 @@
 15	saat	saat	PRON	S--	PronType=Rel	18	compound	_	MorphInd=^saat<s>_S--$
 16	itu	itu	DET	B--	PronType=Dem	15	det	_	MorphInd=^itu<b>_B--$
 17	Amanda	amanda	PROPN	F--	_	18	nsubj:pass	_	MorphInd=^amanda<f>_F--$
-18	diselamatkan	diselamatkan	VERB	VSP	Number=Sing|Voice=Pass	8	advcl	_	MorphInd=^di+selamat<a>+kan_VSP$
+18	diselamatkan	diselamat	VERB	VSP	Number=Sing|Voice=Pass	8	advcl	_	MorphInd=^di+selamat<a>+kan_VSP$
 19	oleh	oleh	ADP	R--	_	20	case	_	MorphInd=^oleh<r>_R--$
-20	teriakan	terriakan	NOUN	VSP	Number=Sing|Voice=Pass	18	obl	_	MorphInd=^ter+ria<n>+kan_VSP$
+20	teriakan	terria	NOUN	VSP	Number=Sing|Voice=Pass	18	obl	_	MorphInd=^ter+ria<n>+kan_VSP$
 21	Eyang	eyang	PROPN	X--	_	20	flat	_	MorphInd=^eyang<x>_X--$
 22	Rini	rini	PROPN	X--	_	21	flat	_	MorphInd=^rini<x>_X--$
 23	yang	yang	PRON	S--	PronType=Rel	24	nsubj	_	MorphInd=^yang<s>_S--$
@@ -6714,7 +6714,7 @@
 1	Ibadat	ibadat	PROPN	X--	_	4	nsubj:pass	_	MorphInd=^ibadat<x>_X--$
 2	Harian	harian	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^hari<n>+an_NSD$
 3	dapat	dapat	ADV	M--	_	4	advmod	_	MorphInd=^dapat<m>_M--$
-4	dilakukan	dilakukan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
+4	dilakukan	dilaku	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
 5	bersama	bersama	ADV	VSA	Number=Sing|Voice=Act	4	advmod	_	MorphInd=^ber+sama<a>_VSA$
 6	atau	atau	CCONJ	H--	_	5	cc	_	MorphInd=^atau<h>_H--$
 7	secara	secara	ADP	R--	_	5	case	_	MorphInd=^secara<r>_R--$
@@ -6775,7 +6775,7 @@
 14	timbullah	timbul	VERB	ASP+T--	Degree=Pos|Number=Sing	0	root	_	MorphInd=^timbul<a>_ASP+lah<t>_T--$
 15	niatnya	niat	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obj	_	MorphInd=^niat<n>_NSD+dia<p>_PS3$
 16	untuk	untuk	ADP	R--	_	17	case	_	MorphInd=^untuk<r>_R--$
-17	menumbangkan	tumbangkan	VERB	VSA	Number=Sing|Voice=Act	14	xcomp	_	MorphInd=^meN+tumbang<v>+kan_VSA$
+17	menumbangkan	tumbang	VERB	VSA	Number=Sing|Voice=Act	14	xcomp	_	MorphInd=^meN+tumbang<v>+kan_VSA$
 18	Dinasti	dinasti	PROPN	X--	_	17	obj	_	MorphInd=^dinasti<x>_X--$
 19	Xia	xia	PROPN	X--	_	18	flat	_	SpaceAfter=No|MorphInd=^xia<x>_X--$
 20	.	.	PUNCT	Z--	_	14	punct	_	MorphInd=^.<z>_Z--$
@@ -6786,7 +6786,7 @@
 25	barat	barat	NOUN	NSD	Number=Sing	23	nmod	_	SpaceAfter=No|MorphInd=^barat<n>_NSD$
 26	,	,	PUNCT	Z--	_	22	punct	_	MorphInd=^,<z>_Z--$
 27	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	28	nsubj	_	MorphInd=^ia<p>_PS3$
-28	memindahkan	pindahkan	VERB	VSA	Number=Sing|Voice=Act	14	dep	_	MorphInd=^meN+pindah<v>+kan_VSA$
+28	memindahkan	pindah	VERB	VSA	Number=Sing|Voice=Act	14	dep	_	MorphInd=^meN+pindah<v>+kan_VSA$
 29	ibukotanya	ibukota	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	28	obj	_	MorphInd=^ibukota<n>_NSD+dia<p>_PS3$
 30	ke	ke	ADP	R--	_	31	case	_	MorphInd=^ke<r>_R--$
 31	Bo	bo	PROPN	F--	_	29	nmod	_	MorphInd=^bo<f>_F--$
@@ -6813,7 +6813,7 @@
 52	dengan	dengan	ADP	R--	_	49	case	_	MorphInd=^dengan<r>_R--$
 53	baik	baik	ADJ	ASP	Degree=Pos|Number=Sing	49	amod	_	MorphInd=^baik<a>_ASP$
 54	dan	dan	CCONJ	H--	_	55	cc	_	MorphInd=^dan<h>_H--$
-55	mempekerjakan	pekerjakan	VERB	VSA	Number=Sing|Voice=Act	49	conj	_	MorphInd=^meN+pekerja<n>+kan_VSA$
+55	mempekerjakan	pekerja	VERB	VSA	Number=Sing|Voice=Act	49	conj	_	MorphInd=^meN+pekerja<n>+kan_VSA$
 56	orang-orang	orang	NOUN	NSD	Number=Plur	55	obj	_	MorphInd=^orang<n>_NSD$
 57	berbakat	berbakat	ADJ	VSA	Number=Sing|Voice=Act	56	amod	_	SpaceAfter=No|MorphInd=^ber+bakat<n>_VSA$
 58	.	.	PUNCT	Z--	_	49	punct	_	MorphInd=^.<z>_Z--$
@@ -6834,7 +6834,7 @@
 12	mendapat	dapat	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+dapat<v>_VSA$
 13	kesempatan	kesempatan	NOUN	NSD	Number=Sing	12	obj	_	MorphInd=^kesempatan<n>_NSD$
 14	untuk	untuk	ADP	R--	_	15	case	_	MorphInd=^untuk<r>_R--$
-15	meneruskan	teruskan	VERB	VSA	Number=Sing|Voice=Act	12	xcomp	_	MorphInd=^meN+terus<a>+kan_VSA$
+15	meneruskan	terus	VERB	VSA	Number=Sing|Voice=Act	12	xcomp	_	MorphInd=^meN+terus<a>+kan_VSA$
 16	belajar	belajar	NOUN	NSD	Number=Sing	15	obj	_	MorphInd=^belajar<n>_NSD$
 17	di	di	ADP	R--	_	18	case	_	MorphInd=^di<r>_R--$
 18	Fakultas	fakultas	NOUN	NSD	Number=Sing	16	nmod	_	MorphInd=^fakultas<n>_NSD$
@@ -6947,7 +6947,7 @@
 4	Allah	allah	PROPN	NSD	Number=Sing	7	nsubj	_	MorphInd=^allah<n>_NSD$
 5	Maha	maha	PROPN	D--	_	4	amod	_	MorphInd=^maha<d>_D--$
 6	Kuasa	kuasa	PROPN	NSD	Number=Sing	5	amod	_	MorphInd=^kuasa<n>_NSD$
-7	tukarkan	tukarkan	VERB	VSA	Number=Sing|Voice=Act	2	ccomp	_	SpaceAfter=No|MorphInd=^tukar<v>+kan_VSA$
+7	tukarkan	tukar	VERB	VSA	Number=Sing|Voice=Act	2	ccomp	_	SpaceAfter=No|MorphInd=^tukar<v>+kan_VSA$
 8	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
 9	tidak	tidak	PART	G--	Polarity=Neg	12	advmod	_	MorphInd=^tidak<g>_G--$
 10	seperti	seperti	ADP	R--	_	12	case	_	MorphInd=^seperti<r>_R--$
@@ -7072,7 +7072,7 @@
 1	Pembatasan	penbatasan	PROPN	NSD	Number=Sing	4	nsubj:pass	_	MorphInd=^peN+batas<n>+an_NSD$
 2	air	air	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^air<n>_NSD$
 3	sedang	sedang	ADV	D--	_	4	advmod	_	MorphInd=^sedang<d>_D--$
-4	diberlakukan	diberlakukan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+ber+laku<a>+kan_VSP$
+4	diberlakukan	diberlaku	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+ber+laku<a>+kan_VSP$
 5	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 6	banyak	banyak	DET	ASP	Degree=Pos|Number=Sing	7	det	_	MorphInd=^banyak<a>_ASP$
 7	daerah	daerah	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^daerah<n>_NSD$
@@ -7092,7 +7092,7 @@
 # sent_id = dev-s275
 # text = Kamila menanyakan tentang masalah perjodohan antara Andara dengan Taufan (Fadil).
 1	Kamila	kamila	PROPN	X--	_	2	nsubj	_	MorphInd=^kamila<x>_X--$
-2	menanyakan	nanyakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nanya<v>+kan_VSA$
+2	menanyakan	nanya	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nanya<v>+kan_VSA$
 3	tentang	tentang	ADP	R--	_	4	case	_	MorphInd=^tentang<r>_R--$
 4	masalah	masalah	NOUN	NSD	Number=Sing	2	obl	_	MorphInd=^masalah<n>_NSD$
 5	perjodohan	perjodohan	NOUN	X--	_	4	compound	_	MorphInd=^perjodohan<x>_X--$
@@ -7154,7 +7154,7 @@
 3	sampah	sampah	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^sampah<n>_NSD$
 4	yang	yang	PRON	S--	PronType=Rel	6	nsubj:pass	_	MorphInd=^yang<s>_S--$
 5	umum	umum	ADJ	ASP	Degree=Pos|Number=Sing	6	amod	_	MorphInd=^umum<a>_ASP$
-6	dipikirkan	dipikirkan	VERB	VSP	Number=Sing|Voice=Pass	3	acl	_	MorphInd=^di+pikir<v>+kan_VSP$
+6	dipikirkan	dipikir	VERB	VSP	Number=Sing|Voice=Pass	3	acl	_	MorphInd=^di+pikir<v>+kan_VSP$
 7	manusia	manusia	NOUN	NSD	Number=Sing	6	obl	_	SpaceAfter=No|MorphInd=^manusia<n>_NSD$
 8	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
@@ -7182,7 +7182,7 @@
 20	yang	yang	PRON	S--	PronType=Rel	21	nsubj:pass	_	MorphInd=^yang<s>_S--$
 21	dicita	dicita	VERB	VSP	Number=Sing|Voice=Pass	18	acl	_	MorphInd=^di+cita<n>_VSP$
 22	–	–	PUNCT	Z--	_	23	punct	_	MorphInd=^–<z>_Z--$
-23	citakan	citakan	VERB	VSA	Number=Sing|Voice=Act	21	fixed	_	SpaceAfter=No|MorphInd=^cita<n>+kan_VSA$
+23	citakan	cita	VERB	VSA	Number=Sing|Voice=Act	21	fixed	_	SpaceAfter=No|MorphInd=^cita<n>+kan_VSA$
 24	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s280
@@ -7228,7 +7228,7 @@
 8	Tengah	tengah	PROPN	NSD	Number=Sing	7	flat	_	MorphInd=^tengah<n>_NSD$
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
 10	memilih	pilih	VERB	VSA	Number=Sing|Voice=Act	2	acl	_	MorphInd=^meN+pilih<v>_VSA$
-11	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
+11	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
 12	air	air	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^air<n>_NSD$
 13	karena	karena	CCONJ	S--	_	11	cc	_	MorphInd=^karena<s>_S--$
 14	kurang	kurang	ADV	ASP	Degree=Pos|Number=Sing	17	advmod	_	MorphInd=^kurang<a>_ASP$
@@ -7238,7 +7238,7 @@
 18	tissue	tissue	NOUN	X--	_	17	obj	_	MorphInd=^tissue<x>_X--$
 19	toilet	toilet	NOUN	F--	_	18	compound	_	MorphInd=^toilet<f>_F--$
 20	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	21	case	_	MorphInd=^dalam<a>_ASP$
-21	membersihkan	bersihkan	VERB	VSA	Number=Sing|Voice=Act	17	acl	_	MorphInd=^meN+bersih<a>+kan_VSA$
+21	membersihkan	bersih	VERB	VSA	Number=Sing|Voice=Act	17	acl	_	MorphInd=^meN+bersih<a>+kan_VSA$
 22	kotoran	kotoran	NOUN	NSD	Number=Sing	21	obj	_	SpaceAfter=No|MorphInd=^kotor<a>+an_NSD$
 23	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 
@@ -7471,7 +7471,7 @@
 2	berikutnya	berikutnya	VERB	D--	_	5	advcl	_	SpaceAfter=No|MorphInd=^berikutnya<d>_D--$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 4	bagaimana	bagaimana	PRON	W--	PronType=Int	5	advmod	_	MorphInd=^bagaimana<w>_W--$
-5	menentukan	tentukan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tentu<a>+kan_VSA$
+5	menentukan	tentu	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tentu<a>+kan_VSA$
 6	mana	mana	ADP	W--	PronType=Int	7	case	_	MorphInd=^mana<w>_W--$
 7	pelaku	penlaku	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^peN+laku<n>_NSD$
 8	dan	dan	CCONJ	H--	_	7	cc	_	MorphInd=^dan<h>_H--$
@@ -7492,7 +7492,7 @@
 9	News	news	PROPN	F--	_	8	flat	_	MorphInd=^news<f>_F--$
 10	Caravan	caravan	PROPN	X--	_	9	flat	_	MorphInd=^caravan<x>_X--$
 11	yang	yang	PRON	S--	PronType=Rel	12	nsubj:pass	_	MorphInd=^yang<s>_S--$
-12	diluncurkan	diluncurkan	VERB	VSP	Number=Sing|Voice=Pass	8	acl	_	MorphInd=^di+luncur<v>+kan_VSP$
+12	diluncurkan	diluncur	VERB	VSP	Number=Sing|Voice=Pass	8	acl	_	MorphInd=^di+luncur<v>+kan_VSP$
 13	tahun	tahun	NOUN	NSD	Number=Sing	12	obj	_	MorphInd=^tahun<n>_NSD$
 14	1949	1949	NUM	CC-	NumType=Card	13	nummod	_	MorphInd=^1949<c>_CC-$
 15	di	di	ADP	R--	_	16	case	_	MorphInd=^di<r>_R--$
@@ -7518,7 +7518,7 @@
 35	dan	dan	CCONJ	H--	_	36	cc	_	MorphInd=^dan<h>_H--$
 36	David	david	PROPN	F--	_	33	conj	_	MorphInd=^david<f>_F--$
 37	Brinkley	brinkley	PROPN	X--	_	36	flat	_	MorphInd=^brinkley<x>_X--$
-38	dipasangkan	dipasangkan	VERB	VSP	Number=Sing|Voice=Pass	31	xcomp	_	MorphInd=^di+pasang<v>+kan_VSP$
+38	dipasangkan	dipasang	VERB	VSP	Number=Sing|Voice=Pass	31	xcomp	_	MorphInd=^di+pasang<v>+kan_VSP$
 39	oleh	oleh	ADP	R--	_	40	case	_	MorphInd=^oleh<r>_R--$
 40	NBC	nbc	PROPN	F--	_	38	obl	_	MorphInd=^nbc<f>_F--$
 41	pada	pada	ADP	R--	_	42	case	_	MorphInd=^pada<r>_R--$
@@ -7545,7 +7545,7 @@
 # text = Beberapa orang menginginkan mayat Alkmene dibawa kembali ke Argos, sementara yang lain ingin menguburkannya di Thebes (mengingat Amfitrion juga dikuburkan di Thebes).
 1	Beberapa	beberapa	DET	B--	NumType=Card|PronType=Ind	2	det	_	MorphInd=^beberapa<b>_B--$
 2	orang	orang	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^orang<n>_NSD$
-3	menginginkan	inginkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+ingin<v>+kan_VSA$
+3	menginginkan	ingin	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+ingin<v>+kan_VSA$
 4	mayat	mayat	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^mayat<n>_NSD$
 5	Alkmene	alkmene	PROPN	X--	_	4	flat	_	MorphInd=^alkmene<x>_X--$
 6	dibawa	dibawa	VERB	VSP	Number=Sing|Voice=Pass	4	acl	_	MorphInd=^di+bawa<v>_VSP$
@@ -7564,7 +7564,7 @@
 19	mengingat	ingat	NOUN	VSA	Number=Sing|Voice=Act	17	appos	_	MorphInd=^meN+ingat<v>_VSA$
 20	Amfitrion	amfitrion	PROPN	X--	_	19	flat	_	MorphInd=^amfitrion<x>_X--$
 21	juga	juga	ADV	D--	_	22	advmod	_	MorphInd=^juga<d>_D--$
-22	dikuburkan	dikuburkan	VERB	VSP	Number=Sing|Voice=Pass	19	advcl	_	MorphInd=^di+kubur<v>+kan_VSP$
+22	dikuburkan	dikubur	VERB	VSP	Number=Sing|Voice=Pass	19	advcl	_	MorphInd=^di+kubur<v>+kan_VSP$
 23	di	di	ADP	R--	_	24	case	_	MorphInd=^di<r>_R--$
 24	Thebes	thebes	PROPN	X--	_	22	obl	_	SpaceAfter=No|MorphInd=^thebes<x>_X--$
 25	)	)	PUNCT	Z--	_	19	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
@@ -7608,7 +7608,7 @@
 34	juga	juga	ADV	D--	_	37	advmod	_	MorphInd=^juga<d>_D--$
 35	masih	masih	ADV	D--	_	37	advmod	_	MorphInd=^masih<d>_D--$
 36	akan	akan	ADV	M--	_	37	advmod	_	MorphInd=^akan<m>_M--$
-37	ditampilkan	ditampilkan	VERB	VSP	Number=Sing|Voice=Pass	14	dep	_	MorphInd=^di+tampil<v>+kan_VSP$
+37	ditampilkan	ditampil	VERB	VSP	Number=Sing|Voice=Pass	14	dep	_	MorphInd=^di+tampil<v>+kan_VSP$
 38	di	di	ADP	R--	_	39	case	_	MorphInd=^di<r>_R--$
 39	sini	sini	PRON	NSD	Number=Sing	37	obl	_	SpaceAfter=No|MorphInd=^sini<n>_NSD$
 40	.	.	PUNCT	Z--	_	37	punct	_	MorphInd=^.<z>_Z--$
@@ -7616,7 +7616,7 @@
 # sent_id = dev-s302
 # text = Pendaratan dilakukan di sudut 34, yang berarti pesawat harus terbang di atas pantai Lagana dan membuat berputar 180 °.
 1	Pendaratan	pendaratan	NOUN	NSD	Number=Sing	2	nsubj:pass	_	MorphInd=^peN+darat<n>+an_NSD$
-2	dilakukan	dilakukan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
+2	dilakukan	dilaku	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
 3	di	di	ADP	R--	_	4	case	_	MorphInd=^di<r>_R--$
 4	sudut	sudut	NOUN	NSD	Number=Sing	2	obl	_	MorphInd=^sudut<n>_NSD$
 5	34	34	NUM	CC-	NumType=Card	4	nummod	_	SpaceAfter=No|MorphInd=^34<c>_CC-$
@@ -7650,7 +7650,7 @@
 9	Corporation	corporation	PROPN	F--	_	8	flat	_	SpaceAfter=No|MorphInd=^corporation<f>_F--$
 10	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 11	Mandrakesoft	mandrakesoft	PROPN	X--	_	12	nsubj	_	MorphInd=^mandrakesoft<x>_X--$
-12	mengumumkan	umumkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+umum<a>+kan_VSA$
+12	mengumumkan	umum	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+umum<a>+kan_VSA$
 13	nama	nama	NOUN	NSD	Number=Sing	15	nsubj	_	MorphInd=^nama<n>_NSD$
 14	perusahaan	perusahaan	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^per+usaha<n>+an_NSD$
 15	menjadi	jadi	VERB	VSA	Number=Sing|Voice=Act	12	ccomp	_	MorphInd=^meN+jadi<a>_VSA$
@@ -7689,14 +7689,14 @@
 15	bukanlah	bukan	PART	G--+T--	Polarity=Neg	16	advmod	_	MorphInd=^bukan<g>_G--+lah<t>_T--$
 16	kekuatan	kekuatan	NOUN	NSD	Number=Sing	3	conj	_	MorphInd=^ke+kuat<a>+an_NSD$
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj	_	MorphInd=^yang<s>_S--$
-18	menggerakkan	gerakkan	VERB	VSA	Number=Sing|Voice=Act	16	acl	_	SpaceAfter=No|MorphInd=^meN+gerak<v>+kan_VSA$
+18	menggerakkan	gerak	VERB	VSA	Number=Sing|Voice=Act	16	acl	_	SpaceAfter=No|MorphInd=^meN+gerak<v>+kan_VSA$
 19	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s305
 # text = Penghargaan ini disahkan oleh Pemerintah Belanda dan dikelola oleh lembaga independen.
 1	Penghargaan	penhargaan	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^peN+harga<n>+an_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
-3	disahkan	disahkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+sah<a>+kan_VSP$
+3	disahkan	disah	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+sah<a>+kan_VSP$
 4	oleh	oleh	ADP	R--	_	5	case	_	MorphInd=^oleh<r>_R--$
 5	Pemerintah	penperintah	PROPN	NSD	Number=Sing	3	obl	_	MorphInd=^peN+perintah<n>_NSD$
 6	Belanda	belanda	PROPN	NSD	Number=Sing	5	flat	_	MorphInd=^belanda<n>_NSD$
@@ -7734,9 +7734,9 @@
 # text = Data terbuka dimaksudkan untuk mewujudkan komitmen konkret dari kalangan pemerintah dalam upaya peningkatan transparansi, peningkatan partisipasi masyarakat, pemberantasan korupsi dan pemanfaatan teknologi-teknologi baru guna mewujudkan tata kelola pemerintahan yang lebih terbuka, efektif dan akuntabel, yang disebut birokrasi terbuka atau open government.
 1	Data	data	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^data<n>_NSD$
 2	terbuka	terbuka	ADJ	ASP	Degree=Pos|Number=Sing	1	amod	_	MorphInd=^terbuka<a>_ASP$
-3	dimaksudkan	dimaksudkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+maksud<n>+kan_VSP$
+3	dimaksudkan	dimaksud	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+maksud<n>+kan_VSP$
 4	untuk	untuk	ADP	R--	_	5	case	_	MorphInd=^untuk<r>_R--$
-5	mewujudkan	wujudkan	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^meN+wujud<n>+kan_VSA$
+5	mewujudkan	wujud	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^meN+wujud<n>+kan_VSA$
 6	komitmen	komitmen	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^komitmen<n>_NSD$
 7	konkret	konkret	NOUN	ASP	Degree=Pos|Number=Sing	6	compound	_	MorphInd=^konkret<a>_ASP$
 8	dari	dari	ADP	R--	_	9	case	_	MorphInd=^dari<r>_R--$
@@ -7758,7 +7758,7 @@
 24	teknologi-teknologi	teknologi	NOUN	NSD	Number=Plur	23	compound	_	MorphInd=^teknologi<n>_NSD$
 25	baru	baru	ADJ	ASP	Degree=Pos|Number=Sing	24	amod	_	MorphInd=^baru<a>_ASP$
 26	guna	guna	ADP	NSD	Number=Sing	27	case	_	MorphInd=^guna<n>_NSD$
-27	mewujudkan	wujudkan	VERB	VSA	Number=Sing|Voice=Act	12	acl	_	MorphInd=^meN+wujud<n>+kan_VSA$
+27	mewujudkan	wujud	VERB	VSA	Number=Sing|Voice=Act	12	acl	_	MorphInd=^meN+wujud<n>+kan_VSA$
 28	tata	tata	NOUN	VSA	Number=Sing|Voice=Act	27	obj	_	MorphInd=^tata<v>_VSA$
 29	kelola	kelola	VERB	VSA	Number=Sing|Voice=Act	28	acl	_	MorphInd=^kelola<v>_VSA$
 30	pemerintahan	penperintahan	NOUN	NSD	Number=Sing	28	compound	_	MorphInd=^peN+perintah<n>+an_NSD$
@@ -7785,7 +7785,7 @@
 2	keinginan	keinginan	NOUN	NSD	Number=Sing	1	obj	_	MorphInd=^ke+ingin<v>+an_NSD$
 3	sutradara	sutradara	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^sutradara<n>_NSD$
 4	untuk	untuk	ADP	R--	_	5	case	_	MorphInd=^untuk<r>_R--$
-5	mendialogkan	dialogkan	VERB	VSA	Number=Sing|Voice=Act	2	acl	_	MorphInd=^meN+dialog<n>+kan_VSA$
+5	mendialogkan	dialog	VERB	VSA	Number=Sing|Voice=Act	2	acl	_	MorphInd=^meN+dialog<n>+kan_VSA$
 6	Rebo	rebo	PROPN	X--	_	5	flat	_	MorphInd=^rebo<x>_X--$
 7	dengan	dengan	ADP	R--	_	8	case	_	MorphInd=^dengan<r>_R--$
 8	Robby	robby	PROPN	X--	_	5	obl	_	MorphInd=^robby<x>_X--$
@@ -7794,7 +7794,7 @@
 11	ego	ego	NOUN	F--	_	10	compound	_	MorphInd=^ego<f>_F--$
 12	yang	yang	PRON	S--	PronType=Rel	14	obl	_	MorphInd=^yang<s>_S--$
 13	ingin	ingin	ADV	M--	_	14	advmod	_	MorphInd=^ingin<m>_M--$
-14	dijadikan	dijadikan	VERB	VSP	Number=Sing|Voice=Pass	10	acl	_	MorphInd=^di+jadi<a>+kan_VSP$
+14	dijadikan	dijadi	VERB	VSP	Number=Sing|Voice=Pass	10	acl	_	MorphInd=^di+jadi<a>+kan_VSP$
 15	kenyataan	kenyataan	NOUN	NSD	Number=Sing	14	obj	_	SpaceAfter=No|MorphInd=^ke+nyata<a>+an_NSD$
 16	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 
@@ -7886,7 +7886,7 @@
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	band	band	NOUN	F--	_	7	nsubj	_	MorphInd=^band<f>_F--$
 6	ini	ini	DET	B--	PronType=Dem	5	det	_	MorphInd=^ini<b>_B--$
-7	mengumumkan	umumkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+umum<a>+kan_VSA$
+7	mengumumkan	umum	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+umum<a>+kan_VSA$
 8	pada	pada	ADP	R--	_	9	case	_	MorphInd=^pada<r>_R--$
 9	halaman	halaman	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^halaman<n>_NSD$
 10	MySpace	myspace	PROPN	F--	_	9	flat	_	MorphInd=^myspace<f>_F--$
@@ -7921,7 +7921,7 @@
 39	Mei	mei	PROPN	NSD	Number=Sing	37	flat	_	MorphInd=^mei<n>_NSD$
 40	band	band	NOUN	F--	_	42	nsubj	_	MorphInd=^band<f>_F--$
 41	ini	ini	DET	B--	PronType=Dem	40	det	_	MorphInd=^ini<b>_B--$
-42	mengumumkan	umumkan	VERB	VSA	Number=Sing|Voice=Act	7	dep	_	MorphInd=^meN+umum<a>+kan_VSA$
+42	mengumumkan	umum	VERB	VSA	Number=Sing|Voice=Act	7	dep	_	MorphInd=^meN+umum<a>+kan_VSA$
 43	pada	pada	ADP	R--	_	44	case	_	MorphInd=^pada<r>_R--$
 44	halaman	halaman	NOUN	NSD	Number=Sing	42	obl	_	MorphInd=^halaman<n>_NSD$
 45	MySpace	myspace	PROPN	F--	_	44	flat	_	MorphInd=^myspace<f>_F--$
@@ -7945,7 +7945,7 @@
 3	41	41	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^41<c>_CC-$
 4	/	/	SYM	Z--	_	3	punct	_	MorphInd=^/<z>_Z--$
 5	1999	1999	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^1999<c>_CC-$
-6	membedakan	bedakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+beda<a>+kan_VSA$
+6	membedakan	beda	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+beda<a>+kan_VSA$
 7	dua	dua	NUM	CC-	NumType=Card	8	nummod	_	MorphInd=^dua<c>_CC-$
 8	kategori	kategori	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^kategori<n>_NSD$
 9	besar	besar	ADJ	ASP	Degree=Pos|Number=Sing	8	amod	_	MorphInd=^besar<a>_ASP$
@@ -7981,7 +7981,7 @@
 39	1998	1998	NUM	CC-	NumType=Card	38	nummod	_	MorphInd=^1998<c>_CC-$
 40	sebelumnya	sebelumnya	ADV	D--	_	42	advmod	_	MorphInd=^sebelumnya<d>_D--$
 41	telah	telah	ADV	D--	_	42	advmod	_	MorphInd=^telah<d>_D--$
-42	mendefinisikan	definisikan	VERB	VSA	Number=Sing|Voice=Act	6	parataxis	_	SpaceAfter=No|MorphInd=^meN+definisi<n>+kan_VSA$
+42	mendefinisikan	definisi	VERB	VSA	Number=Sing|Voice=Act	6	parataxis	_	SpaceAfter=No|MorphInd=^meN+definisi<n>+kan_VSA$
 43	:	:	PUNCT	Z--	_	44	punct	_	MorphInd=^:<z>_Z--$
 44	PP	pp	PROPN	F--	_	42	obj	_	MorphInd=^pp<f>_F--$
 45	no	no	NOUN	F--	_	44	compound	_	MorphInd=^no<f>_F--$
@@ -8052,7 +8052,7 @@
 39	sementara	sementara	SCONJ	S--	_	42	mark	_	MorphInd=^sementara<s>_S--$
 40	Sorana	sorana	PROPN	X--	_	42	nsubj	_	MorphInd=^sorana<x>_X--$
 41	Cirstea	cirstea	PROPN	X--	_	40	flat	_	MorphInd=^cirstea<x>_X--$
-42	mengalahkan	kalahkan	VERB	VSA	Number=Sing|Voice=Act	34	advcl	_	MorphInd=^meN+kalah<a>+kan_VSA$
+42	mengalahkan	kalah	VERB	VSA	Number=Sing|Voice=Act	34	advcl	_	MorphInd=^meN+kalah<a>+kan_VSA$
 43	unggulan	unggulan	NOUN	NSD	Number=Sing	42	obj	_	MorphInd=^unggul<a>+an_NSD$
 44	ke	ke	NUM	R--	NumType=Card	43	nummod	_	MorphInd=^ke<r>_R--$
 45	-	-	PUNCT	Z--	_	46	punct	_	MorphInd=^-<z>_Z--$
@@ -8076,7 +8076,7 @@
 63	,	,	PUNCT	Z--	_	64	punct	_	MorphInd=^,<z>_Z--$
 64	Vania	vania	PROPN	F--	_	59	appos	_	MorphInd=^vania<f>_F--$
 65	King	king	PROPN	F--	_	64	flat	_	MorphInd=^king<f>_F--$
-66	mengalahkan	kalahkan	VERB	VSA	Number=Sing|Voice=Act	42	conj	_	MorphInd=^meN+kalah<a>+kan_VSA$
+66	mengalahkan	kalah	VERB	VSA	Number=Sing|Voice=Act	42	conj	_	MorphInd=^meN+kalah<a>+kan_VSA$
 67	peserta	peserta	NOUN	NSD	Number=Sing	66	obj	_	MorphInd=^peserta<n>_NSD$
 68	asal	asal	ADP	NSD	Number=Sing	69	case	_	MorphInd=^asal<n>_NSD$
 69	Inggris	inggris	PROPN	NSD	Number=Sing	67	nmod	_	SpaceAfter=No|MorphInd=^inggris<n>_NSD$
@@ -8172,7 +8172,7 @@
 9	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
 10	juga	juga	ADV	D--	_	12	advmod	_	MorphInd=^juga<d>_D--$
 11	untuk	untuk	ADP	R--	_	12	case	_	MorphInd=^untuk<r>_R--$
-12	meningkatkan	tingkatkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tingkat<n>+kan_VSA$
+12	meningkatkan	tingkat	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tingkat<n>+kan_VSA$
 13	kesejahteraan	kesejahteraan	NOUN	NSD	Number=Sing	12	obj	_	MorphInd=^ke+sejahtera<a>+an_NSD$
 14	penduduk	penduduk	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^penduduk<n>_NSD$
 15	dengan	dengan	ADP	R--	_	16	case	_	MorphInd=^dengan<r>_R--$
@@ -8214,7 +8214,7 @@
 4	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	MorphInd=^yang<s>_S--$
 5	ada	ada	VERB	ASP	Degree=Pos|Number=Sing	1	acl	_	MorphInd=^ada<a>_ASP$
 6	dapat	dapat	ADV	M--	_	7	advmod	_	MorphInd=^dapat<m>_M--$
-7	menjalankan	jalankan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jalan<v>+kan_VSA$
+7	menjalankan	jalan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jalan<v>+kan_VSA$
 8	program	program	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^program<n>_NSD$
 9	BASIC	basic	PROPN	F--	_	8	flat	_	MorphInd=^basic<f>_F--$
 10	untuk	untuk	ADP	R--	_	11	case	_	MorphInd=^untuk<r>_R--$
@@ -8222,7 +8222,7 @@
 12	debugging	debugging	PROPN	X--	_	11	flat	_	SpaceAfter=No|MorphInd=^debugging<x>_X--$
 13	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 14	atau	atau	CCONJ	H--	_	15	cc	_	MorphInd=^atau<h>_H--$
-15	menghasilkan	hasilkan	VERB	VSA	Number=Sing|Voice=Act	7	conj	_	MorphInd=^meN+hasil<n>+kan_VSA$
+15	menghasilkan	hasil	VERB	VSA	Number=Sing|Voice=Act	7	conj	_	MorphInd=^meN+hasil<n>+kan_VSA$
 16	file	file	PROPN	NSD	Number=Sing	15	obj	_	MorphInd=^file<n>_NSD$
 17	EXE	exe	PROPN	X--	_	16	flat	_	MorphInd=^exe<x>_X--$
 18	untuk	untuk	ADP	R--	_	19	case	_	MorphInd=^untuk<r>_R--$
@@ -8234,13 +8234,13 @@
 24	mandiri	mandiri	ADJ	ASP	Degree=Pos|Number=Sing	19	amod	_	MorphInd=^mandiri<a>_ASP$
 25	dan	dan	CCONJ	H--	_	27	cc	_	MorphInd=^dan<h>_H--$
 26	dapat	dapat	ADV	M--	_	27	advmod	_	MorphInd=^dapat<m>_M--$
-27	dijalankan	dijalankan	VERB	VSP	Number=Sing|Voice=Pass	24	conj	_	MorphInd=^di+jalan<v>+kan_VSP$
+27	dijalankan	dijalan	VERB	VSP	Number=Sing|Voice=Pass	24	conj	_	MorphInd=^di+jalan<v>+kan_VSP$
 28	pada	pada	ADP	R--	_	29	case	_	MorphInd=^pada<r>_R--$
 29	sistem	sistem	NOUN	NSD	Number=Sing	27	obl	_	MorphInd=^sistem<n>_NSD$
 30	lain	lain	ADJ	ASP	Degree=Pos|Number=Sing	29	amod	_	MorphInd=^lain<a>_ASP$
 31	meski	meski	SCONJ	S--	_	33	mark	_	MorphInd=^meski<s>_S--$
 32	tanpa	tanpa	PART	D--	Polarity=Neg	33	advmod	_	MorphInd=^tanpa<d>_D--$
-33	melibatkan	libatkan	VERB	VSA	Number=Sing|Voice=Act	27	advcl	_	MorphInd=^meN+libat<v>+kan_VSA$
+33	melibatkan	libat	VERB	VSA	Number=Sing|Voice=Act	27	advcl	_	MorphInd=^meN+libat<v>+kan_VSA$
 34	produk	produk	NOUN	NSD	Number=Sing	33	obj	_	MorphInd=^produk<n>_NSD$
 35	Turbo	turbo	PROPN	F--	_	34	flat	_	MorphInd=^turbo<f>_F--$
 36	Basic	basic	PROPN	F--	_	35	flat	_	MorphInd=^basic<f>_F--$
@@ -8292,7 +8292,7 @@
 1	Apakah	apa	PRON	W--+T--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 2	yang	yang	PRON	S--	PronType=Rel	4	obj	_	MorphInd=^yang<s>_S--$
 3	engkau	engkau	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	MorphInd=^engkau<p>_PS2$
-4	serukan	serukan	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^seru<a>+kan_VSA$
+4	serukan	seru	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^seru<a>+kan_VSA$
 5	kepada	kepada	ADP	R--	_	6	case	_	MorphInd=^kepada<r>_R--$
 6	kami	kami	PRON	PP1	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No|MorphInd=^kami<p>_PP1$
 7	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
@@ -8324,7 +8324,7 @@
 1	``	``	PUNCT	Z--	_	4	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
 2	Apakah	apa	ADV	W--+T--	PronType=Int	4	advmod	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 3	engkau	engkau	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	MorphInd=^engkau<p>_PS2$
-4	memperhatikan	perhatikan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+per+hati<n>+kan_VSA$
+4	memperhatikan	perhati	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+per+hati<n>+kan_VSA$
 5	hamba-Ku	hamba	NOUN	NSD+PS1	Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obj	_	MorphInd=^hamba<n>_NSD+aku<p>_PS1$
 6	Ayub	ayub	PROPN	NSD	Number=Sing	5	appos	_	SpaceAfter=No|MorphInd=^ayub<n>_NSD$
 7	?	?	PUNCT	Z--	_	4	punct	_	MorphInd=^?<z>_Z--$
@@ -8364,7 +8364,7 @@
 # text = Mahoni dapat ditemukan tumbuh liar di hutan jati dan tempat - ternpat lain yang dekat dengan pantai, atau ditanam di tepi jalan sebagai pohon pelindung.
 1	Mahoni	mahoni	PROPN	X--	_	3	nsubj:pass	_	MorphInd=^mahoni<x>_X--$
 2	dapat	dapat	ADV	M--	_	3	advmod	_	MorphInd=^dapat<m>_M--$
-3	ditemukan	ditemukan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+temu<v>+kan_VSP$
+3	ditemukan	ditemu	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+temu<v>+kan_VSP$
 4	tumbuh	tumbuh	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^tumbuh<v>_VSA$
 5	liar	liar	ADJ	ASP	Degree=Pos|Number=Sing	4	amod	_	MorphInd=^liar<a>_ASP$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
@@ -8428,7 +8428,7 @@
 34	kematian	kematian	NOUN	NSD	Number=Sing	33	compound	_	MorphInd=^ke+mati<a>+an_NSD$
 35	yang	yang	PRON	S--	PronType=Rel	37	nsubj:pass	_	MorphInd=^yang<s>_S--$
 36	telah	telah	ADV	D--	_	37	advmod	_	MorphInd=^telah<d>_D--$
-37	ditetapkan	ditetapkan	VERB	VSP	Number=Sing|Voice=Pass	33	acl	_	SpaceAfter=No|MorphInd=^di+tetap<a>+kan_VSP$
+37	ditetapkan	ditetap	VERB	VSP	Number=Sing|Voice=Pass	33	acl	_	SpaceAfter=No|MorphInd=^di+tetap<a>+kan_VSP$
 38	.	.	PUNCT	Z--	_	13	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s328
@@ -8453,7 +8453,7 @@
 1	Balapan	balapan	NOUN	NSD	Number=Sing	4	nsubj:pass	_	MorphInd=^balap<v>+an_NSD$
 2	tersebut	tersebut	DET	B--	PronType=Dem	1	det	_	MorphInd=^tersebut<b>_B--$
 3	akhirnya	akhirnya	ADV	B--	_	4	advmod	_	MorphInd=^akhirnya<b>_B--$
-4	dimenangkan	dimenangkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+menang<a>+kan_VSP$
+4	dimenangkan	dimenang	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+menang<a>+kan_VSP$
 5	oleh	oleh	ADP	R--	_	6	case	_	MorphInd=^oleh<r>_R--$
 6	Bumblebee	bumblebee	PROPN	X--	_	4	obl	_	MorphInd=^bumblebee<x>_X--$
 7	dan	dan	CCONJ	H--	_	8	cc	_	MorphInd=^dan<h>_H--$
@@ -8498,7 +8498,7 @@
 4	mempelajari	pelajari	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^meN+pelajar<n>+i_VSA$
 5	cara-cara	cara	NOUN	NSD	Number=Plur	4	obj	_	MorphInd=^cara<n>_NSD$
 6	pengukuran	penukuran	NOUN	NSD	Number=Sing	5	compound	_	MorphInd=^peN+ukur<v>+an_NSD$
-7	dinamakan	dinamakan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+nama<n>+kan_VSP$
+7	dinamakan	dinama	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+nama<n>+kan_VSP$
 8	metrologi	metrologi	NOUN	NSD	Number=Sing	7	obj	_	SpaceAfter=No|MorphInd=^metrologi<n>_NSD$
 9	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
@@ -8654,7 +8654,7 @@
 23	kemungkinan	kemungkinan	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^kemungkinan<n>_NSD$
 24	segera	segera	ADV	D--	_	26	advmod	_	MorphInd=^segera<d>_D--$
 25	akan	akan	ADV	M--	_	26	advmod	_	MorphInd=^akan<m>_M--$
-26	dimasukkan	dimasukkan	VERB	VSP	Number=Sing|Voice=Pass	20	acl	_	MorphInd=^di+masuk<v>+kan_VSP$
+26	dimasukkan	dimasuk	VERB	VSP	Number=Sing|Voice=Pass	20	acl	_	MorphInd=^di+masuk<v>+kan_VSP$
 27	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	28	case	_	MorphInd=^dalam<a>_ASP$
 28	daftar	daftar	NOUN	NSD	Number=Sing	26	obl	_	MorphInd=^daftar<n>_NSD$
 29	binatang	binatang	NOUN	NSD	Number=Sing	28	compound	_	MorphInd=^binatang<n>_NSD$
@@ -8686,7 +8686,7 @@
 2	Redaksi	redaksi	NOUN	X--	_	5	obl	_	SpaceAfter=No|MorphInd=^redaksi<x>_X--$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 4	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	MorphInd=^ia<p>_PS3$
-5	membawakan	bawakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+bawa<v>+kan_VSA$
+5	membawakan	bawa	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+bawa<v>+kan_VSA$
 6	berita	berita	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^berita<n>_NSD$
 7	Redaksi	redaksi	PROPN	X--	_	6	flat	_	MorphInd=^redaksi<x>_X--$
 8	Pagi	pagi	PROPN	NSD	Number=Sing	7	flat	_	SpaceAfter=No|MorphInd=^pagi<n>_NSD$
@@ -8739,7 +8739,7 @@
 # text = Mulai dari mendirikan kedai sampai ke koperasi.
 1	Mulai	mulai	PROPN	VSA	Number=Sing|Voice=Act	3	nsubj	_	MorphInd=^mulai<v>_VSA$
 2	dari	dari	ADP	R--	_	1	case	_	MorphInd=^dari<r>_R--$
-3	mendirikan	dirikan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+diri<n>+kan_VSA$
+3	mendirikan	diri	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+diri<n>+kan_VSA$
 4	kedai	kedai	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^kedai<n>_NSD$
 5	sampai	sampai	ADP	ASP	Degree=Pos|Number=Sing	7	case	_	MorphInd=^sampai<a>_ASP$
 6	ke	ke	ADP	R--	_	7	case	_	MorphInd=^ke<r>_R--$
@@ -8855,7 +8855,7 @@
 9	ikan	ikan	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^ikan<n>_NSD$
 10	terhidrolisis	terhidrolisis	VERB	X--	_	0	root	_	MorphInd=^terhidrolisis<x>_X--$
 11	hingga	hingga	ADP	R--	_	12	case	_	MorphInd=^hingga<r>_R--$
-12	menghasilkan	hasilkan	VERB	VSA	Number=Sing|Voice=Act	10	xcomp	_	MorphInd=^meN+hasil<n>+kan_VSA$
+12	menghasilkan	hasil	VERB	VSA	Number=Sing|Voice=Act	10	xcomp	_	MorphInd=^meN+hasil<n>+kan_VSA$
 13	amonia	amonia	NOUN	NSD	Number=Sing	12	obj	_	SpaceAfter=No|MorphInd=^amonia<n>_NSD$
 14	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
 
@@ -8922,7 +8922,7 @@
 3	hingga	hingga	ADP	R--	_	6	case	_	MorphInd=^hingga<r>_R--$
 4	1895	1895	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^1895<c>_CC-$
 5	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	MorphInd=^ia<p>_PS3$
-6	dipersiapkan	dipersiapkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+per+siap<a>+kan_VSP$
+6	dipersiapkan	dipersiap	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+per+siap<a>+kan_VSP$
 7	untuk	untuk	ADP	R--	_	8	case	_	MorphInd=^untuk<r>_R--$
 8	menempuh	tempuh	VERB	VSA	Number=Sing|Voice=Act	6	xcomp	_	MorphInd=^meN+tempuh<v>_VSA$
 9	ujian	ujian	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^uji<n>+an_NSD$
@@ -8955,7 +8955,7 @@
 17	Inggris	inggris	NOUN	NSD	Number=Sing	16	compound	_	SpaceAfter=No|MorphInd=^inggris<n>_NSD$
 18	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
 19	memungkinkannya	memungkinkannya	ADV	X--	_	20	advmod	_	MorphInd=^memungkinkannya<x>_X--$
-20	memainkan	mainkan	VERB	VSA	Number=Sing|Voice=Act	10	parataxis	_	MorphInd=^meN+main<v>+kan_VSA$
+20	memainkan	main	VERB	VSA	Number=Sing|Voice=Act	10	parataxis	_	MorphInd=^meN+main<v>+kan_VSA$
 21	peran	peran	NOUN	NSD	Number=Sing	20	obj	_	MorphInd=^peran<n>_NSD$
 22	kunci	kunci	NOUN	NSD	Number=Sing	21	compound	_	MorphInd=^kunci<n>_NSD$
 23	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	24	case	_	MorphInd=^dalam<a>_ASP$
@@ -9018,7 +9018,7 @@
 22	-	-	PUNCT	Z--	_	23	punct	_	MorphInd=^-<z>_Z--$
 23	Dee	dee	PROPN	F--	_	21	flat	_	MorphInd=^dee<f>_F--$
 24	dan	dan	CCONJ	H--	_	25	cc	_	MorphInd=^dan<h>_H--$
-25	dimakamkan	dimakamkan	VERB	VSP	Number=Sing|Voice=Pass	2	conj	_	MorphInd=^di+makam<n>+kan_VSP$
+25	dimakamkan	dimakam	VERB	VSP	Number=Sing|Voice=Pass	2	conj	_	MorphInd=^di+makam<n>+kan_VSP$
 26	di	di	ADP	R--	_	27	case	_	MorphInd=^di<r>_R--$
 27	New	new	PROPN	F--	_	25	obl	_	MorphInd=^new<f>_F--$
 28	Minster	minster	PROPN	X--	_	27	flat	_	MorphInd=^minster<x>_X--$
@@ -9028,7 +9028,7 @@
 32	Hampshire	hampshire	PROPN	F--	_	30	appos	_	SpaceAfter=No|MorphInd=^hampshire<f>_F--$
 33	,	,	PUNCT	Z--	_	35	punct	_	MorphInd=^,<z>_Z--$
 34	yang	yang	PRON	S--	PronType=Rel	35	nsubj:pass	_	MorphInd=^yang<s>_S--$
-35	didirikan	didirikan	VERB	VSP	Number=Sing|Voice=Pass	30	acl	_	MorphInd=^di+diri<n>+kan_VSP$
+35	didirikan	didiri	VERB	VSP	Number=Sing|Voice=Pass	30	acl	_	MorphInd=^di+diri<n>+kan_VSP$
 36	olehnya	oleh	ADP	R--+PS3	Number[psor]=Sing|Person[psor]=3	35	case	_	MorphInd=^oleh<r>_R--+dia<p>_PS3$
 37	sendiri	sendiri	ADJ	ASP	Degree=Pos|Number=Sing	35	amod	_	MorphInd=^sendiri<a>_ASP$
 38	pada	pada	ADP	R--	_	39	case	_	MorphInd=^pada<r>_R--$
@@ -9044,7 +9044,7 @@
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	Kovy	kovy	PROPN	X--	_	6	nsubj	_	MorphInd=^kovy<x>_X--$
 6	berhasil	berhasil	VERB	ASP	Degree=Pos|Number=Sing	0	root	_	MorphInd=^berhasil<a>_ASP$
-7	mengalahkan	kalahkan	VERB	VSA	Number=Sing|Voice=Act	6	ccomp	_	MorphInd=^meN+kalah<a>+kan_VSA$
+7	mengalahkan	kalah	VERB	VSA	Number=Sing|Voice=Act	6	ccomp	_	MorphInd=^meN+kalah<a>+kan_VSA$
 8	Vettel	vettel	NOUN	X--	_	7	obj	_	MorphInd=^vettel<x>_X--$
 9	sebelum	sebelum	ADV	S--	_	11	advmod	_	MorphInd=^sebelum<s>_S--$
 10	akhirnya	akhirnya	ADV	B--	_	11	advmod	_	MorphInd=^akhirnya<b>_B--$
@@ -9085,7 +9085,7 @@
 8	blues	blues	ADJ	F--	_	9	amod	_	MorphInd=^blues<f>_F--$
 9	rock	rock	NOUN	F--	_	6	obl	_	MorphInd=^rock<f>_F--$
 10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
-11	dimainkan	dimainkan	VERB	VSP	Number=Sing|Voice=Pass	6	conj	_	MorphInd=^di+main<v>+kan_VSP$
+11	dimainkan	dimain	VERB	VSP	Number=Sing|Voice=Pass	6	conj	_	MorphInd=^di+main<v>+kan_VSP$
 12	keras	keras	ADJ	ASP	Degree=Pos|Number=Sing	11	amod	_	MorphInd=^keras<a>_ASP$
 13	serta	serta	CCONJ	H--	_	12	cc	_	MorphInd=^serta<h>_H--$
 14	dengan	dengan	ADP	R--	_	15	case	_	MorphInd=^dengan<r>_R--$
@@ -9165,7 +9165,7 @@
 8	satu	satu	DET	CC-	_	7	fixed	_	MorphInd=^satu<c>_CC-$
 9	strategi	strategi	NOUN	NSD	Number=Sing	6	acl	_	MorphInd=^strategi<n>_NSD$
 10	yang	yang	PRON	S--	PronType=Rel	11	nsubj:pass	_	MorphInd=^yang<s>_S--$
-11	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	MorphInd=^di+guna<n>+kan_VSP$
+11	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	MorphInd=^di+guna<n>+kan_VSP$
 12	agar	agar	ADP	S--	_	15	case	_	MorphInd=^agar<s>_S--$
 13	proses	proses	NOUN	NSD	Number=Sing	15	nsubj	_	MorphInd=^proses<n>_NSD$
 14	bisnis	bisnis	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^bisnis<n>_NSD$
@@ -9210,7 +9210,7 @@
 13	tanpa	tanpa	ADP	D--	_	14	case	_	MorphInd=^tanpa<d>_D--$
 14	cinta	cinta	NOUN	NSD	Number=Sing	12	nmod	_	MorphInd=^cinta<n>_NSD$
 15	yang	yang	PRON	S--	PronType=Rel	16	nsubj	_	MorphInd=^yang<s>_S--$
-16	menunjukkan	tunjukkan	VERB	VSA	Number=Sing|Voice=Act	12	acl	_	MorphInd=^meN+tunjuk<v>+kan_VSA$
+16	menunjukkan	tunjuk	VERB	VSA	Number=Sing|Voice=Act	12	acl	_	MorphInd=^meN+tunjuk<v>+kan_VSA$
 17	kebaikan	kebaikan	NOUN	NSD	Number=Sing	16	obj	_	MorphInd=^ke+baik<a>+an_NSD$
 18	sifatnya	sifat	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	17	compound	_	SpaceAfter=No|MorphInd=^sifat<n>_NSD+dia<p>_PS3$
 19	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
@@ -9295,7 +9295,7 @@
 1	Rakit	rakit	PROPN	NSD	Number=Sing	4	nsubj	_	MorphInd=^rakit<n>_NSD$
 2	modern	modern	PROPN	ASP	Degree=Pos|Number=Sing	1	flat	_	MorphInd=^modern<a>_ASP$
 3	juga	juga	ADV	D--	_	4	advmod	_	MorphInd=^juga<d>_D--$
-4	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
+4	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
 5	ponton	ponton	NOUN	X--	_	4	obj	_	SpaceAfter=No|MorphInd=^ponton<x>_X--$
 6	,	,	PUNCT	Z--	_	7	punct	_	MorphInd=^,<z>_Z--$
 7	drum	drum	NOUN	F--	_	5	conj	_	SpaceAfter=No|MorphInd=^drum<f>_F--$
@@ -9318,7 +9318,7 @@
 1	Apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 2	yang	yang	PRON	S--	PronType=Rel	3	nsubj	_	MorphInd=^yang<s>_S--$
 3	membuatnya	buat	VERB	VSA+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Act	1	acl	_	MorphInd=^meN+buat<v>_VSA+dia<p>_PS3$
-4	melakukan	lakukan	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^meN+laku<a>+kan_VSA$
+4	melakukan	laku	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^meN+laku<a>+kan_VSA$
 5	pembunuhan	penbunuhan	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^peN+bunuh<v>+an_NSD$
 6	dengan	dengan	ADP	R--	_	7	case	_	MorphInd=^dengan<r>_R--$
 7	darah	darah	NOUN	NSD	Number=Sing	5	nmod	_	MorphInd=^darah<n>_NSD$
@@ -9356,7 +9356,7 @@
 10	tahun	tahun	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^tahun<n>_NSD$
 11	2004	2004	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^2004<c>_CC-$
 12	dan	dan	CCONJ	H--	_	13	cc	_	MorphInd=^dan<h>_H--$
-13	direncanakan	direncanakan	VERB	VSP	Number=Sing|Voice=Pass	9	conj	_	MorphInd=^di+rencana<n>+kan_VSP$
+13	direncanakan	direncana	VERB	VSP	Number=Sing|Voice=Pass	9	conj	_	MorphInd=^di+rencana<n>+kan_VSP$
 14	selesai	selesai	ADJ	ASP	Degree=Pos|Number=Sing	13	obj	_	MorphInd=^selesai<a>_ASP$
 15	pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
 16	tahun	tahun	NOUN	NSD	Number=Sing	13	obl	_	MorphInd=^tahun<n>_NSD$
@@ -9432,7 +9432,7 @@
 # sent_id = dev-s374
 # text = GameSpot menambahkan bahwa sistem kemampuannya tidak serumit Final Fantasy VII atau Final Fantasy VIII. Setiap karakter mempunyai kemampuan yang unik, yang memungkinkan tidak ada karakter yang paling kuat, permainan ini juga mempunyai sistem pertarungan yang membuat grup lebih berinteraksi antara pemain dengan musuh.
 1	GameSpot	gamespot	PROPN	X--	_	2	nsubj	_	MorphInd=^gamespot<x>_X--$
-2	menambahkan	tambahkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tambah<v>+kan_VSA$
+2	menambahkan	tambah	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tambah<v>+kan_VSA$
 3	bahwa	bahwa	ADP	S--	_	7	mark	_	MorphInd=^bahwa<s>_S--$
 4	sistem	sistem	NOUN	NSD	Number=Sing	7	nsubj	_	MorphInd=^sistem<n>_NSD$
 5	kemampuannya	kemampuan	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	compound	_	MorphInd=^ke+mampu<a>+an_NSD+dia<p>_PS3$
@@ -9536,7 +9536,7 @@
 1	Grup	grup	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^grup<n>_NSD$
 2	musik	musik	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^musik<n>_NSD$
 3	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
-4	beranggotakan	beranggotakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+anggota<n>+kan_VSA$
+4	beranggotakan	beranggota	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^ber+anggota<n>+kan_VSA$
 5	3	3	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^3<c>_CC-$
 6	orang	orang	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^orang<n>_NSD$
 7	yaitu	yaitu	ADV	O--	_	8	advmod	_	MorphInd=^yaitu<o>_O--$
@@ -9569,7 +9569,7 @@
 12	ringan	ringan	ADJ	ASP	Degree=Pos|Number=Sing	11	amod	_	MorphInd=^ringan<a>_ASP$
 13	pun	pun	PART	T--	_	11	det	_	MorphInd=^pun<t>_T--$
 14	dapat	dapat	ADV	M--	_	15	advmod	_	MorphInd=^dapat<m>_M--$
-15	menyebabkan	sebabkan	VERB	VSA	Number=Sing|Voice=Act	7	advcl	_	MorphInd=^meN+sebab<n>+kan_VSA$
+15	menyebabkan	sebab	VERB	VSA	Number=Sing|Voice=Act	7	advcl	_	MorphInd=^meN+sebab<n>+kan_VSA$
 16	kematian	kematian	NOUN	NSD	Number=Sing	15	obj	_	SpaceAfter=No|MorphInd=^ke+mati<a>+an_NSD$
 17	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
@@ -9577,7 +9577,7 @@
 # text = Kambing betina menghabiskan sebagian besar kehidupan mereka dengan anak-anak mereka.
 1	Kambing	kambing	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^kambing<n>_NSD$
 2	betina	betina	ADJ	ASP	Degree=Pos|Number=Sing	1	amod	_	MorphInd=^betina<a>_ASP$
-3	menghabiskan	habiskan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+habis<a>+kan_VSA$
+3	menghabiskan	habis	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+habis<a>+kan_VSA$
 4	sebagian	sebagian	DET	ASP	Degree=Pos|Number=Sing	6	det	_	MorphInd=^sebagian<a>_ASP$
 5	besar	besar	ADJ	ASP	Degree=Pos|Number=Sing	6	amod	_	MorphInd=^besar<a>_ASP$
 6	kehidupan	kehidupan	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^ke+hidup<n>+an_NSD$
@@ -9633,7 +9633,7 @@
 13	bahwa	bahwa	SCONJ	S--	_	16	mark	_	MorphInd=^bahwa<s>_S--$
 14	ucapan-ucapan	ucapan	NOUN	NSD	Number=Plur	16	nsubj:pass	_	MorphInd=^ucap<v>+an_NSD$
 15	itu	itu	DET	B--	PronType=Dem	14	det	_	MorphInd=^itu<b>_B--$
-16	disajikan	disajikan	VERB	VSP	Number=Sing|Voice=Pass	12	ccomp	_	MorphInd=^di+saji<v>+kan_VSP$
+16	disajikan	disaji	VERB	VSP	Number=Sing|Voice=Pass	12	ccomp	_	MorphInd=^di+saji<v>+kan_VSP$
 17	sebagai	sebagai	ADP	R--	_	18	case	_	MorphInd=^sebagai<r>_R--$
 18	pengajaran	penajaran	NOUN	NSD	Number=Sing	16	obl	_	MorphInd=^peN+ajar<v>+an_NSD$
 19	Yesus	yesus	PROPN	F--	_	18	flat	_	MorphInd=^yesus<f>_F--$
@@ -9657,7 +9657,7 @@
 # text = Artikel berikut menjelaskan proses kualifikasi menuju babak utama SAP Open 2011.
 1	Artikel	artikel	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^artikel<n>_NSD$
 2	berikut	berikut	DET	VSA	Number=Sing|Voice=Act	1	det	_	MorphInd=^ber+ikut<v>_VSA$
-3	menjelaskan	jelaskan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jelas<a>+kan_VSA$
+3	menjelaskan	jelas	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+jelas<a>+kan_VSA$
 4	proses	proses	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^proses<n>_NSD$
 5	kualifikasi	kualifikasi	NOUN	NSD	Number=Sing	4	compound	_	MorphInd=^kualifikasi<n>_NSD$
 6	menuju	tuju	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+tuju<v>_VSA$
@@ -9685,7 +9685,7 @@
 13	barang	barang	NOUN	NSD	Number=Sing	10	conj	_	MorphInd=^barang<n>_NSD$
 14	di	di	ADP	R--	_	15	case	_	MorphInd=^di<r>_R--$
 15	samping	samping	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^samping<n>_NSD$
-16	menggalakan	galakan	VERB	VSA	Number=Sing|Voice=Act	15	acl	_	MorphInd=^meN+gala<f>+kan_VSA$
+16	menggalakan	gala	VERB	VSA	Number=Sing|Voice=Act	15	acl	_	MorphInd=^meN+gala<f>+kan_VSA$
 17	pertumbuhan	pertumbuhan	NOUN	NSD	Number=Sing	16	obj	_	MorphInd=^per+tumbuh<v>+an_NSD$
 18	ekonomi	ekonomi	NOUN	NSD	Number=Sing	17	compound	_	MorphInd=^ekonomi<n>_NSD$
 19	melalui	melalui	ADP	R--	_	20	case	_	MorphInd=^melalui<r>_R--$
@@ -9723,7 +9723,7 @@
 # text = Tari yang dibawakan di Nagabukuro Jinmeisha berawal dari tari kipas sebagai lambang kegembiraan untuk menghibur diri sendiri yang ditarikan oleh pelarian klan Taira yang selamat dari perang.
 1	Tari	tari	NOUN	NSD	Number=Sing	7	nsubj	_	MorphInd=^tari<n>_NSD$
 2	yang	yang	PRON	S--	PronType=Rel	3	det	_	MorphInd=^yang<s>_S--$
-3	dibawakan	dibawakan	VERB	VSP	Number=Sing|Voice=Pass	1	acl	_	MorphInd=^di+bawa<v>+kan_VSP$
+3	dibawakan	dibawa	VERB	VSP	Number=Sing|Voice=Pass	1	acl	_	MorphInd=^di+bawa<v>+kan_VSP$
 4	di	di	ADP	R--	_	5	case	_	MorphInd=^di<r>_R--$
 5	Nagabukuro	nagabukuro	PROPN	X--	_	3	obl	_	MorphInd=^nagabukuro<x>_X--$
 6	Jinmeisha	jinmeisha	PROPN	X--	_	5	flat	_	MorphInd=^jinmeisha<x>_X--$
@@ -9739,7 +9739,7 @@
 16	diri	diri	PRON	NSD	Number=Sing	15	obj	_	MorphInd=^diri<n>_NSD$
 17	sendiri	sendiri	PRON	ASP	Degree=Pos|Number=Sing	16	compound	_	MorphInd=^sendiri<a>_ASP$
 18	yang	yang	PRON	S--	PronType=Rel	19	acl	_	MorphInd=^yang<s>_S--$
-19	ditarikan	ditarikan	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	MorphInd=^di+tari<n>+kan_VSP$
+19	ditarikan	ditari	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	MorphInd=^di+tari<n>+kan_VSP$
 20	oleh	oleh	ADP	R--	_	21	case	_	MorphInd=^oleh<r>_R--$
 21	pelarian	penlarian	NOUN	NSD	Number=Sing	19	obl	_	MorphInd=^peN+lari<n>+an_NSD$
 22	klan	klan	NOUN	X--	_	21	compound	_	MorphInd=^klan<x>_X--$
@@ -9759,12 +9759,12 @@
 5	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	MorphInd=^ia<p>_PS3$
 6	betul-betul	betul	ADV	APP	Degree=Pos	5	advmod	_	MorphInd=^betul<a>_APP$
 7	bisa	bisa	ADV	M--	_	8	advmod	_	MorphInd=^bisa<m>_M--$
-8	mengeluarkan	keluarkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+keluar<v>+kan_VSA$
+8	mengeluarkan	keluar	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+keluar<v>+kan_VSA$
 9	tenaga	tenaga	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^tenaga<n>_NSD$
 10	dalamnya	dalam	ADJ	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	9	amod	_	MorphInd=^dalam<n>_NSD+dia<p>_PS3$
 11	seperti	seperti	ADP	R--	_	9	case	_	MorphInd=^seperti<r>_R--$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj:pass	_	MorphInd=^yang<s>_S--$
-13	diajarkan	diajarkan	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	MorphInd=^di+ajar<v>+kan_VSP$
+13	diajarkan	diajar	VERB	VSP	Number=Sing|Voice=Pass	9	acl	_	MorphInd=^di+ajar<v>+kan_VSP$
 14	Sam	sam	PROPN	F--	_	13	obl	_	MorphInd=^sam<f>_F--$
 15	selama	selama	ADP	R--	_	13	case	_	MorphInd=^selama<r>_R--$
 16	ini	ini	DET	B--	PronType=Dem	13	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
@@ -9884,7 +9884,7 @@
 40	harganya	harga	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	43	nsubj	_	MorphInd=^harga<n>_NSD+dia<p>_PS3$
 41	yang	yang	PRON	S--	PronType=Rel	42	nsubj:pass	_	MorphInd=^yang<s>_S--$
 42	lumayan	lumayan	VERB	D--	_	40	acl	_	MorphInd=^lumayan<d>_D--$
-43	dibandingkan	dibandingkan	VERB	VSP	Number=Sing|Voice=Pass	33	advcl	_	MorphInd=^di+banding<v>+kan_VSP$
+43	dibandingkan	dibanding	VERB	VSP	Number=Sing|Voice=Pass	33	advcl	_	MorphInd=^di+banding<v>+kan_VSP$
 44	sayuran	sayuran	NOUN	NSD	Number=Sing	43	obj	_	MorphInd=^sayur<n>+an_NSD$
 45	lain	lain	ADJ	ASP	Degree=Pos|Number=Sing	44	amod	_	SpaceAfter=No|MorphInd=^lain<a>_ASP$
 46	.	.	PUNCT	Z--	_	32	punct	_	MorphInd=^.<z>_Z--$
@@ -9952,7 +9952,7 @@
 # sent_id = dev-s395
 # text = Martha menanyakan pada Edo, apa benar Kamila keguguran?
 1	Martha	martha	PROPN	F--	_	2	nsubj	_	MorphInd=^martha<f>_F--$
-2	menanyakan	nanyakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nanya<v>+kan_VSA$
+2	menanyakan	nanya	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nanya<v>+kan_VSA$
 3	pada	pada	ADP	R--	_	4	case	_	MorphInd=^pada<r>_R--$
 4	Edo	edo	PROPN	X--	_	2	obl	_	SpaceAfter=No|MorphInd=^edo<x>_X--$
 5	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
@@ -9990,7 +9990,7 @@
 1	Astro	astro	PROPN	X--	_	4	nsubj	_	MorphInd=^astro<x>_X--$
 2	Ria	ria	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^ria<n>_NSD$
 3	juga	juga	ADV	D--	_	4	advmod	_	MorphInd=^juga<d>_D--$
-4	menyiarkan	siarkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+siar<v>+kan_VSA$
+4	menyiarkan	siar	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+siar<v>+kan_VSA$
 5	berbagai	berbagai	DET	B--	PronType=Ind	6	det	_	MorphInd=^berbagai<b>_B--$
 6	acara	acara	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^acara<n>_NSD$
 7	tahunan	tahunan	ADJ	NSD	Number=Sing	6	amod	_	MorphInd=^tahun<n>+an_NSD$
@@ -10014,7 +10014,7 @@
 25	,	,	PUNCT	Z--	_	28	punct	_	MorphInd=^,<z>_Z--$
 26	dan	dan	CCONJ	H--	_	28	cc	_	MorphInd=^dan<h>_H--$
 27	pernah	pernah	ADV	D--	_	28	advmod	_	MorphInd=^pernah<d>_D--$
-28	menyiarkan	siarkan	VERB	VSA	Number=Sing|Voice=Act	4	conj	_	MorphInd=^meN+siar<v>+kan_VSA$
+28	menyiarkan	siar	VERB	VSA	Number=Sing|Voice=Act	4	conj	_	MorphInd=^meN+siar<v>+kan_VSA$
 29	Perhimpunan	perhimpunan	PROPN	NSD	Number=Sing	28	obj	_	MorphInd=^per+himpun<v>+an_NSD$
 30	Agung	agung	PROPN	ASP	Degree=Pos|Number=Sing	29	flat	_	MorphInd=^agung<a>_ASP$
 31	UMNO	umno	PROPN	X--	_	29	flat	_	MorphInd=^umno<x>_X--$
@@ -10042,7 +10042,7 @@
 8	Studi	studi	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^studi<n>_NSD$
 9	ini	ini	DET	B--	PronType=Dem	7	det	_	MorphInd=^ini<b>_B--$
 10	telah	telah	ADV	D--	_	11	advmod	_	MorphInd=^telah<d>_D--$
-11	menghasilkan	hasilkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+hasil<n>+kan_VSA$
+11	menghasilkan	hasil	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+hasil<n>+kan_VSA$
 12	lulusan	lulusan	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^lulus<a>+an_NSD$
 13	sebanyak	sebanyak	ADP	R--	_	15	case	_	MorphInd=^sebanyak<r>_R--$
 14	1964	1964	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^1964<c>_CC-$
@@ -10123,10 +10123,10 @@
 34	Microorganism	microorganism	PROPN	X--	_	31	appos	_	SpaceAfter=No|MorphInd=^microorganism<x>_X--$
 35	)	)	PUNCT	Z--	_	34	punct	_	MorphInd=^)<z>_Z--$
 36	atau	atau	CCONJ	H--	_	37	cc	_	MorphInd=^atau<h>_H--$
-37	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	10	conj	_	MorphInd=^meN+guna<n>+kan_VSA$
+37	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	10	conj	_	MorphInd=^meN+guna<n>+kan_VSA$
 38	cacing	cacing	NOUN	NSD	Number=Sing	37	obj	_	MorphInd=^cacing<n>_NSD$
 39	guna	guna	ADP	NSD	Number=Sing	40	case	_	MorphInd=^guna<n>_NSD$
-40	mendapatkan	dapatkan	VERB	VSA	Number=Sing|Voice=Act	38	acl	_	MorphInd=^meN+dapat<v>+kan_VSA$
+40	mendapatkan	dapat	VERB	VSA	Number=Sing|Voice=Act	38	acl	_	MorphInd=^meN+dapat<v>+kan_VSA$
 41	kompos	kompos	NOUN	X--	_	40	obj	_	MorphInd=^kompos<x>_X--$
 42	(	(	PUNCT	Z--	_	43	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 43	vermicompost	vermicompost	PROPN	X--	_	41	appos	_	SpaceAfter=No|MorphInd=^vermicompost<x>_X--$
@@ -10152,7 +10152,7 @@
 15	elemen	elemen	NOUN	NSD	Number=Sing	13	obj	_	MorphInd=^elemen<n>_NSD$
 16	signifikan	signifikan	ADJ	ASP	Degree=Pos|Number=Sing	15	amod	_	MorphInd=^signifikan<a>_ASP$
 17	yang	yang	PRON	S--	PronType=Rel	18	obj	_	MorphInd=^yang<s>_S--$
-18	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	15	acl	_	MorphInd=^di+guna<n>+kan_VSP$
+18	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	15	acl	_	MorphInd=^di+guna<n>+kan_VSP$
 19	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	20	case	_	MorphInd=^dalam<a>_ASP$
 20	musik	musik	NOUN	NSD	Number=Sing	18	obl	_	MorphInd=^musik<n>_NSD$
 21	pada	pada	ADP	R--	_	23	case	_	MorphInd=^pada<r>_R--$
@@ -10181,13 +10181,13 @@
 13	target	target	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^target<n>_NSD$
 14	yang	yang	PRON	S--	PronType=Rel	16	nsubj:pass	_	MorphInd=^yang<s>_S--$
 15	telah	telah	ADV	D--	_	16	advmod	_	MorphInd=^telah<d>_D--$
-16	ditetapkan	ditetapkan	VERB	VSP	Number=Sing|Voice=Pass	13	acl	_	MorphInd=^di+tetap<a>+kan_VSP$
+16	ditetapkan	ditetap	VERB	VSP	Number=Sing|Voice=Pass	13	acl	_	MorphInd=^di+tetap<a>+kan_VSP$
 17	oleh	oleh	ADP	R--	_	18	case	_	MorphInd=^oleh<r>_R--$
 18	dewan	dewan	NOUN	NSD	Number=Sing	16	obl	_	MorphInd=^dewan<n>_NSD$
 19	direktur	direktur	NOUN	NSD	Number=Sing	18	compound	_	MorphInd=^direktur<n>_NSD$
 20	maupun	maupun	CCONJ	H--	_	22	cc	_	MorphInd=^maupun<h>_H--$
 21	untuk	untuk	ADP	R--	_	22	case	_	MorphInd=^untuk<r>_R--$
-22	memenangkan	angkan	VERB	VSA	Number=Sing|Voice=Act	11	conj	_	MorphInd=^meN+menang<a>+kan_VSA$
+22	memenangkan	ang	VERB	VSA	Number=Sing|Voice=Act	11	conj	_	MorphInd=^meN+menang<a>+kan_VSA$
 23	kejuaraan	kejuaraan	NOUN	NSD	Number=Sing	22	obj	_	MorphInd=^ke+juara<n>+an_NSD$
 24	demi	demi	ADP	R--	_	25	case	_	MorphInd=^demi<r>_R--$
 25	kejuaraan	kejuaraan	NOUN	NSD	Number=Sing	22	obl	_	SpaceAfter=No|MorphInd=^ke+juara<n>+an_NSD$
@@ -10218,7 +10218,7 @@
 21	Baal	baal	PROPN	X--	_	20	flat	_	SpaceAfter=No|MorphInd=^baal<x>_X--$
 22	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 23	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	24	nsubj	_	MorphInd=^mereka<p>_PP3$
-24	mengeluarkan	keluarkan	VERB	VSA	Number=Sing|Voice=Act	2	dep	_	MorphInd=^meN+keluar<v>+kan_VSA$
+24	mengeluarkan	keluar	VERB	VSA	Number=Sing|Voice=Act	2	dep	_	MorphInd=^meN+keluar<v>+kan_VSA$
 25	tiang	tiang	NOUN	NSD	Number=Sing	24	obj	_	MorphInd=^tiang<n>_NSD$
 26	berhala	berhala	NOUN	NSD	Number=Sing	25	compound	_	MorphInd=^berhala<n>_NSD$
 27	rumah	rumah	NOUN	NSD	Number=Sing	25	compound	_	MorphInd=^rumah<n>_NSD$
@@ -10354,7 +10354,7 @@
 7	Theater	theater	PROPN	F--	_	6	flat	_	SpaceAfter=No|MorphInd=^theater<f>_F--$
 8	'	_	PUNCT	_	_	6	punct	_	_
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
-10	menghubungkan	hubungkan	VERB	VSA	Number=Sing|Voice=Act	4	acl	_	MorphInd=^meN+hubung<v>+kan_VSA$
+10	menghubungkan	hubung	VERB	VSA	Number=Sing|Voice=Act	4	acl	_	MorphInd=^meN+hubung<v>+kan_VSA$
 11	facebook	facebook	NOUN	F--	_	10	obj	_	MorphInd=^facebook<f>_F--$
 12	dengan	dengan	ADP	R--	_	13	case	_	MorphInd=^dengan<r>_R--$
 13	situs	situs	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^situs<n>_NSD$
@@ -10375,7 +10375,7 @@
 28	Daily	daily	PROPN	F--	_	27	flat	_	SpaceAfter=No|MorphInd=^daily<f>_F--$
 29	,	,	PUNCT	Z--	_	31	punct	_	MorphInd=^,<z>_Z--$
 30	yang	yang	PRON	S--	PronType=Rel	31	nsubj	_	MorphInd=^yang<s>_S--$
-31	memberikan	berikan	VERB	VSA	Number=Sing|Voice=Act	21	acl	_	MorphInd=^meN+beri<v>+kan_VSA$
+31	memberikan	beri	VERB	VSA	Number=Sing|Voice=Act	21	acl	_	MorphInd=^meN+beri<v>+kan_VSA$
 32	info-info	info	NOUN	F--	Number=Plur	31	obj	_	MorphInd=^info<f>_F--$
 33	terbaru	terbaru	ADJ	ASS	Degree=Sup|Number=Sing	32	amod	_	MorphInd=^ter+baru<a>_ASS$
 34	mengenai	mengenai	ADP	R--	_	35	case	_	MorphInd=^mengenai<r>_R--$
@@ -10426,13 +10426,13 @@
 6	systematic	systematic	ADJ	X--	_	5	amod	_	MorphInd=^systematic<x>_X--$
 7	review	review	NOUN	NSD	Number=Sing	6	compound	_	MorphInd=^review<n>_NSD$
 8	yang	yang	PRON	S--	PronType=Rel	9	obl	_	MorphInd=^yang<s>_S--$
-9	membandingkan	bandingkan	VERB	VSA	Number=Sing|Voice=Act	5	acl	_	MorphInd=^meN+banding<v>+kan_VSA$
+9	membandingkan	banding	VERB	VSA	Number=Sing|Voice=Act	5	acl	_	MorphInd=^meN+banding<v>+kan_VSA$
 10	efektifitas	efektifitas	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^efektifitas<n>_NSD$
 11	ganja	ganja	NOUN	X--	_	10	compound	_	MorphInd=^ganja<x>_X--$
 12	sebagai	sebagai	ADP	R--	_	13	case	_	MorphInd=^sebagai<r>_R--$
 13	obat	obat	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^obat<n>_NSD$
 14	antiemetic	antiemetic	PROPN	X--	_	13	flat	_	MorphInd=^antiemetic<x>_X--$
-15	didapatkan	didapatkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+dapat<v>+kan_VSP$
+15	didapatkan	didapat	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+dapat<v>+kan_VSP$
 16	hasil	hasil	NOUN	NSD	Number=Sing	15	obj	_	MorphInd=^hasil<n>_NSD$
 17	ganja	ganja	NOUN	X--	_	16	compound	_	MorphInd=^ganja<x>_X--$
 18	memang	memang	ADV	D--	_	19	advmod	_	MorphInd=^memang<d>_D--$
@@ -10495,7 +10495,7 @@
 75	sejak	sejak	ADP	S--	_	76	case	_	MorphInd=^sejak<s>_S--$
 76	lama	lama	NOUN	ASP	Degree=Pos|Number=Sing	74	nmod	_	MorphInd=^lama<a>_ASP$
 77	dan	dan	CCONJ	H--	_	78	cc	_	MorphInd=^dan<h>_H--$
-78	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	73	conj	_	MorphInd=^di+guna<n>+kan_VSP$
+78	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	73	conj	_	MorphInd=^di+guna<n>+kan_VSP$
 79	sebagai	sebagai	ADP	R--	_	80	case	_	MorphInd=^sebagai<r>_R--$
 80	bahan	bahan	NOUN	NSD	Number=Sing	78	obl	_	MorphInd=^bahan<n>_NSD$
 81	pembuat	penbuat	NOUN	NSD	Number=Sing	80	compound	_	MorphInd=^peN+buat<v>_NSD$
@@ -10540,7 +10540,7 @@
 29	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 30	Pelatihan	penlatihan	PROPN	NSD	Number=Sing	7	dep	_	MorphInd=^peN+latih<v>+an_NSD$
 31	yang	yang	PRON	S--	PronType=Rel	32	nsubj:pass	_	MorphInd=^yang<s>_S--$
-32	diajarkan	diajarkan	VERB	VSP	Number=Sing|Voice=Pass	30	acl	_	MorphInd=^di+ajar<v>+kan_VSP$
+32	diajarkan	diajar	VERB	VSP	Number=Sing|Voice=Pass	30	acl	_	MorphInd=^di+ajar<v>+kan_VSP$
 33	antara	antara	ADP	R--	_	36	case	_	MorphInd=^antara<r>_R--$
 34	lain	lain	ADJ	ASP	Degree=Pos|Number=Sing	36	amod	_	MorphInd=^lain<a>_ASP$
 35	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	36	case	_	MorphInd=^dalam<a>_ASP$
@@ -10705,7 +10705,7 @@
 22	di	di	ADP	R--	_	23	case	_	MorphInd=^di<r>_R--$
 23	Eropa	eropa	PROPN	NSD	Number=Sing	20	nmod	_	MorphInd=^eropa<n>_NSD$
 24	telah	telah	ADV	D--	_	25	advmod	_	MorphInd=^telah<d>_D--$
-25	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	6	dep	_	MorphInd=^meN+guna<n>+kan_VSA$
+25	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	6	dep	_	MorphInd=^meN+guna<n>+kan_VSA$
 26	bahan	bahan	NOUN	NSD	Number=Sing	25	obj	_	MorphInd=^bahan<n>_NSD$
 27	bakar	bakar	NOUN	VSA	Number=Sing|Voice=Act	26	compound	_	MorphInd=^bakar<v>_VSA$
 28	MOX	mox	PROPN	X--	_	27	flat	_	MorphInd=^mox<x>_X--$
@@ -10784,7 +10784,7 @@
 22	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$
 23	namun	namun	SCONJ	S--	_	25	mark	_	MorphInd=^namun<s>_S--$
 24	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	MorphInd=^ia<p>_PS3$
-25	mengumumkan	umumkan	VERB	VSA	Number=Sing|Voice=Act	16	advcl	_	MorphInd=^meN+umum<a>+kan_VSA$
+25	mengumumkan	umum	VERB	VSA	Number=Sing|Voice=Act	16	advcl	_	MorphInd=^meN+umum<a>+kan_VSA$
 26	tahta	tahta	NOUN	NSD	Number=Sing	25	obj	_	MorphInd=^tahta<n>_NSD$
 27	demi	demi	ADP	R--	_	28	case	_	MorphInd=^demi<r>_R--$
 28	Sobeslaus	sobeslaus	PROPN	X--	_	25	obl	_	MorphInd=^sobeslaus<x>_X--$
@@ -10847,7 +10847,7 @@
 11	"	"	PUNCT	Z--	_	10	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 12	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
 13	juga	juga	ADV	D--	_	14	advmod	_	MorphInd=^juga<d>_D--$
-14	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+guna<n>+kan_VSP$
+14	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+guna<n>+kan_VSP$
 15	oleh	oleh	ADP	R--	_	16	case	_	MorphInd=^oleh<r>_R--$
 16	agama-agama	agama	NOUN	NSD	Number=Plur	14	obl	_	MorphInd=^agama<n>_NSD$
 17	selain	selain	ADP	ASP	Degree=Pos|Number=Sing	18	case	_	MorphInd=^se+lain<a>_ASP$
@@ -10907,7 +10907,7 @@
 2	Wirapraja	wirapraja	PROPN	X--	_	1	flat	_	MorphInd=^wirapraja<x>_X--$
 3	setelah	setelah	SCONJ	R--	_	4	mark	_	MorphInd=^setelah<r>_R--$
 4	mangkat	mangkat	VERB	X--	_	1	advcl	_	MorphInd=^mangkat<x>_X--$
-5	dimakamkan	dimakamkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+makam<n>+kan_VSP$
+5	dimakamkan	dimakam	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+makam<n>+kan_VSP$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 7	Kebon	kebon	PROPN	F--	_	5	obl	_	MorphInd=^kebon<f>_F--$
 8	Alas	alas	PROPN	NSD	Number=Sing	7	flat	_	MorphInd=^alas<n>_NSD$
@@ -10949,7 +10949,7 @@
 6	Agar	agar	SCONJ	S--	_	9	mark	_	MorphInd=^agar<s>_S--$
 7	beliau	beliau	PRON	PS3	Number=Sing|Person=3|Polite=Form|PronType=Prs	9	nsubj	_	MorphInd=^beliau<p>_PS3$
 8	tidak	tidak	PART	G--	Polarity=Neg	9	advmod	_	MorphInd=^tidak<g>_G--$
-9	menyulitkan	sulitkan	VERB	VSA	Number=Sing|Voice=Act	3	parataxis	_	MorphInd=^meN+sulit<a>+kan_VSA$
+9	menyulitkan	sulit	VERB	VSA	Number=Sing|Voice=Act	3	parataxis	_	MorphInd=^meN+sulit<a>+kan_VSA$
 10	umatnya	umat	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	SpaceAfter=No|MorphInd=^umat<n>_NSD+dia<p>_PS3$
 11	.	.	PUNCT	Z--	_	9	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
 12	'	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -11010,7 +11010,7 @@
 # sent_id = dev-s433
 # text = Lebanon menawarkan banyak: dari reruntuhan Romawi kuno, dengan kastil terpelihara dengan baik, gua kapur, Gereja bersejarah dan Masjid, pantai yang indah terletak di Laut Mediterania, dunia masakan Lebanon yang terkenal, kehidupan malam tanpa henti dan diskotik, dengan resor ski pegunungan.
 1	Lebanon	lebanon	PROPN	F--	_	2	nsubj	_	MorphInd=^lebanon<f>_F--$
-2	menawarkan	tawarkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tawar<v>+kan_VSA$
+2	menawarkan	tawar	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tawar<v>+kan_VSA$
 3	banyak	banyak	ADV	ASP	Degree=Pos|Number=Sing	6	advmod	_	SpaceAfter=No|MorphInd=^banyak<a>_ASP$
 4	:	:	PUNCT	Z--	_	3	punct	_	MorphInd=^:<z>_Z--$
 5	dari	dari	ADP	R--	_	6	case	_	MorphInd=^dari<r>_R--$
@@ -11064,7 +11064,7 @@
 1	Manajer	manajer	PROPN	NSD	Number=Sing	4	nsubj:pass	_	MorphInd=^manajer<n>_NSD$
 2	Sepakbola	sepakbola	PROPN	NSD	Number=Sing	1	flat	_	MorphInd=^sepakbola<n>_NSD$
 3	dapat	dapat	ADV	M--	_	4	advmod	_	MorphInd=^dapat<m>_M--$
-4	dimainkan	dimainkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+main<v>+kan_VSP$
+4	dimainkan	dimain	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+main<v>+kan_VSP$
 5	secara	secara	ADP	R--	_	4	case	_	MorphInd=^secara<r>_R--$
 6	gratis	gratis	ADJ	NSD	Number=Sing	4	amod	_	MorphInd=^gratis<n>_NSD$
 7	maupun	maupun	CCONJ	H--	_	4	cc	_	MorphInd=^maupun<h>_H--$
@@ -11181,7 +11181,7 @@
 5	menginspirasi	inspirasi	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+inspirasi<n>_VSA$
 6	Mitsubishi	mitsubishi	PROPN	F--	_	5	flat	_	MorphInd=^mitsubishi<f>_F--$
 7	untuk	untuk	ADP	R--	_	8	case	_	MorphInd=^untuk<r>_R--$
-8	meluncurkan	luncurkan	VERB	VSA	Number=Sing|Voice=Act	5	xcomp	_	MorphInd=^meN+luncur<v>+kan_VSA$
+8	meluncurkan	luncur	VERB	VSA	Number=Sing|Voice=Act	5	xcomp	_	MorphInd=^meN+luncur<v>+kan_VSA$
 9	berberapa	berberapa	DET	X--	_	10	det	_	MorphInd=^berberapa<x>_X--$
 10	edisi	edisi	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^edisi<n>_NSD$
 11	terbatas	terbatas	VERB	ASP	Degree=Pos|Number=Sing	10	acl	_	SpaceAfter=No|MorphInd=^terbatas<a>_ASP$
@@ -11309,7 +11309,7 @@
 # text = Sebuah laporan menyatakan ditemukannya spesies jantan di Arkansas pada tahun 2004 dan 2005 dilaporkan oleh sebuah regu dari Laboratorium Ornitologi Cornell pada April 2005 (Fitzpatrick et al., 2005).
 1	Sebuah	sebuah	DET	B--	PronType=Ind	2	det	_	MorphInd=^sebuah<b>_B--$
 2	laporan	laporan	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^lapor<v>+an_NSD$
-3	menyatakan	nyatakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
+3	menyatakan	nyata	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
 4	ditemukannya	ditemukan	VERB	VSP+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Pass	3	xcomp	_	MorphInd=^di+temu<v>+kan_VSP+dia<p>_PS3$
 5	spesies	spesies	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^spesies<n>_NSD$
 6	jantan	jantan	ADJ	ASP	Degree=Pos|Number=Sing	5	amod	_	MorphInd=^jantan<a>_ASP$
@@ -11320,7 +11320,7 @@
 11	2004	2004	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^2004<c>_CC-$
 12	dan	dan	CCONJ	H--	_	10	cc	_	MorphInd=^dan<h>_H--$
 13	2005	2005	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^2005<c>_CC-$
-14	dilaporkan	dilaporkan	VERB	VSP	Number=Sing|Voice=Pass	3	conj	_	MorphInd=^di+lapor<v>+kan_VSP$
+14	dilaporkan	dilapor	VERB	VSP	Number=Sing|Voice=Pass	3	conj	_	MorphInd=^di+lapor<v>+kan_VSP$
 15	oleh	oleh	ADP	R--	_	17	case	_	MorphInd=^oleh<r>_R--$
 16	sebuah	sebuah	DET	B--	PronType=Ind	17	det	_	MorphInd=^sebuah<b>_B--$
 17	regu	regu	NOUN	X--	_	14	obl	_	MorphInd=^regu<x>_X--$
@@ -11347,19 +11347,19 @@
 2	peri	penri	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^peN+ri<n>_NSD$
 3	terakhir	terakhir	ADJ	ASS	Degree=Sup|Number=Sing	2	amod	_	MorphInd=^ter+akhir<n>_ASS$
 4	belum	belum	ADV	G--	_	5	advmod	_	MorphInd=^belum<g>_G--$
-5	memberikan	berikan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+beri<v>+kan_VSA$
+5	memberikan	beri	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+beri<v>+kan_VSA$
 6	hadiah	hadiah	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^hadiah<n>_NSD$
 7	dan	dan	CCONJ	H--	_	8	cc	_	MorphInd=^dan<h>_H--$
 8	menggunakannya	gunakan	VERB	VSA+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Act	5	conj	_	MorphInd=^meN+guna<n>+kan_VSA+dia<p>_PS3$
 9	untuk	untuk	ADP	R--	_	11	case	_	MorphInd=^untuk<r>_R--$
 10	sebagian	sebagian	NOUN	ASP	Degree=Pos|Number=Sing	11	amod	_	MorphInd=^sebagian<a>_ASP$
-11	membalikkan	balikkan	VERB	VSA	Number=Sing|Voice=Act	8	xcomp	_	MorphInd=^meN+balik<v>+kan_VSA$
+11	membalikkan	balik	VERB	VSA	Number=Sing|Voice=Act	8	xcomp	_	MorphInd=^meN+balik<v>+kan_VSA$
 12	kutukan	kutukan	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^kutuk<v>+an_NSD$
 13	peri	penri	NOUN	NSD	Number=Sing	12	compound	_	MorphInd=^peN+ri<n>_NSD$
 14	jahat	jahat	ADJ	ASP	Degree=Pos|Number=Sing	13	amod	_	MorphInd=^jahat<a>_ASP$
 15	itu	itu	DET	B--	PronType=Dem	13	det	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
 16	,	,	PUNCT	Z--	_	17	punct	_	MorphInd=^,<z>_Z--$
-17	menyatakan	nyatakan	VERB	VSA	Number=Sing|Voice=Act	5	parataxis	_	MorphInd=^meN+nyata<a>+kan_VSA$
+17	menyatakan	nyata	VERB	VSA	Number=Sing|Voice=Act	5	parataxis	_	MorphInd=^meN+nyata<a>+kan_VSA$
 18	bahwa	bahwa	SCONJ	S--	_	23	mark	_	MorphInd=^bahwa<s>_S--$
 19	sang	sang	DET	F--	_	20	det	_	MorphInd=^sang<f>_F--$
 20	putri	putri	NOUN	NSD	Number=Sing	23	nsubj	_	MorphInd=^putri<n>_NSD$
@@ -11374,7 +11374,7 @@
 29	100	100	NUM	CC-	NumType=Card	30	nummod	_	MorphInd=^100<c>_CC-$
 30	tahun	tahun	NOUN	NSD	Number=Sing	23	obl	_	MorphInd=^tahun<n>_NSD$
 31	dan	dan	CCONJ	H--	_	32	cc	_	MorphInd=^dan<h>_H--$
-32	dibangunkan	dibangunkan	VERB	VSP	Number=Sing|Voice=Pass	23	conj	_	MorphInd=^di+bangun<v>+kan_VSP$
+32	dibangunkan	dibangun	VERB	VSP	Number=Sing|Voice=Pass	23	conj	_	MorphInd=^di+bangun<v>+kan_VSP$
 33	oleh	oleh	ADP	R--	_	34	case	_	MorphInd=^oleh<r>_R--$
 34	putra	putra	NOUN	NSD	Number=Sing	32	obl	_	MorphInd=^putra<n>_NSD$
 35	seorang	seorang	DET	B--	PronType=Ind	36	det	_	MorphInd=^seorang<b>_B--$
@@ -11387,7 +11387,7 @@
 2	yang	yang	PRON	S--	PronType=Rel	3	nsubj	_	MorphInd=^yang<s>_S--$
 3	berwewenang	berwewenang	VERB	VSA	Number=Sing|Voice=Act	1	acl	_	MorphInd=^ber+wewenang<n>_VSA$
 4	juga	juga	ADV	D--	_	5	advmod	_	MorphInd=^juga<d>_D--$
-5	mengatakan	katakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+kata<n>+kan_VSA$
+5	mengatakan	kata	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+kata<n>+kan_VSA$
 6	bahwa	bahwa	SCONJ	S--	_	11	mark	_	MorphInd=^bahwa<s>_S--$
 7	hal	hal	NOUN	NSD	Number=Sing	11	nsubj	_	MorphInd=^hal<n>_NSD$
 8	tersebut	tersebut	DET	B--	PronType=Dem	7	det	_	MorphInd=^tersebut<b>_B--$
@@ -11404,7 +11404,7 @@
 19	Panas	panas	NOUN	ASP	Degree=Pos|Number=Sing	18	compound	_	MorphInd=^panas<a>_ASP$
 20	Beijing	beijing	PROPN	F--	_	17	flat	_	MorphInd=^beijing<f>_F--$
 21	2008	2008	NUM	CC-	NumType=Card	17	nummod	_	MorphInd=^2008<c>_CC-$
-22	dilakukan	dilakukan	VERB	VSP	Number=Sing|Voice=Pass	5	parataxis	_	MorphInd=^di+laku<a>+kan_VSP$
+22	dilakukan	dilaku	VERB	VSP	Number=Sing|Voice=Pass	5	parataxis	_	MorphInd=^di+laku<a>+kan_VSP$
 23	di	di	ADP	R--	_	24	case	_	MorphInd=^di<r>_R--$
 24	Stadion	stadion	PROPN	NSD	Number=Sing	22	obl	_	MorphInd=^stadion<n>_NSD$
 25	Nasional	nasional	PROPN	ASP	Degree=Pos|Number=Sing	24	flat	_	MorphInd=^nasional<a>_ASP$
@@ -11434,7 +11434,7 @@
 4	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 5	mendapat	dapat	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+dapat<v>_VSA$
 6	tugas	tugas	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^tugas<n>_NSD$
-7	menentukan	tentukan	VERB	VSA	Number=Sing|Voice=Act	6	advcl	_	MorphInd=^meN+tentu<a>+kan_VSA$
+7	menentukan	tentu	VERB	VSA	Number=Sing|Voice=Act	6	advcl	_	MorphInd=^meN+tentu<a>+kan_VSA$
 8	titik	titik	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^titik<n>_NSD$
 9	penerjunan	penterjunan	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^peN+terjun<v>+an_NSD$
 10	yang	yang	PRON	S--	PronType=Rel	12	nsubj	_	MorphInd=^yang<s>_S--$
@@ -11528,18 +11528,18 @@
 # sent_id = dev-s451
 # text = Pemerintah menyatakan bahwa Singapura memiliki hak berdaulat untuk menentukan sistem yudisialnya dan memaksakan sesuatu yang dianggap sebagai hukuman yang pantas.
 1	Pemerintah	penperintah	PROPN	NSD	Number=Sing	2	nsubj	_	MorphInd=^peN+perintah<n>_NSD$
-2	menyatakan	nyatakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
+2	menyatakan	nyata	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
 3	bahwa	bahwa	SCONJ	S--	_	5	mark	_	MorphInd=^bahwa<s>_S--$
 4	Singapura	singapura	PROPN	NSD	Number=Sing	5	nsubj	_	MorphInd=^singapura<n>_NSD$
 5	memiliki	miliki	VERB	VSA	Number=Sing|Voice=Act	2	ccomp	_	MorphInd=^meN+milik<v>+i_VSA$
 6	hak	hak	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^hak<n>_NSD$
 7	berdaulat	berdaulat	ADJ	VSA	Number=Sing|Voice=Act	6	amod	_	MorphInd=^ber+daulat<n>_VSA$
 8	untuk	untuk	ADP	R--	_	9	case	_	MorphInd=^untuk<r>_R--$
-9	menentukan	tentukan	VERB	VSA	Number=Sing|Voice=Act	6	acl	_	MorphInd=^meN+tentu<a>+kan_VSA$
+9	menentukan	tentu	VERB	VSA	Number=Sing|Voice=Act	6	acl	_	MorphInd=^meN+tentu<a>+kan_VSA$
 10	sistem	sistem	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^sistem<n>_NSD$
 11	yudisialnya	yudisial	NOUN	F--+PS3	Number[psor]=Sing|Person[psor]=3	10	compound	_	MorphInd=^yudisial<f>_F--+dia<p>_PS3$
 12	dan	dan	CCONJ	H--	_	13	cc	_	MorphInd=^dan<h>_H--$
-13	memaksakan	paksakan	VERB	VSA	Number=Sing|Voice=Act	5	conj	_	MorphInd=^meN+paksa<v>+kan_VSA$
+13	memaksakan	paksa	VERB	VSA	Number=Sing|Voice=Act	5	conj	_	MorphInd=^meN+paksa<v>+kan_VSA$
 14	sesuatu	sesuatu	DET	NSD	Number=Sing	13	obj	_	MorphInd=^sesuatu<n>_NSD$
 15	yang	yang	PRON	S--	PronType=Rel	16	obj	_	MorphInd=^yang<s>_S--$
 16	dianggap	dianggap	VERB	VSP	Number=Sing|Voice=Pass	14	acl	_	MorphInd=^di+anggap<v>_VSP$
@@ -11611,7 +11611,7 @@
 2	'	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	Generation	generation	PROPN	X--	_	5	nsubj	_	MorphInd=^generation<x>_X--$
 4	juga	juga	ADV	D--	_	5	advmod	_	MorphInd=^juga<d>_D--$
-5	menyanyikan	nyanyikan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nyanyi<v>+kan_VSA$
+5	menyanyikan	nyanyi	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+nyanyi<v>+kan_VSA$
 6	lagu	lagu	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^lagu<n>_NSD$
 7	ini	ini	DET	B--	PronType=Dem	6	det	_	MorphInd=^ini<b>_B--$
 8	diberbagai	diberbagai	VERB	X--	_	5	xcomp	_	MorphInd=^diberbagai<x>_X--$
@@ -11632,7 +11632,7 @@
 # sent_id = dev-s457
 # text = Ia menghabiskan waktu menjabat sebagai kepala serikat pelukis dan presisi luar biasa sebagai seorang pelukis mungkin juga telah membatasi jumlah karya yang dapat dihasilkannya.
 1	Ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	MorphInd=^ia<p>_PS3$
-2	menghabiskan	habiskan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+habis<a>+kan_VSA$
+2	menghabiskan	habis	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+habis<a>+kan_VSA$
 3	waktu	waktu	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^waktu<n>_NSD$
 4	menjabat	jabat	VERB	VSA	Number=Sing|Voice=Act	2	xcomp	_	MorphInd=^meN+jabat<v>_VSA$
 5	sebagai	sebagai	ADP	R--	_	6	case	_	MorphInd=^sebagai<r>_R--$
@@ -11711,7 +11711,7 @@
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
 10	meninggal	tinggal	VERB	VSA	Number=Sing|Voice=Act	8	acl	_	MorphInd=^meN+tinggal<v>_VSA$
 11	akan	akan	ADV	M--	_	12	advmod	_	MorphInd=^akan<m>_M--$
-12	dimakamkan	dimakamkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+makam<n>+kan_VSP$
+12	dimakamkan	dimakam	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+makam<n>+kan_VSP$
 13	di	di	ADP	R--	_	14	case	_	MorphInd=^di<r>_R--$
 14	pemakaman	penmakaman	NOUN	NSD	Number=Sing	12	obl	_	MorphInd=^peN+makam<n>+an_NSD$
 15	hereditas	hereditas	NOUN	X--	_	14	compound	_	MorphInd=^hereditas<x>_X--$
@@ -11758,7 +11758,7 @@
 5	yang	yang	PRON	S--	PronType=Rel	6	obj	_	MorphInd=^yang<s>_S--$
 6	dipimpin	dipimpin	VERB	VSP	Number=Sing|Voice=Pass	1	acl	_	MorphInd=^di+pimpin<v>_VSP$
 7	Marumo	marumo	PROPN	X--	_	6	obl	_	MorphInd=^marumo<x>_X--$
-8	diberangkatkan	diberangkatkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+berangkat<v>+kan_VSP$
+8	diberangkatkan	diberangkat	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+berangkat<v>+kan_VSP$
 9	dari	dari	ADP	R--	_	10	case	_	MorphInd=^dari<r>_R--$
 10	Irlandia	irlandia	PROPN	NSD	Number=Sing	8	obl	_	MorphInd=^irlandia<n>_NSD$
 11	Baru	baru	PROPN	ASP	Degree=Pos|Number=Sing	10	flat	_	MorphInd=^baru<a>_ASP$
@@ -11775,7 +11775,7 @@
 22	Isabel	isabel	PROPN	F--	_	21	flat	_	SpaceAfter=No|MorphInd=^isabel<f>_F--$
 23	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$
 24	sebelum	sebelum	ADV	S--	_	25	advmod	_	MorphInd=^sebelum<s>_S--$
-25	diposkan	diposkan	VERB	VSP	Number=Sing|Voice=Pass	8	conj	_	MorphInd=^di+pos<v>+kan_VSP$
+25	diposkan	dipos	VERB	VSP	Number=Sing|Voice=Pass	8	conj	_	MorphInd=^di+pos<v>+kan_VSP$
 26	sebagai	sebagai	ADP	R--	_	27	case	_	MorphInd=^sebagai<r>_R--$
 27	pangkalan	pangkalan	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^pangkal<n>+an_NSD$
 28	pesawat	pesawat	NOUN	NSD	Number=Sing	27	compound	_	MorphInd=^pesawat<n>_NSD$
@@ -11793,7 +11793,7 @@
 40	bawah	bawah	NOUN	NSD	Number=Sing	37	nmod	_	MorphInd=^bawah<n>_NSD$
 41	komando	komando	PROPN	NSD	Number=Sing	40	flat	_	MorphInd=^komando<n>_NSD$
 42	Shima	shima	PROPN	F--	_	41	flat	_	MorphInd=^shima<f>_F--$
-43	diberangkatkan	diberangkatkan	VERB	VSP	Number=Sing|Voice=Pass	8	dep	_	MorphInd=^di+berangkat<v>+kan_VSP$
+43	diberangkatkan	diberangkat	VERB	VSP	Number=Sing|Voice=Pass	8	dep	_	MorphInd=^di+berangkat<v>+kan_VSP$
 44	dari	dari	ADP	R--	_	45	case	_	MorphInd=^dari<r>_R--$
 45	Rabaul	rabaul	PROPN	X--	_	43	obl	_	MorphInd=^rabaul<x>_X--$
 46	pada	pada	ADP	R--	_	48	case	_	MorphInd=^pada<r>_R--$
@@ -11950,7 +11950,7 @@
 14	memproduksi	produksi	VERB	VSA	Number=Sing|Voice=Act	12	conj	_	SpaceAfter=No|MorphInd=^meN+produksi<n>_VSA$
 15	,	,	PUNCT	Z--	_	17	punct	_	MorphInd=^,<z>_Z--$
 16	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
-17	mengembangkan	kembangkan	VERB	VSA	Number=Sing|Voice=Act	12	conj	_	MorphInd=^meN+kembang<v>+kan_VSA$
+17	mengembangkan	kembang	VERB	VSA	Number=Sing|Voice=Act	12	conj	_	MorphInd=^meN+kembang<v>+kan_VSA$
 18	teknologi	teknologi	NOUN	NSD	Number=Sing	17	obj	_	MorphInd=^teknologi<n>_NSD$
 19	pesawat	pesawat	NOUN	NSD	Number=Sing	18	compound	_	MorphInd=^pesawat<n>_NSD$
 20	terbangnya	terbang	NOUN	VSA+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Act	19	compound	_	MorphInd=^terbang<v>_VSA+dia<p>_PS3$
@@ -12059,7 +12059,7 @@
 16	tahun	tahun	NOUN	NSD	Number=Sing	11	compound	_	MorphInd=^tahun<n>_NSD$
 17	sebelum	sebelum	ADP	S--	_	18	case	_	MorphInd=^sebelum<s>_S--$
 18	bangunan	bangunan	NOUN	NSD	Number=Sing	8	nmod	_	MorphInd=^bangun<v>+an_NSD$
-19	membutuhkan	butuhkan	VERB	VSA	Number=Sing|Voice=Act	18	acl	_	MorphInd=^meN+butuh<v>+kan_VSA$
+19	membutuhkan	butuh	VERB	VSA	Number=Sing|Voice=Act	18	acl	_	MorphInd=^meN+butuh<v>+kan_VSA$
 20	perluasan	perluasan	NOUN	NSD	Number=Sing	19	obj	_	SpaceAfter=No|MorphInd=^per+luas<a>+an_NSD$
 21	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
@@ -12071,12 +12071,12 @@
 4	gunung	gunung	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^gunung<n>_NSD$
 5	berapi	berapi	ADJ	VSA	Number=Sing|Voice=Act	4	amod	_	MorphInd=^ber+api<n>_VSA$
 6	dapat	dapat	ADV	M--	_	7	advmod	_	MorphInd=^dapat<m>_M--$
-7	menyebabkan	sebabkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+sebab<n>+kan_VSA$
+7	menyebabkan	sebab	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+sebab<n>+kan_VSA$
 8	angin	angin	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^angin<n>_NSD$
 9	Kármán	kármán	PROPN	X--	_	8	flat	_	SpaceAfter=No|MorphInd=^kármán<x>_X--$
 10	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
 11	yang	yang	PRON	S--	PronType=Rel	12	obj	_	MorphInd=^yang<s>_S--$
-12	menciptakan	ciptakan	VERB	VSA	Number=Sing|Voice=Act	8	acl	_	MorphInd=^meN+cipta<v>+kan_VSA$
+12	menciptakan	cipta	VERB	VSA	Number=Sing|Voice=Act	8	acl	_	MorphInd=^meN+cipta<v>+kan_VSA$
 13	kondisi	kondisi	NOUN	NSD	Number=Sing	12	obj	_	MorphInd=^kondisi<n>_NSD$
 14	pendaratan	pendaratan	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^peN+darat<n>+an_NSD$
 15	sulit	sulit	ADJ	ASP	Degree=Pos|Number=Sing	14	amod	_	SpaceAfter=No|MorphInd=^sulit<a>_ASP$
@@ -12094,7 +12094,7 @@
 8	sebagai	sebagai	ADP	R--	_	9	case	_	MorphInd=^sebagai<r>_R--$
 9	pemain	penmain	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^peN+main<v>_NSD$
 10	pengganti	penganti	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^peN+ganti<v>_NSD$
-11	menggantikan	gantikan	VERB	VSA	Number=Sing|Voice=Act	9	acl	_	MorphInd=^meN+ganti<v>+kan_VSA$
+11	menggantikan	ganti	VERB	VSA	Number=Sing|Voice=Act	9	acl	_	MorphInd=^meN+ganti<v>+kan_VSA$
 12	Didier	didier	PROPN	F--	_	11	obj	_	MorphInd=^didier<f>_F--$
 13	Drogba	drogba	PROPN	F--	_	12	flat	_	SpaceAfter=No|MorphInd=^drogba<f>_F--$
 14	,	,	PUNCT	Z--	_	7	punct	_	MorphInd=^,<z>_Z--$
@@ -12129,7 +12129,7 @@
 43	–	–	PUNCT	Z--	_	44	punct	_	MorphInd=^–<z>_Z--$
 44	2	2	NUM	CC-	NumType=Card	42	nummod	_	MorphInd=^2<c>_CC-$
 45	sekaligus	sekaligus	CCONJ	D--	_	46	cc	_	MorphInd=^sekaligus<d>_D--$
-46	meloloskan	loloskan	VERB	VSA	Number=Sing|Voice=Act	38	conj	_	MorphInd=^meN+lolos<v>+kan_VSA$
+46	meloloskan	lolos	VERB	VSA	Number=Sing|Voice=Act	38	conj	_	MorphInd=^meN+lolos<v>+kan_VSA$
 47	Chelsea	chelsea	PROPN	F--	_	46	obj	_	MorphInd=^chelsea<f>_F--$
 48	ke	ke	ADP	R--	_	49	case	_	MorphInd=^ke<r>_R--$
 49	babak	babak	NOUN	NSD	Number=Sing	46	obl	_	MorphInd=^babak<n>_NSD$
@@ -12153,7 +12153,7 @@
 7	Yati	yati	PROPN	X--	_	6	flat	_	SpaceAfter=No|MorphInd=^yati<x>_X--$
 8	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
 9	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	10	nsubj	_	MorphInd=^mereka<p>_PP3$
-10	membicarakan	bicarakan	VERB	VSA	Number=Sing|Voice=Act	2	parataxis	_	MorphInd=^meN+bicara<v>+kan_VSA$
+10	membicarakan	bicara	VERB	VSA	Number=Sing|Voice=Act	2	parataxis	_	MorphInd=^meN+bicara<v>+kan_VSA$
 11	Bunga	bunga	NOUN	NSD	Number=Sing	10	obj	_	SpaceAfter=No|MorphInd=^bunga<n>_NSD$
 12	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
@@ -12173,7 +12173,7 @@
 12	Presiden	presiden	PROPN	NSD	Number=Sing	11	flat	_	MorphInd=^presiden<n>_NSD$
 13	kedua	kedua	NUM	CO-	NumType=Card	11	nummod	_	MorphInd=^ke+dua<c>_CO-$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj:pass	_	MorphInd=^yang<s>_S--$
-15	dinominasikan	dinominasikan	VERB	VSP	Number=Sing|Voice=Pass	10	acl	_	MorphInd=^di+nominasi<n>+kan_VSP$
+15	dinominasikan	dinominasi	VERB	VSP	Number=Sing|Voice=Pass	10	acl	_	MorphInd=^di+nominasi<n>+kan_VSP$
 16	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	17	case	_	MorphInd=^dalam<a>_ASP$
 17	posisi	posisi	NOUN	NSD	Number=Sing	15	obl	_	MorphInd=^posisi<n>_NSD$
 18	sama	sama	ADJ	ASP	Degree=Pos|Number=Sing	17	amod	_	MorphInd=^sama<a>_ASP$
@@ -12232,7 +12232,7 @@
 10	terhentinya	terhenti	NOUN	VSP+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3|Voice=Pass	9	xcomp	_	MorphInd=^ter+henti<v>_VSP+dia<p>_PS3$
 11	perjuangan	perjuangan	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^per+juang<v>+an_NSD$
 12	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	13	case	_	MorphInd=^dalam<a>_ASP$
-13	menegakkan	tegakkan	VERB	VSA	Number=Sing|Voice=Act	10	acl	_	MorphInd=^meN+tegak<a>+kan_VSA$
+13	menegakkan	tegak	VERB	VSA	Number=Sing|Voice=Act	10	acl	_	MorphInd=^meN+tegak<a>+kan_VSA$
 14	agama	agama	NOUN	NSD	Number=Sing	13	obj	_	MorphInd=^agama<n>_NSD$
 15	Islam	islam	PROPN	NSD	Number=Sing	14	flat	_	SpaceAfter=No|MorphInd=^islam<n>_NSD$
 16	,	,	PUNCT	Z--	_	30	punct	_	MorphInd=^,<z>_Z--$
@@ -12249,7 +12249,7 @@
 27	putera	putera	NOUN	F--	_	25	obl	_	MorphInd=^putera<f>_F--$
 28	-	-	PUNCT	Z--	_	29	punct	_	MorphInd=^-<z>_Z--$
 29	puterinya	puterinya	NOUN	X--	_	27	fixed	_	MorphInd=^puterinya<x>_X--$
-30	mendirikan	dirikan	VERB	VSA	Number=Sing|Voice=Act	4	advcl	_	MorphInd=^meN+diri<n>+kan_VSA$
+30	mendirikan	diri	VERB	VSA	Number=Sing|Voice=Act	4	advcl	_	MorphInd=^meN+diri<n>+kan_VSA$
 31	Yayasan	yayasan	PROPN	NSD	Number=Sing	30	obj	_	MorphInd=^yayasan<n>_NSD$
 32	Pendidikan	pendidikan	PROPN	NSD	Number=Sing	31	flat	_	MorphInd=^peN+didik<v>+an_NSD$
 33	Islam	islam	PROPN	NSD	Number=Sing	32	flat	_	MorphInd=^islam<n>_NSD$
@@ -12281,7 +12281,7 @@
 15	elektronik	elektronik	PROPN	NSD	Number=Sing	14	flat	_	MorphInd=^elektronik<n>_NSD$
 16	populer	populer	PROPN	ASP	Degree=Pos|Number=Sing	15	flat	_	MorphInd=^populer<a>_ASP$
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj	_	MorphInd=^yang<s>_S--$
-18	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	14	acl	_	MorphInd=^meN+guna<n>+kan_VSA$
+18	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	14	acl	_	MorphInd=^meN+guna<n>+kan_VSA$
 19	synthesizer	synthesizer	NOUN	X--	_	18	obj	_	MorphInd=^synthesizer<x>_X--$
 20	sebagai	sebagai	ADP	R--	_	21	case	_	MorphInd=^sebagai<r>_R--$
 21	instrumen	instrumen	NOUN	NSD	Number=Sing	18	obl	_	MorphInd=^instrumen<n>_NSD$
@@ -12359,10 +12359,10 @@
 1	Banyak	banyak	DET	B--	NumType=Card|PronType=Ind	2	det	_	MorphInd=^banyak<b>_B--$
 2	bahasa	bahasa	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^bahasa<n>_NSD$
 3	lain	lain	ADJ	ASP	Degree=Pos|Number=Sing	2	amod	_	MorphInd=^lain<a>_ASP$
-4	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
+4	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+guna<n>+kan_VSA$
 5	nada	nada	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^nada<n>_NSD$
 6	untuk	untuk	ADP	R--	_	7	case	_	MorphInd=^untuk<r>_R--$
-7	menyampaikan	sampaikan	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+sampai<a>+kan_VSA$
+7	menyampaikan	sampai	VERB	VSA	Number=Sing|Voice=Act	4	xcomp	_	MorphInd=^meN+sampai<a>+kan_VSA$
 8	struktur	struktur	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^struktur<n>_NSD$
 9	tatabahasa	tatabahasa	VERB	X--	_	8	compound	_	MorphInd=^tatabahasa<x>_X--$
 10	atau	atau	CCONJ	H--	_	11	cc	_	MorphInd=^atau<h>_H--$
@@ -12394,7 +12394,7 @@
 7	Amerika	amerika	PROPN	NSD	Number=Sing	5	obl	_	MorphInd=^amerika<n>_NSD$
 8	Serikat	serikat	PROPN	NSD	Number=Sing	7	flat	_	MorphInd=^serikat<n>_NSD$
 9	dengan	dengan	ADP	R--	_	10	case	_	MorphInd=^dengan<r>_R--$
-10	mendirikan	dirikan	VERB	VSA	Number=Sing|Voice=Act	5	xcomp	_	MorphInd=^meN+diri<n>+kan_VSA$
+10	mendirikan	diri	VERB	VSA	Number=Sing|Voice=Act	5	xcomp	_	MorphInd=^meN+diri<n>+kan_VSA$
 11	Midland	midland	PROPN	F--	_	10	obj	_	MorphInd=^midland<f>_F--$
 12	Shipping	shipping	PROPN	X--	_	11	flat	_	MorphInd=^shipping<x>_X--$
 13	Group	group	NOUN	F--	_	11	flat	_	SpaceAfter=No|MorphInd=^group<f>_F--$
@@ -12408,7 +12408,7 @@
 4	atau	atau	CCONJ	H--	_	5	cc	_	MorphInd=^atau<h>_H--$
 5	Estonia	estonia	PROPN	F--	_	2	conj	_	SpaceAfter=No|MorphInd=^estonia<f>_F--$
 6	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
-7	diperkirakan	diperkirakan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+per+kira<v>+kan_VSP$
+7	diperkirakan	diperkira	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+per+kira<v>+kan_VSP$
 8	berasal	berasal	VERB	VSA	Number=Sing|Voice=Act	7	xcomp	_	MorphInd=^ber+asal<n>_VSA$
 9	dari	dari	ADP	R--	_	10	case	_	MorphInd=^dari<r>_R--$
 10	kata	kata	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^kata<n>_NSD$
@@ -12416,7 +12416,7 @@
 12	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 13	nama	nama	NOUN	NSD	Number=Sing	15	nsubj:pass	_	MorphInd=^nama<n>_NSD$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj:pass	_	MorphInd=^yang<s>_S--$
-15	diberikan	diberikan	VERB	VSP	Number=Sing|Voice=Pass	7	acl	_	MorphInd=^di+beri<v>+kan_VSP$
+15	diberikan	diberi	VERB	VSP	Number=Sing|Voice=Pass	7	acl	_	MorphInd=^di+beri<v>+kan_VSP$
 16	oleh	oleh	ADP	R--	_	17	case	_	MorphInd=^oleh<r>_R--$
 17	bangsa	bangsa	NOUN	NSD	Number=Sing	15	obl	_	MorphInd=^bangsa<n>_NSD$
 18	Jerman	jerman	PROPN	NSD	Number=Sing	17	flat	_	MorphInd=^jerman<n>_NSD$
@@ -12471,7 +12471,7 @@
 10	serius	serius	ADJ	ASP	Degree=Pos|Number=Sing	9	amod	_	SpaceAfter=No|MorphInd=^serius<a>_ASP$
 11	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
 12	kemudian	kemudian	SCONJ	S--	_	13	mark	_	MorphInd=^kemudian<s>_S--$
-13	mendonorkan	donorkan	VERB	VSA	Number=Sing|Voice=Act	1	advcl	_	MorphInd=^meN+donor<f>+kan_VSA$
+13	mendonorkan	donor	VERB	VSA	Number=Sing|Voice=Act	1	advcl	_	MorphInd=^meN+donor<f>+kan_VSA$
 14	ginjal	ginjal	NOUN	NSD	Number=Sing	13	obj	_	MorphInd=^ginjal<n>_NSD$
 15	kepada	kepada	ADP	R--	_	16	case	_	MorphInd=^kepada<r>_R--$
 16	kakaknya	kakak	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	13	obl	_	MorphInd=^kakak<n>_NSD+dia<p>_PS3$
@@ -12528,7 +12528,7 @@
 7	pianonya	piano	NOUN	F--+PS3	Number[psor]=Sing|Person[psor]=3	6	compound	_	MorphInd=^piano<f>_F--+dia<p>_PS3$
 8	berinisiatif	berinisiatif	VERB	VSA	Number=Sing|Voice=Act	3	xcomp	_	MorphInd=^ber+inisiatif<n>_VSA$
 9	untuk	untuk	ADP	R--	_	10	case	_	MorphInd=^untuk<r>_R--$
-10	mengirimkan	kirimkan	VERB	VSA	Number=Sing|Voice=Act	8	xcomp	_	MorphInd=^meN+kirim<v>+kan_VSA$
+10	mengirimkan	kirim	VERB	VSA	Number=Sing|Voice=Act	8	xcomp	_	MorphInd=^meN+kirim<v>+kan_VSA$
 11	Renata	renata	PROPN	X--	_	10	obj	_	MorphInd=^renata<x>_X--$
 12	untuk	untuk	ADP	R--	_	13	case	_	MorphInd=^untuk<r>_R--$
 13	berguru	berguru	VERB	VSA	Number=Sing|Voice=Act	10	xcomp	_	MorphInd=^ber+guru<n>_VSA$
@@ -12655,7 +12655,7 @@
 7	manusia	manusia	NOUN	NSD	Number=Sing	6	compound	_	SpaceAfter=No|MorphInd=^manusia<n>_NSD$
 8	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 9	tidakkah	tidak	PART	G--+T--	Polarity=Neg	10	advmod	_	MorphInd=^tidak<g>_G--+kah<t>_T--$
-10	mengucapkan	ucapkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+ucap<v>+kan_VSA$
+10	mengucapkan	ucap	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+ucap<v>+kan_VSA$
 11	serupa	serupa	ADJ	ASP	Degree=Pos|Number=Sing	10	amod	_	MorphInd=^serupa<a>_ASP$
 12	ini	ini	DET	B--	PronType=Dem	13	nsubj	_	MorphInd=^ini<b>_B--$
 13	merupakan	merupakan	VERB	O--	_	10	ccomp	_	MorphInd=^merupakan<o>_O--$
@@ -12669,7 +12669,7 @@
 21	sederhana	sederhana	ADJ	ASP	Degree=Pos|Number=Sing	20	amod	_	MorphInd=^sederhana<a>_ASP$
 22	sekalipun	sekali	ADV	D--+T--	_	20	advmod	_	SpaceAfter=No|MorphInd=^sekali<d>_D--+pun<t>_T--$
 23	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
-24	mengingatkan	ingatkan	VERB	VSA	Number=Sing|Voice=Act	13	conj	_	MorphInd=^meN+ingat<v>+kan_VSA$
+24	mengingatkan	ingat	VERB	VSA	Number=Sing|Voice=Act	13	conj	_	MorphInd=^meN+ingat<v>+kan_VSA$
 25	dan	dan	CCONJ	H--	_	26	cc	_	MorphInd=^dan<h>_H--$
 26	mendidik	didik	VERB	VSA	Number=Sing|Voice=Act	24	conj	_	MorphInd=^meN+didik<v>_VSA$
 27	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	24	obj	_	MorphInd=^kita<p>_PP1$
@@ -12718,7 +12718,7 @@
 3	Ambar	ambar	PROPN	X--	_	1	conj	_	MorphInd=^ambar<x>_X--$
 4	juga	juga	ADV	D--	_	6	advmod	_	MorphInd=^juga<d>_D--$
 5	mencoba	coba	ADV	VSA	Number=Sing|Voice=Act	6	advmod	_	MorphInd=^meN+coba<v>_VSA$
-6	menenangkan	tenangkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tenang<a>+kan_VSA$
+6	menenangkan	tenang	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+tenang<a>+kan_VSA$
 7	Kaffa	kaffa	PROPN	X--	_	6	obj	_	SpaceAfter=No|MorphInd=^kaffa<x>_X--$
 8	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
@@ -12822,7 +12822,7 @@
 32	kesehatan	kesehatan	NOUN	NSD	Number=Sing	31	compound	_	MorphInd=^ke+sehat<n>+an_NSD$
 33	baru	baru	ADJ	ASP	Degree=Pos|Number=Sing	31	amod	_	SpaceAfter=No|MorphInd=^baru<a>_ASP$
 34	,	,	PUNCT	Z--	_	35	punct	_	MorphInd=^,<z>_Z--$
-35	menjadikan	jadikan	VERB	VSA	Number=Sing|Voice=Act	6	parataxis	_	MorphInd=^meN+jadi<a>+kan_VSA$
+35	menjadikan	jadi	VERB	VSA	Number=Sing|Voice=Act	6	parataxis	_	MorphInd=^meN+jadi<a>+kan_VSA$
 36	RS	rs	PROPN	X--	_	35	obj	_	SpaceAfter=No|MorphInd=^rs<x>_X--$
 37	.	.	PUNCT	Z--	_	36	punct	_	MorphInd=^.<z>_Z--$
 38	Santo	santo	PROPN	F--	_	36	flat	_	MorphInd=^santo<f>_F--$
@@ -12858,7 +12858,7 @@
 16	pemancar	penpancar	NOUN	NSD	Number=Sing	13	nmod	_	MorphInd=^peN+pancar<v>_NSD$
 17	televisi	televisi	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^televisi<n>_NSD$
 18	yang	yang	PRON	S--	PronType=Rel	19	obj	_	MorphInd=^yang<s>_S--$
-19	menyiarkan	siarkan	VERB	VSA	Number=Sing|Voice=Act	16	acl	_	MorphInd=^meN+siar<v>+kan_VSA$
+19	menyiarkan	siar	VERB	VSA	Number=Sing|Voice=Act	16	acl	_	MorphInd=^meN+siar<v>+kan_VSA$
 20	siaran	siaran	NOUN	NSD	Number=Sing	19	obj	_	MorphInd=^siar<v>+an_NSD$
 21	televisi	televisi	NOUN	NSD	Number=Sing	20	compound	_	MorphInd=^televisi<n>_NSD$
 22	digital	digital	ADJ	NSD	Number=Sing	20	amod	_	SpaceAfter=No|MorphInd=^digital<n>_NSD$
@@ -12905,7 +12905,7 @@
 3	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	1	det	_	MorphInd=^mereka<p>_PP3$
 4	adalah	adalah	AUX	O--	_	6	cop	_	MorphInd=^adalah<o>_O--$
 5	ingin	ingin	ADV	M--	_	6	advmod	_	MorphInd=^ingin<m>_M--$
-6	memasukkan	masukkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+masuk<v>+kan_VSA$
+6	memasukkan	masuk	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+masuk<v>+kan_VSA$
 7	unsur-unsur	unsur	NOUN	NSD	Number=Plur	6	obj	_	MorphInd=^unsur<n>_NSD$
 8	yang	yang	PRON	S--	PronType=Rel	11	obj	_	MorphInd=^yang<s>_S--$
 9	tidak	tidak	PART	G--	Polarity=Neg	11	advmod	_	MorphInd=^tidak<g>_G--$
@@ -12938,7 +12938,7 @@
 6	Ulu	ulu	PROPN	X--	_	5	flat	_	MorphInd=^ulu<x>_X--$
 7	Selatan	selatan	PROPN	NSD	Number=Sing	6	flat	_	MorphInd=^selatan<n>_NSD$
 8	juga	juga	ADV	D--	_	9	advmod	_	MorphInd=^juga<d>_D--$
-9	menggalakkan	galakkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+galak<a>+kan_VSA$
+9	menggalakkan	galak	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+galak<a>+kan_VSA$
 10	peran	peran	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^peran<n>_NSD$
 11	aktif	aktif	ADJ	ASP	Degree=Pos|Number=Sing	10	amod	_	MorphInd=^aktif<a>_ASP$
 12	badan	badan	NOUN	NSD	Number=Sing	10	compound	_	MorphInd=^badan<n>_NSD$
@@ -12948,7 +12948,7 @@
 16	BPD	bpd	PROPN	F--	_	12	appos	_	SpaceAfter=No|MorphInd=^bpd<f>_F--$
 17	)	)	PUNCT	Z--	_	16	punct	_	MorphInd=^)<z>_Z--$
 18	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	19	case	_	MorphInd=^dalam<a>_ASP$
-19	menentukan	tentukan	VERB	VSA	Number=Sing|Voice=Act	9	xcomp	_	MorphInd=^meN+tentu<a>+kan_VSA$
+19	menentukan	tentu	VERB	VSA	Number=Sing|Voice=Act	9	xcomp	_	MorphInd=^meN+tentu<a>+kan_VSA$
 20	kebijakan	kebijakan	NOUN	NSD	Number=Sing	19	obj	_	MorphInd=^ke+bijak<a>+an_NSD$
 21	desa	desa	NOUN	NSD	Number=Sing	20	obj	_	MorphInd=^desa<n>_NSD$
 22	di	di	ADP	R--	_	23	case	_	MorphInd=^di<r>_R--$
@@ -12983,7 +12983,7 @@
 4	nama	nama	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^nama<n>_NSD$
 5	yang	yang	PRON	S--	PronType=Rel	7	nsubj:pass	_	MorphInd=^yang<s>_S--$
 6	akan	akan	ADV	M--	_	7	advmod	_	MorphInd=^akan<m>_M--$
-7	digunakan	digunakan	VERB	VSP	Number=Sing|Voice=Pass	4	acl	_	MorphInd=^di+guna<n>+kan_VSP$
+7	digunakan	diguna	VERB	VSP	Number=Sing|Voice=Pass	4	acl	_	MorphInd=^di+guna<n>+kan_VSP$
 8	dan	dan	CCONJ	H--	_	1	cc	_	MorphInd=^dan<h>_H--$
 9	itu	itu	DET	B--	PronType=Dem	12	det	_	MorphInd=^itu<b>_B--$
 10	otomatis	otomatis	ADJ	ASP	Degree=Pos|Number=Sing	12	amod	_	MorphInd=^otomatis<a>_ASP$
@@ -12995,9 +12995,9 @@
 16	,	,	PUNCT	Z--	_	19	punct	_	MorphInd=^,<z>_Z--$
 17	sampai	sampai	ADP	ASP	Degree=Pos|Number=Sing	18	case	_	MorphInd=^sampai<a>_ASP$
 18	nantinya	nanti	NOUN	D--+PS3	Number[psor]=Sing|Person[psor]=3	19	obl	_	MorphInd=^nanti<d>_D--+dia<p>_PS3$
-19	memutuskan	putuskan	VERB	VSA	Number=Sing|Voice=Act	12	conj	_	MorphInd=^meN+putus<a>+kan_VSA$
+19	memutuskan	putus	VERB	VSA	Number=Sing|Voice=Act	12	conj	_	MorphInd=^meN+putus<a>+kan_VSA$
 20	untuk	untuk	ADP	R--	_	21	case	_	MorphInd=^untuk<r>_R--$
-21	membatalkan	batalkan	VERB	VSA	Number=Sing|Voice=Act	19	xcomp	_	MorphInd=^meN+batal<a>+kan_VSA$
+21	membatalkan	batal	VERB	VSA	Number=Sing|Voice=Act	19	xcomp	_	MorphInd=^meN+batal<a>+kan_VSA$
 22	registrasi	registrasi	NOUN	NSD	Number=Sing	21	obj	_	MorphInd=^registrasi<n>_NSD$
 23	tersebut	tersebut	DET	B--	PronType=Dem	22	det	_	SpaceAfter=No|MorphInd=^tersebut<b>_B--$
 24	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
@@ -13141,7 +13141,7 @@
 19	komisi	komisi	NOUN	NSD	Number=Sing	22	nsubj	_	MorphInd=^komisi<n>_NSD$
 20	ini	ini	DET	B--	PronType=Dem	19	det	_	MorphInd=^ini<b>_B--$
 21	tidak	tidak	PART	G--	Polarity=Neg	22	advmod	_	MorphInd=^tidak<g>_G--$
-22	menemukan	temukan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+temu<v>+kan_VSA$
+22	menemukan	temu	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+temu<v>+kan_VSA$
 23	bukti	bukti	NOUN	NSD	Number=Sing	22	obj	_	MorphInd=^bukti<n>_NSD$
 24	bahwa	bahwa	SCONJ	S--	_	27	mark	_	MorphInd=^bahwa<s>_S--$
 25	ordo	ordo	NOUN	X--	_	27	nsubj	_	MorphInd=^ordo<x>_X--$
@@ -13152,7 +13152,7 @@
 30	sesat	sesat	ADJ	ASP	Degree=Pos|Number=Sing	28	amod	_	SpaceAfter=No|MorphInd=^sesat<a>_ASP$
 31	,	,	PUNCT	Z--	_	33	punct	_	MorphInd=^,<z>_Z--$
 32	atau	atau	CCONJ	H--	_	33	cc	_	MorphInd=^atau<h>_H--$
-33	menggunakan	gunakan	VERB	VSA	Number=Sing|Voice=Act	27	conj	_	MorphInd=^meN+guna<n>+kan_VSA$
+33	menggunakan	guna	VERB	VSA	Number=Sing|Voice=Act	27	conj	_	MorphInd=^meN+guna<n>+kan_VSA$
 34	"	"	PUNCT	Z--	_	35	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 35	hukum	hukum	NOUN	VSA	Number=Sing|Voice=Act	33	obj	_	MorphInd=^hukum<v>_VSA$
 36	rahasia	rahasia	ADJ	NSD	Number=Sing	35	amod	_	SpaceAfter=No|MorphInd=^rahasia<n>_NSD$
@@ -13235,7 +13235,7 @@
 8	Bukankah	bukan	PART	G--+T--	Polarity=Neg	9	advmod	_	MorphInd=^bukan<g>_G--+kah<t>_T--$
 9	Allah	allah	PROPN	NSD	Number=Sing	2	parataxis	_	MorphInd=^allah<n>_NSD$
 10	yang	yang	PRON	S--	PronType=Rel	11	nsubj	_	MorphInd=^yang<s>_S--$
-11	menerangkan	terangkan	VERB	VSA	Number=Sing|Voice=Act	9	acl	_	MorphInd=^meN+terang<a>+kan_VSA$
+11	menerangkan	terang	VERB	VSA	Number=Sing|Voice=Act	9	acl	_	MorphInd=^meN+terang<a>+kan_VSA$
 12	arti	arti	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^arti<n>_NSD$
 13	mimpi	mimpi	NOUN	NSD	Number=Sing	12	compound	_	SpaceAfter=No|MorphInd=^mimpi<n>_NSD$
 14	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
@@ -13291,7 +13291,7 @@
 8	karena	karena	SCONJ	S--	_	15	mark	_	MorphInd=^karena<s>_S--$
 9	pada	pada	ADP	R--	_	10	case	_	MorphInd=^pada<r>_R--$
 10	saat	saat	PRON	S--	PronType=Rel	15	obl	_	MorphInd=^saat<s>_S--$
-11	ditemukan	ditemukan	VERB	VSP	Number=Sing|Voice=Pass	10	acl	_	SpaceAfter=No|MorphInd=^di+temu<v>+kan_VSP$
+11	ditemukan	ditemu	VERB	VSP	Number=Sing|Voice=Pass	10	acl	_	SpaceAfter=No|MorphInd=^di+temu<v>+kan_VSP$
 12	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
 13	anak	anak	NOUN	NSD	Number=Sing	15	nsubj:pass	_	MorphInd=^anak<n>_NSD$
 14	tersebut	tersebut	DET	B--	PronType=Dem	13	det	_	MorphInd=^tersebut<b>_B--$
@@ -13324,7 +13324,7 @@
 # text = Hal tersebut mengakibatkan desa Padanaan ini mudah untuk dijangkau serta dilewati oleh banyak kendaraan yang melintas.
 1	Hal	hal	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^hal<n>_NSD$
 2	tersebut	tersebut	DET	B--	PronType=Dem	1	det	_	MorphInd=^tersebut<b>_B--$
-3	mengakibatkan	akibatkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+akibat<n>+kan_VSA$
+3	mengakibatkan	akibat	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+akibat<n>+kan_VSA$
 4	desa	desa	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^desa<n>_NSD$
 5	Padanaan	padanaan	NOUN	X--	_	4	compound	_	MorphInd=^padanaan<x>_X--$
 6	ini	ini	DET	B--	PronType=Dem	4	det	_	MorphInd=^ini<b>_B--$
@@ -13353,7 +13353,7 @@
 9	pulau	pulau	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^pulau<n>_NSD$
 10	Stephen	stephen	PROPN	F--	_	9	flat	_	SpaceAfter=No|MorphInd=^stephen<f>_F--$
 11	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
-12	mengirimkan	kirimkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+kirim<v>+kan_VSA$
+12	mengirimkan	kirim	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+kirim<v>+kan_VSA$
 13	suatu	suatu	DET	B--	PronType=Ind	14	det	_	MorphInd=^suatu<b>_B--$
 14	eksemplar	eksemplar	NOUN	X--	_	12	obj	_	MorphInd=^eksemplar<x>_X--$
 15	ke	ke	ADP	R--	_	16	case	_	MorphInd=^ke<r>_R--$
@@ -13428,7 +13428,7 @@
 5	,	,	PUNCT	Z--	_	7	punct	_	MorphInd=^,<z>_Z--$
 6	dan	dan	CCONJ	H--	_	7	cc	_	MorphInd=^dan<h>_H--$
 7	ekonomi	ekonomi	NOUN	NSD	Number=Sing	2	conj	_	MorphInd=^ekonomi<n>_NSD$
-8	menimbulkan	timbulkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+timbul<a>+kan_VSA$
+8	menimbulkan	timbul	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+timbul<a>+kan_VSA$
 9	perpecahan	perpecahan	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^per+pecah<a>+an_NSD$
 10	antara	antara	ADP	R--	_	12	case	_	MorphInd=^antara<r>_R--$
 11	kedua	kedua	NUM	CO-	NumType=Card	12	nummod	_	MorphInd=^ke+dua<c>_CO-$
@@ -13471,7 +13471,7 @@
 19	Indonesia	indonesia	PROPN	NSD	Number=Sing	18	flat	_	SpaceAfter=No|MorphInd=^indonesia<n>_NSD$
 20	,	,	PUNCT	Z--	_	22	punct	_	MorphInd=^,<z>_Z--$
 21	sebagaimana	sebagaimana	SCONJ	S--	_	22	mark	_	MorphInd=^sebagaimana<s>_S--$
-22	dinyatakan	dinyatakan	VERB	VSP	Number=Sing|Voice=Pass	6	advcl	_	MorphInd=^di+nyata<a>+kan_VSP$
+22	dinyatakan	dinyata	VERB	VSP	Number=Sing|Voice=Pass	6	advcl	_	MorphInd=^di+nyata<a>+kan_VSP$
 23	dalam	dalam	ADP	ASP	Degree=Pos|Number=Sing	24	case	_	MorphInd=^dalam<a>_ASP$
 24	Surat	surat	NOUN	NSD	Number=Sing	22	obl	_	MorphInd=^surat<n>_NSD$
 25	Keputusan	keputusan	NOUN	NSD	Number=Sing	24	compound	_	MorphInd=^ke+putus<a>+an_NSD$
@@ -13506,13 +13506,13 @@
 7	STM	stm	PROPN	X--	_	6	flat	_	MorphInd=^stm<x>_X--$
 8	Gorontalo	gorontalo	PROPN	F--	_	7	flat	_	SpaceAfter=No|MorphInd=^gorontalo<f>_F--$
 9	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
-10	didirikan	didirikan	VERB	VSP	Number=Sing|Voice=Pass	4	parataxis	_	MorphInd=^di+diri<n>+kan_VSP$
+10	didirikan	didiri	VERB	VSP	Number=Sing|Voice=Pass	4	parataxis	_	MorphInd=^di+diri<n>+kan_VSP$
 11	pada	pada	ADP	R--	_	12	case	_	MorphInd=^pada<r>_R--$
 12	tanggal	tanggal	NOUN	VSA	Number=Sing|Voice=Act	10	obl	_	MorphInd=^tanggal<v>_VSA$
 13	15	15	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^15<c>_CC-$
 14	September	september	PROPN	NSD	Number=Sing	12	nmod	_	MorphInd=^september<n>_NSD$
 15	1978	1978	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^1978<c>_CC-$
-16	berdasarkan	berdasarkan	ADP	VSA	Number=Sing|Voice=Act	17	case	_	MorphInd=^ber+dasar<n>+kan_VSA$
+16	berdasarkan	berdasar	ADP	VSA	Number=Sing|Voice=Act	17	case	_	MorphInd=^ber+dasar<n>+kan_VSA$
 17	SK	sk	PROPN	X--	_	10	obl	_	MorphInd=^sk<x>_X--$
 18	Pendirian	pendirian	NOUN	NSD	Number=Sing	17	compound	_	MorphInd=^peN+diri<n>+an_NSD$
 19	No	no	PROPN	F--	_	17	flat	_	SpaceAfter=No|MorphInd=^no<f>_F--$
@@ -13531,7 +13531,7 @@
 3	pertama	pertama	NUM	CO-	NumType=Card	4	nummod	_	MorphInd=^pertama<c>_CO-$
 4	kali	kali	NOUN	VSA	Number=Sing|Voice=Act	6	obl	_	MorphInd=^kali<v>_VSA$
 5	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	MorphInd=^ia<p>_PS3$
-6	tunjukkan	tunjukkan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^tunjuk<v>+kan_VSA$
+6	tunjukkan	tunjuk	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^tunjuk<v>+kan_VSA$
 7	saat	saat	ADP	S--	_	8	case	_	MorphInd=^saat<s>_S--$
 8	menghajar	hajar	VERB	VSA	Number=Sing|Voice=Act	6	xcomp	_	MorphInd=^meN+hajar<v>_VSA$
 9	Ultros	ultros	PROPN	X--	_	8	obj	_	MorphInd=^ultros<x>_X--$
@@ -13652,7 +13652,7 @@
 11	Negeri	negeri	PROPN	NSD	Number=Sing	10	flat	_	MorphInd=^negeri<n>_NSD$
 12	7	7	NUM	CC-	NumType=Card	11	nummod	_	MorphInd=^7<c>_CC-$
 13	Pandeglang	pandeglang	PROPN	X--	_	11	flat	_	MorphInd=^pandeglang<x>_X--$
-14	menyediakan	sediakan	VERB	VSA	Number=Sing|Voice=Act	1	flat	_	MorphInd=^meN+sedia<v>+kan_VSA$
+14	menyediakan	sedia	VERB	VSA	Number=Sing|Voice=Act	1	flat	_	MorphInd=^meN+sedia<v>+kan_VSA$
 15	kegiatan	kegiatan	NOUN	NSD	Number=Sing	1	obj	_	MorphInd=^ke+giat<n>+an_NSD$
 16	ekstrakurikuler	ekstrakurikuler	ADJ	X--	_	15	amod	_	MorphInd=^ekstrakurikuler<x>_X--$
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj	_	MorphInd=^yang<s>_S--$
@@ -13682,7 +13682,7 @@
 9	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
 10	yang	yang	PRON	S--	PronType=Rel	12	nsubj	_	MorphInd=^yang<s>_S--$
 11	kemudian	kemudian	ADV	S--	_	12	advmod	_	MorphInd=^kemudian<s>_S--$
-12	menciptakan	ciptakan	VERB	VSA	Number=Sing|Voice=Act	8	conj	_	MorphInd=^meN+cipta<v>+kan_VSA$
+12	menciptakan	cipta	VERB	VSA	Number=Sing|Voice=Act	8	conj	_	MorphInd=^meN+cipta<v>+kan_VSA$
 13	Pelabuhan	penlabuhan	PROPN	NSD	Number=Sing	12	obj	_	MorphInd=^peN+labuh<v>+an_NSD$
 14	Manchester	manchester	PROPN	F--	_	13	flat	_	SpaceAfter=No|MorphInd=^manchester<f>_F--$
 15	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
@@ -13703,7 +13703,7 @@
 12	mengapa	mengapa	PRON	W--	PronType=Int	15	advmod	_	MorphInd=^mengapa<w>_W--$
 13	Sun	sun	PROPN	F--	_	15	nsubj	_	MorphInd=^sun<f>_F--$
 14	Quan	quan	PROPN	X--	_	13	flat	_	MorphInd=^quan<x>_X--$
-15	merahasiakan	rahasiakan	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+rahasia<n>+kan_VSA$
+15	merahasiakan	rahasia	VERB	VSA	Number=Sing|Voice=Act	0	root	_	MorphInd=^meN+rahasia<n>+kan_VSA$
 16	pasukan	pasukan	NOUN	NSD	Number=Sing	15	obj	_	MorphInd=^pasukan<n>_NSD$
 17	itu	itu	DET	B--	PronType=Dem	16	det	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
 18	?	?	PUNCT	Z--	_	15	punct	_	MorphInd=^?<z>_Z--$
@@ -13738,7 +13738,7 @@
 8	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
 9	karena	karena	SCONJ	S--	_	11	mark	_	MorphInd=^karena<s>_S--$
 10	Trikala	trikala	PROPN	X--	_	11	nsubj:pass	_	MorphInd=^trikala<x>_X--$
-11	dinyatakan	dinyatakan	VERB	VSP	Number=Sing|Voice=Pass	2	advcl	_	MorphInd=^di+nyata<a>+kan_VSP$
+11	dinyatakan	dinyata	VERB	VSP	Number=Sing|Voice=Pass	2	advcl	_	MorphInd=^di+nyata<a>+kan_VSP$
 12	bersalah	bersalah	ADJ	VSA	Number=Sing|Voice=Act	11	amod	_	MorphInd=^ber+salah<a>_VSA$
 13	untuk	untuk	ADP	R--	_	14	case	_	MorphInd=^untuk<r>_R--$
 14	pemalsuan	penpalsuan	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^peN+palsu<a>+an_NSD$
@@ -13750,7 +13750,7 @@
 20	dan	dan	CCONJ	H--	_	23	cc	_	MorphInd=^dan<h>_H--$
 21	meskipun	meskipun	SCONJ	S--	_	23	mark	_	MorphInd=^meskipun<s>_S--$
 22	Trikala	trikala	PROPN	X--	_	23	nsubj	_	MorphInd=^trikala<x>_X--$
-23	menyelesaikan	selesaikan	VERB	VSA	Number=Sing|Voice=Act	2	conj	_	MorphInd=^meN+selesai<a>+kan_VSA$
+23	menyelesaikan	selesai	VERB	VSA	Number=Sing|Voice=Act	2	conj	_	MorphInd=^meN+selesai<a>+kan_VSA$
 24	musim	musim	NOUN	NSD	Number=Sing	23	obj	_	MorphInd=^musim<n>_NSD$
 25	2010	2010	NUM	CC-	NumType=Card	24	nummod	_	MorphInd=^2010<c>_CC-$
 26	/	/	SYM	Z--	_	25	punct	_	MorphInd=^/<z>_Z--$
@@ -13817,7 +13817,7 @@
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	oleh	oleh	ADP	R--	_	4	case	_	MorphInd=^oleh<r>_R--$
 4	Pertamina	pertamina	NOUN	F--	_	5	obl	_	MorphInd=^pertamina<f>_F--$
-5	dijadikan	dijadikan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+jadi<a>+kan_VSP$
+5	dijadikan	dijadi	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+jadi<a>+kan_VSP$
 6	semacam	semacam	ADP	ASP	Degree=Pos|Number=Sing	7	case	_	MorphInd=^se+macam<n>_ASP$
 7	base	base	NOUN	F--	_	5	obl	_	MorphInd=^base<f>_F--$
 8	camp	camp	NOUN	F--	_	7	compound	_	SpaceAfter=No|MorphInd=^camp<f>_F--$
@@ -13893,13 +13893,13 @@
 4	juga	juga	ADV	D--	_	7	advmod	_	MorphInd=^juga<d>_D--$
 5	Syekh	syekh	PROPN	X--	_	7	nsubj:pass	_	MorphInd=^syekh<x>_X--$
 6	Amadou	amadou	PROPN	F--	_	5	flat	_	MorphInd=^amadou<f>_F--$
-7	dimakamkan	dimakamkan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	SpaceAfter=No|MorphInd=^di+makam<n>+kan_VSP$
+7	dimakamkan	dimakam	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	SpaceAfter=No|MorphInd=^di+makam<n>+kan_VSP$
 8	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s552
 # text = HDH didirikan oleh perusahaan batik asal Solo PT Batik Danar Hadi pada tahun 2008 dan mengkhususkan Batik beserta aspek-aspek budayanya sebagai obyek wisata utamanya.
 1	HDH	hdh	PROPN	X--	_	2	nsubj:pass	_	MorphInd=^hdh<x>_X--$
-2	didirikan	didirikan	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+diri<n>+kan_VSP$
+2	didirikan	didiri	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+diri<n>+kan_VSP$
 3	oleh	oleh	ADP	R--	_	4	case	_	MorphInd=^oleh<r>_R--$
 4	perusahaan	perusahaan	NOUN	NSD	Number=Sing	2	obl	_	MorphInd=^per+usaha<n>+an_NSD$
 5	batik	batik	NOUN	X--	_	4	compound	_	MorphInd=^batik<x>_X--$
@@ -13913,7 +13913,7 @@
 13	tahun	tahun	NOUN	NSD	Number=Sing	2	obl	_	MorphInd=^tahun<n>_NSD$
 14	2008	2008	NUM	CC-	NumType=Card	13	nummod	_	MorphInd=^2008<c>_CC-$
 15	dan	dan	CCONJ	H--	_	16	cc	_	MorphInd=^dan<h>_H--$
-16	mengkhususkan	khususkan	VERB	VSA	Number=Sing|Voice=Act	2	conj	_	MorphInd=^meN+khusus<a>+kan_VSA$
+16	mengkhususkan	khusus	VERB	VSA	Number=Sing|Voice=Act	2	conj	_	MorphInd=^meN+khusus<a>+kan_VSA$
 17	Batik	batik	NOUN	X--	_	16	obj	_	MorphInd=^batik<x>_X--$
 18	beserta	beserta	ADP	R--	_	19	case	_	MorphInd=^beserta<r>_R--$
 19	aspek-aspek	aspek	NOUN	NSD	Number=Plur	17	nmod	_	MorphInd=^aspek<n>_NSD$
@@ -13990,7 +13990,7 @@
 8	Timur	timur	PROPN	NSD	Number=Sing	7	amod	_	MorphInd=^timur<n>_NSD$
 9	didominasi	didominasi	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^di+dominasi<n>_VSP$
 10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
-11	diabaikan	diabaikan	VERB	VSP	Number=Sing|Voice=Pass	9	conj	_	MorphInd=^di+abai<v>+kan_VSP$
+11	diabaikan	diabai	VERB	VSP	Number=Sing|Voice=Pass	9	conj	_	MorphInd=^di+abai<v>+kan_VSP$
 12	oleh	oleh	ADP	R--	_	13	case	_	MorphInd=^oleh<r>_R--$
 13	pemerintah	penperintah	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^peN+perintah<n>_NSD$
 14	Pakistan	pakistan	PROPN	F--	_	13	flat	_	SpaceAfter=No|MorphInd=^pakistan<f>_F--$
@@ -14112,7 +14112,7 @@
 2	terjadi	terjadi	VERB	VSP	Number=Sing|Voice=Pass	0	root	_	MorphInd=^terjadi<v>_VSP$
 3	karena	karena	CCONJ	S--	_	15	cc	_	MorphInd=^karena<s>_S--$
 4	sebelum	sebelum	ADV	S--	_	5	advmod	_	MorphInd=^sebelum<s>_S--$
-5	meninggalkan	tinggalkan	VERB	VSA	Number=Sing|Voice=Act	15	advcl	_	MorphInd=^meN+tinggal<v>+kan_VSA$
+5	meninggalkan	tinggal	VERB	VSA	Number=Sing|Voice=Act	15	advcl	_	MorphInd=^meN+tinggal<v>+kan_VSA$
 6	Indonesia	indonesia	PROPN	NSD	Number=Sing	5	obj	_	SpaceAfter=No|MorphInd=^indonesia<n>_NSD$
 7	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
 8	Rev	rev	PROPN	F--	_	10	appos	_	SpaceAfter=No|MorphInd=^rev<f>_F--$
@@ -14128,7 +14128,7 @@
 18	Pengurus	penurus	PROPN	NSD	Number=Sing	17	obj	_	MorphInd=^peN+urus<v>_NSD$
 19	yang	yang	PRON	S--	PronType=Rel	21	nsubj	_	MorphInd=^yang<s>_S--$
 20	akan	akan	ADV	M--	_	21	advmod	_	MorphInd=^akan<m>_M--$
-21	meneruskan	teruskan	VERB	VSA	Number=Sing|Voice=Act	17	acl	_	MorphInd=^meN+terus<a>+kan_VSA$
+21	meneruskan	terus	VERB	VSA	Number=Sing|Voice=Act	17	acl	_	MorphInd=^meN+terus<a>+kan_VSA$
 22	The	the	PROPN	F--	_	21	obj	_	MorphInd=^the<f>_F--$
 23	United	united	PROPN	ASP	Degree=Pos|Number=Sing	22	flat	_	MorphInd=^united<a>_ASP$
 24	Pantecostal	pantecostal	PROPN	X--	_	23	flat	_	MorphInd=^pantecostal<x>_X--$
