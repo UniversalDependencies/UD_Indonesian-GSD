@@ -21,11 +21,11 @@
     <tag name="AUX">1057</tag><!-- adalah, ialah, dapat, harus -->
     <tag name="CCONJ">3659</tag><!-- dan, atau, serta, karena, maupun, tetapi, namun, tapi, and, juga -->
     <tag name="DET">3986</tag><!-- ini, itu, sebuah, tersebut, satu, seorang, salah, beberapa, para, berbagai -->
-    <tag name="NOUN">26439</tag><!-- tahun, orang, desa, nama, kota, bagian, bahasa, wilayah, tanggal, negara -->
+    <tag name="NOUN">26489</tag><!-- tahun, orang, desa, nama, kota, bagian, bahasa, wilayah, tanggal, negara -->
     <tag name="NUM">4383</tag><!-- dua, pertama, kedua, 1, satu, 2, 3, 5, tiga, 4 -->
     <tag name="PART">590</tag><!-- tidak, bukan, tak, pun, belum, kan, ya, jangan, non, tanpa -->
     <tag name="PRON">4761</tag><!-- yang, ia, mereka, dia, apa, kita, siapa, kamu, aku, engkau -->
-    <tag name="PROPN">22773</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
+    <tag name="PROPN">22723</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
     <tag name="PUNCT">17557</tag><!-- ,, ., ), (, -, ?, ", :, _, ; -->
     <tag name="SCONJ">1475</tag><!-- karena, bahwa, namun, ketika, sehingga, maka, jika, setelah, yaitu, sementara -->
     <tag name="SYM">418</tag><!-- /, %, =, *, km, &amp;, cm, °, #, + -->
@@ -40,8 +40,8 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADP,ADV,NOUN,PROPN,SCONJ,VERB">279</feat><!-- terbesar, terutama, terbaik, terakhir, ternyata, tertinggi, terdekat, terlebih, tertua, teratas -->
     <feat name="Gender" value="Fem" upos="NOUN,PROPN">3</feat><!-- Indrawati, Selawati, seniwati -->
     <feat name="Gender" value="Masc" upos="ADJ,NOUN,PROPN">39</feat><!-- ilmuwan, Taiwan, bangsawan, fisikawan, karyawan, wisatawan, karyawannya, rohaniwan, Belawan, bangsawannya -->
-    <feat name="Number" value="Plur" upos="NOUN,PRON,PROPN">1100</feat><!-- mereka, kita, orang-orang, kami, anak-anak, laki-laki, negara-negara, lagu-lagu, undang-undang, kalian -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,SYM,VERB,X">48639</feat><!-- dalam, tahun, ia, indonesia, menjadi, kecamatan, memiliki, kota, desa, kabupaten -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON">1100</feat><!-- mereka, kita, orang-orang, kami, anak-anak, laki-laki, negara-negara, lagu-lagu, undang-undang, kalian -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PUNCT,SCONJ,SYM,VERB,X">40759</feat><!-- dalam, tahun, ia, menjadi, memiliki, ada, orang, dapat, desa, salah -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">1876</feat><!-- ayahnya, dirinya, namanya, antaranya, penduduknya, satunya, utamanya, anaknya, keduanya, artinya -->
     <feat name="NumType" value="Card" upos="ADV,DET,NUM,PRON">4714</feat><!-- beberapa, dua, banyak, pertama, kedua, 1, satu, 2, 3, 5 -->
     <feat name="Person" value="1" upos="PRON,PROPN,VERB">156</feat><!-- kita, aku, kami, saya, Kutai, kukatakan, Kubebaskankah, Kumari, Kusambut, Kustilah -->
