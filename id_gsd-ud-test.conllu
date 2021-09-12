@@ -2175,7 +2175,7 @@
 10	yang	yang	PRON	S--	PronType=Rel	11	nsubj:pass	_	MorphInd=^yang<s>_S--$
 11-12	diinginkannya	_	_	_	_	_	_	_	MorphInd=^di+ingin<v>+kan_VSP+dia<p>_PS3$|SpaceAfter=No
 11	diinginkan	ingin	VERB	VSP	Voice=Pass	9	acl	_	MorphInd=^di+ingin<v>+kan_VSP$
-12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	obj:agent	_	MorphInd=^dia<p>_PS3$
+12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	obl:agent	_	MorphInd=^dia<p>_PS3$
 13	?	?	PUNCT	Z--	_	7	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s90
@@ -7716,7 +7716,7 @@
 20	akan	akan	ADV	M--	_	21	advmod	_	MorphInd=^akan<m>_M--$
 21-22	didapatkannya	_	_	_	_	_	_	_	MorphInd=^di+dapat<v>+kan_VSP+dia<p>_PS3$|SpaceAfter=No
 21	didapatkan	dapat	VERB	VSP	Voice=Pass	18	acl	_	MorphInd=^di+dapat<v>+kan_VSP$
-22	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	21	obj:agent	_	MorphInd=^dia<p>_PS3$
+22	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	21	obl:agent	_	MorphInd=^dia<p>_PS3$
 23	?	?	PUNCT	Z--	_	8	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s324
@@ -8106,7 +8106,7 @@
 # text = Ditemukannya H - FABP dalam berbagai jenis jaringan merupakan tanda-tanda infak miokardial akut.
 1-2	Ditemukannya	_	_	_	_	_	_	_	MorphInd=^di+temu<v>+kan_VSP+dia<p>_PS3$
 1	Ditemukan	temu	VERB	VSP	Voice=Pass	10	csubj	_	MorphInd=^di+temu<v>+kan_VSP$
-2	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	MorphInd=^dia<p>_PS3$
+2	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	1	obl:agent	_	MorphInd=^dia<p>_PS3$
 3	H	h	PROPN	F--	_	1	obj	_	MorphInd=^h<f>_F--$
 4	-	-	PUNCT	Z--	_	5	punct	_	MorphInd=^-<z>_Z--$
 5	FABP	fabp	PROPN	X--	_	3	flat	_	MorphInd=^fabp<x>_X--$
@@ -8908,7 +8908,7 @@
 19	saja	saja	ADV	D--	_	20	advmod	_	MorphInd=^saja<d>_D--$
 20-21	dikatakannya	_	_	_	_	_	_	_	MorphInd=^di+kata<n>+kan_VSP+dia<p>_PS3$
 20	dikatakan	kata	VERB	VSP	Voice=Pass	16	acl	_	MorphInd=^di+kata<n>+kan_VSP$
-21	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	20	obj:agent	_	MorphInd=^dia<p>_PS3$
+21	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	20	obl:agent	_	MorphInd=^dia<p>_PS3$
 22	itu	itu	DET	B--	PronType=Dem	20	det	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
 23	?	?	PUNCT	Z--	_	20	punct	_	MorphInd=^?<z>_Z--$
 
@@ -12756,7 +12756,7 @@
 4	yang	yang	PRON	S--	PronType=Rel	5	nsubj:pass	_	MorphInd=^yang<s>_S--$
 5-6	dicapainya	_	_	_	_	_	_	_	MorphInd=^di+capai<v>_VSP+dia<p>_PS3$|SpaceAfter=No
 5	dicapai	capai	VERB	VSP	Voice=Pass	3	acl	_	MorphInd=^di+capai<v>_VSP$
-6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	obj:agent	_	MorphInd=^dia<p>_PS3$
+6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	obl:agent	_	MorphInd=^dia<p>_PS3$
 7	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 8	kedua	kedua	DET	CO-	_	9	det	_	MorphInd=^ke+dua<c>_CO-$
 9-10	orangtuanya	_	_	_	_	_	_	_	MorphInd=^orangtua<n>_NSD+dia<p>_PS3$

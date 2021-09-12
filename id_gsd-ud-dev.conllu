@@ -577,7 +577,7 @@
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3-4	diceritakannya	_	_	_	_	_	_	_	MorphInd=^di+cerita<n>+kan_VSP+dia<p>_PS3$
 3	diceritakan	cerita	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+cerita<n>+kan_VSP$
-4	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	obj:agent	_	MorphInd=^dia<p>_PS3$
+4	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	obl:agent	_	MorphInd=^dia<p>_PS3$
 5	dalam	dalam	ADP	ASP	_	6	case	_	MorphInd=^dalam<a>_ASP$
 6	waktu	waktu	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^waktu<n>_NSD$
 7	seribu	seribu	NUM	CC-	NumType=Card	9	nummod	_	MorphInd=^se+ribu<c>_CC-$
@@ -2116,7 +2116,7 @@
 9	telah	telah	ADV	D--	_	10	advmod	_	MorphInd=^telah<d>_D--$
 10-11	dibohonginya	_	_	_	_	_	_	_	MorphInd=^di+bohong<v>+i_VSP+dia<p>_PS3$
 10	dibohongi	bohong	VERB	VSP	Voice=Pass	6	acl	_	MorphInd=^di+bohong<v>+i_VSP$
-11	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	obj:agent	_	MorphInd=^dia<p>_PS3$
+11	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	obl:agent	_	MorphInd=^dia<p>_PS3$
 12	bahwa	bahwa	SCONJ	S--	_	15	mark	_	MorphInd=^bahwa<s>_S--$
 13	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	MorphInd=^ia<p>_PS3$
 14	adalah	adalah	AUX	O--	_	15	cop	_	MorphInd=^adalah<o>_O--$
@@ -2379,7 +2379,7 @@
 10	untuk	untuk	ADP	R--	_	11	case	_	MorphInd=^untuk<r>_R--$
 11-12	dinikahinya	_	_	_	_	_	_	_	MorphInd=^di+nikah<v>+i_VSP+dia<p>_PS3$|SpaceAfter=No
 11	dinikahi	nikah	VERB	VSP	Voice=Pass	8	xcomp	_	MorphInd=^di+nikah<v>+i_VSP$
-12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	obj:agent	_	MorphInd=^dia<p>_PS3$
+12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	obl:agent	_	MorphInd=^dia<p>_PS3$
 13	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 14	dan	dan	CCONJ	H--	_	15	cc	_	MorphInd=^dan<h>_H--$
 15	memberikan	beri	VERB	VSA	Voice=Act	8	conj	_	MorphInd=^meN+beri<v>+kan_VSA$
@@ -4265,7 +4265,7 @@
 3	dan	dan	CCONJ	H--	_	4	cc	_	MorphInd=^dan<h>_H--$
 4-5	dihadirkannya	_	_	_	_	_	_	_	MorphInd=^di+hadir<v>+kan_VSP+dia<p>_PS3$
 4	dihadirkan	hadir	VERB	VSP	Voice=Pass	2	conj	_	MorphInd=^di+hadir<v>+kan_VSP$
-5	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	obj:agent	_	MorphInd=^dia<p>_PS3$
+5	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	obl:agent	_	MorphInd=^dia<p>_PS3$
 6	dalam	dalam	ADP	ASP	_	7	case	_	MorphInd=^dalam<a>_ASP$
 7	tenda	tenda	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^tenda<n>_NSD$
 8	sang	sang	DET	F--	_	9	det	_	MorphInd=^sang<f>_F--$
@@ -7459,7 +7459,7 @@
 4	dengan	dengan	ADP	R--	_	5	case	_	MorphInd=^dengan<r>_R--$
 5-6	ditemukannya	_	_	_	_	_	_	_	MorphInd=^di+temu<v>+kan_VSP+dia<p>_PS3$
 5	ditemukan	temu	VERB	VSP	Voice=Pass	3	xcomp	_	MorphInd=^di+temu<v>+kan_VSP$
-6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	obj:agent	_	MorphInd=^dia<p>_PS3$
+6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	obl:agent	_	MorphInd=^dia<p>_PS3$
 7	30	30	NUM	CC-	NumType=Card	8	nummod	_	MorphInd=^30<c>_CC-$
 8	mayat	mayat	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^mayat<n>_NSD$
 9	orang	orang	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^orang<n>_NSD$
@@ -9133,7 +9133,7 @@
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj:pass	_	MorphInd=^yang<s>_S--$
 13-14	dilewatinya	_	_	_	_	_	_	_	MorphInd=^di+lewat<v>+i_VSP+dia<p>_PS3$
 13	dilewati	lewat	VERB	VSP	Voice=Pass	9	acl	_	MorphInd=^di+lewat<v>+i_VSP$
-14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	obj:agent	_	MorphInd=^dia<p>_PS3$
+14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	obl:agent	_	MorphInd=^dia<p>_PS3$
 15	pada	pada	ADP	R--	_	13	case	_	MorphInd=^pada<r>_R--$
 16	1895	1895	NUM	CC-	NumType=Card	13	nummod	_	SpaceAfter=No|MorphInd=^1895<c>_CC-$
 17	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
@@ -10743,7 +10743,7 @@
 85	yang	yang	PRON	S--	PronType=Rel	86	nsubj	_	MorphInd=^yang<s>_S--$
 86-87	dihasilkannya	_	_	_	_	_	_	_	MorphInd=^di+hasil<n>+kan_VSP+dia<p>_PS3$
 86	dihasilkan	hasil	VERB	VSP	Voice=Pass	78	advcl	_	MorphInd=^di+hasil<n>+kan_VSP$
-87	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	86	obj:agent	_	MorphInd=^dia<p>_PS3$
+87	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	86	obl:agent	_	MorphInd=^dia<p>_PS3$
 88	kuat	kuat	ADJ	ASP	_	86	amod	_	SpaceAfter=No|MorphInd=^kuat<a>_ASP$
 89	.	.	PUNCT	Z--	_	73	punct	_	MorphInd=^.<z>_Z--$
 
@@ -11514,7 +11514,7 @@
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj	_	MorphInd=^yang<s>_S--$
 18-19	dilakukannya	_	_	_	_	_	_	_	MorphInd=^di+laku<a>+kan_VSP+dia<p>_PS3$|SpaceAfter=No
 18	dilakukan	laku	VERB	VSP	Voice=Pass	16	acl	_	MorphInd=^di+laku<a>+kan_VSP$
-19	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	18	obj:agent	_	MorphInd=^dia<p>_PS3$
+19	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	18	obl:agent	_	MorphInd=^dia<p>_PS3$
 20	,	,	PUNCT	Z--	_	22	punct	_	MorphInd=^,<z>_Z--$
 21	seperti	seperti	ADP	R--	_	22	case	_	MorphInd=^seperti<r>_R--$
 22	perkenalan	perkenalan	NOUN	NSD	Number=Sing	18	obl	_	MorphInd=^per+kenal<v>+an_NSD$
@@ -11570,7 +11570,7 @@
 3	menyatakan	nyata	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
 4-5	ditemukannya	_	_	_	_	_	_	_	MorphInd=^di+temu<v>+kan_VSP+dia<p>_PS3$
 4	ditemukan	temu	VERB	VSP	Voice=Pass	3	xcomp	_	MorphInd=^di+temu<v>+kan_VSP$
-5	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	obj:agent	_	MorphInd=^dia<p>_PS3$
+5	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	obl:agent	_	MorphInd=^dia<p>_PS3$
 6	spesies	spesies	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^spesies<n>_NSD$
 7	jantan	jantan	ADJ	ASP	_	6	amod	_	MorphInd=^jantan<a>_ASP$
 8	di	di	ADP	R--	_	9	case	_	MorphInd=^di<r>_R--$
@@ -11922,7 +11922,7 @@
 23	dapat	dapat	ADV	M--	_	24	advmod	_	MorphInd=^dapat<m>_M--$
 24-25	dihasilkannya	_	_	_	_	_	_	_	MorphInd=^di+hasil<n>+kan_VSP+dia<p>_PS3$|SpaceAfter=No
 24	dihasilkan	hasil	VERB	VSP	Voice=Pass	20	acl	_	MorphInd=^di+hasil<n>+kan_VSP$
-25	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	24	obj:agent	_	MorphInd=^dia<p>_PS3$
+25	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	24	obl:agent	_	MorphInd=^dia<p>_PS3$
 26	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s458
@@ -12755,7 +12755,7 @@
 6	yang	yang	PRON	S--	PronType=Rel	7	nsubj:pass	_	MorphInd=^yang<s>_S--$
 7-8	disayanginya	_	_	_	_	_	_	_	MorphInd=^di+sayang<n>+i_VSP+dia<p>_PS3$
 7	disayangi	sayang	VERB	VSP	Voice=Pass	5	acl	_	MorphInd=^di+sayang<n>+i_VSP$
-8	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	obj:agent	_	MorphInd=^dia<p>_PS3$
+8	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	obl:agent	_	MorphInd=^dia<p>_PS3$
 9	menderita	derita	VERB	VSA	Voice=Act	1	advcl	_	MorphInd=^meN+derita<n>_VSA$
 10	penyakit	pensakit	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^peN+sakit<n>_NSD$
 11	serius	serius	ADJ	ASP	_	10	amod	_	SpaceAfter=No|MorphInd=^serius<a>_ASP$
@@ -13905,7 +13905,7 @@
 15	yang	yang	PRON	S--	PronType=Rel	16	nsubj:pass	_	MorphInd=^yang<s>_S--$
 16-17	didirikannya	_	_	_	_	_	_	_	MorphInd=^di+diri<n>+kan_VSP+dia<p>_PS3$
 16	didirikan	diri	VERB	VSP	Voice=Pass	13	acl	_	MorphInd=^di+diri<n>+kan_VSP$
-17	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	16	obj:agent	_	MorphInd=^dia<p>_PS3$
+17	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	16	obl:agent	_	MorphInd=^dia<p>_PS3$
 18	bersama	bersama	ADP	VSA	_	19	case	_	MorphInd=^ber+sama<a>_VSA$
 19	Ibrahim	ibrahim	PROPN	NSD	_	16	obl	_	MorphInd=^ibrahim<n>_NSD$
 20	Imran	imran	PROPN	NSD	_	19	flat	_	SpaceAfter=No|MorphInd=^imran<n>_NSD$
