@@ -4960,7 +4960,7 @@
 42	Kekhanan	kekhanan	PROPN	X--	_	38	obl	_	MorphInd=^kekhanan<x>_X--$
 43	Qasim	qasim	PROPN	X--	_	42	flat	_	MorphInd=^qasim<x>_X--$
 44	dan	dan	CCONJ	H--	_	45	cc	_	MorphInd=^dan<h>_H--$
-45	bangsawan	bangsawan	NOUN	NSM	Gender=Masc|Number=Sing	42	conj	_	MorphInd=^bangsa<n>+wan_NSM$
+45	bangsawan	bangsawan	NOUN	NSM	Number=Sing	42	conj	_	MorphInd=^bangsa<n>+wan_NSM$
 46	Tatar	tatar	PROPN	X--	_	45	flat	_	SpaceAfter=No|MorphInd=^tatar<x>_X--$
 47	;	;	PUNCT	Z--	_	48	punct	_	MorphInd=^;<z>_Z--$
 48	kota	kota	NOUN	NSD	Number=Sing	45	compound	_	MorphInd=^kota<n>_NSD$
@@ -7143,7 +7143,7 @@
 # sent_id = dev-s270
 # text = Kalangan bangsawan dan samurai dari zaman Edo menghargai boneka Hinamatsuri sebagai modal penting untuk wanita yang ingin menikah, dan sekaligus sebagai pembawa keberuntungan.
 1	Kalangan	kalangan	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^kalangan<n>_NSD$
-2	bangsawan	bangsawan	NOUN	NSM	Gender=Masc|Number=Sing	1	compound	_	MorphInd=^bangsa<n>+wan_NSM$
+2	bangsawan	bangsawan	NOUN	NSM	Number=Sing	1	compound	_	MorphInd=^bangsa<n>+wan_NSM$
 3	dan	dan	CCONJ	H--	_	4	cc	_	MorphInd=^dan<h>_H--$
 4	samurai	samurai	NOUN	F--	_	2	conj	_	MorphInd=^samurai<f>_F--$
 5	dari	dari	ADP	R--	_	6	case	_	MorphInd=^dari<r>_R--$
@@ -12484,7 +12484,7 @@
 11	Carpentaria	carpentaria	PROPN	X--	_	10	flat	_	SpaceAfter=No|MorphInd=^carpentaria<x>_X--$
 12	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
 13	para	para	DET	B--	PronType=Dem	14	det	_	MorphInd=^para<b>_B--$
-14	ilmuwan	ilmuwan	NOUN	NSM	Gender=Masc|Number=Sing	17	nsubj	_	MorphInd=^ilmu<n>+wan_NSM$
+14	ilmuwan	ilmuwan	NOUN	NSM	Number=Sing	17	nsubj	_	MorphInd=^ilmu<n>+wan_NSM$
 15	masih	masih	ADV	D--	_	17	advmod	_	MorphInd=^masih<d>_D--$
 16	belum	belum	ADV	G--	_	17	advmod	_	MorphInd=^belum<g>_G--$
 17	mengetahui	ketahui	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+ketahui<v>_VSA$

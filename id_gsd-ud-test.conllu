@@ -9574,7 +9574,7 @@
 17	orang	orang	NOUN	NSD	Number=Sing	14	conj	_	MorphInd=^orang<n>_NSD$
 18	tua	tua	ADJ	ASP	_	17	amod	_	SpaceAfter=No|MorphInd=^tua<a>_ASP$
 19	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
-20	bangsawan	bangsawan	NOUN	NSM	Gender=Masc|Number=Sing	7	conj	_	MorphInd=^bangsa<n>+wan_NSM$
+20	bangsawan	bangsawan	NOUN	NSM	Number=Sing	7	conj	_	MorphInd=^bangsa<n>+wan_NSM$
 21	dan	dan	CCONJ	H--	_	22	cc	_	MorphInd=^dan<h>_H--$
 22	nenek	nenek	NOUN	NSD	Number=Sing	7	conj	_	MorphInd=^nenek<n>_NSD$
 23	Miyal	miyal	PROPN	X--	_	22	flat	_	SpaceAfter=No|MorphInd=^miyal<x>_X--$
@@ -11916,7 +11916,7 @@
 7	(	(	PUNCT	Z--	_	5	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 8	)	)	PUNCT	Z--	_	5	punct	_	MorphInd=^)<z>_Z--$
 9	adalah	adalah	AUX	O--	_	10	cop	_	MorphInd=^adalah<o>_O--$
-10	ilmuwan	ilmuwan	NOUN	NSM	Gender=Masc|Number=Sing	0	root	_	MorphInd=^ilmu<n>+wan_NSM$
+10	ilmuwan	ilmuwan	NOUN	NSM	Number=Sing	0	root	_	MorphInd=^ilmu<n>+wan_NSM$
 11	Indonesia	indonesia	PROPN	NSD	_	10	flat	_	MorphInd=^indonesia<n>_NSD$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj	_	MorphInd=^yang<s>_S--$
 13	menemukan	temu	VERB	VSA	Voice=Act	10	acl	_	MorphInd=^meN+temu<v>+kan_VSA$
@@ -13361,7 +13361,7 @@
 27	hiburan	hiburan	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^hibur<v>+an_NSD$
 28	tempat	tempat	NOUN	NSD	Number=Sing	26	appos	_	MorphInd=^tempat<n>_NSD$
 29	para	para	DET	B--	PronType=Dem	30	det	_	MorphInd=^para<b>_B--$
-30	bangsawan	bangsawan	NOUN	NSM	Gender=Masc|Number=Sing	32	nsubj	_	MorphInd=^bangsa<n>+wan_NSM$
+30	bangsawan	bangsawan	NOUN	NSM	Number=Sing	32	nsubj	_	MorphInd=^bangsa<n>+wan_NSM$
 31	Majapahit	majapahit	PROPN	F--	_	30	flat	_	MorphInd=^majapahit<f>_F--$
 32	menjamu	jamu	VERB	VSA	Voice=Act	28	acl	_	MorphInd=^meN+jamu<n>_VSA$
 33	para	para	DET	B--	PronType=Dem	34	det	_	MorphInd=^para<b>_B--$
