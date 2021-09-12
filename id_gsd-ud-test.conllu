@@ -2390,10 +2390,12 @@
 14	tungkai	tungkai	NOUN	NSD	Number=Sing	7	nmod	_	MorphInd=^tungkai<n>_NSD$
 15	depan	depan	ADJ	NSD	_	14	amod	_	MorphInd=^depan<n>_NSD$
 16	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
-17	cakarnya	cakar	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	14	conj	_	MorphInd=^cakar<n>_NSD+dia<p>_PS3$
-18	yang	yang	PRON	S--	PronType=Rel	19	nsubj	_	MorphInd=^yang<s>_S--$
-19	kuat	kuat	ADJ	ASP	_	17	amod	_	SpaceAfter=No|MorphInd=^kuat<a>_ASP$
-20	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
+17-18	cakarnya	_	_	_	_	_	_	_	MorphInd=^cakar<n>_NSD+dia<p>_PS3$
+17	cakar	cakar	NOUN	NSD	Number=Sing	14	conj	_	MorphInd=^cakar<n>_NSD$
+18	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	17	nmod:poss	_	MorphInd=^dia<p>_PS3$
+19	yang	yang	PRON	S--	PronType=Rel	20	nsubj	_	MorphInd=^yang<s>_S--$
+20	kuat	kuat	ADJ	ASP	_	17	amod	_	SpaceAfter=No|MorphInd=^kuat<a>_ASP$
+21	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s98
 # text = Makanya jangan heran, tahun 1917, dari 2.415 penduduk, sebanyak 1.391 orang di antaranya sudah bekerja, antara lain 297 orang jadi ambtenar dan 31 orang menjadi dokter.

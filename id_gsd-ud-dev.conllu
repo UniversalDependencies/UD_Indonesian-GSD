@@ -130,8 +130,10 @@
 10	kemampuan	kemampuan	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^ke+mampu<a>+an_NSD$
 11	serta	serta	CCONJ	H--	_	12	cc	_	MorphInd=^serta<h>_H--$
 12	kesediaan	kesediaan	NOUN	NSD	Number=Sing	10	conj	_	MorphInd=^ke+sedia<v>+an_NSD$
-13	membelinya	beli	VERB	VSA+PS3	Voice=Act	12	acl	_	SpaceAfter=No|MorphInd=^meN+beli<v>_VSA+dia<p>_PS3$
-14	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
+13-14	membelinya	_	_	_	_	_	_	_	MorphInd=^meN+beli<v>_VSA+dia<p>_PS3$|SpaceAfter=No
+13	membeli	membeli	VERB	VSA	Voice=Act	12	acl	_	MorphInd=^meN+beli<v>_VSA$
+14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	obj	_	MorphInd=^dia<p>_PS3$
+15	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s5
 # text = Let It Shine adalah film televisi 2012.
