@@ -10,7 +10,7 @@
     <dev><sentences>559</sentences><tokens>12474</tokens><words>12637</words><fused>163</fused></dev>
     <test><sentences>557</sentences><tokens>11622</tokens><words>11763</words><fused>141</fused></test>
   </size>
-  <lemmas unique="18536" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, -, untuk -->
+  <lemmas unique="17433" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, -, untuk -->
   <forms unique="19595" /><!-- ,, ., yang, dan, di, nya, pada, dari, dengan, ini, ), (, adalah, -, untuk -->
   <fusions unique="783" /><!-- ayahnya, namanya, penduduknya, anaknya, artinya, ibunya, keduanya, kalinya, sebagainya, istrinya, adiknya, harinya, hidupnya, keluarganya, letaknya -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">17557</tag><!-- ,, ., ), (, -, ?, ", :, _, ; -->
     <tag name="SCONJ">1475</tag><!-- karena, bahwa, namun, ketika, sehingga, maka, jika, setelah, yaitu, sementara -->
     <tag name="SYM">418</tag><!-- /, %, =, *, km, &amp;, cm, °, #, + -->
-    <tag name="VERB">12201</tag><!-- jadi, merupakan, miliki, ada, terletak, diguna, berada, guna, dikenal, mulai -->
+    <tag name="VERB">12201</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, diri -->
     <tag name="X">39</tag><!-- jpg, an, www, anti, b, dkk, s, x, y, &amp;nbsp -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->

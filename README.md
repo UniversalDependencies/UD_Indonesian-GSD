@@ -14,6 +14,7 @@ http://septinalarasati.com/morphind/).
 
 * 2021-11-15 v2.9
   * The clitic -nya separated from its host as a syntactic word.
+  * Stripped affixes from lemmas of verbs.
   * Proper nouns do not have the Number feature (unlike common nouns).
 * 2021-05-15 v2.8
   * Fixed non-projective punctuation with Udapi ud.FixPunct.
