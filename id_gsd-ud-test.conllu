@@ -9599,7 +9599,7 @@
 15	dari	dari	ADP	R--	_	16	case	_	MorphInd=^dari<r>_R--$
 16	kacang	kacang	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^kacang<n>_NSD$
 17	hijau	hijau	ADJ	ASP	_	16	amod	_	MorphInd=^hijau<a>_ASP$
-18	tidak	tidak	ADV	G--	Polarity=Neg	20	advmod	_	MorphInd=^tidak<g>_G--$
+18	tidak	tidak	PART	G--	Polarity=Neg	20	advmod	_	MorphInd=^tidak<g>_G--$
 19	mudah	mudah	ADJ	ASP	_	20	amod	_	MorphInd=^mudah<a>_ASP$
 20	berbau	bau	VERB	VSA	Voice=Act	8	ccomp	_	SpaceAfter=No|MorphInd=^ber+bau<n>_VSA$
 21	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
