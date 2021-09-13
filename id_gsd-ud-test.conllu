@@ -12624,7 +12624,7 @@
 
 # sent_id = test-s522
 # text = Mereka memang berbeda, tetapi bagaimanakah bisa dikenali?
-1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	1	nsubj	_	MorphInd=^mereka<p>_PP3$
+1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	MorphInd=^mereka<p>_PP3$
 2	memang	memang	ADV	D--	_	3	advmod	_	MorphInd=^memang<d>_D--$
 3	berbeda	berbeda	ADJ	VSA	_	0	root	_	SpaceAfter=No|MorphInd=^ber+beda<a>_VSA$
 4	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
