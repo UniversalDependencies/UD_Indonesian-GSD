@@ -11022,7 +11022,7 @@
 11	dan	dan	CCONJ	H--	_	12	cc	_	MorphInd=^dan<h>_H--$
 12	saudara	saudara	NOUN	NSD	Number=Sing	1	conj	_	MorphInd=^saudara<n>_NSD$
 13-14	termudanya	_	_	_	_	_	_	_	MorphInd=^ter+muda<a>_ASS+dia<p>_PS3$|SpaceAfter=No
-13	termuda	termuda	NOUN	ASS	Degree=Sup	12	amod	_	MorphInd=^ter+muda<a>_ASS$
+13	termuda	termuda	ADJ	ASS	Degree=Sup	12	amod	_	MorphInd=^ter+muda<a>_ASS$
 14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	MorphInd=^dia<p>_PS3$
 15	,	,	PUNCT	Z--	_	16	punct	_	MorphInd=^,<z>_Z--$
 16	Richard	richard	PROPN	F--	_	12	appos	_	SpaceAfter=No|MorphInd=^richard<f>_F--$
