@@ -1838,7 +1838,7 @@
 10	sementara	sementara	DET	S--	PronType=Rel	6	xcomp	_	SpaceAfter=No|MorphInd=^sementara<s>_S--$
 11	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 12	namun	namun	SCONJ	S--	_	15	mark	_	MorphInd=^namun<s>_S--$
-13	ternyata	ternyata	SCONJ	ASS	Degree=Sup	15	mark	_	MorphInd=^ter+nyata<a>_ASS$
+13	ternyata	ternyata	SCONJ	ASS	_	15	mark	_	MorphInd=^ter+nyata<a>_ASS$
 14	dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	MorphInd=^dia<p>_PS3$
 15	meninggal	tinggal	VERB	VSA	Voice=Act	4	advcl	_	MorphInd=^meN+tinggal<v>_VSA$
 16	dalam	dalam	ADP	ASP	_	17	case	_	MorphInd=^dalam<a>_ASP$
@@ -2473,7 +2473,7 @@
 4	berbagai	berbagai	DET	B--	PronType=Ind	5	det	_	MorphInd=^berbagai<b>_B--$
 5	kebudayaan	kebudayaan	NOUN	NSD	Number=Sing	2	obl	_	SpaceAfter=No|MorphInd=^ke+budaya<n>+an_NSD$
 6	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
-7	terutama	terutama	ADV	ASS	Degree=Sup	10	advmod	_	MorphInd=^ter+utama<a>_ASS$
+7	terutama	terutama	ADV	ASS	_	10	advmod	_	MorphInd=^ter+utama<a>_ASS$
 8	di	di	ADP	R--	_	10	case	_	MorphInd=^di<r>_R--$
 9	dalam	dalam	ADP	ASP	_	10	case	_	MorphInd=^dalam<a>_ASP$
 10	agama	agama	NOUN	NSD	Number=Sing	2	obl	_	MorphInd=^agama<n>_NSD$
@@ -5960,7 +5960,7 @@
 22	karena	karena	SCONJ	S--	_	23	mark	_	MorphInd=^karena<s>_S--$
 23	menjangkiti	jangkit	VERB	VSA	Voice=Act	14	advcl	_	MorphInd=^meN+jangkit<v>+i_VSA$
 24	anak-anak	anak	NOUN	NSD	Number=Plur	23	obj	_	MorphInd=^anak<n>_NSD$
-25	terutama	terutama	ADV	ASS	Degree=Sup	27	advmod	_	MorphInd=^ter+utama<a>_ASS$
+25	terutama	terutama	ADV	ASS	_	27	advmod	_	MorphInd=^ter+utama<a>_ASS$
 26	yang	yang	PRON	S--	PronType=Rel	27	nsubj	_	MorphInd=^yang<s>_S--$
 27	berumur	umur	VERB	VSA	Voice=Act	24	acl	_	MorphInd=^ber+umur<n>_VSA$
 28	di	di	ADP	R--	_	29	case	_	MorphInd=^di<r>_R--$
@@ -10084,7 +10084,7 @@
 18	(	(	PUNCT	Z--	_	19	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 19	lejet	lejet	NOUN	X--	_	11	conj	_	SpaceAfter=No|MorphInd=^lejet<x>_X--$
 20	)	)	PUNCT	Z--	_	19	punct	_	MorphInd=^)<z>_Z--$
-21	terutama	terutama	ADV	ASS	Degree=Sup	22	cc	_	MorphInd=^ter+utama<a>_ASS$
+21	terutama	terutama	ADV	ASS	_	22	cc	_	MorphInd=^ter+utama<a>_ASS$
 22	Paprika	paprika	PROPN	NSD	_	11	conj	_	MorphInd=^paprika<n>_NSD$
 23	(	(	PUNCT	Z--	_	24	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 24	Capsicum	capsicum	PROPN	X--	_	22	appos	_	MorphInd=^capsicum<x>_X--$
@@ -10120,7 +10120,7 @@
 3	mata	mata	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^mata<n>_NSD$
 4	air	air	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^air<n>_NSD$
 5	berlimpahh	berlimpahh	ADV	X--	_	3	advmod	_	MorphInd=^berlimpahh<x>_X--$
-6	terutama	terutama	ADV	ASS	Degree=Sup	8	advmod	_	MorphInd=^ter+utama<a>_ASS$
+6	terutama	terutama	ADV	ASS	_	8	advmod	_	MorphInd=^ter+utama<a>_ASS$
 7	di	di	ADP	R--	_	8	case	_	MorphInd=^di<r>_R--$
 8	RT	rt	NOUN	F--	_	2	nmod	_	MorphInd=^rt<f>_F--$
 9	5	5	NUM	CC-	NumType=Card	8	nummod	_	MorphInd=^5<c>_CC-$
@@ -12248,7 +12248,7 @@
 
 # sent_id = dev-s471
 # text = Ternyata kemudian Iwan sendiri mencintai Lisa, hingga Lisa merasa tak bertepuk tangan sebelah tangan, tapi permasalahan kembali muncul ketika Lisa tahu betapa Sukma juga sangat mencintai Iwan. Sauatu hari pulang kerja, Iwan dan Sukma kecelakaan.
-1	Ternyata	ternyata	ADV	ASS	Degree=Sup	5	advmod	_	MorphInd=^ter+nyata<a>_ASS$
+1	Ternyata	ternyata	ADV	ASS	_	5	advmod	_	MorphInd=^ter+nyata<a>_ASS$
 2	kemudian	kemudian	ADV	S--	_	1	advmod	_	MorphInd=^kemudian<s>_S--$
 3	Iwan	iwan	NOUN	X--	_	5	nsubj	_	MorphInd=^iwan<x>_X--$
 4	sendiri	sendiri	PRON	ASP	_	3	det	_	MorphInd=^sendiri<a>_ASP$
