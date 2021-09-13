@@ -882,7 +882,7 @@
 14	beberapa	beberapa	DET	B--	PronType=Ind	15	det	_	MorphInd=^beberapa<b>_B--$
 15	penari	pentari	NOUN	NSD	Number=Sing	20	nsubj	_	MorphInd=^peN+tari<n>_NSD$
 16	Sunda	sunda	PROPN	F--	_	15	flat	_	MorphInd=^sunda<f>_F--$
-17	terkemuka	terkemuka	ADJ	VSP	Voice=Pass	15	amod	_	MorphInd=^ter+kemuka<v>_VSP$
+17	terkemuka	terkemuka	ADJ	VSP	Degree=Sup	15	amod	_	MorphInd=^ter+kemuka<v>_VSP$
 18	kebanyakan	kebanyakan	DET	NSD	Number=Sing	20	advmod	_	MorphInd=^ke+banyak<a>+an_NSD$
 19	pernah	pernah	ADV	D--	_	20	advmod	_	MorphInd=^pernah<d>_D--$
 20	belajar	belajar	VERB	NSD	_	12	advcl	_	MorphInd=^belajar<n>_NSD$
@@ -10141,7 +10141,7 @@
 24	,	,	PUNCT	Z--	_	19	punct	_	SpaceAfter=No|MorphInd=^,<z>_Z--$
 25	,	,	PUNCT	Z--	_	26	punct	_	MorphInd=^,<z>_Z--$
 26	berbanding	banding	VERB	VSA	Voice=Act	1	dep	_	MorphInd=^ber+banding<v>_VSA$
-27	terbalik	terbalik	ADJ	VSP	Voice=Pass	26	amod	_	MorphInd=^ter+balik<v>_VSP$
+27	terbalik	terbalik	VERB	VSP	Voice=Pass	26	acl	_	MorphInd=^ter+balik<v>_VSP$
 28	dengan	dengan	ADP	R--	_	29	case	_	MorphInd=^dengan<r>_R--$
 29	Dsn	dsn	PROPN	X--	_	26	obl	_	SpaceAfter=No|MorphInd=^dsn<x>_X--$
 30	.	.	PUNCT	Z--	_	29	punct	_	MorphInd=^.<z>_Z--$
