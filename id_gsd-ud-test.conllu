@@ -727,7 +727,7 @@
 54	(	(	PUNCT	Z--	_	56	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 55	lebih	lebih	ADV	D--	_	56	advmod	_	MorphInd=^lebih<d>_D--$
 56	kurang	kurang	VERB	ASP	_	52	appos	_	MorphInd=^kurang<a>_ASP$
-57	40	40	NUM	X--	_	58	nummod	_	SpaceAfter=No|MorphInd=^40&amp;amp;nbsp<x>_X--$
+57	40	40	NUM	X--	_	58	nummod	_	MorphInd=^40&amp;amp;nbsp<x>_X--$
 58	km	km	NOUN	F--	_	52	appos	_	MorphInd=^km<f>_F--$
 59	dari	dari	ADP	R--	_	60	case	_	MorphInd=^dari<r>_R--$
 60	Sarajevo	sarajevo	PROPN	X--	_	58	nmod	_	SpaceAfter=No|MorphInd=^sarajevo<x>_X--$
@@ -11566,14 +11566,14 @@
 30	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s481
-# text = Tepatnya di negara bagian Ohio. Pada tahun 2000, kota ini memiliki jumlah penduduk sebanyak 217.014 jiwa dan memiliki luas wilayah 161,6 km2;. Kota ini memiliki jumlah kepadatan penduduk sebanyak 1350, 3 jiwa / km&amp;sup2;.
+# text = Tepatnya di negara bagian Ohio. Pada tahun 2000, kota ini memiliki jumlah penduduk sebanyak 217.014 jiwa dan memiliki luas wilayah 161,6 km2. Kota ini memiliki jumlah kepadatan penduduk sebanyak 1350,3 jiwa/km2.
 1-2	Tepatnya	_	_	_	_	_	_	_	MorphInd=^tepat<a>_ASP+dia<p>_PS3$
 1	Tepat	tepat	NOUN	ASP	_	0	root	_	MorphInd=^tepat<a>_ASP$
 2	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	MorphInd=^dia<p>_PS3$
 3	di	di	ADP	R--	_	4	case	_	MorphInd=^di<r>_R--$
 4	negara	negara	NOUN	NSD	Number=Sing	1	nmod	_	MorphInd=^negara<n>_NSD$
 5	bagian	bagian	NOUN	NSD	Number=Sing	4	compound	_	MorphInd=^bagi<v>+an_NSD$
-6	Ohio	ohio	PROPN	F--	_	4	flat	_	SpaceAfter=No|MorphInd=^ohio<f>_F--$
+6	Ohio	ohio	PROPN	F--	_	4	nmod	_	SpaceAfter=No|MorphInd=^ohio<f>_F--$
 7	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 8	Pada	pada	ADP	R--	_	9	case	_	MorphInd=^pada<r>_R--$
 9	tahun	tahun	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^tahun<n>_NSD$
@@ -11581,7 +11581,7 @@
 11	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 12	kota	kota	NOUN	NSD	Number=Sing	14	nsubj	_	MorphInd=^kota<n>_NSD$
 13	ini	ini	DET	B--	PronType=Dem	12	det	_	MorphInd=^ini<b>_B--$
-14	memiliki	milik	VERB	VSA	Voice=Act	1	dep	_	MorphInd=^meN+milik<v>+i_VSA$
+14	memiliki	milik	VERB	VSA	Voice=Act	1	parataxis	_	MorphInd=^meN+milik<v>+i_VSA$
 15	jumlah	jumlah	NOUN	NSD	Number=Sing	14	obj	_	MorphInd=^jumlah<n>_NSD$
 16	penduduk	penduduk	NOUN	NSD	Number=Sing	15	compound	_	MorphInd=^penduduk<n>_NSD$
 17	sebanyak	sebanyak	ADV	R--	_	16	advmod	_	MorphInd=^sebanyak<r>_R--$
@@ -11591,27 +11591,21 @@
 21	memiliki	milik	VERB	VSA	Voice=Act	14	conj	_	MorphInd=^meN+milik<v>+i_VSA$
 22	luas	luas	NOUN	ASP	_	21	obj	_	MorphInd=^luas<a>_ASP$
 23	wilayah	wilayah	NOUN	NSD	Number=Sing	22	compound	_	MorphInd=^wilayah<n>_NSD$
-24	161	161	NUM	CC-	NumType=Card	27	nummod	_	SpaceAfter=No|MorphInd=^161<c>_CC-$
-25	,	,	PUNCT	Z--	_	24	punct	_	MorphInd=^,<z>_Z--$
-26	6	6	NUM	CC-	NumType=Card	27	nummod	_	MorphInd=^6<c>_CC-$
-27	km&amp;sup2	km&amp;sup2	NUM	X--	NumType=Card	22	nummod	_	SpaceAfter=No|MorphInd=^km&amp;amp;sup2<x>_X--$
-28	;	;	PUNCT	Z--	_	14	punct	_	SpaceAfter=No|MorphInd=^;<z>_Z--$
-29	.	.	PUNCT	Z--	_	14	punct	_	MorphInd=^.<z>_Z--$
-30	Kota	kota	NOUN	NSD	Number=Sing	32	nsubj	_	MorphInd=^kota<n>_NSD$
-31	ini	ini	DET	B--	PronType=Dem	30	det	_	MorphInd=^ini<b>_B--$
-32	memiliki	milik	VERB	VSA	Voice=Act	1	dep	_	MorphInd=^meN+milik<v>+i_VSA$
-33	jumlah	jumlah	NOUN	NSD	Number=Sing	32	obj	_	MorphInd=^jumlah<n>_NSD$
-34	kepadatan	kepadatan	NOUN	NSD	Number=Sing	33	compound	_	MorphInd=^ke+padat<a>+an_NSD$
-35	penduduk	penduduk	NOUN	NSD	Number=Sing	34	compound	_	MorphInd=^penduduk<n>_NSD$
-36	sebanyak	sebanyak	ADP	R--	_	40	case	_	MorphInd=^sebanyak<r>_R--$
-37	1350	1350	NUM	CC-	NumType=Card	40	nummod	_	SpaceAfter=No|MorphInd=^1350<c>_CC-$
-38	,	,	PUNCT	Z--	_	37	punct	_	MorphInd=^,<z>_Z--$
-39	3	3	NUM	CC-	NumType=Card	40	nummod	_	MorphInd=^3<c>_CC-$
-40	jiwa	jiwa	NOUN	NSD	Number=Sing	33	nmod	_	MorphInd=^jiwa<n>_NSD$
-41	/	/	PUNCT	Z--	_	40	punct	_	MorphInd=^/<z>_Z--$
-42	km&amp;sup2	km&amp;sup2	NUM	X--	NumType=Card	40	nummod	_	SpaceAfter=No|MorphInd=^km&amp;amp;sup2<x>_X--$
-43	;	;	PUNCT	Z--	_	32	punct	_	SpaceAfter=No|MorphInd=^;<z>_Z--$
-44	.	.	PUNCT	Z--	_	32	punct	_	MorphInd=^.<z>_Z--$
+24	161,6	161	NUM	CC-	NumType=Card	25	nummod	_	MorphInd=^161<c>_CC-$
+25	km2	km2	NOUN	X--	_	22	nmod	_	SpaceAfter=No|MorphInd=^km&amp;amp;sup2<x>_X--$
+26	.	.	PUNCT	Z--	_	14	punct	_	MorphInd=^.<z>_Z--$
+27	Kota	kota	NOUN	NSD	Number=Sing	29	nsubj	_	MorphInd=^kota<n>_NSD$
+28	ini	ini	DET	B--	PronType=Dem	27	det	_	MorphInd=^ini<b>_B--$
+29	memiliki	milik	VERB	VSA	Voice=Act	1	parataxis	_	MorphInd=^meN+milik<v>+i_VSA$
+30	jumlah	jumlah	NOUN	NSD	Number=Sing	29	obj	_	MorphInd=^jumlah<n>_NSD$
+31	kepadatan	kepadatan	NOUN	NSD	Number=Sing	30	compound	_	MorphInd=^ke+padat<a>+an_NSD$
+32	penduduk	penduduk	NOUN	NSD	Number=Sing	31	compound	_	MorphInd=^penduduk<n>_NSD$
+33	sebanyak	sebanyak	NOUN	R--	_	30	nmod	_	MorphInd=^sebanyak<r>_R--$
+34	1350,3	1350	NUM	CC-	NumType=Card	35	nummod	_	MorphInd=^1350<c>_CC-$
+35	jiwa	jiwa	NOUN	NSD	Number=Sing	30	nmod	_	SpaceAfter=No|MorphInd=^jiwa<n>_NSD$
+36	/	/	PUNCT	Z--	_	35	punct	_	SpaceAfter=No|MorphInd=^/<z>_Z--$
+37	km2	km2	NOUN	X--	NumType=Card	35	nmod	_	SpaceAfter=No|MorphInd=^km&amp;amp;sup2<x>_X--$
+38	.	.	PUNCT	Z--	_	29	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s482
 # text = Setelah bermukim di Tokyo, Hyakken menjadi murid pemain koto tunanetra sekaligus pencipta lagu Michio Miyagi yang terkenal dengan lagu "Haru No Umi".
@@ -12256,19 +12250,19 @@
 18	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s508
-# text = Pada bulan Mei 2011 lalu, ia memutuskan membeli 51 % saham Mandala Airlines.
+# text = Pada bulan Mei 2011 lalu, ia memutuskan membeli 51% saham Mandala Airlines.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
 2	bulan	bulan	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^bulan<n>_NSD$
-3	Mei	mei	PROPN	NSD	_	2	flat	_	MorphInd=^mei<n>_NSD$
+3	Mei	mei	PROPN	NSD	_	2	nmod	_	MorphInd=^mei<n>_NSD$
 4	2011	2011	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^2011<c>_CC-$
-5	lalu	lalu	ADV	ASP	_	3	advmod	_	SpaceAfter=No|MorphInd=^lalu<a>_ASP$
+5	lalu	lalu	ADV	ASP	_	2	advmod	_	SpaceAfter=No|MorphInd=^lalu<a>_ASP$
 6	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 7	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	MorphInd=^ia<p>_PS3$
 8	memutuskan	putus	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+putus<a>+kan_VSA$
 9	membeli	beli	VERB	VSA	Voice=Act	8	xcomp	_	MorphInd=^meN+beli<v>_VSA$
-10	51	51	NUM	CC-	NumType=Card	11	nummod	_	MorphInd=^51<c>_CC-$
+10	51	51	NUM	CC-	NumType=Card	11	nummod	_	SpaceAfter=No|MorphInd=^51<c>_CC-$
 11	%	%	SYM	Z--	_	9	obj	_	MorphInd=^%<z>_Z--$
-12	saham	saham	NOUN	NSD	Number=Sing	12	nmod	_	MorphInd=^saham<n>_NSD$
+12	saham	saham	NOUN	NSD	Number=Sing	11	nmod	_	MorphInd=^saham<n>_NSD$
 13	Mandala	mandala	PROPN	F--	_	12	nmod	_	MorphInd=^mandala<f>_F--$
 14	Airlines	airlines	PROPN	F--	_	13	flat	_	SpaceAfter=No|MorphInd=^airlines<f>_F--$
 15	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
@@ -12401,7 +12395,7 @@
 15	Suzuki	suzuki	PROPN	F--	_	14	flat	_	MorphInd=^suzuki<f>_F--$
 16	dari	dari	ADP	R--	_	18	case	_	MorphInd=^dari<r>_R--$
 17	°	°	SYM	Z--	_	14	nmod	_	SpaceAfter=No|MorphInd=^°<z>_Z--$
-18	°C-ute	°C-ute	PROPN	F--	_	17	nmod	_	SpaceAfter=No|MorphInd=^c<f>_F--$
+18	C-ute	°C-ute	PROPN	F--	_	17	nmod	_	SpaceAfter=No|MorphInd=^c<f>_F--$
 19	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s513
