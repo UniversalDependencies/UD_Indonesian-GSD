@@ -933,7 +933,7 @@
 64	Sri	sri	PROPN	F--	_	63	flat	_	MorphInd=^sri<f>_F--$
 65	Kartini	kartini	PROPN	X--	_	64	flat	_	SpaceAfter=No|MorphInd=^kartini<x>_X--$
 66	,	,	PUNCT	Z--	_	67	punct	_	MorphInd=^,<z>_Z--$
-67	Kustilah	sti	PROPN	PS1+VSA+T--	Person=1	26	conj	_	SpaceAfter=No|MorphInd=^aku<p>_PS1+st<f>+i_VSA+lah<t>_T--$
+67	Kustilah	sti	PROPN	X--	_	26	conj	_	SpaceAfter=No|MorphInd=^aku<p>_PS1+st<f>+i_VSA+lah<t>_T--$
 68	,	,	PUNCT	Z--	_	69	punct	_	MorphInd=^,<z>_Z--$
 69	Herlina	herlina	PROPN	X--	_	26	conj	_	SpaceAfter=No|MorphInd=^herlina<x>_X--$
 70	,	,	PUNCT	Z--	_	71	punct	_	MorphInd=^,<z>_Z--$
@@ -8765,7 +8765,7 @@
 10	Sebulu	sebulu	PROPN	ASP	_	9	flat	_	SpaceAfter=No|MorphInd=^se+bulu<n>_ASP$
 11	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
 12	kabupaten	kabupaten	NOUN	NSD	Number=Sing	8	appos	_	MorphInd=^kabupaten<n>_NSD$
-13	Kutai	tai	PROPN	PS1+VSA	Person=1|Voice=Act	12	flat	_	MorphInd=^aku<p>_PS1+ta<f>+i_VSA$
+13	Kutai	tai	PROPN	X--	_	12	flat	_	MorphInd=^aku<p>_PS1+ta<f>+i_VSA$
 14	Kartanegara	kartanegara	PROPN	X--	_	13	flat	_	SpaceAfter=No|MorphInd=^kartanegara<x>_X--$
 15	,	,	PUNCT	Z--	_	16	punct	_	MorphInd=^,<z>_Z--$
 16	Provinsi	provinsi	PROPN	NSD	_	12	appos	_	MorphInd=^provinsi<n>_NSD$
