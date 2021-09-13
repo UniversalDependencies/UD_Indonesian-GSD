@@ -2859,7 +2859,7 @@
 41	,	,	PUNCT	Z--	_	42	punct	_	MorphInd=^,<z>_Z--$
 42	naskhah-naskhah	naskhah	NOUN	X--	Number=Plur	38	conj	_	MorphInd=^naskhah<x>_X--$
 43	dan	dan	CCONJ	H--	_	44	cc	_	MorphInd=^dan<h>_H--$
-44	lain-lain	lain	NOUN	ASP	_|Number=Plur	38	conj	_	MorphInd=^lain<a>_ASP$|SpaceAfter=No
+44	lain-lain	lain	NOUN	ASP	Number=Plur	38	conj	_	MorphInd=^lain<a>_ASP$|SpaceAfter=No
 45	.	.	PUNCT	Z--	_	31	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s114
@@ -5595,7 +5595,7 @@
 7	memiliki	milik	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+milik<v>+i_VSA$
 8	luas	luas	ADJ	ASP	_	9	amod	_	MorphInd=^luas<a>_ASP$
 9	permukaan	permukaan	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^per+muka<n>+an_NSD$
-10	rata-rata	rata	NOUN	ASP	_|Number=Plur	9	compound	_	MorphInd=^rata<a>_ASP$
+10	rata-rata	rata	NOUN	ASP	Number=Plur	9	compound	_	MorphInd=^rata<a>_ASP$
 11	100	100	NUM	CC-	NumType=Card	12	nummod	_	MorphInd=^100<c>_CC-$
 12	m²	m²	NOUN	X--	_	10	compound	_	MorphInd=^m²<x>_X--$
 13	per	per	DET	R--	_	14	det	_	MorphInd=^per<r>_R--$

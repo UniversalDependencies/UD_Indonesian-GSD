@@ -6293,11 +6293,11 @@
 3	pada	pada	ADP	R--	_	4	case	_	MorphInd=^pada<r>_R--$
 4	koordinat	koordinat	NOUN	X--	_	2	obl	_	MorphInd=^koordinat<x>_X--$
 5	33	33	NUM	CC-	NumType=Card	6	nummod	_	SpaceAfter=No|MorphInd=^33<c>_CC-$
-6	°	°	SYM	Z--	_	5	nmod	_	MorphInd=^°<z>_Z--$
+6	°	°	SYM	Z--	_	9	nmod	_	MorphInd=^°<z>_Z--$
 7	40	40	NUM	CC-	NumType=Card	8	nummod	_	SpaceAfter=No|MorphInd=^40<c>_CC-$
-8	′	′	PUNCT	Z--	_	5	nmod	_	MorphInd=^′<z>_Z--$
+8	′	′	PUNCT	Z--	_	9	nmod	_	MorphInd=^′<z>_Z--$
 9	LU	lu	PROPN	F--	_	4	nmod	_	MorphInd=^lu<f>_F--$
-10	73	73	NUM	CC-	NumType=Card	10	nummod	_	SpaceAfter=No|MorphInd=^73<c>_CC-$
+10	73	73	NUM	CC-	NumType=Card	11	nummod	_	SpaceAfter=No|MorphInd=^73<c>_CC-$
 11	°	°	SYM	Z--	_	14	nmod	_	MorphInd=^°<z>_Z--$
 12	10	10	NUM	CC-	NumType=Card	13	nummod	_	SpaceAfter=No|MorphInd=^10<c>_CC-$
 13	′	′	PUNCT	Z--	_	14	punct	_	MorphInd=^′<z>_Z--$
@@ -7799,7 +7799,7 @@
 40	.	.	PUNCT	Z--	_	37	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s302
-# text = Pendaratan dilakukan di sudut 34, yang berarti pesawat harus terbang di atas pantai Lagana dan membuat berputar 180 °.
+# text = Pendaratan dilakukan di sudut 34, yang berarti pesawat harus terbang di atas pantai Lagana dan membuat berputar 180°.
 1	Pendaratan	pendaratan	NOUN	NSD	Number=Sing	2	nsubj:pass	_	MorphInd=^peN+darat<n>+an_NSD$
 2	dilakukan	laku	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
 3	di	di	ADP	R--	_	4	case	_	MorphInd=^di<r>_R--$
@@ -7807,18 +7807,18 @@
 5	34	34	NUM	CC-	NumType=Card	4	nummod	_	SpaceAfter=No|MorphInd=^34<c>_CC-$
 6	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 7	yang	yang	PRON	S--	PronType=Rel	8	nsubj	_	MorphInd=^yang<s>_S--$
-8	berarti	arti	VERB	VSA	Voice=Act	2	acl	_	MorphInd=^ber+arti<n>_VSA$
+8	berarti	arti	VERB	VSA	Voice=Act	2	advcl	_	MorphInd=^ber+arti<n>_VSA$
 9	pesawat	pesawat	NOUN	NSD	Number=Sing	11	nsubj	_	MorphInd=^pesawat<n>_NSD$
 10	harus	harus	ADV	M--	_	11	advmod	_	MorphInd=^harus<m>_M--$
 11	terbang	terbang	VERB	VSA	Voice=Act	8	ccomp	_	MorphInd=^terbang<v>_VSA$
 12	di	di	ADP	R--	_	14	case	_	MorphInd=^di<r>_R--$
 13	atas	atas	ADP	R--	_	14	case	_	MorphInd=^atas<r>_R--$
 14	pantai	pantai	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^pantai<n>_NSD$
-15	Lagana	lagana	PROPN	X--	_	14	flat	_	MorphInd=^lagana<x>_X--$
+15	Lagana	lagana	PROPN	X--	_	14	nmod	_	MorphInd=^lagana<x>_X--$
 16	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
 17	membuat	buat	VERB	VSA	Voice=Act	11	conj	_	MorphInd=^meN+buat<v>_VSA$
 18	berputar	putar	VERB	VSA	Voice=Act	17	ccomp	_	MorphInd=^ber+putar<v>_VSA$
-19	180	180	NUM	CC-	NumType=Card	19	nummod	_	MorphInd=^180<c>_CC-$
+19	180	180	NUM	CC-	NumType=Card	18	nummod	_	SpaceAfter=No|MorphInd=^180<c>_CC-$
 20	°	°	SYM	Z--	_	18	nmod	_	SpaceAfter=No|MorphInd=^°<z>_Z--$
 21	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
@@ -10898,7 +10898,7 @@
 29	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s419
-# text = Di Britania Raya, para partner Arthur Andersen setempat kebanyakan bergabung dengan Ernst &amp; Young dan Deloitte Touche Tohmatsu.
+# text = Di Britania Raya, para partner Arthur Andersen setempat kebanyakan bergabung dengan Ernst & Young dan Deloitte Touche Tohmatsu.
 1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
 2	Britania	britania	PROPN	X--	_	11	obl	_	MorphInd=^britania<x>_X--$
 3	Raya	raya	PROPN	ASP	_	2	flat	_	SpaceAfter=No|MorphInd=^raya<a>_ASP$
