@@ -1556,7 +1556,7 @@
 7	wanita	wanita	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^wanita<n>_NSD$
 8	muda	muda	ADJ	ASP	_	7	amod	_	MorphInd=^muda<a>_ASP$
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
-10	ketakutan	takut	VERB	NSD	_	7	acl	_	MorphInd=^ke+takut<a>+an_NSD$
+10	ketakutan	takut	NOUN	NSD	_	7	nmod	_	MorphInd=^ke+takut<a>+an_NSD$
 11-12	dengannya	_	_	_	_	_	_	_	MorphInd=^dengan<r>_R--+dia<p>_PS3$|SpaceAfter=No
 11	dengan	dengan	NOUN	R--	_	10	compound	_	MorphInd=^dengan<r>_R--$
 12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -1870,7 +1870,7 @@
 # text = shikamaru belum kehabisan akal, dia lalu memancing Tayuya mendekat dan menjebaknya dengan kagemane, kageshibari no jutsu.
 1	shikamaru	shikamaru	PROPN	X--	_	3	nsubj	_	MorphInd=^shikamaru<x>_X--$
 2	belum	belum	ADV	G--	_	3	advmod	_	MorphInd=^belum<g>_G--$
-3	kehabisan	habis	VERB	NSD	_	0	root	_	MorphInd=^ke+habis<a>+an_NSD$
+3	kehabisan	habis	NOUN	NSD	_	0	root	_	MorphInd=^ke+habis<a>+an_NSD$
 4	akal	akal	NOUN	NSD	Number=Sing	3	obj	_	SpaceAfter=No|MorphInd=^akal<n>_NSD$
 5	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 6	dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	MorphInd=^dia<p>_PS3$
@@ -3404,7 +3404,7 @@
 4	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	MorphInd=^dia<p>_PS3$
 5	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 6	Miki	miki	PROPN	X--	_	7	nsubj	_	MorphInd=^miki<x>_X--$
-7	kehilangan	hilang	VERB	NSD	_	0	root	_	MorphInd=^ke+hilang<a>+an_NSD$
+7	kehilangan	hilang	NOUN	NSD	_	0	root	_	MorphInd=^ke+hilang<a>+an_NSD$
 8	kendali	kendali	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^kendali<n>_NSD$
 9	pesawat	pesawat	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^pesawat<n>_NSD$
 10	dan	dan	CCONJ	H--	_	12	cc	_	MorphInd=^dan<h>_H--$
@@ -5972,7 +5972,7 @@
 11	Brasil	brasil	PROPN	NSD	_	10	flat	_	MorphInd=^brasil<n>_NSD$
 12	atau	atau	CCONJ	H--	_	13	cc	_	MorphInd=^atau<h>_H--$
 13-14	kebalikannya	_	_	_	_	_	_	_	MorphInd=^ke+balik<v>+an_NSD+dia<p>_PS3$|SpaceAfter=No
-13	kebalikan	balik	VERB	NSD	_	8	conj	_	MorphInd=^ke+balik<v>+an_NSD$
+13	kebalikan	balik	NOUN	NSD	_	8	conj	_	MorphInd=^ke+balik<v>+an_NSD$
 14	nya	nya	DET	PS3	_	13	det	_	MorphInd=^dia<p>_PS3$
 15	?	?	PUNCT	Z--	_	8	punct	_	MorphInd=^?<z>_Z--$
 
@@ -8245,7 +8245,7 @@
 39	kualitas	kualitas	NOUN	NSD	Number=Sing	31	nmod	_	MorphInd=^kualitas<n>_NSD$
 40	yang	yang	PRON	S--	PronType=Rel	42	nsubj:pass	_	MorphInd=^yang<s>_S--$
 41	tetap	tetap	ADV	ASP	_	42	advmod	_	MorphInd=^tetap<a>_ASP$
-42	terjaga	terjaga	VERB	VSP	Voice=Pass	39	acl:relcl	_	SpaceAfter=No|MorphInd=^ter+jaga<v>_VSP$
+42	terjaga	jaga	VERB	VSP	Voice=Pass	39	acl:relcl	_	SpaceAfter=No|MorphInd=^ter+jaga<v>_VSP$
 43	.	.	PUNCT	Z--	_	22	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s347
@@ -9380,7 +9380,7 @@
 12	tertuang	tuang	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^ter+tuang<v>_VSP$
 13	dalam	dalam	ADP	R--	_	14	case	_	MorphInd=^dalam<r>_R--$
 14	butir-butir	butir	NOUN	NSD	Number=Plur	12	obl	_	MorphInd=^butir<n>_NSD$
-15	kebijakan	bijak	VERB	NSD	_	14	compound	_	SpaceAfter=No|MorphInd=^ke+bijak<a>+an_NSD$
+15	kebijakan	bijak	NOUN	NSD	_	14	compound	_	SpaceAfter=No|MorphInd=^ke+bijak<a>+an_NSD$
 16	,	,	PUNCT	Z--	_	19	punct	_	MorphInd=^,<z>_Z--$
 17	yaitu	yaitu	SCONJ	O--	_	19	mark	_	SpaceAfter=No|MorphInd=^yaitu<o>_O--$
 18	:	:	PUNCT	Z--	_	17	punct	_	MorphInd=^:<z>_Z--$

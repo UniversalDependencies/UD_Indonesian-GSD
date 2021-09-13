@@ -10141,7 +10141,7 @@
 24	,	,	PUNCT	Z--	_	19	punct	_	SpaceAfter=No|MorphInd=^,<z>_Z--$
 25	,	,	PUNCT	Z--	_	26	punct	_	MorphInd=^,<z>_Z--$
 26	berbanding	banding	VERB	VSA	Voice=Act	1	dep	_	MorphInd=^ber+banding<v>_VSA$
-27	terbalik	terbalik	VERB	VSP	Voice=Pass	26	acl	_	MorphInd=^ter+balik<v>_VSP$
+27	terbalik	balik	VERB	VSP	Voice=Pass	26	acl	_	MorphInd=^ter+balik<v>_VSP$
 28	dengan	dengan	ADP	R--	_	29	case	_	MorphInd=^dengan<r>_R--$
 29	Dsn	dsn	PROPN	X--	_	26	obl	_	SpaceAfter=No|MorphInd=^dsn<x>_X--$
 30	.	.	PUNCT	Z--	_	29	punct	_	MorphInd=^.<z>_Z--$
@@ -12102,7 +12102,7 @@
 8	bahasa	bahasa	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^bahasa<n>_NSD$
 9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	MorphInd=^dia<p>_PS3$
 10	banyak	banyak	ADV	ASP	_	11	advmod	_	MorphInd=^banyak<a>_ASP$
-11	kesamaan	sama	VERB	NSD	_	4	acl	_	MorphInd=^ke+sama<a>+an_NSD$
+11	kesamaan	sama	NOUN	NSD	_	4	nmod	_	MorphInd=^ke+sama<a>+an_NSD$
 12	dengan	dengan	ADP	R--	_	13	case	_	MorphInd=^dengan<r>_R--$
 13	tata	tata	NOUN	VSA	_	11	obl	_	MorphInd=^tata<v>_VSA$
 14	bahasa	bahasa	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^bahasa<n>_NSD$
@@ -12286,7 +12286,7 @@
 36	Iwan	iwan	PROPN	X--	_	39	nsubj	_	MorphInd=^iwan<x>_X--$
 37	dan	dan	CCONJ	H--	_	38	cc	_	MorphInd=^dan<h>_H--$
 38	Sukma	sukma	PROPN	X--	_	36	conj	_	MorphInd=^sukma<x>_X--$
-39	kecelakaan	celaka	VERB	NSD	_	5	dep	_	SpaceAfter=No|MorphInd=^ke+celaka<a>+an_NSD$
+39	kecelakaan	celaka	NOUN	NSD	_	5	dep	_	SpaceAfter=No|MorphInd=^ke+celaka<a>+an_NSD$
 40	.	.	PUNCT	Z--	_	39	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s472

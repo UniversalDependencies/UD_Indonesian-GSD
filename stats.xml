@@ -10,27 +10,26 @@
     <dev><sentences>559</sentences><tokens>12474</tokens><words>12638</words><fused>164</fused></dev>
     <test><sentences>557</sentences><tokens>11622</tokens><words>11764</words><fused>142</fused></test>
   </size>
-  <lemmas unique="17374" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, -, untuk -->
+  <lemmas unique="17358" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, -, untuk -->
   <forms unique="19593" /><!-- ,, ., yang, dan, di, nya, pada, dari, dengan, ini, ), (, adalah, -, untuk -->
   <fusions unique="785" /><!-- ayahnya, namanya, penduduknya, anaknya, artinya, ibunya, keduanya, kalinya, sebagainya, istrinya, adiknya, harinya, hidupnya, keluarganya, letaknya -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="17">
+  <tags unique="16">
     <tag name="ADJ">4317</tag><!-- lain, besar, baru, lainnya, utama, sama, kecil, pertama, tinggi, baik -->
     <tag name="ADP">12013</tag><!-- di, pada, dari, dengan, untuk, dalam, oleh, sebagai, ke, seperti -->
     <tag name="ADV">4712</tag><!-- juga, akan, dapat, telah, lebih, kemudian, hanya, bisa, masih, sangat -->
     <tag name="AUX">1057</tag><!-- adalah, ialah, dapat, harus -->
     <tag name="CCONJ">3692</tag><!-- dan, atau, serta, tetapi, karena, maupun, namun, tapi, and, juga -->
     <tag name="DET">4025</tag><!-- ini, itu, sebuah, tersebut, satu, seorang, salah, beberapa, para, berbagai -->
-    <tag name="NOUN">26531</tag><!-- tahun, orang, desa, nama, kota, bagian, bahasa, wilayah, tanggal, negara -->
+    <tag name="NOUN">26548</tag><!-- tahun, orang, desa, nama, kota, bagian, bahasa, wilayah, tanggal, negara -->
     <tag name="NUM">4384</tag><!-- dua, pertama, kedua, 1, satu, 2, 3, 5, tiga, 4 -->
     <tag name="PART">620</tag><!-- tidak, bukan, tak, pun, belum, kan, ya, jangan, non, tanpa -->
     <tag name="PRON">6182</tag><!-- yang, dia, ia, mereka, apa, kita, siapa, kamu, aku, engkau -->
-    <tag name="PRONOUN">1</tag><!-- September -->
-    <tag name="PROPN">22646</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
+    <tag name="PROPN">22647</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
     <tag name="PUNCT">17732</tag><!-- ,, ., ), (, -, ?, ", :, _, / -->
     <tag name="SCONJ">1450</tag><!-- bahwa, karena, namun, ketika, sehingga, maka, jika, setelah, yaitu, sementara -->
     <tag name="SYM">203</tag><!-- %, =, *, &amp;, °, #, km, +, $, m² -->
-    <tag name="VERB">12461</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, laku -->
+    <tag name="VERB">12444</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, laku -->
     <tag name="X">40</tag><!-- jpg, an, www, anti, b, dkk, s, x, y, &amp;nbsp -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -63,9 +62,9 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">
-    <dep name="acl">3367</dep>
+    <dep name="acl">3365</dep>
     <dep name="acl:relcl">1</dep>
-    <dep name="advcl">1329</dep>
+    <dep name="advcl">1326</dep>
     <dep name="advmod">5288</dep>
     <dep name="amod">4552</dep>
     <dep name="appos">2660</dep>
@@ -84,13 +83,13 @@
     <dep name="flat">11364</dep>
     <dep name="iobj">22</dep>
     <dep name="mark">1542</dep>
-    <dep name="nmod">4474</dep>
+    <dep name="nmod">4476</dep>
     <dep name="nmod:poss">1201</dep>
     <dep name="nsubj">7124</dep>
     <dep name="nsubj:pass">2216</dep>
     <dep name="nummod">4317</dep>
     <dep name="obj">5958</dep>
-    <dep name="obl">6349</dep>
+    <dep name="obl">6352</dep>
     <dep name="obl:agent">57</dep>
     <dep name="parataxis">404</dep>
     <dep name="punct">17826</dep>
