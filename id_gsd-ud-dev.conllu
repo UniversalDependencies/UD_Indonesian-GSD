@@ -902,7 +902,7 @@
 33	Irawati	irawati	PROPN	X--	_	26	conj	_	MorphInd=^irawati<x>_X--$
 34	Durban	durban	PROPN	F--	_	33	flat	_	SpaceAfter=No|MorphInd=^durban<f>_F--$
 35	,	,	PUNCT	Z--	_	36	punct	_	MorphInd=^,<z>_Z--$
-36	Indrawati	indrawati	PROPN	NSF	Gender=Fem	26	conj	_	MorphInd=^indra<n>+wati_NSF$
+36	Indrawati	indrawati	PROPN	NSF	_	26	conj	_	MorphInd=^indra<n>+wati_NSF$
 37	Lukman	lukman	PROPN	F--	_	36	flat	_	SpaceAfter=No|MorphInd=^lukman<f>_F--$
 38	,	,	PUNCT	Z--	_	39	punct	_	MorphInd=^,<z>_Z--$
 39	R	r	PROPN	F--	_	26	conj	_	SpaceAfter=No|MorphInd=^r<f>_F--$
