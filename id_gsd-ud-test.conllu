@@ -1519,7 +1519,7 @@
 5	dari	dari	ADP	R--	_	7	case	_	MorphInd=^dari<r>_R--$
 6	beberapa	beberapa	DET	B--	PronType=Ind	7	det	_	MorphInd=^beberapa<b>_B--$
 7	komune	komune	NOUN	X--	_	2	obj	_	MorphInd=^komune<x>_X--$
-8	Perancis	perancis	PROPN	NSD	_	7	flat	_	MorphInd=^perancis<n>_NSD$
+8	Perancis	perancis	PROPN	NSD	_	7	nmod	_	MorphInd=^perancis<n>_NSD$
 9	dimana	dimana	SCONJ	W--	PronType=Int	12	mark	_	MorphInd=^dimana<w>_W--$
 10-11	batasannya	_	_	_	_	_	_	_	MorphInd=^batas<n>+an_NSD+dia<p>_PS3$
 10	batasan	batasan	NOUN	NSD	Number=Sing	12	nsubj:pass	_	MorphInd=^batas<n>+an_NSD$
@@ -1689,7 +1689,7 @@
 6	oleh	oleh	ADP	R--	_	8	case	_	MorphInd=^oleh<r>_R--$
 7	seorang	seorang	DET	B--	PronType=Ind	8	det	_	MorphInd=^seorang<b>_B--$
 8	industrialis	industrialis	NOUN	X--	_	5	obl	_	MorphInd=^industrialis<x>_X--$
-9	Perancis	perancis	PROPN	NSD	_	8	flat	_	MorphInd=^perancis<n>_NSD$
+9	Perancis	perancis	PROPN	NSD	_	8	nmod	_	MorphInd=^perancis<n>_NSD$
 10	bernama	nama	VERB	VSA	Voice=Act	8	acl	_	MorphInd=^ber+nama<n>_VSA$
 11	Henry	henry	PROPN	F--	_	10	obj	_	MorphInd=^henry<f>_F--$
 12	Fayol	fayol	PROPN	X--	_	11	flat	_	MorphInd=^fayol<x>_X--$
@@ -1761,8 +1761,8 @@
 # text = Ia memulai Perang Perancis - Italia yang panjang yang memberi warna paruh pertama abad ke - 16.
 1	Ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	MorphInd=^ia<p>_PS3$
 2	memulai	mulai	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+mulai<v>_VSA$
-3	Perang	perang	PRON	NSD	Number=Sing	2	obj	_	MorphInd=^perang<n>_NSD$
-4	Perancis	perancis	PROPN	NSD	_	3	flat	_	MorphInd=^perancis<n>_NSD$
+3	Perang	perang	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^perang<n>_NSD$
+4	Perancis	perancis	PROPN	NSD	_	3	nmod	_	MorphInd=^perancis<n>_NSD$
 5	-	-	PUNCT	Z--	_	6	punct	_	MorphInd=^-<z>_Z--$
 6	Italia	italia	PROPN	F--	_	4	flat	_	MorphInd=^italia<f>_F--$
 7	yang	yang	PRON	S--	PronType=Rel	8	nsubj	_	MorphInd=^yang<s>_S--$
@@ -3591,7 +3591,7 @@
 # text = Koran anarkis Perancis, Le Drapeau Noir ("The Black Flag"), yang bertahan sampai tahun 1882, merupakan salah satu acuan dari penggunaan warna hitam sebagi warna anarkis.
 1	Koran	koran	NOUN	NSD	Number=Sing	22	nsubj	_	MorphInd=^koran<n>_NSD$
 2	anarkis	anarkis	ADJ	X--	_	1	amod	_	MorphInd=^anarkis<x>_X--$
-3	Perancis	perancis	PROPN	NSD	_	1	flat	_	SpaceAfter=No|MorphInd=^perancis<n>_NSD$
+3	Perancis	perancis	PROPN	NSD	_	1	nmod	_	SpaceAfter=No|MorphInd=^perancis<n>_NSD$
 4	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
 5	Le	le	PROPN	F--	_	6	det	_	MorphInd=^le<f>_F--$
 6	Drapeau	drapeau	PROPN	X--	_	1	appos	_	MorphInd=^drapeau<x>_X--$
@@ -8070,7 +8070,7 @@
 8	klub	klub	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^klub<n>_NSD$
 9	sepak	sepak	NOUN	VSA	_	8	compound	_	MorphInd=^sepak<v>_VSA$
 10	bola	bola	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^bola<n>_NSD$
-11	Perancis	perancis	PROPN	NSD	_	8	flat	_	MorphInd=^perancis<n>_NSD$
+11	Perancis	perancis	PROPN	NSD	_	8	nmod	_	MorphInd=^perancis<n>_NSD$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj:pass	_	MorphInd=^yang<s>_S--$
 13	didirikan	diri	VERB	VSP	Voice=Pass	8	acl	_	MorphInd=^di+diri<n>+kan_VSP$
 14	pada	pada	ADP	R--	_	15	case	_	MorphInd=^pada<r>_R--$
@@ -8324,7 +8324,7 @@
 8	Savoie	savoie	PROPN	F--	_	7	flat	_	MorphInd=^savoie<f>_F--$
 9	di	di	ADP	R--	_	10	case	_	MorphInd=^di<r>_R--$
 10	negara	negara	NOUN	NSD	Number=Sing	7	nmod	_	MorphInd=^negara<n>_NSD$
-11	Perancis	perancis	PROPN	NSD	_	10	flat	_	MorphInd=^perancis<n>_NSD$
+11	Perancis	perancis	PROPN	NSD	_	10	nmod	_	MorphInd=^perancis<n>_NSD$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj:pass	_	MorphInd=^yang<s>_S--$
 13	dibuat	buat	VERB	VSP	Voice=Pass	5	acl	_	MorphInd=^di+buat<v>_VSP$
 14	dengan	dengan	ADP	R--	_	15	case	_	MorphInd=^dengan<r>_R--$
@@ -9722,12 +9722,12 @@
 8	istilah	istilah	NOUN	NSD	Number=Sing	18	nsubj:pass	_	MorphInd=^istilah<n>_NSD$
 9	"	"	PUNCT	Z--	_	10	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 10	Tanah	tanah	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^tanah<n>_NSD$
-11	Batak	batak	PROPN	X--	_	10	amod	_	SpaceAfter=No|MorphInd=^batak<x>_X--$
+11	Batak	batak	PROPN	X--	_	10	nmod	_	SpaceAfter=No|MorphInd=^batak<x>_X--$
 12	"	"	PUNCT	Z--	_	10	punct	_	MorphInd=^"<z>_Z--$
 13	dan	dan	CCONJ	H--	_	15	cc	_	MorphInd=^dan<h>_H--$
 14	"	"	PUNCT	Z--	_	15	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 15	rakyat	rakyat	NOUN	NSD	Number=Sing	10	conj	_	MorphInd=^rakyat<n>_NSD$
-16	Batak	batak	PROPN	X--	_	15	amod	_	SpaceAfter=No|MorphInd=^batak<x>_X--$
+16	Batak	batak	PROPN	X--	_	15	nmod	_	SpaceAfter=No|MorphInd=^batak<x>_X--$
 17	"	"	PUNCT	Z--	_	15	punct	_	MorphInd=^"<z>_Z--$
 18	diciptakan	cipta	VERB	VSP	Voice=Pass	6	ccomp	_	MorphInd=^di+cipta<v>+kan_VSP$
 19	oleh	oleh	ADP	R--	_	20	case	_	MorphInd=^oleh<r>_R--$
@@ -9778,7 +9778,7 @@
 38	percaya	percaya	VERB	VSA	Voice=Act	36	acl	_	MorphInd=^percaya<v>_VSA$
 39	bahwa	bahwa	SCONJ	S--	_	45	mark	_	MorphInd=^bahwa<s>_S--$
 40	orang	orang	NOUN	NSD	Number=Sing	45	nsubj:pass	_	MorphInd=^orang<n>_NSD$
-41	Kristen	kristen	PROPN	NSD	_	40	amod	_	MorphInd=^kristen<n>_NSD$
+41	Kristen	kristen	PROPN	NSD	_	40	nmod	_	MorphInd=^kristen<n>_NSD$
 42	secara	secara	ADP	R--	_	43	case	_	MorphInd=^secara<r>_R--$
 43	adikodrati	adikodrati	ADJ	X--	_	40	acl	_	MorphInd=^adikodrati<x>_X--$
 44	akan	akan	ADV	M--	_	45	advmod	_	MorphInd=^akan<m>_M--$
@@ -9839,7 +9839,7 @@
 5	sertifikasi	sertifikasi	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^sertifikasi<n>_NSD$
 6	dalam	dalam	ADP	R--	_	7	case	_	MorphInd=^dalam<r>_R--$
 7	Bahasa	bahasa	PROPN	NSD	_	5	nmod	_	MorphInd=^bahasa<n>_NSD$
-8	Perancis	perancis	PROPN	NSD	_	7	amod	_	MorphInd=^perancis<n>_NSD$
+8	Perancis	perancis	PROPN	NSD	_	7	nmod	_	MorphInd=^perancis<n>_NSD$
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj:pass	_	MorphInd=^yang<s>_S--$
 10	terdiri	diri	VERB	VSP	Voice=Pass	5	acl	_	MorphInd=^ter+diri<n>_VSP$
 11	atas	atas	ADP	R--	_	13	case	_	MorphInd=^atas<r>_R--$
@@ -9895,7 +9895,7 @@
 24	"	"	PUNCT	Z--	_	31	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 25	Satu	satu	NUM	CC-	_	26	nummod	_	MorphInd=^satu<c>_CC-$
 26	Duta	duta	NOUN	NSD	_	31	nsubj	_	MorphInd=^duta<n>_NSD$
-27	Injil	injil	PROPN	NSD	_	26	amod	_	MorphInd=^injil<n>_NSD$
+27	Injil	injil	PROPN	NSD	_	26	nmod	_	MorphInd=^injil<n>_NSD$
 28	yang	yang	PRON	S--	PronType=Rel	29	nsubj	_	MorphInd=^yang<s>_S--$
 29	diberkati	berkat	VERB	VSP	Voice=Pass	26	acl	_	SpaceAfter=No|MorphInd=^di+berkat<n>+i_VSP$
 30	,	,	PUNCT	Z--	_	26	punct	_	MorphInd=^,<z>_Z--$
@@ -10153,13 +10153,13 @@
 3	adalah	adalah	AUX	O--	_	4	cop	_	MorphInd=^adalah<o>_O--$
 4	penderitaan	penderitaan	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^peN+derita<n>+an_NSD$
 5	penduduk	penduduk	NOUN	NSD	Number=Sing	4	compound	_	MorphInd=^penduduk<n>_NSD$
-6	Jerman	jerman	PROPN	NSD	_	5	amod	_	MorphInd=^jerman<n>_NSD$
+6	Jerman	jerman	PROPN	NSD	_	5	nmod	_	MorphInd=^jerman<n>_NSD$
 7	di	di	ADP	R--	_	8	case	_	MorphInd=^di<r>_R--$
 8	perbatasan	perbatasan	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^per+batas<n>+an_NSD$
 9	utara	utara	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^utara<n>_NSD$
 10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
 11	barat	barat	NOUN	NSD	Number=Sing	8	conj	_	MorphInd=^barat<n>_NSD$
-12	Cekoslowakia	cekoslowakia	PROPN	X--	_	11	amod	_	SpaceAfter=No|MorphInd=^cekoslowakia<x>_X--$
+12	Cekoslowakia	cekoslowakia	PROPN	X--	_	11	nmod	_	SpaceAfter=No|MorphInd=^cekoslowakia<x>_X--$
 13	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj:pass	_	MorphInd=^yang<s>_S--$
 15	dikenal	kenal	VERB	VSP	Voice=Pass	11	acl	_	MorphInd=^di+kenal<v>_VSP$
@@ -10183,13 +10183,13 @@
 3	gœngsi	gœngsi	PROPN	X--	_	2	obj	_	MorphInd=^gœngsi<x>_X--$
 4	dalam	dalam	ADP	R--	_	5	case	_	MorphInd=^dalam<r>_R--$
 5	bahasa	bahasa	NOUN	NSD	Number=Sing	3	nmod	_	MorphInd=^bahasa<n>_NSD$
-6	Kanton	kanton	PROPN	X--	_	5	amod	_	SpaceAfter=No|MorphInd=^kanton<x>_X--$
+6	Kanton	kanton	PROPN	X--	_	5	nmod	_	SpaceAfter=No|MorphInd=^kanton<x>_X--$
 7	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 8	atau	atau	CCONJ	H--	_	9	cc	_	MorphInd=^atau<h>_H--$
 9	kyonshi	kyonshi	PROPN	X--	_	3	conj	_	MorphInd=^kyonshi<x>_X--$
 10	dalam	dalam	ADP	R--	_	11	case	_	MorphInd=^dalam<r>_R--$
 11	bahasa	bahasa	NOUN	NSD	Number=Sing	9	nmod	_	MorphInd=^bahasa<n>_NSD$
-12	Jepang	jepang	PROPN	NSD	_	11	amod	_	SpaceAfter=No|MorphInd=^jepang<n>_NSD$
+12	Jepang	jepang	PROPN	NSD	_	11	nmod	_	SpaceAfter=No|MorphInd=^jepang<n>_NSD$
 13	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s423
@@ -10220,7 +10220,7 @@
 # text = Stack protokol Banyan VINES teridi atas lima lapisan yang dapat dipetakan ke dalam tujuh lapisan model referensi OSI, yakni sebagai berikut:
 1	Stack	stack	NOUN	X--	_	5	nsubj:pass	_	MorphInd=^stack<x>_X--$
 2	protokol	protokol	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^protokol<n>_NSD$
-3	Banyan	banyan	PROPN	X--	_	2	amod	_	MorphInd=^banyan<x>_X--$
+3	Banyan	banyan	PROPN	X--	_	2	nmod	_	MorphInd=^banyan<x>_X--$
 4	VINES	vines	PROPN	X--	_	3	flat	_	MorphInd=^vines<x>_X--$
 5	teridi	teridi	VERB	X--	_	0	root	_	MorphInd=^teridi<x>_X--$
 6	atas	atas	ADP	R--	_	8	case	_	MorphInd=^atas<r>_R--$
@@ -10235,7 +10235,7 @@
 15	lapisan	lapisan	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^lapis<n>+an_NSD$
 16	model	model	NOUN	NSD	Number=Sing	15	compound	_	MorphInd=^model<n>_NSD$
 17	referensi	referensi	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^referensi<n>_NSD$
-18	OSI	osi	PROPN	VSA	_	16	amod	_	SpaceAfter=No|MorphInd=^os<f>+i_VSA$
+18	OSI	osi	PROPN	VSA	_	16	nmod	_	SpaceAfter=No|MorphInd=^os<f>+i_VSA$
 19	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
 20	yakni	yakni	ADP	O--	_	5	case	_	MorphInd=^yakni<o>_O--$
 21	sebagai	sebagai	ADP	R--	_	5	case	_	MorphInd=^sebagai<r>_R--$
@@ -10861,7 +10861,7 @@
 21	Minggu	minggu	PROPN	NSD	_	20	flat	_	MorphInd=^minggu<n>_NSD$
 22	di	di	ADP	R--	_	23	case	_	MorphInd=^di<r>_R--$
 23	gereja	gereja	NOUN	NSD	Number=Sing	20	nmod	_	MorphInd=^gereja<n>_NSD$
-24	kristen	kristen	PROPN	NSD	_	23	flat	_	MorphInd=^kristen<n>_NSD$
+24	kristen	kristen	PROPN	NSD	_	23	nmod	_	MorphInd=^kristen<n>_NSD$
 25	lainnya	lainnya	ADJ	D--	_	23	amod	_	SpaceAfter=No|MorphInd=^lainnya<d>_D--$
 26	)	)	PUNCT	Z--	_	18	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
 27	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
@@ -13422,7 +13422,7 @@
 13	baru	baru	ADJ	ASP	_	12	amod	_	MorphInd=^baru<a>_ASP$
 14	dalam	dalam	ADP	R--	_	15	case	_	MorphInd=^dalam<r>_R--$
 15	agama	agama	NOUN	NSD	Number=Sing	12	nmod	_	MorphInd=^agama<n>_NSD$
-16	Kristen	kristen	PROPN	NSD	_	15	flat	_	SpaceAfter=No|MorphInd=^kristen<n>_NSD$
+16	Kristen	kristen	PROPN	NSD	_	15	nmod	_	SpaceAfter=No|MorphInd=^kristen<n>_NSD$
 17	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s551
