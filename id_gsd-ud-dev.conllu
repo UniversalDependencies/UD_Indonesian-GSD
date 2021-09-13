@@ -3481,7 +3481,7 @@
 4	Juli	juli	PROPN	NSD	_	1	appos	_	MorphInd=^juli<n>_NSD$
 5	1936	1936	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^1936<c>_CC-$
 6	–	–	PUNCT	Z--	_	4	punct	_	MorphInd=^–<z>_Z--$
-7	Dies	dies	PROPN	VSP	Voice=Pass	1	nsubj	_	MorphInd=^di+es<n>_VSP$
+7	Dies	dies	PROPN	VSP	_	1	nsubj	_	MorphInd=^di+es<n>_VSP$
 8	Natalis	natalis	PROPN	X--	_	7	flat	_	MorphInd=^natalis<x>_X--$
 9	ke	ke	NUM	R--	NumType=Card	12	det	_	MorphInd=^ke<r>_R--$
 10	-	-	PUNCT	Z--	_	11	punct	_	MorphInd=^-<z>_Z--$
@@ -7651,7 +7651,7 @@
 1	Persoalan	persoalan	NOUN	NSD	Number=Sing	2	nsubj	_	MorphInd=^per+soal<n>+an_NSD$
 2	berikutnya	berikutnya	VERB	D--	_	5	advcl	_	SpaceAfter=No|MorphInd=^berikutnya<d>_D--$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
-4	bagaimana	bagaimana	PRON	W--	PronType=Int	5	advmod	_	MorphInd=^bagaimana<w>_W--$
+4	bagaimana	bagaimana	ADV	W--	PronType=Int	5	advmod	_	MorphInd=^bagaimana<w>_W--$
 5	menentukan	tentu	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+tentu<a>+kan_VSA$
 6	mana	mana	ADP	W--	PronType=Int	7	case	_	MorphInd=^mana<w>_W--$
 7	pelaku	penlaku	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^peN+laku<n>_NSD$
@@ -12586,7 +12586,7 @@
 
 # sent_id = dev-s482
 # text = Bagaimanakah dengan umur kita?
-1	Bagaimanakah	bagaimana	PRON	W--+T--	PronType=Int	0	root	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
+1	Bagaimanakah	bagaimana	ADV	W--+T--	PronType=Int	0	root	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
 2	dengan	dengan	ADP	R--	_	3	case	_	MorphInd=^dengan<r>_R--$
 3	umur	umur	NOUN	NSD	Number=Sing	1	nmod	_	MorphInd=^umur<n>_NSD$
 4	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	det	_	SpaceAfter=No|MorphInd=^kita<p>_PP1$
@@ -13769,7 +13769,7 @@
 6	memiliki	milik	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+milik<v>+i_VSA$
 7	status	status	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^status<n>_NSD$
 8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	Terakreditasi	terakreditasi	PROPN	VSP	Voice=Pass	7	amod	_	SpaceAfter=No|MorphInd=^ter+akreditasi<n>_VSP$
+9	Terakreditasi	terakreditasi	VERB	VSP	Voice=Pass	7	acl	_	SpaceAfter=No|MorphInd=^ter+akreditasi<n>_VSP$
 10	'	'	PUNCT	_	_	9	punct	_	_
 11	pada	pada	ADP	R--	_	12	case	_	MorphInd=^pada<r>_R--$
 12	Badan	badan	PROPN	NSD	_	6	obl	_	MorphInd=^badan<n>_NSD$
