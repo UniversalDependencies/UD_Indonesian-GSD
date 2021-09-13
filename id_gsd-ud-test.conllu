@@ -465,7 +465,7 @@
 13	menghubungkan	hubung	VERB	VSA	Voice=Act	8	acl	_	MorphInd=^meN+hubung<v>+kan_VSA$
 14	seluruh	seluruh	DET	B--	PronType=Tot	15	det	_	MorphInd=^seluruh<b>_B--$
 15	institusi	institusi	NOUN	NSD	Number=Sing	13	obj	_	MorphInd=^institusi<n>_NSD$
-16	/	/	SYM	Z--	_	17	punct	_	MorphInd=^/<z>_Z--$
+16	/	/	PUNCT	Z--	_	17	punct	_	MorphInd=^/<z>_Z--$
 17	lembaga	lembaga	NOUN	NSD	Number=Sing	15	conj	_	MorphInd=^lembaga<n>_NSD$
 18	pendidikan	pendidikan	NOUN	NSD	Number=Sing	17	compound	_	SpaceAfter=No|MorphInd=^peN+didik<v>+an_NSD$
 19	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
@@ -474,9 +474,9 @@
 22	pendidikan	pendidikan	NOUN	NSD	Number=Sing	21	compound	_	MorphInd=^peN+didik<v>+an_NSD$
 23	tingkat	tingkat	NOUN	NSD	Number=Sing	22	compound	_	MorphInd=^tingkat<n>_NSD$
 24	provinsi	provinsi	NOUN	NSD	Number=Sing	23	compound	_	MorphInd=^provinsi<n>_NSD$
-25	/	/	SYM	Z--	_	28	punct	_	MorphInd=^/<z>_Z--$
+25	/	/	PUNCT	Z--	_	28	punct	_	MorphInd=^/<z>_Z--$
 26	kota	kota	NOUN	NSD	Number=Sing	24	compound	_	MorphInd=^kota<n>_NSD$
-27	/	/	SYM	Z--	_	28	punct	_	MorphInd=^/<z>_Z--$
+27	/	/	PUNCT	Z--	_	28	punct	_	MorphInd=^/<z>_Z--$
 28	kabupaten	kabupaten	NOUN	NSD	Number=Sing	24	conj	_	SpaceAfter=No|MorphInd=^kabupaten<n>_NSD$
 29	,	,	PUNCT	Z--	_	30	punct	_	MorphInd=^,<z>_Z--$
 30	perguruan	perguruan	NOUN	NSD	Number=Sing	24	conj	_	MorphInd=^per+guru<n>+an_NSD$
@@ -2840,7 +2840,7 @@
 20	Melayu	melayu	PROPN	NSD	_	19	flat	_	MorphInd=^melayu<n>_NSD$
 21	tulisan	tulisan	NOUN	NSD	Number=Sing	19	compound	_	MorphInd=^tulis<v>+an_NSD$
 22	Melayu	melayu	PROPN	NSD	_	21	flat	_	MorphInd=^melayu<n>_NSD$
-23	/	/	SYM	Z--	_	21	punct	_	MorphInd=^/<z>_Z--$
+23	/	/	PUNCT	Z--	_	21	punct	_	MorphInd=^/<z>_Z--$
 24	Jawi	jawi	NOUN	X--	_	21	compound	_	SpaceAfter=No|MorphInd=^jawi<x>_X--$
 25	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 26	Huruf	huruf	PROPN	NSD	_	31	nsubj:pass	_	MorphInd=^huruf<n>_NSD$
@@ -3199,7 +3199,7 @@
 41	terbaik	terbaik	ADJ	ASS	Degree=Sup	40	amod	_	MorphInd=^ter+baik<a>_ASS$
 42	antara	antara	ADP	R--	_	43	case	_	MorphInd=^antara<r>_R--$
 43	SMA	sma	PROPN	NSD	_	40	nmod	_	MorphInd=^sma<n>_NSD$
-44	/	/	SYM	Z--	_	43	punct	_	MorphInd=^/<z>_Z--$
+44	/	/	PUNCT	Z--	_	43	punct	_	MorphInd=^/<z>_Z--$
 45	SMK	smk	PROPN	X--	_	43	flat	_	MorphInd=^smk<x>_X--$
 46	di	di	ADP	R--	_	47	case	_	MorphInd=^di<r>_R--$
 47	kabupaten	kabupaten	PROPN	NSD	_	40	nmod	_	MorphInd=^kabupaten<n>_NSD$
@@ -4545,7 +4545,7 @@
 21	Konstruksi	konstruksi	PROPN	NSD	_	20	flat	_	SpaceAfter=No|MorphInd=^konstruksi<n>_NSD$
 22	,	,	PUNCT	Z--	_	23	punct	_	MorphInd=^,<z>_Z--$
 23	Pengawasan	penawasan	PROPN	NSD	_	11	conj	_	MorphInd=^peN+awas<v>+an_NSD$
-24	/	/	SYM	Z--	_	25	punct	_	MorphInd=^/<z>_Z--$
+24	/	/	PUNCT	Z--	_	25	punct	_	MorphInd=^/<z>_Z--$
 25	Perencanaan	penrencanaan	PROPN	NSD	_	23	conj	_	MorphInd=^peN+rencana<n>+an_NSD$
 26	pada	pada	ADP	R--	_	27	case	_	MorphInd=^pada<r>_R--$
 27	Bidang	bidang	PROPN	NSD	_	23	nmod	_	MorphInd=^bidang<n>_NSD$
@@ -6809,7 +6809,7 @@
 22	pada	pada	ADP	R--	_	23	case	_	MorphInd=^pada<r>_R--$
 23	Brigif	brigif	PROPN	X--	_	14	obl	_	MorphInd=^brigif<x>_X--$
 24	15	15	NUM	CC-	NumType=Card	23	nummod	_	MorphInd=^15<c>_CC-$
-25	/	/	SYM	Z--	_	24	punct	_	MorphInd=^/<z>_Z--$
+25	/	/	PUNCT	Z--	_	24	punct	_	MorphInd=^/<z>_Z--$
 26	Tirtayasa	tirtayasa	PROPN	X--	_	24	flat	_	MorphInd=^tirtayasa<x>_X--$
 27	dibawah	dibawah	ADP	VSP	_	28	case	_	MorphInd=^di+bawah<n>_VSP$
 28	Pimpinan	pimpinan	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^pimpin<v>+an_NSD$
@@ -8440,7 +8440,7 @@
 # text = Yonif 113 / Jaya Sakti adalah batalyon teritorial Korem 011 / Lilawangsa.
 1	Yonif	yonif	PROPN	X--	_	7	nsubj	_	MorphInd=^yonif<x>_X--$
 2	113	113	NUM	CC-	NumType=Card	1	nummod	_	MorphInd=^113<c>_CC-$
-3	/	/	SYM	Z--	_	1	punct	_	MorphInd=^/<z>_Z--$
+3	/	/	PUNCT	Z--	_	1	punct	_	MorphInd=^/<z>_Z--$
 4	Jaya	jaya	PROPN	NSD	_	1	flat	_	MorphInd=^jaya<n>_NSD$
 5	Sakti	sakti	PROPN	X--	_	4	flat	_	MorphInd=^sakti<x>_X--$
 6	adalah	adalah	AUX	O--	_	7	cop	_	MorphInd=^adalah<o>_O--$
@@ -8448,7 +8448,7 @@
 8	teritorial	teritorial	ADJ	NSD	_	7	amod	_	MorphInd=^teritorial<n>_NSD$
 9	Korem	korem	PROPN	X--	_	7	flat	_	MorphInd=^korem<x>_X--$
 10	011	011	NUM	CC-	NumType=Card	9	nummod	_	MorphInd=^011<c>_CC-$
-11	/	/	SYM	Z--	_	10	punct	_	MorphInd=^/<z>_Z--$
+11	/	/	PUNCT	Z--	_	10	punct	_	MorphInd=^/<z>_Z--$
 12	Lilawangsa	lilawangsa	PROPN	X--	_	10	flat	_	SpaceAfter=No|MorphInd=^lilawangsa<x>_X--$
 13	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
@@ -8482,7 +8482,7 @@
 26	penduduk	penduduk	NOUN	NSD	Number=Sing	24	compound	_	MorphInd=^penduduk<n>_NSD$
 27	320	320	NUM	CC-	NumType=Card	28	nummod	_	MorphInd=^320<c>_CC-$
 28	jiwa	jiwa	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^jiwa<n>_NSD$
-29	/	/	SYM	Z--	_	28	punct	_	MorphInd=^/<z>_Z--$
+29	/	/	PUNCT	Z--	_	28	punct	_	MorphInd=^/<z>_Z--$
 30	km&amp;sup2	km&amp;sup2	NUM	X--	NumType=Card	28	nummod	_	SpaceAfter=No|MorphInd=^km&amp;amp;sup2<x>_X--$
 31	;	;	PUNCT	Z--	_	23	punct	_	SpaceAfter=No|MorphInd=^;<z>_Z--$
 32	.	.	PUNCT	Z--	_	23	punct	_	MorphInd=^.<z>_Z--$
@@ -9390,7 +9390,7 @@
 22	National	national	PROPN	F--	_	21	flat	_	SpaceAfter=No|MorphInd=^national<f>_F--$
 23	,	,	PUNCT	Z--	_	24	punct	_	MorphInd=^,<z>_Z--$
 24	Pembentukan	penbentukan	PROPN	NSD	_	19	conj	_	MorphInd=^peN+bentuk<n>+an_NSD$
-25	/	/	SYM	Z--	_	24	punct	_	MorphInd=^/<z>_Z--$
+25	/	/	PUNCT	Z--	_	24	punct	_	MorphInd=^/<z>_Z--$
 26	Kerjasama	kerjasama	PROPN	NSD	_	24	flat	_	MorphInd=^kerjasama<n>_NSD$
 27	Tim	tim	PROPN	NSD	_	26	flat	_	SpaceAfter=No|MorphInd=^tim<n>_NSD$
 28	,	,	PUNCT	Z--	_	29	punct	_	MorphInd=^,<z>_Z--$
@@ -9418,7 +9418,7 @@
 50	mewujudkan	wujud	VERB	VSA	Voice=Act	48	xcomp	_	MorphInd=^meN+wujud<n>+kan_VSA$
 51	penampilan	pentampilan	NOUN	NSD	Number=Sing	50	obj	_	MorphInd=^peN+tampil<v>+an_NSD$
 52	peroranjyan	peroranjyan	NOUN	X--	_	51	compound	_	MorphInd=^peroranjyan<x>_X--$
-53	/	/	SYM	Z--	_	54	punct	_	MorphInd=^/<z>_Z--$
+53	/	/	PUNCT	Z--	_	54	punct	_	MorphInd=^/<z>_Z--$
 54	individu	individu	NOUN	NSD	Number=Sing	52	conj	_	SpaceAfter=No|MorphInd=^individu<n>_NSD$
 55	,	,	PUNCT	Z--	_	56	punct	_	MorphInd=^,<z>_Z--$
 56	penampilan	pentampilan	NOUN	NSD	Number=Sing	51	conj	_	MorphInd=^peN+tampil<v>+an_NSD$
@@ -11613,7 +11613,7 @@
 38	,	,	PUNCT	Z--	_	37	punct	_	MorphInd=^,<z>_Z--$
 39	3	3	NUM	CC-	NumType=Card	40	nummod	_	MorphInd=^3<c>_CC-$
 40	jiwa	jiwa	NOUN	NSD	Number=Sing	33	nmod	_	MorphInd=^jiwa<n>_NSD$
-41	/	/	SYM	Z--	_	40	punct	_	MorphInd=^/<z>_Z--$
+41	/	/	PUNCT	Z--	_	40	punct	_	MorphInd=^/<z>_Z--$
 42	km&amp;sup2	km&amp;sup2	NUM	X--	NumType=Card	40	nummod	_	SpaceAfter=No|MorphInd=^km&amp;amp;sup2<x>_X--$
 43	;	;	PUNCT	Z--	_	32	punct	_	SpaceAfter=No|MorphInd=^;<z>_Z--$
 44	.	.	PUNCT	Z--	_	32	punct	_	MorphInd=^.<z>_Z--$
@@ -13290,9 +13290,9 @@
 19	No	no	PROPN	F--	_	18	flat	_	SpaceAfter=No|MorphInd=^no<f>_F--$
 20	.	.	PUNCT	Z--	_	19	punct	_	MorphInd=^.<z>_Z--$
 21	XXXIII	xxxiii	NUM	X--	NumType=Card	19	nummod	_	MorphInd=^xxxiii<x>_X--$
-22	/	/	SYM	Z--	_	21	punct	_	MorphInd=^/<z>_Z--$
+22	/	/	PUNCT	Z--	_	21	punct	_	MorphInd=^/<z>_Z--$
 23	MPRS	mprs	PROPN	X--	_	21	flat	_	MorphInd=^mprs<x>_X--$
-24	/	/	SYM	Z--	_	23	punct	_	MorphInd=^/<z>_Z--$
+24	/	/	PUNCT	Z--	_	23	punct	_	MorphInd=^/<z>_Z--$
 25	1967	1967	NUM	CC-	NumType=Card	23	nummod	_	MorphInd=^1967<c>_CC-$
 26	tentang	tentang	ADP	VSA	_	27	case	_	MorphInd=^tentang<v>_VSA$
 27	Pencabutan	pencabutan	PROPN	NSD	_	17	nmod	_	MorphInd=^peN+cabut<v>+an_NSD$

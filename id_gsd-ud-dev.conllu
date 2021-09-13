@@ -791,7 +791,7 @@
 # text = Aloe vera / lidah buaya mengandung semua jenis vitamin kecuali vitamin D, mineral yang diperlukan untuk fungsi enzim, saponin yang berfungsi sebagai anti mikroba dan 20 dari 22 jenis asam amino.
 1	Aloe	aloe	PROPN	X--	_	6	nsubj	_	MorphInd=^aloe<x>_X--$
 2	vera	vera	PROPN	F--	_	1	flat	_	MorphInd=^vera<f>_F--$
-3	/	/	SYM	Z--	_	1	punct	_	MorphInd=^/<z>_Z--$
+3	/	/	PUNCT	Z--	_	1	punct	_	MorphInd=^/<z>_Z--$
 4	lidah	lidah	NOUN	NSD	Number=Sing	5	compound	_	MorphInd=^lidah<n>_NSD$
 5	buaya	buaya	NOUN	NSD	Number=Sing	1	appos	_	MorphInd=^buaya<n>_NSD$
 6	mengandung	kandung	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+kandung<v>_VSA$
@@ -955,7 +955,7 @@
 5	II	ii	PROPN	F--	_	4	nummod	_	MorphInd=^ii<f>_F--$
 6	(	(	PUNCT	Z--	_	7	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 7	988	988	NUM	CC-	NumType=Card	4	appos	_	MorphInd=^988<c>_CC-$
-8	/	/	SYM	Z--	_	7	punct	_	MorphInd=^/<z>_Z--$
+8	/	/	PUNCT	Z--	_	7	punct	_	MorphInd=^/<z>_Z--$
 9	993	993	NUM	CC-	NumType=Card	7	nummod	_	MorphInd=^993<c>_CC-$
 10	–	–	PUNCT	Z--	_	12	punct	_	MorphInd=^–<z>_Z--$
 11	30	30	NUM	CC-	NumType=Card	12	nummod	_	MorphInd=^30<c>_CC-$
@@ -2174,7 +2174,7 @@
 # sent_id = dev-s75
 # text = Jenis / merk apa?
 1	Jenis	jenis	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^jenis<n>_NSD$
-2	/	/	SYM	Z--	_	3	punct	_	MorphInd=^/<z>_Z--$
+2	/	/	PUNCT	Z--	_	3	punct	_	MorphInd=^/<z>_Z--$
 3	merk	merk	NOUN	NSD	Number=Sing	1	conj	_	MorphInd=^merk<n>_NSD$
 4	apa	apa	PRON	W--	PronType=Int	1	compound	_	SpaceAfter=No|MorphInd=^apa<w>_W--$
 5	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
@@ -3491,7 +3491,7 @@
 14	diadakan	ada	VERB	VSP	Voice=Pass	1	flat	_	MorphInd=^di+ada<a>+kan_VSP$
 15	di	di	ADP	R--	_	16	case	_	MorphInd=^di<r>_R--$
 16	Aula	aula	PROPN	NSD	_	1	obl	_	MorphInd=^aula<n>_NSD$
-17	/	/	SYM	Z--	_	16	punct	_	MorphInd=^/<z>_Z--$
+17	/	/	PUNCT	Z--	_	16	punct	_	MorphInd=^/<z>_Z--$
 18	Barakgebouw	barakgebouw	PROPN	X--	_	16	flat	_	MorphInd=^barakgebouw<x>_X--$
 19	A	a	PROPN	F--	_	18	flat	_	SpaceAfter=No|MorphInd=^a<f>_F--$
 20	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
@@ -5277,7 +5277,7 @@
 16	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
 17	ordo	ordo	NOUN	X--	_	11	conj	_	MorphInd=^ordo<x>_X--$
 18	Heteroptera	heteroptera	PROPN	X--	_	17	flat	_	MorphInd=^heteroptera<x>_X--$
-19	/	/	SYM	Z--	_	18	punct	_	MorphInd=^/<z>_Z--$
+19	/	/	PUNCT	Z--	_	18	punct	_	MorphInd=^/<z>_Z--$
 20	Hemiptera	hemiptera	PROPN	X--	_	18	flat	_	MorphInd=^hemiptera<x>_X--$
 21	dengan	dengan	ADP	R--	_	22	case	_	MorphInd=^dengan<r>_R--$
 22	melihat	lihat	VERB	VSA	Voice=Act	7	xcomp	_	MorphInd=^meN+lihat<v>_VSA$
@@ -5793,7 +5793,7 @@
 6	dengan	dengan	ADP	R--	_	7	case	_	MorphInd=^dengan<r>_R--$
 7	bajak	bajak	NOUN	VSA	_	4	obl	_	MorphInd=^bajak<v>_VSA$
 8	singkal	singkal	NOUN	X--	_	7	compound	_	MorphInd=^singkal<x>_X--$
-9	/	/	SYM	Z--	_	8	punct	_	MorphInd=^/<z>_Z--$
+9	/	/	PUNCT	Z--	_	8	punct	_	MorphInd=^/<z>_Z--$
 10	piringan	piringan	NOUN	NSD	Number=Sing	8	compound	_	SpaceAfter=No|MorphInd=^piring<n>+an_NSD$
 11	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 
@@ -6662,13 +6662,13 @@
 8	Nomor	nomor	NOUN	NSD	Number=Sing	2	compound	_	SpaceAfter=No|MorphInd=^nomor<n>_NSD$
 9	:	:	PUNCT	Z--	_	10	punct	_	MorphInd=^:<z>_Z--$
 10	04	04	NUM	CC-	NumType=Card	8	nummod	_	MorphInd=^04<c>_CC-$
-11	/	/	SYM	Z--	_	10	punct	_	MorphInd=^/<z>_Z--$
+11	/	/	PUNCT	Z--	_	10	punct	_	MorphInd=^/<z>_Z--$
 12	SKEP	skep	NOUN	X--	_	10	compound	_	MorphInd=^skep<x>_X--$
-13	/	/	SYM	Z--	_	12	punct	_	MorphInd=^/<z>_Z--$
+13	/	/	PUNCT	Z--	_	12	punct	_	MorphInd=^/<z>_Z--$
 14	KET	ket	NOUN	X--	_	12	compound	_	MorphInd=^ket<x>_X--$
-15	/	/	SYM	Z--	_	14	punct	_	MorphInd=^/<z>_Z--$
+15	/	/	PUNCT	Z--	_	14	punct	_	MorphInd=^/<z>_Z--$
 16	VI	vi	NUM	F--	NumType=Card	14	nummod	_	MorphInd=^vi<f>_F--$
-17	/	/	SYM	Z--	_	16	punct	_	MorphInd=^/<z>_Z--$
+17	/	/	PUNCT	Z--	_	16	punct	_	MorphInd=^/<z>_Z--$
 18	1985	1985	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^1985<c>_CC-$
 19	tanggal	tanggal	NOUN	VSA	_	2	nmod	_	MorphInd=^tanggal<v>_VSA$
 20	12	12	NUM	CC-	NumType=Card	21	nummod	_	MorphInd=^12<c>_CC-$
@@ -7335,7 +7335,7 @@
 # sent_id = dev-s279
 # text = Biduk / perahu, yang melaju di lautan hidup menuju masa depan yang lebih baik, yaitu tujuan nasional yang dicita – citakan.
 1	Biduk	biduk	PROPN	X--	_	10	nsubj	_	MorphInd=^biduk<x>_X--$
-2	/	/	SYM	Z--	_	1	punct	_	MorphInd=^/<z>_Z--$
+2	/	/	PUNCT	Z--	_	1	punct	_	MorphInd=^/<z>_Z--$
 3	perahu	perahu	NOUN	NSD	Number=Sing	1	compound	_	SpaceAfter=No|MorphInd=^perahu<n>_NSD$
 4	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
 5	yang	yang	PRON	S--	PronType=Rel	6	nsubj	_	MorphInd=^yang<s>_S--$
@@ -8131,7 +8131,7 @@
 1	UU	uu	PROPN	NSD	_	6	nsubj	_	MorphInd=^uu<n>_NSD$
 2	no	no	PROPN	F--	_	1	flat	_	MorphInd=^no<f>_F--$
 3	41	41	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^41<c>_CC-$
-4	/	/	SYM	Z--	_	3	punct	_	MorphInd=^/<z>_Z--$
+4	/	/	PUNCT	Z--	_	3	punct	_	MorphInd=^/<z>_Z--$
 5	1999	1999	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^1999<c>_CC-$
 6	membedakan	beda	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+beda<a>+kan_VSA$
 7	dua	dua	NUM	CC-	NumType=Card	8	nummod	_	MorphInd=^dua<c>_CC-$
@@ -8149,7 +8149,7 @@
 19	UU	uu	PROPN	NSD	_	26	nsubj	_	MorphInd=^uu<n>_NSD$
 20	no	no	NOUN	F--	_	19	compound	_	MorphInd=^no<f>_F--$
 21	41	41	NUM	CC-	NumType=Card	20	nummod	_	MorphInd=^41<c>_CC-$
-22	/	/	SYM	Z--	_	21	punct	_	MorphInd=^/<z>_Z--$
+22	/	/	PUNCT	Z--	_	21	punct	_	MorphInd=^/<z>_Z--$
 23	1999	1999	NUM	CC-	NumType=Card	21	nummod	_	MorphInd=^1999<c>_CC-$
 24	lebih	lebih	ADV	D--	_	25	advmod	_	MorphInd=^lebih<d>_D--$
 25	lanjut	lanjut	VERB	VSA	Voice=Act	26	advcl	_	MorphInd=^lanjut<v>_VSA$
@@ -8174,7 +8174,7 @@
 44	PP	pp	PROPN	F--	_	42	obj	_	MorphInd=^pp<f>_F--$
 45	no	no	NOUN	F--	_	44	compound	_	MorphInd=^no<f>_F--$
 46	68	68	NUM	CC-	NumType=Card	45	nummod	_	MorphInd=^68<c>_CC-$
-47	/	/	SYM	Z--	_	46	punct	_	MorphInd=^/<z>_Z--$
+47	/	/	PUNCT	Z--	_	46	punct	_	MorphInd=^/<z>_Z--$
 48	1998	1998	NUM	CC-	NumType=Card	46	nummod	_	SpaceAfter=No|MorphInd=^1998<c>_CC-$
 49	,	,	PUNCT	Z--	_	59	punct	_	MorphInd=^,<z>_Z--$
 50	sebagaimana	sebagaimana	CCONJ	S--	_	59	cc	_	MorphInd=^sebagaimana<s>_S--$
@@ -8182,7 +8182,7 @@
 52	UU	uu	PROPN	NSD	_	59	nsubj	_	MorphInd=^uu<n>_NSD$
 53	no	no	PROPN	F--	_	52	flat	_	MorphInd=^no<f>_F--$
 54	5	5	PROPN	CC-	_	53	nummod	_	MorphInd=^5<c>_CC-$
-55	/	/	SYM	Z--	_	54	punct	_	MorphInd=^/<z>_Z--$
+55	/	/	PUNCT	Z--	_	54	punct	_	MorphInd=^/<z>_Z--$
 56	1990	1990	PROPN	CC-	_	54	nummod	_	SpaceAfter=No|MorphInd=^1990<c>_CC-$
 57	,	,	PUNCT	Z--	_	52	punct	_	MorphInd=^,<z>_Z--$
 58	tidak	tidak	PART	G--	Polarity=Neg	59	advmod	_	MorphInd=^tidak<g>_G--$
@@ -13793,17 +13793,17 @@
 29	Nomor	nomor	NOUN	NSD	Number=Sing	24	compound	_	SpaceAfter=No|MorphInd=^nomor<n>_NSD$
 30	:	:	PUNCT	Z--	_	31	punct	_	MorphInd=^:<z>_Z--$
 31	019	019	NUM	CC-	NumType=Card	29	nummod	_	MorphInd=^019<c>_CC-$
-32	/	/	SYM	Z--	_	31	punct	_	MorphInd=^/<z>_Z--$
+32	/	/	PUNCT	Z--	_	31	punct	_	MorphInd=^/<z>_Z--$
 33	BAN	ban	PROPN	NSD	_	31	flat	_	MorphInd=^ban<n>_NSD$
 34	-	-	PUNCT	Z--	_	35	punct	_	MorphInd=^-<z>_Z--$
 35	PT	pt	PROPN	NSD	_	33	flat	_	MorphInd=^pt<n>_NSD$
-36	/	/	SYM	Z--	_	35	punct	_	MorphInd=^/<z>_Z--$
+36	/	/	PUNCT	Z--	_	35	punct	_	MorphInd=^/<z>_Z--$
 37	AK	ak	PROPN	F--	_	35	flat	_	MorphInd=^ak<f>_F--$
 38	-	-	PUNCT	Z--	_	39	punct	_	MorphInd=^-<z>_Z--$
 39	IV	iv	NUM	F--	NumType=Card	37	nummod	_	MorphInd=^iv<f>_F--$
-40	/	/	SYM	Z--	_	39	punct	_	MorphInd=^/<z>_Z--$
+40	/	/	PUNCT	Z--	_	39	punct	_	MorphInd=^/<z>_Z--$
 41	VII	vii	NUM	F--	NumType=Card	39	nummod	_	MorphInd=^vii<f>_F--$
-42	/	/	SYM	Z--	_	41	punct	_	MorphInd=^/<z>_Z--$
+42	/	/	PUNCT	Z--	_	41	punct	_	MorphInd=^/<z>_Z--$
 43	2000	2000	NUM	CC-	NumType=Card	41	nummod	_	SpaceAfter=No|MorphInd=^2000<c>_CC-$
 44	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
@@ -13830,9 +13830,9 @@
 19	No	no	PROPN	F--	_	17	flat	_	SpaceAfter=No|MorphInd=^no<f>_F--$
 20	.	.	PUNCT	Z--	_	19	punct	_	MorphInd=^.<z>_Z--$
 21	0299	0299	NUM	CC-	NumType=Card	19	nummod	_	MorphInd=^0299<c>_CC-$
-22	/	/	SYM	Z--	_	21	punct	_	MorphInd=^/<z>_Z--$
+22	/	/	PUNCT	Z--	_	21	punct	_	MorphInd=^/<z>_Z--$
 23	01	01	NUM	CC-	NumType=Card	21	nummod	_	MorphInd=^01<c>_CC-$
-24	/	/	SYM	Z--	_	23	punct	_	MorphInd=^/<z>_Z--$
+24	/	/	PUNCT	Z--	_	23	punct	_	MorphInd=^/<z>_Z--$
 25	178	178	NUM	CC-	NumType=Card	23	nummod	_	SpaceAfter=No|MorphInd=^178<c>_CC-$
 26	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
@@ -14073,7 +14073,7 @@
 23	menyelesaikan	selesai	VERB	VSA	Voice=Act	2	conj	_	MorphInd=^meN+selesai<a>+kan_VSA$
 24	musim	musim	NOUN	NSD	Number=Sing	23	obj	_	MorphInd=^musim<n>_NSD$
 25	2010	2010	NUM	CC-	NumType=Card	24	nummod	_	MorphInd=^2010<c>_CC-$
-26	/	/	SYM	Z--	_	25	punct	_	MorphInd=^/<z>_Z--$
+26	/	/	PUNCT	Z--	_	25	punct	_	MorphInd=^/<z>_Z--$
 27	2011	2011	NUM	CC-	NumType=Card	25	nummod	_	MorphInd=^2011<c>_CC-$
 28	di	di	ADP	R--	_	29	case	_	MorphInd=^di<r>_R--$
 29	klasmen	klasmen	NOUN	X--	_	24	nmod	_	MorphInd=^klasmen<x>_X--$
