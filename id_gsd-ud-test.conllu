@@ -566,10 +566,10 @@
 6	menyembah	sembah	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+sembah<v>_VSA$
 7	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	6	obj	_	MorphInd=^dia<p>_PS3$
 8	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
-9	tetapi	tetapi	SCONJ	S--	_	11	mark	_	MorphInd=^tetapi<s>_S--$
+9	tetapi	tetapi	CCONJ	S--	_	12	cc	_	MorphInd=^tetapi<s>_S--$
 10	beberapa	beberapa	DET	B--	PronType=Ind	11	det	_	MorphInd=^beberapa<b>_B--$
-11	orang	orang	NOUN	NSD	Number=Sing	6	advcl	_	MorphInd=^orang<n>_NSD$
-12	ragu-ragu	ragu	ADJ	ASP	_	11	amod	_	MorphInd=^ragu<a>_ASP$|SpaceAfter=No
+11	orang	orang	NOUN	NSD	Number=Sing	12	nsubj	_	MorphInd=^orang<n>_NSD$
+12	ragu-ragu	ragu	ADJ	ASP	_	6	conj	_	MorphInd=^ragu<a>_ASP$|SpaceAfter=No
 13	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s24
@@ -741,7 +741,7 @@
 2	1832	1832	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^1832<c>_CC-$
 3	dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	MorphInd=^dia<p>_PS3$
 4	menulis	tulis	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+tulis<v>_VSA$
-5	bahwa	bahwa	ADP	S--	_	8	mark	_	MorphInd=^bahwa<s>_S--$
+5	bahwa	bahwa	SCONJ	S--	_	8	mark	_	MorphInd=^bahwa<s>_S--$
 6	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	8	nsubj:pass	_	MorphInd=^mereka<p>_PP3$
 7	dapat	dapat	ADV	VSA	_	8	advmod	_	MorphInd=^dapat<v>_VSA$
 8	dilindungi	lindung	VERB	VSP	Voice=Pass	4	advcl	_	SpaceAfter=No|MorphInd=^di+lindung<v>+i_VSP$
@@ -2722,9 +2722,9 @@
 9	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
 10	terkait	kait	VERB	VSP	Voice=Pass	4	advcl	_	MorphInd=^ter+kait<v>_VSP$
 11	erat	erat	ADJ	VSA	_	10	amod	_	MorphInd=^erat<v>_VSA$
-12	tetapi	tetapi	SCONJ	S--	_	14	mark	_	MorphInd=^tetapi<s>_S--$
+12	tetapi	tetapi	CCONJ	S--	_	14	cc	_	MorphInd=^tetapi<s>_S--$
 13	tidak	tidak	PART	G--	Polarity=Neg	14	advmod	_	MorphInd=^tidak<g>_G--$
-14	identik	identik	ADJ	ASP	_	10	advcl	_	MorphInd=^identik<a>_ASP$
+14	identik	identik	ADJ	ASP	_	10	conj	_	MorphInd=^identik<a>_ASP$
 15	dengan	dengan	ADP	R--	_	16	case	_	MorphInd=^dengan<r>_R--$
 16	partai	partai	NOUN	NSD	Number=Sing	14	nmod	_	MorphInd=^partai<n>_NSD$
 17	politik	politik	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^politik<n>_NSD$
@@ -3047,7 +3047,7 @@
 12	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 13	Baruch	baruch	PROPN	X--	_	14	nsubj	_	MorphInd=^baruch<x>_X--$
 14	menyatakan	nyata	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
-15	bahwa	bahwa	ADP	S--	_	20	case	_	SpaceAfter=No|MorphInd=^bahwa<s>_S--$
+15	bahwa	bahwa	SCONJ	S--	_	20	mark	_	SpaceAfter=No|MorphInd=^bahwa<s>_S--$
 16	:	:	PUNCT	Z--	_	15	punct	_	MorphInd=^:<z>_Z--$
 17	"	"	PUNCT	Z--	_	20	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 18	Janganlah	jangan	ADV	G--+T--	_	20	advmod	_	MorphInd=^jangan<g>_G--+lah<t>_T--$
@@ -7891,7 +7891,7 @@
 1	Bagaimana	bagaimana	ADV	W--	PronType=Int	3	advmod	_	MorphInd=^bagaimana<w>_W--$
 2	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	MorphInd=^kita<p>_PP1$
 3	tahu	tahu	VERB	VSA	Voice=Act	0	root	_	MorphInd=^tahu<v>_VSA$
-4	bahwa	bahwa	PRON	S--	PronType=Rel	6	mark	_	MorphInd=^bahwa<s>_S--$
+4	bahwa	bahwa	SCONJ	S--	_	6	mark	_	MorphInd=^bahwa<s>_S--$
 5	7	7	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^7<c>_CC-$
 6	ditambah	tambah	VERB	VSP	Voice=Pass	3	mark	_	MorphInd=^di+tambah<v>_VSP$
 7	8	8	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^8<c>_CC-$
@@ -9660,7 +9660,7 @@
 35	tampilan	tampilan	NOUN	NSD	Number=Sing	34	obj	_	MorphInd=^tampil<v>+an_NSD$
 36	yang	yang	PRON	S--	PronType=Rel	37	obj	_	MorphInd=^yang<s>_S--$
 37	berbeda	berbeda	ADJ	VSA	_	35	amod	_	MorphInd=^ber+beda<a>_VSA$
-38	dimana	dimana	ADV	W--	_	39	advmod	_	MorphInd=^dimana<w>_W--$
+38	dimana	dimana	SCONJ	W--	_	39	mark	_	MorphInd=^dimana<w>_W--$
 39	terdiri	diri	VERB	VSP	Voice=Pass	35	xcomp	_	MorphInd=^ter+diri<n>_VSP$
 40	dari	dari	ADP	R--	_	42	case	_	MorphInd=^dari<r>_R--$
 41	tiga	tiga	NUM	CC-	NumType=Card	42	nummod	_	MorphInd=^tiga<c>_CC-$
@@ -9776,7 +9776,7 @@
 36	orang-orang	orang	NOUN	NSD	Number=Plur	35	obj	_	MorphInd=^orang<n>_NSD$
 37	yang	yang	PRON	S--	PronType=Rel	38	obj	_	MorphInd=^yang<s>_S--$
 38	percaya	percaya	VERB	VSA	Voice=Act	36	acl	_	MorphInd=^percaya<v>_VSA$
-39	bahwa	bahwa	ADP	S--	_	45	mark	_	MorphInd=^bahwa<s>_S--$
+39	bahwa	bahwa	SCONJ	S--	_	45	mark	_	MorphInd=^bahwa<s>_S--$
 40	orang	orang	NOUN	NSD	Number=Sing	45	nsubj:pass	_	MorphInd=^orang<n>_NSD$
 41	Kristen	kristen	PROPN	NSD	_	40	amod	_	MorphInd=^kristen<n>_NSD$
 42	secara	secara	ADP	R--	_	43	case	_	MorphInd=^secara<r>_R--$
@@ -9939,7 +9939,7 @@
 68	yang	yang	PRON	S--	PronType=Rel	69	nsubj	_	MorphInd=^yang<s>_S--$
 69	sesungguhnya	sesungguhnya	ADV	D--	_	66	advmod	_	SpaceAfter=No|MorphInd=^sesungguhnya<d>_D--$
 70	,	,	PUNCT	Z--	_	75	punct	_	MorphInd=^,<z>_Z--$
-71	dimana	dimana	ADV	W--	_	72	advmod	_	MorphInd=^dimana<w>_W--$
+71	dimana	dimana	SCONJ	W--	_	72	advmod	_	MorphInd=^dimana<w>_W--$
 72	umat	umat	NOUN	NSD	Number=Sing	75	nsubj	_	MorphInd=^umat<n>_NSD$
 73	tersebut	tersebut	DET	B--	PronType=Dem	72	obj	_	MorphInd=^tersebut<b>_B--$
 74	mampu	mampu	ADV	M--	_	75	advmod	_	MorphInd=^mampu<m>_M--$
@@ -10513,7 +10513,7 @@
 7-8	mendukungnya	_	_	_	_	_	_	_	MorphInd=^meN+dukung<v>_VSA+dia<p>_PS3$
 7	mendukung	dukung	VERB	VSA	Voice=Act	5	acl	_	MorphInd=^meN+dukung<v>_VSA$
 8	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	obj	_	MorphInd=^dia<p>_PS3$
-9	dimana	dimana	ADV	W--	_	5	mark	_	MorphInd=^dimana<w>_W--$
+9	dimana	dimana	SCONJ	W--	_	5	mark	_	MorphInd=^dimana<w>_W--$
 10	microSD	microsd	PROPN	X--	_	9	nsubj	_	MorphInd=^microsd<x>_X--$
 11	pun	pun	PART	T--	_	10	det	_	MorphInd=^pun<t>_T--$
 12	dapat	dapat	ADV	VSA	_	10	advmod	_	MorphInd=^dapat<v>_VSA$
@@ -10550,7 +10550,7 @@
 2	yang	yang	PRON	S--	PronType=Rel	4	nsubj	_	MorphInd=^yang<s>_S--$
 3	akan	akan	ADV	M--	_	4	advmod	_	MorphInd=^akan<m>_M--$
 4	mengira	kira	VERB	VSA	Voice=Act	1	acl	_	MorphInd=^meN+kira<v>_VSA$
-5	bahwa	bahwa	PRON	S--	PronType=Rel	13	mark	_	MorphInd=^bahwa<s>_S--$
+5	bahwa	bahwa	SCONJ	S--	_	13	mark	_	MorphInd=^bahwa<s>_S--$
 6	Argentina	argentina	PROPN	NSD	_	13	nsubj	_	SpaceAfter=No|MorphInd=^argentina<n>_NSD$
 7	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 8	sebuah	sebuah	DET	B--	PronType=Ind	9	det	_	MorphInd=^sebuah<b>_B--$
@@ -11753,10 +11753,10 @@
 14	dalam	dalam	ADP	R--	_	15	case	_	MorphInd=^dalam<r>_R--$
 15	pemerintahan	penperintahan	NOUN	NSD	Number=Sing	12	obl	_	SpaceAfter=No|MorphInd=^peN+perintah<n>+an_NSD$
 16	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
-17	tetapi	tetapi	SCONJ	S--	_	20	mark	_	MorphInd=^tetapi<s>_S--$
+17	tetapi	tetapi	CCONJ	S--	_	20	cc	_	MorphInd=^tetapi<s>_S--$
 18	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	20	nsubj	_	MorphInd=^ia<p>_PS3$
 19	tidak	tidak	PART	G--	Polarity=Neg	20	advmod	_	MorphInd=^tidak<g>_G--$
-20	mampu	mampu	VERB	M--	_	5	advcl	_	MorphInd=^mampu<m>_M--$
+20	mampu	mampu	VERB	M--	_	5	conj	_	MorphInd=^mampu<m>_M--$
 21	untuk	untuk	ADP	R--	_	22	case	_	MorphInd=^untuk<r>_R--$
 22	mengekang	kekang	VERB	VSA	Voice=Act	20	xcomp	_	MorphInd=^meN+kekang<v>_VSA$
 23	kekuatan	kekuatan	NOUN	NSD	Number=Sing	22	obj	_	MorphInd=^ke+kuat<a>+an_NSD$
@@ -12624,15 +12624,15 @@
 
 # sent_id = test-s522
 # text = Mereka memang berbeda, tetapi bagaimanakah bisa dikenali?
-1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	0	root	_	MorphInd=^mereka<p>_PP3$
+1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	1	nsubj	_	MorphInd=^mereka<p>_PP3$
 2	memang	memang	ADV	D--	_	3	advmod	_	MorphInd=^memang<d>_D--$
-3	berbeda	berbeda	ADJ	VSA	_	1	amod	_	SpaceAfter=No|MorphInd=^ber+beda<a>_VSA$
+3	berbeda	berbeda	ADJ	VSA	_	0	root	_	SpaceAfter=No|MorphInd=^ber+beda<a>_VSA$
 4	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
-5	tetapi	tetapi	SCONJ	S--	_	8	mark	_	MorphInd=^tetapi<s>_S--$
+5	tetapi	tetapi	CCONJ	S--	_	8	cc	_	MorphInd=^tetapi<s>_S--$
 6	bagaimanakah	bagaimana	ADV	W--+T--	PronType=Int	8	advmod	_	MorphInd=^bagaimana<w>_W--+kah<t>_T--$
 7	bisa	bisa	ADV	M--	_	8	advmod	_	MorphInd=^bisa<m>_M--$
-8	dikenali	kenal	VERB	VSP	Voice=Pass	1	advcl	_	SpaceAfter=No|MorphInd=^di+kenal<v>+i_VSP$
-9	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
+8	dikenali	kenal	VERB	VSP	Voice=Pass	3	conj	_	SpaceAfter=No|MorphInd=^di+kenal<v>+i_VSP$
+9	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s523
 # text = Menurut konstitusi kerajaan tahun 1864, jika raja tidak menunjuk penerus, raja baru akan dipilih oleh anggota keluarga kerajaan Hawaii yang masih hidup.
@@ -12867,7 +12867,7 @@
 4	mengatakan	kata	VERB	VSA	Voice=Act	1	acl	_	MorphInd=^meN+kata<n>+kan_VSA$
 5	kepada	kepada	ADP	R--	_	6	case	_	MorphInd=^kepada<r>_R--$
 6	manusia	manusia	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^manusia<n>_NSD$
-7	apa	apa	PRON	W--	PronType=Int	10	mark	_	MorphInd=^apa<w>_W--$
+7	apa	apa	PRON	W--	PronType=Int	10	obl	_	MorphInd=^apa<w>_W--$
 8	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
 9	akan	akan	ADV	M--	_	10	advmod	_	MorphInd=^akan<m>_M--$
 10	terjadi	terjadi	VERB	VSP	Voice=Pass	6	acl	_	MorphInd=^terjadi<v>_VSP$

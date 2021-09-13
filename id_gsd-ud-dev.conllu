@@ -1274,7 +1274,7 @@
 10	setingan	setingan	NOUN	X--	_	7	nmod	_	MorphInd=^setingan<x>_X--$
 11	jarak	jarak	NOUN	ASP	_	10	compound	_	MorphInd=^jarak<a>_ASP$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj	_	MorphInd=^yang<s>_S--$
-13	selisihnya	selisih	ADV	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	11	advmod	_	MorphInd=^selisih<n>_NSD+dia<p>_PS3$
+13	selisihnya	selisih	NOUN	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	11	nmod	_	MorphInd=^selisih<n>_NSD+dia<p>_PS3$
 14	masing-masing	masing	DET	X--	_	13	det	_	MorphInd=^masing<x>_X--$
 15	100	100	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^100<c>_CC-$
 16	meter	meter	NOUN	NSD	Number=Sing	13	nummod	_	SpaceAfter=No|MorphInd=^meter<n>_NSD$
@@ -12658,11 +12658,11 @@
 14	fonologi	fonologi	NOUN	X--	_	13	obj	_	SpaceAfter=No|MorphInd=^fonologi<x>_X--$
 15	)	)	PUNCT	Z--	_	13	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
 16	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
-17	tetapi	tetapi	SCONJ	S--	_	20	mark	_	MorphInd=^tetapi<s>_S--$
+17	tetapi	tetapi	CCONJ	S--	_	20	cc	_	MorphInd=^tetapi<s>_S--$
 18	ini	ini	DET	B--	PronType=Dem	20	nsubj	_	MorphInd=^ini<b>_B--$
 19	tidak	tidak	PART	G--	Polarity=Neg	20	advmod	_	MorphInd=^tidak<g>_G--$
 20-21	menjadikannya	_	_	_	_	_	_	_	MorphInd=^meN+jadi<a>+kan_VSA+dia<p>_PS3$
-20	menjadikan	jadi	VERB	VSA	Voice=Act	4	advcl	_	MorphInd=^meN+jadi<a>+kan_VSA$
+20	menjadikan	jadi	VERB	VSA	Voice=Act	4	conj	_	MorphInd=^meN+jadi<a>+kan_VSA$
 21	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	20	obj	_	MorphInd=^dia<p>_PS3$
 22	bahasa	bahasa	NOUN	NSD	Number=Sing	20	obj	_	MorphInd=^bahasa<n>_NSD$
 23	nada	nada	NOUN	NSD	Number=Sing	22	compound	_	MorphInd=^nada<n>_NSD$
