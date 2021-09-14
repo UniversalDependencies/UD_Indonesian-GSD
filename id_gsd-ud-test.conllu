@@ -7875,9 +7875,9 @@
 2	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	MorphInd=^kita<p>_PP1$
 3	tahu	tahu	VERB	VSA	Voice=Act	0	root	_	MorphInd=^tahu<v>_VSA$
 4	bahwa	bahwa	SCONJ	S--	_	6	mark	_	MorphInd=^bahwa<s>_S--$
-5	7	7	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^7<c>_CC-$
-6	ditambah	tambah	VERB	VSP	Voice=Pass	3	mark	_	MorphInd=^di+tambah<v>_VSP$
-7	8	8	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^8<c>_CC-$
+5	7	7	NUM	CC-	NumType=Card	6	nsubj:pass	_	MorphInd=^7<c>_CC-$
+6	ditambah	tambah	VERB	VSP	Voice=Pass	3	advcl	_	MorphInd=^di+tambah<v>_VSP$
+7	8	8	NUM	CC-	NumType=Card	6	obl	_	MorphInd=^8<c>_CC-$
 8	selalu	selalu	ADV	D--	_	9	advmod	_	MorphInd=^selalu<d>_D--$
 9	ada	ada	VERB	ASP	_	6	xcomp	_	MorphInd=^ada<a>_ASP$
 10	15	15	NUM	CC-	NumType=Card	9	nummod	_	SpaceAfter=No|MorphInd=^15<c>_CC-$
@@ -8550,8 +8550,8 @@
 8	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 9	Doraemon	doraemon	PROPN	X--	_	5	appos	_	SpaceAfter=No|MorphInd=^doraemon<x>_X--$
 10	:	:	PUNCT	Z--	_	11	punct	_	MorphInd=^:<z>_Z--$
-11	Nobita	nobita	PROPN	X--	_	9	flat	_	MorphInd=^nobita<x>_X--$
-12	dan	dan	PROPN	H--	_	13	cc	_	MorphInd=^dan<h>_H--$
+11	Nobita	nobita	PROPN	X--	_	9	nmod	_	MorphInd=^nobita<x>_X--$
+12	dan	dan	CCONJ	H--	_	13	cc	_	MorphInd=^dan<h>_H--$
 13	Pasukan	pasukan	PROPN	NSD	_	11	conj	_	MorphInd=^pasukan<n>_NSD$
 14	Robot	robot	PROPN	NSD	_	13	flat	_	SpaceAfter=No|MorphInd=^robot<n>_NSD$
 15	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
@@ -9175,7 +9175,7 @@
 
 # sent_id = test-s389
 # text = But I just can 't be with you Like this anymore, Alejandro.
-1	But	but	PROPN	X--	_	7	mark	_	MorphInd=^but<x>_X--$
+1	But	but	ADV	X--	_	7	advmod	_	MorphInd=^but<x>_X--$
 2	I	i	PROPN	F--	_	7	nsubj	_	MorphInd=^i<f>_F--$
 3	just	just	PROPN	X--	_	7	advmod	_	MorphInd=^just<x>_X--$
 4	can	can	PROPN	F--	_	7	advmod	_	MorphInd=^can<f>_F--$

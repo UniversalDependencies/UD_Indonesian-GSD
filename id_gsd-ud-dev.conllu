@@ -1087,12 +1087,12 @@
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj:pass	_	MorphInd=^yang<s>_S--$
 18	diberikan	beri	VERB	VSP	Voice=Pass	16	acl	_	MorphInd=^di+beri<v>+kan_VSP$
 19	oleh	oleh	ADP	R--	_	20	case	_	MorphInd=^oleh<r>_R--$
-20	General	general	PROPN	F--	_	18	obl	_	MorphInd=^general<f>_F--$
-21	Conference	conference	PROPN	F--	_	20	flat	_	MorphInd=^conference<f>_F--$
-22	on	on	PROPN	F--	_	21	flat	_	MorphInd=^on<f>_F--$
-23	Weights	weights	PROPN	X--	_	22	flat	_	MorphInd=^weights<x>_X--$
-24	and	and	PROPN	F--	_	25	cc	_	MorphInd=^and<f>_F--$
-25	Measures	measures	PROPN	X--	_	20	conj	_	MorphInd=^measures<x>_X--$
+20	General	general	X	F--	_	18	obl	_	MorphInd=^general<f>_F--$
+21	Conference	conference	X	F--	_	20	flat:foreign	_	MorphInd=^conference<f>_F--$
+22	on	on	X	F--	_	20	flat:foreign	_	MorphInd=^on<f>_F--$
+23	Weights	weights	X	X--	_	20	flat:foreign	_	MorphInd=^weights<x>_X--$
+24	and	and	X	F--	_	20	flat:foreign	_	MorphInd=^and<f>_F--$
+25	Measures	measures	X	X--	_	20	flat:foreign	_	MorphInd=^measures<x>_X--$
 26	(	(	PUNCT	Z--	_	27	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 27	CGPM	cgpm	PROPN	X--	_	20	appos	_	SpaceAfter=No|MorphInd=^cgpm<x>_X--$
 28	)	)	PUNCT	Z--	_	27	punct	_	MorphInd=^)<z>_Z--$
@@ -2752,7 +2752,7 @@
 # text = Setelah 1 minggu, mereka mulai berkeliling sarang mereka dan makan.
 1	Setelah	setelah	ADP	R--	_	3	case	_	MorphInd=^setelah<r>_R--$
 2	1	1	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^1<c>_CC-$
-3	minggu	minggu	NOUN	NSD	Number=Sing	6	ol	_	SpaceAfter=No|MorphInd=^minggu<n>_NSD$
+3	minggu	minggu	NOUN	NSD	Number=Sing	6	obl	_	SpaceAfter=No|MorphInd=^minggu<n>_NSD$
 4	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
 5	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	MorphInd=^mereka<p>_PP3$
 6	mulai	mulai	VERB	VSA	Voice=Act	0	root	_	MorphInd=^mulai<v>_VSA$
@@ -10972,9 +10972,9 @@
 
 # sent_id = dev-s421
 # text = Kenapa harus smada?
-1	Kenapa	kenapa	PRON	W--	PronType=Int	2	mark	_	MorphInd=^kenapa<w>_W--$
-2	harus	harus	VERB	M--	_	0	root	_	MorphInd=^harus<m>_M--$
-3	smada	smada	PROPN	X--	_	2	obj	_	SpaceAfter=No|MorphInd=^smada<x>_X--$
+1	Kenapa	kenapa	ADV	W--	PronType=Int	2	advmod	_	MorphInd=^kenapa<w>_W--$
+2	harus	harus	AUX	M--	_	2	aux	_	MorphInd=^harus<m>_M--$
+3	smada	smada	PROPN	X--	_	0	root	_	SpaceAfter=No|MorphInd=^smada<x>_X--$
 4	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s422
