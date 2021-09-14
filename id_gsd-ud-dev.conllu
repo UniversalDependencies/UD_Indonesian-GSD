@@ -2753,7 +2753,7 @@
 1	Setelah	setelah	ADP	R--	_	3	case	_	MorphInd=^setelah<r>_R--$
 2	1	1	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^1<c>_CC-$
 3	minggu	minggu	NOUN	NSD	Number=Sing	6	ol	_	SpaceAfter=No|MorphInd=^minggu<n>_NSD$
-4	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
+4	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
 5	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	MorphInd=^mereka<p>_PP3$
 6	mulai	mulai	VERB	VSA	Voice=Act	0	root	_	MorphInd=^mulai<v>_VSA$
 7	berkeliling	keliling	VERB	VSA	Voice=Act	6	xcomp	_	MorphInd=^ber+keliling<n>_VSA$
@@ -5465,7 +5465,7 @@
 11	karena	karena	SCONJ	S--	_	18	mark	_	MorphInd=^karena<s>_S--$
 12	proses	proses	NOUN	NSD	Number=Sing	18	nsubj	_	MorphInd=^proses<n>_NSD$
 13	industri	industri	NOUN	NSD	Number=Sing	12	compound	_	SpaceAfter=No|MorphInd=^industri<n>_NSD$
-14	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
+14	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 15	kajian	kajian	NOUN	NSD	Number=Sing	12	conj	_	MorphInd=^kaji<v>+an_NSD$
 16	kapitalisme	kapitalisme	NOUN	NSD	Number=Sing	15	compound	_	MorphInd=^kapitalisme<n>_NSD$
 17	Manchester	manchester	PROPN	F--	_	16	nmod	_	MorphInd=^manchester<f>_F--$
