@@ -9994,7 +9994,7 @@
 142	021	021	NUM	CC-	NumType=Card	114	appos	_	SpaceAfter=No|MorphInd=^021<c>_CC-$
 143	)	)	PUNCT	Z--	_	142	punct	_	MorphInd=^)<z>_Z--$
 144	5760677	5760677	NUM	CC-	NumType=Card	142	nummod	_	MorphInd=^5760677<c>_CC-$
-145	Umat	umat	PROPN	NSD	_	149	appos	_	MorphInd=^umat<n>_NSD$
+145	Umat	umat	PROPN	NSD	_	149	nsubj	_	MorphInd=^umat<n>_NSD$
 146	Gereja	gereja	PROPN	NSD	_	145	flat	_	MorphInd=^gereja<n>_NSD$
 147	Duta	duta	PROPN	NSD	_	146	flat	_	MorphInd=^duta<n>_NSD$
 148	Injili	injili	PROPN	VSA	_	147	flat	_	MorphInd=^injil<n>+i_VSA$
