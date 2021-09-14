@@ -1541,7 +1541,7 @@
 26	lainnya	lainnya	ADJ	D--	_	25	amod	_	SpaceAfter=No|MorphInd=^lainnya<d>_D--$
 27	,	,	PUNCT	Z--	_	31	punct	_	MorphInd=^,<z>_Z--$
 28	yang	yang	CCONJ	S--	_	31	mark	_	MorphInd=^yang<s>_S--$
-29	mana	mana	SCONJ	W--	PronType=Int	28	fixed	_	MorphInd=^mana<w>_W--$
+29	mana	mana	PRON	W--	PronType=Dem	28	fixed	_	MorphInd=^mana<w>_W--$
 30	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	31	nsubj	_	MorphInd=^mereka<p>_PP3$
 31	menemukan	temu	VERB	VSA	Voice=Act	24	acl	_	MorphInd=^meN+temu<v>+kan_VSA$
 32	label	label	NOUN	NSD	Number=Sing	31	obj	_	MorphInd=^label<n>_NSD$
@@ -1775,7 +1775,7 @@
 18	universitas	universitas	PROPN	NSD	_	16	flat	_	MorphInd=^universitas<n>_NSD$
 19	melaporkan	lapor	VERB	VSA	Voice=Act	6	dep	_	MorphInd=^meN+lapor<v>+kan_VSA$
 20	kemungkinan	kemungkinan	NOUN	NSD	Number=Sing	19	obj	_	MorphInd=^kemungkinan<n>_NSD$
-21	adanya	adanya	VERB	B--	Verb=Act	20	acl	_	MorphInd=^adanya<b>_B--$
+21	adanya	adanya	VERB	B--	Voice=Act	20	acl	_	MorphInd=^adanya<b>_B--$
 22	seorang	seorang	PRON	B--	PronType=Ind	21	obj	_	MorphInd=^seorang<b>_B--$
 23	bersenjata	senjata	VERB	VSA	Voice=Act	22	acl	_	MorphInd=^ber+senjata<n>_VSA$
 24	di	di	ADP	R--	_	25	case	_	MorphInd=^di<r>_R--$
@@ -1835,7 +1835,7 @@
 7	pemerintahan	penperintahan	NOUN	NSD	Number=Sing	6	compound	_	MorphInd=^peN+perintah<n>+an_NSD$
 8	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	7	det	_	MorphInd=^mereka<p>_PP3$
 9	hanya	hanya	ADV	D--	_	10	advmod	_	MorphInd=^hanya<d>_D--$
-10	sementara	sementara	DET	S--	PronType=Rel	6	xcomp	_	SpaceAfter=No|MorphInd=^sementara<s>_S--$
+10	sementara	sementara	NOUN	S--	_	6	xcomp	_	SpaceAfter=No|MorphInd=^sementara<s>_S--$
 11	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 12	namun	namun	SCONJ	S--	_	15	mark	_	MorphInd=^namun<s>_S--$
 13	ternyata	ternyata	SCONJ	ASS	_	15	mark	_	MorphInd=^ter+nyata<a>_ASS$
@@ -2187,8 +2187,8 @@
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
 5	garis	garis	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^garis<n>_NSD$
 6	horizontal	horizontal	ADJ	F--	_	5	amod	_	MorphInd=^horizontal<f>_F--$
-7	di	di	CCONJ	R--	_	14	mark	_	MorphInd=^di<r>_R--$
-8	mana	mana	SCONJ	W--	PronType=Int	7	fixed	_	MorphInd=^mana<w>_W--$
+7	di	di	SCONJ	R--	_	14	mark	_	MorphInd=^di<r>_R--$
+8	mana	mana	PRON	W--	PronType=Dem	7	fixed	_	MorphInd=^mana<w>_W--$
 9	garis	garis	NOUN	NSD	Number=Sing	14	nsubj	_	MorphInd=^garis<n>_NSD$
 10	pinggang	pinggang	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^pinggang<n>_NSD$
 11	itu	itu	DET	B--	PronType=Dem	10	det	_	MorphInd=^itu<b>_B--$
@@ -3631,7 +3631,7 @@
 2	16	16	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^16<c>_CC-$
 3	Juli	juli	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^juli<n>_NSD$
 4	berita	berita	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^berita<n>_NSD$
-5	adanya	adanya	VERB	B--	Verb=Act	8	csubj	_	MorphInd=^adanya<b>_B--$
+5	adanya	adanya	VERB	B--	Voice=Act	8	csubj	_	MorphInd=^adanya<b>_B--$
 6	pembantaian	penbantaian	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^peN+bantai<v>+an_NSD$
 7	mulai	mulai	ADV	VSA	_	8	advmod	_	MorphInd=^mulai<v>_VSA$
 8	tersebar	sebar	VERB	VSP	Voice=Pass	0	root	_	SpaceAfter=No|MorphInd=^ter+sebar<v>_VSP$

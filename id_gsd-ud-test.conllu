@@ -8839,8 +8839,8 @@
 9	Sang	sang	PROPN	F--	_	10	det	_	MorphInd=^sang<f>_F--$
 10	Firaun	firaun	PROPN	NSD	_	8	det	_	SpaceAfter=No|MorphInd=^firaun<n>_NSD$
 11	,	,	PUNCT	Z--	_	24	punct	_	MorphInd=^,<z>_Z--$
-12	di	di	CCONJ	R--	_	24	mark	_	MorphInd=^di<r>_R--$
-13	mana	mana	SCONJ	W--	PronType=Int	12	fixed	_	MorphInd=^mana<w>_W--$
+12	di	di	SCONJ	R--	_	24	mark	_	MorphInd=^di<r>_R--$
+13	mana	mana	PRON	W--	PronType=Dem	12	fixed	_	MorphInd=^mana<w>_W--$
 14	dalam	dalam	ADP	R--	_	15	case	_	MorphInd=^dalam<r>_R--$
 15	pertemuan	pertemuan	NOUN	NSD	Number=Sing	24	obl	_	MorphInd=^per+temu<n>+an_NSD$
 16	awal	awal	ADJ	NSD	_	15	amod	_	MorphInd=^awal<n>_NSD$
@@ -9107,7 +9107,7 @@
 11	berfungsi	fungsi	VERB	VSA	Voice=Act	7	acl	_	MorphInd=^ber+fungsi<n>_VSA$
 12	sebagai	sebagai	ADP	R--	_	13	case	_	MorphInd=^sebagai<r>_R--$
 13	pabrik	pabrik	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^pabrik<n>_NSD$
-14	sementara	sementara	DET	S--	PronType=Rel	13	amod	_	SpaceAfter=No|MorphInd=^sementara<s>_S--$
+14	sementara	sementara	ADJ	S--	_	13	amod	_	SpaceAfter=No|MorphInd=^sementara<s>_S--$
 15	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s386
