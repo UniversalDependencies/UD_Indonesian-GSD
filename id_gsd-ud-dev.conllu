@@ -1775,7 +1775,7 @@
 18	universitas	universitas	PROPN	NSD	_	16	flat	_	MorphInd=^universitas<n>_NSD$
 19	melaporkan	lapor	VERB	VSA	Voice=Act	6	dep	_	MorphInd=^meN+lapor<v>+kan_VSA$
 20	kemungkinan	kemungkinan	NOUN	NSD	Number=Sing	19	obj	_	MorphInd=^kemungkinan<n>_NSD$
-21	adanya	adanya	VERB	B--	PronType=Ind	20	acl	_	MorphInd=^adanya<b>_B--$
+21	adanya	adanya	VERB	B--	Verb=Act	20	acl	_	MorphInd=^adanya<b>_B--$
 22	seorang	seorang	PRON	B--	PronType=Ind	21	obj	_	MorphInd=^seorang<b>_B--$
 23	bersenjata	senjata	VERB	VSA	Voice=Act	22	acl	_	MorphInd=^ber+senjata<n>_VSA$
 24	di	di	ADP	R--	_	25	case	_	MorphInd=^di<r>_R--$
@@ -3631,7 +3631,7 @@
 2	16	16	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^16<c>_CC-$
 3	Juli	juli	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^juli<n>_NSD$
 4	berita	berita	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^berita<n>_NSD$
-5	adanya	adanya	VERB	B--	PronType=Ind	8	csubj	_	MorphInd=^adanya<b>_B--$
+5	adanya	adanya	VERB	B--	Verb=Act	8	csubj	_	MorphInd=^adanya<b>_B--$
 6	pembantaian	penbantaian	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^peN+bantai<v>+an_NSD$
 7	mulai	mulai	ADV	VSA	_	8	advmod	_	MorphInd=^mulai<v>_VSA$
 8	tersebar	sebar	VERB	VSP	Voice=Pass	0	root	_	SpaceAfter=No|MorphInd=^ter+sebar<v>_VSP$
@@ -5984,7 +5984,7 @@
 11	isinya	isi	PRON	NSD+PS3	Number=Sing|Number[psor]=Sing|Person[psor]=3	12	nsubj	_	MorphInd=^isi<n>_NSD+dia<p>_PS3$
 12	mengatur	atur	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^meN+atur<v>_VSA$
 13	tentang	tentang	ADP	R--	_	14	case	_	MorphInd=^tentang<r>_R--$
-14	bagaimana	bagaimana	ADP	W--	PronType=Int	12	xcomp	_	MorphInd=^bagaimana<w>_W--$
+14	bagaimana	bagaimana	ADV	W--	PronType=Int	12	xcomp	_	MorphInd=^bagaimana<w>_W--$
 15	seharusnya	seharusnya	ADV	D--	_	17	advmod	_	MorphInd=^seharusnya<d>_D--$
 16	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	17	nsubj	_	MorphInd=^mereka<p>_PP3$
 17	melaksanakan	laksana	VERB	VSA	Voice=Act	14	advcl	_	MorphInd=^meN+laksana<v>+kan_VSA$
@@ -6336,7 +6336,7 @@
 
 # sent_id = dev-s239
 # text = Berikut adalah raja-raja Pajajaran: Raja-Raja Pajajaran, seperti juga Raja-Raja Singasari, Majapahit, Dharmasraya, dan Pagaruyung periode awal, beserta para pembesarnya adalah pengikut sekte keagamaan Tantra.
-1	Berikut	berikut	DET	VSA	Voice=Act	3	det	_	MorphInd=^ber+ikut<v>_VSA$
+1	Berikut	berikut	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^ber+ikut<v>_VSA$
 2	adalah	adalah	AUX	O--	_	3	cop	_	MorphInd=^adalah<o>_O--$
 3	raja-raja	raja	NOUN	NSD	Number=Plur	0	root	_	MorphInd=^raja<n>_NSD$
 4	Pajajaran	pajajaran	PROPN	X--	_	3	flat	_	SpaceAfter=No|MorphInd=^pajajaran<x>_X--$
@@ -6523,7 +6523,7 @@
 2	tidak	tidak	PART	G--	Polarity=Neg	3	advmod	_	MorphInd=^tidak<g>_G--$
 3	yakin	yakin	VERB	ASP	_	0	root	_	SpaceAfter=No|MorphInd=^yakin<a>_ASP$
 4	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
-5	apakah	apa	SCONJ	W--+T--	PronType=Int	6	mark	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+5	apakah	apa	SCONJ	W--+T--	_	6	mark	_	MorphInd=^apa<w>_W--+kah<t>_T--$
 6	Castro	castro	PROPN	F--	_	3	ccomp	_	MorphInd=^castro<f>_F--$
 7	seorang	seorang	DET	B--	PronType=Ind	8	det	_	MorphInd=^seorang<b>_B--$
 8	komunis	komunis	NOUN	NSD	Number=Sing	6	acl	_	MorphInd=^komunis<n>_NSD$
@@ -9873,7 +9873,7 @@
 # sent_id = dev-s383
 # text = Artikel berikut menjelaskan proses kualifikasi menuju babak utama SAP Open 2011.
 1	Artikel	artikel	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^artikel<n>_NSD$
-2	berikut	berikut	DET	VSA	Voice=Act	1	det	_	MorphInd=^ber+ikut<v>_VSA$
+2	berikut	berikut	DET	VSA	PronType=Dem	1	det	_	MorphInd=^ber+ikut<v>_VSA$
 3	menjelaskan	jelas	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+jelas<a>+kan_VSA$
 4	proses	proses	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^proses<n>_NSD$
 5	kualifikasi	kualifikasi	NOUN	NSD	Number=Sing	4	compound	_	MorphInd=^kualifikasi<n>_NSD$
@@ -12491,7 +12491,7 @@
 17	mengetahui	ketahui	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+ketahui<v>_VSA$
 18	secara	secara	ADP	R--	_	19	case	_	MorphInd=^secara<r>_R--$
 19	pasti	pasti	ADJ	ASP	_	17	xcomp	_	MorphInd=^pasti<a>_ASP$
-20	bagaimana	bagaimana	ADP	W--	PronType=Int	25	case	_	MorphInd=^bagaimana<w>_W--$
+20	bagaimana	bagaimana	ADV	W--	PronType=Int	25	case	_	MorphInd=^bagaimana<w>_W--$
 21	awan	awan	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^awan<n>_NSD$
 22	indah	indah	ADJ	ASP	_	21	amod	_	MorphInd=^indah<a>_ASP$
 23	ini	ini	DET	B--	PronType=Dem	21	det	_	MorphInd=^ini<b>_B--$
