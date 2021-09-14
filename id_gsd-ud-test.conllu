@@ -8950,9 +8950,9 @@
 14	36	36	NUM	X--	NumType=Card	15	nummod	_	SpaceAfter=No|MorphInd=^36&amp;amp;nbsp<x>_X--$
 15	°	°	SYM	Z--	_	11	nmod	_	MorphInd=^°<z>_Z--$
 16	C	c	PROPN	F--	_	15	nmod	_	MorphInd=^c<f>_F--$
-17	dan	dan	CCONJ	H--	_	21	cc	_	MorphInd=^dan<h>_H--$
-18	rennet	rennet	NOUN	X--	_	21	nsubj:pass	_	MorphInd=^rennet<x>_X--$
-19	pun	pun	PART	T--	_	21	advmod	_	MorphInd=^pun<t>_T--$
+17	dan	dan	CCONJ	H--	_	20	cc	_	MorphInd=^dan<h>_H--$
+18	rennet	rennet	NOUN	X--	_	20	nsubj:pass	_	MorphInd=^rennet<x>_X--$
+19	pun	pun	PART	T--	_	20	advmod	_	MorphInd=^pun<t>_T--$
 20	ditambahkan	tambah	VERB	VSP	Voice=Pass	3	conj	_	SpaceAfter=No|MorphInd=^di+tambah<v>+kan_VSP$
 21	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
@@ -9749,7 +9749,7 @@
 29	penulis	pentulis	NOUN	NSD	Number=Sing	35	obl	_	MorphInd=^peN+tulis<v>_NSD$
 30	pra	pra	NOUN	ASP	_	29	compound	_	MorphInd=^pra<a>_ASP$
 31	-	-	PUNCT	Z--	_	32	punct	_	MorphInd=^-<z>_Z--$
-32	milenial	milenial	NOUN	X--	_	30	fixed	_	MorphInd=^milenial<x>_X--$
+32	milenial	milenial	NOUN	X--	_	30	nmod	_	MorphInd=^milenial<x>_X--$
 33	dispensasional	dispensasional	ADJ	X--	_	32	amod	_	SpaceAfter=No|MorphInd=^dispensasional<x>_X--$
 34	,	,	PUNCT	Z--	_	29	punct	_	MorphInd=^,<z>_Z--$
 35	ada	ada	VERB	ASP	_	13	dep	_	MorphInd=^ada<a>_ASP$
@@ -9960,8 +9960,8 @@
 109	,	,	PUNCT	Z--	_	110	punct	_	MorphInd=^,<z>_Z--$
 110	updated	updated	ADJ	X--	_	107	amod	_	MorphInd=^updated<x>_X--$
 111	info	info	NOUN	F--	_	110	compound	_	MorphInd=^info<f>_F--$
-112	dan	dan	CCONJ	H--	_	107	cc	_	MorphInd=^dan<h>_H--$
-113	lain-lain	lain	ADJ	ASP	_	112	amod	_	MorphInd=^lain<a>_ASP$
+112	dan	dan	CCONJ	H--	_	113	cc	_	MorphInd=^dan<h>_H--$
+113	lain-lain	lain	ADJ	ASP	_	107	conj	_	MorphInd=^lain<a>_ASP$
 114	Mal	mal	PROPN	F--	_	155	nsubj	_	MorphInd=^mal<f>_F--$
 115	Ambasador	ambasador	PROPN	X--	_	114	flat	_	SpaceAfter=No|MorphInd=^ambasador<x>_X--$
 116	,	,	PUNCT	Z--	_	117	punct	_	MorphInd=^,<z>_Z--$
@@ -10890,7 +10890,7 @@
 11	teater	teater	NOUN	X--	_	10	compound	_	MorphInd=^teater<x>_X--$
 12	dari	dari	ADP	R--	_	13	case	_	MorphInd=^dari<r>_R--$
 13	Antony	antony	PROPN	F--	_	10	nmod	_	MorphInd=^antony<f>_F--$
-14	&	&	PUNCT	X--	_	18	punct	_	MorphInd=^&amp;amp;<x>_X--$
+14	&	&	PUNCT	X--	_	15	punct	_	MorphInd=^&amp;amp;<x>_X--$
 15	Cleopatra	cleopatra	PROPN	X--	_	13	flat	_	MorphInd=^cleopatra<x>_X--$
 16	dan	dan	CCONJ	H--	_	18	cc	_	MorphInd=^dan<h>_H--$
 17	The	the	DET	F--	_	18	det	_	MorphInd=^the<f>_F--$
@@ -11489,7 +11489,7 @@
 19	striped	striped	PROPN	X--	_	20	amod	_	MorphInd=^striped<x>_X--$
 20	snakehead	snakehead	PROPN	X--	_	11	conj	_	MorphInd=^snakehead<x>_X--$
 21	dan	dan	CCONJ	H--	_	23	cc	_	MorphInd=^dan<h>_H--$
-22	juga	juga	ADV	D--	_	21	advmod	_	MorphInd=^juga<d>_D--$
+22	juga	juga	ADV	D--	_	23	advmod	_	MorphInd=^juga<d>_D--$
 23	aruan	aruan	NOUN	X--	_	11	conj	_	SpaceAfter=No|MorphInd=^aruan<x>_X--$
 24	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
@@ -11546,7 +11546,7 @@
 25	kemudian	kemudian	ADV	S--	_	26	advmod	_	MorphInd=^kemudian<s>_S--$
 26	dipromosikan	promosi	VERB	VSP	Voice=Pass	22	acl	_	MorphInd=^di+promosi<n>+kan_VSP$
 27	menjadi	jadi	VERB	VSA	Voice=Act	26	xcomp	_	MorphInd=^meN+jadi<a>_VSA$
-28	perdana	perdana	NOUN	ASP	_	27	fixed	_	MorphInd=^perdana<a>_ASP$
+28	perdana	perdana	NOUN	ASP	_	27	obl	_	MorphInd=^perdana<a>_ASP$
 29	mentri	mentri	NOUN	NSD	Number=Sing	28	compound	_	SpaceAfter=No|MorphInd=^mentri<n>_NSD$
 30	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
 
