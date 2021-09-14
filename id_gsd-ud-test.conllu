@@ -9345,7 +9345,7 @@
 18	.	.	PUNCT	Z--	_	17	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s397
-# text = Garis kebijakan yang dikeluarkan sejak dilantik tanggal 18 Maret 1996 lalu tertuang dalam butir-butir kebijakan, yaitu: Sosialisasi Gerakan Displin National, Pembentukan / Kerjasama Tim, Konsistensi Pendekatan Hukum, Pelayanan Terbaik dan Amankan dan Sukseskan Pemilu 1997 &amp; Sidang Umum MPR 1998, yang diarahkan untuk mewujudkan penampilan peroranjyan / individu, penampilan satuan dan pennmpilan operasional.
+# text = Garis kebijakan yang dikeluarkan sejak dilantik tanggal 18 Maret 1996 lalu tertuang dalam butir-butir kebijakan, yaitu: Sosialisasi Gerakan Displin National, Pembentukan / Kerjasama Tim, Konsistensi Pendekatan Hukum, Pelayanan Terbaik dan Amankan dan Sukseskan Pemilu 1997 & Sidang Umum MPR 1998, yang diarahkan untuk mewujudkan penampilan peroranjyan / individu, penampilan satuan dan pennmpilan operasional.
 1	Garis	garis	PROPN	NSD	_	2	nsubj	_	MorphInd=^garis<n>_NSD$
 2	kebijakan	kebijakan	NOUN	NSD	Number=Sing	12	nsubj:pass	_	MorphInd=^ke+bijak<a>+an_NSD$
 3	yang	yang	PRON	S--	PronType=Rel	4	nsubj:pass	_	MorphInd=^yang<s>_S--$
@@ -9386,7 +9386,7 @@
 38	Sukseskan	sukses	VERB	VSA	_	36	conj	_	MorphInd=^sukses<n>+kan_VSA$
 39	Pemilu	pemilu	PROPN	NSD	_	36	flat	_	MorphInd=^pemilu<n>_NSD$
 40	1997	1997	NUM	CC-	NumType=Card	39	nummod	_	MorphInd=^1997<c>_CC-$
-41	&amp;	&amp;	SYM	X--	_	42	punct	_	MorphInd=^&amp;amp;<x>_X--$
+41	&	&	PUNCT	X--	_	42	punct	_	MorphInd=^&amp;amp;<x>_X--$
 42	Sidang	sidang	PROPN	NSD	_	39	conj	_	MorphInd=^sidang<n>_NSD$
 43	Umum	umum	PROPN	ASP	_	42	amod	_	MorphInd=^umum<a>_ASP$
 44	MPR	mpr	PROPN	X--	_	42	flat	_	MorphInd=^mpr<x>_X--$

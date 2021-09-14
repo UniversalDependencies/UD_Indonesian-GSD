@@ -6295,7 +6295,7 @@
 5	33	33	NUM	CC-	NumType=Card	6	nummod	_	SpaceAfter=No|MorphInd=^33<c>_CC-$
 6	°	°	SYM	Z--	_	9	nmod	_	MorphInd=^°<z>_Z--$
 7	40	40	NUM	CC-	NumType=Card	8	nummod	_	SpaceAfter=No|MorphInd=^40<c>_CC-$
-8	′	′	PUNCT	Z--	_	9	nmod	_	MorphInd=^′<z>_Z--$
+8	′	′	SYM	Z--	_	9	nmod	_	MorphInd=^′<z>_Z--$
 9	LU	lu	PROPN	F--	_	4	nmod	_	MorphInd=^lu<f>_F--$
 10	73	73	NUM	CC-	NumType=Card	11	nummod	_	SpaceAfter=No|MorphInd=^73<c>_CC-$
 11	°	°	SYM	Z--	_	14	nmod	_	MorphInd=^°<z>_Z--$
