@@ -10972,10 +10972,10 @@
 
 # sent_id = dev-s421
 # text = Kenapa harus smada?
-1	Kenapa	kenapa	ADV	W--	PronType=Int	2	advmod	_	MorphInd=^kenapa<w>_W--$
+1	Kenapa	kenapa	ADV	W--	PronType=Int	3	advmod	_	MorphInd=^kenapa<w>_W--$
 2	harus	harus	AUX	M--	_	3	aux	_	MorphInd=^harus<m>_M--$
 3	smada	smada	PROPN	X--	_	0	root	_	SpaceAfter=No|MorphInd=^smada<x>_X--$
-4	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
+4	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s422
 # text = Sejak saat itu Bondan Kejawan menjadi anak angkat Ki Ageng Tarub, dan diganti namanya menjadi Lembu Peteng.
