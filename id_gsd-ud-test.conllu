@@ -4045,10 +4045,10 @@
 9	bagaimana	bagaimana	ADV	W--	PronType=Int	10	advmod	_	MorphInd=^bagaimana<w>_W--$
 10	nasib	nasib	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^nasib<n>_NSD$
 11-12	ciptaan-Nya	_	_	_	_	_	_	_	MorphInd=^cipta<v>+an_NSD+dia<p>_PS3$
-11	ciptaan-	ciptaan-	NOUN	NSD	Number=Sing	10	det	_	MorphInd=^cipta<v>+an_NSD$
+11	ciptaan-	ciptaan-	NOUN	NSD	Number=Sing	10	nmod	_	MorphInd=^cipta<v>+an_NSD$
 12	Nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	MorphInd=^dia<p>_PS3$
 13	seperti	seperti	ADP	R--	_	14	case	_	MorphInd=^seperti<r>_R--$
-14	manusia	manusia	NOUN	NSD	Number=Sing	10	nmod	_	SpaceAfter=No|MorphInd=^manusia<n>_NSD$
+14	manusia	manusia	NOUN	NSD	Number=Sing	11	nmod	_	SpaceAfter=No|MorphInd=^manusia<n>_NSD$
 15	?	?	PUNCT	Z--	_	10	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s167
@@ -7270,7 +7270,7 @@
 5	menukarkan	tukar	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+tukar<v>+kan_VSA$
 6	jiwa	jiwa	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^jiwa<n>_NSD$
 7	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	6	det	_	MorphInd=^mereka<p>_PP3$
-8	kembali	kembali	VERB	VSA	Voice=Act	5	advmod	_	SpaceAfter=No|MorphInd=^kembali<v>_VSA$
+8	kembali	kembali	VERB	VSA	Voice=Act	5	advcl	_	SpaceAfter=No|MorphInd=^kembali<v>_VSA$
 9	?	?	PUNCT	Z--	_	5	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s308
@@ -9832,21 +9832,22 @@
 17	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s412
-# text = Jalan tikus diwilayah perbatasan digunakan sebagai jalur penyeludupan barang, manusia ataupun narkotika.
-1	Jalan	jalan	NOUN	NSD	Number=Sing	5	nsubj:pass	_	MorphInd=^jalan<n>_NSD$
+# text = Jalan tikus di wilayah perbatasan digunakan sebagai jalur penyeludupan barang, manusia ataupun narkotika.
+1	Jalan	jalan	NOUN	NSD	Number=Sing	6	nsubj:pass	_	MorphInd=^jalan<n>_NSD$
 2	tikus	tikus	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^tikus<n>_NSD$
-3	diwilayah	diwilayah	NOUN	VSP	Voice=Pass	2	compound	_	MorphInd=^di+wilayah<n>_VSP$
-4	perbatasan	perbatasan	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^per+batas<n>+an_NSD$
-5	digunakan	guna	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+guna<n>+kan_VSP$
-6	sebagai	sebagai	ADP	R--	_	7	case	_	MorphInd=^sebagai<r>_R--$
-7	jalur	jalur	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^jalur<n>_NSD$
-8	penyeludupan	penseludupan	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^peN+seludup<v>+an_NSD$
-9	barang	barang	NOUN	NSD	Number=Sing	8	compound	_	SpaceAfter=No|MorphInd=^barang<n>_NSD$
-10	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
-11	manusia	manusia	NOUN	NSD	Number=Sing	8	conj	_	MorphInd=^manusia<n>_NSD$
-12	ataupun	atau	CCONJ	H--+T--	_	13	cc	_	MorphInd=^atau<h>_H--+pun<t>_T--$
-13	narkotika	narkotika	NOUN	NSD	Number=Sing	8	conj	_	SpaceAfter=No|MorphInd=^narkotika<n>_NSD$
-14	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
+3	di	di	ADP	R--	_	4	case	_	_
+4	wilayah	wilayah	NOUN	VSP	Number=Sing	1	nmod	_	MorphInd=^di+wilayah<n>_VSP$
+5	perbatasan	perbatasan	NOUN	NSD	Number=Sing	4	compound	_	MorphInd=^per+batas<n>+an_NSD$
+6	digunakan	guna	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+guna<n>+kan_VSP$
+7	sebagai	sebagai	ADP	R--	_	8	case	_	MorphInd=^sebagai<r>_R--$
+8	jalur	jalur	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^jalur<n>_NSD$
+9	penyeludupan	penseludupan	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^peN+seludup<v>+an_NSD$
+10	barang	barang	NOUN	NSD	Number=Sing	9	nmod	_	SpaceAfter=No|MorphInd=^barang<n>_NSD$
+11	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
+12	manusia	manusia	NOUN	NSD	Number=Sing	10	conj	_	MorphInd=^manusia<n>_NSD$
+13	ataupun	atau	CCONJ	H--+T--	_	14	cc	_	MorphInd=^atau<h>_H--+pun<t>_T--$
+14	narkotika	narkotika	NOUN	NSD	Number=Sing	10	conj	_	SpaceAfter=No|MorphInd=^narkotika<n>_NSD$
+15	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s413
 # text = 'SOLA GRACIA' ("dari Tuhan untuk kita, dan dari kita untuk Tuhan") Gereja Duta Injil memiliki pameo "Satu Duta Injil yang diberkati, bawa dua jiwa baru bagi Tuhan, Jadilah tiga Duta Injil Sejati, beribu - ribu malaikat diSurga bersorak sorai.." Dalam setiap acara reguler dan kebaktian, sangat ditekankan sikap jemaat sebagai Dua Injil yang sesungguhnya, dimana umat tersebut mampu membawa pesan keselamatan Tuhan dalam kesaksian dan sikap kehidupan sehari - hari tanpa harus berbicara, sehingga menjadi kitab terbuka bagi lingkungan dimanapun mereka berada... Web - site untuk jadwal kebaktian, updated info dan lain-lain Mal Ambasador, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Telp. (021) 5760617, 5760676 Fax. (021) 5760677 Umat Gereja Duta Injili percaya akan tiga hal: ialah Tuhan Pencipta, Ia selalu benar.
@@ -10490,15 +10491,15 @@
 3	digunakan	guna	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+guna<n>+kan_VSP$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
 5	perangkat	perangkat	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^perangkat<n>_NSD$
-6	yang	yang	PRON	S--	PronType=Rel	5	det	_	MorphInd=^yang<s>_S--$
+6	yang	yang	PRON	S--	PronType=Rel	7	nsubj	_	MorphInd=^yang<s>_S--$
 7-8	mendukungnya	_	_	_	_	_	_	_	MorphInd=^meN+dukung<v>_VSA+dia<p>_PS3$
-7	mendukung	dukung	VERB	VSA	Voice=Act	5	acl	_	MorphInd=^meN+dukung<v>_VSA$
+7	mendukung	dukung	VERB	VSA	Voice=Act	5	acl:relcl	_	MorphInd=^meN+dukung<v>_VSA$
 8	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	obj	_	MorphInd=^dia<p>_PS3$
-9	dimana	dimana	SCONJ	W--	_	5	mark	_	MorphInd=^dimana<w>_W--$
-10	microSD	microsd	PROPN	X--	_	9	nsubj	_	MorphInd=^microsd<x>_X--$
-11	pun	pun	PART	T--	_	10	det	_	MorphInd=^pun<t>_T--$
-12	dapat	dapat	ADV	VSA	_	10	advmod	_	MorphInd=^dapat<v>_VSA$
-13	digunakan	guna	VERB	VSP	Voice=Pass	12	acl	_	SpaceAfter=No|MorphInd=^di+guna<n>+kan_VSP$
+9	dimana	dimana	SCONJ	W--	_	13	mark	_	MorphInd=^dimana<w>_W--$
+10	microSD	microsd	PROPN	X--	_	13	nsubj	_	MorphInd=^microsd<x>_X--$
+11	pun	pun	PART	T--	_	10	advmod:emph	_	MorphInd=^pun<t>_T--$
+12	dapat	dapat	AUX	VSA	_	13	aux	_	MorphInd=^dapat<v>_VSA$
+13	digunakan	guna	VERB	VSP	Voice=Pass	7	advcl	_	SpaceAfter=No|MorphInd=^di+guna<n>+kan_VSP$
 14	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s436
@@ -11881,7 +11882,7 @@
 42	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s494
-# text = Prof. Dr. Khoirul Anwar () adalah ilmuwan Indonesia yang menemukan dan sekaligus pemilik paten teknologi 4G berbasis OFDM. Prof. Dr. Khoirul Anwar adalah anak dari pasangan (almarhum) Sudjianto dengan Siti Patmi.
+# text = Prof. Dr. Khoirul Anwar () adalah ilmuwan Indonesia yang menemukan dan sekaligus pemilik paten teknologi 4G berbasis OFDM.
 1	Prof	prof	PROPN	F--	_	5	det	_	SpaceAfter=No|MorphInd=^prof<f>_F--$
 2	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 3	Dr	dr	PROPN	F--	_	5	det	_	SpaceAfter=No|MorphInd=^dr<f>_F--$
@@ -11904,24 +11905,25 @@
 20	berbasis	basis	VERB	VSA	Voice=Act	18	acl	_	MorphInd=^ber+basis<n>_VSA$
 21	OFDM	ofdm	PROPN	X--	_	20	obj	_	SpaceAfter=No|MorphInd=^ofdm<x>_X--$
 22	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
-23	Prof	prof	PROPN	F--	_	27	det	_	SpaceAfter=No|MorphInd=^prof<f>_F--$
-24	.	.	PUNCT	Z--	_	23	punct	_	MorphInd=^.<z>_Z--$
-25	Dr	dr	PROPN	F--	_	27	det	_	SpaceAfter=No|MorphInd=^dr<f>_F--$
-26	.	.	PUNCT	Z--	_	25	punct	_	MorphInd=^.<z>_Z--$
-27	Khoirul	khoirul	PROPN	X--	_	30	nsubj	_	MorphInd=^khoirul<x>_X--$
-28	Anwar	anwar	PROPN	F--	_	27	flat	_	MorphInd=^anwar<f>_F--$
-29	adalah	adalah	AUX	O--	_	30	cop	_	MorphInd=^adalah<o>_O--$
-30	anak	anak	NOUN	NSD	Number=Sing	10	dep	_	MorphInd=^anak<n>_NSD$
-31	dari	dari	ADP	R--	_	32	case	_	MorphInd=^dari<r>_R--$
-32	pasangan	pasangan	NOUN	NSD	Number=Sing	30	nmod	_	MorphInd=^pasang<v>+an_NSD$
-33	(	(	PUNCT	Z--	_	34	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-34	almarhum	almarhum	NOUN	X--	_	32	appos	_	SpaceAfter=No|MorphInd=^almarhum<x>_X--$
-35	)	)	PUNCT	Z--	_	34	punct	_	MorphInd=^)<z>_Z--$
-36	Sudjianto	sudjianto	PROPN	X--	_	34	flat	_	MorphInd=^sudjianto<x>_X--$
-37	dengan	dengan	ADP	R--	_	38	case	_	MorphInd=^dengan<r>_R--$
-38	Siti	siti	PROPN	F--	_	34	nmod	_	MorphInd=^siti<f>_F--$
-39	Patmi	patmi	PROPN	X--	_	38	flat	_	SpaceAfter=No|MorphInd=^patmi<x>_X--$
-40	.	.	PUNCT	Z--	_	30	punct	_	MorphInd=^.<z>_Z--$
+
+# sent_id = test-s494-2
+# text = Prof. Dr. Khoirul Anwar adalah anak dari pasangan (almarhum) Sudjianto dengan Siti Patmi.
+1	Prof.	prof	PROPN	F--	_	6	nsubj	_	MorphInd=^prof<f>_F--$
+2	Dr.	dr	PROPN	F--	_	1	flat:name	_	MorphInd=^dr<f>_F--$
+3	Khoirul	khoirul	PROPN	X--	_	1	flat:name	_	MorphInd=^khoirul<x>_X--$
+4	Anwar	anwar	PROPN	F--	_	1	flat:name	_	MorphInd=^anwar<f>_F--$
+5	adalah	adalah	AUX	O--	_	6	cop	_	MorphInd=^adalah<o>_O--$
+6	anak	anak	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^anak<n>_NSD$
+7	dari	dari	ADP	R--	_	8	case	_	MorphInd=^dari<r>_R--$
+8	pasangan	pasangan	NOUN	NSD	Number=Sing	6	nmod	_	MorphInd=^pasang<v>+an_NSD$
+9	(	(	PUNCT	Z--	_	10	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+10	almarhum	almarhum	NOUN	X--	_	8	appos	_	SpaceAfter=No|MorphInd=^almarhum<x>_X--$
+11	)	)	PUNCT	Z--	_	10	punct	_	MorphInd=^)<z>_Z--$
+12	Sudjianto	sudjianto	PROPN	X--	_	8	nmod	_	MorphInd=^sudjianto<x>_X--$
+13	dengan	dengan	ADP	R--	_	14	case	_	MorphInd=^dengan<r>_R--$
+14	Siti	siti	PROPN	F--	_	12	conj	_	MorphInd=^siti<f>_F--$
+15	Patmi	patmi	PROPN	X--	_	14	flat:name	_	SpaceAfter=No|MorphInd=^patmi<x>_X--$
+16	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s495
 # text = Yakub menyetujuinya.
@@ -12643,7 +12645,7 @@
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 7	rumah	rumah	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^rumah<n>_NSD$
 8	keluarga	keluarga	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^keluarga<n>_NSD$
-9	Bei	bei	PROPN	F--	_	7	det	_	MorphInd=^bei<f>_F--$
+9	Bei	bei	PROPN	F--	_	7	nmod	_	MorphInd=^bei<f>_F--$
 10	Fong	fong	PROPN	X--	_	9	flat	_	SpaceAfter=No|MorphInd=^fong<x>_X--$
 11	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 12	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
@@ -13109,22 +13111,22 @@
 
 # sent_id = test-s541
 # text = Tanggal kelahiran Gaudapa tidak pasti, bahkan terdapat keraguan apakah Gaudapa pernah hidup atau tidak.
-1	Tanggal	tanggal	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^tanggal<n>_NSD$
+1	Tanggal	tanggal	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^tanggal<n>_NSD$
 2	kelahiran	kelahiran	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^ke+lahir<v>+an_NSD$
-3	Gaudapa	gaudapa	PROPN	X--	_	1	det	_	MorphInd=^gaudapa<x>_X--$
+3	Gaudapa	gaudapa	PROPN	X--	_	1	nmod	_	MorphInd=^gaudapa<x>_X--$
 4	tidak	tidak	PART	G--	Polarity=Neg	5	advmod	_	MorphInd=^tidak<g>_G--$
-5	pasti	pasti	ADJ	ASP	_	1	amod	_	SpaceAfter=No|MorphInd=^pasti<a>_ASP$
+5	pasti	pasti	ADJ	ASP	_	0	root	_	SpaceAfter=No|MorphInd=^pasti<a>_ASP$
 6	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 7	bahkan	bahkan	SCONJ	D--	_	8	mark	_	MorphInd=^bahkan<d>_D--$
-8	terdapat	dapat	VERB	VSP	Voice=Pass	1	advcl	_	MorphInd=^ter+dapat<v>_VSP$
-9	keraguan	keraguan	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^ke+ragu<a>+an_NSD$
-10	apakah	apa	PRON	W--+T--	PronType=Int	11	case	_	MorphInd=^apa<w>_W--+kah<t>_T--$
-11	Gaudapa	gaudapa	PROPN	X--	_	9	nmod	_	MorphInd=^gaudapa<x>_X--$
+8	terdapat	dapat	VERB	VSP	Voice=Pass	5	advcl	_	MorphInd=^ter+dapat<v>_VSP$
+9	keraguan	keraguan	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^ke+ragu<a>+an_NSD$
+10	apakah	apa	SCONJ	W--+T--	_	13	mark	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+11	Gaudapa	gaudapa	PROPN	X--	_	13	nsubj	_	MorphInd=^gaudapa<x>_X--$
 12	pernah	pernah	ADV	D--	_	13	advmod	_	MorphInd=^pernah<d>_D--$
-13	hidup	hidup	ADJ	NSD	_	11	amod	_	MorphInd=^hidup<n>_NSD$
+13	hidup	hidup	ADJ	NSD	_	9	advcl	_	MorphInd=^hidup<n>_NSD$
 14	atau	atau	CCONJ	H--	_	15	cc	_	MorphInd=^atau<h>_H--$
 15	tidak	tidak	PART	G--	_	13	conj	_	SpaceAfter=No|MorphInd=^tidak<g>_G--$
-16	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
+16	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s542
 # text = Setelah sebuah perampokan bank yang sukses, Ibrahim tiba-tiba menyewa pembunuh bayaran untuk menghabisi kompanyonya, Umar. Hasil ranpokan dilarikan.
