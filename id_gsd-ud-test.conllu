@@ -9899,7 +9899,7 @@
 46	ribu	ribu	ADV	CC-	_	44	fixed	_	MorphInd=^ribu<c>_CC-$
 47	malaikat	malaikat	NOUN	NSD	Number=Sing	49	nsubj	_	MorphInd=^malaikat<n>_NSD$
 48	diSurga	disurga	NOUN	VSP	_	47	obj	_	MorphInd=^di+surga<n>_VSP$
-49	bersorak	bersorak	PART	VSA	Voice=Act	38	parataxis	_	MorphInd=^ber+sorak<v>_VSA$
+49	bersorak	bersorak	VERB	VSA	Voice=Act	38	parataxis	_	MorphInd=^ber+sorak<v>_VSA$
 50	sorai	sorai	NOUN	X--	_	49	compound	_	SpaceAfter=No|MorphInd=^sorai<x>_X--$
 51	.	.	PUNCT	Z--	_	38	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
 52	.	.	PUNCT	Z--	_	38	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
