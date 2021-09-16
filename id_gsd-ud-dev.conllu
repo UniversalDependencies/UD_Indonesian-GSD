@@ -13655,7 +13655,7 @@
 4	penghuni	penhuni	NOUN	NSD	Number=Sing	1	appos	_	MorphInd=^peN+huni<v>_NSD$
 5	satu	satu	NUM	CC-	_	4	nummod	_	MorphInd=^satu<c>_CC-$
 6	-	-	PUNCT	Z--	_	7	punct	_	MorphInd=^-<z>_Z--$
-7	satunya	satu	DET	CC-+PS3	_	5	fixed	_	MorphInd=^satu<c>_CC-+dia<p>_PS3$
+7	satunya	satu	NUM	CC-+PS3	_	5	fixed	_	MorphInd=^satu<c>_CC-+dia<p>_PS3$
 8	dari	dari	ADP	R--	_	9	case	_	MorphInd=^dari<r>_R--$
 9	pulau	pulau	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^pulau<n>_NSD$
 10	Stephen	stephen	PROPN	F--	_	9	flat	_	SpaceAfter=No|MorphInd=^stephen<f>_F--$
