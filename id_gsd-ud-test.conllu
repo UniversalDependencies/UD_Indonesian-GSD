@@ -1673,7 +1673,7 @@
 # text = Fungsi manajemen pertama kali diperkenalkan oleh seorang industrialis Perancis bernama Henry Fayol pada awal abad ke - 20.
 1	Fungsi	fungsi	NOUN	NSD	Number=Sing	5	nsubj:pass	_	MorphInd=^fungsi<n>_NSD$
 2	manajemen	manajemen	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^manajemen<n>_NSD$
-3	pertama	pertama	NUM	CO-	NumType=Card	4	nummod	_	MorphInd=^pertama<c>_CO-$
+3	pertama	pertama	ADJ	CO-	NumType=Ord	4	amod	_	MorphInd=^pertama<c>_CO-$
 4	kali	kali	NOUN	VSA	_	5	obl	_	MorphInd=^kali<v>_VSA$
 5	diperkenalkan	kenal	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+per+kenal<v>+kan_VSP$
 6	oleh	oleh	ADP	R--	_	8	case	_	MorphInd=^oleh<r>_R--$
@@ -4387,7 +4387,7 @@
 8	suku-suku	suku	NOUN	NSD	Number=Plur	7	nmod	_	MorphInd=^suku<n>_NSD$
 9	lainnya	lainnya	ADJ	D--	_	8	amod	_	SpaceAfter=No|MorphInd=^lainnya<d>_D--$
 10	)	)	PUNCT	Z--	_	7	punct	_	MorphInd=^)<z>_Z--$
-11	pertama	pertama	NUM	CO-	NumType=Card	12	nummod	_	MorphInd=^pertama<c>_CO-$
+11	pertama	pertama	ADJ	CO-	NumType=Ord	12	amod	_	MorphInd=^pertama<c>_CO-$
 12	kali	kali	NOUN	VSA	_	13	obl	_	MorphInd=^kali<v>_VSA$
 13	memasuki	masuk	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+masuk<v>+i_VSA$
 14	Britania	britania	PROPN	X--	_	13	obj	_	MorphInd=^britania<x>_X--$
@@ -4708,7 +4708,7 @@
 4	Oscar	oscar	PROPN	F--	_	3	flat	_	MorphInd=^oscar<f>_F--$
 5	ke	ke	ADP	R--	_	6	case	_	MorphInd=^ke<r>_R--$
 6	tempat	tempat	NOUN	NSD	Number=Sing	2	obl	_	MorphInd=^tempat<n>_NSD$
-7	tinggalnya	tinggal	VERB	VSA+PS3	Number=Sing|Voice=Act	6	amod	_	MorphInd=^tinggal<v>_VSA+dia<p>_PS3$
+7	tinggalnya	tinggal	VERB	VSA+PS3	Voice=Act	6	amod	_	MorphInd=^tinggal<v>_VSA+dia<p>_PS3$
 8	di	di	ADP	R--	_	9	case	_	MorphInd=^di<r>_R--$
 9	Oz	oz	PROPN	X--	_	6	nmod	_	MorphInd=^oz<x>_X--$
 10	untuk	untuk	ADP	R--	_	11	case	_	MorphInd=^untuk<r>_R--$
@@ -5012,7 +5012,7 @@
 36	Medang	medang	PROPN	X--	_	35	flat	_	MorphInd=^medang<x>_X--$
 37	pada	pada	ADP	R--	_	38	case	_	MorphInd=^pada<r>_R--$
 38	awal	awal	ADJ	NSD	_	34	acl	_	MorphInd=^awal<n>_NSD$
-39	berdirinya	berdiri	VERB	VSA+PS3	Number=Sing|Voice=Act	38	nsubj	_	MorphInd=^ber+diri<n>_VSA+dia<p>_PS3$
+39	berdirinya	berdiri	VERB	VSA+PS3	Voice=Act	38	nsubj	_	MorphInd=^ber+diri<n>_VSA+dia<p>_PS3$
 40	diperkirakan	kira	VERB	VSP	Voice=Pass	8	dep	_	MorphInd=^di+per+kira<v>+kan_VSP$
 41	terletak	letak	VERB	VSP	Voice=Pass	40	advcl	_	MorphInd=^ter+letak<n>_VSP$
 42	di	di	ADP	R--	_	43	case	_	MorphInd=^di<r>_R--$
@@ -6479,8 +6479,8 @@
 # sent_id = test-s275
 # text = Memetika pertama kali dikemukakan ketika Richard Dawkins mereduksi proses dari evolusi gen biologi menjadi satuan pokok yaitu replikator (gen).
 1	Memetika	memetika	PROPN	X--	_	4	nsubj:pass	_	MorphInd=^memetika<x>_X--$
-2	pertama	pertama	NUM	CO-	NumType=Card	3	nummod	_	MorphInd=^pertama<c>_CO-$
-3	kali	kali	ADV	VSA	_	4	advmod	_	MorphInd=^kali<v>_VSA$
+2	pertama	pertama	ADJ	CO-	NumType=Ord	3	amod	_	MorphInd=^pertama<c>_CO-$
+3	kali	kali	NOUN	VSA	Number=Sing	4	obl	_	MorphInd=^kali<v>_VSA$
 4	dikemukakan	kemuka	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+kemuka<v>+kan_VSP$
 5	ketika	ketika	SCONJ	S--	_	8	mark	_	MorphInd=^ketika<s>_S--$
 6	Richard	richard	PROPN	F--	_	8	nsubj	_	MorphInd=^richard<f>_F--$
@@ -6635,7 +6635,7 @@
 4	steam	steam	PROPN	X--	_	10	nsubj:pass	_	MorphInd=^steam<x>_X--$
 5	cylinder	cylinder	PROPN	X--	_	4	flat	_	MorphInd=^cylinder<x>_X--$
 6	untuk	untuk	ADP	R--	_	8	case	_	MorphInd=^untuk<r>_R--$
-7	pertama	pertama	NUM	CO-	NumType=Card	8	nummod	_	MorphInd=^pertama<c>_CO-$
+7	pertama	pertama	ADJ	CO-	NumType=Ord	8	amod	_	MorphInd=^pertama<c>_CO-$
 8-9	kalinya	_	_	_	_	_	_	_	MorphInd=^kali<v>_VSA+dia<p>_PS3$
 8	kali	kali	NOUN	VSA	_	10	obl	_	MorphInd=^kali<v>_VSA$
 9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -8832,8 +8832,8 @@
 1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	2	nsubj:pass	_	MorphInd=^mereka<p>_PP3$
 2	diperkenalkan	kenal	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+per+kenal<v>+kan_VSP$
 3	untuk	untuk	ADP	R--	_	2	case	_	MorphInd=^untuk<r>_R--$
-4	pertama	pertama	NUM	CO-	NumType=Card	5	nummod	_	MorphInd=^pertama<c>_CO-$
-5	kalinya	kali	NOUN	VSA+PS3	Number=Sing|Voice=Act	2	obl	_	MorphInd=^kali<v>_VSA+dia<p>_PS3$
+4	pertama	pertama	ADJ	CO-	NumType=Ord	5	amod	_	MorphInd=^pertama<c>_CO-$
+5	kalinya	kali	NOUN	VSA+PS3	Number=Sing	2	obl	_	MorphInd=^kali<v>_VSA+dia<p>_PS3$
 6	dalam	dalam	ADP	R--	_	7	case	_	MorphInd=^dalam<r>_R--$
 7	seri	seri	NOUN	ASP	_	2	obl	_	MorphInd=^seri<a>_ASP$
 8	Cerutu	cerutu	PROPN	X--	_	7	flat	_	MorphInd=^cerutu<x>_X--$
@@ -8934,28 +8934,26 @@
 19	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s378
-# text = Keju ini dibuat dengan pertama - tama memanaskan susu dengan suhu 33 - 36° C dan rennet pun ditambahkan.
+# text = Keju ini dibuat dengan pertama-tama memanaskan susu dengan suhu 33-36°C dan rennet pun ditambahkan.
 1	Keju	keju	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^keju<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	dibuat	buat	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+buat<v>_VSP$
-4	dengan	dengan	ADP	R--	_	3	case	_	MorphInd=^dengan<r>_R--$
-5	pertama	pertama	NUM	CO-	NumType=Card	3	nummod	_	MorphInd=^pertama<c>_CO-$
-6	-	-	PUNCT	Z--	_	7	punct	_	MorphInd=^-<z>_Z--$
-7	tama	tama	NUM	F--	NumType=Card	5	fixed	_	MorphInd=^tama<f>_F--$
-8	memanaskan	panas	VERB	VSA	Voice=Act	3	xcomp	_	MorphInd=^meN+panas<a>+kan_VSA$
-9	susu	susu	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^susu<n>_NSD$
-10	dengan	dengan	ADP	R--	_	11	case	_	MorphInd=^dengan<r>_R--$
-11	suhu	suhu	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^suhu<n>_NSD$
-12	33	33	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^33<c>_CC-$
-13	-	-	PUNCT	Z--	_	14	punct	_	MorphInd=^-<z>_Z--$
-14	36	36	NUM	X--	NumType=Card	15	nummod	_	SpaceAfter=No|MorphInd=^36&amp;amp;nbsp<x>_X--$
-15	°	°	SYM	Z--	_	11	nmod	_	MorphInd=^°<z>_Z--$
-16	C	c	PROPN	F--	_	15	nmod	_	MorphInd=^c<f>_F--$
-17	dan	dan	CCONJ	H--	_	20	cc	_	MorphInd=^dan<h>_H--$
-18	rennet	rennet	NOUN	X--	_	20	nsubj:pass	_	MorphInd=^rennet<x>_X--$
-19	pun	pun	PART	T--	_	20	advmod	_	MorphInd=^pun<t>_T--$
-20	ditambahkan	tambah	VERB	VSP	Voice=Pass	3	conj	_	SpaceAfter=No|MorphInd=^di+tambah<v>+kan_VSP$
-21	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+4	dengan	dengan	SCONJ	R--	_	6	mark	_	MorphInd=^dengan<r>_R--$
+5	pertama-tama	pertama	ADJ	CO-	NumType=Ord	6	advmod	_	MorphInd=^pertama<c>_CO-$
+6	memanaskan	panas	VERB	VSA	Voice=Act	3	xcomp	_	MorphInd=^meN+panas<a>+kan_VSA$
+7	susu	susu	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^susu<n>_NSD$
+8	dengan	dengan	ADP	R--	_	9	case	_	MorphInd=^dengan<r>_R--$
+9	suhu	suhu	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^suhu<n>_NSD$
+10	33	33	NUM	CC-	NumType=Card	13	nummod	_	SpaceAfter=No|MorphInd=^33<c>_CC-$
+11	-	-	PUNCT	Z--	_	12	punct	_	SpaceAfter=No|MorphInd=^-<z>_Z--$
+12	36	36	NUM	X--	NumType=Card	13	nummod	_	SpaceAfter=No|MorphInd=^36&amp;amp;nbsp<x>_X--$
+13	°	°	SYM	Z--	_	9	nmod	_	SpaceAfter=No|MorphInd=^°<z>_Z--$
+14	C	c	PROPN	F--	_	13	nmod	_	MorphInd=^c<f>_F--$
+15	dan	dan	CCONJ	H--	_	18	cc	_	MorphInd=^dan<h>_H--$
+16	rennet	rennet	NOUN	X--	_	18	nsubj:pass	_	MorphInd=^rennet<x>_X--$
+17	pun	pun	PART	T--	_	16	advmod	_	MorphInd=^pun<t>_T--$
+18	ditambahkan	tambah	VERB	VSP	Voice=Pass	6	conj	_	SpaceAfter=No|MorphInd=^di+tambah<v>+kan_VSP$
+19	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s379
 # text = Hampir semua bandara sipil di Pakistan dimiliki dan dioperasikan oleh CAA. Kantor pusat CAA terletak di Terminal 1 Bandara Internasional Jinnah di Karachi.
@@ -9181,7 +9179,7 @@
 3	just	just	PROPN	X--	_	7	nmod	_	MorphInd=^just<x>_X--$
 4	can	can	PROPN	F--	_	7	nmod	_	MorphInd=^can<f>_F--$
 5	'	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	t	t	PROPN	F--	Polarity=Neg	4	nmod	_	MorphInd=^t<f>_F--$
+6	t	t	PROPN	F--	_	4	nmod	_	MorphInd=^t<f>_F--$
 7	be	be	PROPN	F--	_	0	root	_	MorphInd=^be<f>_F--$
 8	with	with	PROPN	F--	_	7	nmod	_	MorphInd=^with<f>_F--$
 9	you	you	PROPN	F--	_	8	nmod	_	MorphInd=^you<f>_F--$
@@ -9412,7 +9410,7 @@
 # sent_id = test-s398
 # text = Ia pertama kali muncul sebagai Komandan Bond pada film tahun 1995 berjudul GoldenEye yang kemudian banyak mendapat pujian dari para kritikus.
 1	Ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	MorphInd=^ia<p>_PS3$
-2	pertama	pertama	NUM	CO-	NumType=Card	3	nummod	_	MorphInd=^pertama<c>_CO-$
+2	pertama	pertama	ADJ	CO-	NumType=Ord	3	amod	_	MorphInd=^pertama<c>_CO-$
 3	kali	kali	NOUN	VSA	_	4	obl	_	MorphInd=^kali<v>_VSA$
 4	muncul	muncul	VERB	VSA	Voice=Act	0	root	_	MorphInd=^muncul<v>_VSA$
 5	sebagai	sebagai	ADP	R--	_	6	case	_	MorphInd=^sebagai<r>_R--$
@@ -12909,7 +12907,7 @@
 # sent_id = test-s534
 # text = Karya-karya terawalnya masih terikat kepada bentuk - bentuk bahasa Melayu Klasik.
 1	Karya-karya	karya	NOUN	NSD	Number=Plur	4	nsubj	_	MorphInd=^karya<n>_NSD$
-2	terawalnya	terawal	ADJ	VSP+PS3	Number=Sing|Voice=Pass	1	amod	_	MorphInd=^ter+awal<n>_VSP+dia<p>_PS3$
+2	terawalnya	terawal	ADJ	VSP+PS3	Degree=Sup	1	amod	_	MorphInd=^ter+awal<n>_VSP+dia<p>_PS3$
 3	masih	masih	ADV	D--	_	4	advmod	_	MorphInd=^masih<d>_D--$
 4	terikat	ikat	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^ter+ikat<v>_VSP$
 5	kepada	kepada	ADP	R--	_	6	case	_	MorphInd=^kepada<r>_R--$
@@ -13280,7 +13278,7 @@
 36	Indonesia	indonesia	PROPN	NSD	_	35	flat	_	MorphInd=^indonesia<n>_NSD$
 37	dimakzulkan	dimakzulkan	VERB	X--	_	6	parataxis	_	MorphInd=^dimakzulkan<x>_X--$
 38	untuk	untuk	ADP	R--	_	40	case	_	MorphInd=^untuk<r>_R--$
-39	pertama	pertama	NUM	CO-	NumType=Card	40	nummod	_	MorphInd=^pertama<c>_CO-$
+39	pertama	pertama	ADJ	CO-	NumType=Ord	40	amod	_	MorphInd=^pertama<c>_CO-$
 40-41	kalinya	_	_	_	_	_	_	_	MorphInd=^kali<v>_VSA+dia<p>_PS3$
 40	kali	kali	NOUN	VSA	_	37	obl	_	MorphInd=^kali<v>_VSA$
 41	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	40	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -13505,7 +13503,7 @@
 34	kekuatan	kekuatan	NOUN	NSD	Number=Sing	27	nmod	_	MorphInd=^ke+kuat<a>+an_NSD$
 35	penuh	penuh	ADJ	ASP	_	34	amod	_	MorphInd=^penuh<a>_ASP$
 36	untuk	untuk	ADP	R--	_	38	case	_	MorphInd=^untuk<r>_R--$
-37	pertama	pertama	NUM	CO-	NumType=Card	38	nummod	_	MorphInd=^pertama<c>_CO-$
+37	pertama	pertama	ADJ	CO-	NumType=Ord	38	amod	_	MorphInd=^pertama<c>_CO-$
 38	kali	kali	NOUN	VSA	_	34	nmod	_	SpaceAfter=No|MorphInd=^kali<v>_VSA$
 39	.	.	PUNCT	Z--	_	25	punct	_	MorphInd=^.<z>_Z--$
 

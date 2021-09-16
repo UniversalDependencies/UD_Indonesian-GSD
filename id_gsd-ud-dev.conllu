@@ -153,8 +153,8 @@
 3	bersaing	saing	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+saing<v>_VSA$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
 5	putaran	putaran	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^putar<v>+an_NSD$
-6	pertama	pertama	NUM	CO-	NumType=Card	7	nummod	_	MorphInd=^pertama<c>_CO-$
-7	musim	musim	NOUN	NSD	Number=Sing	5	compound	_	SpaceAfter=No|MorphInd=^musim<n>_NSD$
+6	pertama	pertama	ADJ	CO-	NumType=Ord	5	amod	_	MorphInd=^pertama<c>_CO-$
+7	musim	musim	NOUN	NSD	Number=Sing	5	nmod	_	SpaceAfter=No|MorphInd=^musim<n>_NSD$
 8	;	;	PUNCT	Z--	_	10	punct	_	MorphInd=^;<z>_Z--$
 9	tujuh	tujuh	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^tujuh<c>_CC-$
 10	tim	tim	NOUN	NSD	Number=Sing	3	appos	_	MorphInd=^tim<n>_NSD$
@@ -226,7 +226,7 @@
 31	dilaksanakan	laksana	VERB	VSP	Voice=Pass	29	ccomp	_	MorphInd=^di+laksana<v>+kan_VSP$
 32	pada	pada	ADP	R--	_	33	case	_	MorphInd=^pada<r>_R--$
 33	tahun	tahun	NOUN	NSD	Number=Sing	31	obl	_	MorphInd=^tahun<n>_NSD$
-34	keempat	keempat	NUM	CO-	NumType=Card	33	nummod	_	SpaceAfter=No|MorphInd=^ke+empat<c>_CO-$
+34	keempat	keempat	ADJ	CO-	NumType=Ord	33	amod	_	SpaceAfter=No|MorphInd=^ke+empat<c>_CO-$
 35	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s9
@@ -3292,7 +3292,7 @@
 2	gambar	gambar	NOUN	VSA	_	26	nsubj	_	MorphInd=^gambar<v>_VSA$
 3	di	di	ADP	R--	_	4	case	_	MorphInd=^di<r>_R--$
 4	dinding	dinding	NOUN	NSD	Number=Sing	2	nmod	_	MorphInd=^dinding<n>_NSD$
-5	keempat	keempat	NUM	CO-	NumType=Card	4	nummod	_	SpaceAfter=No|MorphInd=^ke+empat<c>_CO-$
+5	keempat	keempat	ADJ	CO-	NumType=Ord	4	amod	_	SpaceAfter=No|MorphInd=^ke+empat<c>_CO-$
 6	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
 7	yang	yang	PRON	S--	PronType=Rel	8	nsubj:pass	_	MorphInd=^yang<s>_S--$
 8	diselesaikan	selesai	VERB	VSP	Voice=Pass	4	acl	_	MorphInd=^di+selesai<a>+kan_VSP$
@@ -3653,7 +3653,7 @@
 14	sampai	sampai	VERB	ASP	_	0	root	_	MorphInd=^sampai<a>_ASP$
 15	di	di	ADP	R--	_	16	case	_	MorphInd=^di<r>_R--$
 16	urutan	urutan	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^urut<n>+an_NSD$
-17	pertama	pertama	NUM	CO-	NumType=Card	16	nummod	_	MorphInd=^pertama<c>_CO-$
+17	pertama	pertama	ADJ	CO-	NumType=Ord	16	amod	_	MorphInd=^pertama<c>_CO-$
 18	tangga	tangga	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^tangga<n>_NSD$
 19	album	album	NOUN	NSD	Number=Sing	18	compound	_	MorphInd=^album<n>_NSD$
 20	Britania	britania	PROPN	X--	_	19	flat	_	MorphInd=^britania<x>_X--$
@@ -3766,7 +3766,7 @@
 6	Lanang	lanang	PROPN	X--	_	5	flat	_	MorphInd=^lanang<x>_X--$
 7	menjadi	jadi	VERB	VSA	Voice=Act	4	advcl	_	MorphInd=^meN+jadi<a>_VSA$
 8	raja	raja	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^raja<n>_NSD$
-9	pertama	pertama	NUM	CO-	NumType=Card	8	nummod	_	MorphInd=^pertama<c>_CO-$
+9	pertama	pertama	ADJ	CO-	NumType=Ord	8	amod	_	MorphInd=^pertama<c>_CO-$
 10	Samalanga	samalanga	PROPN	X--	_	8	flat	_	SpaceAfter=No|MorphInd=^samalanga<x>_X--$
 11	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
@@ -5286,7 +5286,7 @@
 27	serangga	serangga	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^serangga<n>_NSD$
 28	anggota	anggota	NOUN	NSD	Number=Sing	27	compound	_	MorphInd=^anggota<n>_NSD$
 29	penyusun	pensusun	NOUN	NSD	Number=Sing	28	compound	_	MorphInd=^peN+susun<v>_NSD$
-30	kedua	kedua	NUM	CO-	NumType=Card	29	nummod	_	MorphInd=^ke+dua<c>_CO-$
+30	kedua	kedua	ADJ	CO-	NumType=Ord	29	amod	_	MorphInd=^ke+dua<c>_CO-$
 31	ordo	ordo	NOUN	X--	_	30	compound	_	MorphInd=^ordo<x>_X--$
 32	tersebut	tersebut	DET	B--	PronType=Dem	31	det	_	SpaceAfter=No|MorphInd=^tersebut<b>_B--$
 33	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
@@ -5430,8 +5430,8 @@
 22	Hal	hal	NOUN	NSD	Number=Sing	25	nsubj	_	MorphInd=^hal<n>_NSD$
 23	ini	ini	DET	B--	PronType=Dem	22	det	_	MorphInd=^ini<b>_B--$
 24	adalah	adalah	AUX	O--	_	25	cop	_	MorphInd=^adalah<o>_O--$
-25	pengalaman	pengalaman	VERB	NSD	_	10	dep	_	MorphInd=^pengalaman<n>_NSD$
-26	pertama	pertama	NUM	CO-	NumType=Card	27	amod	_	MorphInd=^pertama<c>_CO-$
+25	pengalaman	pengalaman	NOUN	NSD	_	10	parataxis	_	MorphInd=^pengalaman<n>_NSD$
+26	pertama	pertama	ADJ	CO-	NumType=Ord	27	amod	_	MorphInd=^pertama<c>_CO-$
 27	kali	kali	NOUN	VSA	_	25	obl	_	MorphInd=^kali<v>_VSA$
 28-29	lagunya	_	_	_	_	_	_	_	MorphInd=^lagu<n>_NSD+dia<p>_PS3$
 28	lagu	lagu	NOUN	NSD	Number=Sing	30	nsubj:pass	_	MorphInd=^lagu<n>_NSD$
@@ -6237,7 +6237,7 @@
 # sent_id = dev-s233
 # text = Hosogaya pertama direncanakan untuk melakukan serangan udara ke Dutch Harbor, diikuti serangan amfibi ke Pulau Adak, 480 mil di sebelah barat.
 1	Hosogaya	hosogaya	PROPN	X--	_	3	nsubj:pass	_	MorphInd=^hosogaya<x>_X--$
-2	pertama	pertama	NUM	CO-	NumType=Card	1	nummod	_	MorphInd=^pertama<c>_CO-$
+2	pertama	pertama	ADJ	CO-	NumType=Ord	1	amod	_	MorphInd=^pertama<c>_CO-$
 3	direncanakan	rencana	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+rencana<n>+kan_VSP$
 4	untuk	untuk	ADP	R--	_	5	case	_	MorphInd=^untuk<r>_R--$
 5	melakukan	laku	VERB	VSA	Voice=Act	3	xcomp	_	MorphInd=^meN+laku<a>+kan_VSA$
@@ -6536,7 +6536,7 @@
 3	menekan	tekan	VERB	VSA	Voice=Act	9	xcomp	_	MorphInd=^meN+tekan<v>_VSA$
 4	tombol	tombol	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^tombol<n>_NSD$
 5	yang	yang	PRON	S--	PronType=Rel	6	obj	_	MorphInd=^yang<s>_S--$
-6	kedua	kedua	NUM	CO-	NumType=Card	4	nummod	_	MorphInd=^ke+dua<c>_CO-$
+6	kedua	kedua	ADJ	CO-	NumType=Ord	4	amod	_	MorphInd=^ke+dua<c>_CO-$
 7	pengguna	penguna	NOUN	NSD	Number=Sing	9	nsubj	_	MorphInd=^peN+guna<n>_NSD$
 8	dapat	dapat	AUX	M--	_	9	aux	_	MorphInd=^dapat<m>_M--$
 9	menyetel	setel	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+setel<n>_VSA$
@@ -6598,7 +6598,7 @@
 32	album	album	NOUN	NSD	Number=Sing	31	compound	_	MorphInd=^album<n>_NSD$
 33	komik	komik	NOUN	X--	_	32	amod	_	MorphInd=^komik<x>_X--$
 34	untuk	untuk	ADP	R--	_	36	case	_	MorphInd=^untuk<r>_R--$
-35	pertama	pertama	NUM	CO-	NumType=Card	36	nummod	_	MorphInd=^pertama<c>_CO-$
+35	pertama	pertama	ADJ	CO-	NumType=Ord	36	amod	_	MorphInd=^pertama<c>_CO-$
 36-37	kalinya	_	_	_	_	_	_	_	MorphInd=^kali<v>_VSA+dia<p>_PS3$
 36	kali	kali	NOUN	VSA	_	29	obl	_	MorphInd=^kali<v>_VSA$
 37	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	36	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -7302,7 +7302,7 @@
 # sent_id = dev-s277
 # text = Untuk pertama kalinya sejak 2006, empat unggulan teratas melaju ke babak semifinal.
 1	Untuk	untuk	ADP	R--	_	3	case	_	MorphInd=^untuk<r>_R--$
-2	pertama	pertama	NUM	CO-	NumType=Card	3	nummod	_	MorphInd=^pertama<c>_CO-$
+2	pertama	pertama	ADJ	CO-	NumType=Ord	3	amod	_	MorphInd=^pertama<c>_CO-$
 3-4	kalinya	_	_	_	_	_	_	_	MorphInd=^kali<v>_VSA+dia<p>_PS3$
 3	kali	kali	NOUN	VSA	_	11	obl	_	MorphInd=^kali<v>_VSA$
 4	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -7586,7 +7586,7 @@
 5	tahun	tahun	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^tahun<n>_NSD$
 6	1974	1974	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^1974<c>_CC-$
 7	dan	dan	CCONJ	H--	_	10	cc	_	MorphInd=^dan<h>_H--$
-8	pertama	pertama	NUM	CO-	NumType=Card	9	nummod	_	MorphInd=^pertama<c>_CO-$
+8	pertama	pertama	ADJ	CO-	NumType=Ord	9	amod	_	MorphInd=^pertama<c>_CO-$
 9	kali	kali	ADV	VSA	_	10	advmod	_	MorphInd=^kali<v>_VSA$
 10	dipakai	pakai	VERB	VSP	Voice=Pass	3	conj	_	MorphInd=^di+pakai<v>_VSP$
 11	di	di	ADP	R--	_	12	case	_	MorphInd=^di<r>_R--$
@@ -8959,7 +8959,7 @@
 16	menjadi	jadi	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+jadi<a>_VSA$
 17	orang	orang	NOUN	NSD	Number=Sing	16	obj	_	MorphInd=^orang<n>_NSD$
 18	Indonesia	indonesia	PROPN	NSD	_	17	flat	_	MorphInd=^indonesia<n>_NSD$
-19	pertama	pertama	NUM	CO-	NumType=Card	17	nummod	_	MorphInd=^pertama<c>_CO-$
+19	pertama	pertama	ADJ	CO-	NumType=Ord	17	amod	_	MorphInd=^pertama<c>_CO-$
 20	yang	yang	PRON	S--	PronType=Rel	21	nsubj	_	MorphInd=^yang<s>_S--$
 21	memperoleh	peroleh	VERB	VSA	Voice=Act	17	acl	_	MorphInd=^meN+peroleh<v>_VSA$
 22	gelar	gelar	NOUN	VSA	_	21	obj	_	MorphInd=^gelar<v>_VSA$
@@ -10823,7 +10823,7 @@
 4	sejarah	sejarah	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^sejarah<n>_NSD$
 5	sebagai	sebagai	ADP	R--	_	6	case	_	MorphInd=^sebagai<r>_R--$
 6	KSAU	ksau	PROPN	X--	_	4	nmod	_	MorphInd=^ksau<x>_X--$
-7	pertama	pertama	NUM	CO-	NumType=Card	6	nummod	_	MorphInd=^pertama<c>_CO-$
+7	pertama	pertama	ADJ	CO-	NumType=Ord	6	amod	_	MorphInd=^pertama<c>_CO-$
 8	yang	yang	PRON	S--	PronType=Rel	9	nsubj	_	MorphInd=^yang<s>_S--$
 9	berasal	asal	VERB	VSA	Voice=Act	6	acl	_	MorphInd=^ber+asal<n>_VSA$
 10	dari	dari	ADP	R--	_	11	case	_	MorphInd=^dari<r>_R--$
@@ -10839,7 +10839,7 @@
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	adalah	adalah	AUX	O--	_	4	cop	_	MorphInd=^adalah<o>_O--$
 4	bagian	bagian	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^bagi<v>+an_NSD$
-5	ketiga	ketiga	NUM	CO-	NumType=Card	4	amod	_	MorphInd=^ke+tiga<c>_CO-$
+5	ketiga	ketiga	ADJ	CO-	NumType=Ord	4	amod	_	MorphInd=^ke+tiga<c>_CO-$
 6	dari	dari	ADP	R--	_	7	case	_	MorphInd=^dari<r>_R--$
 7	seri	seri	NOUN	ASP	_	4	nmod	_	MorphInd=^seri<a>_ASP$
 8	Underworld	underworld	PROPN	X--	_	7	flat	_	MorphInd=^underworld<x>_X--$
@@ -11174,7 +11174,7 @@
 1	Isu	isu	PROPN	NSD	_	7	nsubj	_	MorphInd=^isu<n>_NSD$
 2	akan	akan	ADP	M--	_	3	case	_	MorphInd=^akan<m>_M--$
 3	bandara	bandara	NOUN	NSD	Number=Sing	1	nmod	_	MorphInd=^bandara<n>_NSD$
-4	kedua	kedua	NUM	CO-	NumType=Card	3	nummod	_	MorphInd=^ke+dua<c>_CO-$
+4	kedua	kedua	ADJ	CO-	NumType=Ord	3	amod	_	MorphInd=^ke+dua<c>_CO-$
 5	untuk	untuk	ADP	R--	_	6	case	_	MorphInd=^untuk<r>_R--$
 6	Sydney	sydney	PROPN	F--	_	3	nmod	_	MorphInd=^sydney<f>_F--$
 7	muncul	muncul	VERB	VSA	Voice=Act	0	root	_	MorphInd=^muncul<v>_VSA$
@@ -12134,8 +12134,8 @@
 22	Kapal	kapal	PROPN	NSD	_	24	nsubj	_	MorphInd=^kapal<n>_NSD$
 23	ini	ini	DET	B--	PronType=Dem	22	det	_	MorphInd=^ini<b>_B--$
 24	merupakan	merupakan	VERB	O--	_	9	dep	_	MorphInd=^merupakan<o>_O--$
-25	yang	yang	PRON	S--	PronType=Rel	26	nsubj	_	MorphInd=^yang<s>_S--$
-26	pertama	pertama	NUM	CO-	NumType=Card	24	nummod	_	MorphInd=^pertama<c>_CO-$
+25	yang	yang	PRON	S--	PronType=Rel	24	obl	_	MorphInd=^yang<s>_S--$
+26	pertama	pertama	ADJ	CO-	NumType=Ord	25	amod	_	MorphInd=^pertama<c>_CO-$
 27	dalam	dalam	ADP	ASP	_	28	case	_	MorphInd=^dalam<a>_ASP$
 28	kelasnya	kelas	NOUN	NSD+PS3	Number=Sing	24	xcomp	_	MorphInd=^kelas<n>_NSD+dia<p>_PS3$
 29	sehingga	sehingga	SCONJ	S--	_	33	mark	_	MorphInd=^sehingga<s>_S--$
@@ -12390,7 +12390,7 @@
 25	Barcelona	barcelona	PROPN	F--	_	24	obj	_	MorphInd=^barcelona<f>_F--$
 26	di	di	ADP	R--	_	27	case	_	MorphInd=^di<r>_R--$
 27	putaran	putaran	NOUN	NSD	Number=Sing	23	nmod	_	MorphInd=^putar<v>+an_NSD$
-28	kedua	kedua	NUM	CO-	NumType=Card	27	nummod	_	MorphInd=^ke+dua<c>_CO-$
+28	kedua	kedua	ADJ	CO-	NumType=Ord	27	amod	_	MorphInd=^ke+dua<c>_CO-$
 29	semifinal	semifinal	NOUN	NSD	Number=Sing	27	compound	_	MorphInd=^semifinal<n>_NSD$
 30	Liga	liga	PROPN	NSD	_	29	flat	_	MorphInd=^liga<n>_NSD$
 31	Champions	champions	PROPN	F--	_	30	flat	_	MorphInd=^champions<f>_F--$
@@ -12450,7 +12450,7 @@
 10	mantan	mantan	NOUN	NSD	Number=Sing	5	ccomp	_	MorphInd=^mantan<n>_NSD$
 11	Wakil	wakil	PROPN	NSD	_	10	flat	_	MorphInd=^wakil<n>_NSD$
 12	Presiden	presiden	PROPN	NSD	_	11	flat	_	MorphInd=^presiden<n>_NSD$
-13	kedua	kedua	NUM	CO-	NumType=Card	11	nummod	_	MorphInd=^ke+dua<c>_CO-$
+13	kedua	kedua	ADJ	CO-	NumType=Ord	11	amod	_	MorphInd=^ke+dua<c>_CO-$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj:pass	_	MorphInd=^yang<s>_S--$
 15	dinominasikan	nominasi	VERB	VSP	Voice=Pass	10	acl	_	MorphInd=^di+nominasi<n>+kan_VSP$
 16	dalam	dalam	ADP	ASP	_	17	case	_	MorphInd=^dalam<a>_ASP$
@@ -12855,7 +12855,7 @@
 # sent_id = dev-s494
 # text = Makanan pertama apa yang dimakan orang di surga?
 1	Makanan	makanan	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^makan<v>+an_NSD$
-2	pertama	pertama	NUM	CO-	NumType=Card	1	nummod	_	MorphInd=^pertama<c>_CO-$
+2	pertama	pertama	ADJ	CO-	NumType=Ord	1	amod	_	MorphInd=^pertama<c>_CO-$
 3	apa	apa	PRON	W--	PronType=Int	1	compound	_	MorphInd=^apa<w>_W--$
 4	yang	yang	PRON	S--	PronType=Rel	5	nsubj:pass	_	MorphInd=^yang<s>_S--$
 5	dimakan	makan	VERB	VSP	Voice=Pass	1	acl	_	MorphInd=^di+makan<v>_VSP$
@@ -13837,7 +13837,7 @@
 # text = kemampuan ini pertama kali ia tunjukkan saat menghajar Ultros di pegunungan Crescent.
 1	kemampuan	kemampuan	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^ke+mampu<a>+an_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
-3	pertama	pertama	NUM	CO-	NumType=Card	4	nummod	_	MorphInd=^pertama<c>_CO-$
+3	pertama	pertama	ADJ	CO-	NumType=Ord	4	amod	_	MorphInd=^pertama<c>_CO-$
 4	kali	kali	NOUN	VSA	_	6	obl	_	MorphInd=^kali<v>_VSA$
 5	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	MorphInd=^ia<p>_PS3$
 6	tunjukkan	tunjuk	VERB	VSA	Voice=Act	0	root	_	MorphInd=^tunjuk<v>+kan_VSA$
@@ -14074,7 +14074,7 @@
 27	2011	2011	NUM	CC-	NumType=Card	25	nummod	_	MorphInd=^2011<c>_CC-$
 28	di	di	ADP	R--	_	29	case	_	MorphInd=^di<r>_R--$
 29	klasmen	klasmen	NOUN	X--	_	24	nmod	_	MorphInd=^klasmen<x>_X--$
-30	keempat	keempat	NUM	CO-	NumType=Card	29	nummod	_	MorphInd=^ke+empat<c>_CO-$
+30	keempat	keempat	ADJ	CO-	NumType=Ord	29	amod	_	MorphInd=^ke+empat<c>_CO-$
 31	dan	dan	CCONJ	H--	_	32	cc	_	MorphInd=^dan<h>_H--$
 32	menjadi	jadi	VERB	VSA	Voice=Act	23	conj	_	MorphInd=^meN+jadi<a>_VSA$
 33	layak	layak	ADJ	ASP	_	32	amod	_	MorphInd=^layak<a>_ASP$
