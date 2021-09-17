@@ -960,7 +960,7 @@
 3	di	di	ADP	R--	_	5	case	_	MorphInd=^di<r>_R--$
 4	kemudian	kemudian	ADV	S--	_	5	advmod	_	MorphInd=^kemudian<s>_S--$
 5	hari	hari	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^hari<n>_NSD$
-6	anak-anakmu	anak	PRON	NPD+PS2	Number=Plur	7	nsubj	_	MorphInd=^anak<n>_NPD+kamu<p>_PS2$
+6	anak-anakmu	anak	NOUN	NPD+PS2	Number=Plur	7	nsubj	_	MorphInd=^anak<n>_NPD+kamu<p>_PS2$
 7	bertanya	tanya	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+tanya<v>_VSA$
 8	kepada	kepada	ADP	R--	_	9	case	_	MorphInd=^kepada<r>_R--$
 9-10	ayahnya	_	_	_	_	_	_	_	MorphInd=^ayah<n>_NSD+dia<p>_PS3$|SpaceAfter=No
