@@ -10333,7 +10333,7 @@
 12	manusia	manusia	NOUN	NSD	Number=Sing	10	conj	_	MorphInd=^manusia<n>_NSD$
 13-14	ataupun	_	_	_	_	_	_	_	MorphInd=^atau<h>_H--+pun<t>_T--$
 13	atau	atau	CCONJ	H--	_	15	cc	_	MorphInd=^atau<h>_H--$
-14	pun	pun	PART	T--	_	13	advmod:emph	_	MorphInd=^pun<t>_T--$
+14	pun	pun	PART	T--	_	15	advmod:emph	_	MorphInd=^pun<t>_T--$
 15	narkotika	narkotika	NOUN	NSD	Number=Sing	10	conj	_	SpaceAfter=No|MorphInd=^narkotika<n>_NSD$
 16	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
@@ -12948,7 +12948,7 @@
 58	,	,	PUNCT	Z--	_	61	punct	_	MorphInd=^,<z>_Z--$
 59-60	ataupun	_	_	_	_	_	_	_	MorphInd=^atau<h>_H--+pun<t>_T--$
 59	atau	atau	CCONJ	H--	_	61	cc	_	MorphInd=^atau<h>_H--$
-60	pun	pun	PART	T--	_	59	advmod:emph	_	MorphInd=^pun<t>_T--$
+60	pun	pun	PART	T--	_	61	advmod:emph	_	MorphInd=^pun<t>_T--$
 61	keputusan	keputusan	NOUN	NSD	Number=Sing	35	conj	_	MorphInd=^ke+putus<a>+an_NSD$
 62	badan	badan	NOUN	NSD	Number=Sing	61	compound	_	MorphInd=^badan<n>_NSD$
 63	arbitrase	arbitrase	NOUN	NSD	Number=Sing	62	compound	_	MorphInd=^arbitrase<n>_NSD$
