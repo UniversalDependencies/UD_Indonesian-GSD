@@ -1227,8 +1227,10 @@
 3	kah	kah	PART	T--	_	2	advmod:emph	_	MorphInd=^kah<t>_T--$
 4	yang	yang	PRON	S--	PronType=Rel	5	nsubj:pass	_	MorphInd=^yang<s>_S--$
 5	tercium	cium	VERB	VSP	Voice=Pass	1	acl	_	MorphInd=^ter+cium<v>_VSP$
-6	olehku	oleh	NOUN	R--+PS1	_	5	obj	_	SpaceAfter=No|MorphInd=^oleh<r>_R--+aku<p>_PS1$
-7	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
+6-7	olehku	_	_	_	_	_	_	_	MorphInd=^oleh<r>_R--+aku<p>_PS1$|SpaceAfter=No
+6	oleh	oleh	NOUN	R--	_	5	obj	_	MorphInd=^oleh<r>_R--$
+7	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	MorphInd=^aku<p>_PS1$
+8	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s47
 # text = Kota ini tumbuh dari asalnya yang tak dikenal sebagai koloni orang Funisia di Afrika Utara dan melebar sampai lereng Perbukitan Sahel serta pulau lepas pantai (direklamasi).
@@ -4475,8 +4477,10 @@
 21	kalimat	kalimat	NOUN	NSD	Number=Sing	18	obl	_	SpaceAfter=No|MorphInd=^kalimat<n>_NSD$
 22	:	:	PUNCT	Z--	_	18	punct	_	MorphInd=^:<z>_Z--$
 23	``	``	PUNCT	Z--	_	24	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
-24	Namaku	nama	NOUN	NSD+PS1	Number=Sing	18	obj	_	SpaceAfter=No|MorphInd=^nama<n>_NSD+aku<p>_PS1$
-25	?	?	PUNCT	Z--	_	18	punct	_	MorphInd=^?<z>_Z--$
+24-25	Namaku	_	_	_	_	_	_	_	MorphInd=^nama<n>_NSD+aku<p>_PS1$|SpaceAfter=No
+24	Nama	nama	NOUN	NSD	Number=Sing	18	obj	_	MorphInd=^nama<n>_NSD$
+25	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	24	nmod:poss	_	MorphInd=^aku<p>_PS1$
+26	?	?	PUNCT	Z--	_	18	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s160
 # text = Menurut mitologi Hindu, Airawata merupakan salah satu gajah penjaga alam semesta.
@@ -6796,8 +6800,10 @@
 4	dari	dari	ADP	R--	_	5	case	_	MorphInd=^dari<r>_R--$
 5	kepercayaan	kepercayaan	NOUN	NSD	Number=Sing	1	obl	_	MorphInd=^ke+percaya<v>+an_NSD$
 6	dan	dan	CCONJ	H--	_	7	cc	_	MorphInd=^dan<h>_H--$
-7	persembahanku	persembahan	NOUN	NSD+PS1	Number=Sing	5	conj	_	SpaceAfter=No|MorphInd=^per+sembah<v>+an_NSD+aku<p>_PS1$
-8	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
+7-8	persembahanku	_	_	_	_	_	_	_	MorphInd=^per+sembah<v>+an_NSD+aku<p>_PS1$|SpaceAfter=No
+7	persembahan	persembahan	NOUN	NSD	Number=Sing	5	conj	_	MorphInd=^per+sembah<v>+an_NSD$
+8	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	MorphInd=^aku<p>_PS1$
+9	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s246
 # text = Pengaruh kakawen masuk pula secara utuh pada Tembang Sunda lagam Cianjuran.
@@ -8910,9 +8916,11 @@
 3	kah	kah	PART	T--	_	2	advmod:emph	_	MorphInd=^kah<t>_T--$
 4	engkau	engkau	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	MorphInd=^engkau<p>_PS2$
 5	memperhatikan	hati	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+per+hati<n>+kan_VSA$
-6	hamba-Ku	hamba	NOUN	NSD+PS1	Number=Sing	5	obj	_	MorphInd=^hamba<n>_NSD+aku<p>_PS1$
-7	Ayub	ayub	PROPN	NSD	_	6	appos	_	SpaceAfter=No|MorphInd=^ayub<n>_NSD$
-8	?	?	PUNCT	Z--	_	5	punct	_	MorphInd=^?<z>_Z--$
+6-7	hamba-Ku	_	_	_	_	_	_	_	MorphInd=^hamba<n>_NSD+aku<p>_PS1$
+6	hamba-	hamba-	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^hamba<n>_NSD$
+7	Ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	MorphInd=^aku<p>_PS1$
+8	Ayub	ayub	PROPN	NSD	_	6	appos	_	SpaceAfter=No|MorphInd=^ayub<n>_NSD$
+9	?	?	PUNCT	Z--	_	5	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s325
 # text = -- 180.254.8.5 13 September 2012 14.35 (UTC) Setelah kita melihat dan membaca mengenai penjelasan hak serta jenis-jenisnya, sekarang apakah ada hak yang bersifat absolut?
@@ -11007,8 +11015,10 @@
 24	hatimu	hati	NOUN	NSD+PS2	Number=Sing	26	nsubj	_	MorphInd=^hati<n>_NSD+kamu<p>_PS2$
 25	tidak	tidak	PART	G--	Polarity=Neg	26	advmod	_	MorphInd=^tidak<g>_G--$
 26	tertuju	tuju	VERB	VSP	Voice=Pass	20	advcl	_	MorphInd=^ter+tuju<v>_VSP$
-27	kepadaku	kepada	NOUN	R--+PS1	_	26	obj	_	SpaceAfter=No|MorphInd=^kepada<r>_R--+aku<p>_PS1$
-28	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
+27-28	kepadaku	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+aku<p>_PS1$|SpaceAfter=No
+27	kepada	kepada	NOUN	R--	_	26	obj	_	MorphInd=^kepada<r>_R--$
+28	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	27	nmod:poss	_	MorphInd=^aku<p>_PS1$
+29	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s408
 # text = Apakah UMMI mampu menghadapi kerasnya hidup di usia senjanya ya yang datang silih berganti tanpa henti?
@@ -14787,14 +14797,16 @@
 1	Iye	iye	X	X--	_	4	nmod	_	SpaceAfter=No|MorphInd=^iye<x>_X--$
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	wah	wah	INTJ	I--	_	4	discourse	_	MorphInd=^wah<i>_I--$
-4	foto	foto	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^foto<n>_NSD$
-5	kopian-ku	kopian	NOUN	NSD+PS1	Number=Sing	4	nmod	_	SpaceAfter=No|MorphInd=^kopi<n>+an_NSD+aku<p>_PS1$
-6	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^(<z>_Z--$
-7	mau	mau	AUX	D--	_	9	aux	_	MorphInd=^mau<d>_D--$
-8	kalian	kalian	PRON	PP2	Number=Plur|Person=2|PronType=Prs	9	nsubj	_	MorphInd=^kalian<p>_PP2$
-9	lihat	lihat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^lihat<v>_VSA$
-10	saya	saya	PRON	PS1	Number=Sing|Person=1|Polite=Form|PronType=Prs	9	obj	_	SpaceAfter=No|MorphInd=^saya<p>_PS1$
-11	?	?	PUNCT	Z--	_	9	punct	_	MorphInd=^?<z>_Z--$
+4	foto	foto	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^foto<n>_NSD$
+5-6	kopian-ku	_	_	_	_	_	_	_	MorphInd=^kopi<n>+an_NSD+aku<p>_PS1$|SpaceAfter=No
+5	kopian-	kopian-	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^kopi<n>+an_NSD$
+6	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	MorphInd=^aku<p>_PS1$
+7	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^(<z>_Z--$
+8	mau	mau	AUX	D--	_	10	aux	_	MorphInd=^mau<d>_D--$
+9	kalian	kalian	PRON	PP2	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	MorphInd=^kalian<p>_PP2$
+10	lihat	lihat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^lihat<v>_VSA$
+11	saya	saya	PRON	PS1	Number=Sing|Person=1|Polite=Form|PronType=Prs	10	obj	_	SpaceAfter=No|MorphInd=^saya<p>_PS1$
+12	?	?	PUNCT	Z--	_	10	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s547
 # text = Pulau ini oleh Pertamina dijadikan semacam base camp, atau pangkalan minyak lepas pantai yang dilengkapi berbagai fasilitas pendukungnya.

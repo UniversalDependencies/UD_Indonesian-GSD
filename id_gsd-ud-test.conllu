@@ -13459,21 +13459,23 @@
 # text = Mungkinkah, nama wuku Kuningan mengilhami atau mendorong pemberian nama bagi daerah ini?
 # text_en = Could it be that the name wuku Kuningan inspired or prompted the name for this area?
 1-2	Mungkinkah	_	_	_	_	_	_	_	MorphInd=^mungkin<d>_D--+kah<t>_T--$|SpaceAfter=No
-1	Mungkin	mungkin	ADV	D--	_	7	advmod	_	MorphInd=^mungkin<d>_D--$
+1	Mungkin	mungkin	ADV	D--	_	8	advmod	_	MorphInd=^mungkin<d>_D--$
 2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
-4	nama	nama	NOUN	NSD	Number=Sing	7	nsubj	_	MorphInd=^nama<n>_NSD$
-5	wuku	wu	NOUN	F--+PS1	_	4	compound	_	MorphInd=^wu<f>_F--+aku<p>_PS1$
-6	Kuningan	kuningan	PROPN	NSD	_	5	flat	_	MorphInd=^kuning<a>+an_NSD$
-7	mengilhami	ilham	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+ilham<n>+i_VSA$
-8	atau	atau	CCONJ	H--	_	9	cc	_	MorphInd=^atau<h>_H--$
-9	mendorong	dorong	VERB	VSA	Voice=Act	7	conj	_	MorphInd=^meN+dorong<v>_VSA$
-10	pemberian	penberian	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^peN+beri<v>+an_NSD$
-11	nama	nama	NOUN	NSD	Number=Sing	10	compound	_	MorphInd=^nama<n>_NSD$
-12	bagi	bagi	ADP	VSA	_	13	case	_	MorphInd=^bagi<v>_VSA$
-13	daerah	daerah	NOUN	NSD	Number=Sing	10	nmod	_	MorphInd=^daerah<n>_NSD$
-14	ini	ini	DET	B--	PronType=Dem	13	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
-15	?	?	PUNCT	Z--	_	7	punct	_	MorphInd=^?<z>_Z--$
+4	nama	nama	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^nama<n>_NSD$
+5-6	wuku	_	_	_	_	_	_	_	MorphInd=^wu<f>_F--+aku<p>_PS1$
+5	wu	wu	NOUN	F--	_	4	compound	_	MorphInd=^wu<f>_F--$
+6	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	MorphInd=^aku<p>_PS1$
+7	Kuningan	kuningan	PROPN	NSD	_	5	flat	_	MorphInd=^kuning<a>+an_NSD$
+8	mengilhami	ilham	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+ilham<n>+i_VSA$
+9	atau	atau	CCONJ	H--	_	10	cc	_	MorphInd=^atau<h>_H--$
+10	mendorong	dorong	VERB	VSA	Voice=Act	8	conj	_	MorphInd=^meN+dorong<v>_VSA$
+11	pemberian	penberian	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^peN+beri<v>+an_NSD$
+12	nama	nama	NOUN	NSD	Number=Sing	11	compound	_	MorphInd=^nama<n>_NSD$
+13	bagi	bagi	ADP	VSA	_	14	case	_	MorphInd=^bagi<v>_VSA$
+14	daerah	daerah	NOUN	NSD	Number=Sing	11	nmod	_	MorphInd=^daerah<n>_NSD$
+15	ini	ini	DET	B--	PronType=Dem	14	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
+16	?	?	PUNCT	Z--	_	8	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s531
 # text = Siapakah yang dapat mengatakan kepada manusia apa yang akan terjadi di bawah matahari sesudah dia?
@@ -14210,21 +14212,25 @@
 4	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
 5	``	``	PUNCT	Z--	_	6	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
 6	Allah	allah	PROPN	NSD	_	3	appos	_	MorphInd=^allah<n>_NSD$
-7	Tuhanku	tuhan	PROPN	NSD+PS1	_	6	flat	_	SpaceAfter=No|MorphInd=^tuhan<n>_NSD+aku<p>_PS1$
-8	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
-9	aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	10	nsubj	_	MorphInd=^aku<p>_PS1$
-10	mempunyai	punya	VERB	VSA	Voice=Act	6	parataxis	_	MorphInd=^meN+punya<v>+i_VSA$
-11	banyak	banyak	DET	B--	PronType=Ind	12	det	_	MorphInd=^banyak<b>_B--$
-12	kekayaan	kekayaan	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^ke+kaya<a>+an_NSD$
-13	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
-14	kepunyaan	kepunyaan	NOUN	NSD	Number=Sing	12	conj	_	MorphInd=^ke+punya<v>+an_NSD$
-15	tetapi	tetapi	CCONJ	S--	_	10	cc	_	MorphInd=^tetapi<s>_S--$
-16-17	apakah	_	_	_	_	_	_	_	MorphInd=^apa<w>_W--+kah<t>_T--$
-16	apa	apa	ADV	W--	PronType=Int	10	advmod	_	MorphInd=^apa<w>_W--$
-17	kah	kah	PART	T--	_	16	advmod:emph	_	MorphInd=^kah<t>_T--$
-18-19	gunanya	_	_	_	_	_	_	_	MorphInd=^guna<n>_NSD+dia<p>_PS3$
-18	guna	guna	NOUN	NSD	Number=Sing	16	acl	_	MorphInd=^guna<n>_NSD$
-19	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	MorphInd=^dia<p>_PS3$
-20	bagiku	bagi	NOUN	R--+PS1	_	18	compound	_	SpaceAfter=No|MorphInd=^bagi<r>_R--+aku<p>_PS1$
-21	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
+7-8	Tuhanku	_	_	_	_	_	_	_	MorphInd=^tuhan<n>_NSD+aku<p>_PS1$|SpaceAfter=No
+7	Tuhan	tuhan	PROPN	NSD	_	6	flat	_	MorphInd=^tuhan<n>_NSD$
+8	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	MorphInd=^aku<p>_PS1$
+9	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
+10	aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	11	nsubj	_	MorphInd=^aku<p>_PS1$
+11	mempunyai	punya	VERB	VSA	Voice=Act	6	parataxis	_	MorphInd=^meN+punya<v>+i_VSA$
+12	banyak	banyak	DET	B--	PronType=Ind	13	det	_	MorphInd=^banyak<b>_B--$
+13	kekayaan	kekayaan	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^ke+kaya<a>+an_NSD$
+14	dan	dan	CCONJ	H--	_	15	cc	_	MorphInd=^dan<h>_H--$
+15	kepunyaan	kepunyaan	NOUN	NSD	Number=Sing	13	conj	_	MorphInd=^ke+punya<v>+an_NSD$
+16	tetapi	tetapi	CCONJ	S--	_	11	cc	_	MorphInd=^tetapi<s>_S--$
+17-18	apakah	_	_	_	_	_	_	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+17	apa	apa	ADV	W--	PronType=Int	11	advmod	_	MorphInd=^apa<w>_W--$
+18	kah	kah	PART	T--	_	17	advmod:emph	_	MorphInd=^kah<t>_T--$
+19-20	gunanya	_	_	_	_	_	_	_	MorphInd=^guna<n>_NSD+dia<p>_PS3$
+19	guna	guna	NOUN	NSD	Number=Sing	17	acl	_	MorphInd=^guna<n>_NSD$
+20	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	19	nmod:poss	_	MorphInd=^dia<p>_PS3$
+21-22	bagiku	_	_	_	_	_	_	_	MorphInd=^bagi<r>_R--+aku<p>_PS1$|SpaceAfter=No
+21	bagi	bagi	NOUN	R--	_	19	compound	_	MorphInd=^bagi<r>_R--$
+22	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	21	nmod:poss	_	MorphInd=^aku<p>_PS1$
+23	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
 
