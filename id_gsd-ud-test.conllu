@@ -1736,7 +1736,7 @@
 15	dari	dari	ADP	R--	_	16	case	_	MorphInd=^dari<r>_R--$
 16	gamasot	gamasot	NOUN	X--	_	14	obl	_	SpaceAfter=No|MorphInd=^gamasot<x>_X--$
 17	,	,	PUNCT	Z--	_	19	punct	_	MorphInd=^,<z>_Z--$
-18	kedua	kedua	DET	CO-	_	19	det	_	MorphInd=^ke+dua<c>_CO-$
+18	kedua	kedua	ADJ	CO-	NumType=Ord	19	amod	_	MorphInd=^ke+dua<c>_CO-$
 19	dolsot	dolsot	NOUN	X--	_	16	appos	_	MorphInd=^dolsot<x>_X--$
 20	dan	dan	CCONJ	H--	_	22	cc	_	MorphInd=^dan<h>_H--$
 21	yang	yang	PRON	S--	PronType=Rel	22	nsubj	_	MorphInd=^yang<s>_S--$
@@ -1992,7 +1992,7 @@
 11	Casino	casino	PROPN	X--	_	10	flat	_	MorphInd=^casino<x>_X--$
 12	adalah	adalah	AUX	O--	_	14	cop	_	MorphInd=^adalah<o>_O--$
 13	yang	yang	PRON	S--	PronType=Rel	14	nsubj	_	MorphInd=^yang<s>_S--$
-14	pertama	pertama	ADJ	CO-	_	0	root	_	SpaceAfter=No|MorphInd=^pertama<c>_CO-$
+14	pertama	pertama	ADJ	CO-	NumType=Ord	0	root	_	SpaceAfter=No|MorphInd=^pertama<c>_CO-$
 15	.	.	PUNCT	Z--	_	14	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s85
@@ -2203,7 +2203,7 @@
 12	Hazard	hazard	PROPN	X--	_	11	obj	_	MorphInd=^hazard<x>_X--$
 13	menjadi	jadi	VERB	VSA	Voice=Act	10	advcl	_	MorphInd=^meN+jadi<a>_VSA$
 14	gol	gol	NOUN	NSD	Number=Sing	13	obj	_	MorphInd=^gol<n>_NSD$
-15	pertama	pertama	ADJ	CO-	_	14	amod	_	MorphInd=^pertama<c>_CO-$
+15	pertama	pertama	ADJ	CO-	NumType=Ord	14	amod	_	MorphInd=^pertama<c>_CO-$
 16	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
 17	mencetak	cetak	VERB	VSA	Voice=Act	13	conj	_	MorphInd=^meN+cetak<v>_VSA$
 18	gol	gol	NOUN	NSD	Number=Sing	17	obj	_	MorphInd=^gol<n>_NSD$
@@ -2218,7 +2218,7 @@
 1	Dalam	dalam	ADP	ASP	_	2	case	_	MorphInd=^dalam<a>_ASP$
 2	sinus	sinus	NOUN	X--	_	8	obl	_	MorphInd=^sinus<x>_X--$
 3	tersebut	tersebut	DET	B--	PronType=Dem	2	det	_	MorphInd=^tersebut<b>_B--$
-4	ketiga	ketiga	NUM	CO-	NumType=Card	5	nummod	_	MorphInd=^ke+tiga<c>_CO-$
+4	ketiga	ketiga	ADJ	CO-	NumType=Ord	5	amod	_	MorphInd=^ke+tiga<c>_CO-$
 5	saraf	saraf	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^saraf<n>_NSD$
 6	kranial	kranial	NOUN	X--	_	5	compound	_	MorphInd=^kranial<x>_X--$
 7	tersebut	tersebut	DET	B--	PronType=Dem	6	det	_	MorphInd=^tersebut<b>_B--$
@@ -2456,7 +2456,7 @@
 5	perguruan	perguruan	NOUN	NSD	Number=Sing	3	nmod	_	MorphInd=^per+guru<n>+an_NSD$
 6	tinggi	tinggi	ADJ	ASP	_	5	amod	_	MorphInd=^tinggi<a>_ASP$
 7	swasta	swasta	ADJ	ASP	_	5	amod	_	MorphInd=^swasta<a>_ASP$
-8	pertama	pertama	ADJ	CO-	_	5	amod	_	MorphInd=^pertama<c>_CO-$
+8	pertama	pertama	ADJ	CO-	NumType=Ord	5	amod	_	MorphInd=^pertama<c>_CO-$
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
 10	mengelola	kelola	VERB	VSA	Voice=Act	5	acl	_	MorphInd=^meN+kelola<v>_VSA$
 11	Program	program	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^program<n>_NSD$
@@ -2581,7 +2581,7 @@
 17	Peserta	peserta	NOUN	NSD	Number=Sing	19	nsubj	_	MorphInd=^peserta<n>_NSD$
 18	harus	harus	AUX	VSA	_	19	aux	_	MorphInd=^harus<v>_VSA$
 19	menyelesaikan	selesai	VERB	VSA	Voice=Act	10	dep	_	MorphInd=^meN+selesai<a>+kan_VSA$
-20	kedua	kedua	DET	CO-	_	21	det	_	MorphInd=^ke+dua<c>_CO-$
+20	kedua	kedua	ADJ	CO-	NumType=Ord	21	amod	_	MorphInd=^ke+dua<c>_CO-$
 21	tantangan	tantangan	NOUN	NSD	Number=Sing	19	obj	_	MorphInd=^tantang<v>+an_NSD$
 22	tersebut	tersebut	DET	B--	PronType=Dem	21	det	_	MorphInd=^tersebut<b>_B--$
 23	dan	dan	CCONJ	H--	_	25	cc	_	MorphInd=^dan<h>_H--$
@@ -2765,7 +2765,7 @@
 2	memulai	mulai	VERB	VSA	Voice=Act	8	advcl	_	MorphInd=^meN+mulai<v>_VSA$
 3	pertempuran	pertempuran	NOUN	NSD	Number=Sing	2	obj	_	SpaceAfter=No|MorphInd=^per+tempur<n>+an_NSD$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
-5	kedua	kedua	NUM	CO-	NumType=Card	6	nummod	_	MorphInd=^ke+dua<c>_CO-$
+5	kedua	kedua	ADJ	CO-	NumType=Ord	6	amod	_	MorphInd=^ke+dua<c>_CO-$
 6	pasukan	pasukan	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^pasukan<n>_NSD$
 7	itu	itu	DET	B--	PronType=Dem	6	det	_	MorphInd=^itu<b>_B--$
 8	berbaris	baris	VERB	VSA	Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^ber+baris<n>_VSA$
@@ -3083,7 +3083,7 @@
 
 # sent_id = test-s126
 # text = Kedua atap menara dibuat pada November 2007.
-1	Kedua	kedua	NUM	CO-	NumType=Card	2	nummod	_	MorphInd=^ke+dua<c>_CO-$
+1	Kedua	kedua	ADJ	CO-	NumType=Ord	2	amod	_	MorphInd=^ke+dua<c>_CO-$
 2	atap	atap	NOUN	NSD	Number=Sing	4	nsubj:pass	_	MorphInd=^atap<n>_NSD$
 3	menara	menara	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^menara<n>_NSD$
 4	dibuat	buat	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+buat<v>_VSP$
@@ -4366,7 +4366,7 @@
 16	kemudian	kemudian	ADV	S--	_	17	advmod	_	MorphInd=^kemudian<s>_S--$
 17	menikah	nikah	VERB	VSA	Voice=Act	4	conj	_	MorphInd=^meN+nikah<v>_VSA$
 18	untuk	untuk	ADP	R--	_	20	case	_	MorphInd=^untuk<r>_R--$
-19	kedua	kedua	NUM	CO-	NumType=Card	20	nummod	_	MorphInd=^ke+dua<c>_CO-$
+19	kedua	kedua	ADJ	CO-	NumType=Ord	20	amod	_	MorphInd=^ke+dua<c>_CO-$
 20-21	kalinya	_	_	_	_	_	_	_	MorphInd=^kali<v>_VSA+dia<p>_PS3$
 20	kali	kali	NOUN	VSA	_	17	obl	_	MorphInd=^kali<v>_VSA$
 21	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -5015,7 +5015,7 @@
 37	pada	pada	ADP	R--	_	38	case	_	MorphInd=^pada<r>_R--$
 38	awal	awal	ADJ	NSD	_	34	acl	_	MorphInd=^awal<n>_NSD$
 39-40	berdirinya	_	_	_	_	_	_	_	MorphInd=^ber+diri<n>_VSA+dia<p>_PS3$
-39	berdiri	berdiri	VERB	VSA	Voice=Act	38	nsubj	_	MorphInd=^ber+diri<n>_VSA$
+39	berdiri	diri	VERB	VSA	Voice=Act	38	nsubj	_	MorphInd=^ber+diri<n>_VSA$
 40	nya	nya	DET	PS3	Definite=Def|PronType=Art	39	det	_	MorphInd=^dia<p>_PS3$
 41	diperkirakan	kira	VERB	VSP	Voice=Pass	8	dep	_	MorphInd=^di+per+kira<v>+kan_VSP$
 42	terletak	letak	VERB	VSP	Voice=Pass	41	advcl	_	MorphInd=^ter+letak<n>_VSP$
@@ -5331,7 +5331,7 @@
 # sent_id = test-s221
 # text = Mereka pertama melejit lewat album 1987 Appetite for Destruction Dengan hits Sweet Child O 'Mine, Paradise City, dan Welcome To The Jungle dan kemudian merilis album akustik yang di beri nama GN' R Lies dengan hits manis Patience dan kemudian menerbitkan dua album berbarengan Use Your Illusion I dan Use Your Illusion II yang juga melejit dan meledak dengan beberapa hits fenomenal seperti Don 't Cry, November Rain, Civil War, Knockin' on Heaven's Door, dan Estranged.
 1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	MorphInd=^mereka<p>_PP3$
-2	pertama	pertama	ADJ	CO-	_	3	amod	_	MorphInd=^pertama<c>_CO-$
+2	pertama	pertama	ADJ	CO-	NumType=Ord	3	amod	_	MorphInd=^pertama<c>_CO-$
 3	melejit	lejit	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+lejit<v>_VSA$
 4	lewat	lewat	ADP	VSA	_	5	case	_	MorphInd=^lewat<v>_VSA$
 5	album	album	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^album<n>_NSD$
@@ -7757,7 +7757,7 @@
 9	album	album	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^album<n>_NSD$
 10	berbahasa	bahasa	VERB	VSA	Voice=Act	8	advcl	_	MorphInd=^ber+bahasa<n>_VSA$
 11	Perancis	perancis	PROPN	NSD	_	10	obj	_	MorphInd=^perancis<n>_NSD$
-12	pertamanya	pertama	NUM	CO-+PS3	NumType=Card	11	nummod	_	MorphInd=^pertama<c>_CO-+dia<p>_PS3$
+12	pertamanya	pertama	ADJ	CO-+PS3	NumType=Ord	11	amod	_	MorphInd=^pertama<c>_CO-+dia<p>_PS3$
 13	berjudul	judul	VERB	VSA	Voice=Act	10	ccomp	_	MorphInd=^ber+judul<n>_VSA$
 14	Au	au	PROPN	F--	_	13	obj	_	MorphInd=^au<f>_F--$
 15	nom	nom	PROPN	X--	_	14	flat	_	MorphInd=^nom<x>_X--$
@@ -7896,7 +7896,7 @@
 4	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	MorphInd=^ia<p>_PS3$
 5	meletakkan	letak	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+letak<n>+kan_VSA$
 6	batu	batu	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^batu<n>_NSD$
-7	pertama	pertama	ADJ	CO-	_	6	amod	_	MorphInd=^pertama<c>_CO-$
+7	pertama	pertama	ADJ	CO-	NumType=Ord	6	amod	_	MorphInd=^pertama<c>_CO-$
 8	Universitas	universitas	PROPN	NSD	_	6	flat	_	MorphInd=^universitas<n>_NSD$
 9	Ibrani	ibrani	PROPN	X--	_	8	flat	_	SpaceAfter=No|MorphInd=^ibrani<x>_X--$
 10	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
@@ -8792,7 +8792,7 @@
 39	itu	itu	DET	B--	PronType=Dem	38	det	_	MorphInd=^itu<b>_B--$
 40	mendapat	dapat	VERB	VSA	Voice=Act	21	ccomp	_	MorphInd=^meN+dapat<v>_VSA$
 41	promosi	promosi	NOUN	NSD	Number=Sing	40	obj	_	MorphInd=^promosi<n>_NSD$
-42	pertama	pertama	ADJ	CO-	_	41	amod	_	MorphInd=^pertama<c>_CO-$
+42	pertama	pertama	ADJ	CO-	NumType=Ord	41	amod	_	MorphInd=^pertama<c>_CO-$
 43	pada	pada	ADP	R--	_	44	case	_	MorphInd=^pada<r>_R--$
 44	tahun	tahun	NOUN	NSD	Number=Sing	40	obl	_	MorphInd=^tahun<n>_NSD$
 45	1985	1985	NUM	CC-	NumType=Card	44	nummod	_	SpaceAfter=No|MorphInd=^1985<c>_CC-$
@@ -11098,7 +11098,7 @@
 15	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 16	mengirim	kirim	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+kirim<v>_VSA$
 17	putra	putra	NOUN	NSD	Number=Sing	16	obj	_	MorphInd=^putra<n>_NSD$
-18	keduanya	kedua	NUM	CO-+PS3	NumType=Card	17	nummod	_	SpaceAfter=No|MorphInd=^ke+dua<c>_CO-+dia<p>_PS3$
+18	keduanya	kedua	ADJ	CO-+PS3	NumType=Ord	17	amod	_	SpaceAfter=No|MorphInd=^ke+dua<c>_CO-+dia<p>_PS3$
 19	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
 20	Li	li	PROPN	F--	_	17	appos	_	MorphInd=^li<f>_F--$
 21	Shimin	shimin	PROPN	X--	_	20	flat	_	MorphInd=^shimin<x>_X--$
@@ -12735,7 +12735,7 @@
 5	dicapai	capai	VERB	VSP	Voice=Pass	3	acl	_	MorphInd=^di+capai<v>_VSP$
 6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	obl:agent	_	MorphInd=^dia<p>_PS3$
 7	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
-8	kedua	kedua	DET	CO-	_	9	det	_	MorphInd=^ke+dua<c>_CO-$
+8	kedua	kedua	ADJ	CO-	NumType=Ord	9	amod	_	MorphInd=^ke+dua<c>_CO-$
 9-10	orangtuanya	_	_	_	_	_	_	_	MorphInd=^orangtua<n>_NSD+dia<p>_PS3$
 9	orangtua	orangtua	NOUN	NSD	Number=Sing	12	nsubj	_	MorphInd=^orangtua<n>_NSD$
 10	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -12948,7 +12948,7 @@
 
 # sent_id = test-s536
 # text = Kedua induk mengeraminya secara bergantian; dan umumnya telur kemudian menetas satu persatu, bukan berbarengan.
-1	Kedua	kedua	NUM	CO-	NumType=Card	2	nummod	_	MorphInd=^ke+dua<c>_CO-$
+1	Kedua	kedua	ADJ	CO-	NumType=Ord	2	amod	_	MorphInd=^ke+dua<c>_CO-$
 2	induk	induk	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^induk<n>_NSD$
 3-4	mengeraminya	_	_	_	_	_	_	_	MorphInd=^meN+eram<v>+i_VSA+dia<p>_PS3$
 3	mengerami	eram	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+eram<v>+i_VSA$
@@ -13358,7 +13358,7 @@
 4	ada	ada	VERB	ASP	_	0	root	_	MorphInd=^ada<a>_ASP$
 5	perbedaan	perbedaan	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^per+beda<a>+an_NSD$
 6	dengan	dengan	ADP	R--	_	8	case	_	MorphInd=^dengan<r>_R--$
-7	kedua	kedua	DET	CO-	_	8	det	_	MorphInd=^ke+dua<c>_CO-$
+7	kedua	kedua	ADJ	CO-	NumType=Ord	8	amod	_	MorphInd=^ke+dua<c>_CO-$
 8	bentuk	bentuk	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^bentuk<n>_NSD$
 9	tersebut	tersebut	DET	B--	PronType=Dem	8	det	_	SpaceAfter=No|MorphInd=^tersebut<b>_B--$
 10	:	:	PUNCT	Z--	_	18	punct	_	MorphInd=^:<z>_Z--$
