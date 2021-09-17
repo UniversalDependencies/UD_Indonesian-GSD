@@ -6334,7 +6334,7 @@
 
 # sent_id = dev-s239
 # text = Berikut adalah raja-raja Pajajaran: Raja-Raja Pajajaran, seperti juga Raja-Raja Singasari, Majapahit, Dharmasraya, dan Pagaruyung periode awal, beserta para pembesarnya adalah pengikut sekte keagamaan Tantra.
-1	Berikut	berikut	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^ber+ikut<v>_VSA$
+1	Berikut	ikut	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^ber+ikut<v>_VSA$
 2	adalah	adalah	AUX	O--	_	3	cop	_	MorphInd=^adalah<o>_O--$
 3	raja-raja	raja	NOUN	NSD	Number=Plur	0	root	_	MorphInd=^raja<n>_NSD$
 4	Pajajaran	pajajaran	PROPN	X--	_	3	flat	_	SpaceAfter=No|MorphInd=^pajajaran<x>_X--$
@@ -13767,7 +13767,7 @@
 6	memiliki	milik	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+milik<v>+i_VSA$
 7	status	status	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^status<n>_NSD$
 8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	Terakreditasi	terakreditasi	VERB	VSP	Voice=Pass	7	acl	_	SpaceAfter=No|MorphInd=^ter+akreditasi<n>_VSP$
+9	Terakreditasi	akreditasi	VERB	VSP	Voice=Pass	7	acl	_	SpaceAfter=No|MorphInd=^ter+akreditasi<n>_VSP$
 10	'	'	PUNCT	_	_	9	punct	_	_
 11	pada	pada	ADP	R--	_	12	case	_	MorphInd=^pada<r>_R--$
 12	Badan	badan	PROPN	NSD	_	6	obl	_	MorphInd=^badan<n>_NSD$
