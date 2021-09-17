@@ -13176,7 +13176,7 @@
 15	Tjakraningrat	tjakraningrat	PROPN	X--	_	12	flat	_	SpaceAfter=No|MorphInd=^tjakraningrat<x>_X--$
 16	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
 17-18	disusunlah	_	_	_	_	_	_	_	MorphInd=^di+susun<v>_VSP+lah<t>_T--$
-17	disusun	disusun	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+susun<v>_VSP$
+17	disusun	susun	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+susun<v>_VSP$
 18	lah	lah	PART	T--	_	17	advmod:emph	_	MorphInd=^lah<t>_T--$
 19	program	program	NOUN	NSD	Number=Sing	17	nsubj:pass	_	MorphInd=^program<n>_NSD$
 20	kerje	kerje	NOUN	X--	_	19	compound	_	MorphInd=^kerje<x>_X--$

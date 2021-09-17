@@ -583,7 +583,7 @@
 # text = Berfirmanlah TUHAN kepada Samuel: ``Berapa lama lagi engkau berdukacita karena Saul?
 # text_en = The LORD said to Samuel, ``How long will you mourn for Saul?
 1-2	Berfirmanlah	_	_	_	_	_	_	_	MorphInd=^ber+firman<n>_VSA+lah<t>_T--$
-1	Berfirman	berfirman	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+firman<n>_VSA$
+1	Berfirman	firman	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+firman<n>_VSA$
 2	lah	lah	PART	T--	_	1	advmod:emph	_	MorphInd=^lah<t>_T--$
 3	TUHAN	tuhan	PROPN	NSD	_	1	obj	_	MorphInd=^tuhan<n>_NSD$
 4	kepada	kepada	ADP	R--	_	5	case	_	MorphInd=^kepada<r>_R--$
@@ -6790,7 +6790,7 @@
 # text = Berpalingkah engkau dari kepercayaan dan persembahanku?
 # text_en = Have you turned away from my beliefs and offerings?
 1-2	Berpalingkah	_	_	_	_	_	_	_	MorphInd=^ber+paling<v>_VSA+kah<t>_T--$
-1	Berpaling	berpaling	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+paling<v>_VSA$
+1	Berpaling	paling	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+paling<v>_VSA$
 2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	engkau	engkau	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nsubj	_	MorphInd=^engkau<p>_PS2$
 4	dari	dari	ADP	R--	_	5	case	_	MorphInd=^dari<r>_R--$
@@ -10906,7 +10906,7 @@
 # text_en = So they killed them with the edge of the sword, and their bodies were thrown away; Then the heralds and the officers entered into the building of the house of Baal. They took out the idol pillar of the house of Baal and burned it.
 1	Maka	maka	SCONJ	S--	_	2	mark	_	MorphInd=^maka<s>_S--$
 2-3	dibunuhlah	_	_	_	_	_	_	_	MorphInd=^di+bunuh<v>_VSP+lah<t>_T--$
-2	dibunuh	dibunuh	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+bunuh<v>_VSP$
+2	dibunuh	bunuh	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+bunuh<v>_VSP$
 3	lah	lah	PART	T--	_	2	advmod:emph	_	MorphInd=^lah<t>_T--$
 4	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	2	nsubj:pass	_	MorphInd=^mereka<p>_PP3$
 5	dengan	dengan	ADP	R--	_	6	case	_	MorphInd=^dengan<r>_R--$
@@ -10985,7 +10985,7 @@
 4	ke-4	ke4	ADJ	CO-	NumType=Ord	2	amod	_	SpaceAfter=No|MorphInd=^ke+4<c>_CO-$
 5	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 6-7	berkatalah	_	_	_	_	_	_	_	MorphInd=^ber+kata<n>_VSA+lah<t>_T--$
-6	berkata	berkata	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+kata<n>_VSA$
+6	berkata	kata	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+kata<n>_VSA$
 7	lah	lah	PART	T--	_	6	advmod:emph	_	MorphInd=^lah<t>_T--$
 8	perempuan	perempuan	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^perempuan<n>_NSD$
 9	itu	itu	DET	B--	PronType=Dem	8	det	_	MorphInd=^itu<b>_B--$
