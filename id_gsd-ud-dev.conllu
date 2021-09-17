@@ -5981,7 +5981,7 @@
 8	penting	penting	ADJ	ASP	_	5	amod	_	MorphInd=^penting<a>_ASP$
 9	karena	karena	SCONJ	S--	_	12	mark	_	MorphInd=^karena<s>_S--$
 10	keseluruhan	keseluruhan	DET	B--	PronType=Tot	11	det	_	MorphInd=^keseluruhan<b>_B--$
-11	isinya	isi	PRON	NSD+PS3	Number=Sing	12	nsubj	_	MorphInd=^isi<n>_NSD+dia<p>_PS3$
+11	isinya	isi	NOUN	NSD+PS3	Number=Sing	12	nsubj	_	MorphInd=^isi<n>_NSD+dia<p>_PS3$
 12	mengatur	atur	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^meN+atur<v>_VSA$
 13	tentang	tentang	ADP	R--	_	14	case	_	MorphInd=^tentang<r>_R--$
 14	bagaimana	bagaimana	ADV	W--	PronType=Int	12	xcomp	_	MorphInd=^bagaimana<w>_W--$
