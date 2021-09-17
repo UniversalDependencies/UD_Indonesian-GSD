@@ -2393,8 +2393,10 @@
 10	roti	roti	NOUN	NSD	Number=Sing	3	xcomp	_	MorphInd=^roti<n>_NSD$
 11	yang	yang	PRON	S--	PronType=Rel	12	nsubj	_	MorphInd=^yang<s>_S--$
 12	ada	ada	VERB	ASP	_	10	acl	_	MorphInd=^ada<a>_ASP$
-13	padamu	pada	NOUN	R--+PS2	_	12	obj	_	SpaceAfter=No|MorphInd=^pada<r>_R--+kamu<p>_PS2$
-14	?	?	PUNCT	Z--	_	10	punct	_	MorphInd=^?<z>_Z--$
+13-14	padamu	_	_	_	_	_	_	_	MorphInd=^pada<r>_R--+kamu<p>_PS2$|SpaceAfter=No
+13	pada	pada	NOUN	R--	_	12	obj	_	MorphInd=^pada<r>_R--$
+14	mu	kamu	PRON	PS2	Number=Sing|Person=2|PronType=Prs	13	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+15	?	?	PUNCT	Z--	_	10	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s80
 # text = Desain Romulan banyak terinspirasi oleh desainer Italia Carlo Scarpa.
@@ -11009,16 +11011,20 @@
 18	:	:	PUNCT	Z--	_	20	punct	_	MorphInd=^:<z>_Z--$
 19	Aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	20	nsubj	_	MorphInd=^aku<p>_PS1$
 20	cinta	cinta	VERB	NSD	_	17	parataxis	_	MorphInd=^cinta<n>_NSD$
-21	kepadamu	kepada	NOUN	R--+PS2	_	20	obj	_	SpaceAfter=No|MorphInd=^kepada<r>_R--+kamu<p>_PS2$
-22	,	,	PUNCT	Z--	_	26	punct	_	MorphInd=^,<z>_Z--$
-23	padahal	padahal	ADV	S--	_	26	advmod	_	MorphInd=^padahal<s>_S--$
-24	hatimu	hati	NOUN	NSD+PS2	Number=Sing	26	nsubj	_	MorphInd=^hati<n>_NSD+kamu<p>_PS2$
-25	tidak	tidak	PART	G--	Polarity=Neg	26	advmod	_	MorphInd=^tidak<g>_G--$
-26	tertuju	tuju	VERB	VSP	Voice=Pass	20	advcl	_	MorphInd=^ter+tuju<v>_VSP$
-27-28	kepadaku	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+aku<p>_PS1$|SpaceAfter=No
-27	kepada	kepada	NOUN	R--	_	26	obj	_	MorphInd=^kepada<r>_R--$
-28	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	27	nmod:poss	_	MorphInd=^aku<p>_PS1$
-29	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
+21-22	kepadamu	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+kamu<p>_PS2$|SpaceAfter=No
+21	kepada	kepada	NOUN	R--	_	20	obj	_	MorphInd=^kepada<r>_R--$
+22	mu	kamu	PRON	PS2	Number=Sing|Person=2|PronType=Prs	21	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+23	,	,	PUNCT	Z--	_	28	punct	_	MorphInd=^,<z>_Z--$
+24	padahal	padahal	ADV	S--	_	28	advmod	_	MorphInd=^padahal<s>_S--$
+25-26	hatimu	_	_	_	_	_	_	_	MorphInd=^hati<n>_NSD+kamu<p>_PS2$
+25	hati	hati	NOUN	NSD	Number=Sing	28	nsubj	_	MorphInd=^hati<n>_NSD$
+26	mu	kamu	PRON	PS2	Number=Sing|Person=2|PronType=Prs	25	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+27	tidak	tidak	PART	G--	Polarity=Neg	28	advmod	_	MorphInd=^tidak<g>_G--$
+28	tertuju	tuju	VERB	VSP	Voice=Pass	20	advcl	_	MorphInd=^ter+tuju<v>_VSP$
+29-30	kepadaku	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+aku<p>_PS1$|SpaceAfter=No
+29	kepada	kepada	NOUN	R--	_	28	obj	_	MorphInd=^kepada<r>_R--$
+30	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	29	nmod:poss	_	MorphInd=^aku<p>_PS1$
+31	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s408
 # text = Apakah UMMI mampu menghadapi kerasnya hidup di usia senjanya ya yang datang silih berganti tanpa henti?

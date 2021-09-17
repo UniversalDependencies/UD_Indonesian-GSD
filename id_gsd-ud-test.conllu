@@ -4867,9 +4867,9 @@
 # text = Apakah orang-orang yang telah engkau tangkap dengan pedang dan panahmu itu harus engkau bunuh?
 # text_en = Should you kill those whom you have captured with your sword and arrow?
 1-2	Apakah	_	_	_	_	_	_	_	MorphInd=^apa<w>_W--+kah<t>_T--$
-1	Apa	apa	ADV	W--	PronType=Int	15	advmod	_	MorphInd=^apa<w>_W--$
+1	Apa	apa	ADV	W--	PronType=Int	16	advmod	_	MorphInd=^apa<w>_W--$
 2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
-3	orang-orang	orang	NOUN	NPD	Number=Plur	15	obj	_	MorphInd=^orang<n>_NPD$
+3	orang-orang	orang	NOUN	NPD	Number=Plur	16	obj	_	MorphInd=^orang<n>_NPD$
 4	yang	yang	PRON	S--	PronType=Rel	7	obj	_	MorphInd=^yang<s>_S--$
 5	telah	telah	ADV	D--	_	7	advmod	_	MorphInd=^telah<d>_D--$
 6	engkau	engkau	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	nsubj	_	MorphInd=^engkau<p>_PS2$
@@ -4877,12 +4877,14 @@
 8	dengan	dengan	ADP	R--	_	9	case	_	MorphInd=^dengan<r>_R--$
 9	pedang	pedang	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^pedang<n>_NSD$
 10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
-11	panahmu	panah	NOUN	NSD+PS2	Number=Sing	9	conj	_	MorphInd=^panah<n>_NSD+kamu<p>_PS2$
-12	itu	itu	DET	B--	PronType=Dem	11	det	_	MorphInd=^itu<b>_B--$
-13	harus	harus	ADV	VSA	_	15	advmod	_	MorphInd=^harus<v>_VSA$
-14	engkau	engkau	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	15	nsubj	_	MorphInd=^engkau<p>_PS2$
-15	bunuh	bunuh	VERB	VSA	Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^bunuh<v>_VSA$
-16	?	?	PUNCT	Z--	_	15	punct	_	MorphInd=^?<z>_Z--$
+11-12	panahmu	_	_	_	_	_	_	_	MorphInd=^panah<n>_NSD+kamu<p>_PS2$
+11	panah	panah	NOUN	NSD	Number=Sing	9	conj	_	MorphInd=^panah<n>_NSD$
+12	mu	kamu	PRON	PS2	Number=Sing|Person=2|PronType=Prs	11	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+13	itu	itu	DET	B--	PronType=Dem	11	det	_	MorphInd=^itu<b>_B--$
+14	harus	harus	ADV	VSA	_	16	advmod	_	MorphInd=^harus<v>_VSA$
+15	engkau	engkau	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	16	nsubj	_	MorphInd=^engkau<p>_PS2$
+16	bunuh	bunuh	VERB	VSA	Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^bunuh<v>_VSA$
+17	?	?	PUNCT	Z--	_	16	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s193
 # text = Menurut Serber, Oppenheimer memberitahukan kepada Arthur Compton, yang tidak bisa diam.
@@ -5723,10 +5725,12 @@
 8	sebenarnya	sebenarnya	ADJ	D--	_	7	amod	_	MorphInd=^sebenarnya<d>_D--$
 9	di	di	ADP	R--	_	11	case	_	MorphInd=^di<r>_R--$
 10	dalam	dalam	ADP	R--	_	11	case	_	MorphInd=^dalam<r>_R--$
-11	hari-harimu	hari	NOUN	NPD+PS2	Number=Plur	7	obl	_	SpaceAfter=No|MorphInd=^hari<n>_NPD+kamu<p>_PS2$
-12	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
-13	Viola	viola	PROPN	X--	_	11	appos	_	SpaceAfter=No|MorphInd=^viola<x>_X--$
-14	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
+11-12	hari-harimu	_	_	_	_	_	_	_	MorphInd=^hari<n>_NPD+kamu<p>_PS2$|SpaceAfter=No
+11	hari-hari	hari-hari	NOUN	NPD	Number=Plur	7	obl	_	MorphInd=^hari<n>_NPD$
+12	mu	kamu	PRON	PS2	Number=Sing|Person=2|PronType=Prs	11	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+13	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
+14	Viola	viola	PROPN	X--	_	11	appos	_	SpaceAfter=No|MorphInd=^viola<x>_X--$
+15	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s225
 # text = Selain itu Persib berhasil menjadi tim peringkat kedua pada tahun 1950, 1959, 1966, 1983, dan 1985.

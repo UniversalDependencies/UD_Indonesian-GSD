@@ -13,7 +13,7 @@ http://septinalarasati.com/morphind/).
 # Changelog
 
 * 2021-11-15 v2.9
-  * The enclitics -ku, -nya, -kah, -lah, -pun, -tah separated from their host as syntactic words.
+  * The enclitics -ku, -mu, -nya, -kah, -lah, -pun, -tah separated from their host as syntactic words.
   * Proclitic 'ku-' separated as 1Sing subject ('I').
   * Stripped affixes from lemmas of verbs.
   * Fixed tags of ordinal numerals.
