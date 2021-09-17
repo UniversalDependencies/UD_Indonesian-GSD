@@ -3658,7 +3658,7 @@
 40	,	,	PUNCT	Z--	_	41	punct	_	MorphInd=^,<z>_Z--$
 41-42	artinya	_	_	_	_	_	_	_	MorphInd=^arti<n>_NSD+dia<p>_PS3$
 41	arti	arti	VERB	NSD	_	29	conj	_	MorphInd=^arti<n>_NSD$
-42	nya	nya	DET	PS3	_	41	det	_	MorphInd=^dia<p>_PS3$
+42	nya	nya	DET	PS3	Definite=Def|PronType=Art	41	det	_	MorphInd=^dia<p>_PS3$
 43	pelaksanaan	penlaksanaan	NOUN	NSD	Number=Sing	41	compound	_	MorphInd=^peN+laksana<v>+an_NSD$
 44	SCSI	scsi	PROPN	X--	_	43	flat	_	MorphInd=^scsi<x>_X--$
 45	bus	bus	NOUN	NSD	Number=Sing	44	compound	_	MorphInd=^bus<n>_NSD$
@@ -3685,7 +3685,7 @@
 3	mata	mata	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^mata<n>_NSD$
 4-5	rasanya	_	_	_	_	_	_	_	MorphInd=^rasa<v>_VSA+dia<p>_PS3$
 4	rasa	rasa	VERB	VSA	Voice=Act	13	advcl	_	MorphInd=^rasa<v>_VSA$
-5	nya	nya	DET	PS3	_	4	det	_	MorphInd=^dia<p>_PS3$
+5	nya	nya	DET	PS3	Definite=Def|PronType=Art	4	det	_	MorphInd=^dia<p>_PS3$
 6	tak	tak	PART	G--	Polarity=Neg	7	advmod	_	MorphInd=^tak<g>_G--$
 7	ingin	ingin	VERB	VSA	Voice=Act	4	advcl	_	MorphInd=^ingin<v>_VSA$
 8	berhenti	henti	VERB	VSA	Voice=Act	7	xcomp	_	MorphInd=^ber+henti<v>_VSA$
@@ -4972,7 +4972,7 @@
 6	akan	akan	ADV	M--	_	7	advmod	_	MorphInd=^akan<m>_M--$
 7-8	terjadinya	_	_	_	_	_	_	_	MorphInd=^terjadi<v>_VSP+dia<p>_PS3$
 7	terjadi	terjadi	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^terjadi<v>_VSP$
-8	nya	nya	DET	PS3	_	7	det	_	MorphInd=^dia<p>_PS3$
+8	nya	nya	DET	PS3	Definite=Def|PronType=Art	7	det	_	MorphInd=^dia<p>_PS3$
 9	pasang	pasang	NOUN	VSA	_	7	obj	_	MorphInd=^pasang<v>_VSA$
 10	tertinggi	tertinggi	ADJ	ASS	Degree=Sup	9	amod	_	MorphInd=^ter+tinggi<a>_ASS$
 11	tersebut	tersebut	DET	B--	PronType=Dem	9	det	_	SpaceAfter=No|MorphInd=^tersebut<b>_B--$
@@ -5964,7 +5964,7 @@
 12	atau	atau	CCONJ	H--	_	13	cc	_	MorphInd=^atau<h>_H--$
 13-14	kebalikannya	_	_	_	_	_	_	_	MorphInd=^ke+balik<v>+an_NSD+dia<p>_PS3$|SpaceAfter=No
 13	kebalikan	balik	NOUN	NSD	_	8	conj	_	MorphInd=^ke+balik<v>+an_NSD$
-14	nya	nya	DET	PS3	_	13	det	_	MorphInd=^dia<p>_PS3$
+14	nya	nya	DET	PS3	Definite=Def|PronType=Art	13	det	_	MorphInd=^dia<p>_PS3$
 15	?	?	PUNCT	Z--	_	8	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s250
@@ -6525,7 +6525,7 @@
 10	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
 11-12	artinya	_	_	_	_	_	_	_	MorphInd=^arti<n>_NSD+dia<p>_PS3$
 11	arti	arti	VERB	NSD	_	7	advcl	_	MorphInd=^arti<n>_NSD$
-12	nya	nya	DET	PS3	_	11	det	_	MorphInd=^dia<p>_PS3$
+12	nya	nya	DET	PS3	Definite=Def|PronType=Art	11	det	_	MorphInd=^dia<p>_PS3$
 13	tiga	tiga	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^tiga<c>_CC-$
 14	orang	orang	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^orang<n>_NSD$
 15	raja	raja	NOUN	NSD	Number=Sing	14	compound	_	MorphInd=^raja<n>_NSD$
@@ -8834,7 +8834,7 @@
 26	,	,	PUNCT	Z--	_	27	punct	_	MorphInd=^,<z>_Z--$
 27-28	katanya	_	_	_	_	_	_	_	MorphInd=^kata<n>_NSD+dia<p>_PS3$|SpaceAfter=No
 27	kata	kata	VERB	NSD	_	6	appos	_	MorphInd=^kata<n>_NSD$
-28	nya	nya	DET	PS3	_	27	det	_	MorphInd=^dia<p>_PS3$
+28	nya	nya	DET	PS3	Definite=Def|PronType=Art	27	det	_	MorphInd=^dia<p>_PS3$
 29	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s374

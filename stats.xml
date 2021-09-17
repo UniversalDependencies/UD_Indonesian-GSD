@@ -37,7 +37,7 @@
   <feats unique="25">
     <feat name="Clusivity" value="Ex" upos="PRON">28</feat><!-- kami, kamilah -->
     <feat name="Clusivity" value="In" upos="PRON">65</feat><!-- kita -->
-    <feat name="Definite" value="Def" upos="DET">38</feat><!-- nya -->
+    <feat name="Definite" value="Def" upos="DET">103</feat><!-- nya -->
     <feat name="Degree" value="Sup" upos="ADJ">214</feat><!-- terbesar, terbaik, terakhir, terkenal, tertinggi, terdekat, tertua, teratas, terbanyak, terbaru -->
     <feat name="Foreign" value="Yes" upos="X">58</feat><!-- and, jpg, an, anti, b, s, www, x, &amp;nbsp, //www.anayasa.gen.tr/1961constitution-text.pdf -->
     <feat name="Number" value="Plur" upos="NOUN,PRON">1103</feat><!-- mereka, kita, orang-orang, kami, anak-anak, laki-laki, negara-negara, lagu-lagu, undang-undang, kalian -->
@@ -50,7 +50,7 @@
     <feat name="Polarity" value="Neg" upos="PART">560</feat><!-- tidak, tak, bukan, bukankah, belum, bukanlah, tidakkah, jangan, tanpa, non -->
     <feat name="Polite" value="Form" upos="PRON">53</feat><!-- beliau, saya, anda -->
     <feat name="Polite" value="Infm" upos="PRON">109</feat><!-- kamu, engkau, aku -->
-    <feat name="PronType" value="Art" upos="DET">38</feat><!-- nya -->
+    <feat name="PronType" value="Art" upos="DET">103</feat><!-- nya -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">2083</feat><!-- ini, itu, tersebut, para, mana, begitu, itulah, inilah, berikut, Inikah -->
     <feat name="PronType" value="Emp" upos="DET">1</feat><!-- sendiri -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">1132</feat><!-- sebuah, seorang, beberapa, banyak, berbagai, suatu, sejumlah, tertentu, adanya, beragam -->

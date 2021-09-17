@@ -13177,7 +13177,7 @@
 6	tempat	tempat	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^tempat<n>_NSD$
 7-8	berkumpulnya	_	_	_	_	_	_	_	MorphInd=^ber+kumpul<v>_VSA+dia<p>_PS3$
 7	berkumpul	kumpul	VERB	VSA	Voice=Act	6	amod	_	MorphInd=^ber+kumpul<v>_VSA$
-8	nya	nya	DET	PS3	_	7	det	_	MorphInd=^dia<p>_PS3$
+8	nya	nya	DET	PS3	Definite=Def|PronType=Art	7	det	_	MorphInd=^dia<p>_PS3$
 9	beberapa	beberapa	DET	B--	PronType=Ind	10	det	_	MorphInd=^beberapa<b>_B--$
 10	perguruan	perguruan	NOUN	NSD	Number=Sing	6	compound	_	MorphInd=^per+guru<n>+an_NSD$
 11	tinggi	tinggi	ADJ	ASP	_	10	amod	_	SpaceAfter=No|MorphInd=^tinggi<a>_ASP$
