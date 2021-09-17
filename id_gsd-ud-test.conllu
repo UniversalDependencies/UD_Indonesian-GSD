@@ -2404,27 +2404,29 @@
 8	dari	dari	ADP	R--	_	10	case	_	MorphInd=^dari<r>_R--$
 9	2.415	2.415	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^2.415<c>_CC-$
 10	penduduk	penduduk	NOUN	NSD	Number=Sing	3	obl	_	SpaceAfter=No|MorphInd=^penduduk<n>_NSD$
-11	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
+11	,	,	PUNCT	Z--	_	19	punct	_	MorphInd=^,<z>_Z--$
 12	sebanyak	sebanyak	ADV	R--	_	14	advmod	_	MorphInd=^sebanyak<r>_R--$
 13	1.391	1.391	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^1.391<c>_CC-$
-14	orang	orang	NOUN	NSD	Number=Sing	18	nsubj	_	MorphInd=^orang<n>_NSD$
+14	orang	orang	NOUN	NSD	Number=Sing	19	nsubj	_	MorphInd=^orang<n>_NSD$
 15	di	di	ADP	R--	_	14	case	_	MorphInd=^di<r>_R--$
-16	antaranya	antara	ADP	R--+PS3	_	14	case	_	MorphInd=^antara<r>_R--+dia<p>_PS3$
-17	sudah	sudah	AUX	D--	_	18	aux	_	MorphInd=^sudah<d>_D--$
-18	bekerja	bekerja	VERB	VSA	Voice=Act	3	advcl	_	SpaceAfter=No|MorphInd=^bekerja<v>_VSA$
-19	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
-20	antara	antara	ADP	R--	_	18	case	_	MorphInd=^antara<r>_R--$
-21	lain	lain	ADJ	ASP	_	18	amod	_	MorphInd=^lain<a>_ASP$
-22	297	297	NUM	CC-	NumType=Card	23	nummod	_	MorphInd=^297<c>_CC-$
-23	orang	orang	NOUN	NSD	Number=Sing	24	obl	_	MorphInd=^orang<n>_NSD$
-24	jadi	jadi	VERB	ASP	_	18	conj	_	MorphInd=^jadi<a>_ASP$
-25	ambtenar	ambtenar	NOUN	X--	_	24	obj	_	MorphInd=^ambtenar<x>_X--$
-26	dan	dan	CCONJ	H--	_	29	cc	_	MorphInd=^dan<h>_H--$
-27	31	31	NUM	CC-	NumType=Card	28	nummod	_	MorphInd=^31<c>_CC-$
-28	orang	orang	NOUN	NSD	Number=Sing	29	nsubj	_	MorphInd=^orang<n>_NSD$
-29	menjadi	jadi	VERB	VSA	Voice=Act	24	conj	_	MorphInd=^meN+jadi<a>_VSA$
-30	dokter	dokter	NOUN	NSD	Number=Sing	29	obj	_	SpaceAfter=No|MorphInd=^dokter<n>_NSD$
-31	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+16-17	antaranya	_	_	_	_	_	_	_	MorphInd=^antara<r>_R--+dia<p>_PS3$
+16	antara	antara	ADP	R--	_	17	case	_	MorphInd=^antara<r>_R--$
+17	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	14	nmod	_	MorphInd=^dia<p>_PS3$
+18	sudah	sudah	AUX	D--	_	19	aux	_	MorphInd=^sudah<d>_D--$
+19	bekerja	bekerja	VERB	VSA	Voice=Act	3	advcl	_	SpaceAfter=No|MorphInd=^bekerja<v>_VSA$
+20	,	,	PUNCT	Z--	_	21	punct	_	MorphInd=^,<z>_Z--$
+21	antara	antara	ADP	R--	_	19	case	_	MorphInd=^antara<r>_R--$
+22	lain	lain	ADJ	ASP	_	19	amod	_	MorphInd=^lain<a>_ASP$
+23	297	297	NUM	CC-	NumType=Card	24	nummod	_	MorphInd=^297<c>_CC-$
+24	orang	orang	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^orang<n>_NSD$
+25	jadi	jadi	VERB	ASP	_	19	conj	_	MorphInd=^jadi<a>_ASP$
+26	ambtenar	ambtenar	NOUN	X--	_	25	obj	_	MorphInd=^ambtenar<x>_X--$
+27	dan	dan	CCONJ	H--	_	30	cc	_	MorphInd=^dan<h>_H--$
+28	31	31	NUM	CC-	NumType=Card	29	nummod	_	MorphInd=^31<c>_CC-$
+29	orang	orang	NOUN	NSD	Number=Sing	30	nsubj	_	MorphInd=^orang<n>_NSD$
+30	menjadi	jadi	VERB	VSA	Voice=Act	25	conj	_	MorphInd=^meN+jadi<a>_VSA$
+31	dokter	dokter	NOUN	NSD	Number=Sing	30	obj	_	SpaceAfter=No|MorphInd=^dokter<n>_NSD$
+32	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s99
 # text = Wilayah Bantam Raya terletak di sekitar muara sungai Barito dan penduduk aslinya dikenal sebagai orang Berangas (Barangas) yang menggunakan bahasa Barangas.
@@ -4256,22 +4258,24 @@
 
 # sent_id = test-s176
 # text = Ditanya mengenainya Minogue menjawab, ``Saya pikir BB adalah seorang simbol sex, bukan?
-1	Ditanya	tanya	VERB	VSP	Voice=Pass	4	advcl	_	MorphInd=^di+tanya<v>_VSP$
-2	mengenainya	mengenai	ADP	R--+PS3	_	1	case	_	MorphInd=^mengenai<r>_R--+dia<p>_PS3$
-3	Minogue	minogue	PROPN	X--	_	4	nsubj	_	MorphInd=^minogue<x>_X--$
-4	menjawab	jawab	VERB	VSA	Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^meN+jawab<v>_VSA$
-5	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
-6	``	``	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
-7	Saya	saya	PRON	PS1	Number=Sing|Person=1|Polite=Form|PronType=Prs	8	nsubj	_	MorphInd=^saya<p>_PS1$
-8	pikir	pikir	VERB	VSA	Voice=Act	4	parataxis	_	MorphInd=^pikir<v>_VSA$
-9	BB	bb	PROPN	F--	_	8	obj	_	MorphInd=^bb<f>_F--$
-10	adalah	adalah	AUX	O--	_	12	cop	_	MorphInd=^adalah<o>_O--$
-11	seorang	seorang	DET	B--	PronType=Ind	12	det	_	MorphInd=^seorang<b>_B--$
-12	simbol	simbol	NOUN	NSD	Number=Sing	9	xcomp	_	MorphInd=^simbol<n>_NSD$
-13	sex	sex	NOUN	X--	_	12	compound	_	SpaceAfter=No|MorphInd=^sex<x>_X--$
-14	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
-15	bukan	bukan	PART	G--	Polarity=Neg	8	advmod	_	SpaceAfter=No|MorphInd=^bukan<g>_G--$
-16	?	?	PUNCT	Z--	_	8	punct	_	MorphInd=^?<z>_Z--$
+1	Ditanya	tanya	VERB	VSP	Voice=Pass	5	advcl	_	MorphInd=^di+tanya<v>_VSP$
+2-3	mengenainya	_	_	_	_	_	_	_	MorphInd=^mengenai<r>_R--+dia<p>_PS3$
+2	mengenai	mengenai	ADP	R--	_	3	case	_	MorphInd=^mengenai<r>_R--$
+3	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	1	obl	_	MorphInd=^dia<p>_PS3$
+4	Minogue	minogue	PROPN	X--	_	5	nsubj	_	MorphInd=^minogue<x>_X--$
+5	menjawab	jawab	VERB	VSA	Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^meN+jawab<v>_VSA$
+6	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
+7	``	``	PUNCT	Z--	_	9	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
+8	Saya	saya	PRON	PS1	Number=Sing|Person=1|Polite=Form|PronType=Prs	9	nsubj	_	MorphInd=^saya<p>_PS1$
+9	pikir	pikir	VERB	VSA	Voice=Act	5	parataxis	_	MorphInd=^pikir<v>_VSA$
+10	BB	bb	PROPN	F--	_	9	obj	_	MorphInd=^bb<f>_F--$
+11	adalah	adalah	AUX	O--	_	13	cop	_	MorphInd=^adalah<o>_O--$
+12	seorang	seorang	DET	B--	PronType=Ind	13	det	_	MorphInd=^seorang<b>_B--$
+13	simbol	simbol	NOUN	NSD	Number=Sing	10	xcomp	_	MorphInd=^simbol<n>_NSD$
+14	sex	sex	NOUN	X--	_	13	compound	_	SpaceAfter=No|MorphInd=^sex<x>_X--$
+15	,	,	PUNCT	Z--	_	16	punct	_	MorphInd=^,<z>_Z--$
+16	bukan	bukan	PART	G--	Polarity=Neg	9	advmod	_	SpaceAfter=No|MorphInd=^bukan<g>_G--$
+17	?	?	PUNCT	Z--	_	9	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s177
 # text = Lagu "뭘봐 (Close Your Mouth Song)" dirilis pada 22 Juni 2011 secara digital di Korea Selatan.
@@ -11554,35 +11558,37 @@
 # text = Di antara mereka yang mengabdi padanya, Tang paling menaruh kepercayaannya pada Yi Yin （ 伊 尹 ）, seorang mantan budak yang kemudian dipromosikan menjadi perdana mentri.
 1	Di	di	ADP	R--	_	3	case	_	MorphInd=^di<r>_R--$
 2	antara	antara	ADP	R--	_	3	case	_	MorphInd=^antara<r>_R--$
-3	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	10	obl	_	MorphInd=^mereka<p>_PP3$
+3	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	11	obl	_	MorphInd=^mereka<p>_PP3$
 4	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	MorphInd=^yang<s>_S--$
 5	mengabdi	abdi	VERB	VSA	Voice=Act	3	acl	_	MorphInd=^meN+abdi<n>_VSA$
-6	padanya	pada	ADP	R--+PS3	_	5	case	_	SpaceAfter=No|MorphInd=^pada<r>_R--+dia<p>_PS3$
-7	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
-8	Tang	tang	PROPN	F--	_	10	nsubj	_	MorphInd=^tang<f>_F--$
-9	paling	paling	ADV	D--	_	10	advmod	_	MorphInd=^paling<d>_D--$
-10	menaruh	taruh	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+taruh<v>_VSA$
-11-12	kepercayaannya	_	_	_	_	_	_	_	MorphInd=^ke+percaya<v>+an_NSD+dia<p>_PS3$
-11	kepercayaan	kepercayaan	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^ke+percaya<v>+an_NSD$
-12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	MorphInd=^dia<p>_PS3$
-13	pada	pada	ADP	R--	_	14	case	_	MorphInd=^pada<r>_R--$
-14	Yi	yi	PROPN	F--	_	10	obl	_	MorphInd=^yi<f>_F--$
-15	Yin	yin	PROPN	X--	_	14	flat	_	MorphInd=^yin<x>_X--$
-16	（	（	PROPN	Z--	_	15	appos	_	MorphInd=^（<z>_Z--$
-17	伊	伊	PROPN	X--	_	16	flat	_	MorphInd=^伊<x>_X--$
-18	尹	尹	PUNCT	X--	_	19	punct	_	MorphInd=^尹<x>_X--$
-19	）	）	PROPN	Z--	_	16	flat	_	SpaceAfter=No|MorphInd=^）<z>_Z--$
-20	,	,	PUNCT	Z--	_	22	punct	_	MorphInd=^,<z>_Z--$
-21	seorang	seorang	DET	B--	PronType=Ind	22	det	_	MorphInd=^seorang<b>_B--$
-22	mantan	mantan	NOUN	NSD	Number=Sing	14	nsubj	_	MorphInd=^mantan<n>_NSD$
-23	budak	budak	NOUN	NSD	Number=Sing	22	compound	_	MorphInd=^budak<n>_NSD$
-24	yang	yang	PRON	S--	PronType=Rel	26	nsubj:pass	_	MorphInd=^yang<s>_S--$
-25	kemudian	kemudian	ADV	S--	_	26	advmod	_	MorphInd=^kemudian<s>_S--$
-26	dipromosikan	promosi	VERB	VSP	Voice=Pass	22	acl	_	MorphInd=^di+promosi<n>+kan_VSP$
-27	menjadi	jadi	VERB	VSA	Voice=Act	26	xcomp	_	MorphInd=^meN+jadi<a>_VSA$
-28	perdana	perdana	NOUN	ASP	_	27	obl	_	MorphInd=^perdana<a>_ASP$
-29	mentri	mentri	NOUN	NSD	Number=Sing	28	compound	_	SpaceAfter=No|MorphInd=^mentri<n>_NSD$
-30	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
+6-7	padanya	_	_	_	_	_	_	_	MorphInd=^pada<r>_R--+dia<p>_PS3$|SpaceAfter=No
+6	pada	pada	ADP	R--	_	7	case	_	MorphInd=^pada<r>_R--$
+7	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	obl	_	MorphInd=^dia<p>_PS3$
+8	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
+9	Tang	tang	PROPN	F--	_	11	nsubj	_	MorphInd=^tang<f>_F--$
+10	paling	paling	ADV	D--	_	11	advmod	_	MorphInd=^paling<d>_D--$
+11	menaruh	taruh	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+taruh<v>_VSA$
+12-13	kepercayaannya	_	_	_	_	_	_	_	MorphInd=^ke+percaya<v>+an_NSD+dia<p>_PS3$
+12	kepercayaan	kepercayaan	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^ke+percaya<v>+an_NSD$
+13	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	MorphInd=^dia<p>_PS3$
+14	pada	pada	ADP	R--	_	15	case	_	MorphInd=^pada<r>_R--$
+15	Yi	yi	PROPN	F--	_	11	obl	_	MorphInd=^yi<f>_F--$
+16	Yin	yin	PROPN	X--	_	15	flat	_	MorphInd=^yin<x>_X--$
+17	（	（	PROPN	Z--	_	16	appos	_	MorphInd=^（<z>_Z--$
+18	伊	伊	PROPN	X--	_	17	flat	_	MorphInd=^伊<x>_X--$
+19	尹	尹	PUNCT	X--	_	20	punct	_	MorphInd=^尹<x>_X--$
+20	）	）	PROPN	Z--	_	17	flat	_	SpaceAfter=No|MorphInd=^）<z>_Z--$
+21	,	,	PUNCT	Z--	_	23	punct	_	MorphInd=^,<z>_Z--$
+22	seorang	seorang	DET	B--	PronType=Ind	23	det	_	MorphInd=^seorang<b>_B--$
+23	mantan	mantan	NOUN	NSD	Number=Sing	15	nsubj	_	MorphInd=^mantan<n>_NSD$
+24	budak	budak	NOUN	NSD	Number=Sing	23	compound	_	MorphInd=^budak<n>_NSD$
+25	yang	yang	PRON	S--	PronType=Rel	27	nsubj:pass	_	MorphInd=^yang<s>_S--$
+26	kemudian	kemudian	ADV	S--	_	27	advmod	_	MorphInd=^kemudian<s>_S--$
+27	dipromosikan	promosi	VERB	VSP	Voice=Pass	23	acl	_	MorphInd=^di+promosi<n>+kan_VSP$
+28	menjadi	jadi	VERB	VSA	Voice=Act	27	xcomp	_	MorphInd=^meN+jadi<a>_VSA$
+29	perdana	perdana	NOUN	ASP	_	28	obl	_	MorphInd=^perdana<a>_ASP$
+30	mentri	mentri	NOUN	NSD	Number=Sing	29	compound	_	SpaceAfter=No|MorphInd=^mentri<n>_NSD$
+31	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s481
 # text = Tepatnya di negara bagian Ohio. Pada tahun 2000, kota ini memiliki jumlah penduduk sebanyak 217.014 jiwa dan memiliki luas wilayah 161,6 km2. Kota ini memiliki jumlah kepadatan penduduk sebanyak 1350,3 jiwa/km2.
