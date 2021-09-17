@@ -17,15 +17,15 @@
   <tags unique="17">
     <tag name="ADJ">4859</tag><!-- salah, pertama, lain, kedua, besar, baru, lainnya, utama, sama, kecil -->
     <tag name="ADP">12007</tag><!-- di, pada, dari, dengan, untuk, dalam, oleh, sebagai, ke, seperti -->
-    <tag name="ADV">3830</tag><!-- juga, lebih, kemudian, hanya, bagaimana, masih, sangat, akan, apa, banyak -->
+    <tag name="ADV">3829</tag><!-- juga, lebih, kemudian, hanya, bagaimana, masih, sangat, akan, apa, banyak -->
     <tag name="AUX">1989</tag><!-- adalah, dapat, akan, telah, bisa, sudah, harus, ialah, mampu, mungkin -->
     <tag name="CCONJ">3643</tag><!-- dan, atau, serta, tetapi, karena, maupun, namun, tapi, beserta, lalu -->
-    <tag name="DET">3577</tag><!-- ini, itu, sebuah, tersebut, seorang, beberapa, para, berbagai, suatu, semua -->
+    <tag name="DET">3583</tag><!-- ini, itu, sebuah, tersebut, seorang, beberapa, para, berbagai, suatu, semua -->
     <tag name="INTJ">5</tag><!-- hai, sayang, silakan, tuh, wah -->
     <tag name="NOUN">26498</tag><!-- tahun, orang, desa, nama, kota, bagian, bahasa, wilayah, tanggal, negara -->
     <tag name="NUM">4412</tag><!-- satu, dua, 1, 2, 3, tiga, 5, 2010, 4, ke -->
     <tag name="PART">619</tag><!-- tidak, bukan, tak, pun, belum, kan, tanpa, ya, jangan, non -->
-    <tag name="PRON">6233</tag><!-- yang, dia, ia, mereka, apa, kita, siapa, mana, kamu, aku -->
+    <tag name="PRON">6228</tag><!-- yang, dia, ia, mereka, apa, kita, siapa, mana, kamu, aku -->
     <tag name="PROPN">22461</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
     <tag name="PUNCT">17721</tag><!-- ,, ., ), (, -, ", ?, :, /, ' -->
     <tag name="SCONJ">1463</tag><!-- bahwa, karena, namun, ketika, sehingga, maka, jika, setelah, yaitu, sementara -->
@@ -66,7 +66,7 @@
     <dep name="acl">3388</dep>
     <dep name="acl:relcl">11</dep>
     <dep name="advcl">1391</dep>
-    <dep name="advmod">4450</dep>
+    <dep name="advmod">4448</dep>
     <dep name="advmod:emph">14</dep>
     <dep name="amod">4828</dep>
     <dep name="appos">2621</dep>
@@ -83,7 +83,7 @@
     <dep name="csubj">28</dep>
     <dep name="csubj:pass">8</dep>
     <dep name="dep">555</dep>
-    <dep name="det">3751</dep>
+    <dep name="det">3753</dep>
     <dep name="discourse">8</dep>
     <dep name="fixed">378</dep>
     <dep name="flat">11277</dep>
