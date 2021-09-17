@@ -2139,16 +2139,18 @@
 10	satu	satu	NUM	CC-	NumType=Card	11	nummod	_	MorphInd=^satu<c>_CC-$
 11	anak	anak	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^anak<n>_NSD$
 12	kecil	kecil	ADJ	ASP	_	11	amod	_	SpaceAfter=No|MorphInd=^kecil<a>_ASP$
-13	,	,	PUNCT	Z--	_	17	punct	_	MorphInd=^,<z>_Z--$
-14	yang	yang	PRON	S--	PronType=Rel	17	nsubj	_	MorphInd=^yang<s>_S--$
-15	semuanya	semua	PRON	B--+PS3	PronType=Tot	17	nsubj	_	MorphInd=^semua<b>_B--+dia<p>_PS3$
-16	akan	akan	AUX	M--	_	17	aux	_	MorphInd=^akan<m>_M--$
-17	duduk	duduk	VERB	VSA	Voice=Act	6	parataxis	_	MorphInd=^duduk<v>_VSA$
-18	di	di	ADP	R--	_	19	case	_	MorphInd=^di<r>_R--$
-19	belakang	belakang	NOUN	NSD	Number=Sing	17	obl	_	MorphInd=^belakang<n>_NSD$
-20	sopir	sopir	NOUN	X--	_	19	nmod	_	MorphInd=^sopir<x>_X--$
-21	bajaj	bajaj	NOUN	X--	_	20	compound	_	SpaceAfter=No|MorphInd=^bajaj<x>_X--$
-22	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
+13	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
+14	yang	yang	PRON	S--	PronType=Rel	18	nsubj	_	MorphInd=^yang<s>_S--$
+15-16	semuanya	_	_	_	_	_	_	_	MorphInd=^semua<b>_B--+dia<p>_PS3$
+15	semua	semua	DET	B--	PronType=Tot	18	nsubj	_	MorphInd=^semua<b>_B--$
+16	nya	nya	DET	PS3	Definite=Def|PronType=Art	15	det	_	MorphInd=^dia<p>_PS3$
+17	akan	akan	AUX	M--	_	18	aux	_	MorphInd=^akan<m>_M--$
+18	duduk	duduk	VERB	VSA	Voice=Act	6	parataxis	_	MorphInd=^duduk<v>_VSA$
+19	di	di	ADP	R--	_	20	case	_	MorphInd=^di<r>_R--$
+20	belakang	belakang	NOUN	NSD	Number=Sing	18	obl	_	MorphInd=^belakang<n>_NSD$
+21	sopir	sopir	NOUN	X--	_	20	nmod	_	MorphInd=^sopir<x>_X--$
+22	bajaj	bajaj	NOUN	X--	_	21	compound	_	SpaceAfter=No|MorphInd=^bajaj<x>_X--$
+23	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s89
 # text = Akankah Mat Bunglon dan Dul Bajing berhasil mendapatkan patung yang diinginkannya?
