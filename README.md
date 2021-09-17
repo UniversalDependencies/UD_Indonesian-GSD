@@ -13,7 +13,7 @@ http://septinalarasati.com/morphind/).
 # Changelog
 
 * 2021-11-15 v2.9
-  * The clitic -nya separated from its host as a syntactic word.
+  * The clitics -nya, -kah, -lah, -pun, -tah separated from their host as syntactic words.
   * Stripped affixes from lemmas of verbs.
   * Fixed tags of ordinal numerals.
   * Proper nouns do not have the Number feature (unlike common nouns).
