@@ -6476,13 +6476,15 @@
 8	terhadap	terhadap	ADP	R--	_	9	case	_	MorphInd=^terhadap<r>_R--$
 9	budaya	budaya	NOUN	NSD	Number=Sing	7	nmod	_	MorphInd=^budaya<n>_NSD$
 10	dinamis	dinamis	ADJ	ASP	_	9	amod	_	SpaceAfter=No|MorphInd=^dinamis<a>_ASP$
-11	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
+11	,	,	PUNCT	Z--	_	16	punct	_	MorphInd=^,<z>_Z--$
 12	salah	salah	ADJ	ASP	_	13	advmod	_	MorphInd=^salah<a>_ASP$
-13	satunya	satu	NUM	CC-+PS3	_	15	nsubj	_	MorphInd=^satu<c>_CC-+dia<p>_PS3$
-14	adalah	adalah	AUX	O--	_	15	cop	_	MorphInd=^adalah<o>_O--$
-15	Hallé	hallé	PROPN	X--	_	9	parataxis	_	MorphInd=^hallé<x>_X--$
-16	Orchestra	orchestra	PROPN	F--	_	15	flat	_	SpaceAfter=No|MorphInd=^orchestra<f>_F--$
-17	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
+13-14	satunya	_	_	_	_	_	_	_	MorphInd=^satu<c>_CC-+dia<p>_PS3$
+13	satu	satu	NUM	CC-	NumType=Card	16	nsubj	_	MorphInd=^satu<c>_CC-$
+14	nya	nya	DET	PS3	Definite=Def|PronType=Art	13	det	_	MorphInd=^dia<p>_PS3$
+15	adalah	adalah	AUX	O--	_	16	cop	_	MorphInd=^adalah<o>_O--$
+16	Hallé	hallé	PROPN	X--	_	9	parataxis	_	MorphInd=^hallé<x>_X--$
+17	Orchestra	orchestra	PROPN	F--	_	16	flat	_	SpaceAfter=No|MorphInd=^orchestra<f>_F--$
+18	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s275
 # text = Memetika pertama kali dikemukakan ketika Richard Dawkins mereduksi proses dari evolusi gen biologi menjadi satuan pokok yaitu replikator (gen).

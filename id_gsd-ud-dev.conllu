@@ -13661,25 +13661,27 @@
 
 # sent_id = dev-s529
 # text = David Lyall, penghuni satu - satunya dari pulau Stephen, mengirimkan suatu eksemplar ke museum di Wellington.
-1	David	david	PROPN	F--	_	12	nsubj	_	MorphInd=^david<f>_F--$
+1	David	david	PROPN	F--	_	13	nsubj	_	MorphInd=^david<f>_F--$
 2	Lyall	lyall	PROPN	X--	_	1	flat	_	SpaceAfter=No|MorphInd=^lyall<x>_X--$
 3	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
 4	penghuni	penhuni	NOUN	NSD	Number=Sing	1	appos	_	MorphInd=^peN+huni<v>_NSD$
 5	satu	satu	NUM	CC-	_	4	nummod	_	MorphInd=^satu<c>_CC-$
 6	-	-	PUNCT	Z--	_	7	punct	_	MorphInd=^-<z>_Z--$
-7	satunya	satu	NUM	CC-+PS3	_	5	fixed	_	MorphInd=^satu<c>_CC-+dia<p>_PS3$
-8	dari	dari	ADP	R--	_	9	case	_	MorphInd=^dari<r>_R--$
-9	pulau	pulau	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^pulau<n>_NSD$
-10	Stephen	stephen	PROPN	F--	_	9	flat	_	SpaceAfter=No|MorphInd=^stephen<f>_F--$
-11	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
-12	mengirimkan	kirim	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+kirim<v>+kan_VSA$
-13	suatu	suatu	DET	B--	PronType=Ind	14	det	_	MorphInd=^suatu<b>_B--$
-14	eksemplar	eksemplar	NOUN	X--	_	12	obj	_	MorphInd=^eksemplar<x>_X--$
-15	ke	ke	ADP	R--	_	16	case	_	MorphInd=^ke<r>_R--$
-16	museum	museum	NOUN	F--	_	14	nmod	_	MorphInd=^museum<f>_F--$
-17	di	di	ADP	R--	_	18	case	_	MorphInd=^di<r>_R--$
-18	Wellington	wellington	PROPN	F--	_	14	nmod	_	SpaceAfter=No|MorphInd=^wellington<f>_F--$
-19	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
+7-8	satunya	_	_	_	_	_	_	_	MorphInd=^satu<c>_CC-+dia<p>_PS3$
+7	satu	satu	NUM	CC-	NumType=Card	5	fixed	_	MorphInd=^satu<c>_CC-$
+8	nya	nya	DET	PS3	Definite=Def|PronType=Art	7	det	_	MorphInd=^dia<p>_PS3$
+9	dari	dari	ADP	R--	_	10	case	_	MorphInd=^dari<r>_R--$
+10	pulau	pulau	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^pulau<n>_NSD$
+11	Stephen	stephen	PROPN	F--	_	10	flat	_	SpaceAfter=No|MorphInd=^stephen<f>_F--$
+12	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
+13	mengirimkan	kirim	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+kirim<v>+kan_VSA$
+14	suatu	suatu	DET	B--	PronType=Ind	15	det	_	MorphInd=^suatu<b>_B--$
+15	eksemplar	eksemplar	NOUN	X--	_	13	obj	_	MorphInd=^eksemplar<x>_X--$
+16	ke	ke	ADP	R--	_	17	case	_	MorphInd=^ke<r>_R--$
+17	museum	museum	NOUN	F--	_	15	nmod	_	MorphInd=^museum<f>_F--$
+18	di	di	ADP	R--	_	19	case	_	MorphInd=^di<r>_R--$
+19	Wellington	wellington	PROPN	F--	_	15	nmod	_	SpaceAfter=No|MorphInd=^wellington<f>_F--$
+20	.	.	PUNCT	Z--	_	13	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s530
 # text = Karena bangunan ini adalah Pondok Pesantren Salafiyah Bihaaru Bahri 'Asali Fadlaailir Rahmah yang murni dibangun oleh para santri dan jamaah.” Pondok Pesantren tersebut konon mulai dibangun pada tahun 1978 oleh Romo Kiai Haji Ahmad Bahru Mafdlaluddin Shaleh Al - Mahbub Rahmat Alam, atau yang akrab disapa Romo Kiai Ahmad.
