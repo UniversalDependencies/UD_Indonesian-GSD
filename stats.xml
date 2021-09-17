@@ -62,7 +62,7 @@
     <feat name="Voice" value="Pass" upos="VERB">3387</feat><!-- terletak, digunakan, dikenal, terjadi, disebut, terdapat, terdiri, dilakukan, ditemukan, dirilis -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="46">
+  <deps unique="47">
     <dep name="acl">3386</dep>
     <dep name="acl:relcl">11</dep>
     <dep name="advcl">1392</dep>
@@ -78,6 +78,7 @@
     <dep name="ccomp">471</dep>
     <dep name="compound">7404</dep>
     <dep name="compound:a">2</dep>
+    <dep name="compound:redup">13</dep>
     <dep name="conj">4844</dep>
     <dep name="cop">1056</dep>
     <dep name="csubj">28</dep>
@@ -85,7 +86,7 @@
     <dep name="dep">555</dep>
     <dep name="det">3892</dep>
     <dep name="discourse">8</dep>
-    <dep name="fixed">377</dep>
+    <dep name="fixed">364</dep>
     <dep name="flat">11277</dep>
     <dep name="flat:foreign">13</dep>
     <dep name="flat:name">73</dep>
