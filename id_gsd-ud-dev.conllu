@@ -4291,7 +4291,7 @@
 7	luas	luas	ADJ	ASP	_	8	amod	_	MorphInd=^luas<a>_ASP$
 8	kota	kota	NOUN	NSD	Number=Sing	13	nsubj	_	MorphInd=^kota<n>_NSD$
 9	ini	ini	DET	B--	PronType=Dem	8	det	_	MorphInd=^ini<b>_B--$
-10	keseluruhannya	keseluruhan	ADV	B--+PS3	PronType=Tot	13	advmod	_	MorphInd=^keseluruhan<b>_B--+dia<p>_PS3$
+10	keseluruhannya	keseluruhan	NOUN	B--+PS3	_	13	obl	_	MorphInd=^keseluruhan<b>_B--+dia<p>_PS3$
 11	adalah	adalah	AUX	O--	_	13	cop	_	MorphInd=^adalah<o>_O--$
 12	60	60	NUM	CC-	NumType=Card	13	nummod	_	MorphInd=^60<c>_CC-$
 13	km²	km²	NOUN	X--	Number=Sing	0	root	_	SpaceAfter=No|MorphInd=^km²<x>_X--$
