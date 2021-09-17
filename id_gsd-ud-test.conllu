@@ -1705,17 +1705,19 @@
 10	Vegas	vegas	PROPN	F--	_	9	flat	_	SpaceAfter=No|MorphInd=^vegas<f>_F--$
 11	"	"	PUNCT	Z--	_	9	punct	_	MorphInd=^"<z>_Z--$
 12	karena	karena	CCONJ	S--	_	6	cc	_	MorphInd=^karena<s>_S--$
-13	banyaknya	banyak	DET	ASP+PS3	_	14	det	_	MorphInd=^banyak<a>_ASP+dia<p>_PS3$
-14	aktivitas	aktivitas	NOUN	NSD	Number=Sing	16	nsubj:pass	_	MorphInd=^aktivitas<n>_NSD$
-15	yang	yang	PRON	S--	PronType=Rel	16	nsubj:pass	_	MorphInd=^yang<s>_S--$
-16	ditawarkan	tawar	VERB	VSP	Voice=Pass	6	acl	_	MorphInd=^di+tawar<v>+kan_VSP$
-17	MGM	mgm	PROPN	F--	_	16	obl	_	MorphInd=^mgm<f>_F--$
-18	Grand	grand	PROPN	F--	_	17	flat	_	MorphInd=^grand<f>_F--$
-19	pada	pada	ADP	R--	_	20	case	_	MorphInd=^pada<r>_R--$
-20-21	tamunya	_	_	_	_	_	_	_	MorphInd=^tamu<n>_NSD+dia<p>_PS3$|SpaceAfter=No
-20	tamu	tamu	NOUN	NSD	Number=Sing	16	obl	_	MorphInd=^tamu<n>_NSD$
-21	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	MorphInd=^dia<p>_PS3$
-22	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
+13-14	banyaknya	_	_	_	_	_	_	_	MorphInd=^banyak<a>_ASP+dia<p>_PS3$
+13	banyak	banyak	DET	ASP	PronType=Ind	15	det	_	MorphInd=^banyak<a>_ASP$
+14	nya	nya	DET	PS3	Definite=Def|PronType=Art	13	det	_	MorphInd=^dia<p>_PS3$
+15	aktivitas	aktivitas	NOUN	NSD	Number=Sing	17	nsubj:pass	_	MorphInd=^aktivitas<n>_NSD$
+16	yang	yang	PRON	S--	PronType=Rel	17	nsubj:pass	_	MorphInd=^yang<s>_S--$
+17	ditawarkan	tawar	VERB	VSP	Voice=Pass	6	acl	_	MorphInd=^di+tawar<v>+kan_VSP$
+18	MGM	mgm	PROPN	F--	_	17	obl	_	MorphInd=^mgm<f>_F--$
+19	Grand	grand	PROPN	F--	_	18	flat	_	MorphInd=^grand<f>_F--$
+20	pada	pada	ADP	R--	_	21	case	_	MorphInd=^pada<r>_R--$
+21-22	tamunya	_	_	_	_	_	_	_	MorphInd=^tamu<n>_NSD+dia<p>_PS3$|SpaceAfter=No
+21	tamu	tamu	NOUN	NSD	Number=Sing	17	obl	_	MorphInd=^tamu<n>_NSD$
+22	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	21	nmod:poss	_	MorphInd=^dia<p>_PS3$
+23	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s71
 # text = Berdasarkan penelitian yang dilakukan oleh Museum Nasional Korea, nasi yang paling enak dihasilkan dari gamasot, kedua dolsot dan yang terakhir dari penanak nasi elektronik.
