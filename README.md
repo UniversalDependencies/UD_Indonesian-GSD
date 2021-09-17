@@ -14,7 +14,7 @@ http://septinalarasati.com/morphind/).
 
 * 2021-11-15 v2.9
   * The enclitics -ku, -mu, -nya, -kah, -lah, -pun, -tah separated from their host as syntactic words.
-  * Proclitic 'ku-' separated as 1Sing subject ('I').
+  * The proclitics ku-, kau- separated as 1Sing/2Sing subjects ('I, you').
   * Stripped affixes from lemmas of verbs.
   * Fixed tags of ordinal numerals.
   * Proper nouns do not have the Number feature (unlike common nouns).
