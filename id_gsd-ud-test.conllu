@@ -955,25 +955,27 @@
 # sent_id = test-s36
 # text = ``Apabila di kemudian hari anak-anakmu bertanya kepada ayahnya: Apakah arti batu-batu ini?
 # text_en = ``When in future your children ask their father: What do these stones mean?
-1	``	``	PUNCT	Z--	_	7	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
-2	Apabila	apabila	SCONJ	S--	_	7	mark	_	MorphInd=^apabila<s>_S--$
+1	``	``	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
+2	Apabila	apabila	SCONJ	S--	_	8	mark	_	MorphInd=^apabila<s>_S--$
 3	di	di	ADP	R--	_	5	case	_	MorphInd=^di<r>_R--$
 4	kemudian	kemudian	ADV	S--	_	5	advmod	_	MorphInd=^kemudian<s>_S--$
-5	hari	hari	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^hari<n>_NSD$
-6	anak-anakmu	anak	NOUN	NPD+PS2	Number=Plur	7	nsubj	_	MorphInd=^anak<n>_NPD+kamu<p>_PS2$
-7	bertanya	tanya	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+tanya<v>_VSA$
-8	kepada	kepada	ADP	R--	_	9	case	_	MorphInd=^kepada<r>_R--$
-9-10	ayahnya	_	_	_	_	_	_	_	MorphInd=^ayah<n>_NSD+dia<p>_PS3$|SpaceAfter=No
-9	ayah	ayah	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^ayah<n>_NSD$
-10	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	MorphInd=^dia<p>_PS3$
-11	:	:	PUNCT	Z--	_	12	punct	_	MorphInd=^:<z>_Z--$
-12-13	Apakah	_	_	_	_	_	_	_	MorphInd=^apa<w>_W--+kah<t>_T--$
-12	Apa	apa	PRON	W--	PronType=Int	7	parataxis	_	MorphInd=^apa<w>_W--$
-13	kah	kah	PART	T--	_	12	advmod:emph	_	MorphInd=^kah<t>_T--$
-14	arti	arti	NOUN	NSD	Number=Sing	12	acl	_	MorphInd=^arti<n>_NSD$
-15	batu-batu	batu	NOUN	NPD	Number=Plur	14	compound	_	MorphInd=^batu<n>_NPD$
-16	ini	ini	DET	B--	PronType=Dem	15	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
-17	?	?	PUNCT	Z--	_	7	punct	_	MorphInd=^?<z>_Z--$
+5	hari	hari	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^hari<n>_NSD$
+6-7	anak-anakmu	_	_	_	_	_	_	_	MorphInd=^anak<n>_NPD+kamu<p>_PS2$
+6	anak-anak	anak	NOUN	NPD	Number=Plur	8	nsubj	_	MorphInd=^anak<n>_NPD$
+7	mu	kamu	PRON	PS2	Number=Sing|Person=2|PronType=Prs	6	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+8	bertanya	tanya	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+tanya<v>_VSA$
+9	kepada	kepada	ADP	R--	_	10	case	_	MorphInd=^kepada<r>_R--$
+10-11	ayahnya	_	_	_	_	_	_	_	MorphInd=^ayah<n>_NSD+dia<p>_PS3$|SpaceAfter=No
+10	ayah	ayah	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^ayah<n>_NSD$
+11	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	MorphInd=^dia<p>_PS3$
+12	:	:	PUNCT	Z--	_	13	punct	_	MorphInd=^:<z>_Z--$
+13-14	Apakah	_	_	_	_	_	_	_	MorphInd=^apa<w>_W--+kah<t>_T--$
+13	Apa	apa	PRON	W--	PronType=Int	8	parataxis	_	MorphInd=^apa<w>_W--$
+14	kah	kah	PART	T--	_	13	advmod:emph	_	MorphInd=^kah<t>_T--$
+15	arti	arti	NOUN	NSD	Number=Sing	13	acl	_	MorphInd=^arti<n>_NSD$
+16	batu-batu	batu	NOUN	NPD	Number=Plur	15	compound	_	MorphInd=^batu<n>_NPD$
+17	ini	ini	DET	B--	PronType=Dem	16	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
+18	?	?	PUNCT	Z--	_	8	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s37
 # text = Sebagai tambahan dapat pula diberi serta kolang - kaling.
