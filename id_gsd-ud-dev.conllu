@@ -1274,11 +1274,13 @@
 10	setingan	setingan	NOUN	X--	_	7	nmod	_	MorphInd=^setingan<x>_X--$
 11	jarak	jarak	NOUN	ASP	_	10	compound	_	MorphInd=^jarak<a>_ASP$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj	_	MorphInd=^yang<s>_S--$
-13	selisihnya	selisih	NOUN	NSD+PS3	Number=Sing	11	nmod	_	MorphInd=^selisih<n>_NSD+dia<p>_PS3$
-14	masing-masing	masing	DET	X--	_	13	det	_	MorphInd=^masing<x>_X--$
-15	100	100	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^100<c>_CC-$
-16	meter	meter	NOUN	NSD	Number=Sing	13	nummod	_	SpaceAfter=No|MorphInd=^meter<n>_NSD$
-17	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
+13-14	selisihnya	_	_	_	_	_	_	_	MorphInd=^selisih<n>_NSD+dia<p>_PS3$
+13	selisih	selisih	NOUN	NSD	Number=Sing	11	nmod	_	MorphInd=^selisih<n>_NSD$
+14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	MorphInd=^dia<p>_PS3$
+15	masing-masing	masing	DET	X--	_	13	det	_	MorphInd=^masing<x>_X--$
+16	100	100	NUM	CC-	NumType=Card	17	nummod	_	MorphInd=^100<c>_CC-$
+17	meter	meter	NOUN	NSD	Number=Sing	13	nummod	_	SpaceAfter=No|MorphInd=^meter<n>_NSD$
+18	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s51
 # text = Hal ini meningkatkan posisi dari perguruan mereka, sekaligus memberikannya kesempatan untuk membalas dendam atas kematian ayahnya.
@@ -12137,17 +12139,19 @@
 25	yang	yang	PRON	S--	PronType=Rel	24	obl	_	MorphInd=^yang<s>_S--$
 26	pertama	pertama	ADJ	CO-	NumType=Ord	25	amod	_	MorphInd=^pertama<c>_CO-$
 27	dalam	dalam	ADP	ASP	_	28	case	_	MorphInd=^dalam<a>_ASP$
-28	kelasnya	kelas	NOUN	NSD+PS3	Number=Sing	24	xcomp	_	MorphInd=^kelas<n>_NSD+dia<p>_PS3$
-29	sehingga	sehingga	SCONJ	S--	_	33	mark	_	MorphInd=^sehingga<s>_S--$
-30	kapal	kapal	NOUN	NSD	Number=Sing	33	nsubj:pass	_	MorphInd=^kapal<n>_NSD$
-31	sejenis	sejenis	NOUN	ASP	_	30	compound	_	MorphInd=^se+jenis<n>_ASP$
-32	ini	ini	DET	B--	PronType=Dem	30	det	_	MorphInd=^ini<b>_B--$
-33	disebut	sebut	VERB	VSP	Voice=Pass	24	advcl	_	MorphInd=^di+sebut<v>_VSP$
-34	kapal	kapal	NOUN	NSD	Number=Sing	33	obj	_	MorphInd=^kapal<n>_NSD$
-35	kelas	kelas	NOUN	NSD	Number=Sing	34	compound	_	MorphInd=^kelas<n>_NSD$
-36	Pulau	pulau	PROPN	NSD	_	35	flat	_	MorphInd=^pulau<n>_NSD$
-37	Rengat	rengat	PROPN	X--	_	36	flat	_	SpaceAfter=No|MorphInd=^rengat<x>_X--$
-38	.	.	PUNCT	Z--	_	24	punct	_	MorphInd=^.<z>_Z--$
+28-29	kelasnya	_	_	_	_	_	_	_	MorphInd=^kelas<n>_NSD+dia<p>_PS3$
+28	kelas	kelas	NOUN	NSD	Number=Sing	24	xcomp	_	MorphInd=^kelas<n>_NSD$
+29	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	MorphInd=^dia<p>_PS3$
+30	sehingga	sehingga	SCONJ	S--	_	34	mark	_	MorphInd=^sehingga<s>_S--$
+31	kapal	kapal	NOUN	NSD	Number=Sing	34	nsubj:pass	_	MorphInd=^kapal<n>_NSD$
+32	sejenis	sejenis	NOUN	ASP	_	31	compound	_	MorphInd=^se+jenis<n>_ASP$
+33	ini	ini	DET	B--	PronType=Dem	31	det	_	MorphInd=^ini<b>_B--$
+34	disebut	sebut	VERB	VSP	Voice=Pass	24	advcl	_	MorphInd=^di+sebut<v>_VSP$
+35	kapal	kapal	NOUN	NSD	Number=Sing	34	obj	_	MorphInd=^kapal<n>_NSD$
+36	kelas	kelas	NOUN	NSD	Number=Sing	35	compound	_	MorphInd=^kelas<n>_NSD$
+37	Pulau	pulau	PROPN	NSD	_	36	flat	_	MorphInd=^pulau<n>_NSD$
+38	Rengat	rengat	PROPN	X--	_	37	flat	_	SpaceAfter=No|MorphInd=^rengat<x>_X--$
+39	.	.	PUNCT	Z--	_	24	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s466
 # text = Atau, apa Engkau sudah membuang kami sama sekali?
