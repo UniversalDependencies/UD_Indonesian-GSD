@@ -5071,8 +5071,8 @@
 1	Muara	muara	PROPN	NSD	_	6	nsubj	_	MorphInd=^muara<n>_NSD$
 2	Jaya	jaya	PROPN	NSD	_	1	flat	_	MorphInd=^jaya<n>_NSD$
 3	adalah	adalah	AUX	O--	_	6	cop	_	MorphInd=^adalah<o>_O--$
-4	salah	salah	NOUN	ASP	_	6	nmod	_	MorphInd=^salah<a>_ASP$
-5	satu	satu	NUM	CC-	NumType=Card	4	fixed	_	MorphInd=^satu<c>_CC-$
+4	salah	salah	ADJ	ASP	_	5	advmod	_	MorphInd=^salah<a>_ASP$
+5	satu	satu	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^satu<c>_CC-$
 6	desa	desa	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^desa<n>_NSD$
 7	di	di	ADP	R--	_	8	case	_	MorphInd=^di<r>_R--$
 8	wilayah	wilayah	NOUN	NSD	Number=Sing	6	nmod	_	MorphInd=^wilayah<n>_NSD$
@@ -9171,8 +9171,8 @@
 1	Sebulu	sebulu	PROPN	ASP	_	6	nsubj	_	MorphInd=^se+bulu<n>_ASP$
 2	Ilir	ilir	PROPN	X--	_	1	flat	_	MorphInd=^ilir<x>_X--$
 3	adalah	adalah	AUX	O--	_	6	cop	_	MorphInd=^adalah<o>_O--$
-4	salah	salah	NOUN	ASP	_	6	nmod	_	MorphInd=^salah<a>_ASP$
-5	satu	satu	NOUN	CC-	_	4	fixed	_	MorphInd=^satu<c>_CC-$
+4	salah	salah	ADJ	ASP	_	5	advmod	_	MorphInd=^salah<a>_ASP$
+5	satu	satu	NUM	CC-	_	6	nummod	_	MorphInd=^satu<c>_CC-$
 6	desa	desa	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^desa<n>_NSD$
 7	di	di	ADP	R--	_	8	case	_	MorphInd=^di<r>_R--$
 8	wilayah	wilayah	NOUN	NSD	Number=Sing	6	nmod	_	MorphInd=^wilayah<n>_NSD$
