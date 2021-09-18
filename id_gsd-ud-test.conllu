@@ -6560,19 +6560,19 @@
 7	langit	langit	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^langit<n>_NSD$
 8	terbuka	terbuka	ADJ	ASP	_	7	amod	_	MorphInd=^terbuka<a>_ASP$
 9	perjanjian	perjanjian	NOUN	NSD	Number=Sing	10	nsubj:pass	_	MorphInd=^per+janji<n>+an_NSD$
-10	ditandatangani	tandatangan	VERB	VSP	Voice=Pass	0	root	_	SpaceAfter=No|MorphInd=^di+tandatangan<n>+i_VSP$
-11	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
+10	ditandatangani	tandatangan	VERB	VSP	Voice=Pass	13	advcl	_	SpaceAfter=No|MorphInd=^di+tandatangan<n>+i_VSP$
+11	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
 12	sangat	sangat	ADV	D--	_	13	advmod	_	MorphInd=^sangat<d>_D--$
-13	mungkin	mungkin	AUX	D--	_	18	aux	_	MorphInd=^mungkin<d>_D--$
+13	mungkin	mungkin	ADJ	D--	_	0	root	_	MorphInd=^mungkin<d>_D--$
 14	bahwa	bahwa	SCONJ	S--	_	18	mark	_	MorphInd=^bahwa<s>_S--$
 15	semua	semua	DET	B--	PronType=Tot	16	det	_	MorphInd=^semua<b>_B--$
 16	bandara	bandara	NOUN	NSD	Number=Sing	18	nsubj	_	MorphInd=^bandara<n>_NSD$
 17	dapat	dapat	AUX	VSA	_	18	aux	_	MorphInd=^dapat<v>_VSA$
-18	melihat	lihat	VERB	VSA	Voice=Act	10	advcl	_	MorphInd=^meN+lihat<v>_VSA$
+18	melihat	lihat	VERB	VSA	Voice=Act	13	advcl	_	MorphInd=^meN+lihat<v>_VSA$
 19	peningkatan	pentingkatan	NOUN	NSD	Number=Sing	18	obj	_	MorphInd=^peN+tingkat<n>+an_NSD$
 20	lalu	lalu	NOUN	ASP	_	19	compound	_	MorphInd=^lalu<a>_ASP$
 21	lintas	lintas	NOUN	VSA	_	20	compound	_	SpaceAfter=No|MorphInd=^lintas<v>_VSA$
-22	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
+22	.	.	PUNCT	Z--	_	13	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s263
 # text = Di sini letak desanya berada di bagian tengah Sumbawa.
@@ -11976,7 +11976,7 @@
 19	yang	yang	PRON	S--	PronType=Rel	20	nsubj	_	MorphInd=^yang<s>_S--$
 20	datang	datang	VERB	VSA	Voice=Act	16	acl	_	SpaceAfter=No|MorphInd=^datang<v>_VSA$
 21	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$
-22	mungkin	mungkin	ADV	D--	_	23	advmod	_	MorphInd=^mungkin<d>_D--$
+22	mungkin	mungkin	ADV	D--	_	25	advmod	_	MorphInd=^mungkin<d>_D--$
 23-24	bolehlah	_	_	_	_	_	_	_	MorphInd=^boleh<m>_M--+lah<t>_T--$
 23	boleh	boleh	AUX	M--	_	25	aux	_	MorphInd=^boleh<m>_M--$
 24	lah	lah	PART	T--	_	23	advmod:emph	_	MorphInd=^lah<t>_T--$
