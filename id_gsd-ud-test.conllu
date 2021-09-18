@@ -426,7 +426,7 @@
 # sent_id = test-s16
 # text = Dapat dikatakan mulai dari daerah Landungsari (barat), Palowijen (utara), Pakis (timur), Turen (selatan).
 # text_en = It can be said starting from Landungsari (west), Palowijen (north), Pakis (east), Turen (south).
-1	Dapat	dapat	ADV	M--	_	2	advmod	_	MorphInd=^dapat<m>_M--$
+1	Dapat	dapat	AUX	M--	_	2	aux	_	MorphInd=^dapat<m>_M--$
 2	dikatakan	kata	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+kata<n>+kan_VSP$
 3	mulai	mulai	VERB	VSA	Voice=Act	2	xcomp	_	MorphInd=^mulai<v>_VSA$
 4	dari	dari	ADP	R--	_	5	case	_	MorphInd=^dari<r>_R--$
@@ -2262,7 +2262,7 @@
 # text = Akankah Mat Bunglon dan Dul Bajing berhasil mendapatkan patung yang diinginkannya?
 # text_en = Will Mat Chameleon and Dul Bajing succeed in getting the statue they want?
 1-2	Akankah	_	_	_	_	_	_	_	MorphInd=^akan<m>_M--+kah<t>_T--$
-1	Akan	akan	ADV	M--	_	8	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	8	aux	_	MorphInd=^akan<m>_M--$
 2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	Mat	mat	PROPN	F--	_	8	nsubj	_	MorphInd=^mat<f>_F--$
 4	Bunglon	bunglon	PROPN	X--	_	3	flat	_	MorphInd=^bunglon<x>_X--$
@@ -2994,7 +2994,7 @@
 # text = Akankah kebahagian mereka terwujud?
 # text_en = Will their happiness come true?
 1-2	Akankah	_	_	_	_	_	_	_	MorphInd=^akan<m>_M--+kah<t>_T--$
-1	Akan	akan	ADV	M--	_	5	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	5	aux	_	MorphInd=^akan<m>_M--$
 2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	kebahagian	kebahagian	NOUN	X--	_	5	nsubj:pass	_	MorphInd=^kebahagian<x>_X--$
 4	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	3	det	_	MorphInd=^mereka<p>_PP3$
@@ -3160,7 +3160,7 @@
 # sent_id = test-s123
 # text = Telah dinyatakan sebagai monumen alami sejak bulan Juni 2006.
 # text_en = It has been declared a natural monument since June 2006.
-1	Telah	telah	ADV	D--	_	2	advmod	_	MorphInd=^telah<d>_D--$
+1	Telah	telah	AUX	D--	_	2	aux	_	MorphInd=^telah<d>_D--$
 2	dinyatakan	nyata	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+nyata<a>+kan_VSP$
 3	sebagai	sebagai	ADP	R--	_	4	case	_	MorphInd=^sebagai<r>_R--$
 4	monumen	monumen	NOUN	NSD	Number=Sing	2	obl	_	MorphInd=^monumen<n>_NSD$
@@ -3633,7 +3633,7 @@
 # sent_id = test-s140
 # text = Mau tau rute yang dilalui angkutan di jakarta lewat SMS?
 # text_en = Want to know the route taken by transportation in Jakarta via SMS?
-1	Mau	mau	ADV	D--	_	2	advmod	_	MorphInd=^mau<d>_D--$
+1	Mau	mau	AUX	D--	_	2	aux	_	MorphInd=^mau<d>_D--$
 2	tau	tau	VERB	X--	_	0	root	_	MorphInd=^tau<x>_X--$
 3	rute	rute	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^rute<n>_NSD$
 4	yang	yang	PRON	S--	PronType=Rel	5	nsubj:pass	_	MorphInd=^yang<s>_S--$
@@ -9571,7 +9571,7 @@
 # sent_id = test-s386
 # text = Bisa dikatakan DNA Y Haplogrup O2b hanya spesifik untuk bangsa Korea.
 # text_en = It can be said that Haplogroup O2b's Y DNA is only specific for the Korean nation.
-1	Bisa	bisa	ADV	NSD	_	2	advmod	_	MorphInd=^bisa<n>_NSD$
+1	Bisa	bisa	AUX	NSD	_	2	aux	_	MorphInd=^bisa<n>_NSD$
 2	dikatakan	kata	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+kata<n>+kan_VSP$
 3	DNA	dna	PROPN	F--	_	2	obj	_	MorphInd=^dna<f>_F--$
 4	Y	y	PROPN	F--	_	3	flat	_	MorphInd=^y<f>_F--$
@@ -11175,7 +11175,7 @@
 # text = Akankah Ajeng dkk bisa melewati itu semua dan dapat terus menjalin persahabatan yang tulus?
 # text_en = Will Ajeng et al be able to get through it all and be able to continue to forge a sincere friendship?
 1-2	Akankah	_	_	_	_	_	_	_	MorphInd=^akan<m>_M--+kah<t>_T--$
-1	Akan	akan	ADV	M--	_	6	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	6	aux	_	MorphInd=^akan<m>_M--$
 2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	Ajeng	ajeng	PROPN	X--	_	6	nsubj:pass	_	MorphInd=^ajeng<x>_X--$
 4	dkk	dkk	X	X--	_	6	nsubj	_	MorphInd=^dkk<x>_X--$
@@ -11300,7 +11300,7 @@
 # sent_id = test-s451
 # text = Sudah selesai?
 # text_en = It's finished?
-1	Sudah	sudah	ADV	VSA	_	2	advmod	_	MorphInd=^sudah<v>_VSA$
+1	Sudah	sudah	AUX	VSA	_	2	aux	_	MorphInd=^sudah<v>_VSA$
 2	selesai	selesai	VERB	ASP	_	0	root	_	SpaceAfter=No|MorphInd=^selesai<a>_ASP$
 3	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
 
@@ -11976,7 +11976,7 @@
 19	yang	yang	PRON	S--	PronType=Rel	20	nsubj	_	MorphInd=^yang<s>_S--$
 20	datang	datang	VERB	VSA	Voice=Act	16	acl	_	SpaceAfter=No|MorphInd=^datang<v>_VSA$
 21	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$
-22	mungkin	mungkin	ADV	D--	_	25	advmod	_	MorphInd=^mungkin<d>_D--$
+22	mungkin	mungkin	AUX	D--	_	25	aux	_	MorphInd=^mungkin<d>_D--$
 23-24	bolehlah	_	_	_	_	_	_	_	MorphInd=^boleh<m>_M--+lah<t>_T--$
 23	boleh	boleh	AUX	M--	_	25	aux	_	MorphInd=^boleh<m>_M--$
 24	lah	lah	PART	T--	_	23	advmod:emph	_	MorphInd=^lah<t>_T--$
@@ -13465,7 +13465,7 @@
 # text = Mungkinkah, nama wuku Kuningan mengilhami atau mendorong pemberian nama bagi daerah ini?
 # text_en = Could it be that the name wuku Kuningan inspired or prompted the name for this area?
 1-2	Mungkinkah	_	_	_	_	_	_	_	MorphInd=^mungkin<d>_D--+kah<t>_T--$|SpaceAfter=No
-1	Mungkin	mungkin	ADV	D--	_	8	advmod	_	MorphInd=^mungkin<d>_D--$
+1	Mungkin	mungkin	AUX	D--	_	8	aux	_	MorphInd=^mungkin<d>_D--$
 2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	nama	nama	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^nama<n>_NSD$

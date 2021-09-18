@@ -2904,7 +2904,7 @@
 # sent_id = dev-s103
 # text = Akan tetapi, bentuk umum pelaksanaannya masih tetap ada, seperti thawaf, sa 'i, wukuf, dan melontar jumrah.
 # text_en = However, the general form of its implementation still exists, such as tawaf, sa'i, wukuf, and throwing jumrah.
-1	Akan	akan	ADV	M--	_	10	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	10	aux	_	MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	ADV	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	bentuk	bentuk	NOUN	NSD	Number=Sing	10	nsubj	_	MorphInd=^bentuk<n>_NSD$
@@ -3541,7 +3541,7 @@
 # sent_id = dev-s123
 # text = Akan tetapi ketika tekanan total berubah, kedua titik didih dan komposisi dari azeotrop berubah.
 # text_en = However, when the total pressure changes, both the boiling point and the composition of the azeotrope change.
-1	Akan	akan	CCONJ	M--	_	15	advcl	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	15	aux	_	MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	SCONJ	S--	_	1	mark	_	MorphInd=^tetapi<s>_S--$
 3	ketika	ketika	SCONJ	S--	_	1	mark	_	MorphInd=^ketika<s>_S--$
 4	tekanan	tekanan	NOUN	NSD	Number=Sing	1	nsubj	_	MorphInd=^tekan<v>+an_NSD$
@@ -10852,7 +10852,7 @@
 # sent_id = dev-s402
 # text = Telah dikenal bahwa pada bagian-bagian Final Fantasy yang berporos pada karakter, terdapat sebuah elemen signifikan yang digunakan dalam musik pada tiap permainan, yaitu penggunaan leitmotif.
 # text_en = It is well known that in the character-centric parts of Final Fantasy, there is a significant element used in the music of each game, namely the use of leitmotifs.
-1	Telah	telah	ADV	D--	_	2	advmod	_	MorphInd=^telah<d>_D--$
+1	Telah	telah	AUX	D--	_	2	aux	_	MorphInd=^telah<d>_D--$
 2	dikenal	kenal	VERB	VSP	Voice=Pass	13	ccomp	_	MorphInd=^di+kenal<v>_VSP$
 3	bahwa	bahwa	ADP	S--	_	5	case	_	MorphInd=^bahwa<s>_S--$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
