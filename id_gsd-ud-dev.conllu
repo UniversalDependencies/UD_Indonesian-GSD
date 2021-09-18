@@ -2904,8 +2904,8 @@
 # sent_id = dev-s103
 # text = Akan tetapi, bentuk umum pelaksanaannya masih tetap ada, seperti thawaf, sa 'i, wukuf, dan melontar jumrah.
 # text_en = However, the general form of its implementation still exists, such as tawaf, sa'i, wukuf, and throwing jumrah.
-1	Akan	akan	AUX	M--	_	10	aux	_	MorphInd=^akan<m>_M--$
-2	tetapi	tetapi	ADV	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
+1	Akan	akan	ADV	M--	_	10	advmod	_	MorphInd=^akan<m>_M--$
+2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	bentuk	bentuk	NOUN	NSD	Number=Sing	10	nsubj	_	MorphInd=^bentuk<n>_NSD$
 5	umum	umum	NOUN	ASP	_	4	compound	_	MorphInd=^umum<a>_ASP$
@@ -3541,14 +3541,14 @@
 # sent_id = dev-s123
 # text = Akan tetapi ketika tekanan total berubah, kedua titik didih dan komposisi dari azeotrop berubah.
 # text_en = However, when the total pressure changes, both the boiling point and the composition of the azeotrope change.
-1	Akan	akan	AUX	M--	_	15	aux	_	MorphInd=^akan<m>_M--$
-2	tetapi	tetapi	SCONJ	S--	_	1	mark	_	MorphInd=^tetapi<s>_S--$
-3	ketika	ketika	SCONJ	S--	_	1	mark	_	MorphInd=^ketika<s>_S--$
-4	tekanan	tekanan	NOUN	NSD	Number=Sing	1	nsubj	_	MorphInd=^tekan<v>+an_NSD$
-5	total	total	ADV	NSD	_	1	advmod	_	MorphInd=^total<n>_NSD$
-6	berubah	ubah	VERB	VSA	Voice=Act	1	fixed	_	SpaceAfter=No|MorphInd=^ber+ubah<v>_VSA$
-7	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
-8	kedua	kedua	ADJ	CO-	NumType=Ord	9	amod	_	MorphInd=^ke+dua<c>_CO-$
+1	Akan	akan	ADV	M--	_	6	advmod	_	MorphInd=^akan<m>_M--$
+2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	MorphInd=^tetapi<s>_S--$
+3	ketika	ketika	SCONJ	S--	_	6	mark	_	MorphInd=^ketika<s>_S--$
+4	tekanan	tekanan	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^tekan<v>+an_NSD$
+5	total	total	ADJ	NSD	_	4	amod	_	MorphInd=^total<n>_NSD$
+6	berubah	ubah	VERB	VSA	Voice=Act	15	advcl	_	SpaceAfter=No|MorphInd=^ber+ubah<v>_VSA$
+7	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
+8	kedua	kedua	NUM	CO-	NumType=Card	9	nummod	_	MorphInd=^ke+dua<c>_CO-$
 9	titik	titik	NOUN	NSD	Number=Sing	15	nsubj	_	MorphInd=^titik<n>_NSD$
 10	didih	didih	ADJ	ASP	_	9	amod	_	MorphInd=^didih<a>_ASP$
 11	dan	dan	CCONJ	H--	_	12	cc	_	MorphInd=^dan<h>_H--$
