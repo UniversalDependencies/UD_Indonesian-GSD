@@ -13448,7 +13448,7 @@
 1-2	Mungkinkah	_	_	_	_	_	_	_	MorphInd=^mungkin<d>_D--+kah<t>_T--$|SpaceAfter=No
 1	Mungkin	mungkin	AUX	D--	_	8	aux	_	MorphInd=^mungkin<d>_D--$
 2	kah	kah	PART	T--	_	8	advmod:emph	_	MorphInd=^kah<t>_T--$
-3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
+3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 4	nama	nama	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^nama<n>_NSD$
 5-6	wuku	_	_	_	_	_	_	_	MorphInd=^wu<f>_F--+aku<p>_PS1$
 5	wu	wu	NOUN	F--	_	4	compound	_	MorphInd=^wu<f>_F--$
