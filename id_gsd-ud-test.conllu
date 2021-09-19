@@ -9636,25 +9636,6 @@
 23	Tennessee	tennessee	PROPN	F--	_	21	appos	_	SpaceAfter=No|MorphInd=^tennessee<f>_F--$
 24	.	.	PUNCT	Z--	_	19	punct	_	MorphInd=^.<z>_Z--$
 
-# sent_id = test-s389
-# text = But I just can 't be with you Like this anymore, Alejandro.
-# text_en = But I just can't be with you Like this anymore, Alejandro.
-1	But	but	ADV	X--	_	7	advmod	_	MorphInd=^but<x>_X--$
-2	I	i	PROPN	F--	_	7	nsubj	_	MorphInd=^i<f>_F--$
-3	just	just	PROPN	X--	_	7	nmod	_	MorphInd=^just<x>_X--$
-4	can	can	PROPN	F--	_	7	nmod	_	MorphInd=^can<f>_F--$
-5	'	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	t	t	PROPN	F--	_	4	nmod	_	MorphInd=^t<f>_F--$
-7	be	be	PROPN	F--	_	0	root	_	MorphInd=^be<f>_F--$
-8	with	with	PROPN	F--	_	7	nmod	_	MorphInd=^with<f>_F--$
-9	you	you	PROPN	F--	_	8	nmod	_	MorphInd=^you<f>_F--$
-10	Like	like	PROPN	F--	_	7	nmod	_	MorphInd=^like<f>_F--$
-11	this	this	PROPN	F--	_	10	nmod	_	MorphInd=^this<f>_F--$
-12	anymore	anymore	PROPN	X--	_	11	nmod	_	SpaceAfter=No|MorphInd=^anymore<x>_X--$
-13	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
-14	Alejandro	alejandro	PROPN	F--	_	7	appos	_	SpaceAfter=No|MorphInd=^alejandro<f>_F--$
-15	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
-
 # sent_id = test-s390
 # text = Pada tahun 2008, akibat meningkatnya harga minyak, industri seperti otomotif mengalami tekanan harga dari ongkos bahan mentah dan mengubah perilaku membeli konsumen.
 # text_en = In 2008, due to rising oil prices, industries such as automotive experienced price pressures from the cost of raw materials and changed consumer buying behavior.
