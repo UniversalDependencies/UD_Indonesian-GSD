@@ -442,7 +442,7 @@
 11	begitu	begitu	ADV	B--	PronType=Dem	12	advmod	_	MorphInd=^begitu<b>_B--$
 12	dekat	dekat	ADJ	ASP	_	9	acl:relcl	_	MorphInd=^dekat<a>_ASP$
 13	dengan	dengan	ADP	R--	_	15	case	_	MorphInd=^dengan<r>_R--$
-14	kedua	kedua	ADJ	CO-	NumType=Ord	15	amod	_	MorphInd=^ke+dua<c>_CO-$
+14	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	15	nummod	_	MorphInd=^ke+dua<c>_CO-$
 15	orang	orang	NOUN	NSD	Number=Sing	12	nmod	_	MorphInd=^orang<n>_NSD$
 16-17	tuanya	_	_	_	_	_	_	_	MorphInd=^tua<a>_ASP+dia<p>_PS3$|SpaceAfter=No
 16	tua	tua	NOUN	ASP	_	15	compound	_	MorphInd=^tua<a>_ASP$
@@ -3548,7 +3548,7 @@
 5	total	total	ADJ	NSD	_	4	amod	_	MorphInd=^total<n>_NSD$
 6	berubah	ubah	VERB	VSA	Voice=Act	15	advcl	_	SpaceAfter=No|MorphInd=^ber+ubah<v>_VSA$
 7	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
-8	kedua	kedua	NUM	CO-	NumType=Card	9	nummod	_	MorphInd=^ke+dua<c>_CO-$
+8	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	9	nummod	_	MorphInd=^ke+dua<c>_CO-$
 9	titik	titik	NOUN	NSD	Number=Sing	15	nsubj	_	MorphInd=^titik<n>_NSD$
 10	didih	didih	ADJ	ASP	_	9	amod	_	MorphInd=^didih<a>_ASP$
 11	dan	dan	CCONJ	H--	_	12	cc	_	MorphInd=^dan<h>_H--$
@@ -5520,7 +5520,7 @@
 22	melihat	lihat	VERB	VSA	Voice=Act	7	xcomp	_	MorphInd=^meN+lihat<v>_VSA$
 23	perbedaan	perbedaan	NOUN	NSD	Number=Sing	22	obj	_	MorphInd=^per+beda<a>+an_NSD$
 24	pada	pada	ADP	R--	_	26	case	_	MorphInd=^pada<r>_R--$
-25	kedua	kedua	ADJ	CO-	NumType=Ord	26	amod	_	MorphInd=^ke+dua<c>_CO-$
+25	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	26	nummod	_	MorphInd=^ke+dua<c>_CO-$
 26	sayap	sayap	NOUN	NSD	Number=Sing	22	obl	_	MorphInd=^sayap<n>_NSD$
 27	serangga	serangga	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^serangga<n>_NSD$
 28	anggota	anggota	NOUN	NSD	Number=Sing	27	compound	_	MorphInd=^anggota<n>_NSD$
@@ -11070,7 +11070,7 @@
 12	oncom	oncom	NOUN	X--	_	11	obj	_	SpaceAfter=No|MorphInd=^oncom<x>_X--$
 13	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
 14-15	keduanya	_	_	_	_	_	_	_	MorphInd=^ke+dua<c>_CO-+dia<p>_PS3$
-14	kedua	kedua	ADJ	CO-	NumType=Ord	17	nsubj	_	MorphInd=^ke+dua<c>_CO-$
+14	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	17	nsubj	_	MorphInd=^ke+dua<c>_CO-$
 15	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	MorphInd=^dia<p>_PS3$
 16	adalah	adalah	AUX	O--	_	17	cop	_	MorphInd=^adalah<o>_O--$
 17	hasil	hasil	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^hasil<n>_NSD$
@@ -12503,7 +12503,7 @@
 3	ini	ini	DET	B--	PronType=Dem	1	fixed	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
 4	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 5-6	keduanya	_	_	_	_	_	_	_	MorphInd=^ke+dua<c>_CO-+dia<p>_PS3$
-5	kedua	kedua	ADJ	CO-	NumType=Ord	7	nsubj	_	MorphInd=^ke+dua<c>_CO-$
+5	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	7	nsubj	_	MorphInd=^ke+dua<c>_CO-$
 6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	MorphInd=^dia<p>_PS3$
 7	mengajak	ajak	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+ajak<v>_VSA$
 8	Dandy	dandy	PROPN	X--	_	7	obj	_	MorphInd=^dandy<x>_X--$
@@ -13541,7 +13541,7 @@
 19	-	-	PUNCT	Z--	_	20	punct	_	MorphInd=^-<z>_Z--$
 20	FE	fe	PROPN	F--	_	17	nmod	_	SpaceAfter=No|MorphInd=^fe<f>_F--$
 21	.	.	PUNCT	Z--	_	20	punct	_	MorphInd=^.<z>_Z--$
-22	Kedua	kedua	ADJ	CO-	NumType=Ord	23	amod	_	MorphInd=^ke+dua<c>_CO-$
+22	Kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	23	nummod	_	MorphInd=^ke+dua<c>_CO-$
 23	mesin	mesin	NOUN	NSD	Number=Sing	24	nsubj:pass	_	MorphInd=^mesin<n>_NSD$
 24	tersedia	tersedia	VERB	ASP	_	1	dep	_	MorphInd=^tersedia<a>_ASP$
 25	dengan	dengan	ADP	R--	_	26	case	_	MorphInd=^dengan<r>_R--$
@@ -14405,7 +14405,7 @@
 8	menimbulkan	timbul	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+timbul<a>+kan_VSA$
 9	perpecahan	perpecahan	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^per+pecah<a>+an_NSD$
 10	antara	antara	ADP	R--	_	12	case	_	MorphInd=^antara<r>_R--$
-11	kedua	kedua	ADJ	CO-	NumType=Ord	12	amod	_	MorphInd=^ke+dua<c>_CO-$
+11	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	12	nummod	_	MorphInd=^ke+dua<c>_CO-$
 12	sayap	sayap	NOUN	NSD	Number=Sing	9	nmod	_	SpaceAfter=No|MorphInd=^sayap<n>_NSD$
 13	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj	_	MorphInd=^yang<s>_S--$

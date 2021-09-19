@@ -1625,7 +1625,7 @@
 7	wanita	wanita	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^wanita<n>_NSD$
 8	muda	muda	ADJ	ASP	_	7	amod	_	MorphInd=^muda<a>_ASP$
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
-10	ketakutan	takut	VERB	NSD	Voice=Pass	7	acl:relcl	_	MorphInd=^ke+takut<a>+an_NSD$
+10	ketakutan	takut	NOUN	NSD	Voice=Pass	7	nmod	_	MorphInd=^ke+takut<a>+an_NSD$
 11-12	dengannya	_	_	_	_	_	_	_	MorphInd=^dengan<r>_R--+dia<p>_PS3$|SpaceAfter=No
 11	dengan	dengan	ADP	R--	_	12	case	_	MorphInd=^dengan<r>_R--$
 12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	obl	_	MorphInd=^dia<p>_PS3$
@@ -1825,7 +1825,7 @@
 15	dari	dari	ADP	R--	_	16	case	_	MorphInd=^dari<r>_R--$
 16	gamasot	gamasot	NOUN	X--	_	14	obl	_	SpaceAfter=No|MorphInd=^gamasot<x>_X--$
 17	,	,	PUNCT	Z--	_	19	punct	_	MorphInd=^,<z>_Z--$
-18	kedua	kedua	ADJ	CO-	NumType=Ord	19	amod	_	MorphInd=^ke+dua<c>_CO-$
+18	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	19	nummod	_	MorphInd=^ke+dua<c>_CO-$
 19	dolsot	dolsot	NOUN	X--	_	16	appos	_	MorphInd=^dolsot<x>_X--$
 20	dan	dan	CCONJ	H--	_	22	cc	_	MorphInd=^dan<h>_H--$
 21	yang	yang	PRON	S--	PronType=Rel	22	nsubj	_	MorphInd=^yang<s>_S--$
@@ -2332,7 +2332,7 @@
 1	Dalam	dalam	ADP	ASP	_	2	case	_	MorphInd=^dalam<a>_ASP$
 2	sinus	sinus	NOUN	X--	_	8	obl	_	MorphInd=^sinus<x>_X--$
 3	tersebut	tersebut	DET	B--	PronType=Dem	2	det	_	MorphInd=^tersebut<b>_B--$
-4	ketiga	ketiga	ADJ	CO-	NumType=Ord	5	amod	_	MorphInd=^ke+tiga<c>_CO-$
+4	ketiga	ketiga	NUM	CO-	NumType=Card|PronType=Tot	5	nummod	_	MorphInd=^ke+tiga<c>_CO-$
 5	saraf	saraf	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^saraf<n>_NSD$
 6	kranial	kranial	NOUN	X--	_	5	compound	_	MorphInd=^kranial<x>_X--$
 7	tersebut	tersebut	DET	B--	PronType=Dem	6	det	_	MorphInd=^tersebut<b>_B--$
@@ -2708,7 +2708,7 @@
 17	Peserta	peserta	NOUN	NSD	Number=Sing	19	nsubj	_	MorphInd=^peserta<n>_NSD$
 18	harus	harus	AUX	VSA	_	19	aux	_	MorphInd=^harus<v>_VSA$
 19	menyelesaikan	selesai	VERB	VSA	Voice=Act	10	dep	_	MorphInd=^meN+selesai<a>+kan_VSA$
-20	kedua	kedua	ADJ	CO-	NumType=Ord	21	amod	_	MorphInd=^ke+dua<c>_CO-$
+20	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	21	nummod	_	MorphInd=^ke+dua<c>_CO-$
 21	tantangan	tantangan	NOUN	NSD	Number=Sing	19	obj	_	MorphInd=^tantang<v>+an_NSD$
 22	tersebut	tersebut	DET	B--	PronType=Dem	21	det	_	MorphInd=^tersebut<b>_B--$
 23	dan	dan	CCONJ	H--	_	25	cc	_	MorphInd=^dan<h>_H--$
@@ -2900,7 +2900,7 @@
 2	memulai	mulai	VERB	VSA	Voice=Act	8	advcl	_	MorphInd=^meN+mulai<v>_VSA$
 3	pertempuran	pertempuran	NOUN	NSD	Number=Sing	2	obj	_	SpaceAfter=No|MorphInd=^per+tempur<n>+an_NSD$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
-5	kedua	kedua	ADJ	CO-	NumType=Ord	6	amod	_	MorphInd=^ke+dua<c>_CO-$
+5	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	6	nummod	_	MorphInd=^ke+dua<c>_CO-$
 6	pasukan	pasukan	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^pasukan<n>_NSD$
 7	itu	itu	DET	B--	PronType=Dem	6	det	_	MorphInd=^itu<b>_B--$
 8	berbaris	baris	VERB	VSA	Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^ber+baris<n>_VSA$
@@ -3239,7 +3239,7 @@
 # sent_id = test-s126
 # text = Kedua atap menara dibuat pada November 2007.
 # text_en = Both tower roofs were made in November 2007.
-1	Kedua	kedua	ADJ	CO-	NumType=Ord	2	amod	_	MorphInd=^ke+dua<c>_CO-$
+1	Kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	2	nummod	_	MorphInd=^ke+dua<c>_CO-$
 2	atap	atap	NOUN	NSD	Number=Sing	4	nsubj:pass	_	MorphInd=^atap<n>_NSD$
 3	menara	menara	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^menara<n>_NSD$
 4	dibuat	buat	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+buat<v>_VSP$
@@ -13356,7 +13356,7 @@
 5	dicapai	capai	VERB	VSP	Voice=Pass	3	acl:relcl	_	MorphInd=^di+capai<v>_VSP$
 6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	obl:agent	_	MorphInd=^dia<p>_PS3$
 7	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
-8	kedua	kedua	ADJ	CO-	NumType=Ord	9	amod	_	MorphInd=^ke+dua<c>_CO-$
+8	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	9	nummod	_	MorphInd=^ke+dua<c>_CO-$
 9-10	orangtuanya	_	_	_	_	_	_	_	MorphInd=^orangtua<n>_NSD+dia<p>_PS3$
 9	orangtua	orangtua	NOUN	NSD	Number=Sing	12	nsubj	_	MorphInd=^orangtua<n>_NSD$
 10	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -13586,7 +13586,7 @@
 # sent_id = test-s536
 # text = Kedua induk mengeraminya secara bergantian; dan umumnya telur kemudian menetas satu persatu, bukan berbarengan.
 # text_en = Both parents incubate it alternately; and generally the eggs then hatch one by one, not at the same time.
-1	Kedua	kedua	ADJ	CO-	NumType=Ord	2	amod	_	MorphInd=^ke+dua<c>_CO-$
+1	Kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	2	nummod	_	MorphInd=^ke+dua<c>_CO-$
 2	induk	induk	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^induk<n>_NSD$
 3-4	mengeraminya	_	_	_	_	_	_	_	MorphInd=^meN+eram<v>+i_VSA+dia<p>_PS3$
 3	mengerami	eram	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+eram<v>+i_VSA$
@@ -14011,7 +14011,7 @@
 4	ada	ada	VERB	ASP	_	0	root	_	MorphInd=^ada<a>_ASP$
 5	perbedaan	perbedaan	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^per+beda<a>+an_NSD$
 6	dengan	dengan	ADP	R--	_	8	case	_	MorphInd=^dengan<r>_R--$
-7	kedua	kedua	ADJ	CO-	NumType=Ord	8	amod	_	MorphInd=^ke+dua<c>_CO-$
+7	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	8	nummod	_	MorphInd=^ke+dua<c>_CO-$
 8	bentuk	bentuk	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^bentuk<n>_NSD$
 9	tersebut	tersebut	DET	B--	PronType=Dem	8	det	_	SpaceAfter=No|MorphInd=^tersebut<b>_B--$
 10	:	:	PUNCT	Z--	_	18	punct	_	MorphInd=^:<z>_Z--$
