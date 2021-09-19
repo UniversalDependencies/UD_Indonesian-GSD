@@ -22,7 +22,7 @@
     <tag name="CCONJ">3540</tag><!-- dan, atau, serta, tetapi, maupun, namun, beserta, sekaligus, baik, juga -->
     <tag name="DET">3723</tag><!-- ini, itu, sebuah, tersebut, nya, seorang, beberapa, para, berbagai, semua -->
     <tag name="INTJ">5</tag><!-- hai, sayang, silakan, tuh, wah -->
-    <tag name="NOUN">26476</tag><!-- tahun, orang, desa, nama, kota, bagian, bahasa, wilayah, tanggal, negara -->
+    <tag name="NOUN">26475</tag><!-- tahun, orang, desa, nama, kota, bagian, bahasa, wilayah, tanggal, negara -->
     <tag name="NUM">4480</tag><!-- satu, dua, 1, 2, 3, tiga, 5, 2010, 4, kedua -->
     <tag name="PART">1015</tag><!-- tidak, kah, lah, pun, bukan, tak, belum, ya, jangan, non -->
     <tag name="PRON">6348</tag><!-- yang, dia, ia, mereka, apa, aku, kamu, kita, siapa, mana -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">17688</tag><!-- ,, ., ), (, -, ", ?, :, /, ' -->
     <tag name="SCONJ">2352</tag><!-- untuk, bahwa, karena, dengan, namun, ketika, sehingga, maka, pada, di -->
     <tag name="SYM">153</tag><!-- %, =, °, &amp;, #, +, $, ', ′, € -->
-    <tag name="VERB">12458</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, laku -->
+    <tag name="VERB">12459</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, laku -->
     <tag name="X">62</tag><!-- and, jpg, an, x, anti, b, dkk, s, y, &amp;nbsp -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -61,12 +61,12 @@
     <feat name="PronType" value="Tot" upos="ADV,DET,NUM,PRON">336</feat><!-- semua, setiap, kedua, seluruh, segala, keseluruhan, ketiga, keempat, tiap, segenap -->
     <feat name="Typo" value="Yes" upos="NUM">1</feat><!-- satu -->
     <feat name="Voice" value="Act" upos="VERB">7373</feat><!-- menjadi, memiliki, berada, menggunakan, membuat, bermain, mulai, melakukan, kembali, berasal -->
-    <feat name="Voice" value="Pass" upos="NOUN,VERB">3388</feat><!-- terletak, digunakan, dikenal, terjadi, disebut, terdapat, terdiri, dilakukan, ditemukan, dirilis -->
+    <feat name="Voice" value="Pass" upos="VERB">3388</feat><!-- terletak, digunakan, dikenal, terjadi, disebut, terdapat, terdiri, dilakukan, ditemukan, dirilis -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="46">
     <dep name="acl">1200</dep>
-    <dep name="acl:relcl">2710</dep>
+    <dep name="acl:relcl">2711</dep>
     <dep name="advcl">1391</dep>
     <dep name="advmod">4106</dep>
     <dep name="advmod:emph">442</dep>
@@ -94,7 +94,7 @@
     <dep name="goeswith">3</dep>
     <dep name="iobj">22</dep>
     <dep name="mark">2414</dep>
-    <dep name="nmod">8192</dep>
+    <dep name="nmod">8191</dep>
     <dep name="nmod:lmod">4</dep>
     <dep name="nmod:poss">1268</dep>
     <dep name="nmod:tmod">2</dep>

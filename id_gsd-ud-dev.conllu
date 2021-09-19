@@ -1071,7 +1071,7 @@
 9	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
 10-11	haruskah	_	_	_	_	_	_	_	MorphInd=^harus<m>_M--+kah<t>_T--$
 10	harus	harus	AUX	M--	_	13	aux	_	MorphInd=^harus<m>_M--$
-11	kah	kah	PART	T--	_	10	advmod:emph	_	MorphInd=^kah<t>_T--$
+11	kah	kah	PART	T--	_	13	advmod:emph	_	MorphInd=^kah<t>_T--$
 12	aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	13	nsubj	_	MorphInd=^aku<p>_PS1$
 13	mati	mati	VERB	ASP	_	6	advcl	_	MorphInd=^mati<a>_ASP$
 14	di	di	ADP	R--	_	16	case	_	MorphInd=^di<r>_R--$

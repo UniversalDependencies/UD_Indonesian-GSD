@@ -2263,7 +2263,7 @@
 # text_en = Will Mat Chameleon and Dul Bajing succeed in getting the statue they want?
 1-2	Akankah	_	_	_	_	_	_	_	MorphInd=^akan<m>_M--+kah<t>_T--$
 1	Akan	akan	AUX	M--	_	8	aux	_	MorphInd=^akan<m>_M--$
-2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
+2	kah	kah	PART	T--	_	8	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	Mat	mat	PROPN	F--	_	8	nsubj	_	MorphInd=^mat<f>_F--$
 4	Bunglon	bunglon	PROPN	X--	_	3	flat:name	_	MorphInd=^bunglon<x>_X--$
 5	dan	dan	CCONJ	H--	_	6	cc	_	MorphInd=^dan<h>_H--$
@@ -2995,7 +2995,7 @@
 # text_en = Will their happiness come true?
 1-2	Akankah	_	_	_	_	_	_	_	MorphInd=^akan<m>_M--+kah<t>_T--$
 1	Akan	akan	AUX	M--	_	5	aux	_	MorphInd=^akan<m>_M--$
-2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
+2	kah	kah	PART	T--	_	5	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	kebahagian	kebahagian	NOUN	X--	_	5	nsubj:pass	_	MorphInd=^kebahagian<x>_X--$
 4	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	3	det	_	MorphInd=^mereka<p>_PP3$
 5	terwujud	wujud	VERB	VSP	Voice=Pass	0	root	_	SpaceAfter=No|MorphInd=^ter+wujud<n>_VSP$
@@ -11157,7 +11157,7 @@
 # text_en = Will Ajeng et al be able to get through it all and be able to continue to forge a sincere friendship?
 1-2	Akankah	_	_	_	_	_	_	_	MorphInd=^akan<m>_M--+kah<t>_T--$
 1	Akan	akan	AUX	M--	_	6	aux	_	MorphInd=^akan<m>_M--$
-2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
+2	kah	kah	PART	T--	_	6	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	Ajeng	ajeng	PROPN	X--	_	6	nsubj:pass	_	MorphInd=^ajeng<x>_X--$
 4	dkk	dkk	X	X--	_	6	nsubj	_	MorphInd=^dkk<x>_X--$
 5	bisa	bisa	AUX	M--	_	6	aux	_	MorphInd=^bisa<m>_M--$
@@ -11960,7 +11960,7 @@
 22	mungkin	mungkin	AUX	D--	_	25	aux	_	MorphInd=^mungkin<d>_D--$
 23-24	bolehlah	_	_	_	_	_	_	_	MorphInd=^boleh<m>_M--+lah<t>_T--$
 23	boleh	boleh	AUX	M--	_	25	aux	_	MorphInd=^boleh<m>_M--$
-24	lah	lah	PART	T--	_	23	advmod:emph	_	MorphInd=^lah<t>_T--$
+24	lah	lah	PART	T--	_	25	advmod:emph	_	MorphInd=^lah<t>_T--$
 25	dikatakan	kata	VERB	VSP	Voice=Pass	5	parataxis	_	MorphInd=^di+kata<n>+kan_VSP$
 26	sebagai	sebagai	ADP	R--	_	28	case	_	MorphInd=^sebagai<r>_R--$
 27	sebuah	sebuah	DET	B--	PronType=Ind	28	det	_	MorphInd=^sebuah<b>_B--$
@@ -13447,7 +13447,7 @@
 # text_en = Could it be that the name wuku Kuningan inspired or prompted the name for this area?
 1-2	Mungkinkah	_	_	_	_	_	_	_	MorphInd=^mungkin<d>_D--+kah<t>_T--$|SpaceAfter=No
 1	Mungkin	mungkin	AUX	D--	_	8	aux	_	MorphInd=^mungkin<d>_D--$
-2	kah	kah	PART	T--	_	1	advmod:emph	_	MorphInd=^kah<t>_T--$
+2	kah	kah	PART	T--	_	8	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	nama	nama	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^nama<n>_NSD$
 5-6	wuku	_	_	_	_	_	_	_	MorphInd=^wu<f>_F--+aku<p>_PS1$
