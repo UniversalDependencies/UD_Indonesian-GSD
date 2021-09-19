@@ -1625,7 +1625,7 @@
 7	wanita	wanita	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^wanita<n>_NSD$
 8	muda	muda	ADJ	ASP	_	7	amod	_	MorphInd=^muda<a>_ASP$
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
-10	ketakutan	takut	NOUN	NSD	Voice=Pass	7	nmod	_	MorphInd=^ke+takut<a>+an_NSD$
+10	ketakutan	takut	VERB	VSP	Voice=Pass	7	acl:relcl	_	MorphInd=^ke+takut<a>+an_NSD$
 11-12	dengannya	_	_	_	_	_	_	_	MorphInd=^dengan<r>_R--+dia<p>_PS3$|SpaceAfter=No
 11	dengan	dengan	ADP	R--	_	12	case	_	MorphInd=^dengan<r>_R--$
 12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	obl	_	MorphInd=^dia<p>_PS3$
