@@ -39,7 +39,7 @@
     <feat name="Clusivity" value="In" upos="PRON">65</feat><!-- kita -->
     <feat name="Definite" value="Def" upos="DET">208</feat><!-- nya -->
     <feat name="Degree" value="Sup" upos="ADJ">214</feat><!-- terbesar, terbaik, terakhir, tertinggi, terkenal, terdekat, tertua, teratas, terbanyak, terbaru -->
-    <feat name="Foreign" value="Yes" upos="ADJ,X">48</feat><!-- and, jpg, an, anti, b, s, x, &amp;nbsp, //www.anayasa.gen.tr/1961constitution-text.pdf, Articulation -->
+    <feat name="Foreign" value="Yes" upos="X">47</feat><!-- and, jpg, an, anti, b, s, x, &amp;nbsp, //www.anayasa.gen.tr/1961constitution-text.pdf, Articulation -->
     <feat name="Number" value="Plur" upos="NOUN,PRON">1105</feat><!-- mereka, kita, orang-orang, kami, anak-anak, laki-laki, negara-negara, lagu-lagu, undang-undang, kalian -->
     <feat name="Number" value="Sing" upos="DET,NOUN,PRON">22944</feat><!-- nya, tahun, ia, orang, desa, nama, kota, bagian, bahasa, wilayah -->
     <feat name="NumType" value="Card" upos="NUM">4285</feat><!-- satu, dua, 1, tiga, 2, 3, 5, 2010, kedua, 4 -->
@@ -70,7 +70,7 @@
     <dep name="advcl">1391</dep>
     <dep name="advmod">4106</dep>
     <dep name="advmod:emph">442</dep>
-    <dep name="amod">4343</dep>
+    <dep name="amod">4344</dep>
     <dep name="appos">2605</dep>
     <dep name="aux">1182</dep>
     <dep name="case">11085</dep>
@@ -84,7 +84,7 @@
     <dep name="cop">1056</dep>
     <dep name="csubj">27</dep>
     <dep name="csubj:pass">8</dep>
-    <dep name="dep">515</dep>
+    <dep name="dep">514</dep>
     <dep name="det">3871</dep>
     <dep name="discourse">8</dep>
     <dep name="fixed">358</dep>
