@@ -804,7 +804,7 @@
 11	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s30
-# text = Ia adalah murid dari Carolus Linnaeus, dan dianggap sebagai entomolog terpenting dari abad ke - 18, dan hasil klasifikasinya sampai sekarang menjadi dasar bagi klasifikasi serangga modern.
+# text = Ia adalah murid dari Carolus Linnaeus, dan dianggap sebagai entomolog terpenting dari abad ke-18, dan hasil klasifikasinya sampai sekarang menjadi dasar bagi klasifikasi serangga modern.
 # text_en = He was a student of Carolus Linnaeus, and is considered the most important entomologist of the 18th century, and his classification results to this day form the basis for the modern classification of insects.
 1	Ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	MorphInd=^ia<p>_PS3$
 2	adalah	adalah	AUX	O--	_	3	cop	_	MorphInd=^adalah<o>_O--$
@@ -820,24 +820,22 @@
 12	terpenting	terpenting	ADJ	ASS	Degree=Sup	11	amod	_	MorphInd=^ter+penting<a>_ASS$
 13	dari	dari	ADP	R--	_	14	case	_	MorphInd=^dari<r>_R--$
 14	abad	abad	NOUN	NSD	Number=Sing	11	nmod	_	MorphInd=^abad<n>_NSD$
-15	ke	ke	NUM	R--	NumType=Card	17	nummod	_	MorphInd=^ke<r>_R--$
-16	-	-	PUNCT	Z--	_	15	punct	_	MorphInd=^-<z>_Z--$
-17	18	18	NUM	CC-	NumType=Card	14	nummod	_	SpaceAfter=No|MorphInd=^18<c>_CC-$
-18	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$
-19	dan	dan	CCONJ	H--	_	25	cc	_	MorphInd=^dan<h>_H--$
-20	hasil	hasil	NOUN	NSD	Number=Sing	25	nsubj	_	MorphInd=^hasil<n>_NSD$
-21-22	klasifikasinya	_	_	_	_	_	_	_	MorphInd=^klasifikasi<n>_NSD+dia<p>_PS3$
-21	klasifikasi	klasifikasi	NOUN	NSD	Number=Sing	20	compound	_	MorphInd=^klasifikasi<n>_NSD$
-22	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	21	nmod:poss	_	MorphInd=^dia<p>_PS3$
-23	sampai	sampai	ADP	R--	_	24	case	_	MorphInd=^sampai<r>_R--$
-24	sekarang	sekarang	NOUN	D--	_	25	obl	_	MorphInd=^sekarang<d>_D--$
-25	menjadi	jadi	VERB	VSA	Voice=Act	3	conj	_	MorphInd=^meN+jadi<a>_VSA$
-26	dasar	dasar	NOUN	NSD	Number=Sing	25	obj	_	MorphInd=^dasar<n>_NSD$
-27	bagi	bagi	ADP	VSA	_	28	case	_	MorphInd=^bagi<v>_VSA$
-28	klasifikasi	klasifikasi	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^klasifikasi<n>_NSD$
-29	serangga	serangga	NOUN	NSD	Number=Sing	28	compound	_	MorphInd=^serangga<n>_NSD$
-30	modern	modern	ADJ	ASP	_	29	amod	_	SpaceAfter=No|MorphInd=^modern<a>_ASP$
-31	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+15	ke-18	ke-18	ADJ	CO-	NumType=Ord	14	amod	_	MorphInd=^ke<r>_R--+18<c>_CC-$|SpaceAfter=No
+16	,	,	PUNCT	Z--	_	23	punct	_	MorphInd=^,<z>_Z--$
+17	dan	dan	CCONJ	H--	_	23	cc	_	MorphInd=^dan<h>_H--$
+18	hasil	hasil	NOUN	NSD	Number=Sing	23	nsubj	_	MorphInd=^hasil<n>_NSD$
+19-20	klasifikasinya	_	_	_	_	_	_	_	MorphInd=^klasifikasi<n>_NSD+dia<p>_PS3$
+19	klasifikasi	klasifikasi	NOUN	NSD	Number=Sing	18	compound	_	MorphInd=^klasifikasi<n>_NSD$
+20	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	19	nmod:poss	_	MorphInd=^dia<p>_PS3$
+21	sampai	sampai	ADP	R--	_	22	case	_	MorphInd=^sampai<r>_R--$
+22	sekarang	sekarang	NOUN	D--	_	23	obl	_	MorphInd=^sekarang<d>_D--$
+23	menjadi	jadi	VERB	VSA	Voice=Act	3	conj	_	MorphInd=^meN+jadi<a>_VSA$
+24	dasar	dasar	NOUN	NSD	Number=Sing	23	obj	_	MorphInd=^dasar<n>_NSD$
+25	bagi	bagi	ADP	VSA	_	26	case	_	MorphInd=^bagi<v>_VSA$
+26	klasifikasi	klasifikasi	NOUN	NSD	Number=Sing	23	obl	_	MorphInd=^klasifikasi<n>_NSD$
+27	serangga	serangga	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^serangga<n>_NSD$
+28	modern	modern	ADJ	ASP	_	27	amod	_	SpaceAfter=No|MorphInd=^modern<a>_ASP$
+29	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s31
 # text = Ia merupakan putra dari bumi, yang dilukiskan sebagai wanita cantik bernama Pertiwi.
@@ -1011,71 +1009,69 @@
 15	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s39
-# text = Musim ini adalah musim ke - 78 dari liga Portugal, kompetisi ini didominasi oleh 3 tim yang dijuluki Os Três Grandes (Futebol Clube do Porto, Sport Lisboa e Benfica, dan Sporting Clube de Portugal), yang menguasai 75 gelar liga, dengan Clube de Futebol "Os Belenenses" dan Boavista Futebol Clube memenangi 2 gelar lainnya.
+# text = Musim ini adalah musim ke-78 dari liga Portugal, kompetisi ini didominasi oleh 3 tim yang dijuluki Os Três Grandes (Futebol Clube do Porto, Sport Lisboa e Benfica, dan Sporting Clube de Portugal), yang menguasai 75 gelar liga, dengan Clube de Futebol "Os Belenenses" dan Boavista Futebol Clube memenangi 2 gelar lainnya.
 # text_en = This season is the 78th season of the Portuguese league, the competition is dominated by 3 teams nicknamed Os Três Grandes (Futebol Clube do Porto, Sport Lisboa e Benfica and Sporting Clube de Portugal), who hold 75 league titles, with Clube de Futebol "Os Belenenses" and Boavista Futebol Clube won 2 more titles.
 1	Musim	musim	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^musim<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	adalah	adalah	AUX	O--	_	4	cop	_	MorphInd=^adalah<o>_O--$
 4	musim	musim	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^musim<n>_NSD$
-5	ke	ke	NUM	R--	NumType=Card	4	nummod	_	MorphInd=^ke<r>_R--$
-6	-	-	PUNCT	Z--	_	7	punct	_	MorphInd=^-<z>_Z--$
-7	78	78	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^78<c>_CC-$
-8	dari	dari	ADP	R--	_	9	case	_	MorphInd=^dari<r>_R--$
-9	liga	liga	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^liga<n>_NSD$
-10	Portugal	portugal	PROPN	F--	_	9	nmod	_	SpaceAfter=No|MorphInd=^portugal<f>_F--$
-11	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
-12	kompetisi	kompetisi	NOUN	NSD	Number=Sing	14	nsubj:pass	_	MorphInd=^kompetisi<n>_NSD$
-13	ini	ini	DET	B--	PronType=Dem	12	det	_	MorphInd=^ini<b>_B--$
-14	didominasi	dominasi	VERB	VSP	Voice=Pass	4	parataxis	_	MorphInd=^di+dominasi<n>_VSP$
-15	oleh	oleh	ADP	R--	_	17	case	_	MorphInd=^oleh<r>_R--$
-16	3	3	NUM	CC-	NumType=Card	17	nummod	_	MorphInd=^3<c>_CC-$
-17	tim	tim	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^tim<n>_NSD$
-18	yang	yang	PRON	S--	PronType=Rel	19	nsubj:pass	_	MorphInd=^yang<s>_S--$
-19	dijuluki	juluk	VERB	VSP	Voice=Pass	17	acl:relcl	_	MorphInd=^di+juluk<v>+i_VSP$
-20	Os	os	PROPN	F--	_	19	obj	_	MorphInd=^os<f>_F--$
-21	Três	três	PROPN	X--	_	20	flat:name	_	MorphInd=^três<x>_X--$
-22	Grandes	grandes	PROPN	X--	_	21	flat:name	_	MorphInd=^grandes<x>_X--$
-23	(	(	PUNCT	Z--	_	24	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-24	Futebol	futebol	PROPN	X--	_	20	appos	_	MorphInd=^futebol<x>_X--$
-25	Clube	clube	PROPN	X--	_	24	flat:name	_	MorphInd=^clube<x>_X--$
-26	do	do	PROPN	F--	_	25	flat:name	_	MorphInd=^do<f>_F--$
-27	Porto	porto	PROPN	F--	_	26	flat:name	_	SpaceAfter=No|MorphInd=^porto<f>_F--$
-28	,	,	PUNCT	Z--	_	29	punct	_	MorphInd=^,<z>_Z--$
-29	Sport	sport	PROPN	F--	_	24	conj	_	MorphInd=^sport<f>_F--$
-30	Lisboa	lisboa	PROPN	X--	_	29	flat:name	_	MorphInd=^lisboa<x>_X--$
-31	e	e	NOUN	F--	_	30	conj	_	MorphInd=^e<f>_F--$
-32	Benfica	benfica	PROPN	F--	_	31	nmod	_	SpaceAfter=No|MorphInd=^benfica<f>_F--$
-33	,	,	PUNCT	Z--	_	35	punct	_	MorphInd=^,<z>_Z--$
-34	dan	dan	CCONJ	H--	_	35	cc	_	MorphInd=^dan<h>_H--$
-35	Sporting	sporting	PROPN	F--	_	24	conj	_	MorphInd=^sporting<f>_F--$
-36	Clube	clube	PROPN	X--	_	35	flat:name	_	MorphInd=^clube<x>_X--$
-37	de	de	PROPN	F--	_	36	flat:name	_	MorphInd=^de<f>_F--$
-38	Portugal	portugal	PROPN	F--	_	37	flat:name	_	SpaceAfter=No|MorphInd=^portugal<f>_F--$
-39	)	)	PUNCT	Z--	_	24	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
-40	,	,	PUNCT	Z--	_	42	punct	_	MorphInd=^,<z>_Z--$
-41	yang	yang	PRON	S--	PronType=Rel	42	nsubj	_	MorphInd=^yang<s>_S--$
-42	menguasai	kuasa	VERB	VSA	Voice=Act	17	acl:relcl	_	MorphInd=^meN+kuasa<n>+i_VSA$
-43	75	75	NUM	CC-	NumType=Card	44	nummod	_	MorphInd=^75<c>_CC-$
-44	gelar	gelar	NOUN	VSA	_	42	obj	_	MorphInd=^gelar<v>_VSA$
-45	liga	liga	NOUN	NSD	Number=Sing	44	compound	_	SpaceAfter=No|MorphInd=^liga<n>_NSD$
-46	,	,	PUNCT	Z--	_	48	punct	_	MorphInd=^,<z>_Z--$
-47	dengan	dengan	ADP	R--	_	48	case	_	MorphInd=^dengan<r>_R--$
-48	Clube	clube	PROPN	X--	_	14	obl	_	MorphInd=^clube<x>_X--$
-49	de	de	PROPN	F--	_	48	flat:name	_	MorphInd=^de<f>_F--$
-50	Futebol	futebol	PROPN	X--	_	49	flat:name	_	MorphInd=^futebol<x>_X--$
-51	"	"	PUNCT	Z--	_	52	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
-52	Os	os	PROPN	F--	_	48	appos	_	MorphInd=^os<f>_F--$
-53	Belenenses	belenenses	PROPN	F--	_	52	flat:name	_	SpaceAfter=No|MorphInd=^belenenses<f>_F--$
-54	"	"	PUNCT	Z--	_	52	punct	_	MorphInd=^"<z>_Z--$
-55	dan	dan	CCONJ	H--	_	56	cc	_	MorphInd=^dan<h>_H--$
-56	Boavista	boavista	PROPN	X--	_	48	conj	_	MorphInd=^boavista<x>_X--$
-57	Futebol	futebol	PROPN	X--	_	56	flat:name	_	MorphInd=^futebol<x>_X--$
-58	Clube	clube	PROPN	X--	_	57	flat:name	_	MorphInd=^clube<x>_X--$
-59	memenangi	menang	VERB	VSA	Voice=Act	48	xcomp	_	MorphInd=^meN+menang<a>+i_VSA$
-60	2	2	NUM	CC-	NumType=Card	61	nummod	_	MorphInd=^2<c>_CC-$
-61	gelar	gelar	NOUN	VSA	_	59	obj	_	MorphInd=^gelar<v>_VSA$
-62	lainnya	lainnya	ADJ	D--	_	61	amod	_	SpaceAfter=No|MorphInd=^lainnya<d>_D--$
-63	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
+5	ke-78	ke-78	ADJ	CO-	NumType=Ord	4	amod	_	MorphInd=^ke<r>_R--+78<c>_CC-$
+6	dari	dari	ADP	R--	_	7	case	_	MorphInd=^dari<r>_R--$
+7	liga	liga	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^liga<n>_NSD$
+8	Portugal	portugal	PROPN	F--	_	7	nmod	_	SpaceAfter=No|MorphInd=^portugal<f>_F--$
+9	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
+10	kompetisi	kompetisi	NOUN	NSD	Number=Sing	12	nsubj:pass	_	MorphInd=^kompetisi<n>_NSD$
+11	ini	ini	DET	B--	PronType=Dem	10	det	_	MorphInd=^ini<b>_B--$
+12	didominasi	dominasi	VERB	VSP	Voice=Pass	4	parataxis	_	MorphInd=^di+dominasi<n>_VSP$
+13	oleh	oleh	ADP	R--	_	15	case	_	MorphInd=^oleh<r>_R--$
+14	3	3	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^3<c>_CC-$
+15	tim	tim	NOUN	NSD	Number=Sing	12	obl	_	MorphInd=^tim<n>_NSD$
+16	yang	yang	PRON	S--	PronType=Rel	17	nsubj:pass	_	MorphInd=^yang<s>_S--$
+17	dijuluki	juluk	VERB	VSP	Voice=Pass	15	acl:relcl	_	MorphInd=^di+juluk<v>+i_VSP$
+18	Os	os	PROPN	F--	_	17	obj	_	MorphInd=^os<f>_F--$
+19	Três	três	PROPN	X--	_	18	flat:name	_	MorphInd=^três<x>_X--$
+20	Grandes	grandes	PROPN	X--	_	19	flat:name	_	MorphInd=^grandes<x>_X--$
+21	(	(	PUNCT	Z--	_	22	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+22	Futebol	futebol	PROPN	X--	_	18	appos	_	MorphInd=^futebol<x>_X--$
+23	Clube	clube	PROPN	X--	_	22	flat:name	_	MorphInd=^clube<x>_X--$
+24	do	do	PROPN	F--	_	23	flat:name	_	MorphInd=^do<f>_F--$
+25	Porto	porto	PROPN	F--	_	24	flat:name	_	SpaceAfter=No|MorphInd=^porto<f>_F--$
+26	,	,	PUNCT	Z--	_	27	punct	_	MorphInd=^,<z>_Z--$
+27	Sport	sport	PROPN	F--	_	22	conj	_	MorphInd=^sport<f>_F--$
+28	Lisboa	lisboa	PROPN	X--	_	27	flat:name	_	MorphInd=^lisboa<x>_X--$
+29	e	e	NOUN	F--	_	28	conj	_	MorphInd=^e<f>_F--$
+30	Benfica	benfica	PROPN	F--	_	29	nmod	_	SpaceAfter=No|MorphInd=^benfica<f>_F--$
+31	,	,	PUNCT	Z--	_	33	punct	_	MorphInd=^,<z>_Z--$
+32	dan	dan	CCONJ	H--	_	33	cc	_	MorphInd=^dan<h>_H--$
+33	Sporting	sporting	PROPN	F--	_	22	conj	_	MorphInd=^sporting<f>_F--$
+34	Clube	clube	PROPN	X--	_	33	flat:name	_	MorphInd=^clube<x>_X--$
+35	de	de	PROPN	F--	_	34	flat:name	_	MorphInd=^de<f>_F--$
+36	Portugal	portugal	PROPN	F--	_	35	flat:name	_	SpaceAfter=No|MorphInd=^portugal<f>_F--$
+37	)	)	PUNCT	Z--	_	22	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
+38	,	,	PUNCT	Z--	_	40	punct	_	MorphInd=^,<z>_Z--$
+39	yang	yang	PRON	S--	PronType=Rel	40	nsubj	_	MorphInd=^yang<s>_S--$
+40	menguasai	kuasa	VERB	VSA	Voice=Act	15	acl:relcl	_	MorphInd=^meN+kuasa<n>+i_VSA$
+41	75	75	NUM	CC-	NumType=Card	42	nummod	_	MorphInd=^75<c>_CC-$
+42	gelar	gelar	NOUN	VSA	_	40	obj	_	MorphInd=^gelar<v>_VSA$
+43	liga	liga	NOUN	NSD	Number=Sing	42	compound	_	SpaceAfter=No|MorphInd=^liga<n>_NSD$
+44	,	,	PUNCT	Z--	_	46	punct	_	MorphInd=^,<z>_Z--$
+45	dengan	dengan	ADP	R--	_	46	case	_	MorphInd=^dengan<r>_R--$
+46	Clube	clube	PROPN	X--	_	12	obl	_	MorphInd=^clube<x>_X--$
+47	de	de	PROPN	F--	_	46	flat:name	_	MorphInd=^de<f>_F--$
+48	Futebol	futebol	PROPN	X--	_	47	flat:name	_	MorphInd=^futebol<x>_X--$
+49	"	"	PUNCT	Z--	_	50	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
+50	Os	os	PROPN	F--	_	46	appos	_	MorphInd=^os<f>_F--$
+51	Belenenses	belenenses	PROPN	F--	_	50	flat:name	_	SpaceAfter=No|MorphInd=^belenenses<f>_F--$
+52	"	"	PUNCT	Z--	_	50	punct	_	MorphInd=^"<z>_Z--$
+53	dan	dan	CCONJ	H--	_	54	cc	_	MorphInd=^dan<h>_H--$
+54	Boavista	boavista	PROPN	X--	_	46	conj	_	MorphInd=^boavista<x>_X--$
+55	Futebol	futebol	PROPN	X--	_	54	flat:name	_	MorphInd=^futebol<x>_X--$
+56	Clube	clube	PROPN	X--	_	55	flat:name	_	MorphInd=^clube<x>_X--$
+57	memenangi	menang	VERB	VSA	Voice=Act	46	xcomp	_	MorphInd=^meN+menang<a>+i_VSA$
+58	2	2	NUM	CC-	NumType=Card	59	nummod	_	MorphInd=^2<c>_CC-$
+59	gelar	gelar	NOUN	VSA	_	57	obj	_	MorphInd=^gelar<v>_VSA$
+60	lainnya	lainnya	ADJ	D--	_	59	amod	_	SpaceAfter=No|MorphInd=^lainnya<d>_D--$
+61	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s40
 # text = Nkurunziza bergabung dengan ewan Nasional untuk Membela Demokrasi - Pasukan Pembela Demokrasi (CNDD - FDD) pada 1995 sebagai seorang tentara, setelah militer menyerbu kampus universitasnya.
@@ -1739,22 +1735,20 @@
 26	.	.	PUNCT	Z--	_	9	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s68
-# text = Sejarah Roosendaal kembali ke abad ke - 12 dan 13.
+# text = Sejarah Roosendaal kembali ke abad ke-12 dan 13.
 # text_en = The history of Roosendaal goes back to the 12th and 13th centuries.
 1	Sejarah	sejarah	PROPN	NSD	_	3	nsubj	_	MorphInd=^sejarah<n>_NSD$
 2	Roosendaal	roosendaal	PROPN	X--	_	1	flat:name	_	MorphInd=^roosendaal<x>_X--$
 3	kembali	kembali	VERB	VSA	Voice=Act	0	root	_	MorphInd=^kembali<v>_VSA$
 4	ke	ke	ADP	R--	_	5	case	_	MorphInd=^ke<r>_R--$
 5	abad	abad	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^abad<n>_NSD$
-6	ke	ke	ADP	R--	_	5	case	_	MorphInd=^ke<r>_R--$
-7	-	-	PUNCT	Z--	_	8	punct	_	MorphInd=^-<z>_Z--$
-8	12	12	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^12<c>_CC-$
-9	dan	dan	CCONJ	H--	_	10	cc	_	MorphInd=^dan<h>_H--$
-10	13	13	NUM	CC-	NumType=Card	5	conj	_	SpaceAfter=No|MorphInd=^13<c>_CC-$
-11	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+6	ke-12	ke-12	ADJ	CO-	NumType=Ord	5	amod	_	MorphInd=^ke<r>_R--+12<c>_CC-$
+7	dan	dan	CCONJ	H--	_	8	cc	_	MorphInd=^dan<h>_H--$
+8	13	13	NUM	CC-	NumType=Card	5	conj	_	SpaceAfter=No|MorphInd=^13<c>_CC-$
+9	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s69
-# text = Fungsi manajemen pertama kali diperkenalkan oleh seorang industrialis Perancis bernama Henry Fayol pada awal abad ke - 20.
+# text = Fungsi manajemen pertama kali diperkenalkan oleh seorang industrialis Perancis bernama Henry Fayol pada awal abad ke-20.
 # text_en = The management function was first introduced by a French industrialist named Henry Fayol in the early 20th century.
 1	Fungsi	fungsi	NOUN	NSD	Number=Sing	5	nsubj:pass	_	MorphInd=^fungsi<n>_NSD$
 2	manajemen	manajemen	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^manajemen<n>_NSD$
@@ -1771,10 +1765,8 @@
 13	pada	pada	ADP	R--	_	15	case	_	MorphInd=^pada<r>_R--$
 14	awal	awal	ADJ	NSD	_	15	amod	_	MorphInd=^awal<n>_NSD$
 15	abad	abad	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^abad<n>_NSD$
-16	ke	ke	DET	R--	_	18	det	_	MorphInd=^ke<r>_R--$
-17	-	-	PUNCT	Z--	_	16	punct	_	MorphInd=^-<z>_Z--$
-18	20	20	NUM	CC-	NumType=Card	15	nummod	_	SpaceAfter=No|MorphInd=^20<c>_CC-$
-19	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
+16	ke-20	ke-20	ADJ	CO-	NumType=Ord	15	amod	_	MorphInd=^ke<r>_R--+20<c>_CC-$|SpaceAfter=No
+17	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s70
 # text = Baru-baru ini, resor telah menggunakan kata-kata "Maximum Vegas" karena banyaknya aktivitas yang ditawarkan MGM Grand pada tamunya.
@@ -2359,60 +2351,58 @@
 27	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s93
-# text = Di dalam riwayat abad ke - 13, Samguk Yusa menyatakan bahwa Kim Inmun wafat di dalam kapal di dalam perjalanan kembali ke Silla, tapi mengingat catatan yang agak rinci tentang kematian Kim dan selanjutnya penguburan duta besar ditemukan di dalam sejarah Tang dan diulang di dalam riwayat Samguk Sagi.
+# text = Di dalam riwayat abad ke-13, Samguk Yusa menyatakan bahwa Kim Inmun wafat di dalam kapal di dalam perjalanan kembali ke Silla, tapi mengingat catatan yang agak rinci tentang kematian Kim dan selanjutnya penguburan duta besar ditemukan di dalam sejarah Tang dan diulang di dalam riwayat Samguk Sagi.
 # text_en = In the 13th century chronicle, the Samguk Yusa states that Kim Inmun died on a ship on the way back to Silla, but considering the somewhat detailed account of Kim's death and subsequent burial of ambassadors is found in Tang histories and repeated in the Samguk chronicles. Sagi.
 1	Di	di	ADP	R--	_	3	case	_	MorphInd=^di<r>_R--$
 2	dalam	dalam	ADP	R--	_	3	case	_	MorphInd=^dalam<r>_R--$
-3	riwayat	riwayat	NOUN	X--	_	11	obl	_	MorphInd=^riwayat<x>_X--$
+3	riwayat	riwayat	NOUN	X--	_	9	obl	_	MorphInd=^riwayat<x>_X--$
 4	abad	abad	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^abad<n>_NSD$
-5	ke	ke	NUM	R--	NumType=Card	4	nummod	_	MorphInd=^ke<r>_R--$
-6	-	-	PUNCT	Z--	_	7	punct	_	MorphInd=^-<z>_Z--$
-7	13	13	NUM	CC-	NumType=Card	5	nummod	_	SpaceAfter=No|MorphInd=^13<c>_CC-$
-8	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
-9	Samguk	samguk	PROPN	X--	_	11	nsubj	_	MorphInd=^samguk<x>_X--$
-10	Yusa	yusa	PROPN	X--	_	9	flat:name	_	MorphInd=^yusa<x>_X--$
-11	menyatakan	nyata	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
-12	bahwa	bahwa	SCONJ	S--	_	15	mark	_	MorphInd=^bahwa<s>_S--$
-13	Kim	kim	PROPN	F--	_	15	nsubj	_	MorphInd=^kim<f>_F--$
-14	Inmun	inmun	PROPN	X--	_	13	flat:name	_	MorphInd=^inmun<x>_X--$
-15	wafat	wafat	VERB	X--	_	11	ccomp	_	MorphInd=^wafat<x>_X--$
-16	di	di	ADP	R--	_	18	case	_	MorphInd=^di<r>_R--$
-17	dalam	dalam	ADP	R--	_	18	case	_	MorphInd=^dalam<r>_R--$
-18	kapal	kapal	NOUN	NSD	Number=Sing	15	obl	_	MorphInd=^kapal<n>_NSD$
-19	di	di	ADP	R--	_	21	case	_	MorphInd=^di<r>_R--$
-20	dalam	dalam	ADP	R--	_	21	case	_	MorphInd=^dalam<r>_R--$
-21	perjalanan	perjalanan	NOUN	NSD	Number=Sing	18	nmod	_	MorphInd=^per+jalan<n>+an_NSD$
-22	kembali	kembali	VERB	VSA	Voice=Act	21	acl	_	MorphInd=^kembali<v>_VSA$
-23	ke	ke	ADP	R--	_	24	case	_	MorphInd=^ke<r>_R--$
-24	Silla	silla	PROPN	X--	_	22	obl	_	SpaceAfter=No|MorphInd=^silla<x>_X--$
-25	,	,	PUNCT	Z--	_	26	punct	_	MorphInd=^,<z>_Z--$
-26	tapi	tapi	SCONJ	S--	_	15	mark	_	MorphInd=^tapi<s>_S--$
-27	mengingat	ingat	VERB	VSA	Voice=Act	15	advcl	_	MorphInd=^meN+ingat<v>_VSA$
-28	catatan	catatan	NOUN	NSD	Number=Sing	27	compound	_	MorphInd=^catat<v>+an_NSD$
-29	yang	yang	PRON	S--	PronType=Rel	31	nsubj	_	MorphInd=^yang<s>_S--$
-30	agak	agak	ADV	D--	_	31	advmod	_	MorphInd=^agak<d>_D--$
-31	rinci	rinci	ADJ	ASP	_	27	amod	_	MorphInd=^rinci<a>_ASP$
-32	tentang	tentang	ADP	VSA	_	33	case	_	MorphInd=^tentang<v>_VSA$
-33	kematian	kematian	NOUN	NSD	Number=Sing	31	nmod	_	MorphInd=^ke+mati<a>+an_NSD$
-34	Kim	kim	PROPN	F--	_	33	nmod	_	MorphInd=^kim<f>_F--$
-35	dan	dan	CCONJ	H--	_	40	cc	_	MorphInd=^dan<h>_H--$
-36	selanjutnya	selanjutnya	ADV	D--	_	37	advmod	_	MorphInd=^selanjutnya<d>_D--$
-37	penguburan	penkuburan	NOUN	NSD	Number=Sing	40	nsubj:pass	_	MorphInd=^peN+kubur<v>+an_NSD$
-38	duta	duta	NOUN	NSD	Number=Sing	37	compound	_	MorphInd=^duta<n>_NSD$
-39	besar	besar	ADJ	ASP	_	38	amod	_	MorphInd=^besar<a>_ASP$
-40	ditemukan	temu	VERB	VSP	Voice=Pass	11	acl	_	MorphInd=^di+temu<v>+kan_VSP$
-41	di	di	ADP	R--	_	43	case	_	MorphInd=^di<r>_R--$
-42	dalam	dalam	ADP	R--	_	43	case	_	MorphInd=^dalam<r>_R--$
-43	sejarah	sejarah	NOUN	NSD	Number=Sing	40	obl	_	MorphInd=^sejarah<n>_NSD$
-44	Tang	tang	PROPN	F--	_	43	nmod	_	MorphInd=^tang<f>_F--$
-45	dan	dan	CCONJ	H--	_	46	cc	_	MorphInd=^dan<h>_H--$
-46	diulang	ulang	VERB	VSP	Voice=Pass	40	conj	_	MorphInd=^di+ulang<v>_VSP$
-47	di	di	ADP	R--	_	49	case	_	MorphInd=^di<r>_R--$
-48	dalam	dalam	ADP	R--	_	49	case	_	MorphInd=^dalam<r>_R--$
-49	riwayat	riwayat	NOUN	X--	_	46	obl	_	MorphInd=^riwayat<x>_X--$
-50	Samguk	samguk	PROPN	X--	_	49	nmod	_	MorphInd=^samguk<x>_X--$
-51	Sagi	sagi	PROPN	X--	_	50	flat:name	_	SpaceAfter=No|MorphInd=^sagi<x>_X--$
-52	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
+5	ke-13	ke-13	ADJ	CO-	NumType=Ord	4	amod	_	MorphInd=^ke<r>_R--+13<c>_CC-$|SpaceAfter=No
+6	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
+7	Samguk	samguk	PROPN	X--	_	9	nsubj	_	MorphInd=^samguk<x>_X--$
+8	Yusa	yusa	PROPN	X--	_	7	flat:name	_	MorphInd=^yusa<x>_X--$
+9	menyatakan	nyata	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+nyata<a>+kan_VSA$
+10	bahwa	bahwa	SCONJ	S--	_	13	mark	_	MorphInd=^bahwa<s>_S--$
+11	Kim	kim	PROPN	F--	_	13	nsubj	_	MorphInd=^kim<f>_F--$
+12	Inmun	inmun	PROPN	X--	_	11	flat:name	_	MorphInd=^inmun<x>_X--$
+13	wafat	wafat	VERB	X--	_	9	ccomp	_	MorphInd=^wafat<x>_X--$
+14	di	di	ADP	R--	_	16	case	_	MorphInd=^di<r>_R--$
+15	dalam	dalam	ADP	R--	_	16	case	_	MorphInd=^dalam<r>_R--$
+16	kapal	kapal	NOUN	NSD	Number=Sing	13	obl	_	MorphInd=^kapal<n>_NSD$
+17	di	di	ADP	R--	_	19	case	_	MorphInd=^di<r>_R--$
+18	dalam	dalam	ADP	R--	_	19	case	_	MorphInd=^dalam<r>_R--$
+19	perjalanan	perjalanan	NOUN	NSD	Number=Sing	16	nmod	_	MorphInd=^per+jalan<n>+an_NSD$
+20	kembali	kembali	VERB	VSA	Voice=Act	19	acl	_	MorphInd=^kembali<v>_VSA$
+21	ke	ke	ADP	R--	_	22	case	_	MorphInd=^ke<r>_R--$
+22	Silla	silla	PROPN	X--	_	20	obl	_	SpaceAfter=No|MorphInd=^silla<x>_X--$
+23	,	,	PUNCT	Z--	_	24	punct	_	MorphInd=^,<z>_Z--$
+24	tapi	tapi	SCONJ	S--	_	13	mark	_	MorphInd=^tapi<s>_S--$
+25	mengingat	ingat	VERB	VSA	Voice=Act	13	advcl	_	MorphInd=^meN+ingat<v>_VSA$
+26	catatan	catatan	NOUN	NSD	Number=Sing	25	compound	_	MorphInd=^catat<v>+an_NSD$
+27	yang	yang	PRON	S--	PronType=Rel	29	nsubj	_	MorphInd=^yang<s>_S--$
+28	agak	agak	ADV	D--	_	29	advmod	_	MorphInd=^agak<d>_D--$
+29	rinci	rinci	ADJ	ASP	_	25	amod	_	MorphInd=^rinci<a>_ASP$
+30	tentang	tentang	ADP	VSA	_	31	case	_	MorphInd=^tentang<v>_VSA$
+31	kematian	kematian	NOUN	NSD	Number=Sing	29	nmod	_	MorphInd=^ke+mati<a>+an_NSD$
+32	Kim	kim	PROPN	F--	_	31	nmod	_	MorphInd=^kim<f>_F--$
+33	dan	dan	CCONJ	H--	_	38	cc	_	MorphInd=^dan<h>_H--$
+34	selanjutnya	selanjutnya	ADV	D--	_	35	advmod	_	MorphInd=^selanjutnya<d>_D--$
+35	penguburan	penkuburan	NOUN	NSD	Number=Sing	38	nsubj:pass	_	MorphInd=^peN+kubur<v>+an_NSD$
+36	duta	duta	NOUN	NSD	Number=Sing	35	compound	_	MorphInd=^duta<n>_NSD$
+37	besar	besar	ADJ	ASP	_	36	amod	_	MorphInd=^besar<a>_ASP$
+38	ditemukan	temu	VERB	VSP	Voice=Pass	9	acl	_	MorphInd=^di+temu<v>+kan_VSP$
+39	di	di	ADP	R--	_	41	case	_	MorphInd=^di<r>_R--$
+40	dalam	dalam	ADP	R--	_	41	case	_	MorphInd=^dalam<r>_R--$
+41	sejarah	sejarah	NOUN	NSD	Number=Sing	38	obl	_	MorphInd=^sejarah<n>_NSD$
+42	Tang	tang	PROPN	F--	_	41	nmod	_	MorphInd=^tang<f>_F--$
+43	dan	dan	CCONJ	H--	_	44	cc	_	MorphInd=^dan<h>_H--$
+44	diulang	ulang	VERB	VSP	Voice=Pass	38	conj	_	MorphInd=^di+ulang<v>_VSP$
+45	di	di	ADP	R--	_	47	case	_	MorphInd=^di<r>_R--$
+46	dalam	dalam	ADP	R--	_	47	case	_	MorphInd=^dalam<r>_R--$
+47	riwayat	riwayat	NOUN	X--	_	44	obl	_	MorphInd=^riwayat<x>_X--$
+48	Samguk	samguk	PROPN	X--	_	47	nmod	_	MorphInd=^samguk<x>_X--$
+49	Sagi	sagi	PROPN	X--	_	48	flat:name	_	SpaceAfter=No|MorphInd=^sagi<x>_X--$
+50	.	.	PUNCT	Z--	_	9	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s94
 # text = Kota Vaterstetten memiliki luas sebesar 34.18 km². Vaterstetten pada tahun 2006, memiliki penduduk sebanyak 21.401 jiwa.
@@ -8468,7 +8458,7 @@
 17	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s340
-# text = Kemudian Perancis menguasai wilayah ini di abad ke - 19 dan menggabungkannya ke dalam Indochina Perancis pada 1893.
+# text = Kemudian Perancis menguasai wilayah ini di abad ke-19 dan menggabungkannya ke dalam Indochina Perancis pada 1893.
 # text_en = Then France took control of this area in the 19th century and incorporated it into French Indochina in 1893.
 1	Kemudian	kemudian	ADV	S--	_	3	advmod	_	MorphInd=^kemudian<s>_S--$
 2	Perancis	perancis	PROPN	NSD	_	3	nsubj	_	MorphInd=^perancis<n>_NSD$
@@ -8477,20 +8467,18 @@
 5	ini	ini	DET	B--	PronType=Dem	4	det	_	MorphInd=^ini<b>_B--$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 7	abad	abad	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^abad<n>_NSD$
-8	ke	ke	ADP	R--	_	7	case	_	MorphInd=^ke<r>_R--$
-9	-	-	PUNCT	Z--	_	10	punct	_	MorphInd=^-<z>_Z--$
-10	19	19	NUM	CC-	NumType=Card	7	nummod	_	MorphInd=^19<c>_CC-$
-11	dan	dan	CCONJ	H--	_	12	cc	_	MorphInd=^dan<h>_H--$
-12-13	menggabungkannya	_	_	_	_	_	_	_	MorphInd=^meN+gabung<v>+kan_VSA+dia<p>_PS3$
-12	menggabungkan	gabung	VERB	VSA	Voice=Act	3	conj	_	MorphInd=^meN+gabung<v>+kan_VSA$
-13	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	12	obj	_	MorphInd=^dia<p>_PS3$
-14	ke	ke	ADP	R--	_	16	case	_	MorphInd=^ke<r>_R--$
-15	dalam	dalam	ADP	R--	_	16	case	_	MorphInd=^dalam<r>_R--$
-16	Indochina	indochina	PROPN	X--	_	12	obl	_	MorphInd=^indochina<x>_X--$
-17	Perancis	perancis	PROPN	NSD	_	16	flat:name	_	MorphInd=^perancis<n>_NSD$
-18	pada	pada	SCONJ	R--	_	12	mark	_	MorphInd=^pada<r>_R--$
-19	1893	1893	NUM	CC-	NumType=Card	12	nummod	_	SpaceAfter=No|MorphInd=^1893<c>_CC-$
-20	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+8	ke-19	ke-19	ADJ	CO-	NumType=Ord	7	amod	_	MorphInd=^ke<r>_R--+19<c>_CC-$
+9	dan	dan	CCONJ	H--	_	10	cc	_	MorphInd=^dan<h>_H--$
+10-11	menggabungkannya	_	_	_	_	_	_	_	MorphInd=^meN+gabung<v>+kan_VSA+dia<p>_PS3$
+10	menggabungkan	gabung	VERB	VSA	Voice=Act	3	conj	_	MorphInd=^meN+gabung<v>+kan_VSA$
+11	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	obj	_	MorphInd=^dia<p>_PS3$
+12	ke	ke	ADP	R--	_	14	case	_	MorphInd=^ke<r>_R--$
+13	dalam	dalam	ADP	R--	_	14	case	_	MorphInd=^dalam<r>_R--$
+14	Indochina	indochina	PROPN	X--	_	10	obl	_	MorphInd=^indochina<x>_X--$
+15	Perancis	perancis	PROPN	NSD	_	14	flat:name	_	MorphInd=^perancis<n>_NSD$
+16	pada	pada	SCONJ	R--	_	10	mark	_	MorphInd=^pada<r>_R--$
+17	1893	1893	NUM	CC-	NumType=Card	10	nummod	_	SpaceAfter=No|MorphInd=^1893<c>_CC-$
+18	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s341
 # text = Ditemukannya H - FABP dalam berbagai jenis jaringan merupakan tanda-tanda infak miokardial akut.

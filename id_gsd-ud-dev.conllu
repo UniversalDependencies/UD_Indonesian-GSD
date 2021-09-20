@@ -468,7 +468,7 @@
 14	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s18
-# text = Diatessaron milik Tatianus tersebar luas di kalangan orang Kristen Siria sampai abad ke - 5.
+# text = Diatessaron milik Tatianus tersebar luas di kalangan orang Kristen Siria sampai abad ke-5.
 # text_en = Tatian's Diatessaron was widespread among Syrian Christians until the 5th century.
 1	Diatessaron	diatessaron	PROPN	X--	_	4	nsubj:pass	_	MorphInd=^diatessaron<x>_X--$
 2	milik	milik	NOUN	VSA	_	1	compound	_	MorphInd=^milik<v>_VSA$
@@ -482,10 +482,8 @@
 10	Siria	siria	PROPN	X--	_	9	flat:name	_	MorphInd=^siria<x>_X--$
 11	sampai	sampai	ADP	ASP	_	12	case	_	MorphInd=^sampai<a>_ASP$
 12	abad	abad	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^abad<n>_NSD$
-13	ke	ke	NUM	R--	NumType=Card	12	nummod	_	MorphInd=^ke<r>_R--$
-14	-	-	PUNCT	Z--	_	15	punct	_	MorphInd=^-<z>_Z--$
-15	5	5	NUM	CC-	NumType=Card	13	nummod	_	SpaceAfter=No|MorphInd=^5<c>_CC-$
-16	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
+13	ke-5	ke-5	ADJ	CO-	NumType=Ord	12	amod	_	MorphInd=^ke<r>_R--+5<c>_CC-$|SpaceAfter=No
+14	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s19
 # text = Pertemuannya dengan Jiang Wen Qing justru membuat mereka tahu tugas dan fungsi mereka masing-masing.
@@ -3624,7 +3622,7 @@
 14	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s127
-# text = Jumat, 31 Juli 1936 – Dies Natalis ke - 16 TH Bandung diadakan di Aula / Barakgebouw A. Tepat jam 10.00 diiringi lagu "Gaudeamus igitur", anggota Majelis Kurator dan para guru besar TH Bandung, beserta perwakilan dari Fakultas Hukum dan Fakultas Kedokteran Batavia berada di Aula. Acara dimulai dengan pidato Ketua Fakultas Prof. Ir. CGJ Vreedenburgh yang melaporkan perkembangan TH selama satu tahun terakhir.
+# text = Jumat, 31 Juli 1936 – Dies Natalis ke-16 TH Bandung diadakan di Aula / Barakgebouw A. Tepat jam 10.00 diiringi lagu "Gaudeamus igitur", anggota Majelis Kurator dan para guru besar TH Bandung, beserta perwakilan dari Fakultas Hukum dan Fakultas Kedokteran Batavia berada di Aula. Acara dimulai dengan pidato Ketua Fakultas Prof. Ir. CGJ Vreedenburgh yang melaporkan perkembangan TH selama satu tahun terakhir.
 # text_en = Friday, July 31, 1936 – The 16th Anniversary of TH Bandung was held in the Hall / Barakgebouw A. Exactly at 10.00 accompanied by the song "Gaudeamus igitur", members of the Curator's Council and professors of TH Bandung, along with representatives from the Faculty of Law and the Faculty of Medicine Batavia were there. in the Hall. The event started with a speech by the Head of the Faculty, Prof. Ir. CGJ Vreedenburgh who reports on the development of TH over the past year.
 1	Jumat	jumat	PROPN	NSD	_	0	root	_	SpaceAfter=No|MorphInd=^jumat<n>_NSD$
 2	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
@@ -3634,72 +3632,70 @@
 6	–	–	PUNCT	Z--	_	4	punct	_	MorphInd=^–<z>_Z--$
 7	Dies	dies	PROPN	VSP	_	1	nsubj	_	MorphInd=^di+es<n>_VSP$
 8	Natalis	natalis	PROPN	X--	_	7	flat:name	_	MorphInd=^natalis<x>_X--$
-9	ke	ke	NUM	R--	NumType=Card	12	nummod	_	MorphInd=^ke<r>_R--$
-10	-	-	PUNCT	Z--	_	11	punct	_	MorphInd=^-<z>_Z--$
-11	16	16	NUM	CC-	NumType=Card	9	nummod	_	MorphInd=^16<c>_CC-$
-12	TH	th	PROPN	X--	_	7	flat:name	_	MorphInd=^th<x>_X--$
-13	Bandung	bandung	PROPN	NSD	_	7	flat:name	_	MorphInd=^bandung<n>_NSD$
-14	diadakan	ada	VERB	VSP	Voice=Pass	1	flat	_	MorphInd=^di+ada<a>+kan_VSP$
-15	di	di	ADP	R--	_	16	case	_	MorphInd=^di<r>_R--$
-16	Aula	aula	PROPN	NSD	_	1	obl	_	MorphInd=^aula<n>_NSD$
-17	/	/	PUNCT	Z--	_	16	punct	_	MorphInd=^/<z>_Z--$
-18	Barakgebouw	barakgebouw	PROPN	X--	_	16	flat:name	_	MorphInd=^barakgebouw<x>_X--$
-19	A	a	PROPN	F--	_	18	flat:name	_	SpaceAfter=No|MorphInd=^a<f>_F--$
-20	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
-21	Tepat	tepat	ADJ	ASP	_	24	amod	_	MorphInd=^tepat<a>_ASP$
-22	jam	jam	NOUN	NSD	Number=Sing	21	compound	_	MorphInd=^jam<n>_NSD$
-23	10.00	10.00	NUM	CC-	NumType=Card	22	nummod	_	MorphInd=^10.00<c>_CC-$
-24	diiringi	iring	VERB	VSP	Voice=Pass	50	advcl	_	MorphInd=^di+iring<v>+i_VSP$
-25	lagu	lagu	NOUN	NSD	Number=Sing	24	obl	_	MorphInd=^lagu<n>_NSD$
-26	"	"	PUNCT	Z--	_	27	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
-27	Gaudeamus	gaudeamus	PROPN	X--	_	25	appos	_	MorphInd=^gaudeamus<x>_X--$
-28	igitur	igitur	PROPN	X--	_	27	flat:name	_	SpaceAfter=No|MorphInd=^igitur<x>_X--$
-29	"	"	PUNCT	Z--	_	27	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
-30	,	,	PUNCT	Z--	_	27	punct	_	MorphInd=^,<z>_Z--$
-31	anggota	anggota	NOUN	NSD	Number=Sing	50	nsubj	_	MorphInd=^anggota<n>_NSD$
-32	Majelis	majelis	PROPN	NSD	_	31	nmod	_	MorphInd=^majelis<n>_NSD$
-33	Kurator	kurator	PROPN	NSD	_	32	flat:name	_	MorphInd=^kurator<n>_NSD$
-34	dan	dan	CCONJ	H--	_	36	cc	_	MorphInd=^dan<h>_H--$
-35	para	para	DET	B--	PronType=Dem	36	det	_	MorphInd=^para<b>_B--$
-36	guru	guru	NOUN	NSD	Number=Sing	31	conj	_	MorphInd=^guru<n>_NSD$
-37	besar	besar	ADJ	ASP	_	36	amod	_	MorphInd=^besar<a>_ASP$
-38	TH	th	PROPN	X--	_	36	appos	_	MorphInd=^th<x>_X--$
-39	Bandung	bandung	PROPN	NSD	_	38	flat:name	_	SpaceAfter=No|MorphInd=^bandung<n>_NSD$
-40	,	,	PUNCT	Z--	_	42	punct	_	MorphInd=^,<z>_Z--$
-41	beserta	beserta	CCONJ	R--	_	42	cc	_	MorphInd=^beserta<r>_R--$
-42	perwakilan	perwakilan	NOUN	NSD	Number=Sing	31	conj	_	MorphInd=^per+wakil<n>+an_NSD$
-43	dari	dari	ADP	R--	_	44	case	_	MorphInd=^dari<r>_R--$
-44	Fakultas	fakultas	NOUN	NSD	Number=Sing	42	nmod	_	MorphInd=^fakultas<n>_NSD$
-45	Hukum	hukum	PROPN	VSA	_	44	nmod	_	MorphInd=^hukum<v>_VSA$
-46	dan	dan	CCONJ	H--	_	47	cc	_	MorphInd=^dan<h>_H--$
-47	Fakultas	fakultas	NOUN	NSD	Number=Sing	44	conj	_	MorphInd=^fakultas<n>_NSD$
-48	Kedokteran	kedokteran	PROPN	NSD	_	47	nmod	_	MorphInd=^ke+dokter<n>+an_NSD$
-49	Batavia	batavia	PROPN	X--	_	48	flat:name	_	MorphInd=^batavia<x>_X--$
-50	berada	ada	VERB	VSA	Voice=Act	1	dep	_	MorphInd=^ber+ada<a>_VSA$
-51	di	di	ADP	R--	_	52	case	_	MorphInd=^di<r>_R--$
-52	Aula	aula	PROPN	NSD	_	50	obl	_	SpaceAfter=No|MorphInd=^aula<n>_NSD$
-53	.	.	PUNCT	Z--	_	50	punct	_	MorphInd=^.<z>_Z--$
-54	Acara	acara	NOUN	NSD	Number=Sing	55	nsubj:pass	_	MorphInd=^acara<n>_NSD$
-55	dimulai	mulai	VERB	VSP	Voice=Pass	1	dep	_	MorphInd=^di+mulai<v>_VSP$
-56	dengan	dengan	ADP	R--	_	57	case	_	MorphInd=^dengan<r>_R--$
-57	pidato	pidato	NOUN	NSD	Number=Sing	55	obl	_	MorphInd=^pidato<n>_NSD$
-58	Ketua	ketua	PROPN	NSD	_	57	nmod	_	MorphInd=^ketua<n>_NSD$
-59	Fakultas	fakultas	PROPN	NSD	_	58	flat:name	_	MorphInd=^fakultas<n>_NSD$
-60	Prof	prof	PROPN	F--	_	58	appos	_	SpaceAfter=No|MorphInd=^prof<f>_F--$
+9	ke-16	ke-16	NUM	CO-	NumType=Card|PronType=Tot	10	nummod	_	MorphInd=^ke<r>_R--+16<c>_CC-$
+10	TH	th	PROPN	X--	_	7	flat:name	_	MorphInd=^th<x>_X--$
+11	Bandung	bandung	PROPN	NSD	_	7	flat:name	_	MorphInd=^bandung<n>_NSD$
+12	diadakan	ada	VERB	VSP	Voice=Pass	1	flat	_	MorphInd=^di+ada<a>+kan_VSP$
+13	di	di	ADP	R--	_	14	case	_	MorphInd=^di<r>_R--$
+14	Aula	aula	PROPN	NSD	_	1	obl	_	MorphInd=^aula<n>_NSD$
+15	/	/	PUNCT	Z--	_	14	punct	_	MorphInd=^/<z>_Z--$
+16	Barakgebouw	barakgebouw	PROPN	X--	_	14	flat:name	_	MorphInd=^barakgebouw<x>_X--$
+17	A	a	PROPN	F--	_	16	flat:name	_	SpaceAfter=No|MorphInd=^a<f>_F--$
+18	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
+19	Tepat	tepat	ADJ	ASP	_	22	amod	_	MorphInd=^tepat<a>_ASP$
+20	jam	jam	NOUN	NSD	Number=Sing	19	compound	_	MorphInd=^jam<n>_NSD$
+21	10.00	10.00	NUM	CC-	NumType=Card	20	nummod	_	MorphInd=^10.00<c>_CC-$
+22	diiringi	iring	VERB	VSP	Voice=Pass	48	advcl	_	MorphInd=^di+iring<v>+i_VSP$
+23	lagu	lagu	NOUN	NSD	Number=Sing	22	obl	_	MorphInd=^lagu<n>_NSD$
+24	"	"	PUNCT	Z--	_	25	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
+25	Gaudeamus	gaudeamus	PROPN	X--	_	23	appos	_	MorphInd=^gaudeamus<x>_X--$
+26	igitur	igitur	PROPN	X--	_	25	flat:name	_	SpaceAfter=No|MorphInd=^igitur<x>_X--$
+27	"	"	PUNCT	Z--	_	25	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
+28	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$
+29	anggota	anggota	NOUN	NSD	Number=Sing	48	nsubj	_	MorphInd=^anggota<n>_NSD$
+30	Majelis	majelis	PROPN	NSD	_	29	nmod	_	MorphInd=^majelis<n>_NSD$
+31	Kurator	kurator	PROPN	NSD	_	30	flat:name	_	MorphInd=^kurator<n>_NSD$
+32	dan	dan	CCONJ	H--	_	34	cc	_	MorphInd=^dan<h>_H--$
+33	para	para	DET	B--	PronType=Dem	34	det	_	MorphInd=^para<b>_B--$
+34	guru	guru	NOUN	NSD	Number=Sing	29	conj	_	MorphInd=^guru<n>_NSD$
+35	besar	besar	ADJ	ASP	_	34	amod	_	MorphInd=^besar<a>_ASP$
+36	TH	th	PROPN	X--	_	34	appos	_	MorphInd=^th<x>_X--$
+37	Bandung	bandung	PROPN	NSD	_	36	flat:name	_	SpaceAfter=No|MorphInd=^bandung<n>_NSD$
+38	,	,	PUNCT	Z--	_	40	punct	_	MorphInd=^,<z>_Z--$
+39	beserta	beserta	CCONJ	R--	_	40	cc	_	MorphInd=^beserta<r>_R--$
+40	perwakilan	perwakilan	NOUN	NSD	Number=Sing	29	conj	_	MorphInd=^per+wakil<n>+an_NSD$
+41	dari	dari	ADP	R--	_	42	case	_	MorphInd=^dari<r>_R--$
+42	Fakultas	fakultas	NOUN	NSD	Number=Sing	40	nmod	_	MorphInd=^fakultas<n>_NSD$
+43	Hukum	hukum	PROPN	VSA	_	42	nmod	_	MorphInd=^hukum<v>_VSA$
+44	dan	dan	CCONJ	H--	_	45	cc	_	MorphInd=^dan<h>_H--$
+45	Fakultas	fakultas	NOUN	NSD	Number=Sing	42	conj	_	MorphInd=^fakultas<n>_NSD$
+46	Kedokteran	kedokteran	PROPN	NSD	_	45	nmod	_	MorphInd=^ke+dokter<n>+an_NSD$
+47	Batavia	batavia	PROPN	X--	_	46	flat:name	_	MorphInd=^batavia<x>_X--$
+48	berada	ada	VERB	VSA	Voice=Act	1	dep	_	MorphInd=^ber+ada<a>_VSA$
+49	di	di	ADP	R--	_	50	case	_	MorphInd=^di<r>_R--$
+50	Aula	aula	PROPN	NSD	_	48	obl	_	SpaceAfter=No|MorphInd=^aula<n>_NSD$
+51	.	.	PUNCT	Z--	_	48	punct	_	MorphInd=^.<z>_Z--$
+52	Acara	acara	NOUN	NSD	Number=Sing	53	nsubj:pass	_	MorphInd=^acara<n>_NSD$
+53	dimulai	mulai	VERB	VSP	Voice=Pass	1	dep	_	MorphInd=^di+mulai<v>_VSP$
+54	dengan	dengan	ADP	R--	_	55	case	_	MorphInd=^dengan<r>_R--$
+55	pidato	pidato	NOUN	NSD	Number=Sing	53	obl	_	MorphInd=^pidato<n>_NSD$
+56	Ketua	ketua	PROPN	NSD	_	55	nmod	_	MorphInd=^ketua<n>_NSD$
+57	Fakultas	fakultas	PROPN	NSD	_	56	flat:name	_	MorphInd=^fakultas<n>_NSD$
+58	Prof	prof	PROPN	F--	_	56	appos	_	SpaceAfter=No|MorphInd=^prof<f>_F--$
+59	.	.	PUNCT	Z--	_	58	punct	_	MorphInd=^.<z>_Z--$
+60	Ir	ir	PROPN	X--	_	58	flat:name	_	SpaceAfter=No|MorphInd=^ir<x>_X--$
 61	.	.	PUNCT	Z--	_	60	punct	_	MorphInd=^.<z>_Z--$
-62	Ir	ir	PROPN	X--	_	60	flat:name	_	SpaceAfter=No|MorphInd=^ir<x>_X--$
-63	.	.	PUNCT	Z--	_	62	punct	_	MorphInd=^.<z>_Z--$
-64	CGJ	cgj	PROPN	X--	_	60	flat:name	_	MorphInd=^cgj<x>_X--$
-65	Vreedenburgh	vreedenburgh	PROPN	X--	_	60	flat:name	_	MorphInd=^vreedenburgh<x>_X--$
-66	yang	yang	PRON	S--	PronType=Rel	67	nsubj	_	MorphInd=^yang<s>_S--$
-67	melaporkan	lapor	VERB	VSA	Voice=Act	58	acl:relcl	_	MorphInd=^meN+lapor<v>+kan_VSA$
-68	perkembangan	perkembangan	NOUN	NSD	Number=Sing	67	obj	_	MorphInd=^per+kembang<n>+an_NSD$
-69	TH	th	PROPN	X--	_	68	nmod	_	MorphInd=^th<x>_X--$
-70	selama	selama	ADP	R--	_	72	case	_	MorphInd=^selama<r>_R--$
-71	satu	satu	NUM	CC-	_	72	nummod	_	MorphInd=^satu<c>_CC-$
-72	tahun	tahun	NOUN	NSD	Number=Sing	67	obl	_	MorphInd=^tahun<n>_NSD$
-73	terakhir	terakhir	ADJ	ASS	Degree=Sup	72	amod	_	SpaceAfter=No|MorphInd=^ter+akhir<n>_ASS$
-74	.	.	PUNCT	Z--	_	55	punct	_	MorphInd=^.<z>_Z--$
+62	CGJ	cgj	PROPN	X--	_	58	flat:name	_	MorphInd=^cgj<x>_X--$
+63	Vreedenburgh	vreedenburgh	PROPN	X--	_	58	flat:name	_	MorphInd=^vreedenburgh<x>_X--$
+64	yang	yang	PRON	S--	PronType=Rel	65	nsubj	_	MorphInd=^yang<s>_S--$
+65	melaporkan	lapor	VERB	VSA	Voice=Act	56	acl:relcl	_	MorphInd=^meN+lapor<v>+kan_VSA$
+66	perkembangan	perkembangan	NOUN	NSD	Number=Sing	65	obj	_	MorphInd=^per+kembang<n>+an_NSD$
+67	TH	th	PROPN	X--	_	66	nmod	_	MorphInd=^th<x>_X--$
+68	selama	selama	ADP	R--	_	70	case	_	MorphInd=^selama<r>_R--$
+69	satu	satu	NUM	CC-	_	70	nummod	_	MorphInd=^satu<c>_CC-$
+70	tahun	tahun	NOUN	NSD	Number=Sing	65	obl	_	MorphInd=^tahun<n>_NSD$
+71	terakhir	terakhir	ADJ	ASS	Degree=Sup	70	amod	_	SpaceAfter=No|MorphInd=^ter+akhir<n>_ASS$
+72	.	.	PUNCT	Z--	_	53	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s128
 # text = Bagaimana jugakah reaksi Rendra jika mengetahui hal tersebut?
@@ -4658,47 +4654,45 @@
 13	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s167
-# text = Di drama ke - 2,, tubuh Shinichi kembali ke bentuk awalnya setelah memakan sejenis kue dan harus melindungi Miyano, yang tubuhnya juga telah kembali ke bentuk awal, dari Organisasi Hitam.
+# text = Di drama ke-2,, tubuh Shinichi kembali ke bentuk awalnya setelah memakan sejenis kue dan harus melindungi Miyano, yang tubuhnya juga telah kembali ke bentuk awal, dari Organisasi Hitam.
 # text_en = In the 2nd drama, Shinichi's body returns to its original form after eating a kind of cake and must protect Miyano, whose body has also returned to its original form, from the Black Organization.
 1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
-2	drama	drama	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^drama<n>_NSD$
-3	ke	ke	NUM	R--	NumType=Card	2	nummod	_	MorphInd=^ke<r>_R--$
-4	-	-	PUNCT	Z--	_	5	punct	_	MorphInd=^-<z>_Z--$
-5	2	2	NUM	CC-	NumType=Card	3	nummod	_	SpaceAfter=No|MorphInd=^2<c>_CC-$
-6	,	,	PUNCT	Z--	_	2	punct	_	SpaceAfter=No|MorphInd=^,<z>_Z--$
-7	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
-8	tubuh	tubuh	NOUN	NSD	Number=Sing	10	nsubj	_	MorphInd=^tubuh<n>_NSD$
-9	Shinichi	shinichi	PROPN	X--	_	8	nmod	_	MorphInd=^shinichi<x>_X--$
-10	kembali	kembali	VERB	VSA	Voice=Act	0	root	_	MorphInd=^kembali<v>_VSA$
-11	ke	ke	ADP	R--	_	12	case	_	MorphInd=^ke<r>_R--$
-12	bentuk	bentuk	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^bentuk<n>_NSD$
-13-14	awalnya	_	_	_	_	_	_	_	MorphInd=^awal<n>_NSD+dia<p>_PS3$
-13	awal	awal	NOUN	NSD	Number=Sing	12	amod	_	MorphInd=^awal<n>_NSD$
-14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	MorphInd=^dia<p>_PS3$
-15	setelah	setelah	SCONJ	R--	_	16	mark	_	MorphInd=^setelah<r>_R--$
-16	memakan	makan	VERB	VSA	Voice=Act	10	advcl	_	MorphInd=^meN+makan<v>_VSA$
-17	sejenis	sejenis	NOUN	ASP	_	16	obj	_	MorphInd=^se+jenis<n>_ASP$
-18	kue	kue	NOUN	X--	_	17	compound	_	MorphInd=^kue<x>_X--$
-19	dan	dan	CCONJ	H--	_	21	cc	_	MorphInd=^dan<h>_H--$
-20	harus	harus	AUX	M--	_	21	aux	_	MorphInd=^harus<m>_M--$
-21	melindungi	lindung	VERB	VSA	Voice=Act	16	conj	_	MorphInd=^meN+lindung<v>+i_VSA$
-22	Miyano	miyano	PROPN	X--	_	21	obj	_	SpaceAfter=No|MorphInd=^miyano<x>_X--$
-23	,	,	PUNCT	Z--	_	29	punct	_	MorphInd=^,<z>_Z--$
-24	yang	yang	PRON	S--	PronType=Rel	29	nsubj	_	MorphInd=^yang<s>_S--$
-25-26	tubuhnya	_	_	_	_	_	_	_	MorphInd=^tubuh<n>_NSD+dia<p>_PS3$
-25	tubuh	tubuh	NOUN	NSD	Number=Sing	29	nsubj	_	MorphInd=^tubuh<n>_NSD$
-26	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	MorphInd=^dia<p>_PS3$
-27	juga	juga	ADV	D--	_	29	advmod	_	MorphInd=^juga<d>_D--$
-28	telah	telah	AUX	D--	_	29	aux	_	MorphInd=^telah<d>_D--$
-29	kembali	kembali	VERB	VSA	Voice=Act	22	acl:relcl	_	MorphInd=^kembali<v>_VSA$
-30	ke	ke	ADP	R--	_	31	case	_	MorphInd=^ke<r>_R--$
-31	bentuk	bentuk	NOUN	NSD	Number=Sing	29	obl	_	MorphInd=^bentuk<n>_NSD$
-32	awal	awal	NOUN	NSD	Number=Sing	31	amod	_	SpaceAfter=No|MorphInd=^awal<n>_NSD$
-33	,	,	PUNCT	Z--	_	35	punct	_	MorphInd=^,<z>_Z--$
-34	dari	dari	ADP	R--	_	35	case	_	MorphInd=^dari<r>_R--$
-35	Organisasi	organisasi	PROPN	NSD	_	21	obl	_	MorphInd=^organisasi<n>_NSD$
-36	Hitam	hitam	PROPN	ASP	_	35	flat:name	_	SpaceAfter=No|MorphInd=^hitam<a>_ASP$
-37	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
+2	drama	drama	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^drama<n>_NSD$
+3	ke-2	ke-2	ADJ	CO-	NumType=Ord	2	amod	_	MorphInd=^ke<r>_R--+2<c>_CC-$|SpaceAfter=No
+4	,	,	PUNCT	Z--	_	2	punct	_	SpaceAfter=No|MorphInd=^,<z>_Z--$
+5	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
+6	tubuh	tubuh	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^tubuh<n>_NSD$
+7	Shinichi	shinichi	PROPN	X--	_	6	nmod	_	MorphInd=^shinichi<x>_X--$
+8	kembali	kembali	VERB	VSA	Voice=Act	0	root	_	MorphInd=^kembali<v>_VSA$
+9	ke	ke	ADP	R--	_	10	case	_	MorphInd=^ke<r>_R--$
+10	bentuk	bentuk	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^bentuk<n>_NSD$
+11-12	awalnya	_	_	_	_	_	_	_	MorphInd=^awal<n>_NSD+dia<p>_PS3$
+11	awal	awal	NOUN	NSD	Number=Sing	10	amod	_	MorphInd=^awal<n>_NSD$
+12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	MorphInd=^dia<p>_PS3$
+13	setelah	setelah	SCONJ	R--	_	14	mark	_	MorphInd=^setelah<r>_R--$
+14	memakan	makan	VERB	VSA	Voice=Act	8	advcl	_	MorphInd=^meN+makan<v>_VSA$
+15	sejenis	sejenis	NOUN	ASP	_	14	obj	_	MorphInd=^se+jenis<n>_ASP$
+16	kue	kue	NOUN	X--	_	15	compound	_	MorphInd=^kue<x>_X--$
+17	dan	dan	CCONJ	H--	_	19	cc	_	MorphInd=^dan<h>_H--$
+18	harus	harus	AUX	M--	_	19	aux	_	MorphInd=^harus<m>_M--$
+19	melindungi	lindung	VERB	VSA	Voice=Act	14	conj	_	MorphInd=^meN+lindung<v>+i_VSA$
+20	Miyano	miyano	PROPN	X--	_	19	obj	_	SpaceAfter=No|MorphInd=^miyano<x>_X--$
+21	,	,	PUNCT	Z--	_	27	punct	_	MorphInd=^,<z>_Z--$
+22	yang	yang	PRON	S--	PronType=Rel	27	nsubj	_	MorphInd=^yang<s>_S--$
+23-24	tubuhnya	_	_	_	_	_	_	_	MorphInd=^tubuh<n>_NSD+dia<p>_PS3$
+23	tubuh	tubuh	NOUN	NSD	Number=Sing	27	nsubj	_	MorphInd=^tubuh<n>_NSD$
+24	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	23	nmod:poss	_	MorphInd=^dia<p>_PS3$
+25	juga	juga	ADV	D--	_	27	advmod	_	MorphInd=^juga<d>_D--$
+26	telah	telah	AUX	D--	_	27	aux	_	MorphInd=^telah<d>_D--$
+27	kembali	kembali	VERB	VSA	Voice=Act	20	acl:relcl	_	MorphInd=^kembali<v>_VSA$
+28	ke	ke	ADP	R--	_	29	case	_	MorphInd=^ke<r>_R--$
+29	bentuk	bentuk	NOUN	NSD	Number=Sing	27	obl	_	MorphInd=^bentuk<n>_NSD$
+30	awal	awal	NOUN	NSD	Number=Sing	29	amod	_	SpaceAfter=No|MorphInd=^awal<n>_NSD$
+31	,	,	PUNCT	Z--	_	33	punct	_	MorphInd=^,<z>_Z--$
+32	dari	dari	ADP	R--	_	33	case	_	MorphInd=^dari<r>_R--$
+33	Organisasi	organisasi	PROPN	NSD	_	19	obl	_	MorphInd=^organisasi<n>_NSD$
+34	Hitam	hitam	PROPN	ASP	_	33	flat:name	_	SpaceAfter=No|MorphInd=^hitam<a>_ASP$
+35	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s168
 # text = Bahasa perdagangan menggunakan bahasa Melayu di berbagai pelabuhan Nusantara bercampur dengan bahasa Portugis, bahasa Tionghoa, maupun bahasa setempat.
@@ -5348,7 +5342,7 @@
 49	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s192
-# text = Antara 800 SM dan 600 SM, matematika Yunani pada umumnya berada di belakang kesusasteraan Yunani, dan hanya sedikit yang diketahui tentang matematika Yunani dari periode ini — yang hampir semuanya sudah pernah sampai melalui penulis sebelumnya, sejak pertengahan abad ke - 4 SM. Sejarawan biasanya menempatkan permulaan matematika Yunani pada masa hidup Thales dari Miletus (kira - kira 624 - 548 SM).
+# text = Antara 800 SM dan 600 SM, matematika Yunani pada umumnya berada di belakang kesusasteraan Yunani, dan hanya sedikit yang diketahui tentang matematika Yunani dari periode ini — yang hampir semuanya sudah pernah sampai melalui penulis sebelumnya, sejak pertengahan abad ke-4 SM. Sejarawan biasanya menempatkan permulaan matematika Yunani pada masa hidup Thales dari Miletus (kira - kira 624 - 548 SM).
 # text_en = Between 800 BC and 600 BC, Greek mathematics was generally behind Greek literature, and little is known about Greek mathematics from this period — almost all of which has been through earlier writers, since the mid-4th century BC. Historians usually place the beginning of Greek mathematics in the lifetime of Thales of Miletus (c. 624 - 548 BC).
 1	Antara	antara	ADP	R--	_	3	case	_	MorphInd=^antara<r>_R--$
 2	800	800	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^800<c>_CC-$
@@ -5394,33 +5388,31 @@
 41	sejak	sejak	ADP	S--	_	42	case	_	MorphInd=^sejak<s>_S--$
 42	pertengahan	pertengahan	NOUN	NSD	Number=Sing	36	obl	_	MorphInd=^per+tengah<n>+an_NSD$
 43	abad	abad	NOUN	NSD	Number=Sing	42	compound	_	MorphInd=^abad<n>_NSD$
-44	ke	ke	ADP	R--	_	47	case	_	MorphInd=^ke<r>_R--$
-45	-	-	PUNCT	Z--	_	44	punct	_	MorphInd=^-<z>_Z--$
-46	4	4	NUM	CC-	NumType=Card	47	nummod	_	MorphInd=^4<c>_CC-$
-47	SM	sm	PROPN	X--	_	43	nmod	_	SpaceAfter=No|MorphInd=^sm<x>_X--$
-48	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
-49	Sejarawan	sejarawan	PROPN	X--	_	51	nsubj	_	MorphInd=^sejarawan<x>_X--$
-50	biasanya	biasanya	ADV	D--	_	51	advmod	_	MorphInd=^biasanya<d>_D--$
-51	menempatkan	tempat	VERB	VSA	Voice=Act	12	dep	_	MorphInd=^meN+tempat<n>+kan_VSA$
-52	permulaan	permulaan	NOUN	NSD	Number=Sing	51	obj	_	MorphInd=^per+mula<n>+an_NSD$
-53	matematika	matematika	NOUN	NSD	Number=Sing	52	compound	_	MorphInd=^matematika<n>_NSD$
-54	Yunani	yunani	PROPN	NSD	_	53	nmod	_	MorphInd=^yunani<n>_NSD$
-55	pada	pada	ADP	R--	_	56	case	_	MorphInd=^pada<r>_R--$
-56	masa	masa	NOUN	NSD	Number=Sing	52	nmod	_	MorphInd=^masa<n>_NSD$
-57	hidup	hidup	NOUN	NSD	Number=Sing	56	compound	_	MorphInd=^hidup<n>_NSD$
-58	Thales	thales	PROPN	X--	_	57	nmod	_	MorphInd=^thales<x>_X--$
-59	dari	dari	ADP	R--	_	60	case	_	MorphInd=^dari<r>_R--$
-60	Miletus	miletus	PROPN	X--	_	56	nmod	_	MorphInd=^miletus<x>_X--$
-61	(	(	PUNCT	Z--	_	62	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-62	kira	kira	NOUN	VSA	_	60	appos	_	MorphInd=^kira<v>_VSA$
-63	-	-	PUNCT	Z--	_	64	punct	_	MorphInd=^-<z>_Z--$
-64	kira	kira	NOUN	VSA	_	62	compound	_	MorphInd=^kira<v>_VSA$
-65	624	624	NUM	CC-	NumType=Card	68	nummod	_	MorphInd=^624<c>_CC-$
-66	-	-	PUNCT	Z--	_	65	punct	_	MorphInd=^-<z>_Z--$
-67	548	548	NUM	CC-	NumType=Card	68	nummod	_	MorphInd=^548<c>_CC-$
-68	SM	sm	NOUN	X--	_	62	compound	_	SpaceAfter=No|MorphInd=^sm<x>_X--$
-69	)	)	PUNCT	Z--	_	62	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
-70	.	.	PUNCT	Z--	_	51	punct	_	MorphInd=^.<z>_Z--$
+44	ke-4	ke-4	NUM	CO-	NumType=Card|PronType=Tot	45	nummod	_	MorphInd=^ke<r>_R--+4<c>_CC-$
+45	SM	sm	PROPN	X--	_	43	nmod	_	SpaceAfter=No|MorphInd=^sm<x>_X--$
+46	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
+47	Sejarawan	sejarawan	PROPN	X--	_	49	nsubj	_	MorphInd=^sejarawan<x>_X--$
+48	biasanya	biasanya	ADV	D--	_	49	advmod	_	MorphInd=^biasanya<d>_D--$
+49	menempatkan	tempat	VERB	VSA	Voice=Act	12	dep	_	MorphInd=^meN+tempat<n>+kan_VSA$
+50	permulaan	permulaan	NOUN	NSD	Number=Sing	49	obj	_	MorphInd=^per+mula<n>+an_NSD$
+51	matematika	matematika	NOUN	NSD	Number=Sing	50	compound	_	MorphInd=^matematika<n>_NSD$
+52	Yunani	yunani	PROPN	NSD	_	51	nmod	_	MorphInd=^yunani<n>_NSD$
+53	pada	pada	ADP	R--	_	54	case	_	MorphInd=^pada<r>_R--$
+54	masa	masa	NOUN	NSD	Number=Sing	50	nmod	_	MorphInd=^masa<n>_NSD$
+55	hidup	hidup	NOUN	NSD	Number=Sing	54	compound	_	MorphInd=^hidup<n>_NSD$
+56	Thales	thales	PROPN	X--	_	55	nmod	_	MorphInd=^thales<x>_X--$
+57	dari	dari	ADP	R--	_	58	case	_	MorphInd=^dari<r>_R--$
+58	Miletus	miletus	PROPN	X--	_	54	nmod	_	MorphInd=^miletus<x>_X--$
+59	(	(	PUNCT	Z--	_	60	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+60	kira	kira	NOUN	VSA	_	58	appos	_	MorphInd=^kira<v>_VSA$
+61	-	-	PUNCT	Z--	_	62	punct	_	MorphInd=^-<z>_Z--$
+62	kira	kira	NOUN	VSA	_	60	compound	_	MorphInd=^kira<v>_VSA$
+63	624	624	NUM	CC-	NumType=Card	66	nummod	_	MorphInd=^624<c>_CC-$
+64	-	-	PUNCT	Z--	_	63	punct	_	MorphInd=^-<z>_Z--$
+65	548	548	NUM	CC-	NumType=Card	66	nummod	_	MorphInd=^548<c>_CC-$
+66	SM	sm	NOUN	X--	_	60	compound	_	SpaceAfter=No|MorphInd=^sm<x>_X--$
+67	)	)	PUNCT	Z--	_	60	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
+68	.	.	PUNCT	Z--	_	49	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s193
 # text = Jawa Pos mengklaim sebagai "Harian Nasional yang Terbit dari Surabaya".
@@ -8585,7 +8577,7 @@
 69	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s313
-# text = Di sisi lain, unggulan lainnya seperti Petra Kvitová, Agnieszka Radwańska, Victoria Azarenka, Kaia Kanepi, Roberta Vinci, Andrea Petkovic, Li Na, Maria Kirilenko dan Yanina Wickmayer melaju ke babak berikutnya, sementara Sorana Cirstea mengalahkan unggulan ke - 27 Alexandra Dulgheru dengan skor 6 – 2, 7 – 5 dan peesrta asal Amerika Serikat, Vania King mengalahkan peserta asal Inggris, Elena Baltacha dengan skor 4 – 6, 6 – 1, 6 – 4.
+# text = Di sisi lain, unggulan lainnya seperti Petra Kvitová, Agnieszka Radwańska, Victoria Azarenka, Kaia Kanepi, Roberta Vinci, Andrea Petkovic, Li Na, Maria Kirilenko dan Yanina Wickmayer melaju ke babak berikutnya, sementara Sorana Cirstea mengalahkan unggulan ke-27 Alexandra Dulgheru dengan skor 6 – 2, 7 – 5 dan peesrta asal Amerika Serikat, Vania King mengalahkan peserta asal Inggris, Elena Baltacha dengan skor 4 – 6, 6 – 1, 6 – 4.
 # text_en = On the other hand, other seeds such as Petra Kvitová, Agnieszka Radwańska, Victoria Azarenka, Kaia Kanepi, Roberta Vinci, Andrea Petkovic, Li Na, Maria Kirilenko and Yanina Wickmayer advanced to the next round, while Sorana Cirstea defeated 27th seed Alexandra Dulgheru with a score of 6 – 2, 7 – 5 and the American competitor, Vania King defeated the British competitor, Elena Baltacha with a score of 4 – 6, 6 – 1, 6 – 4.
 1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
 2	sisi	sisi	NOUN	NSD	Number=Sing	34	obl	_	MorphInd=^sisi<n>_NSD$
@@ -8630,49 +8622,47 @@
 41	Cirstea	cirstea	PROPN	X--	_	40	flat:name	_	MorphInd=^cirstea<x>_X--$
 42	mengalahkan	kalah	VERB	VSA	Voice=Act	34	advcl	_	MorphInd=^meN+kalah<a>+kan_VSA$
 43	unggulan	unggulan	NOUN	NSD	Number=Sing	42	obj	_	MorphInd=^unggul<a>+an_NSD$
-44	ke	ke	NUM	R--	NumType=Card	43	nummod	_	MorphInd=^ke<r>_R--$
-45	-	-	PUNCT	Z--	_	46	punct	_	MorphInd=^-<z>_Z--$
-46	27	27	NUM	CC-	NumType=Card	44	nummod	_	MorphInd=^27<c>_CC-$
-47	Alexandra	alexandra	PROPN	F--	_	43	nmod	_	MorphInd=^alexandra<f>_F--$
-48	Dulgheru	dulgheru	PROPN	X--	_	47	flat:name	_	MorphInd=^dulgheru<x>_X--$
-49	dengan	dengan	ADP	R--	_	50	case	_	MorphInd=^dengan<r>_R--$
-50	skor	skor	NOUN	NSD	Number=Sing	42	obl	_	MorphInd=^skor<n>_NSD$
-51	6	6	NUM	CC-	NumType=Card	50	nummod	_	MorphInd=^6<c>_CC-$
-52	–	–	PUNCT	Z--	_	53	punct	_	MorphInd=^–<z>_Z--$
-53	2	2	NUM	CC-	NumType=Card	51	nummod	_	SpaceAfter=No|MorphInd=^2<c>_CC-$
-54	,	,	PUNCT	Z--	_	55	punct	_	MorphInd=^,<z>_Z--$
-55	7	7	NUM	CC-	NumType=Card	50	nummod	_	MorphInd=^7<c>_CC-$
-56	–	–	PUNCT	Z--	_	57	punct	_	MorphInd=^–<z>_Z--$
-57	5	5	NUM	CC-	NumType=Card	55	nummod	_	MorphInd=^5<c>_CC-$
-58	dan	dan	CCONJ	H--	_	66	cc	_	MorphInd=^dan<h>_H--$
-59	peesrta	peesrta	NOUN	X--	_	66	nsubj	_	MorphInd=^peesrta<x>_X--$
-60	asal	asal	ADP	NSD	_	61	case	_	MorphInd=^asal<n>_NSD$
-61	Amerika	amerika	PROPN	NSD	_	59	nmod	_	MorphInd=^amerika<n>_NSD$
-62	Serikat	serikat	PROPN	NSD	_	61	flat:name	_	SpaceAfter=No|MorphInd=^serikat<n>_NSD$
-63	,	,	PUNCT	Z--	_	64	punct	_	MorphInd=^,<z>_Z--$
-64	Vania	vania	PROPN	F--	_	59	appos	_	MorphInd=^vania<f>_F--$
-65	King	king	PROPN	F--	_	64	flat:name	_	MorphInd=^king<f>_F--$
-66	mengalahkan	kalah	VERB	VSA	Voice=Act	42	conj	_	MorphInd=^meN+kalah<a>+kan_VSA$
-67	peserta	peserta	NOUN	NSD	Number=Sing	66	obj	_	MorphInd=^peserta<n>_NSD$
-68	asal	asal	ADP	NSD	_	69	case	_	MorphInd=^asal<n>_NSD$
-69	Inggris	inggris	PROPN	NSD	_	67	nmod	_	SpaceAfter=No|MorphInd=^inggris<n>_NSD$
-70	,	,	PUNCT	Z--	_	71	punct	_	MorphInd=^,<z>_Z--$
-71	Elena	elena	PROPN	F--	_	69	appos	_	MorphInd=^elena<f>_F--$
-72	Baltacha	baltacha	PROPN	X--	_	71	flat:name	_	MorphInd=^baltacha<x>_X--$
-73	dengan	dengan	ADP	R--	_	74	case	_	MorphInd=^dengan<r>_R--$
-74	skor	skor	NOUN	NSD	Number=Sing	66	obl	_	MorphInd=^skor<n>_NSD$
-75	4	4	NUM	CC-	NumType=Card	74	nummod	_	MorphInd=^4<c>_CC-$
-76	–	–	PUNCT	Z--	_	77	punct	_	MorphInd=^–<z>_Z--$
-77	6	6	NUM	CC-	NumType=Card	75	nummod	_	SpaceAfter=No|MorphInd=^6<c>_CC-$
-78	,	,	PUNCT	Z--	_	77	punct	_	MorphInd=^,<z>_Z--$
-79	6	6	NUM	CC-	NumType=Card	74	nummod	_	MorphInd=^6<c>_CC-$
-80	–	–	PUNCT	Z--	_	81	punct	_	MorphInd=^–<z>_Z--$
-81	1	1	NUM	CC-	NumType=Card	79	nummod	_	SpaceAfter=No|MorphInd=^1<c>_CC-$
-82	,	,	PUNCT	Z--	_	81	punct	_	MorphInd=^,<z>_Z--$
-83	6	6	NUM	CC-	NumType=Card	74	nummod	_	MorphInd=^6<c>_CC-$
-84	–	–	PUNCT	Z--	_	85	punct	_	MorphInd=^–<z>_Z--$
-85	4	4	NUM	CC-	NumType=Card	83	nummod	_	SpaceAfter=No|MorphInd=^4<c>_CC-$
-86	.	.	PUNCT	Z--	_	34	punct	_	MorphInd=^.<z>_Z--$
+44	ke-27	ke-27	ADJ	CO-	NumType=Ord	43	amod	_	MorphInd=^ke<r>_R--+27<c>_CC-$
+45	Alexandra	alexandra	PROPN	F--	_	43	nmod	_	MorphInd=^alexandra<f>_F--$
+46	Dulgheru	dulgheru	PROPN	X--	_	45	flat:name	_	MorphInd=^dulgheru<x>_X--$
+47	dengan	dengan	ADP	R--	_	48	case	_	MorphInd=^dengan<r>_R--$
+48	skor	skor	NOUN	NSD	Number=Sing	42	obl	_	MorphInd=^skor<n>_NSD$
+49	6	6	NUM	CC-	NumType=Card	48	nummod	_	MorphInd=^6<c>_CC-$
+50	–	–	PUNCT	Z--	_	51	punct	_	MorphInd=^–<z>_Z--$
+51	2	2	NUM	CC-	NumType=Card	49	nummod	_	SpaceAfter=No|MorphInd=^2<c>_CC-$
+52	,	,	PUNCT	Z--	_	53	punct	_	MorphInd=^,<z>_Z--$
+53	7	7	NUM	CC-	NumType=Card	48	nummod	_	MorphInd=^7<c>_CC-$
+54	–	–	PUNCT	Z--	_	55	punct	_	MorphInd=^–<z>_Z--$
+55	5	5	NUM	CC-	NumType=Card	53	nummod	_	MorphInd=^5<c>_CC-$
+56	dan	dan	CCONJ	H--	_	64	cc	_	MorphInd=^dan<h>_H--$
+57	peesrta	peesrta	NOUN	X--	_	64	nsubj	_	MorphInd=^peesrta<x>_X--$
+58	asal	asal	ADP	NSD	_	59	case	_	MorphInd=^asal<n>_NSD$
+59	Amerika	amerika	PROPN	NSD	_	57	nmod	_	MorphInd=^amerika<n>_NSD$
+60	Serikat	serikat	PROPN	NSD	_	59	flat:name	_	SpaceAfter=No|MorphInd=^serikat<n>_NSD$
+61	,	,	PUNCT	Z--	_	62	punct	_	MorphInd=^,<z>_Z--$
+62	Vania	vania	PROPN	F--	_	57	appos	_	MorphInd=^vania<f>_F--$
+63	King	king	PROPN	F--	_	62	flat:name	_	MorphInd=^king<f>_F--$
+64	mengalahkan	kalah	VERB	VSA	Voice=Act	42	conj	_	MorphInd=^meN+kalah<a>+kan_VSA$
+65	peserta	peserta	NOUN	NSD	Number=Sing	64	obj	_	MorphInd=^peserta<n>_NSD$
+66	asal	asal	ADP	NSD	_	67	case	_	MorphInd=^asal<n>_NSD$
+67	Inggris	inggris	PROPN	NSD	_	65	nmod	_	SpaceAfter=No|MorphInd=^inggris<n>_NSD$
+68	,	,	PUNCT	Z--	_	69	punct	_	MorphInd=^,<z>_Z--$
+69	Elena	elena	PROPN	F--	_	67	appos	_	MorphInd=^elena<f>_F--$
+70	Baltacha	baltacha	PROPN	X--	_	69	flat:name	_	MorphInd=^baltacha<x>_X--$
+71	dengan	dengan	ADP	R--	_	72	case	_	MorphInd=^dengan<r>_R--$
+72	skor	skor	NOUN	NSD	Number=Sing	64	obl	_	MorphInd=^skor<n>_NSD$
+73	4	4	NUM	CC-	NumType=Card	72	nummod	_	MorphInd=^4<c>_CC-$
+74	–	–	PUNCT	Z--	_	75	punct	_	MorphInd=^–<z>_Z--$
+75	6	6	NUM	CC-	NumType=Card	73	nummod	_	SpaceAfter=No|MorphInd=^6<c>_CC-$
+76	,	,	PUNCT	Z--	_	75	punct	_	MorphInd=^,<z>_Z--$
+77	6	6	NUM	CC-	NumType=Card	72	nummod	_	MorphInd=^6<c>_CC-$
+78	–	–	PUNCT	Z--	_	79	punct	_	MorphInd=^–<z>_Z--$
+79	1	1	NUM	CC-	NumType=Card	77	nummod	_	SpaceAfter=No|MorphInd=^1<c>_CC-$
+80	,	,	PUNCT	Z--	_	79	punct	_	MorphInd=^,<z>_Z--$
+81	6	6	NUM	CC-	NumType=Card	72	nummod	_	MorphInd=^6<c>_CC-$
+82	–	–	PUNCT	Z--	_	83	punct	_	MorphInd=^–<z>_Z--$
+83	4	4	NUM	CC-	NumType=Card	81	nummod	_	SpaceAfter=No|MorphInd=^4<c>_CC-$
+84	.	.	PUNCT	Z--	_	34	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s314
 # text = Turnamen ini memasuki edisi kesembilan dan merupakan bagian dari ATP Challenger Tour 2011.
@@ -15062,7 +15052,7 @@
 27	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s557
-# text = Tisha B 'Av (atau, Tesha Be - Ab "Tanggal 9 bulan Ab") adalah hari berkabung bagi orang Yahudi setiap tahun yang jatuh pada tanggal 9 bulan Ab yaitu bulan ke - 5 di kalender Yahudi.
+# text = Tisha B 'Av (atau, Tesha Be - Ab "Tanggal 9 bulan Ab") adalah hari berkabung bagi orang Yahudi setiap tahun yang jatuh pada tanggal 9 bulan Ab yaitu bulan ke-5 di kalender Yahudi.
 # text_en = Tisha B 'Av (or, Tesha Be - Ab "The 9th of the month Ab") is a day of mourning for the Jews every year that falls on the 9th of the month Ab which is the 5th month of the Jewish calendar.
 1	Tisha	tisha	PROPN	X--	_	20	nsubj	_	MorphInd=^tisha<x>_X--$
 2	B	b	PROPN	F--	_	1	flat:name	_	MorphInd=^b<f>_F--$
@@ -15099,13 +15089,11 @@
 33	Ab	ab	PROPN	F--	_	32	nmod	_	MorphInd=^ab<f>_F--$
 34	yaitu	yaitu	ADP	O--	_	35	case	_	MorphInd=^yaitu<o>_O--$
 35	bulan	bulan	NOUN	NSD	_	32	nmod	_	MorphInd=^bulan<n>_NSD$
-36	ke	ke	NUM	R--	NumType=Card	35	nummod	_	MorphInd=^ke<r>_R--$
-37	-	-	PUNCT	Z--	_	38	punct	_	MorphInd=^-<z>_Z--$
-38	5	5	NUM	CC-	NumType=Card	36	nummod	_	MorphInd=^5<c>_CC-$
-39	di	di	ADP	R--	_	40	case	_	MorphInd=^di<r>_R--$
-40	kalender	kalender	NOUN	NSD	Number=Sing	35	nmod	_	MorphInd=^kalender<n>_NSD$
-41	Yahudi	yahudi	PROPN	NSD	_	40	nmod	_	SpaceAfter=No|MorphInd=^yahudi<n>_NSD$
-42	.	.	PUNCT	Z--	_	20	punct	_	MorphInd=^.<z>_Z--$
+36	ke-5	ke-5	ADJ	CO-	NumType=Ord	35	amod	_	MorphInd=^ke<r>_R--+5<c>_CC-$
+37	di	di	ADP	R--	_	38	case	_	MorphInd=^di<r>_R--$
+38	kalender	kalender	NOUN	NSD	Number=Sing	35	nmod	_	MorphInd=^kalender<n>_NSD$
+39	Yahudi	yahudi	PROPN	NSD	_	38	nmod	_	SpaceAfter=No|MorphInd=^yahudi<n>_NSD$
+40	.	.	PUNCT	Z--	_	20	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s558
 # text = Cibodas Baru adalah sebuah kelurahan di wilayah Kecamatan Cibodas, Kota Tangerang, Provinsi Banten, Indonesia.
