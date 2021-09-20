@@ -100,7 +100,7 @@ UPOS: converted from manual
 XPOS: automatic
 Features: automatic
 Relations: converted from manual
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Larasati, Septina Dian
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Larasati, Septina Dian; Alfina, Ika
 Contributing: to be adopted
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
