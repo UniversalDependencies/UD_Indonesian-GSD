@@ -1143,12 +1143,12 @@
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj:pass	_	MorphInd=^yang<s>_S--$
 18	diberikan	beri	VERB	VSP	Voice=Pass	16	acl:relcl	_	MorphInd=^di+beri<v>+kan_VSP$
 19	oleh	oleh	ADP	R--	_	20	case	_	MorphInd=^oleh<r>_R--$
-20	General	general	X	F--	_	18	obl	_	MorphInd=^general<f>_F--$
-21	Conference	conference	X	F--	_	20	flat:foreign	_	MorphInd=^conference<f>_F--$
-22	on	on	X	F--	_	20	flat:foreign	_	MorphInd=^on<f>_F--$
-23	Weights	weights	X	X--	_	20	flat:foreign	_	MorphInd=^weights<x>_X--$
-24	and	and	X	F--	_	20	flat:foreign	_	MorphInd=^and<f>_F--$
-25	Measures	measures	X	X--	_	20	flat:foreign	_	MorphInd=^measures<x>_X--$
+20	General	general	X	F--	Foreign=Yes	18	obl	_	MorphInd=^general<f>_F--$
+21	Conference	conference	X	F--	Foreign=Yes	20	flat:foreign	_	MorphInd=^conference<f>_F--$
+22	on	on	X	F--	Foreign=Yes	20	flat:foreign	_	MorphInd=^on<f>_F--$
+23	Weights	weights	X	X--	Foreign=Yes	20	flat:foreign	_	MorphInd=^weights<x>_X--$
+24	and	and	X	F--	Foreign=Yes	20	flat:foreign	_	MorphInd=^and<f>_F--$
+25	Measures	measures	X	X--	Foreign=Yes	20	flat:foreign	_	MorphInd=^measures<x>_X--$
 26	(	(	PUNCT	Z--	_	27	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 27	CGPM	cgpm	PROPN	X--	_	20	appos	_	SpaceAfter=No|MorphInd=^cgpm<x>_X--$
 28	)	)	PUNCT	Z--	_	27	punct	_	MorphInd=^)<z>_Z--$
@@ -4062,9 +4062,9 @@
 10	mengambil	ambil	VERB	VSA	Voice=Act	8	xcomp	_	MorphInd=^meN+ambil<v>_VSA$
 11	p	p	NOUN	F--	_	10	obj	_	SpaceAfter=No|MorphInd=^p<f>_F--$
 12	(	(	PUNCT	Z--	_	13	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-13	x	x	X	F--	_	11	appos	_	SpaceAfter=No|MorphInd=^x<f>_F--$
+13	x	x	X	F--	Foreign=Yes	11	appos	_	SpaceAfter=No|MorphInd=^x<f>_F--$
 14	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
-15	y	y	X	F--	_	13	conj	_	SpaceAfter=No|MorphInd=^y<f>_F--$
+15	y	y	X	F--	Foreign=Yes	13	conj	_	SpaceAfter=No|MorphInd=^y<f>_F--$
 16	)	)	PUNCT	Z--	_	13	punct	_	MorphInd=^)<z>_Z--$
 17	=	=	SYM	Z--	_	13	nmod	_	MorphInd=^=<z>_Z--$
 18	0	0	NUM	CC-	NumType=Card	17	nummod	_	SpaceAfter=No|MorphInd=^0<c>_CC-$
@@ -5211,7 +5211,7 @@
 # sent_id = dev-s186
 # text = Tuh, kamu lupa lagi kan? - Lihat, kamu lupa lagi bukan?
 # text_en = Oh, you forgot again, right? - Look, you forgot again didn't you?
-1	Tuh	tuh	X	X--	_	4	dep	_	SpaceAfter=No|MorphInd=^tuh<x>_X--$
+1	Tuh	tuh	X	X--	Foreign=Yes	4	dep	_	SpaceAfter=No|MorphInd=^tuh<x>_X--$
 2	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 3	kamu	kamu	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	MorphInd=^kamu<p>_PS2$
 4	lupa	lupa	VERB	VSA	Voice=Act	0	root	_	MorphInd=^lupa<v>_VSA$
@@ -6592,7 +6592,7 @@
 # text = Gimana toh ini?
 # text_en = How's this?
 1	Gimana	gimana	ADV	X--	_	3	advmod	_	MorphInd=^gimana<x>_X--$
-2	toh	toh	X	X--	_	1	dep	_	MorphInd=^toh<x>_X--$
+2	toh	toh	X	X--	Foreign=Yes	1	dep	_	MorphInd=^toh<x>_X--$
 3	ini	ini	PRON	B--	PronType=Dem	0	root	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
 4	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
 
@@ -10600,7 +10600,7 @@
 10	RW	rw	PROPN	NSD	_	8	nmod	_	MorphInd=^rw<n>_NSD$
 11	1	1	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^1<c>_CC-$
 12	tepat	tepat	ADP	ASP	_	14	case	_	MorphInd=^tepat<a>_ASP$
-13	y	y	X	F--	_	14	dep	_	MorphInd=^y<f>_F--$
+13	y	y	X	F--	Foreign=Yes	14	dep	_	MorphInd=^y<f>_F--$
 14	jalan	jalan	VERB	NSD	_	8	nmod	_	MorphInd=^jalan<n>_NSD$
 15	ronggowasesa	ronggowasesa	NOUN	X--	_	14	obj	_	MorphInd=^ronggowasesa<x>_X--$
 16	(	(	PUNCT	Z--	_	17	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
@@ -14790,7 +14790,7 @@
 # sent_id = dev-s546
 # text = Iye, wah foto kopian-ku, mau kalian lihat saya?
 # text_en = Yes, my photo copy, you want to see me?
-1	Iye	iye	X	X--	_	4	nmod	_	SpaceAfter=No|MorphInd=^iye<x>_X--$
+1	Iye	iye	X	X--	Foreign=Yes	4	nmod	_	SpaceAfter=No|MorphInd=^iye<x>_X--$
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	wah	wah	INTJ	I--	_	4	discourse	_	MorphInd=^wah<i>_I--$
 4	foto	foto	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^foto<n>_NSD$
