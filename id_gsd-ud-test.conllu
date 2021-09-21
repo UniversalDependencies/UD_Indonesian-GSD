@@ -1583,7 +1583,7 @@
 6	beberapa	beberapa	DET	B--	PronType=Ind	7	det	_	MorphInd=^beberapa<b>_B--$
 7	komune	komune	NOUN	X--	_	4	nmod	_	MorphInd=^komune<x>_X--$
 8	Perancis	perancis	PROPN	NSD	_	7	nmod	_	MorphInd=^perancis<n>_NSD$
-9	dimana	dimana	SCONJ	W--	_	12	mark	_	MorphInd=^dimana<w>_W--$
+9	dimana	dimana	SCONJ	W--	Typo=Yes	12	mark	_	MorphInd=^dimana<w>_W--$
 10-11	batasannya	_	_	_	_	_	_	_	MorphInd=^batas<n>+an_NSD+dia<p>_PS3$
 10	batasan	batasan	NOUN	NSD	Number=Sing	12	nsubj:pass	_	MorphInd=^batas<n>+an_NSD$
 11	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -7333,7 +7333,7 @@
 15	ke	ke	ADP	R--	_	16	case	_	MorphInd=^ke<r>_R--$
 16	Eropa	eropa	PROPN	NSD	_	14	obl	_	SpaceAfter=No|MorphInd=^eropa<n>_NSD$
 17	,	,	PUNCT	Z--	_	21	punct	_	MorphInd=^,<z>_Z--$
-18	dimana	dimana	SCONJ	W--	_	21	mark	_	MorphInd=^dimana<w>_W--$
+18	dimana	dimana	SCONJ	W--	Typo=Yes	21	mark	_	MorphInd=^dimana<w>_W--$
 19	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	21	nsubj	_	MorphInd=^ia<p>_PS3$
 20	mulai	mulai	ADV	VSA	_	21	advmod	_	MorphInd=^mulai<v>_VSA$
 21	bekerja	bekerja	VERB	VSA	Voice=Act	5	advcl	_	MorphInd=^bekerja<v>_VSA$
@@ -10090,7 +10090,7 @@
 35	tampilan	tampilan	NOUN	NSD	Number=Sing	34	obj	_	MorphInd=^tampil<v>+an_NSD$
 36	yang	yang	PRON	S--	PronType=Rel	37	obj	_	MorphInd=^yang<s>_S--$
 37	berbeda	berbeda	ADJ	VSA	_	35	acl:relcl	_	MorphInd=^ber+beda<a>_VSA$
-38	dimana	dimana	SCONJ	W--	_	39	mark	_	MorphInd=^dimana<w>_W--$
+38	dimana	dimana	SCONJ	W--	Typo=Yes	39	mark	_	MorphInd=^dimana<w>_W--$
 39	terdiri	diri	VERB	VSP	Voice=Pass	35	xcomp	_	MorphInd=^ter+diri<n>_VSP$
 40	dari	dari	ADP	R--	_	42	case	_	MorphInd=^dari<r>_R--$
 41	tiga	tiga	NUM	CC-	NumType=Card	42	nummod	_	MorphInd=^tiga<c>_CC-$
@@ -10381,7 +10381,7 @@
 69	yang	yang	PRON	S--	PronType=Rel	70	nsubj	_	MorphInd=^yang<s>_S--$
 70	sesungguhnya	sesungguhnya	ADV	D--	_	67	advmod	_	SpaceAfter=No|MorphInd=^sesungguhnya<d>_D--$
 71	,	,	PUNCT	Z--	_	76	punct	_	MorphInd=^,<z>_Z--$
-72	dimana	dimana	SCONJ	W--	_	73	mark	_	MorphInd=^dimana<w>_W--$
+72	dimana	dimana	SCONJ	W--	Typo=Yes	73	mark	_	MorphInd=^dimana<w>_W--$
 73	umat	umat	NOUN	NSD	Number=Sing	76	nsubj	_	MorphInd=^umat<n>_NSD$
 74	tersebut	tersebut	DET	B--	PronType=Dem	73	obj	_	MorphInd=^tersebut<b>_B--$
 75	mampu	mampu	AUX	M--	_	76	aux	_	MorphInd=^mampu<m>_M--$
@@ -10981,7 +10981,7 @@
 7-8	mendukungnya	_	_	_	_	_	_	_	MorphInd=^meN+dukung<v>_VSA+dia<p>_PS3$
 7	mendukung	dukung	VERB	VSA	Voice=Act	5	acl:relcl	_	MorphInd=^meN+dukung<v>_VSA$
 8	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	obj	_	MorphInd=^dia<p>_PS3$
-9	dimana	dimana	SCONJ	W--	_	13	mark	_	MorphInd=^dimana<w>_W--$
+9	dimana	dimana	SCONJ	W--	Typo=Yes	13	mark	_	MorphInd=^dimana<w>_W--$
 10	microSD	microsd	PROPN	X--	_	13	nsubj	_	MorphInd=^microsd<x>_X--$
 11	pun	pun	PART	T--	_	10	advmod:emph	_	MorphInd=^pun<t>_T--$
 12	dapat	dapat	AUX	VSA	_	13	aux	_	MorphInd=^dapat<v>_VSA$
@@ -13400,7 +13400,7 @@
 40	yang	yang	PRON	S--	PronType=Rel	41	nsubj:pass	_	MorphInd=^yang<s>_S--$
 41	terletak	letak	VERB	VSP	Voice=Pass	39	acl:relcl	_	MorphInd=^ter+letak<n>_VSP$
 42	didaerah	didaerah	ADP	VSP	_	48	case	_	MorphInd=^di+daerah<n>_VSP$
-43	dimana	dimana	ADP	W--	_	48	case	_	MorphInd=^dimana<w>_W--$
+43	dimana	dimana	ADP	W--	Typo=Yes	48	case	_	MorphInd=^dimana<w>_W--$
 44	lingkungan	lingkungan	NOUN	NSD	Number=Sing	48	nsubj	_	MorphInd=^lingkung<v>+an_NSD$
 45	internet	internet	NOUN	NSD	Number=Sing	44	compound	_	MorphInd=^internet<n>_NSD$
 46	tidak	tidak	PART	G--	Polarity=Neg	48	advmod	_	MorphInd=^tidak<g>_G--$

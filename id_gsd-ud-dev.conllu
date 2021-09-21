@@ -154,7 +154,7 @@
 # sent_id = dev-s6
 # text = Delapn tim bersaing pada putaran pertama musim; tujuh tim dari Sydney dan satu tim dari Newcastle.
 # text_en = Eight teams compete in the first round of the season; seven teams from Sydney and one team from Newcastle.
-1	Delapn	delapn	NUM	X--	NumType=Card	2	nummod	_	MorphInd=^delapn<x>_X--$
+1	Delapn	delapan	NUM	X--	NumType=Card|Typo=Yes	2	nummod	_	CorrectForm=Delapan|MorphInd=^delapn<x>_X--$
 2	tim	tim	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^tim<n>_NSD$
 3	bersaing	saing	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+saing<v>_VSA$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
@@ -3971,9 +3971,9 @@
 # text_en = - a bit extravagant don't you think?
 1	-	-	PUNCT	Z--	_	3	punct	_	MorphInd=^-<z>_Z--$
 2	agak	agak	ADV	D--	_	3	advmod	_	MorphInd=^agak<d>_D--$
-3	boros	boros	VERB	ASP	_	0	root	_	MorphInd=^boros<a>_ASP$
+3	boros	boros	ADJ	ASP	_	0	root	_	MorphInd=^boros<a>_ASP$
 4	ga	ga	X	F--	Foreign=Yes	3	dep	_	MorphInd=^ga<f>_F--$
-5	kira2	kira2	ADV	X--	_	4	advmod	_	SpaceAfter=No|MorphInd=^kira2<x>_X--$
+5	kira2	kira	ADV	X--	Typo=Yes	3	advmod	_	CorrectForm=kira-kira|SpaceAfter=No|MorphInd=^kira2<x>_X--$
 6	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s142
@@ -13406,7 +13406,7 @@
 11	serta	serta	CCONJ	H--	_	12	cc	_	MorphInd=^serta<h>_H--$
 12	gunung	gunung	NOUN	NSD	Number=Sing	5	conj	_	MorphInd=^gunung<n>_NSD$
 13	Nebo	nebo	PROPN	X--	_	12	nmod	_	MorphInd=^nebo<x>_X--$
-14	dimana	dimana	SCONJ	W--	_	16	mark	_	MorphInd=^dimana<w>_W--$
+14	dimana	dimana	SCONJ	W--	Typo=Yes	16	mark	_	MorphInd=^dimana<w>_W--$
 15	Musa	musa	PROPN	F--	_	16	nsubj	_	MorphInd=^musa<f>_F--$
 16	mati	mati	VERB	ASP	_	12	acl	_	SpaceAfter=No|MorphInd=^mati<a>_ASP$
 17	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
@@ -13786,7 +13786,7 @@
 2	Pangeran	pangeran	PROPN	NSD	_	1	flat:name	_	MorphInd=^pangeran<n>_NSD$
 3	adalah	adalah	AUX	O--	_	4	cop	_	MorphInd=^adalah<o>_O--$
 4	kelurahan	kelurahan	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^ke+lurah<n>+an_NSD$
-5	dimana	dimana	SCONJ	W--	_	6	mark	_	MorphInd=^dimana<w>_W--$
+5	dimana	dimana	SCONJ	W--	Typo=Yes	6	mark	_	MorphInd=^dimana<w>_W--$
 6	tempat	tempat	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^tempat<n>_NSD$
 7-8	berkumpulnya	_	_	_	_	_	_	_	MorphInd=^ber+kumpul<v>_VSA+dia<p>_PS3$
 7	berkumpul	kumpul	VERB	VSA	Voice=Act	6	amod	_	MorphInd=^ber+kumpul<v>_VSA$
@@ -15026,7 +15026,7 @@
 3	sisi	sisi	NOUN	NSD	Number=Sing	1	nmod	_	MorphInd=^sisi<n>_NSD$
 4	hardware	hardware	NOUN	F--	_	3	compound	_	MorphInd=^hardware<f>_F--$
 5	ini	ini	DET	B--	PronType=Dem	4	det	_	MorphInd=^ini<b>_B--$
-6	dimana	dimana	SCONJ	W--	_	9	mark	_	MorphInd=^dimana<w>_W--$
+6	dimana	dimana	SCONJ	W--	Typo=Yes	9	mark	_	MorphInd=^dimana<w>_W--$
 7	Symbian	symbian	PROPN	X--	_	9	nsubj:pass	_	MorphInd=^symbian<x>_X--$
 8	OS	os	PROPN	F--	_	7	flat:name	_	MorphInd=^os<f>_F--$
 9	diimplementasi	implementasi	VERB	VSP	Voice=Pass	1	acl	_	MorphInd=^di+implementasi<n>_VSP$
