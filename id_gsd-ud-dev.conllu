@@ -1965,7 +1965,7 @@
 8	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 9	terpilih	pilih	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^ter+pilih<v>_VSP$
 10	secara	secara	ADP	R--	_	11	case:adv	_	MorphInd=^secara<r>_R--$
-11	resmi	resmi	ADJ	ASP	_	9	xcomp	_	MorphInd=^resmi<a>_ASP$
+11	resmi	resmi	ADJ	ASP	_	9	advmod	_	MorphInd=^resmi<a>_ASP$
 12	sebagai	sebagai	ADP	R--	_	13	case	_	MorphInd=^sebagai<r>_R--$
 13	tuan	tuan	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^tuan<n>_NSD$
 14	rumah	rumah	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^rumah<n>_NSD$
@@ -2162,7 +2162,7 @@
 139	dan	dan	CCONJ	H--	_	140	cc	_	MorphInd=^dan<h>_H--$
 140	digunakan	guna	VERB	VSP	Voice=Pass	132	conj	_	MorphInd=^di+guna<n>+kan_VSP$
 141	secara	secara	ADP	R--	_	142	case:adv	_	MorphInd=^secara<r>_R--$
-142	komersial	komersial	ADJ	ASP	_	140	xcomp	_	MorphInd=^komersial<a>_ASP$
+142	komersial	komersial	ADJ	ASP	_	140	advmod	_	MorphInd=^komersial<a>_ASP$
 143	pada	pada	ADP	R--	_	144	case	_	MorphInd=^pada<r>_R--$
 144	tahun	tahun	NOUN	NSD	Number=Sing	140	obl	_	MorphInd=^tahun<n>_NSD$
 145	1991	1991	NUM	CC-	NumType=Card	144	nummod	_	SpaceAfter=No|MorphInd=^1991<c>_CC-$
@@ -3316,7 +3316,7 @@
 4	Bait	bait	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^bait<n>_NSD$
 5	Allah	allah	NOUN	NSD	Number=Sing	4	compound	_	MorphInd=^allah<n>_NSD$
 6	secara	secara	ADP	R--	_	7	case:adv	_	MorphInd=^secara<r>_R--$
-7	khusus	khusus	ADV	ASP	_	8	xcomp	_	MorphInd=^khusus<a>_ASP$
+7	khusus	khusus	ADV	ASP	_	8	advmod	_	MorphInd=^khusus<a>_ASP$
 8	dituduh	tuduh	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+tuduh<v>_VSP$
 9	menyembah	sembah	VERB	VSA	Voice=Act	8	ccomp	_	MorphInd=^meN+sembah<v>_VSA$
 10	semacam	semacam	NOUN	ASP	_	11	nmod	_	MorphInd=^se+macam<n>_ASP$
@@ -6806,8 +6806,8 @@
 2	kakawen	kakawen	NOUN	X--	_	1	compound	_	MorphInd=^kakawen<x>_X--$
 3	masuk	masuk	VERB	VSA	Voice=Act	0	root	_	MorphInd=^masuk<v>_VSA$
 4	pula	pula	ADV	D--	_	3	advmod	_	MorphInd=^pula<d>_D--$
-5	secara	secara	ADP	R--	_	3	case:adv	_	MorphInd=^secara<r>_R--$
-6	utuh	utuh	ADJ	ASP	_	3	amod	_	MorphInd=^utuh<a>_ASP$
+5	secara	secara	ADP	R--	_	6	case:adv	_	MorphInd=^secara<r>_R--$
+6	utuh	utuh	ADJ	ASP	_	3	advmod	_	MorphInd=^utuh<a>_ASP$
 7	pada	pada	ADP	R--	_	8	case	_	MorphInd=^pada<r>_R--$
 8	Tembang	tembang	PROPN	X--	_	3	obl	_	MorphInd=^tembang<x>_X--$
 9	Sunda	sunda	PROPN	F--	_	8	flat:name	_	MorphInd=^sunda<f>_F--$
@@ -7196,9 +7196,9 @@
 3	dapat	dapat	AUX	M--	_	4	aux	_	MorphInd=^dapat<m>_M--$
 4	dilakukan	laku	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
 5	bersama	bersama	ADV	VSA	_	4	advmod	_	MorphInd=^ber+sama<a>_VSA$
-6	atau	atau	CCONJ	H--	_	5	cc	_	MorphInd=^atau<h>_H--$
-7	secara	secara	ADP	R--	_	5	case:adv	_	MorphInd=^secara<r>_R--$
-8	perorangan	perorangan	ADJ	NSD	_	5	amod	_	SpaceAfter=No|MorphInd=^per+orang<n>+an_NSD$
+6	atau	atau	CCONJ	H--	_	8	cc	_	MorphInd=^atau<h>_H--$
+7	secara	secara	ADP	R--	_	8	case:adv	_	MorphInd=^secara<r>_R--$
+8	perorangan	perorangan	NOUN	NSD	_	5	conj	_	SpaceAfter=No|MorphInd=^per+orang<n>+an_NSD$
 9	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s262
@@ -8084,7 +8084,7 @@
 7	tidak	tidak	PART	G--	Polarity=Neg	8	advmod	_	MorphInd=^tidak<g>_G--$
 8	diketahui	ketahui	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+ketahui<v>_VSP$
 9	secara	secara	ADP	R--	_	10	case:adv	_	MorphInd=^secara<r>_R--$
-10	jelas	jelas	ADJ	ASP	_	8	xcomp	_	SpaceAfter=No|MorphInd=^jelas<a>_ASP$
+10	jelas	jelas	ADJ	ASP	_	8	advmod	_	SpaceAfter=No|MorphInd=^jelas<a>_ASP$
 11	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s300
@@ -9246,7 +9246,7 @@
 13	populasi	populasi	NOUN	NSD	Number=Sing	12	obj	_	MorphInd=^populasi<n>_NSD$
 14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	MorphInd=^dia<p>_PS3$
 15	secara	secara	ADP	R--	_	16	case:adv	_	MorphInd=^secara<r>_R--$
-16	drastis	drastis	ADJ	ASP	_	13	acl	_	MorphInd=^drastis<a>_ASP$
+16	drastis	drastis	ADJ	ASP	_	12	advmod	_	MorphInd=^drastis<a>_ASP$
 17	dan	dan	CCONJ	H--	_	19	cc	_	MorphInd=^dan<h>_H--$
 18	kini	kini	ADV	D--	_	19	advmod	_	MorphInd=^kini<d>_D--$
 19	mengancam	ancam	VERB	VSA	Voice=Act	12	conj	_	MorphInd=^meN+ancam<v>_VSA$
@@ -10721,7 +10721,7 @@
 30	Agung	agung	PROPN	ASP	_	29	flat:name	_	MorphInd=^agung<a>_ASP$
 31	UMNO	umno	PROPN	X--	_	29	flat:name	_	MorphInd=^umno<x>_X--$
 32	secara	secara	ADP	R--	_	33	case:adv	_	MorphInd=^secara<r>_R--$
-33	langsung	langsung	ADJ	D--	_	28	xcomp	_	MorphInd=^langsung<d>_D--$
+33	langsung	langsung	ADJ	D--	_	28	advmod	_	MorphInd=^langsung<d>_D--$
 34	dari	dari	ADP	R--	_	35	case	_	MorphInd=^dari<r>_R--$
 35	Pusat	pusat	PROPN	ASP	_	28	obl	_	MorphInd=^pusat<a>_ASP$
 36	Dagangan	dagangan	PROPN	NSD	_	35	flat:name	_	MorphInd=^dagang<v>+an_NSD$
@@ -11852,13 +11852,13 @@
 2	Sepakbola	sepakbola	PROPN	NSD	_	1	flat:name	_	MorphInd=^sepakbola<n>_NSD$
 3	dapat	dapat	AUX	M--	_	4	aux	_	MorphInd=^dapat<m>_M--$
 4	dimainkan	main	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+main<v>+kan_VSP$
-5	secara	secara	ADP	R--	_	4	case:adv	_	MorphInd=^secara<r>_R--$
-6	gratis	gratis	ADJ	NSD	_	4	amod	_	MorphInd=^gratis<n>_NSD$
-7	maupun	maupun	CCONJ	H--	_	4	cc	_	MorphInd=^maupun<h>_H--$
+5	secara	secara	ADP	R--	_	6	case:adv	_	MorphInd=^secara<r>_R--$
+6	gratis	gratis	ADJ	NSD	_	4	advmod	_	MorphInd=^gratis<n>_NSD$
+7	maupun	maupun	CCONJ	H--	_	9	cc	_	MorphInd=^maupun<h>_H--$
 8	secara	secara	ADP	R--	_	9	case:adv	_	MorphInd=^secara<r>_R--$
-9	eksklusif	eksklusif	ADJ	ASP	_	4	ccomp	_	MorphInd=^eksklusif<a>_ASP$
+9	eksklusif	eksklusif	ADJ	ASP	_	6	conj	_	MorphInd=^eksklusif<a>_ASP$
 10	dengan	dengan	SCONJ	R--	_	11	mark	_	MorphInd=^dengan<r>_R--$
-11	menjadi	jadi	VERB	VSA	Voice=Act	4	xcomp	_	MorphInd=^meN+jadi<a>_VSA$
+11	menjadi	jadi	VERB	VSA	Voice=Act	4	advcl	_	MorphInd=^meN+jadi<a>_VSA$
 12	pemegang	penpegang	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^peN+pegang<v>_NSD$
 13	tiket	tiket	NOUN	NSD	Number=Sing	12	compound	_	MorphInd=^tiket<n>_NSD$
 14	terusan	terusan	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^terus<a>+an_NSD$
@@ -12811,10 +12811,10 @@
 20-21	terbangnya	_	_	_	_	_	_	_	MorphInd=^terbang<v>_VSA+dia<p>_PS3$
 20	terbang	terbang	NOUN	VSA	_	19	compound	_	MorphInd=^terbang<v>_VSA$
 21	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	MorphInd=^dia<p>_PS3$
-22	sendiri	sendiri	ADJ	ASP	_	20	amod	_	MorphInd=^sendiri<a>_ASP$
+22	sendiri	sendiri	DET	ASP	PronType=Emp	21	det	_	MorphInd=^sendiri<a>_ASP$
 23	dan	dan	CCONJ	H--	_	26	cc	_	MorphInd=^dan<h>_H--$
-24	secara	secara	ADP	R--	_	26	case:adv	_	MorphInd=^secara<r>_R--$
-25	efisien	efisien	ADJ	ASP	_	26	amod	_	MorphInd=^efisien<a>_ASP$
+24	secara	secara	ADP	R--	_	25	case:adv	_	MorphInd=^secara<r>_R--$
+25	efisien	efisien	ADJ	ASP	_	26	advmod	_	MorphInd=^efisien<a>_ASP$
 26-27	mengirimkannya	_	_	_	_	_	_	_	MorphInd=^meN+kirim<v>+kan_VSA+dia<p>_PS3$
 26	mengirimkan	kirim	VERB	VSA	Voice=Act	17	conj	_	MorphInd=^meN+kirim<v>+kan_VSA$
 27	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	26	obj	_	MorphInd=^dia<p>_PS3$
@@ -13077,7 +13077,7 @@
 16	belum	belum	ADV	G--	_	17	advmod	_	MorphInd=^belum<g>_G--$
 17	mengetahui	ketahui	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+ketahui<v>_VSA$
 18	secara	secara	ADP	R--	_	19	case:adv	_	MorphInd=^secara<r>_R--$
-19	pasti	pasti	ADJ	ASP	_	17	xcomp	_	MorphInd=^pasti<a>_ASP$
+19	pasti	pasti	ADJ	ASP	_	17	advmod	_	MorphInd=^pasti<a>_ASP$
 20	bagaimana	bagaimana	ADV	W--	PronType=Int	25	case	_	MorphInd=^bagaimana<w>_W--$
 21	awan	awan	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^awan<n>_NSD$
 22	indah	indah	ADJ	ASP	_	21	amod	_	MorphInd=^indah<a>_ASP$
