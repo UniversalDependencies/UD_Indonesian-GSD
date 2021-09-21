@@ -3411,7 +3411,7 @@
 10	sedangkan	sedangkan	SCONJ	S--	_	14	mark	_	MorphInd=^sedangkan<s>_S--$
 11	anime	anime	NOUN	X--	_	14	nsubj:pass	_	MorphInd=^anime<x>_X--$
 12	-	-	PUNCT	Z--	_	13	punct	_	MorphInd=^-<z>_Z--$
-13	nya	nya	PRON	B--	_	11	det	_	MorphInd=^nya<b>_B--$
+13	nya	dia	PRON	B--	_	11	det	_	MorphInd=^nya<b>_B--$
 14	diproduksi	produksi	VERB	VSP	Voice=Pass	3	advcl	_	MorphInd=^di+produksi<n>_VSP$
 15	Nippon	nippon	PROPN	F--	_	14	obl	_	MorphInd=^nippon<f>_F--$
 16	Animation	animation	PROPN	X--	_	15	flat:name	_	MorphInd=^animation<x>_X--$
@@ -4230,7 +4230,7 @@
 2	Tuhan	tuhan	NOUN	NSD	Number=Sing	10	advcl	_	MorphInd=^tuhan<n>_NSD$
 3	itu	itu	DET	B--	PronType=Dem	2	det	_	MorphInd=^itu<b>_B--$
 4	fana	fana	ADJ	X--	_	2	amod	_	MorphInd=^fana<x>_X--$
-5	'	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	atau	atau	CCONJ	H--	_	7	cc	_	MorphInd=^atau<h>_H--$
 7	mati	mati	ADJ	ASP	_	4	conj	_	SpaceAfter=No|MorphInd=^mati<a>_ASP$
 8	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
@@ -4832,7 +4832,7 @@
 14	Cagliari	cagliari	PROPN	F--	_	13	flat:name	_	MorphInd=^cagliari<f>_F--$
 15	dan	dan	CCONJ	H--	_	16	cc	_	MorphInd=^dan<h>_H--$
 16	saudara	saudara	NOUN	NSD	Number=Sing	9	conj	_	MorphInd=^saudara<n>_NSD$
-17	laki-laki	laki	NOUN	NSD	Number=Plur	16	compound	_	MorphInd=^laki<n>_NSD$
+17	laki-laki	laki	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^laki<n>_NSD$
 18	Konstantinus	konstantinus	PROPN	X--	_	16	nmod	_	SpaceAfter=No|MorphInd=^konstantinus<x>_X--$
 19	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 20	memberontak	berontak	VERB	VSA	Voice=Act	1	conj	_	MorphInd=^meN+berontak<v>_VSA$
@@ -5601,7 +5601,7 @@
 12	Sweet	sweet	PROPN	X--	_	13	amod	_	MorphInd=^sweet<x>_X--$
 13	Child	child	PROPN	F--	_	11	nmod	_	MorphInd=^child<f>_F--$
 14	O	o	PROPN	F--	_	13	flat:name	_	MorphInd=^o<f>_F--$
-15	'	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	'	'	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	Mine	mine	PROPN	X--	_	14	flat:name	_	SpaceAfter=No|MorphInd=^mine<x>_X--$
 17	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
 18	Paradise	paradise	PROPN	X--	_	13	conj	_	MorphInd=^paradise<x>_X--$
@@ -5622,7 +5622,7 @@
 33	beri	beri	VERB	VSA	Voice=Act	29	acl:relcl	_	MorphInd=^beri<v>_VSA$
 34	nama	nama	NOUN	NSD	Number=Sing	33	obj	_	MorphInd=^nama<n>_NSD$
 35	GN	gn	PROPN	X--	_	34	nmod	_	SpaceAfter=No|MorphInd=^gn<x>_X--$
-36	'	_	PUNCT	_	_	35	punct	_	_
+36	'	'	PUNCT	_	_	35	punct	_	_
 37	R	r	PROPN	F--	_	35	flat:name	_	MorphInd=^r<f>_F--$
 38	Lies	lies	PROPN	X--	_	37	flat:name	_	MorphInd=^lies<x>_X--$
 39	dengan	dengan	ADP	R--	_	40	case	_	MorphInd=^dengan<r>_R--$
@@ -5655,7 +5655,7 @@
 66	fenomenal	fenomenal	ADJ	X--	_	65	amod	_	MorphInd=^fenomenal<x>_X--$
 67	seperti	seperti	ADP	R--	_	68	case	_	MorphInd=^seperti<r>_R--$
 68	Don	don	PROPN	F--	_	65	nmod	_	MorphInd=^don<f>_F--$
-69	'	_	PUNCT	_	_	70	punct	_	SpaceAfter=No
+69	'	'	PUNCT	_	_	70	punct	_	SpaceAfter=No
 70	t	t	PROPN	F--	_	68	conj	_	MorphInd=^t<f>_F--$
 71	Cry	cry	PROPN	X--	_	70	flat:name	_	SpaceAfter=No|MorphInd=^cry<x>_X--$
 72	,	,	PUNCT	Z--	_	73	punct	_	MorphInd=^,<z>_Z--$
@@ -5666,7 +5666,7 @@
 77	War	war	PROPN	F--	_	76	flat:name	_	SpaceAfter=No|MorphInd=^war<f>_F--$
 78	,	,	PUNCT	Z--	_	79	punct	_	MorphInd=^,<z>_Z--$
 79	Knockin	knockin	PROPN	X--	_	68	conj	_	SpaceAfter=No|MorphInd=^knockin<x>_X--$
-80	'	_	PUNCT	_	_	79	punct	_	_
+80	'	'	PUNCT	_	_	79	punct	_	_
 81	on	on	PROPN	F--	_	79	flat:name	_	MorphInd=^on<f>_F--$
 82	Heaven's	_	PROPN	_	_	81	flat:name	_	_
 83	Door	door	PROPN	X--	_	82	flat:name	_	SpaceAfter=No|MorphInd=^door<x>_X--$
@@ -7125,10 +7125,10 @@
 15	satu	satu	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^satu<c>_CC-$
 16	Detasemen	detasemen	PROPN	X--	_	14	obj	_	MorphInd=^detasemen<x>_X--$
 17	Zipur	zipur	PROPN	X--	_	16	flat:name	_	MorphInd=^zipur<x>_X--$
-18	di	di	ADP	R--	_	19	case	_	MorphInd=^di<r>_R--$
-19	BP	bp	PROPN	X--	_	14	obl	_	MorphInd=^bp<x>_X--$
-20	-	-	PUNCT	Z--	_	21	punct	_	MorphInd=^-<z>_Z--$
-21	kan	kan	PART	F--	_	19	amod	_	MorphInd=^kan<f>_F--$
+18	di	di	ADP	R--	_	14	advcl	_	MorphInd=^di<r>_R--$
+19	BP	bp	PROPN	X--	_	18	goeswith	_	MorphInd=^bp<x>_X--$
+20	-	-	X	Z--	_	18	goeswith	_	MorphInd=^-<z>_Z--$
+21	kan	kan	X	F--	_	18	goeswith	_	MorphInd=^kan<f>_F--$
 22	pada	pada	ADP	R--	_	23	case	_	MorphInd=^pada<r>_R--$
 23	Brigif	brigif	PROPN	X--	_	14	obl	_	MorphInd=^brigif<x>_X--$
 24	15	15	NUM	CC-	NumType=Card	23	nummod	_	MorphInd=^15<c>_CC-$
@@ -7216,11 +7216,11 @@
 23	dalam	dalam	ADP	R--	_	24	case	_	MorphInd=^dalam<r>_R--$
 24	cerita-cerita	cerita	NOUN	NSD	Number=Plur	22	obl	_	MorphInd=^cerita<n>_NSD$
 25	singkat	singkat	ADJ	ASP	_	24	amod	_	MorphInd=^singkat<a>_ASP$
-26	'	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
+26	'	'	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	Four	four	PROPN	F--	_	24	appos	_	MorphInd=^four<f>_F--$
 28	Million	million	PROPN	F--	_	27	flat:name	_	SpaceAfter=No|MorphInd=^million<f>_F--$
 29	.	.	PUNCT	Z--	_	27	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
-30	'	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
+30	'	'	PUNCT	_	_	27	punct	_	SpaceAfter=No
 31	"	"	PUNCT	Z--	_	22	punct	_	MorphInd=^"<z>_Z--$
 
 # sent_id = test-s292
@@ -7306,9 +7306,9 @@
 15	saat	saat	PRON	S--	PronType=Rel	14	obl	_	MorphInd=^saat<s>_S--$
 16	ini	ini	DET	B--	PronType=Dem	15	det	_	MorphInd=^ini<b>_B--$
 17	adalah	adalah	AUX	O--	_	19	cop	_	MorphInd=^adalah<o>_O--$
-18	'	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	'	'	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	Toko	toko	PROPN	NSD	_	9	advcl	_	SpaceAfter=No|MorphInd=^toko<n>_NSD$
-20	'	_	PUNCT	_	_	19	punct	_	_
+20	'	'	PUNCT	_	_	19	punct	_	_
 21	kepunyaan	kepunyaan	NOUN	NSD	Number=Sing	19	compound	_	MorphInd=^ke+punya<v>+an_NSD$
 22	Yūko	yūko	PROPN	X--	_	21	nmod	_	SpaceAfter=No|MorphInd=^yūko<x>_X--$
 23	.	.	PUNCT	Z--	_	9	punct	_	MorphInd=^.<z>_Z--$
@@ -9316,7 +9316,7 @@
 8	saudara-saudara	saudara-saudara	NOUN	NPD	Number=Plur	6	obl	_	MorphInd=^saudara<n>_NPD$
 9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	MorphInd=^dia<p>_PS3$
 10	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
-11	'	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	'	'	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	Apa	apa	PRON	W--	PronType=Int	6	parataxis	_	MorphInd=^apa<w>_W--$
 13	pendapat	pendapat	NOUN	NSD	Number=Sing	12	acl	_	MorphInd=^peN+dapat<v>_NSD$
 14	kalian	kalian	PRON	PP2	Number=Plur|Person=2|PronType=Prs	13	det	_	MorphInd=^kalian<p>_PP2$
@@ -9501,7 +9501,7 @@
 18	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s384
-# text = Kelompok musik terkenal yang dilahirkan perusahaan ini, termasuk SMAP, TOKIO, Kinki Kids, V6, Arashi, NEWS, Tackey &amp; Tsubasa, KAT - TUN, dan Kanjani8.
+# text = Kelompok musik terkenal yang dilahirkan perusahaan ini, termasuk SMAP, TOKIO, Kinki Kids, V6, Arashi, NEWS, Tackey & Tsubasa, KAT - TUN, dan Kanjani8.
 # text_en = Famous music groups that this company created, including SMAP, TOKIO, Kinki Kids, V6, Arashi, NEWS, Tackey &amp; Tsubasa, KAT-TUN, and Kanjani8.
 1	Kelompok	kelompok	PROPN	NSD	_	0	root	_	MorphInd=^kelompok<n>_NSD$
 2	musik	musik	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^musik<n>_NSD$
@@ -9526,8 +9526,8 @@
 21	NEWS	news	PROPN	F--	_	10	conj	_	SpaceAfter=No|MorphInd=^news<f>_F--$
 22	,	,	PUNCT	Z--	_	23	punct	_	MorphInd=^,<z>_Z--$
 23	Tackey	tackey	PROPN	X--	_	10	conj	_	MorphInd=^tackey<x>_X--$
-24	&amp;	&amp;	SYM	X--	_	23	compound	_	MorphInd=^&amp;amp;<x>_X--$
-25	Tsubasa	tsubasa	PROPN	F--	_	24	flat	_	SpaceAfter=No|MorphInd=^tsubasa<f>_F--$
+24	&	&	PUNCT	X--	_	25	punct	_	MorphInd=^&amp;amp;<x>_X--$
+25	Tsubasa	tsubasa	PROPN	F--	_	23	flat	_	SpaceAfter=No|MorphInd=^tsubasa<f>_F--$
 26	,	,	PUNCT	Z--	_	27	punct	_	MorphInd=^,<z>_Z--$
 27	KAT	kat	PROPN	X--	_	10	conj	_	MorphInd=^kat<x>_X--$
 28	-	-	PUNCT	Z--	_	29	punct	_	MorphInd=^-<z>_Z--$
@@ -10261,7 +10261,7 @@
 7	seragam	seragam	NOUN	NSD	Number=Sing	6	compound	_	MorphInd=^seragam<n>_NSD$
 8	untuk	untuk	ADP	R--	_	9	case	_	MorphInd=^untuk<r>_R--$
 9	penduduk	penduduk	NOUN	NSD	Number=Sing	6	nmod	_	MorphInd=^penduduk<n>_NSD$
-10	laki-laki	laki	NOUN	NSD	Number=Plur	9	compound	_	MorphInd=^laki<n>_NSD$|SpaceAfter=No
+10	laki-laki	laki	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^laki<n>_NSD$|SpaceAfter=No
 11	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s411
@@ -10309,10 +10309,10 @@
 # sent_id = test-s413
 # text = 'SOLA GRACIA' ("dari Tuhan untuk kita, dan dari kita untuk Tuhan") Gereja Duta Injil memiliki pameo "Satu Duta Injil yang diberkati, bawa dua jiwa baru bagi Tuhan, Jadilah tiga Duta Injil Sejati, beribu - ribu malaikat diSurga bersorak sorai.." Dalam setiap acara reguler dan kebaktian, sangat ditekankan sikap jemaat sebagai Dua Injil yang sesungguhnya, dimana umat tersebut mampu membawa pesan keselamatan Tuhan dalam kesaksian dan sikap kehidupan sehari - hari tanpa harus berbicara, sehingga menjadi kitab terbuka bagi lingkungan dimanapun mereka berada... Web - site untuk jadwal kebaktian, updated info dan lain-lain Mal Ambasador, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Telp. (021) 5760617, 5760676 Fax. (021) 5760677 Umat Gereja Duta Injili percaya akan tiga hal: ialah Tuhan Pencipta, Ia selalu benar.
 # text_en = 'SOLA GRACIA' ("from God to us, and from us to God") The Evangelical Missionary Church has the slogan "One blessed Gospel Ambassador, bring two new souls to God, Be three True Gospel Ambassadors, thousands of angels in Heaven shout for joy .." In every regular event and service, the congregation's attitude is emphasized as the true Two Gospels, where the people are able to carry the message of God's salvation in their testimonies and attitudes of daily life without having to speak, so that it becomes an open book for the environment wherever they are. .. Web - site for the schedule of services, updated info and others Ambasador Mall, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Tel. (021) 5760617, 5760676 Fax. (021) 5760677 Evangelical Ambassadors believe in three things: that God is the Creator, He is always right.
-1	'	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	SOLA	sola	PROPN	X--	_	22	parataxis	_	MorphInd=^sola<x>_X--$
 3	GRACIA	gracia	PROPN	X--	_	2	flat:name	_	SpaceAfter=No|MorphInd=^gracia<x>_X--$
-4	'	_	PUNCT	_	_	2	punct	_	_
+4	'	'	PUNCT	_	_	2	punct	_	_
 5	(	(	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 6	"	"	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 7	dari	dari	ADP	R--	_	8	case	_	MorphInd=^dari<r>_R--$
@@ -11147,7 +11147,7 @@
 1	Akan	akan	AUX	M--	_	6	aux	_	MorphInd=^akan<m>_M--$
 2	kah	kah	PART	T--	_	6	advmod:emph	_	MorphInd=^kah<t>_T--$
 3	Ajeng	ajeng	PROPN	X--	_	6	nsubj:pass	_	MorphInd=^ajeng<x>_X--$
-4	dkk	dkk	X	X--	_	6	nsubj	_	MorphInd=^dkk<x>_X--$
+4	dkk	dkk	NOUN	X--	Abbr=Yes	3	nmod	_	MorphInd=^dkk<x>_X--$
 5	bisa	bisa	AUX	M--	_	6	aux	_	MorphInd=^bisa<m>_M--$
 6	melewati	lewat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+lewat<v>+i_VSA$
 7	itu	itu	DET	B--	PronType=Dem	6	obj	_	MorphInd=^itu<b>_B--$
@@ -12682,7 +12682,7 @@
 26	melahirkan	lahir	VERB	VSA	Voice=Act	1	parataxis	_	MorphInd=^meN+lahir<v>+kan_VSA$
 27	anak	anak	NOUN	NSD	Number=Sing	26	obj	_	MorphInd=^anak<n>_NSD$
 28	kembar	kembar	NOUN	X--	_	27	compound	_	MorphInd=^kembar<x>_X--$
-29	laki-laki	laki	NOUN	NSD	Number=Plur	28	compound	_	MorphInd=^laki<n>_NSD$|SpaceAfter=No
+29	laki-laki	laki	NOUN	NSD	Number=Sing	28	compound	_	MorphInd=^laki<n>_NSD$|SpaceAfter=No
 30	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s502

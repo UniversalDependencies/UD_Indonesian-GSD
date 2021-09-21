@@ -4536,7 +4536,7 @@
 32	semula	semula	NOUN	NSD	Number=Sing	30	nmod	_	MorphInd=^semula<n>_NSD$
 33	menjadikan	jadi	VERB	VSA	Voice=Act	24	advcl	_	MorphInd=^meN+jadi<a>+kan_VSA$
 34	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	33	nsubj	_	MorphInd=^mereka<p>_PP3$
-35	laki-laki	laki	ADJ	NPD	_	33	amod	_	MorphInd=^laki<n>_NPD$
+35	laki-laki	laki	NOUN	NPD	Number=Sing	33	obl	_	MorphInd=^laki<n>_NPD$
 36	dan	dan	CCONJ	H--	_	37	cc	_	MorphInd=^dan<h>_H--$
 37	perempuan	perempuan	ADJ	NSD	_	35	conj	_	SpaceAfter=No|MorphInd=^perempuan<n>_NSD$
 38	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
@@ -7813,7 +7813,7 @@
 9	orang	orang	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^orang<n>_NSD$
 10	Tionghoa	tionghoa	PROPN	X--	_	9	nmod	_	MorphInd=^tionghoa<x>_X--$
 11	(	(	PUNCT	Z--	_	12	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-12	laki-laki	laki	NOUN	NSD	Number=Plur	8	appos	_	MorphInd=^laki<n>_NSD$
+12	laki-laki	laki	NOUN	NSD	Number=Sing	8	appos	_	MorphInd=^laki<n>_NSD$
 13	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
 14	perempuan	perempuan	NOUN	NSD	Number=Sing	12	conj	_	SpaceAfter=No|MorphInd=^perempuan<n>_NSD$
 15	)	)	PUNCT	Z--	_	12	punct	_	MorphInd=^)<z>_Z--$
