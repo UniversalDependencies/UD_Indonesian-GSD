@@ -1199,7 +1199,7 @@
 3	mencatat	catat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+catat<v>_VSA$
 4	bahwa	bahwa	SCONJ	S--	_	10	mark	_	MorphInd=^bahwa<s>_S--$
 5	Yesus	yesus	PROPN	F--	_	10	nsubj	_	MorphInd=^yesus<f>_F--$
-6	sendiri	sendiri	ADV	ASP	_	5	advmod	_	MorphInd=^sendiri<a>_ASP$
+6	sendiri	sendiri	DET	ASP	PronType=Emp	5	det	_	MorphInd=^sendiri<a>_ASP$
 7	jauh-jauh	jauh	ADJ	ASP	_	8	amod	_	MorphInd=^jauh<a>_ASP$
 8	hari	hari	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^hari<n>_NSD$
 9	telah	telah	AUX	D--	_	10	aux	_	MorphInd=^telah<d>_D--$
@@ -4003,7 +4003,7 @@
 5-6	ayahnya	_	_	_	_	_	_	_	MorphInd=^ayah<n>_NSD+dia<p>_PS3$
 5	ayah	ayah	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^ayah<n>_NSD$
 6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	MorphInd=^dia<p>_PS3$
-7	sendiri	sendiri	ADJ	ASP	_	5	amod	_	SpaceAfter=No|MorphInd=^sendiri<a>_ASP$
+7	sendiri	sendiri	DET	ASP	PronType=Emp	5	det	_	SpaceAfter=No|MorphInd=^sendiri<a>_ASP$
 8	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 9	Tantalos	tantalos	PROPN	X--	_	5	appos	_	SpaceAfter=No|MorphInd=^tantalos<x>_X--$
 10	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
@@ -5491,7 +5491,7 @@
 1	Subordo	subordo	PROPN	X--	_	7	nsubj:pass	_	MorphInd=^subordo<x>_X--$
 2	penyusun	susun	VERB	NSD	_	1	dep	_	MorphInd=^peN+susun<v>_NSD$
 3	Hemiptera	hemiptera	NOUN	X--	_	2	obj	_	MorphInd=^hemiptera<x>_X--$
-4	sendiri	sendiri	ADJ	ASP	_	3	amod	_	MorphInd=^sendiri<a>_ASP$
+4	sendiri	sendiri	DET	ASP	PronType=Emp	3	det	_	MorphInd=^sendiri<a>_ASP$
 5	pada	pada	ADP	R--	_	6	case	_	MorphInd=^pada<r>_R--$
 6	awalnya	awal	ADV	NSD	_	7	advmod	_	MorphInd=^awal<n>_NSD+dia<p>_PS3$
 7	dipisahkan	pisah	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+pisah<v>+kan_VSP$
@@ -9667,7 +9667,7 @@
 36-37	olehnya	_	_	_	_	_	_	_	MorphInd=^oleh<r>_R--+dia<p>_PS3$
 36	oleh	oleh	ADP	R--	_	37	case	_	MorphInd=^oleh<r>_R--$
 37	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	35	obl	_	MorphInd=^dia<p>_PS3$
-38	sendiri	sendiri	ADJ	ASP	_	35	amod	_	MorphInd=^sendiri<a>_ASP$
+38	sendiri	sendiri	DET	ASP	PronType=Emp	37	det	_	MorphInd=^sendiri<a>_ASP$
 39	pada	pada	ADP	R--	_	40	case	_	MorphInd=^pada<r>_R--$
 40	tahun	tahun	NOUN	NSD	Number=Sing	35	obl	_	MorphInd=^tahun<n>_NSD$
 41	901	901	NUM	CC-	NumType=Card	40	nummod	_	SpaceAfter=No|MorphInd=^901<c>_CC-$
@@ -10420,7 +10420,7 @@
 14	untuk	untuk	SCONJ	R--	_	15	mark	_	MorphInd=^untuk<r>_R--$
 15	menghibur	hibur	VERB	VSA	Voice=Act	9	acl	_	MorphInd=^meN+hibur<v>_VSA$
 16	diri	diri	PRON	NSD	Number=Sing	15	obj	_	MorphInd=^diri<n>_NSD$
-17	sendiri	sendiri	PRON	ASP	_	16	compound	_	MorphInd=^sendiri<a>_ASP$
+17	sendiri	sendiri	DET	ASP	_	16	compound	_	MorphInd=^sendiri<a>_ASP$
 18	yang	yang	PRON	S--	PronType=Rel	19	acl	_	MorphInd=^yang<s>_S--$
 19	ditarikan	tari	VERB	VSP	Voice=Pass	9	acl:relcl	_	MorphInd=^di+tari<n>+kan_VSP$
 20	oleh	oleh	ADP	R--	_	21	case	_	MorphInd=^oleh<r>_R--$
@@ -12829,7 +12829,7 @@
 1	Ternyata	ternyata	ADV	ASS	_	5	advmod	_	MorphInd=^ter+nyata<a>_ASS$
 2	kemudian	kemudian	ADV	S--	_	1	advmod	_	MorphInd=^kemudian<s>_S--$
 3	Iwan	iwan	NOUN	X--	_	5	nsubj	_	MorphInd=^iwan<x>_X--$
-4	sendiri	sendiri	PRON	ASP	_	3	det	_	MorphInd=^sendiri<a>_ASP$
+4	sendiri	sendiri	DET	ASP	PronType=Emp	3	det	_	MorphInd=^sendiri<a>_ASP$
 5	mencintai	cinta	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+cinta<n>+i_VSA$
 6	Lisa	lisa	PROPN	F--	_	5	obj	_	SpaceAfter=No|MorphInd=^lisa<f>_F--$
 7	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
