@@ -1945,8 +1945,8 @@
 5	dan	dan	CCONJ	H--	_	6	cc	_	MorphInd=^dan<h>_H--$
 6	setuju	setuju	VERB	VSA	Voice=Act	2	conj	_	SpaceAfter=No|MorphInd=^setuju<v>_VSA$
 7	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
-8	tapi	tapi	SCONJ	S--	_	9	mark	_	MorphInd=^tapi<s>_S--$
-9	apa	apa	PRON	W--	PronType=Int	2	advcl	_	MorphInd=^apa<w>_W--$
+8	tapi	tetapi	CCONJ	S--	_	9	cc	_	MorphInd=^tapi<s>_S--$
+9	apa	apa	PRON	W--	PronType=Int	2	conj	_	MorphInd=^apa<w>_W--$
 10	yang	yang	PRON	S--	PronType=Rel	12	nsubj:pass	_	MorphInd=^yang<s>_S--$
 11	harus	harus	AUX	M--	_	12	aux	_	MorphInd=^harus<m>_M--$
 12	dilakukan	laku	VERB	VSP	Voice=Pass	9	acl:relcl	_	SpaceAfter=No|MorphInd=^di+laku<a>+kan_VSP$
@@ -2379,7 +2379,7 @@
 # sent_id = dev-s79
 # text = Tetapi Ia berkata kepada mereka: ``Berapa banyak roti yang ada padamu?
 # text_en = But He said to them: ``How much bread do you have?
-1	Tetapi	tetapi	SCONJ	S--	_	3	mark	_	MorphInd=^tetapi<s>_S--$
+1	Tetapi	tetapi	ADV	S--	_	3	advmod	_	MorphInd=^tetapi<s>_S--$
 2	Ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	MorphInd=^ia<p>_PS3$
 3	berkata	kata	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+kata<n>_VSA$
 4	kepada	kepada	ADP	R--	_	5	case	_	MorphInd=^kepada<r>_R--$
@@ -2797,7 +2797,7 @@
 12	tetapi	tetapi	CCONJ	S--	_	15	cc	_	MorphInd=^tetapi<s>_S--$
 13	tidak	tidak	PART	G--	Polarity=Neg	15	advmod	_	MorphInd=^tidak<g>_G--$
 14	akan	akan	AUX	M--	_	15	aux	_	MorphInd=^akan<m>_M--$
-15	siap	siap	VERB	ASP	_	2	ccomp	_	MorphInd=^siap<a>_ASP$
+15	siap	siap	VERB	ASP	_	2	conj	_	MorphInd=^siap<a>_ASP$
 16	sampai	sampai	ADP	ASP	_	17	case	_	MorphInd=^sampai<a>_ASP$
 17	bulan	bulan	NOUN	NSD	Number=Sing	15	obl	_	MorphInd=^bulan<n>_NSD$
 18	Desember	desember	PROPN	NSD	_	17	nmod	_	SpaceAfter=No|MorphInd=^desember<n>_NSD$
@@ -6484,9 +6484,9 @@
 1	Pertempuran	pertempuran	PROPN	NSD	_	2	nsubj	_	MorphInd=^per+tempur<n>+an_NSD$
 2	berlangsung	langsung	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+langsung<a>_VSA$
 3	seimbang	seimbang	ADJ	ASP	_	2	amod	_	MorphInd=^seimbang<a>_ASP$
-4	tapi	tapi	SCONJ	S--	_	6	mark	_	MorphInd=^tapi<s>_S--$
+4	tapi	tetapi	CCONJ	S--	_	6	cc	_	MorphInd=^tapi<s>_S--$
 5	tidak	tidak	PART	G--	Polarity=Neg	6	advmod	_	MorphInd=^tidak<g>_G--$
-6	berlangsung	langsung	VERB	VSA	Voice=Act	2	advcl	_	MorphInd=^ber+langsung<a>_VSA$
+6	berlangsung	langsung	VERB	VSA	Voice=Act	2	conj	_	MorphInd=^ber+langsung<a>_VSA$
 7	habis	habis	ADJ	ASP	_	6	amod	_	MorphInd=^habis<a>_ASP$
 8	-	-	PUNCT	Z--	_	9	punct	_	MorphInd=^-<z>_Z--$
 9	habisan	habisan	ADJ	NSD	_	7	fixed	_	MorphInd=^habis<a>+an_NSD$
@@ -6760,7 +6760,7 @@
 # sent_id = dev-s244
 # text = Tapi sekarang Tsuyu lebih sering jadi korban kejahilan Mitsuya, yang kemungkinan merasa kecewa Tsuyu tidak membalas perasaannya waktu kecil.
 # text_en = But now Tsuyu is more often the victim of Mitsuya's pranks, who may feel disappointed that Tsuyu didn't reciprocate her feelings as a child.
-1	Tapi	tapi	SCONJ	S--	_	6	mark	_	MorphInd=^tapi<s>_S--$
+1	Tapi	tetapi	ADV	S--	_	6	advmod	_	MorphInd=^tapi<s>_S--$
 2	sekarang	sekarang	NOUN	D--	_	6	obl	_	MorphInd=^sekarang<d>_D--$
 3	Tsuyu	tsuyu	PROPN	X--	_	6	nsubj	_	MorphInd=^tsuyu<x>_X--$
 4	lebih	lebih	ADV	D--	_	6	advmod	_	MorphInd=^lebih<d>_D--$
@@ -7160,11 +7160,11 @@
 11	yang	yang	PRON	S--	PronType=Rel	12	nsubj	_	MorphInd=^yang<s>_S--$
 12	robek	robek	VERB	VSA	Voice=Act	9	acl:relcl	_	SpaceAfter=No|MorphInd=^robek<v>_VSA$
 13	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
-14	tapi	tapi	SCONJ	S--	_	18	mark	_	MorphInd=^tapi<s>_S--$
+14	tapi	tetapi	CCONJ	S--	_	18	cc	_	MorphInd=^tapi<s>_S--$
 15	saat	saat	PRON	S--	PronType=Rel	18	compound	_	MorphInd=^saat<s>_S--$
 16	itu	itu	DET	B--	PronType=Dem	15	det	_	MorphInd=^itu<b>_B--$
 17	Amanda	amanda	PROPN	F--	_	18	nsubj:pass	_	MorphInd=^amanda<f>_F--$
-18	diselamatkan	selamat	VERB	VSP	Voice=Pass	8	advcl	_	MorphInd=^di+selamat<a>+kan_VSP$
+18	diselamatkan	selamat	VERB	VSP	Voice=Pass	8	conj	_	MorphInd=^di+selamat<a>+kan_VSP$
 19	oleh	oleh	ADP	R--	_	20	case	_	MorphInd=^oleh<r>_R--$
 20	teriakan	terria	NOUN	VSP	_	18	obl	_	MorphInd=^ter+ria<n>+kan_VSP$
 21	Eyang	eyang	PROPN	X--	_	20	nmod	_	MorphInd=^eyang<x>_X--$
@@ -9684,7 +9684,7 @@
 6	berhasil	berhasil	VERB	ASP	_	0	root	_	MorphInd=^berhasil<a>_ASP$
 7	mengalahkan	kalah	VERB	VSA	Voice=Act	6	ccomp	_	MorphInd=^meN+kalah<a>+kan_VSA$
 8	Vettel	vettel	NOUN	X--	_	7	obj	_	MorphInd=^vettel<x>_X--$
-9	sebelum	sebelum	ADV	S--	_	11	advmod	_	MorphInd=^sebelum<s>_S--$
+9	sebelum	sebelum	SCONJ	S--	_	11	mark	_	MorphInd=^sebelum<s>_S--$
 10	akhirnya	akhirnya	ADV	B--	_	11	advmod	_	MorphInd=^akhirnya<b>_B--$
 11	menyerah	menyerah	VERB	VSA	Voice=Act	8	acl	_	MorphInd=^menyerah<v>_VSA$
 12	di	di	ADP	R--	_	13	case	_	MorphInd=^di<r>_R--$
@@ -12613,7 +12613,7 @@
 21	Santa	santa	PROPN	F--	_	20	flat:name	_	MorphInd=^santa<f>_F--$
 22	Isabel	isabel	PROPN	F--	_	21	flat:name	_	SpaceAfter=No|MorphInd=^isabel<f>_F--$
 23	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$
-24	sebelum	sebelum	ADV	S--	_	25	advmod	_	MorphInd=^sebelum<s>_S--$
+24	sebelum	sebelum	SCONJ	S--	_	25	mark	_	MorphInd=^sebelum<s>_S--$
 25	diposkan	pos	VERB	VSP	Voice=Pass	8	conj	_	MorphInd=^di+pos<v>+kan_VSP$
 26	sebagai	sebagai	ADP	R--	_	27	case	_	MorphInd=^sebagai<r>_R--$
 27	pangkalan	pangkalan	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^pangkal<n>+an_NSD$
@@ -12842,10 +12842,10 @@
 14	sebelah	sebelah	ADP	D--	_	15	case	_	MorphInd=^sebelah<d>_D--$
 15	tangan	tangan	NOUN	NSD	Number=Sing	12	obl	_	SpaceAfter=No|MorphInd=^tangan<n>_NSD$
 16	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
-17	tapi	tapi	SCONJ	S--	_	20	mark	_	MorphInd=^tapi<s>_S--$
+17	tapi	tetapi	CCONJ	S--	_	20	cc	_	MorphInd=^tapi<s>_S--$
 18	permasalahan	permasalahan	NOUN	NSD	Number=Sing	20	nsubj	_	MorphInd=^per+masalah<n>+an_NSD$
 19	kembali	kembali	ADV	VSA	_	20	advmod	_	MorphInd=^kembali<v>_VSA$
-20	muncul	muncul	VERB	VSA	Voice=Act	5	advcl	_	MorphInd=^muncul<v>_VSA$
+20	muncul	muncul	VERB	VSA	Voice=Act	5	conj	_	MorphInd=^muncul<v>_VSA$
 21	ketika	ketika	SCONJ	S--	_	23	mark	_	MorphInd=^ketika<s>_S--$
 22	Lisa	lisa	PROPN	F--	_	23	nsubj	_	MorphInd=^lisa<f>_F--$
 23	tahu	tahu	VERB	NSD	_	20	ccomp	_	MorphInd=^tahu<n>_NSD$
@@ -13753,7 +13753,7 @@
 # sent_id = dev-s504
 # text = Sebelum masyarakat mampu mengganti televisi analognya menjadi televisi digital, masyarakat menerima siaran analog dari pemancar televisi yang menyiarkan siaran televisi digital.
 # text_en = Before people were able to change their analog television to digital television, people received analog broadcasts from television transmitters that broadcast digital television broadcasts.
-1	Sebelum	sebelum	ADV	S--	_	4	mark	_	MorphInd=^sebelum<s>_S--$
+1	Sebelum	sebelum	SCONJ	S--	_	4	mark	_	MorphInd=^sebelum<s>_S--$
 2	masyarakat	masyarakat	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^masyarakat<n>_NSD$
 3	mampu	mampu	AUX	M--	_	4	aux	_	MorphInd=^mampu<m>_M--$
 4	mengganti	ganti	VERB	VSA	Voice=Act	13	advcl	_	MorphInd=^meN+ganti<v>_VSA$
@@ -15121,7 +15121,7 @@
 1	Ini	ini	DET	B--	PronType=Dem	2	nsubj	_	MorphInd=^ini<b>_B--$
 2	terjadi	terjadi	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^terjadi<v>_VSP$
 3	karena	karena	SCONJ	S--	_	15	mark	_	MorphInd=^karena<s>_S--$
-4	sebelum	sebelum	ADV	S--	_	5	advmod	_	MorphInd=^sebelum<s>_S--$
+4	sebelum	sebelum	SCONJ	S--	_	5	mark	_	MorphInd=^sebelum<s>_S--$
 5	meninggalkan	tinggal	VERB	VSA	Voice=Act	15	advcl	_	MorphInd=^meN+tinggal<v>+kan_VSA$
 6	Indonesia	indonesia	PROPN	NSD	_	5	obj	_	SpaceAfter=No|MorphInd=^indonesia<n>_NSD$
 7	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$

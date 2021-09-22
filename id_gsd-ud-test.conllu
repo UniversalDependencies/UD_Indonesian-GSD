@@ -1111,7 +1111,7 @@
 # sent_id = test-s41
 # text = Sebelum dipanggang, daging dilumuri dengan bumbu berupa campuran bawang putih, akar tanaman ketumbar, dan lengkuas yang ditumbuk ditambah garam, kecap asin, dan kecap ikan sesuai selera.
 # text_en = Before grilling, the meat is covered with spices in the form of a mixture of garlic, coriander root, and ground galangal plus salt, soy sauce, and fish sauce according to taste.
-1	Sebelum	sebelum	ADP	S--	_	2	case	_	MorphInd=^sebelum<s>_S--$
+1	Sebelum	sebelum	SCONJ	S--	_	2	mark	_	MorphInd=^sebelum<s>_S--$
 2	dipanggang	panggang	VERB	VSP	Voice=Pass	5	xcomp	_	SpaceAfter=No|MorphInd=^di+panggang<v>_VSP$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 4	daging	daging	NOUN	NSD	Number=Sing	5	nsubj:pass	_	MorphInd=^daging<n>_NSD$
@@ -1152,16 +1152,16 @@
 3	keturunan	keturunan	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^ke+turun<v>+an_NSD$
 4	India	india	PROPN	F--	_	3	nmod	_	SpaceAfter=No|MorphInd=^india<f>_F--$
 5	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
-6	tapi	tapi	SCONJ	S--	_	7	mark	_	MorphInd=^tapi<s>_S--$
+6	tapi	tetapi	CCONJ	S--	_	20	cc	_	MorphInd=^tapi<s>_S--$
 7	semangat	semangat	NOUN	NSD	Number=Sing	20	nsubj	_	MorphInd=^semangat<n>_NSD$
 8-9	kecintaannya	_	_	_	_	_	_	_	MorphInd=^ke+cinta<n>+an_NSD+dia<p>_PS3$
 8	kecintaan	kecintaan	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^ke+cinta<n>+an_NSD$
-9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	MorphInd=^dia<p>_PS3$
+9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	MorphInd=^dia<p>_PS3$
 10	terhadap	terhadap	ADP	R--	_	11	case	_	MorphInd=^terhadap<r>_R--$
-11	Negara	negara	PROPN	NSD	_	8	nmod	_	MorphInd=^negara<n>_NSD$
+11	Negara	negara	PROPN	NSD	_	7	nmod	_	MorphInd=^negara<n>_NSD$
 12	Kesatuan	kesatuan	PROPN	X--	_	11	flat:name	_	MorphInd=^kesatuan<x>_X--$
-13	Republik	republik	PROPN	F--	_	12	flat:name	_	MorphInd=^republik<f>_F--$
-14	Indonesia	indonesia	PROPN	NSD	_	13	flat:name	_	MorphInd=^indonesia<n>_NSD$
+13	Republik	republik	PROPN	F--	_	11	flat:name	_	MorphInd=^republik<f>_F--$
+14	Indonesia	indonesia	PROPN	NSD	_	11	flat:name	_	MorphInd=^indonesia<n>_NSD$
 15	(	(	PUNCT	Z--	_	16	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 16	NKRI	nkri	PROPN	X--	_	11	appos	_	SpaceAfter=No|MorphInd=^nkri<x>_X--$
 17	)	)	PUNCT	Z--	_	16	punct	_	MorphInd=^)<z>_Z--$
@@ -1360,7 +1360,7 @@
 # sent_id = test-s51
 # text = Namun karena tulisan - tulisannya dianggap membahayakan pemerintahan kolonial, Trimurti dipenjarakan lagi oleh Belanda tahun 1939 - 1943.
 # text_en = However, because his writings were considered dangerous to the colonial government, Trimurti was imprisoned again by the Dutch in 1939 - 1943.
-1	Namun	namun	SCONJ	S--	_	7	mark	_	MorphInd=^namun<s>_S--$
+1	Namun	namun	ADV	S--	_	7	advmod	_	MorphInd=^namun<s>_S--$
 2	karena	karena	SCONJ	S--	_	7	mark	_	MorphInd=^karena<s>_S--$
 3	tulisan	tulisan	NOUN	NSD	Number=Sing	7	nsubj:pass	_	MorphInd=^tulis<v>+an_NSD$
 4	-	-	PUNCT	Z--	_	3	punct	_	MorphInd=^-<z>_Z--$
@@ -1700,8 +1700,8 @@
 5	Columbus	columbus	PROPN	F--	_	4	nmod	_	MorphInd=^columbus<f>_F--$
 6	tersebut	tersebut	DET	B--	PronType=Dem	4	det	_	SpaceAfter=No|MorphInd=^tersebut<b>_B--$
 7	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
-8	namun	namun	SCONJ	S--	_	9	mark	_	MorphInd=^namun<s>_S--$
-9	gagal	gagal	VERB	ASP	_	3	advcl	_	SpaceAfter=No|MorphInd=^gagal<a>_ASP$
+8	namun	namun	CCONJ	S--	_	9	cc	_	MorphInd=^namun<s>_S--$
+9	gagal	gagal	VERB	ASP	_	3	conj	_	SpaceAfter=No|MorphInd=^gagal<a>_ASP$
 10	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s67
@@ -2112,8 +2112,8 @@
 # sent_id = test-s86
 # text = Akan tetapi, Grand Final Pentas Idola Cilik 2013 kali ini diselenggarakan di Studio 1 RCTI. Pada Bintang Grand Final Idola Cilik 2013 yang digelar sore hari Sabtu, 20 April 2013, Bagas akhirnya terpilih sebagai Juara Pertama Idola Cilik 2013 dan Difa menjadi Juara Kedua Idola Cilik 2013.
 # text_en = However, the Grand Final of the 2013 Little Idol Show was held at Studio 1 RCTI. In the 2013 Little Idola Grand Final Star which was held on Saturday, April 20 2013, Bagas was finally chosen as the First Winner of Little Idol 2013 and Difa became the Second Winner of Little Idol 2013.
-1	Akan	akan	SCONJ	M--	_	12	mark	_	MorphInd=^akan<m>_M--$
-2	tetapi	tetapi	ADP	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
+1	Akan	akan	ADV	M--	_	12	advmod	_	MorphInd=^akan<m>_M--$
+2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	Grand	grand	PROPN	F--	_	12	nsubj:pass	_	MorphInd=^grand<f>_F--$
 5	Final	final	PROPN	F--	_	4	flat:name	_	MorphInd=^final<f>_F--$
@@ -2216,7 +2216,7 @@
 44	,	,	PUNCT	Z--	_	47	punct	_	MorphInd=^,<z>_Z--$
 45	tetapi	tetapi	CCONJ	S--	_	47	cc	_	MorphInd=^tetapi<s>_S--$
 46	dengan	dengan	ADP	R--	_	47	case	_	MorphInd=^dengan<r>_R--$
-47	kualitas	kualitas	NOUN	NSD	Number=Sing	42	obl	_	MorphInd=^kualitas<n>_NSD$
+47	kualitas	kualitas	NOUN	NSD	Number=Sing	42	conj	_	MorphInd=^kualitas<n>_NSD$
 48	yang	yang	PRON	S--	PronType=Rel	50	nsubj	_	MorphInd=^yang<s>_S--$
 49	tidak	tidak	PART	G--	Polarity=Neg	50	advmod	_	MorphInd=^tidak<g>_G--$
 50	murahan	murahan	ADJ	NSD	_	47	acl:relcl	_	SpaceAfter=No|MorphInd=^murah<a>+an_NSD$
@@ -2365,7 +2365,7 @@
 10	bahwa	bahwa	SCONJ	S--	_	13	mark	_	MorphInd=^bahwa<s>_S--$
 11	Kim	kim	PROPN	F--	_	13	nsubj	_	MorphInd=^kim<f>_F--$
 12	Inmun	inmun	PROPN	X--	_	11	flat:name	_	MorphInd=^inmun<x>_X--$
-13	wafat	wafat	VERB	X--	_	9	ccomp	_	MorphInd=^wafat<x>_X--$
+13	wafat	wafat	VERB	X--	_	9	conj	_	MorphInd=^wafat<x>_X--$
 14	di	di	ADP	R--	_	16	case	_	MorphInd=^di<r>_R--$
 15	dalam	dalam	ADP	R--	_	16	case	_	MorphInd=^dalam<r>_R--$
 16	kapal	kapal	NOUN	NSD	Number=Sing	13	obl	_	MorphInd=^kapal<n>_NSD$
@@ -2376,7 +2376,7 @@
 21	ke	ke	ADP	R--	_	22	case	_	MorphInd=^ke<r>_R--$
 22	Silla	silla	PROPN	X--	_	20	obl	_	SpaceAfter=No|MorphInd=^silla<x>_X--$
 23	,	,	PUNCT	Z--	_	24	punct	_	MorphInd=^,<z>_Z--$
-24	tapi	tapi	SCONJ	S--	_	13	mark	_	MorphInd=^tapi<s>_S--$
+24	tapi	tetapi	CCONJ	S--	_	13	cc	_	MorphInd=^tapi<s>_S--$
 25	mengingat	ingat	VERB	VSA	Voice=Act	13	advcl	_	MorphInd=^meN+ingat<v>_VSA$
 26	catatan	catatan	NOUN	NSD	Number=Sing	25	compound	_	MorphInd=^catat<v>+an_NSD$
 27	yang	yang	PRON	S--	PronType=Rel	29	nsubj	_	MorphInd=^yang<s>_S--$
@@ -2749,7 +2749,7 @@
 12	masing-masing	masing	DET	X--	_	14	det	_	MorphInd=^masing<x>_X--$
 13	sudah	sudah	AUX	D--	_	14	aux	_	MorphInd=^sudah<d>_D--$
 14	ada	ada	VERB	ASP	_	3	advcl	_	MorphInd=^ada<a>_ASP$
-15	tapi	tapi	SCONJ	S--	_	18	mark	_	MorphInd=^tapi<s>_S--$
+15	tapi	tetapi	CCONJ	S--	_	18	cc	_	MorphInd=^tapi<s>_S--$
 16	tidak	tidak	PART	G--	Polarity=Neg	18	advmod	_	MorphInd=^tidak<g>_G--$
 17	dapat	dapat	AUX	VSA	_	18	aux	_	MorphInd=^dapat<v>_VSA$
 18	berinteraksi	interaksi	VERB	VSA	Voice=Act	14	conj	_	MorphInd=^ber+interaksi<n>_VSA$
@@ -2886,7 +2886,7 @@
 # sent_id = test-s111
 # text = Sebelum memulai pertempuran, kedua pasukan itu berbaris, dengan membelakangi kemah mereka.
 # text_en = Before starting the battle, the two armies lined up, with their backs to their camps.
-1	Sebelum	sebelum	ADV	S--	_	2	mark	_	MorphInd=^sebelum<s>_S--$
+1	Sebelum	sebelum	SCONJ	S--	_	2	mark	_	MorphInd=^sebelum<s>_S--$
 2	memulai	mulai	VERB	VSA	Voice=Act	8	advcl	_	MorphInd=^meN+mulai<v>_VSA$
 3	pertempuran	pertempuran	NOUN	NSD	Number=Sing	2	obj	_	SpaceAfter=No|MorphInd=^per+tempur<n>+an_NSD$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
@@ -3831,7 +3831,7 @@
 47	benar	benar	ADJ	ASP	_	43	amod	_	MorphInd=^benar<a>_ASP$
 48	tetapi	tetapi	CCONJ	S--	_	50	cc	_	MorphInd=^tetapi<s>_S--$
 49	tanpa	tanpa	ADP	D--	_	50	case	_	MorphInd=^tanpa<d>_D--$
-50	penyangga	pensangga	NOUN	NSD	Number=Sing	41	obl	_	MorphInd=^peN+sangga<v>_NSD$
+50	penyangga	pensangga	NOUN	NSD	Number=Sing	41	conj	_	MorphInd=^peN+sangga<v>_NSD$
 51	sirkuit	sirkuit	NOUN	NSD	Number=Sing	50	compound	_	MorphInd=^sirkuit<n>_NSD$
 52	listrik	listrik	NOUN	NSD	Number=Sing	51	compound	_	MorphInd=^listrik<n>_NSD$
 53	yang	yang	PRON	S--	PronType=Rel	54	obl	_	MorphInd=^yang<s>_S--$
@@ -3857,7 +3857,7 @@
 8	berhenti	henti	VERB	VSA	Voice=Act	7	xcomp	_	MorphInd=^ber+henti<v>_VSA$
 9	mengalir	alir	NOUN	VSA	_	8	advcl	_	SpaceAfter=No|MorphInd=^meN+alir<v>_VSA$
 10	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
-11	tapi	tapi	SCONJ	S--	_	13	mark	_	MorphInd=^tapi<s>_S--$
+11	tapi	tetapi	CCONJ	S--	_	13	cc	_	MorphInd=^tapi<s>_S--$
 12	Delisa	delisa	PROPN	X--	_	13	nsubj	_	MorphInd=^delisa<x>_X--$
 13	mencoba	coba	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+coba<v>_VSA$
 14	memahami	paham	VERB	VSA	Voice=Act	13	xcomp	_	MorphInd=^meN+paham<n>+i_VSA$
@@ -3875,7 +3875,7 @@
 # sent_id = test-s149
 # text = Namun, Taejong menyimpan reformasi Jeong Dojeondengan utuh hampir diseluruh bagian.
 # text_en = However, Taejong kept Jeong Dojeon's reform intact in almost all parts.
-1	Namun	namun	SCONJ	S--	_	4	mark	_	SpaceAfter=No|MorphInd=^namun<s>_S--$
+1	Namun	namun	ADV	S--	_	4	advmod	_	SpaceAfter=No|MorphInd=^namun<s>_S--$
 2	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 3	Taejong	taejong	PROPN	X--	_	4	nsubj	_	MorphInd=^taejong<x>_X--$
 4	menyimpan	simpan	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+simpan<v>_VSA$
@@ -5446,9 +5446,9 @@
 10	kota-kota	kota	NOUN	NSD	Number=Plur	8	obl	_	MorphInd=^kota<n>_NSD$
 11	terdekat	terdekat	ADJ	ASS	Degree=Sup	10	amod	_	SpaceAfter=No|MorphInd=^ter+dekat<a>_ASS$
 12	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
-13	tapi	tapi	SCONJ	S--	_	15	mark	_	MorphInd=^tapi<s>_S--$
+13	tapi	tetapi	CCONJ	S--	_	15	cc	_	MorphInd=^tapi<s>_S--$
 14	tidak	tidak	PART	G--	Polarity=Neg	15	advmod	_	MorphInd=^tidak<g>_G--$
-15	ada	ada	VERB	ASP	_	8	advcl	_	MorphInd=^ada<a>_ASP$
+15	ada	ada	VERB	ASP	_	8	conj	_	MorphInd=^ada<a>_ASP$
 16	kerusakan	kerusakan	NOUN	NSD	Number=Sing	15	obj	_	MorphInd=^ke+rusak<a>+an_NSD$
 17	maupun	maupun	CCONJ	H--	_	18	cc	_	MorphInd=^maupun<h>_H--$
 18	korban	korban	NOUN	NSD	Number=Sing	16	conj	_	MorphInd=^korban<n>_NSD$
@@ -5551,7 +5551,7 @@
 # sent_id = test-s219
 # text = Akan tetapi, Gelimer menolak.
 # text_en = However, Gelimer refused.
-1	Akan	akan	CCONJ	M--	_	5	cc	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	ADV	M--	_	5	advmod	_	MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	Gelimer	gelimer	PROPN	X--	_	5	nsubj	_	MorphInd=^gelimer<x>_X--$
@@ -5937,7 +5937,7 @@
 15	masih	masih	ADV	D--	_	18	advmod	_	MorphInd=^masih<d>_D--$
 16	akan	akan	AUX	M--	_	18	aux	_	MorphInd=^akan<m>_M--$
 17	tetap	tetap	ADV	ASP	_	18	advmod	_	MorphInd=^tetap<a>_ASP$
-18	tinggal	tinggal	VERB	VSA	Voice=Act	7	ccomp	_	MorphInd=^tinggal<v>_VSA$
+18	tinggal	tinggal	VERB	VSA	Voice=Act	7	conj	_	MorphInd=^tinggal<v>_VSA$
 19	di	di	ADP	R--	_	20	case	_	MorphInd=^di<r>_R--$
 20	RBR	rbr	PROPN	X--	_	18	obl	_	MorphInd=^rbr<x>_X--$
 21	sebagai	sebagai	ADP	R--	_	22	case	_	MorphInd=^sebagai<r>_R--$
@@ -6022,7 +6022,7 @@
 # sent_id = test-s239
 # text = Namun, tidak ada bukti yang mendukung fakta tersebut.
 # text_en = However, there is no evidence to support this fact.
-1	Namun	namun	CCONJ	S--	_	4	cc	_	SpaceAfter=No|MorphInd=^namun<s>_S--$
+1	Namun	namun	ADV	S--	_	4	advmod	_	SpaceAfter=No|MorphInd=^namun<s>_S--$
 2	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 3	tidak	tidak	PART	G--	Polarity=Neg	4	advmod	_	MorphInd=^tidak<g>_G--$
 4	ada	ada	VERB	ASP	_	0	root	_	MorphInd=^ada<a>_ASP$
@@ -6113,8 +6113,8 @@
 # sent_id = test-s245
 # text = Sesudah itu aku bertanya kepadanya: Anak siapakah engkau?
 # text_en = After that I asked him: Whose son are you?
-1	Sesudah	sesudah	ADV	D--	_	4	advmod	_	MorphInd=^sesudah<d>_D--$
-2	itu	itu	DET	B--	PronType=Dem	1	det	_	MorphInd=^itu<b>_B--$
+1	Sesudah	sesudah	ADP	D--	_	2	case	_	MorphInd=^sesudah<d>_D--$
+2	itu	itu	PRON	B--	PronType=Dem	4	obl	_	MorphInd=^itu<b>_B--$
 3	aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	nsubj	_	MorphInd=^aku<p>_PS1$
 4	bertanya	tanya	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+tanya<v>_VSA$
 5-6	kepadanya	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+dia<p>_PS3$|SpaceAfter=No
@@ -7125,7 +7125,7 @@
 15	satu	satu	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^satu<c>_CC-$
 16	Detasemen	detasemen	PROPN	X--	_	14	obj	_	MorphInd=^detasemen<x>_X--$
 17	Zipur	zipur	PROPN	X--	_	16	flat:name	_	MorphInd=^zipur<x>_X--$
-18	di	di	ADP	R--	_	14	advcl	_	MorphInd=^di<r>_R--$
+18	di	di	SCONJ	R--	_	14	mark	_	MorphInd=^di<r>_R--$
 19	BP	bp	PROPN	X--	_	18	goeswith	_	MorphInd=^bp<x>_X--$
 20	-	-	X	Z--	_	18	goeswith	_	MorphInd=^-<z>_Z--$
 21	kan	kan	X	F--	_	18	goeswith	_	MorphInd=^kan<f>_F--$
@@ -7190,7 +7190,7 @@
 # sent_id = test-s291
 # text = Namun seorang bijak telah muncul - - si petugas sensus - - dan perkiraan besarnya tentang minat insani ternyata lebih disukai dalam cerita-cerita singkat 'Four Million.'"
 # text_en = But a sage has appeared - - the census officer - - and his big estimate of human interest turns out to be favored in the short stories 'Four Million.'"
-1	Namun	namun	SCONJ	S--	_	5	mark	_	MorphInd=^namun<s>_S--$
+1	Namun	namun	ADV	S--	_	5	advmod	_	MorphInd=^namun<s>_S--$
 2	seorang	seorang	DET	B--	PronType=Ind	3	det	_	MorphInd=^seorang<b>_B--$
 3	bijak	bijak	NOUN	ASP	_	5	nsubj	_	MorphInd=^bijak<a>_ASP$
 4	telah	telah	AUX	D--	_	5	aux	_	MorphInd=^telah<d>_D--$
@@ -7590,7 +7590,7 @@
 # sent_id = test-s306
 # text = Namun jangan berharap dapat mendengar solo gitar yang melodius kental berbau blues ala Slash karena ia tak lagi menyumbangkan suara gitarnya dalam album ini.
 # text_en = However, don't expect to hear a melodic guitar solo that smells like Slash's blues style because he no longer contributes his guitar voice to this album.
-1	Namun	namun	SCONJ	S--	_	3	mark	_	MorphInd=^namun<s>_S--$
+1	Namun	namun	ADV	S--	_	3	advmod	_	MorphInd=^namun<s>_S--$
 2	jangan	jangan	PART	G--	Polarity=Neg	3	advmod	_	MorphInd=^jangan<g>_G--$
 3	berharap	harap	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+harap<v>_VSA$
 4	dapat	dapat	AUX	VSA	_	5	aux	_	MorphInd=^dapat<v>_VSA$
@@ -7645,11 +7645,11 @@
 8	Laut	laut	PROPN	NSD	_	7	flat:name	_	MorphInd=^laut<n>_NSD$
 9	China	china	PROPN	F--	_	5	flat:name	_	SpaceAfter=No|MorphInd=^china<f>_F--$
 10	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
-11	namun	namun	SCONJ	S--	_	15	mark	_	MorphInd=^namun<s>_S--$
+11	namun	namun	CCONJ	S--	_	15	cc	_	MorphInd=^namun<s>_S--$
 12	di	di	ADP	R--	_	13	case	_	MorphInd=^di<r>_R--$
 13	sana	sana	NOUN	NSD	Number=Sing	15	obl	_	MorphInd=^sana<n>_NSD$
 14	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	15	nsubj:pass	_	MorphInd=^mereka<p>_PP3$
-15	diserang	serang	VERB	VSP	Voice=Pass	3	advcl	_	MorphInd=^di+serang<v>_VSP$
+15	diserang	serang	VERB	VSP	Voice=Pass	3	conj	_	MorphInd=^di+serang<v>_VSP$
 16	oleh	oleh	ADP	R--	_	17	case	_	MorphInd=^oleh<r>_R--$
 17	Dinasti	dinasti	PROPN	X--	_	15	obl	_	MorphInd=^dinasti<x>_X--$
 18	Jin	jin	PROPN	NSD	_	17	flat:name	_	MorphInd=^jin<n>_NSD$
@@ -8145,7 +8145,7 @@
 # sent_id = test-s327
 # text = Sebelum memasuki masa wajib belajar 9 tahun, anak-anak seyogyanya memasuki masa pra sekolah yaitu PAUD, dan Taman Kanak-Kanak (TK). Jumlah Taman Kanak – Kanak di Kecamatan Banyuputih yang terdapat di 5 (lima) desa sebanyak 20 unit.
 # text_en = Before entering the 9-year compulsory education period, children should enter the pre-school period, namely PAUD and Kindergarten (TK). The number of Kindergartens in Banyuputih District which is located in 5 (five) villages is 20 units.
-1	Sebelum	sebelum	ADV	S--	_	2	mark	_	MorphInd=^sebelum<s>_S--$
+1	Sebelum	sebelum	SCONJ	S--	_	2	mark	_	MorphInd=^sebelum<s>_S--$
 2	memasuki	masuk	VERB	VSA	Voice=Act	11	advcl	_	MorphInd=^meN+masuk<v>+i_VSA$
 3	masa	masa	NOUN	NSD	Number=Sing	2	obj	_	MorphInd=^masa<n>_NSD$
 4	wajib	wajib	NOUN	ASP	_	3	compound	_	MorphInd=^wajib<a>_ASP$
@@ -8802,7 +8802,7 @@
 9	Utara	utara	PROPN	NSD	_	8	amod	_	MorphInd=^utara<n>_NSD$
 10	dari	dari	ADP	R--	_	11	case	_	MorphInd=^dari<r>_R--$
 11	Cina	cina	PROPN	NSD	_	5	nmod	_	MorphInd=^cina<n>_NSD$
-12	sebelum	sebelum	ADV	S--	_	13	mark	_	MorphInd=^sebelum<s>_S--$
+12	sebelum	sebelum	SCONJ	S--	_	13	mark	_	MorphInd=^sebelum<s>_S--$
 13	terbang	terbang	VERB	VSA	Voice=Act	4	advcl	_	MorphInd=^terbang<v>_VSA$
 14	ke	ke	ADP	R--	_	15	case	_	MorphInd=^ke<r>_R--$
 15	Korea	korea	PROPN	NSD	_	13	obl	_	MorphInd=^korea<n>_NSD$
@@ -8895,7 +8895,7 @@
 9	wanita	wanita	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^wanita<n>_NSD$
 10	tersebut	tersebut	DET	B--	PronType=Dem	9	det	_	SpaceAfter=No|MorphInd=^tersebut<b>_B--$
 11	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
-12	akan	akan	CCONJ	M--	_	2	ccomp	_	MorphInd=^akan<m>_M--$
+12	akan	akan	CCONJ	M--	_	2	conj	_	MorphInd=^akan<m>_M--$
 13	tetapi	tetapi	CCONJ	S--	_	12	cc	_	MorphInd=^tetapi<s>_S--$
 14-15	usahanya	_	_	_	_	_	_	_	MorphInd=^usaha<n>_NSD+dia<p>_PS3$
 14	usaha	usaha	NOUN	NSD	Number=Sing	12	nsubj	_	MorphInd=^usaha<n>_NSD$
@@ -9149,7 +9149,7 @@
 # sent_id = test-s370
 # text = Namun, apa saja yang ditata oleh pemerintah kolonial selanjutnya?
 # text_en = However, what was arranged by the colonial government next?
-1	Namun	namun	SCONJ	S--	_	3	mark	_	SpaceAfter=No|MorphInd=^namun<s>_S--$
+1	Namun	namun	ADV	S--	_	3	advmod	_	SpaceAfter=No|MorphInd=^namun<s>_S--$
 2	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 3	apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 4	saja	saja	ADV	D--	_	3	advmod	_	MorphInd=^saja<d>_D--$
@@ -9306,7 +9306,7 @@
 # text = ``Tetapi Andreas menjawab dan berkata kepada saudara-saudaranya, 'Apa pendapat kalian tentang apa yang baru saja dikatakannya itu?
 # text_en = ``But Andreas answered and said to his brothers, 'What do you think about what he just said?
 1	``	``	PUNCT	Z--	_	4	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
-2	Tetapi	tetapi	SCONJ	S--	_	4	mark	_	MorphInd=^tetapi<s>_S--$
+2	Tetapi	tetapi	ADV	S--	_	4	advmod	_	MorphInd=^tetapi<s>_S--$
 3	Andreas	andreas	PROPN	F--	_	4	nsubj	_	MorphInd=^andreas<f>_F--$
 4	menjawab	jawab	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+jawab<v>_VSA$
 5	dan	dan	CCONJ	H--	_	6	cc	_	MorphInd=^dan<h>_H--$
@@ -11133,7 +11133,7 @@
 3	memiliki	milik	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+milik<v>+i_VSA$
 4	keturunan	keturunan	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^ke+turun<v>+an_NSD$
 5	namun	namun	CCONJ	S--	_	6	cc	_	MorphInd=^namun<s>_S--$
-6	memiliki	milik	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^meN+milik<v>+i_VSA$
+6	memiliki	milik	VERB	VSA	Voice=Act	3	conj	_	MorphInd=^meN+milik<v>+i_VSA$
 7	karir	karir	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^karir<n>_NSD$
 8	militer	militer	ADJ	NSD	_	7	amod	_	MorphInd=^militer<n>_NSD$
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
@@ -11399,7 +11399,7 @@
 # sent_id = test-s457
 # text = Tetapi perjanjian kontrak dengan film Brenda Starr dan sebuah sandiwara teater dari Antony & Cleopatra dan The Taming of The Shrew sempat membuat Dalton tidak bisa menerima tawaran tersebut.
 # text_en = But a contract deal with Brenda Starr's films and a theatrical play from Antony & Cleopatra and The Taming of the Shrew prevented Dalton from accepting the offer.
-1	Tetapi	tetapi	CCONJ	S--	_	2	cc	_	MorphInd=^tetapi<s>_S--$
+1	Tetapi	tetapi	ADV	S--	_	2	advmod	_	MorphInd=^tetapi<s>_S--$
 2	perjanjian	perjanjian	NOUN	NSD	Number=Sing	23	nsubj	_	MorphInd=^per+janji<n>+an_NSD$
 3	kontrak	kontrak	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^kontrak<n>_NSD$
 4	dengan	dengan	ADP	R--	_	5	case	_	MorphInd=^dengan<r>_R--$
@@ -11978,8 +11978,8 @@
 17	Khayyam	khayyam	PROPN	X--	_	16	flat:name	_	SpaceAfter=No|MorphInd=^khayyam<x>_X--$
 18	)	)	PUNCT	Z--	_	14	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
 19	,	,	PUNCT	Z--	_	21	punct	_	MorphInd=^,<z>_Z--$
-20	namun	namun	SCONJ	S--	_	21	mark	_	MorphInd=^namun<s>_S--$
-21	terdapat	dapat	VERB	VSP	Voice=Pass	7	advcl	_	MorphInd=^ter+dapat<v>_VSP$
+20	namun	namun	CCONJ	S--	_	21	cc	_	MorphInd=^namun<s>_S--$
+21	terdapat	dapat	VERB	VSP	Voice=Pass	7	conj	_	MorphInd=^ter+dapat<v>_VSP$
 22	perbedaan	perbedaan	NOUN	NSD	Number=Sing	21	obj	_	SpaceAfter=No|MorphInd=^per+beda<a>+an_NSD$
 23	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
@@ -13030,8 +13030,8 @@
 # sent_id = test-s516
 # text = Akan tetapi Parlemen pihak Muslim Bosnia Herzegovina menolak rencana perjanjian tersebut.
 # text_en = However, the Muslim Parliament of Bosnia and Herzegovina rejected the proposed agreement.
-1	Akan	akan	SCONJ	M--	_	8	mark	_	MorphInd=^akan<m>_M--$
-2	tetapi	tetapi	SCONJ	S--	_	8	mark	_	MorphInd=^tetapi<s>_S--$
+1	Akan	akan	ADV	M--	_	8	advmod	_	MorphInd=^akan<m>_M--$
+2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	MorphInd=^tetapi<s>_S--$
 3	Parlemen	parlemen	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^parlemen<n>_NSD$
 4	pihak	pihak	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^pihak<n>_NSD$
 5	Muslim	muslim	PROPN	ASP	_	4	nmod	_	MorphInd=^muslim<a>_ASP$
@@ -14181,7 +14181,7 @@
 # sent_id = test-s557
 # text = Tetapi Abram berkata, ``Allah Tuhanku, aku mempunyai banyak kekayaan dan kepunyaan tetapi apakah gunanya bagiku?
 # text_en = But Abram said, ``God my Lord, I have many riches and possessions but of what use is it to me?
-1	Tetapi	tetapi	CCONJ	S--	_	3	cc	_	MorphInd=^tetapi<s>_S--$
+1	Tetapi	tetapi	ADV	S--	_	3	advmod	_	MorphInd=^tetapi<s>_S--$
 2	Abram	abram	PROPN	X--	_	3	nsubj	_	MorphInd=^abram<x>_X--$
 3	berkata	kata	VERB	VSA	Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^ber+kata<n>_VSA$
 4	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
@@ -14202,7 +14202,7 @@
 17	apa	apa	ADV	W--	PronType=Int	19	advmod	_	MorphInd=^apa<w>_W--$
 18	kah	kah	PART	T--	_	17	advmod:emph	_	MorphInd=^kah<t>_T--$
 19-20	gunanya	_	_	_	_	_	_	_	MorphInd=^guna<n>_NSD+dia<p>_PS3$
-19	guna	guna	NOUN	NSD	Number=Sing	11	advcl	_	MorphInd=^guna<n>_NSD$
+19	guna	guna	NOUN	NSD	Number=Sing	11	conj	_	MorphInd=^guna<n>_NSD$
 20	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	19	det	_	MorphInd=^dia<p>_PS3$
 21-22	bagiku	_	_	_	_	_	_	_	MorphInd=^bagi<r>_R--+aku<p>_PS1$|SpaceAfter=No
 21	bagi	bagi	ADP	R--	_	22	case	_	MorphInd=^bagi<r>_R--$
