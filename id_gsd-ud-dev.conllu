@@ -1138,7 +1138,7 @@
 12	CIPM	cipm	PROPN	X--	_	6	appos	_	SpaceAfter=No|MorphInd=^cipm<x>_X--$
 13	)	)	PUNCT	Z--	_	12	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
 14	,	,	PUNCT	Z--	_	16	punct	_	MorphInd=^,<z>_Z--$
-15	dibawah	dibawah	ADP	VSP	_	16	case	_	MorphInd=^di+bawah<n>_VSP$
+15	dibawah	dibawah	ADP	VSP	Typo=Yes	16	case	_	MorphInd=^di+bawah<n>_VSP$
 16	mandat	mandat	NOUN	NSD	Number=Sing	5	nmod	_	MorphInd=^mandat<n>_NSD$
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj:pass	_	MorphInd=^yang<s>_S--$
 18	diberikan	beri	VERB	VSP	Voice=Pass	16	acl:relcl	_	MorphInd=^di+beri<v>+kan_VSP$
@@ -1475,7 +1475,7 @@
 # sent_id = dev-s55
 # text = Dibawah Pimpinan beliau pun SMA Negeri 3 Madiun terus berkembang.
 # text_en = Under his leadership, SMA Negeri 3 Madiun continues to grow.
-1	Dibawah	dibawah	ADP	VSP	_	2	case	_	MorphInd=^di+bawah<n>_VSP$
+1	Dibawah	dibawah	ADP	VSP	Typo=Yes	2	case	_	MorphInd=^di+bawah<n>_VSP$
 2	Pimpinan	pimpinan	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^pimpin<v>+an_NSD$
 3	beliau	beliau	PRON	PS3	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	det	_	MorphInd=^beliau<p>_PS3$
 4	pun	pun	PART	T--	_	2	advmod:emph	_	MorphInd=^pun<t>_T--$
@@ -1530,7 +1530,7 @@
 5	di	di	ADP	R--	_	6	case	_	MorphInd=^di<r>_R--$
 6	Eropa	eropa	PROPN	NSD	_	4	nmod	_	MorphInd=^eropa<n>_NSD$
 7	Barat	barat	PROPN	NSD	_	6	amod	_	MorphInd=^barat<n>_NSD$
-8	dibawah	dibawah	ADP	VSP	_	9	case	_	MorphInd=^di+bawah<n>_VSP$
+8	dibawah	dibawah	ADP	VSP	Typo=Yes	9	case	_	MorphInd=^di+bawah<n>_VSP$
 9	kekuasaan	kekuasaan	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^ke+kuasa<n>+an_NSD$
 10	Napoleon	napoleon	PROPN	X--	_	9	nmod	_	MorphInd=^napoleon<x>_X--$
 11	(	(	PUNCT	Z--	_	12	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
@@ -1770,7 +1770,7 @@
 129	Autonomy	autonomy	PROPN	X--	_	128	flat:name	_	MorphInd=^autonomy<x>_X--$
 130	Center	center	PROPN	F--	_	129	flat:name	_	SpaceAfter=No|MorphInd=^center<f>_F--$
 131	)	)	PUNCT	Z--	_	128	punct	_	MorphInd=^)<z>_Z--$
-132	dimana	dimana	ADV	W--	PronType=Int	134	advmod	_	MorphInd=^dimana<w>_W--$
+132	dimana	dimana	SCONJ	W--	Typo=Yes	134	mark	_	MorphInd=^dimana<w>_W--$
 133	ia	ia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	134	nsubj	_	MorphInd=^ia<p>_PS3$
 134	duduk	duduk	VERB	VSA	Voice=Act	120	advcl	_	MorphInd=^duduk<v>_VSA$
 135	sebagai	sebagai	ADP	R--	_	136	case	_	MorphInd=^sebagai<r>_R--$
@@ -8707,7 +8707,7 @@
 20	melewati	lewat	VERB	VSA	Voice=Act	15	xcomp	_	MorphInd=^meN+lewat<v>+i_VSA$
 21	terowongan	terowongan	NOUN	NSD	Number=Sing	20	obj	_	MorphInd=^terowongan<n>_NSD$
 22	tepat	tepat	ADJ	ASP	_	21	amod	_	MorphInd=^tepat<a>_ASP$
-23	dibawah	dibawah	ADP	VSP	_	24	case	_	MorphInd=^di+bawah<n>_VSP$
+23	dibawah	dibawah	ADP	VSP	Typo=Yes	24	case	_	MorphInd=^di+bawah<n>_VSP$
 24	benteng	benteng	NOUN	X--	_	21	nmod	_	MorphInd=^benteng<x>_X--$
 25	kota	kota	NOUN	NSD	Number=Sing	24	compound	_	SpaceAfter=No|MorphInd=^kota<n>_NSD$
 26	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
@@ -10588,7 +10588,7 @@
 # sent_id = dev-s392
 # text = dijaren sumber mata air berlimpahh terutama di RT 5 RW 1 tepat y jalan ronggowasesa (singkil) by anak tomboy jarenn dava,, berbanding terbalik dengan Dsn. Kaluwan Dk. Botoh..
 # text_en = There are abundant springs, especially in RT 5 RW 1, right on Jalan Ronggowasesa (Singkil) by tomboy son Jarenn Dava, inversely proportional to Dsn. Kaluwan Dk. stupid..
-1	dijaren	dijaren	X	X--	Foreign=Yes|Typo=Yes	5	obl	_	MorphInd=^dijaren<x>_X--$
+1	dijaren	dijaren	NOUN	X--	Typo=Yes	5	obl	_	MorphInd=^dijaren<x>_X--$
 2	sumber	sumber	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^sumber<n>_NSD$
 3	mata	mata	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^mata<n>_NSD$
 4	air	air	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^air<n>_NSD$

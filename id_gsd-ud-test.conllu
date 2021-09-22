@@ -3356,7 +3356,7 @@
 60	subsekbid	subsekbid	NOUN	X--	_	57	nmod	_	MorphInd=^subsekbid<x>_X--$
 61	(	(	PUNCT	Z--	_	62	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 62	organisasi-organisasi	organisasi	NOUN	NSD	Number=Plur	60	appos	_	MorphInd=^organisasi<n>_NSD$
-63	dibawah	dibawah	ADP	VSP	_	64	case	_	MorphInd=^di+bawah<n>_VSP$
+63	dibawah	dibawah	ADP	VSP	Typo=Yes	64	case	_	MorphInd=^di+bawah<n>_VSP$
 64	OSIS	osis	PROPN	X--	_	62	nmod	_	MorphInd=^osis<x>_X--$
 65	SMK	smk	PROPN	X--	_	64	flat:name	_	MorphInd=^smk<x>_X--$
 66	Negeri	negeri	PROPN	NSD	_	65	flat:name	_	MorphInd=^negeri<n>_NSD$
@@ -7134,7 +7134,7 @@
 24	15	15	NUM	CC-	NumType=Card	23	nummod	_	MorphInd=^15<c>_CC-$
 25	/	/	PUNCT	Z--	_	24	punct	_	MorphInd=^/<z>_Z--$
 26	Tirtayasa	tirtayasa	PROPN	X--	_	24	flat	_	MorphInd=^tirtayasa<x>_X--$
-27	dibawah	dibawah	ADP	VSP	_	28	case	_	MorphInd=^di+bawah<n>_VSP$
+27	dibawah	dibawah	ADP	VSP	Typo=Yes	28	case	_	MorphInd=^di+bawah<n>_VSP$
 28	Pimpinan	pimpinan	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^pimpin<v>+an_NSD$
 29	Lettu	lettu	PROPN	X--	_	28	nmod	_	MorphInd=^lettu<x>_X--$
 30	Czi	czi	PROPN	X--	_	29	flat:name	_	MorphInd=^czi<x>_X--$
