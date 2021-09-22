@@ -1536,7 +1536,7 @@
 22	lebih	lebih	ADV	D--	_	23	advmod	_	MorphInd=^lebih<d>_D--$
 23	banyak	banyak	DET	B--	PronType=Ind	17	amod	_	MorphInd=^banyak<b>_B--$
 24	pada	pada	ADP	R--	_	25	case	_	MorphInd=^pada<r>_R--$
-25	saat	saat	PRON	S--	PronType=Rel	17	obl	_	MorphInd=^saat<s>_S--$
+25	saat	saat	NOUN	S--	Number=Sing	17	obl	_	MorphInd=^saat<s>_S--$
 26-27	terjadinya	_	_	_	_	_	_	_	MorphInd=^terjadi<v>_VSP+dia<p>_PS3$
 26	terjadi	terjadi	VERB	VSP	Voice=Pass	17	obj	_	MorphInd=^terjadi<v>_VSP$
 27	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	26	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -4030,7 +4030,7 @@
 13	yang	yang	PRON	S--	PronType=Rel	14	nsubj	_	MorphInd=^yang<s>_S--$
 14	terjadi	terjadi	VERB	VSP	Voice=Pass	12	acl:relcl	_	MorphInd=^terjadi<v>_VSP$
 15	pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
-16	saat	saat	PRON	S--	PronType=Rel	14	obl	_	MorphInd=^saat<s>_S--$
+16	saat	saat	NOUN	S--	Number=Sing	14	obl	_	MorphInd=^saat<s>_S--$
 17	Perang	perang	PRON	NSD	Number=Sing	16	nmod	_	MorphInd=^perang<n>_NSD$
 18	Dunia	dunia	PROPN	NSD	_	17	nmod	_	MorphInd=^dunia<n>_NSD$
 19	II	ii	NUM	F--	NumType=Card	18	nummod	_	SpaceAfter=No|MorphInd=^ii<f>_F--$
@@ -5761,7 +5761,7 @@
 7	kebutuhan	kebutuhan	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^ke+butuh<v>+an_NSD$
 8	penambahan	pentambahan	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^peN+tambah<v>+an_NSD$
 9	armada	armada	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^armada<n>_NSD$
-10	saat	saat	PRON	S--	PronType=Rel	6	obl	_	MorphInd=^saat<s>_S--$
+10	saat	saat	NOUN	S--	Number=Sing	6	obl	_	MorphInd=^saat<s>_S--$
 11	ini	ini	DET	B--	PronType=Dem	10	det	_	MorphInd=^ini<b>_B--$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj	_	MorphInd=^yang<s>_S--$
 13-14	ahnya	_	_	_	_	_	_	_	MorphInd=^ah<i>_I--+dia<p>_PS3$
@@ -7125,10 +7125,10 @@
 15	satu	satu	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^satu<c>_CC-$
 16	Detasemen	detasemen	PROPN	X--	_	14	obj	_	MorphInd=^detasemen<x>_X--$
 17	Zipur	zipur	PROPN	X--	_	16	flat:name	_	MorphInd=^zipur<x>_X--$
-18	di	di	SCONJ	R--	_	14	mark	_	MorphInd=^di<r>_R--$
-19	BP	bp	PROPN	X--	_	18	goeswith	_	MorphInd=^bp<x>_X--$
-20	-	-	X	Z--	_	18	goeswith	_	MorphInd=^-<z>_Z--$
-21	kan	kan	X	F--	_	18	goeswith	_	MorphInd=^kan<f>_F--$
+18	di	di	ADP	R--	_	19	case	_	MorphInd=^di<r>_R--$
+19	BP	bp	PROPN	X--	_	16	nmod	_	MorphInd=^bp<x>_X--$
+20	-	-	PUNCT	Z--	_	21	punct	_	MorphInd=^-<z>_Z--$
+21	kan	kan	X	F--	_	19	nmod	_	MorphInd=^kan<f>_F--$
 22	pada	pada	ADP	R--	_	23	case	_	MorphInd=^pada<r>_R--$
 23	Brigif	brigif	PROPN	X--	_	14	obl	_	MorphInd=^brigif<x>_X--$
 24	15	15	NUM	CC-	NumType=Card	23	nummod	_	MorphInd=^15<c>_CC-$
@@ -7303,7 +7303,7 @@
 12	tempat	tempat	NOUN	NSD	Number=Sing	19	nsubj	_	MorphInd=^tempat<n>_NSD$
 13	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	14	nsubj	_	MorphInd=^mereka<p>_PP3$
 14	berada	ada	VERB	VSA	Voice=Act	12	acl	_	MorphInd=^ber+ada<a>_VSA$
-15	saat	saat	PRON	S--	PronType=Rel	14	obl	_	MorphInd=^saat<s>_S--$
+15	saat	saat	NOUN	S--	Number=Sing	14	obl	_	MorphInd=^saat<s>_S--$
 16	ini	ini	DET	B--	PronType=Dem	15	det	_	MorphInd=^ini<b>_B--$
 17	adalah	adalah	AUX	O--	_	19	cop	_	MorphInd=^adalah<o>_O--$
 18	'	'	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -9928,7 +9928,7 @@
 16	Wasu	wasu	PROPN	X--	_	13	obj	_	SpaceAfter=No|MorphInd=^wasu<x>_X--$
 17	)	)	PUNCT	Z--	_	13	punct	_	MorphInd=^)<z>_Z--$
 18	pada	pada	ADP	R--	_	19	case	_	MorphInd=^pada<r>_R--$
-19	saat	saat	PRON	S--	PronType=Rel	10	obl	_	MorphInd=^saat<s>_S--$
+19	saat	saat	NOUN	S--	Number=Sing	10	obl	_	MorphInd=^saat<s>_S--$
 20	perang	perang	NOUN	NSD	Number=Sing	19	compound	_	MorphInd=^perang<n>_NSD$
 21	di	di	ADP	R--	_	22	case	_	MorphInd=^di<r>_R--$
 22	Kurukshetra	kurukshetra	PROPN	X--	_	20	nmod	_	SpaceAfter=No|MorphInd=^kurukshetra<x>_X--$
@@ -10128,7 +10128,7 @@
 12	tim	tim	NOUN	NSD	Number=Sing	11	compound	_	MorphInd=^tim<n>_NSD$
 13	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
 14	ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	17	nsubj	_	MorphInd=^ia<p>_PS3$
-15	saat	saat	PRON	S--	PronType=Rel	17	obl	_	MorphInd=^saat<s>_S--$
+15	saat	saat	NOUN	S--	Number=Sing	17	obl	_	MorphInd=^saat<s>_S--$
 16	itu	itu	DET	B--	PronType=Dem	15	det	_	MorphInd=^itu<b>_B--$
 17	mengaku	kaku	VERB	VSA	Voice=Act	7	conj	_	MorphInd=^meN+kaku<a>_VSA$
 18	sudah	sudah	AUX	D--	_	20	aux	_	MorphInd=^sudah<d>_D--$
@@ -11048,7 +11048,7 @@
 # text = Suatu saat nanti, rahasia itu akan terbuka dan akan menjungkirbalikkan dunia mereka.
 # text_en = One day, the secret will be revealed and will turn their world upside down.
 1	Suatu	suatu	DET	B--	PronType=Ind	2	det	_	MorphInd=^suatu<b>_B--$
-2	saat	saat	PRON	S--	PronType=Rel	8	obl	_	MorphInd=^saat<s>_S--$
+2	saat	saat	NOUN	S--	Number=Sing	8	obl	_	MorphInd=^saat<s>_S--$
 3	nanti	nanti	ADV	VSA	_	2	advmod	_	SpaceAfter=No|MorphInd=^nanti<v>_VSA$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	rahasia	rahasia	NOUN	NSD	Number=Sing	8	nsubj:pass	_	MorphInd=^rahasia<n>_NSD$
@@ -11339,7 +11339,7 @@
 # text = Pada saat yang sama pertemuan yang tersisah disediakan untuk anak-anak dan remaja sesuai dengan kelompok masing-masing (mirip dengan sekolah Minggu di gereja kristen lainnya).
 # text_en = At the same time the remaining meetings are provided for children and youth according to their respective groups (similar to Sunday school in other Christian churches).
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	saat	saat	PRON	S--	PronType=Rel	8	obl	_	MorphInd=^saat<s>_S--$
+2	saat	saat	NOUN	S--	Number=Sing	8	obl	_	MorphInd=^saat<s>_S--$
 3	yang	yang	PRON	S--	PronType=Rel	4	nsubj	_	MorphInd=^yang<s>_S--$
 4	sama	sama	ADJ	ASP	_	2	acl:relcl	_	MorphInd=^sama<a>_ASP$
 5	pertemuan	pertemuan	NOUN	NSD	Number=Sing	8	nsubj:pass	_	MorphInd=^per+temu<n>+an_NSD$
@@ -12235,7 +12235,7 @@
 2	3	3	NUM	CC-	NumType=Card	1	nummod	_	MorphInd=^3<c>_CC-$
 3	dari	dari	ADP	R--	_	4	case	_	MorphInd=^dari<r>_R--$
 4	BCIA	bcia	PROPN	X--	_	1	nmod	_	MorphInd=^bcia<x>_X--$
-5	saat	saat	PRON	S--	PronType=Rel	7	obl	_	MorphInd=^saat<s>_S--$
+5	saat	saat	NOUN	S--	Number=Sing	7	obl	_	MorphInd=^saat<s>_S--$
 6	ini	ini	DET	B--	PronType=Dem	5	det	_	MorphInd=^ini<b>_B--$
 7	merupakan	merupakan	VERB	O--	_	0	root	_	MorphInd=^merupakan<o>_O--$
 8	terbesar	terbesar	ADJ	ASS	Degree=Sup	9	amod	_	MorphInd=^ter+besar<a>_ASS$
@@ -12813,7 +12813,7 @@
 12	dan	dan	CCONJ	H--	_	13	cc	_	MorphInd=^dan<h>_H--$
 13	dilakukan	laku	VERB	VSP	Voice=Pass	9	conj	_	MorphInd=^di+laku<a>+kan_VSP$
 14	pada	pada	ADP	R--	_	15	case	_	MorphInd=^pada<r>_R--$
-15	saat	saat	PRON	S--	PronType=Rel	13	obl	_	MorphInd=^saat<s>_S--$
+15	saat	saat	NOUN	S--	Number=Sing	13	obl	_	MorphInd=^saat<s>_S--$
 16	pesta	pesta	NOUN	NSD	Number=Sing	15	compound	_	MorphInd=^pesta<n>_NSD$
 17	perkawinan	perkawinan	NOUN	NSD	Number=Sing	16	compound	_	SpaceAfter=No|MorphInd=^per+kawin<v>+an_NSD$
 18	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
@@ -13485,7 +13485,7 @@
 6	perhatian	perhatian	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^per+hati<n>+an_NSD$
 7	karena	karena	SCONJ	S--	_	17	mark	_	MorphInd=^karena<s>_S--$
 8	pada	pada	ADP	R--	_	9	case	_	MorphInd=^pada<r>_R--$
-9	saat	saat	PRON	S--	PronType=Rel	17	obl	_	MorphInd=^saat<s>_S--$
+9	saat	saat	NOUN	S--	Number=Sing	17	obl	_	MorphInd=^saat<s>_S--$
 10	itu	itu	DET	B--	PronType=Dem	9	det	_	MorphInd=^itu<b>_B--$
 11	atmosfer	atmosfer	NOUN	NSD	Number=Sing	17	nsubj	_	MorphInd=^atmosfer<n>_NSD$
 12	musik	musik	NOUN	NSD	Number=Sing	11	compound	_	MorphInd=^musik<n>_NSD$

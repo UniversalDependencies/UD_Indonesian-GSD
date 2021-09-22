@@ -1167,12 +1167,12 @@
 41	disekeliling	disekeliling	ADP	X--	_	42	case	_	MorphInd=^disekeliling<x>_X--$
 42	matahari	matahari	NOUN	NSD	Number=Sing	36	nmod	_	MorphInd=^matahari<n>_NSD$
 43	di	di	ADP	R--	_	44	case	_	MorphInd=^di<r>_R--$
-44	saat	saat	PRON	S--	PronType=Rel	42	nmod	_	MorphInd=^saat<s>_S--$
+44	saat	saat	NOUN	S--	Number=Sing	42	nmod	_	MorphInd=^saat<s>_S--$
 45	epoch	epoch	ADJ	X--	_	44	amod	_	SpaceAfter=No|MorphInd=^epoch<x>_X--$
 46	,	,	PUNCT	Z--	_	52	punct	_	MorphInd=^,<z>_Z--$
 47	karena	karena	SCONJ	S--	_	52	mark	_	MorphInd=^karena<s>_S--$
 48	pada	pada	ADP	R--	_	49	case	_	MorphInd=^pada<r>_R--$
-49	saat	saat	PRON	S--	PronType=Rel	52	obl	_	MorphInd=^saat<s>_S--$
+49	saat	saat	NOUN	S--	Number=Sing	52	obl	_	MorphInd=^saat<s>_S--$
 50	itu	itu	DET	B--	PronType=Dem	49	det	_	MorphInd=^itu<b>_B--$
 51	telah	telah	AUX	D--	_	52	aux	_	MorphInd=^telah<d>_D--$
 52	disadari	sadar	VERB	VSP	Voice=Pass	35	advcl	_	MorphInd=^di+sadar<a>+i_VSP$
@@ -3080,7 +3080,7 @@
 # sent_id = dev-s109
 # text = Saat ini telah dibangun jalur jalan sawah untuk mempermudah dalam pendistribusian padi di dusun Bangsalan oleh PNPM Mandiri.
 # text_en = Currently, rice fields have been built to facilitate the distribution of rice in the Bangsalan hamlet by PNPM Mandiri.
-1	Saat	saat	PRON	S--	PronType=Rel	4	compound	_	MorphInd=^saat<s>_S--$
+1	Saat	saat	NOUN	S--	Number=Sing	4	obl	_	MorphInd=^saat<s>_S--$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	telah	telah	AUX	D--	_	4	aux	_	MorphInd=^telah<d>_D--$
 4	dibangun	bangun	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+bangun<v>_VSP$
@@ -7161,7 +7161,7 @@
 12	robek	robek	VERB	VSA	Voice=Act	9	acl:relcl	_	SpaceAfter=No|MorphInd=^robek<v>_VSA$
 13	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
 14	tapi	tetapi	CCONJ	S--	_	18	cc	_	MorphInd=^tapi<s>_S--$
-15	saat	saat	PRON	S--	PronType=Rel	18	compound	_	MorphInd=^saat<s>_S--$
+15	saat	saat	NOUN	S--	Number=Sing	18	compound	_	MorphInd=^saat<s>_S--$
 16	itu	itu	DET	B--	PronType=Dem	15	det	_	MorphInd=^itu<b>_B--$
 17	Amanda	amanda	PROPN	F--	_	18	nsubj:pass	_	MorphInd=^amanda<f>_F--$
 18	diselamatkan	selamat	VERB	VSP	Voice=Pass	8	conj	_	MorphInd=^di+selamat<a>+kan_VSP$
@@ -7245,7 +7245,7 @@
 1	Melihat	lihat	VERB	VSA	Voice=Act	14	advcl	_	MorphInd=^meN+lihat<v>_VSA$
 2	situasi	situasi	NOUN	NSD	Number=Sing	14	nsubj	_	MorphInd=^situasi<n>_NSD$
 3	negara	negara	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^negara<n>_NSD$
-4	saat	saat	PRON	S--	PronType=Rel	2	nmod	_	MorphInd=^saat<s>_S--$
+4	saat	saat	NOUN	S--	Number=Sing	2	nmod	_	MorphInd=^saat<s>_S--$
 5	itu	itu	DET	B--	PronType=Dem	4	det	_	MorphInd=^itu<b>_B--$
 6	yang	yang	PRON	S--	PronType=Rel	7	nsubj:pass	_	MorphInd=^yang<s>_S--$
 7	diperintah	perintah	VERB	VSP	Voice=Pass	2	acl:relcl	_	MorphInd=^di+perintah<n>_VSP$
@@ -10151,7 +10151,7 @@
 # sent_id = dev-s375
 # text = Saat ini Desy memandu Selamat Pagi di Trans 7.
 # text_en = Currently Desy guides Good Morning on Trans 7.
-1	Saat	saat	PRON	S--	PronType=Rel	4	obl	_	MorphInd=^saat<s>_S--$
+1	Saat	saat	NOUN	S--	Number=Sing	4	obl	_	MorphInd=^saat<s>_S--$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	Desy	desy	PROPN	X--	_	4	nsubj	_	MorphInd=^desy<x>_X--$
 4	memandu	pandu	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+pandu<v>_VSA$
@@ -11443,7 +11443,7 @@
 # text = Hingga saat ini Amerika Serikat menganut sistem daur terbuka atau” open cycle”. Beberapa PLTN PWR di dunia khususnya di Eropa telah menggunakan bahan bakar MOX ini walaupun sifatnya masih parsial, yaitu 20 - 30 % dari bahan bakar yang ada di teras.
 # text_en = Until now the United States adheres to an open cycle system or "open cycle". Several PWR nuclear power plants in the world, especially in Europe, have used this MOX fuel even though it is still partial, which is 20-30% of the fuel in the terrace.
 1	Hingga	hingga	ADP	R--	_	2	case	_	MorphInd=^hingga<r>_R--$
-2	saat	saat	PRON	S--	PronType=Rel	6	nmod	_	MorphInd=^saat<s>_S--$
+2	saat	saat	NOUN	S--	Number=Sing	6	nmod	_	MorphInd=^saat<s>_S--$
 3	ini	ini	DET	B--	PronType=Dem	2	det	_	MorphInd=^ini<b>_B--$
 4	Amerika	amerika	PROPN	NSD	_	6	nsubj	_	MorphInd=^amerika<n>_NSD$
 5	Serikat	serikat	PROPN	NSD	_	4	flat:name	_	MorphInd=^serikat<n>_NSD$
@@ -11504,7 +11504,7 @@
 # text = Sejak saat itu Bondan Kejawan menjadi anak angkat Ki Ageng Tarub, dan diganti namanya menjadi Lembu Peteng.
 # text_en = Since then Bondan Kejawan became the adopted son of Ki Ageng Tarub, and his name was changed to Lembu Peteng.
 1	Sejak	sejak	ADP	S--	_	2	case	_	MorphInd=^sejak<s>_S--$
-2	saat	saat	PRON	S--	PronType=Rel	6	obl	_	MorphInd=^saat<s>_S--$
+2	saat	saat	NOUN	S--	Number=Sing	6	obl	_	MorphInd=^saat<s>_S--$
 3	itu	itu	DET	B--	PronType=Dem	2	det	_	MorphInd=^itu<b>_B--$
 4	Bondan	bondan	PROPN	X--	_	6	nsubj	_	MorphInd=^bondan<x>_X--$
 5	Kejawan	kejawan	PROPN	X--	_	4	flat:name	_	MorphInd=^kejawan<x>_X--$
@@ -12077,7 +12077,7 @@
 39	dan	dan	CCONJ	H--	_	30	cc	_	MorphInd=^dan<h>_H--$
 40	untuk	untuk	ADP	R--	_	42	case	_	MorphInd=^untuk<r>_R--$
 41	suatu	suatu	DET	B--	PronType=Ind	42	det	_	MorphInd=^suatu<b>_B--$
-42	saat	saat	PRON	S--	PronType=Rel	22	nmod	_	SpaceAfter=No|MorphInd=^saat<s>_S--$
+42	saat	saat	NOUN	S--	Number=Sing	22	nmod	_	SpaceAfter=No|MorphInd=^saat<s>_S--$
 43	,	,	PUNCT	Z--	_	45	punct	_	MorphInd=^,<z>_Z--$
 44	dalam	dalam	ADP	ASP	_	45	case	_	MorphInd=^dalam<a>_ASP$
 45	bidang	bidang	NOUN	NSD	Number=Sing	42	nmod	_	MorphInd=^bidang<n>_NSD$
@@ -12776,7 +12776,7 @@
 # text = Belloumi saat ini menjabat sebagai Wakil Ketua MC Oran.
 # text_en = Belloumi currently serves as the Vice Chairman of MC Oran.
 1	Belloumi	belloumi	PROPN	X--	_	4	nsubj	_	MorphInd=^belloumi<x>_X--$
-2	saat	saat	PRON	S--	PronType=Rel	4	obl	_	MorphInd=^saat<s>_S--$
+2	saat	saat	NOUN	S--	Number=Sing	4	obl	_	MorphInd=^saat<s>_S--$
 3	ini	ini	DET	B--	PronType=Dem	2	det	_	MorphInd=^ini<b>_B--$
 4	menjabat	jabat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+jabat<v>_VSA$
 5	sebagai	sebagai	ADP	R--	_	6	case	_	MorphInd=^sebagai<r>_R--$
@@ -14249,7 +14249,7 @@
 7	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
 8	karena	karena	SCONJ	S--	_	15	mark	_	MorphInd=^karena<s>_S--$
 9	pada	pada	ADP	R--	_	10	case	_	MorphInd=^pada<r>_R--$
-10	saat	saat	PRON	S--	PronType=Rel	15	obl	_	MorphInd=^saat<s>_S--$
+10	saat	saat	NOUN	S--	Number=Sing	15	obl	_	MorphInd=^saat<s>_S--$
 11	ditemukan	temu	VERB	VSP	Voice=Pass	10	acl	_	SpaceAfter=No|MorphInd=^di+temu<v>+kan_VSP$
 12	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
 13	anak	anak	NOUN	NSD	Number=Sing	15	nsubj:pass	_	MorphInd=^anak<n>_NSD$
