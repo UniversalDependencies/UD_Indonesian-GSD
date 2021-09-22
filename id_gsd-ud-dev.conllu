@@ -657,9 +657,9 @@
 15	di	di	ADP	R--	_	16	case	_	MorphInd=^di<r>_R--$
 16	Batavia	batavia	PROPN	X--	_	14	obl	_	MorphInd=^batavia<x>_X--$
 17	pada	pada	ADP	R--	_	18	case	_	MorphInd=^pada<r>_R--$
-18	5	5	NUM	CC-	NumType=Card	19	obl:tmod	_	MorphInd=^5<c>_CC-$
-19	Juni	juni	PROPN	NSD	_	14	flat	_	MorphInd=^juni<n>_NSD$
-20	1879	1879	NUM	CC-	NumType=Card	19	nummod	_	SpaceAfter=No|MorphInd=^1879<c>_CC-$
+18	5	5	NUM	CC-	NumType=Card	14	obl:tmod	_	MorphInd=^5<c>_CC-$
+19	Juni	juni	PROPN	NSD	_	18	flat	_	MorphInd=^juni<n>_NSD$
+20	1879	1879	NUM	CC-	NumType=Card	18	nummod	_	SpaceAfter=No|MorphInd=^1879<c>_CC-$
 21	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s25
@@ -12274,9 +12274,9 @@
 8	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 9	Fulham	fulham	PROPN	F--	_	5	appos	_	MorphInd=^fulham<f>_F--$
 10	pada	pada	ADP	R--	_	11	case	_	MorphInd=^pada<r>_R--$
-11	18	18	NUM	CC-	NumType=Card	12	obl:tmod	_	MorphInd=^18<c>_CC-$
-12	April	april	PROPN	NSD	_	2	flat	_	MorphInd=^april<n>_NSD$
-13	2013	2013	NUM	CC-	NumType=Card	12	nummod	_	SpaceAfter=No|MorphInd=^2013<c>_CC-$
+11	18	18	NUM	CC-	NumType=Card	2	obl:tmod	_	MorphInd=^18<c>_CC-$
+12	April	april	PROPN	NSD	_	11	flat	_	MorphInd=^april<n>_NSD$
+13	2013	2013	NUM	CC-	NumType=Card	11	flat	_	SpaceAfter=No|MorphInd=^2013<c>_CC-$
 14	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s448
@@ -12602,8 +12602,8 @@
 10	Irlandia	irlandia	PROPN	NSD	_	8	obl	_	MorphInd=^irlandia<n>_NSD$
 11	Baru	baru	PROPN	ASP	_	10	flat:name	_	MorphInd=^baru<a>_ASP$
 12	pada	pada	ADP	R--	_	13	case	_	MorphInd=^pada<r>_R--$
-13	29	29	NUM	CC-	NumType=Card	14	obl:tmod	_	MorphInd=^29<c>_CC-$
-14	April	april	PROPN	NSD	_	8	flat	_	MorphInd=^april<n>_NSD$
+13	29	29	NUM	CC-	NumType=Card	8	obl:tmod	_	MorphInd=^29<c>_CC-$
+14	April	april	PROPN	NSD	_	13	flat	_	MorphInd=^april<n>_NSD$
 15	menuju	tuju	VERB	VSA	Voice=Act	8	advcl	_	MorphInd=^meN+tuju<v>_VSA$
 16	Teluk	teluk	PROPN	NSD	_	15	obj	_	MorphInd=^teluk<n>_NSD$
 17	Thousand	thousand	PROPN	F--	_	16	flat:name	_	MorphInd=^thousand<f>_F--$
@@ -12623,8 +12623,8 @@
 31	invasi	invasi	NOUN	NSD	Number=Sing	30	compound	_	MorphInd=^invasi<n>_NSD$
 32	Tulagi	tulagi	PROPN	X--	_	31	nmod	_	MorphInd=^tulagi<x>_X--$
 33	pada	pada	ADP	R--	_	34	case	_	MorphInd=^pada<r>_R--$
-34	2	2	NUM	CC-	NumType=Card	35	obl:tmod	_	MorphInd=^2<c>_CC-$
-35	Mei	mei	PROPN	NSD	_	27	flat	_	SpaceAfter=No|MorphInd=^mei<n>_NSD$
+34	2	2	NUM	CC-	NumType=Card	27	nmod:tmod	_	MorphInd=^2<c>_CC-$
+35	Mei	mei	PROPN	NSD	_	34	flat	_	SpaceAfter=No|MorphInd=^mei<n>_NSD$
 36	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 37	Kesatuan	kesatuan	NOUN	X--	_	43	nsubj:pass	_	MorphInd=^kesatuan<x>_X--$
 38	invasi	invasi	NOUN	NSD	Number=Sing	37	compound	_	MorphInd=^invasi<n>_NSD$
@@ -12636,8 +12636,8 @@
 44	dari	dari	ADP	R--	_	45	case	_	MorphInd=^dari<r>_R--$
 45	Rabaul	rabaul	PROPN	X--	_	43	obl	_	MorphInd=^rabaul<x>_X--$
 46	pada	pada	ADP	R--	_	47	case	_	MorphInd=^pada<r>_R--$
-47	30	30	NUM	CC-	NumType=Card	48	obl:tmod	_	MorphInd=^30<c>_CC-$
-48	April	april	PROPN	NSD	_	43	flat	_	SpaceAfter=No|MorphInd=^april<n>_NSD$
+47	30	30	NUM	CC-	NumType=Card	43	obl:tmod	_	MorphInd=^30<c>_CC-$
+48	April	april	PROPN	NSD	_	47	flat	_	SpaceAfter=No|MorphInd=^april<n>_NSD$
 49	.	.	PUNCT	Z--	_	43	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s463
