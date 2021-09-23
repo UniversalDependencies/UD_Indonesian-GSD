@@ -455,7 +455,7 @@
 # sent_id = test-s17
 # text = Sementara itu, seorang pelawak merayu seorang pembantu rumah tangga.
 # text_en = Meanwhile, a comedian seduces a housemaid.
-1	Sementara	sementara	CCONJ	D--	_	6	cc	_	MorphInd=^sementara<d>_D--$
+1	Sementara	sementara	ADV	D--	_	6	advmod	_	MorphInd=^sementara<d>_D--$
 2	itu	itu	DET	B--	PronType=Dem	1	fixed	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	seorang	seorang	DET	B--	PronType=Ind	5	det	_	MorphInd=^seorang<b>_B--$
@@ -534,10 +534,10 @@
 6	oleh	oleh	ADP	R--	_	7	case	_	MorphInd=^oleh<r>_R--$
 7	Slamet	slamet	PROPN	F--	_	5	obl	_	MorphInd=^slamet<f>_F--$
 8	Rahardjo	rahardjo	PROPN	X--	_	7	flat:name	_	SpaceAfter=No|MorphInd=^rahardjo<x>_X--$
-9	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
-10	beserta	beserta	CCONJ	R--	_	5	dep	_	MorphInd=^beserta<r>_R--$
+9	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
+10	beserta	beserta	ADP	R--	_	12	case	_	MorphInd=^beserta<r>_R--$
 11	beberapa	beberapa	DET	B--	PronType=Ind	12	det	_	MorphInd=^beberapa<b>_B--$
-12	bintang	bintang	NOUN	NSD	Number=Sing	10	nmod	_	MorphInd=^bintang<n>_NSD$
+12	bintang	bintang	NOUN	NSD	Number=Sing	7	nmod	_	MorphInd=^bintang<n>_NSD$
 13	baru	baru	ADJ	ASP	_	12	amod	_	MorphInd=^baru<a>_ASP$
 14	seperti	seperti	ADP	R--	_	15	case	_	MorphInd=^seperti<r>_R--$
 15	Vino	vino	PROPN	X--	_	12	nmod	_	MorphInd=^vino<x>_X--$
@@ -1693,7 +1693,7 @@
 # sent_id = test-s66
 # text = Banyak orang mencoba tantangan Columbus tersebut, namun gagal.
 # text_en = Many people tried the Columbus challenge, but failed.
-1	Banyak	banyak	ADV	ASP	_	2	advmod	_	MorphInd=^banyak<a>_ASP$
+1	Banyak	banyak	DET	ASP	PronType=Ind	2	det	_	MorphInd=^banyak<a>_ASP$
 2	orang	orang	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^orang<n>_NSD$
 3	mencoba	coba	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+coba<v>_VSA$
 4	tantangan	tantangan	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^tantang<v>+an_NSD$
@@ -2908,7 +2908,7 @@
 2	belajar	belajar	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^belajar<n>_NSD$
 3	demikian	demikian	ADV	S--	_	4	advmod	_	MorphInd=^demikian<s>_S--$
 4	membuat	buat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+buat<v>_VSA$
-5	banyak	banyak	ADV	B--	PronType=Ind	6	advmod	_	MorphInd=^banyak<b>_B--$
+5	banyak	banyak	DET	B--	PronType=Ind	6	det	_	MorphInd=^banyak<b>_B--$
 6	pendidik	pendidik	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^peN+didik<v>_NSD$
 7	mengubah	ubah	VERB	VSA	Voice=Act	6	advcl	_	MorphInd=^meN+ubah<v>_VSA$
 8	perspektif	perspektif	NOUN	NSD	Number=Sing	7	obj	_	SpaceAfter=No|MorphInd=^perspektif<n>_NSD$
@@ -4594,11 +4594,11 @@
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 4	bangsa	bangsa	NOUN	NSD	Number=Sing	13	nsubj	_	MorphInd=^bangsa<n>_NSD$
 5	Saxon	saxon	PROPN	X--	_	4	nmod	_	MorphInd=^saxon<x>_X--$
-6	(	(	PUNCT	Z--	_	7	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-7	beserta	beserta	CCONJ	R--	_	4	appos	_	MorphInd=^beserta<r>_R--$
-8	suku-suku	suku	NOUN	NSD	Number=Plur	7	nmod	_	MorphInd=^suku<n>_NSD$
+6	(	(	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+7	beserta	beserta	ADP	R--	_	9	case	_	MorphInd=^beserta<r>_R--$
+8	suku-suku	suku	NOUN	NSD	Number=Plur	4	nmod	_	MorphInd=^suku<n>_NSD$
 9	lainnya	lainnya	ADJ	D--	_	8	amod	_	SpaceAfter=No|MorphInd=^lainnya<d>_D--$
-10	)	)	PUNCT	Z--	_	7	punct	_	MorphInd=^)<z>_Z--$
+10	)	)	PUNCT	Z--	_	8	punct	_	MorphInd=^)<z>_Z--$
 11	pertama	pertama	ADJ	CO-	NumType=Ord	12	amod	_	MorphInd=^pertama<c>_CO-$
 12	kali	kali	NOUN	VSA	_	13	obl	_	MorphInd=^kali<v>_VSA$
 13	memasuki	masuk	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+masuk<v>+i_VSA$
@@ -5188,7 +5188,7 @@
 14	usul	usul	NOUN	VSA	_	12	fixed	_	MorphInd=^usul<v>_VSA$
 15	manusia	manusia	NOUN	NSD	Number=Sing	12	obj	_	SpaceAfter=No|MorphInd=^manusia<n>_NSD$
 16	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
-17	juga	juga	CCONJ	D--	_	18	cc	_	MorphInd=^juga<d>_D--$
+17	juga	juga	ADV	D--	_	18	advmod	_	MorphInd=^juga<d>_D--$
 18	berfungsi	fungsi	VERB	VSA	Voice=Act	3	conj	_	MorphInd=^ber+fungsi<n>_VSA$
 19	sebagai	sebagai	ADP	R--	_	20	case	_	MorphInd=^sebagai<r>_R--$
 20	almanak	almanak	NOUN	X--	_	18	obl	_	MorphInd=^almanak<x>_X--$
@@ -6276,7 +6276,7 @@
 # text_en = Oz Casino also has an "Emerald City Gift Shop" and an "Oz Buffet".
 1	Oz	oz	PROPN	X--	_	4	nsubj	_	MorphInd=^oz<x>_X--$
 2	Casino	casino	PROPN	X--	_	1	flat:name	_	MorphInd=^casino<x>_X--$
-3	juga	juga	CCONJ	D--	_	1	cc	_	MorphInd=^juga<d>_D--$
+3	juga	juga	ADV	D--	_	4	advmod	_	MorphInd=^juga<d>_D--$
 4	memiliki	milik	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+milik<v>+i_VSA$
 5	"	"	PUNCT	Z--	_	6	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 6	Emerald	emerald	PROPN	X--	_	4	obj	_	MorphInd=^emerald<x>_X--$
@@ -7889,7 +7889,7 @@
 1	Piubega	piubega	PROPN	X--	_	3	nsubj	_	MorphInd=^piubega<x>_X--$
 2	adalah	adalah	AUX	O--	_	3	cop	_	MorphInd=^adalah<o>_O--$
 3	komune	komune	NOUN	X--	_	0	root	_	MorphInd=^komune<x>_X--$
-4	yang	yang	CCONJ	S--	_	5	nsubj	_	MorphInd=^yang<s>_S--$
+4	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	MorphInd=^yang<s>_S--$
 5	terletak	letak	VERB	VSP	Voice=Pass	3	acl:relcl	_	MorphInd=^ter+letak<n>_VSP$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 7	Provinsi	provinsi	PROPN	NSD	_	5	obl	_	MorphInd=^provinsi<n>_NSD$
@@ -8056,10 +8056,10 @@
 1	Permasalahan	permasalahan	PROPN	NSD	_	8	nsubj	_	MorphInd=^per+masalah<n>+an_NSD$
 2	yang	yang	PRON	S--	PronType=Rel	3	nsubj:pass	_	MorphInd=^yang<s>_S--$
 3	dihadapi	hadap	VERB	VSP	Voice=Pass	1	acl:relcl	_	MorphInd=^di+hadap<v>+i_VSP$
-4	ketika	ketika	CCONJ	S--	_	3	dep	_	MorphInd=^ketika<s>_S--$
-5	itu	itu	DET	B--	PronType=Dem	4	det	_	MorphInd=^itu<b>_B--$
+4	ketika	ketika	ADP	S--	_	5	case	_	MorphInd=^ketika<s>_S--$
+5	itu	itu	PRON	B--	PronType=Dem	1	nmod	_	MorphInd=^itu<b>_B--$
 6	adalah	adalah	AUX	O--	_	8	cop	_	SpaceAfter=No|MorphInd=^adalah<o>_O--$
-7	:	:	PUNCT	Z--	_	6	punct	_	MorphInd=^:<z>_Z--$
+7	:	:	PUNCT	Z--	_	8	punct	_	MorphInd=^:<z>_Z--$
 8	siapa	siapa	PRON	W--	PronType=Int	0	root	_	MorphInd=^siapa<w>_W--$
 9	yang	yang	PRON	S--	PronType=Rel	11	obj	_	MorphInd=^yang<s>_S--$
 10	akan	akan	AUX	M--	_	11	aux	_	MorphInd=^akan<m>_M--$
@@ -8590,7 +8590,7 @@
 # text_en = Currently there are many DVD players on the market that can play DivX movies. This MPEG - 4 based compressed video format has a very small size, it can even reach less than one-eighth of the size of MPEG - 2 with quality that is maintained.
 1	Saat	saat	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^saat<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
-3	banyak	banyak	ADV	B--	PronType=Ind	4	advmod	_	MorphInd=^banyak<b>_B--$
+3	banyak	banyak	DET	B--	PronType=Ind	4	det	_	MorphInd=^banyak<b>_B--$
 4	DVD	dvd	NOUN	X--	_	0	root	_	MorphInd=^dvd<x>_X--$
 5	player	player	NOUN	F--	_	4	compound	_	MorphInd=^player<f>_F--$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
@@ -9165,8 +9165,8 @@
 # text = Penalti akibat kesalahan kedi dibebankan ke skor pegolf.
 # text_en = Penalties due to cadaver errors are charged to the golfer's score.
 1	Penalti	penalti	PROPN	NSD	_	5	nsubj:pass	_	MorphInd=^penalti<n>_NSD$
-2	akibat	akibat	CCONJ	NSD	_	1	cc	_	MorphInd=^akibat<n>_NSD$
-3	kesalahan	kesalahan	NOUN	NSD	Number=Sing	2	conj	_	MorphInd=^ke+salah<a>+an_NSD$
+2	akibat	akibat	ADP	NSD	_	3	case	_	MorphInd=^akibat<n>_NSD$
+3	kesalahan	kesalahan	NOUN	NSD	Number=Sing	1	nmod	_	MorphInd=^ke+salah<a>+an_NSD$
 4	kedi	kedi	NOUN	X--	_	3	compound	_	MorphInd=^kedi<x>_X--$
 5	dibebankan	beban	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+beban<n>+kan_VSP$
 6	ke	ke	ADP	R--	_	7	case	_	MorphInd=^ke<r>_R--$
@@ -9452,7 +9452,7 @@
 9	secara	secara	ADP	R--	_	10	case:adv	_	MorphInd=^secara<r>_R--$
 10	teratur	teratur	ADJ	ASP	_	7	xcomp	_	SpaceAfter=No|MorphInd=^teratur<a>_ASP$
 11	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
-12	dam	dam	CCONJ	F--	_	14	cc	_	MorphInd=^dam<f>_F--$
+12	dam	dan	CCONJ	F--	Typo=Yes	14	cc	_	CorrectForm=dan|MorphInd=^dam<f>_F--$
 13	juga	juga	ADV	D--	_	14	advmod	_	MorphInd=^juga<d>_D--$
 14	berdevosi	berdevosi	VERB	X--	_	2	conj	_	MorphInd=^berdevosi<x>_X--$
 15	kepada	kepada	ADP	R--	_	16	case	_	MorphInd=^kepada<r>_R--$
@@ -9965,10 +9965,10 @@
 # text_en = Journal Officiel de la République Française (JORF or JO) is the state news of the French Republic.
 1	Journal	journal	PROPN	F--	_	12	nsubj	_	MorphInd=^journal<f>_F--$
 2	Officiel	officiel	PROPN	X--	_	1	flat:name	_	MorphInd=^officiel<x>_X--$
-3	de	de	PROPN	F--	_	2	flat:name	_	MorphInd=^de<f>_F--$
-4	la	la	CCONJ	F--	_	5	cc	_	MorphInd=^la<f>_F--$
-5	République	république	PROPN	X--	_	1	conj	_	MorphInd=^république<x>_X--$
-6	Française	française	PROPN	X--	_	5	flat:name	_	MorphInd=^française<x>_X--$
+3	de	de	PROPN	F--	_	1	flat:name	_	MorphInd=^de<f>_F--$
+4	la	la	PROPN	F--	_	1	flat:name	_	MorphInd=^la<f>_F--$
+5	République	république	PROPN	X--	_	1	flat:name	_	MorphInd=^république<x>_X--$
+6	Française	française	PROPN	X--	_	1	flat:name	_	MorphInd=^française<x>_X--$
 7	(	(	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 8	JORF	jorf	PROPN	X--	_	1	appos	_	MorphInd=^jorf<x>_X--$
 9	atau	atau	CCONJ	H--	_	10	cc	_	MorphInd=^atau<h>_H--$
@@ -10401,7 +10401,7 @@
 89	harus	harus	AUX	VSA	_	90	aux	_	MorphInd=^harus<v>_VSA$
 90	berbicara	bicara	VERB	VSA	Voice=Act	76	xcomp	_	SpaceAfter=No|MorphInd=^ber+bicara<v>_VSA$
 91	,	,	PUNCT	Z--	_	93	punct	_	MorphInd=^,<z>_Z--$
-92	sehingga	sehingga	CCONJ	S--	_	93	cc	_	MorphInd=^sehingga<s>_S--$
+92	sehingga	sehingga	ADP	S--	_	93	case	_	MorphInd=^sehingga<s>_S--$
 93	menjadi	jadi	VERB	VSA	Voice=Act	76	advcl	_	MorphInd=^meN+jadi<a>_VSA$
 94	kitab	kitab	NOUN	NSD	Number=Sing	93	obj	_	MorphInd=^kitab<n>_NSD$
 95	terbuka	terbuka	ADJ	ASP	_	94	amod	_	MorphInd=^terbuka<a>_ASP$
@@ -10493,7 +10493,7 @@
 2	buah	buah	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^buah<n>_NSD$
 3	terbesar	terbesar	ADJ	ASS	Degree=Sup	2	amod	_	SpaceAfter=No|MorphInd=^ter+besar<a>_ASS$
 4	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
-5	sekaligus	sekaligus	CCONJ	D--	_	6	cc	_	MorphInd=^sekaligus<d>_D--$
+5	sekaligus	sekaligus	ADP	D--	_	6	case	_	MorphInd=^sekaligus<d>_D--$
 6	kelelawar	kelelawar	NOUN	NSD	Number=Sing	1	conj	_	MorphInd=^kelelawar<n>_NSD$
 7	terbesar	terbesar	ADJ	ASS	Degree=Sup	6	amod	_	SpaceAfter=No|MorphInd=^ter+besar<a>_ASS$
 8	,	,	PUNCT	Z--	_	6	punct	_	MorphInd=^,<z>_Z--$
@@ -11545,7 +11545,7 @@
 3	grup	grup	NOUN	NSD	Number=Sing	1	nmod	_	MorphInd=^grup<n>_NSD$
 4	sastra	sastra	NOUN	X--	_	3	compound	_	SpaceAfter=No|MorphInd=^sastra<x>_X--$
 5	,	,	PUNCT	Z--	_	7	punct	_	MorphInd=^,<z>_Z--$
-6	sementara	sementara	CCONJ	S--	_	7	cc	_	MorphInd=^sementara<s>_S--$
+6	sementara	sementara	ADP	S--	_	7	case	_	MorphInd=^sementara<s>_S--$
 7	Kurosawa	kurosawa	PROPN	X--	_	1	conj	_	MorphInd=^kurosawa<x>_X--$
 8	di	di	ADP	R--	_	9	case	_	MorphInd=^di<r>_R--$
 9	grup	grup	NOUN	NSD	Number=Sing	7	nmod	_	MorphInd=^grup<n>_NSD$
@@ -12162,8 +12162,8 @@
 9	pemain	penmain	NOUN	NSD	Number=Sing	8	nmod	_	MorphInd=^peN+main<v>_NSD$
 10	koto	koto	PROPN	X--	_	9	nmod	_	MorphInd=^koto<x>_X--$
 11	tunanetra	tunanetra	NOUN	X--	_	9	compound	_	MorphInd=^tunanetra<x>_X--$
-12	sekaligus	sekaligus	CCONJ	D--	_	13	cc	_	MorphInd=^sekaligus<d>_D--$
-13	pencipta	pencipta	NOUN	NSD	Number=Sing	9	conj	_	MorphInd=^peN+cipta<v>_NSD$
+12	sekaligus	sekaligus	ADP	D--	_	13	case	_	MorphInd=^sekaligus<d>_D--$
+13	pencipta	pencipta	NOUN	NSD	Number=Sing	9	nmod	_	MorphInd=^peN+cipta<v>_NSD$
 14	lagu	lagu	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^lagu<n>_NSD$
 15	Michio	michio	PROPN	F--	_	13	appos	_	MorphInd=^michio<f>_F--$
 16	Miyagi	miyagi	PROPN	X--	_	15	flat:name	_	MorphInd=^miyagi<x>_X--$
@@ -12442,11 +12442,11 @@
 34	,	,	PUNCT	Z--	_	35	punct	_	MorphInd=^,<z>_Z--$
 35	Regina	regina	PROPN	X--	_	29	conj	_	MorphInd=^regina<x>_X--$
 36	King	king	PROPN	F--	_	35	flat:name	_	SpaceAfter=No|MorphInd=^king<f>_F--$
-37	,	,	PUNCT	Z--	_	38	punct	_	MorphInd=^,<z>_Z--$
-38	dan	dan	CCONJ	H--	_	35	cc	_	MorphInd=^dan<h>_H--$
+37	,	,	PUNCT	Z--	_	40	punct	_	MorphInd=^,<z>_Z--$
+38	dan	dan	CCONJ	H--	_	40	cc	_	MorphInd=^dan<h>_H--$
 39	masih	masih	ADV	D--	_	41	advmod	_	MorphInd=^masih<d>_D--$
-40	banyak	banyak	ADV	B--	PronType=Ind	41	advmod	_	MorphInd=^banyak<b>_B--$
-41	lagi	lagi	ADJ	D--	_	29	amod	_	SpaceAfter=No|MorphInd=^lagi<d>_D--$
+40	banyak	banyak	ADJ	B--	_	35	conj	_	MorphInd=^banyak<b>_B--$
+41	lagi	lagi	ADV	D--	_	40	advmod	_	SpaceAfter=No|MorphInd=^lagi<d>_D--$
 42	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s494
@@ -12550,8 +12550,8 @@
 6	oleh	oleh	ADP	R--	_	7	case	_	MorphInd=^oleh<r>_R--$
 7	kegiatan	kegiatan	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^ke+giat<n>+an_NSD$
 8	pertanian	pertanian	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^per+tani<n>+an_NSD$
-9	beserta	beserta	CCONJ	R--	_	10	cc	_	MorphInd=^beserta<r>_R--$
-10	kegiatan	kegiatan	NOUN	NSD	Number=Sing	7	conj	_	MorphInd=^ke+giat<n>+an_NSD$
+9	beserta	beserta	ADP	R--	_	10	case	_	MorphInd=^beserta<r>_R--$
+10	kegiatan	kegiatan	NOUN	NSD	Number=Sing	7	nmod	_	MorphInd=^ke+giat<n>+an_NSD$
 11	pendukung	pendukung	NOUN	NSD	Number=Sing	10	compound	_	MorphInd=^peN+dukung<v>_NSD$
 12	pertanian	pertanian	NOUN	NSD	Number=Sing	11	compound	_	SpaceAfter=No|MorphInd=^per+tani<n>+an_NSD$
 13	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
@@ -12928,14 +12928,14 @@
 68	badan	badan	NOUN	NSD	Number=Sing	66	compound	_	MorphInd=^badan<n>_NSD$
 69	sejenis	sejenis	NOUN	ASP	_	68	compound	_	MorphInd=^se+jenis<n>_ASP$
 70	lainnya	lainnya	ADJ	D--	_	66	amod	_	MorphInd=^lainnya<d>_D--$
-71	(	(	PUNCT	Z--	_	72	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-72	misalnya	misalnya	CCONJ	B--	_	61	appos	_	MorphInd=^misalnya<b>_B--$
-73	keputusan-keputusan	keputusan	NOUN	NSD	Number=Plur	72	compound	_	MorphInd=^ke+putus<a>+an_NSD$
+71	(	(	PUNCT	Z--	_	73	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+72	misalnya	misalnya	ADP	B--	_	73	case	_	MorphInd=^misalnya<b>_B--$
+73	keputusan-keputusan	putus	NOUN	NSD	Number=Plur	65	appos	_	MorphInd=^ke+putus<a>+an_NSD$
 74	yang	yang	PRON	S--	PronType=Rel	75	nsubj	_	MorphInd=^yang<s>_S--$
 75	memutuskan	putus	VERB	VSA	Voice=Act	73	acl:relcl	_	MorphInd=^meN+putus<a>+kan_VSA$
 76	suatu	suatu	DET	B--	PronType=Ind	77	det	_	MorphInd=^suatu<b>_B--$
 77	sengketa	sengketa	NOUN	NSD	Number=Sing	75	obj	_	SpaceAfter=No|MorphInd=^sengketa<n>_NSD$
-78	)	)	PUNCT	Z--	_	72	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
+78	)	)	PUNCT	Z--	_	73	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
 79	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s511
@@ -13321,8 +13321,8 @@
 11	)	)	PUNCT	Z--	_	6	punct	_	MorphInd=^)<z>_Z--$
 12	adalah	adalah	AUX	O--	_	13	cop	_	MorphInd=^adalah<o>_O--$
 13	ibukota	ibukota	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^ibukota<n>_NSD$
-14	sekaligus	sekaligus	CCONJ	D--	_	15	cc	_	MorphInd=^sekaligus<d>_D--$
-15	kota	kota	NOUN	NSD	Number=Sing	13	conj	_	MorphInd=^kota<n>_NSD$
+14	sekaligus	sekaligus	ADP	D--	_	15	case	_	MorphInd=^sekaligus<d>_D--$
+15	kota	kota	NOUN	NSD	Number=Sing	13	nmod	_	MorphInd=^kota<n>_NSD$
 16	terbesar	terbesar	ADJ	ASS	Degree=Sup	15	amod	_	MorphInd=^ter+besar<a>_ASS$
 17	kedua	kedua	ADJ	CO-	NumType=Ord	15	amod	_	MorphInd=^ke+dua<c>_CO-$
 18	di	di	ADP	R--	_	19	case	_	MorphInd=^di<r>_R--$
@@ -13595,7 +13595,7 @@
 18	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s537
-# text = Demikian juga untuk produk-produk herbal yang berasal dari bahan alami juga telah dipersiapkan proses registrasinya untuk memasuki pasar baru seperti: Filipina, Myanmar, Pakistan, Uni Emirat Arab, Oman, Bahrain and Bangladesh.
+# text = Demikian juga untuk produk-produk herbal yang berasal dari bahan alami juga telah dipersiapkan proses registrasinya untuk memasuki pasar baru seperti: Filipina, Myanmar, Pakistan, Uni Emirat Arab, Oman, Bahrain dan Bangladesh.
 # text_en = Likewise, for herbal products derived from natural ingredients, the registration process has also been prepared to enter new markets such as: Philippines, Myanmar, Pakistan, United Arab Emirates, Oman, Bahrain and Bangladesh.
 1	Demikian	demikian	SCONJ	S--	_	4	mark	_	MorphInd=^demikian<s>_S--$
 2	juga	juga	ADV	D--	_	4	advmod	_	MorphInd=^juga<d>_D--$
@@ -13633,7 +13633,7 @@
 33	Oman	oman	PROPN	F--	_	23	conj	_	SpaceAfter=No|MorphInd=^oman<f>_F--$
 34	,	,	PUNCT	Z--	_	35	punct	_	MorphInd=^,<z>_Z--$
 35	Bahrain	bahrain	PROPN	F--	_	23	conj	_	MorphInd=^bahrain<f>_F--$
-36	and	and	CCONJ	F--	_	37	cc	_	MorphInd=^and<f>_F--$
+36	dan	dan	CCONJ	F--	_	37	cc	_	MorphInd=^and<f>_F--$
 37	Bangladesh	bangladesh	PROPN	F--	_	23	conj	_	SpaceAfter=No|MorphInd=^bangladesh<f>_F--$
 38	.	.	PUNCT	Z--	_	13	punct	_	MorphInd=^.<z>_Z--$
 

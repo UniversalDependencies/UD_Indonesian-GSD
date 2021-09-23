@@ -4226,8 +4226,8 @@
 9	bernama	nama	VERB	VSA	Voice=Act	8	acl	_	MorphInd=^ber+nama<n>_VSA$
 10	Johannes	johannes	PROPN	F--	_	9	obj	_	MorphInd=^johannes<f>_F--$
 11	Buselar	buselar	PROPN	X--	_	10	flat:name	_	MorphInd=^buselar<x>_X--$
-12	pada	pada	SCONJ	R--	_	3	mark	_	MorphInd=^pada<r>_R--$
-13	1877	1877	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^1877<c>_CC-$
+12	pada	pada	ADP	R--	_	13	case	_	MorphInd=^pada<r>_R--$
+13	1877	1877	NUM	CC-	NumType=Card	3	obl:tmod	_	MorphInd=^1877<c>_CC-$
 14	dengan	dengan	ADP	R--	_	15	case	_	MorphInd=^dengan<r>_R--$
 15	status	status	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^status<n>_NSD$
 16	tanah	tanah	NOUN	NSD	Number=Sing	15	compound	_	MorphInd=^tanah<n>_NSD$
@@ -8686,7 +8686,7 @@
 # text = Pada saat pasukan Islam mengepung kota Busrah, Romanus memandu satu detasemen khusus yang dikomandani oleh Abdur Rahman untuk melewati terowongan tepat dibawah benteng kota.
 # text_en = When the Islamic troops besieged the city of Busrah, Romanus led a special detachment commanded by Abdur Rahman to pass through the tunnel just below the city fort.
 1	Pada	pada	SCONJ	R--	_	5	mark	_	MorphInd=^pada<r>_R--$
-2	saat	saat	SCONJ	S--	_	1	fixed	_	MorphInd=^saat<s>_S--$
+2	saat	saat	NOUN	S--	_	1	fixed	_	MorphInd=^saat<s>_S--$
 3	pasukan	pasukan	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^pasukan<n>_NSD$
 4	Islam	islam	PROPN	NSD	_	3	nmod	_	MorphInd=^islam<n>_NSD$
 5	mengepung	kepung	VERB	VSA	Voice=Act	10	advcl	_	MorphInd=^meN+kepung<v>_VSA$
@@ -9558,8 +9558,8 @@
 13-14	dilewatinya	_	_	_	_	_	_	_	MorphInd=^di+lewat<v>+i_VSP+dia<p>_PS3$
 13	dilewati	lewat	VERB	VSP	Voice=Pass	9	acl:relcl	_	MorphInd=^di+lewat<v>+i_VSP$
 14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	obl:agent	_	MorphInd=^dia<p>_PS3$
-15	pada	pada	SCONJ	R--	_	13	mark	_	MorphInd=^pada<r>_R--$
-16	1895	1895	NUM	CC-	NumType=Card	13	nummod	_	SpaceAfter=No|MorphInd=^1895<c>_CC-$
+15	pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
+16	1895	1895	NUM	CC-	NumType=Card	13	obl:tmod	_	SpaceAfter=No|MorphInd=^1895<c>_CC-$
 17	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s350
@@ -13270,8 +13270,8 @@
 # sent_id = dev-s486
 # text = Pada 2002 ia mulai masuk ke Amerika Serikat dengan mendirikan Midland Shipping Group.
 # text_en = In 2002 he began to enter the United States by establishing the Midland Shipping Group.
-1	Pada	pada	SCONJ	R--	_	4	mark	_	MorphInd=^pada<r>_R--$
-2	2002	2002	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^2002<c>_CC-$
+1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
+2	2002	2002	NUM	CC-	NumType=Card	4	obl:tmod	_	MorphInd=^2002<c>_CC-$
 3	ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	MorphInd=^ia<p>_PS3$
 4	mulai	mulai	VERB	VSA	Voice=Act	0	root	_	MorphInd=^mulai<v>_VSA$
 5	masuk	masuk	VERB	VSA	Voice=Act	4	xcomp	_	MorphInd=^masuk<v>_VSA$
@@ -14403,8 +14403,8 @@
 16	pada	pada	SCONJ	R--	_	17	mark	_	MorphInd=^pada<r>_R--$
 17-18	meletusnya	_	_	_	_	_	_	_	MorphInd=^meN+letus<v>_VSA+dia<p>_PS3$
 17	meletus	letus	VERB	VSA	Voice=Act	15	xcomp	_	MorphInd=^meN+letus<v>_VSA$
-18	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	17	obj	_	MorphInd=^dia<p>_PS3$
-19	perang	perang	NOUN	NSD	Number=Sing	17	obj	_	MorphInd=^perang<n>_NSD$
+18	nya	dia	DET	_	Definite=Def	17	det	_	MorphInd=^dia<p>_PS3$
+19	perang	perang	NOUN	NSD	Number=Sing	17	nsubj	_	MorphInd=^perang<n>_NSD$
 20	kemerdekaan	kemerdekaan	NOUN	NSD	Number=Sing	19	compound	_	MorphInd=^ke+merdeka<a>+an_NSD$
 21	tahun	tahun	NOUN	NSD	Number=Sing	19	nmod	_	MorphInd=^tahun<n>_NSD$
 22	1971	1971	NUM	CC-	NumType=Card	21	nummod	_	MorphInd=^1971<c>_CC-$
