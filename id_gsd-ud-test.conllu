@@ -4816,8 +4816,8 @@
 # sent_id = test-s191
 # text = Akan tetapi, pada waktu yang sama, Peter dari Torres, Giudice Cagliari dan saudara laki-laki Konstantinus, memberontak melawan warga Pisa dan mengusir mereka, bersekutu dengan Genoa melawan mereka dan melawan Peter dari Arborea.
 # text_en = However, at the same time, Peter of Torres, Giudice Cagliari and brother Constantine, revolted against the Pisans and expelled them, allied with Genoa against them and against Peter of Arborea.
-1	Akan	akan	ADV	M--	_	0	root	_	MorphInd=^akan<m>_M--$
-2	tetapi	tetapi	CCONJ	S--	_	1	dep	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
+1	Akan	akan	ADV	M--	_	20	advmod	_	MorphInd=^akan<m>_M--$
+2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
 5	waktu	waktu	NOUN	NSD	Number=Sing	20	obl	_	MorphInd=^waktu<n>_NSD$
@@ -4835,7 +4835,7 @@
 17	laki-laki	laki	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^laki<n>_NSD$
 18	Konstantinus	konstantinus	PROPN	X--	_	16	nmod	_	SpaceAfter=No|MorphInd=^konstantinus<x>_X--$
 19	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
-20	memberontak	berontak	VERB	VSA	Voice=Act	1	conj	_	MorphInd=^meN+berontak<v>_VSA$
+20	memberontak	berontak	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+berontak<v>_VSA$
 21	melawan	lawan	VERB	VSA	Voice=Act	20	xcomp	_	MorphInd=^meN+lawan<v>_VSA$
 22	warga	warga	NOUN	NSD	Number=Sing	21	obj	_	MorphInd=^warga<n>_NSD$
 23	Pisa	pisa	PROPN	X--	_	22	nmod	_	MorphInd=^pisa<x>_X--$
@@ -4853,7 +4853,7 @@
 35	Peter	peter	PROPN	F--	_	34	obj	_	MorphInd=^peter<f>_F--$
 36	dari	dari	ADP	R--	_	37	case	_	MorphInd=^dari<r>_R--$
 37	Arborea	arborea	PROPN	X--	_	35	nmod	_	SpaceAfter=No|MorphInd=^arborea<x>_X--$
-38	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
+38	.	.	PUNCT	Z--	_	20	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s192
 # text = Apakah orang-orang yang telah engkau tangkap dengan pedang dan panahmu itu harus engkau bunuh?
@@ -13154,14 +13154,14 @@
 17	disusun	susun	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+susun<v>_VSP$
 18	lah	lah	PART	T--	_	17	advmod:emph	_	MorphInd=^lah<t>_T--$
 19	program	program	NOUN	NSD	Number=Sing	17	nsubj:pass	_	MorphInd=^program<n>_NSD$
-20	kerje	kerje	NOUN	X--	_	19	compound	_	MorphInd=^kerje<x>_X--$
+20	kerje	kerja	VERB	X--	Typo=Yes	19	acl	_	CorrectForm=kerja|MorphInd=^kerje<x>_X--$
 21	Pemerintah	penperintah	PROPN	NSD	_	19	nmod	_	MorphInd=^peN+perintah<n>_NSD$
 22	Daerah	daerah	PROPN	NSD	_	21	flat:name	_	SpaceAfter=No|MorphInd=^daerah<n>_NSD$
 23	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$
 24	yang	yang	PRON	S--	PronType=Rel	25	nsubj:pass	_	MorphInd=^yang<s>_S--$
 25	dititik	titik	VERB	VSP	Voice=Pass	19	acl:relcl	_	MorphInd=^di+titik<n>_VSP$
-26	beratkan	berat	VERB	VSA	Voice=Act	25	fixed	_	MorphInd=^berat<a>+kan_VSA$
-27	pada	pada	SCONJ	R--	_	25	mark	_	SpaceAfter=No|MorphInd=^pada<r>_R--$
+26	beratkan	berat	VERB	VSA	Voice=Act	25	goeswith	_	MorphInd=^berat<a>+kan_VSA$
+27	pada	pada	ADP	R--	_	25	dep	_	SpaceAfter=No|MorphInd=^pada<r>_R--$
 28	:	:	PUNCT	Z--	_	25	punct	_	MorphInd=^:<z>_Z--$
 29	Program	program	NOUN	NSD	Number=Sing	31	nsubj:pass	_	MorphInd=^program<n>_NSD$
 30	tersebut	tersebut	DET	B--	PronType=Dem	29	det	_	MorphInd=^tersebut<b>_B--$
