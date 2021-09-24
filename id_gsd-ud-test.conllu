@@ -770,8 +770,8 @@
 # sent_id = test-s28
 # text = Pada 1832 dia menulis bahwa mereka dapat dilindungi: Oleh kebijakan pemerintah untuk melindungi...
 # text_en = In 1832 he wrote that they could be protected: By government policy to protect...
-1	Pada	pada	SCONJ	R--	_	4	mark	_	MorphInd=^pada<r>_R--$
-2	1832	1832	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^1832<c>_CC-$
+1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
+2	1832	1832	NUM	CC-	NumType=Card	4	obl:tmod	_	MorphInd=^1832<c>_CC-$
 3	dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	MorphInd=^dia<p>_PS3$
 4	menulis	tulis	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+tulis<v>_VSA$
 5	bahwa	bahwa	SCONJ	S--	_	8	mark	_	MorphInd=^bahwa<s>_S--$
@@ -880,8 +880,8 @@
 20	X	x	NUM	F--	NumType=Card	19	nummod	_	SpaceAfter=No|MorphInd=^x<f>_F--$
 21	,	,	PUNCT	Z--	_	28	punct	_	MorphInd=^,<z>_Z--$
 22	dan	dan	CCONJ	H--	_	28	cc	_	MorphInd=^dan<h>_H--$
-23	pada	pada	SCONJ	R--	_	28	mark	_	MorphInd=^pada<r>_R--$
-24	1858	1858	NUM	CC-	NumType=Card	28	nummod	_	SpaceAfter=No|MorphInd=^1858<c>_CC-$
+23	pada	pada	ADP	R--	_	24	case	_	MorphInd=^pada<r>_R--$
+24	1858	1858	NUM	CC-	NumType=Card	28	obl:tmod	_	SpaceAfter=No|MorphInd=^1858<c>_CC-$
 25	,	,	PUNCT	Z--	_	24	punct	_	MorphInd=^,<z>_Z--$
 26	pelabuhan	penlabuhan	NOUN	NSD	Number=Sing	28	nsubj:pass	_	MorphInd=^peN+labuh<v>+an_NSD$
 27	ini	ini	DET	B--	PronType=Dem	26	det	_	MorphInd=^ini<b>_B--$
@@ -1093,8 +1093,8 @@
 15	-	-	PUNCT	Z--	_	16	punct	_	MorphInd=^-<z>_Z--$
 16	FDD	fdd	PROPN	X--	_	14	flat:name	_	SpaceAfter=No|MorphInd=^fdd<x>_X--$
 17	)	)	PUNCT	Z--	_	14	punct	_	MorphInd=^)<z>_Z--$
-18	pada	pada	SCONJ	R--	_	2	mark	_	MorphInd=^pada<r>_R--$
-19	1995	1995	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^1995<c>_CC-$
+18	pada	pada	ADP	R--	_	19	case	_	MorphInd=^pada<r>_R--$
+19	1995	1995	NUM	CC-	NumType=Card	2	obl:tmod	_	MorphInd=^1995<c>_CC-$
 20	sebagai	sebagai	ADP	R--	_	22	case	_	MorphInd=^sebagai<r>_R--$
 21	seorang	seorang	DET	B--	PronType=Ind	22	det	_	MorphInd=^seorang<b>_B--$
 22	tentara	tentara	NOUN	NSD	Number=Sing	2	obl	_	SpaceAfter=No|MorphInd=^tentara<n>_NSD$
@@ -1179,8 +1179,8 @@
 3	dari	dari	ADP	R--	_	4	case	_	MorphInd=^dari<r>_R--$
 4	Universitas	universitas	PROPN	NSD	_	2	obl	_	MorphInd=^universitas<n>_NSD$
 5	Tokyo	tokyo	PROPN	F--	_	4	flat:name	_	MorphInd=^tokyo<f>_F--$
-6	pada	pada	SCONJ	R--	_	2	mark	_	MorphInd=^pada<r>_R--$
-7	1951	1951	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^1951<c>_CC-$
+6	pada	pada	ADP	R--	_	7	case	_	MorphInd=^pada<r>_R--$
+7	1951	1951	NUM	CC-	NumType=Card	2	obl:tmod	_	MorphInd=^1951<c>_CC-$
 8	dan	dan	CCONJ	H--	_	9	cc	_	MorphInd=^dan<h>_H--$
 9	melanjutkan	lanjut	VERB	VSA	Voice=Act	2	conj	_	MorphInd=^meN+lanjut<v>+kan_VSA$
 10	riset	riset	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^riset<n>_NSD$
@@ -1994,8 +1994,8 @@
 6	Dozy	dozy	PROPN	X--	_	5	flat:name	_	MorphInd=^dozy<x>_X--$
 7	mengunjungi	kunjung	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+kunjung<v>+i_VSA$
 8	Indonesia	indonesia	PROPN	NSD	_	7	obj	_	MorphInd=^indonesia<n>_NSD$
-9	pada	pada	SCONJ	R--	_	7	mark	_	MorphInd=^pada<r>_R--$
-10	1936	1936	NUM	CC-	NumType=Card	7	nummod	_	MorphInd=^1936<c>_CC-$
+9	pada	pada	ADP	R--	_	10	case	_	MorphInd=^pada<r>_R--$
+10	1936	1936	NUM	CC-	NumType=Card	7	obl:tmod	_	MorphInd=^1936<c>_CC-$
 11	untuk	untuk	SCONJ	R--	_	12	mark	_	MorphInd=^untuk<r>_R--$
 12	menskala	menskala	VERB	X--	_	7	xcomp	_	MorphInd=^menskala<x>_X--$
 13	glasier	glasier	NOUN	X--	_	12	obj	_	MorphInd=^glasier<x>_X--$
@@ -3585,10 +3585,10 @@
 19	Kebangkitan	kebangkitan	PROPN	NSD	_	16	appos	_	MorphInd=^ke+bangkit<v>+an_NSD$
 20	Ulama	ulama	PROPN	NSD	_	19	flat:name	_	SpaceAfter=No|MorphInd=^ulama<n>_NSD$
 21	)	)	PUNCT	Z--	_	19	punct	_	MorphInd=^)<z>_Z--$
-22	pada	pada	ADP	R--	_	24	case	_	MorphInd=^pada<r>_R--$
-23	16	16	NUM	CC-	NumType=Card	24	nummod	_	MorphInd=^16<c>_CC-$
-24	Rajab	rajab	NOUN	X--	_	15	obl	_	MorphInd=^rajab<x>_X--$
-25	1344	1344	NUM	CC-	NumType=Card	26	nummod	_	MorphInd=^1344<c>_CC-$
+22	pada	pada	ADP	R--	_	23	case	_	MorphInd=^pada<r>_R--$
+23	16	16	NUM	CC-	NumType=Card	12	obl:tmod	_	MorphInd=^16<c>_CC-$
+24	Rajab	rajab	NOUN	X--	_	23	flat	_	MorphInd=^rajab<x>_X--$
+25	1344	1344	NUM	CC-	NumType=Card	23	flat	_	MorphInd=^1344<c>_CC-$
 26	H	h	NOUN	F--	_	24	compound	_	MorphInd=^h<f>_F--$
 27	(	(	PUNCT	Z--	_	29	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 28	31	31	NUM	CC-	NumType=Card	29	nummod	_	MorphInd=^31<c>_CC-$
@@ -4479,10 +4479,10 @@
 9	)	)	PUNCT	Z--	_	5	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
 10	"	"	PUNCT	Z--	_	3	punct	_	MorphInd=^"<z>_Z--$
 11	dirilis	rilis	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+rilis<v>_VSP$
-12	pada	pada	ADP	R--	_	14	case	_	MorphInd=^pada<r>_R--$
-13	22	22	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^22<c>_CC-$
-14	Juni	juni	PROPN	NSD	_	11	obl	_	MorphInd=^juni<n>_NSD$
-15	2011	2011	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^2011<c>_CC-$
+12	pada	pada	ADP	R--	_	13	case	_	MorphInd=^pada<r>_R--$
+13	22	22	NUM	CC-	NumType=Card	11	obl:tmod	_	MorphInd=^22<c>_CC-$
+14	Juni	juni	PROPN	NSD	_	13	flat	_	MorphInd=^juni<n>_NSD$
+15	2011	2011	NUM	CC-	NumType=Card	13	flat	_	MorphInd=^2011<c>_CC-$
 16	secara	secara	ADP	R--	_	17	case:adv	_	MorphInd=^secara<r>_R--$
 17	digital	digital	ADJ	NSD	_	11	xcomp	_	MorphInd=^digital<n>_NSD$
 18	di	di	ADP	R--	_	19	case	_	MorphInd=^di<r>_R--$
@@ -5894,8 +5894,8 @@
 3	agama	agama	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^agama<n>_NSD$
 4	mulai	mulai	VERB	VSA	Voice=Act	0	root	_	MorphInd=^mulai<v>_VSA$
 5	menyusut	susut	VERB	VSA	Voice=Act	4	ccomp	_	MorphInd=^meN+susut<v>_VSA$
-6	pada	pada	SCONJ	R--	_	5	mark	_	MorphInd=^pada<r>_R--$
-7	1950	1950	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^1950<c>_CC-$
+6	pada	pada	ADP	R--	_	7	case	_	MorphInd=^pada<r>_R--$
+7	1950	1950	NUM	CC-	NumType=Card	5	obl:tmod	_	MorphInd=^1950<c>_CC-$
 8	-	-	PUNCT	Z--	_	9	punct	_	MorphInd=^-<z>_Z--$
 9	an	an	DET	F--	_	7	det	_	MorphInd=^an<f>_F--$
 10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
@@ -6036,11 +6036,11 @@
 # sent_id = test-s240
 # text = Pada 29 Maret 1941, frekuensi dipindahkan ke 1450 kHz.
 # text_en = On March 29, 1941, the frequency was moved to 1450 kHz.
-1	Pada	pada	ADP	R--	_	3	case	_	MorphInd=^pada<r>_R--$
-2	29	29	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^29<c>_CC-$
-3	Maret	maret	PROPN	NSD	_	7	obl	_	MorphInd=^maret<n>_NSD$
-4	1941	1941	NUM	CC-	NumType=Card	3	nummod	_	SpaceAfter=No|MorphInd=^1941<c>_CC-$
-5	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
+1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
+2	29	29	NUM	CC-	NumType=Card	7	obl:tmod	_	MorphInd=^29<c>_CC-$
+3	Maret	maret	PROPN	NSD	_	2	flat	_	MorphInd=^maret<n>_NSD$
+4	1941	1941	NUM	CC-	NumType=Card	2	flat	_	SpaceAfter=No|MorphInd=^1941<c>_CC-$
+5	,	,	PUNCT	Z--	_	7	punct	_	MorphInd=^,<z>_Z--$
 6	frekuensi	frekuensi	NOUN	NSD	Number=Sing	7	nsubj:pass	_	MorphInd=^frekuensi<n>_NSD$
 7	dipindahkan	pindah	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+pindah<v>+kan_VSP$
 8	ke	ke	SCONJ	R--	_	7	mark	_	MorphInd=^ke<r>_R--$
@@ -7325,8 +7325,8 @@
 7	Meksiko	meksiko	PROPN	NSD	_	5	obl	_	SpaceAfter=No|MorphInd=^meksiko<n>_NSD$
 8	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 9	dan	dan	CCONJ	H--	_	14	cc	_	MorphInd=^dan<h>_H--$
-10	pada	pada	SCONJ	R--	_	14	mark	_	MorphInd=^pada<r>_R--$
-11	1973	1973	NUM	CC-	NumType=Card	14	nummod	_	SpaceAfter=No|MorphInd=^1973<c>_CC-$
+10	pada	pada	ADP	R--	_	11	case	_	MorphInd=^pada<r>_R--$
+11	1973	1973	NUM	CC-	NumType=Card	14	obl:tmod	_	SpaceAfter=No|MorphInd=^1973<c>_CC-$
 12	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
 13	Witt	witt	PROPN	X--	_	14	nsubj	_	MorphInd=^witt<x>_X--$
 14	pindah	pindah	VERB	VSA	Voice=Act	5	conj	_	MorphInd=^pindah<v>_VSA$
@@ -8476,8 +8476,8 @@
 13	dalam	dalam	ADP	R--	_	14	case	_	MorphInd=^dalam<r>_R--$
 14	Indochina	indochina	PROPN	X--	_	10	obl	_	MorphInd=^indochina<x>_X--$
 15	Perancis	perancis	PROPN	NSD	_	14	flat:name	_	MorphInd=^perancis<n>_NSD$
-16	pada	pada	SCONJ	R--	_	10	mark	_	MorphInd=^pada<r>_R--$
-17	1893	1893	NUM	CC-	NumType=Card	10	nummod	_	SpaceAfter=No|MorphInd=^1893<c>_CC-$
+16	pada	pada	ADP	R--	_	17	case	_	MorphInd=^pada<r>_R--$
+17	1893	1893	NUM	CC-	NumType=Card	10	obl:tmod	_	SpaceAfter=No|MorphInd=^1893<c>_CC-$
 18	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s341
@@ -9003,8 +9003,8 @@
 1	Permainan	permainan	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^per+main<v>+an_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	dikembangkan	kembang	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+kembang<v>+kan_VSP$
-4	pada	pada	SCONJ	R--	_	3	mark	_	MorphInd=^pada<r>_R--$
-5	1971	1971	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^1971<c>_CC-$
+4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
+5	1971	1971	NUM	CC-	NumType=Card	3	obl:tmod	_	MorphInd=^1971<c>_CC-$
 6	oleh	oleh	ADP	R--	_	7	case	_	MorphInd=^oleh<r>_R--$
 7	Merle	merle	PROPN	X--	_	3	obl	_	MorphInd=^merle<x>_X--$
 8	Robbins	robbins	PROPN	X--	_	7	flat:name	_	SpaceAfter=No|MorphInd=^robbins<x>_X--$
@@ -9039,8 +9039,8 @@
 # sent_id = test-s367
 # text = Pada 1041, Bretislaus dikalahkan di dalam upaya kedua oleh Kaisar Henry III. Menandatangani perjanjian di Regensburg (1042) di mana ia meninggalkan klaim pada segala negeri Polandia, kecuali untuk Silesia, yang akan dimasukkan ke dalam Kerajaan Bohemia. Itu adalah keberhasilan Casimir dalam memperkuat kekuasaan kerajaan dan mengakhiri perselisihan internal yang membuatnya mendapatkan julukan "Pemugar".
 # text_en = In 1041, Bretislaus was defeated in a second attempt by Emperor Henry III. Signed a treaty at Regensburg (1042) in which he renounced claims to all of Poland, except for Silesia, which was to be incorporated into the Kingdom of Bohemia. It was Casimir's success in strengthening royal power and ending internal strife that earned him the nickname "The Restorer".
-1	Pada	pada	SCONJ	R--	_	5	mark	_	MorphInd=^pada<r>_R--$
-2	1041	1041	NUM	CC-	NumType=Card	5	nummod	_	SpaceAfter=No|MorphInd=^1041<c>_CC-$
+1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
+2	1041	1041	NUM	CC-	NumType=Card	5	obl:tmod	_	SpaceAfter=No|MorphInd=^1041<c>_CC-$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 4	Bretislaus	bretislaus	PROPN	X--	_	5	nsubj:pass	_	MorphInd=^bretislaus<x>_X--$
 5	dikalahkan	kalah	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+kalah<a>+kan_VSP$
@@ -9366,10 +9366,10 @@
 12	tewas	tewas	ADJ	ASP	_	11	amod	_	MorphInd=^tewas<a>_ASP$
 13	bunuh	bunuh	VERB	VSA	Voice=Act	11	advcl	_	MorphInd=^bunuh<v>_VSA$
 14	diri	diri	NOUN	NSD	Number=Sing	13	obj	_	MorphInd=^diri<n>_NSD$
-15	pada	pada	ADP	R--	_	17	case	_	MorphInd=^pada<r>_R--$
-16	5	5	NUM	CC-	NumType=Card	17	nummod	_	MorphInd=^5<c>_CC-$
-17	Juni	juni	PROPN	NSD	_	13	obl	_	MorphInd=^juni<n>_NSD$
-18	1996	1996	NUM	CC-	NumType=Card	17	nummod	_	SpaceAfter=No|MorphInd=^1996<c>_CC-$
+15	pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
+16	5	5	NUM	CC-	NumType=Card	13	obl:tmod	_	MorphInd=^5<c>_CC-$
+17	Juni	juni	PROPN	NSD	_	16	flat	_	MorphInd=^juni<n>_NSD$
+18	1996	1996	NUM	CC-	NumType=Card	16	flat	_	SpaceAfter=No|MorphInd=^1996<c>_CC-$
 19	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s378
@@ -9878,13 +9878,13 @@
 # sent_id = test-s399
 # text = Sejak perang pecah pada 7 Juli, Jepang memfokuskan diri pada operasi-operasi militer, utamanya di Cina Utara, meliputi propinsi Hebei, Shanxi, dan Chahar.
 # text_en = Since war broke out on July 7, Japan has focused on military operations, mainly in North China, covering the provinces of Hebei, Shanxi, and Chahar.
-1	Sejak	sejak	ADP	S--	_	2	case	_	MorphInd=^sejak<s>_S--$
-2	perang	perang	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^perang<n>_NSD$
-3	pecah	pecah	ADJ	VSA	_	2	amod	_	MorphInd=^pecah<v>_VSA$
-4	pada	pada	ADP	R--	_	6	case	_	MorphInd=^pada<r>_R--$
-5	7	7	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^7<c>_CC-$
-6	Juli	juli	NOUN	NSD	Number=Sing	2	nmod	_	SpaceAfter=No|MorphInd=^juli<n>_NSD$
-7	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
+1	Sejak	sejak	SCONJ	S--	_	3	mark	_	MorphInd=^sejak<s>_S--$
+2	perang	perang	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^perang<n>_NSD$
+3	pecah	pecah	VERB	VSA	_	9	advcl	_	MorphInd=^pecah<v>_VSA$
+4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
+5	7	7	NUM	CC-	NumType=Card	3	obl:tmod	_	MorphInd=^7<c>_CC-$
+6	Juli	juli	NOUN	NSD	Number=Sing	5	flat	_	SpaceAfter=No|MorphInd=^juli<n>_NSD$
+7	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 8	Jepang	jepang	PROPN	NSD	_	9	nsubj	_	MorphInd=^jepang<n>_NSD$
 9	memfokuskan	fokus	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+fokus<n>+kan_VSA$
 10	diri	diri	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^diri<n>_NSD$
@@ -11473,10 +11473,10 @@
 7	Indonesia	indonesia	PROPN	NSD	_	6	nmod	_	MorphInd=^indonesia<n>_NSD$
 8	yang	yang	PRON	S--	PronType=Rel	9	nsubj	_	MorphInd=^yang<s>_S--$
 9	dirilis	rilis	VERB	VSP	Voice=Pass	5	acl:relcl	_	MorphInd=^di+rilis<v>_VSP$
-10	pada	pada	ADP	R--	_	12	case	_	MorphInd=^pada<r>_R--$
-11	15	15	NUM	CC-	NumType=Card	12	nummod	_	MorphInd=^15<c>_CC-$
-12	Maret	maret	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^maret<n>_NSD$
-13	2012	2012	NUM	CC-	NumType=Card	12	nummod	_	MorphInd=^2012<c>_CC-$
+10	pada	pada	ADP	R--	_	11	case	_	MorphInd=^pada<r>_R--$
+11	15	15	NUM	CC-	NumType=Card	9	obl:tmod	_	MorphInd=^15<c>_CC-$
+12	Maret	maret	NOUN	NSD	Number=Sing	11	flat	_	MorphInd=^maret<n>_NSD$
+13	2012	2012	NUM	CC-	NumType=Card	11	flat	_	MorphInd=^2012<c>_CC-$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj	_	MorphInd=^yang<s>_S--$
 15	disutradarai	sutradara	VERB	VSP	Voice=Pass	5	acl:relcl	_	MorphInd=^di+sutradara<n>+i_VSP$
 16	oleh	oleh	ADP	R--	_	17	case	_	MorphInd=^oleh<r>_R--$
@@ -12426,10 +12426,10 @@
 18	romantis	romantis	ADJ	NSD	_	17	amod	_	MorphInd=^romantis<n>_NSD$
 19	ini	ini	DET	B--	PronType=Dem	17	det	_	MorphInd=^ini<b>_B--$
 20	dirilis	rilis	VERB	VSP	Voice=Pass	4	advcl	_	MorphInd=^di+rilis<v>_VSP$
-21	pada	pada	ADP	R--	_	23	case	_	MorphInd=^pada<r>_R--$
-22	12	12	NUM	CC-	NumType=Card	23	nummod	_	MorphInd=^12<c>_CC-$
-23	Maret	maret	PROPN	NSD	_	20	obl	_	MorphInd=^maret<n>_NSD$
-24	2010	2010	NUM	CC-	NumType=Card	23	nummod	_	MorphInd=^2010<c>_CC-$
+21	pada	pada	ADP	R--	_	22	case	_	MorphInd=^pada<r>_R--$
+22	12	12	NUM	CC-	NumType=Card	20	obl:tmod	_	MorphInd=^12<c>_CC-$
+23	Maret	maret	PROPN	NSD	_	22	flat	_	MorphInd=^maret<n>_NSD$
+24	2010	2010	NUM	CC-	NumType=Card	22	flat	_	MorphInd=^2010<c>_CC-$
 25	dan	dan	CCONJ	H--	_	26	cc	_	MorphInd=^dan<h>_H--$
 26	dibintangi	bintang	VERB	VSP	Voice=Pass	20	conj	_	MorphInd=^di+bintang<n>+i_VSP$
 27	antara	antara	ADP	R--	_	28	case	_	MorphInd=^antara<r>_R--$
@@ -13565,10 +13565,10 @@
 11	Ayat-ayat	ayat	NOUN	NSD	Number=Plur	13	nsubj:pass	_	MorphInd=^ayat<n>_NSD$
 12	Cinta	cinta	PROPN	NSD	_	11	nmod	_	MorphInd=^cinta<n>_NSD$
 13	dirilis	rilis	VERB	VSP	Voice=Pass	3	parataxis	_	MorphInd=^di+rilis<v>_VSP$
-14	pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
-15	28	28	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^28<c>_CC-$
-16	Februari	februari	PROPN	NSD	_	13	obl	_	MorphInd=^februari<n>_NSD$
-17	2008	2008	NUM	CC-	NumType=Card	16	nummod	_	SpaceAfter=No|MorphInd=^2008<c>_CC-$
+14	pada	pada	ADP	R--	_	15	case	_	MorphInd=^pada<r>_R--$
+15	28	28	NUM	CC-	NumType=Card	13	obl:tmod	_	MorphInd=^28<c>_CC-$
+16	Februari	februari	PROPN	NSD	_	15	flat	_	MorphInd=^februari<n>_NSD$
+17	2008	2008	NUM	CC-	NumType=Card	15	flat	_	SpaceAfter=No|MorphInd=^2008<c>_CC-$
 18	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s536
@@ -13884,21 +13884,21 @@
 # sent_id = test-s546
 # text = Akhirnya pada 22 Februari 1967 Sukarno “menyerahkan kekuasaan” kepada pejabat presiden dan dilegalisasi dengan Ketetapan MPRS No. XXXIII / MPRS / 1967 tentang Pencabutan Kekuasaan Pemerintahan Negara dari Presiden Soekarno, presiden Indonesia dimakzulkan untuk pertama kalinya secara resmi pada 12 Maret 1967.
 # text_en = Finally on February 22, 1967 Sukarno "handed over power" to presidential officials and legalized by MPRS Decree No. XXXIII / MPRS / 1967 concerning Revocation of Power of State Administration from President Soekarno, the president of Indonesia was officially impeached for the first time on March 12, 1967.
-1	Akhirnya	akhirnya	ADV	B--	_	6	advmod	_	MorphInd=^akhirnya<b>_B--$
-2	pada	pada	ADP	R--	_	4	case	_	MorphInd=^pada<r>_R--$
-3	22	22	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^22<c>_CC-$
-4	Februari	februari	PROPN	NSD	_	6	obl	_	MorphInd=^februari<n>_NSD$
-5	1967	1967	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^1967<c>_CC-$
-6	Sukarno	sukarno	PROPN	X--	_	0	root	_	MorphInd=^sukarno<x>_X--$
+1	Akhirnya	akhirnya	ADV	B--	_	8	advmod	_	MorphInd=^akhirnya<b>_B--$
+2	pada	pada	ADP	R--	_	3	case	_	MorphInd=^pada<r>_R--$
+3	22	22	NUM	CC-	NumType=Card	8	obl:tmod	_	MorphInd=^22<c>_CC-$
+4	Februari	februari	PROPN	NSD	_	3	flat	_	MorphInd=^februari<n>_NSD$
+5	1967	1967	NUM	CC-	NumType=Card	3	flat	_	MorphInd=^1967<c>_CC-$
+6	Sukarno	sukarno	PROPN	X--	_	8	nsubj	_	MorphInd=^sukarno<x>_X--$
 7	“	“	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|MorphInd=^“<z>_Z--$
-8	menyerahkan	serah	VERB	VSA	Voice=Act	6	flat	_	MorphInd=^meN+serah<v>+kan_VSA$
-9	kekuasaan	kekuasaan	NOUN	NSD	Number=Sing	6	obj	_	SpaceAfter=No|MorphInd=^ke+kuasa<n>+an_NSD$
-10	”	”	PUNCT	Z--	_	9	punct	_	MorphInd=^”<z>_Z--$
+8	menyerahkan	serah	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+serah<v>+kan_VSA$
+9	kekuasaan	kekuasaan	NOUN	NSD	Number=Sing	8	obj	_	SpaceAfter=No|MorphInd=^ke+kuasa<n>+an_NSD$
+10	”	”	PUNCT	Z--	_	8	punct	_	MorphInd=^”<z>_Z--$
 11	kepada	kepada	ADP	R--	_	12	case	_	MorphInd=^kepada<r>_R--$
-12	pejabat	pejabat	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^pejabat<n>_NSD$
+12	pejabat	pejabat	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^pejabat<n>_NSD$
 13	presiden	presiden	NOUN	NSD	Number=Sing	12	compound	_	MorphInd=^presiden<n>_NSD$
 14	dan	dan	CCONJ	H--	_	15	cc	_	MorphInd=^dan<h>_H--$
-15	dilegalisasi	dilegalisasi	VERB	X--	_	6	conj	_	MorphInd=^dilegalisasi<x>_X--$
+15	dilegalisasi	dilegalisasi	VERB	X--	_	8	conj	_	MorphInd=^dilegalisasi<x>_X--$
 16	dengan	dengan	ADP	R--	_	17	case	_	MorphInd=^dengan<r>_R--$
 17	Ketetapan	ketetapan	PROPN	NSD	_	15	obl	_	MorphInd=^ke+tetap<a>+an_NSD$
 18	MPRS	mprs	PROPN	X--	_	17	flat:name	_	MorphInd=^mprs<x>_X--$
@@ -13928,11 +13928,11 @@
 41	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	40	nmod:poss	_	MorphInd=^dia<p>_PS3$
 42	secara	secara	ADP	R--	_	40	case	_	MorphInd=^secara<r>_R--$
 43	resmi	resmi	ADJ	ASP	_	40	amod	_	MorphInd=^resmi<a>_ASP$
-44	pada	pada	ADP	R--	_	46	case	_	MorphInd=^pada<r>_R--$
-45	12	12	NUM	CC-	NumType=Card	46	nummod	_	MorphInd=^12<c>_CC-$
-46	Maret	maret	PROPN	NSD	_	37	obl	_	MorphInd=^maret<n>_NSD$
-47	1967	1967	NUM	CC-	NumType=Card	46	nummod	_	SpaceAfter=No|MorphInd=^1967<c>_CC-$
-48	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
+44	pada	pada	ADP	R--	_	45	case	_	MorphInd=^pada<r>_R--$
+45	12	12	NUM	CC-	NumType=Card	37	obl:tmod	_	MorphInd=^12<c>_CC-$
+46	Maret	maret	PROPN	NSD	_	45	flat	_	MorphInd=^maret<n>_NSD$
+47	1967	1967	NUM	CC-	NumType=Card	45	flat	_	SpaceAfter=No|MorphInd=^1967<c>_CC-$
+48	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s547
 # text = Pondok Pesantren Al - Hidayah Pondok Pesantren Al - Hidayah
