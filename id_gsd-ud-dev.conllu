@@ -632,7 +632,7 @@
 28	hukuman	hukuman	NOUN	NSD	Number=Sing	27	compound	_	MorphInd=^hukum<n>+an_NSD$
 29	mati	mati	ADJ	ASP	_	28	amod	_	MorphInd=^mati<a>_ASP$
 30	pada	pada	ADP	R--	_	31	case	_	MorphInd=^pada<r>_R--$
-31	diri	diri	NOUN	NSD	Number=Sing	27	nmod	_	MorphInd=^diri<n>_NSD$
+31	diri	diri	PRON	NSD	Reflex=Yes	27	nmod	_	MorphInd=^diri<n>_NSD$
 32	Scheherazade	scheherazade	PROPN	X--	_	31	nmod	_	SpaceAfter=No|MorphInd=^scheherazade<x>_X--$
 33	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
@@ -1982,7 +1982,7 @@
 25	Hawaii	hawaii	PROPN	F--	_	24	flat:name	_	MorphInd=^hawaii<f>_F--$
 26	yang	yang	PRON	S--	PronType=Rel	27	nsubj	_	MorphInd=^yang<s>_S--$
 27	mengundurkan	undur	VERB	VSA	Voice=Act	24	acl:relcl	_	MorphInd=^meN+undur<v>+kan_VSA$
-28	diri	diri	NOUN	NSD	Number=Sing	27	obj	_	SpaceAfter=No|MorphInd=^diri<n>_NSD$
+28	diri	diri	PRON	NSD	Reflex=Yes	27	obj	_	SpaceAfter=No|MorphInd=^diri<n>_NSD$
 29	.	.	PUNCT	Z--	_	9	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s69
@@ -5491,7 +5491,7 @@
 1	Subordo	subordo	PROPN	X--	_	7	nsubj:pass	_	MorphInd=^subordo<x>_X--$
 2	penyusun	susun	VERB	NSD	_	1	dep	_	MorphInd=^peN+susun<v>_NSD$
 3	Hemiptera	hemiptera	NOUN	X--	_	2	obj	_	MorphInd=^hemiptera<x>_X--$
-4	sendiri	sendiri	DET	ASP	PronType=Emp	3	det	_	MorphInd=^sendiri<a>_ASP$
+4	sendiri	sendiri	DET	ASP	PronType=Emp	1	det	_	MorphInd=^sendiri<a>_ASP$
 5	pada	pada	ADP	R--	_	6	case	_	MorphInd=^pada<r>_R--$
 6	awalnya	awal	ADV	NSD	_	7	advmod	_	MorphInd=^awal<n>_NSD+dia<p>_PS3$
 7	dipisahkan	pisah	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+pisah<v>+kan_VSP$
@@ -10420,7 +10420,7 @@
 14	untuk	untuk	SCONJ	R--	_	15	mark	_	MorphInd=^untuk<r>_R--$
 15	menghibur	hibur	VERB	VSA	Voice=Act	9	acl	_	MorphInd=^meN+hibur<v>_VSA$
 16	diri	diri	PRON	NSD	Number=Sing	15	obj	_	MorphInd=^diri<n>_NSD$
-17	sendiri	sendiri	DET	ASP	_	16	compound	_	MorphInd=^sendiri<a>_ASP$
+17	sendiri	sendiri	DET	ASP	_	16	det	_	MorphInd=^sendiri<a>_ASP$
 18	yang	yang	PRON	S--	PronType=Rel	19	acl	_	MorphInd=^yang<s>_S--$
 19	ditarikan	tari	VERB	VSP	Voice=Pass	9	acl:relcl	_	MorphInd=^di+tari<n>+kan_VSP$
 20	oleh	oleh	ADP	R--	_	21	case	_	MorphInd=^oleh<r>_R--$

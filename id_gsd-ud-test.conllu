@@ -1309,7 +1309,7 @@
 1	Jika	jika	SCONJ	S--	_	3	mark	_	MorphInd=^jika<s>_S--$
 2	bukan	bukan	PART	G--	Polarity=Neg	3	advmod	_	MorphInd=^bukan<g>_G--$
 3-4	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
-3	diri	diri	NOUN	NSD	Number=Sing	18	advcl	_	MorphInd=^diri<n>_NSD$
+3	diri	diri	PRON	NSD	Reflex=Yes	18	advcl	_	MorphInd=^diri<n>_NSD$
 4	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	MorphInd=^dia<p>_PS3$
 5	yang	yang	PRON	S--	PronType=Rel	7	nsubj	_	MorphInd=^yang<s>_S--$
 6	akan	akan	AUX	M--	_	7	aux	_	MorphInd=^akan<m>_M--$
@@ -2283,7 +2283,7 @@
 7	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	MorphInd=^dia<p>_PS3$
 8	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
 9	sementara	sementara	SCONJ	S--	_	13	mark	_	MorphInd=^sementara<s>_S--$
-10	dirinya	diri	PRON	NSD+PS3	Number=Sing	13	nsubj	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
+10	dirinya	diri	PRON	NSD+PS3	Reflex=Yes	13	nsubj	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 11	semakin	semakin	ADV	D--	_	12	advmod	_	MorphInd=^semakin<d>_D--$
 12	lama	lama	ADJ	ASP	_	13	amod	_	MorphInd=^lama<a>_ASP$
 13	menjadi	jadi	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^meN+jadi<a>_VSA$
@@ -5928,7 +5928,7 @@
 6	Coulthard	coulthard	PROPN	X--	_	5	flat:name	_	MorphInd=^coulthard<x>_X--$
 7	mengumumkan	umum	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+umum<a>+kan_VSA$
 8	pengunduran	penunduran	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^peN+undur<v>+an_NSD$
-9	dirinya	diri	PRON	NSD+PS3	Number=Sing	8	det	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
+9	dirinya	diri	PRON	NSD+PS3	Reflex=Yes	8	det	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 10	dari	dari	ADP	R--	_	11	case	_	MorphInd=^dari<r>_R--$
 11	tim	tim	NOUN	NSD	Number=Sing	8	nmod	_	SpaceAfter=No|MorphInd=^tim<n>_NSD$
 12	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
@@ -6084,7 +6084,7 @@
 2	khas	khas	ADJ	ASP	_	1	amod	_	MorphInd=^khas<a>_ASP$
 3	manta	manta	NOUN	X--	_	1	compound	_	MorphInd=^manta<x>_X--$
 4	adalah	adalah	AUX	O--	_	7	cop	_	MorphInd=^adalah<o>_O--$
-5	sepasang	sepasang	DET	B--	PronType=Ind	7	det	_	MorphInd=^sepasang<b>_B--$
+5	sepasang	sepasang	DET	B--	Number=Plur	7	det	_	MorphInd=^sepasang<b>_B--$
 6	"	"	PUNCT	Z--	_	7	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 7	tanduk	tanduk	NOUN	X--	_	0	root	_	SpaceAfter=No|MorphInd=^tanduk<x>_X--$
 8	"	"	PUNCT	Z--	_	7	punct	_	MorphInd=^"<z>_Z--$
@@ -6215,7 +6215,7 @@
 32	panginjilan	panginjilan	NOUN	X--	_	29	obl	_	MorphInd=^panginjilan<x>_X--$
 33	di	di	ADP	R--	_	34	case	_	MorphInd=^di<r>_R--$
 34	dalam	dalam	NOUN	R--	_	29	obl	_	MorphInd=^dalam<r>_R--$
-35	diri	diri	NOUN	NSD	Number=Sing	34	nmod	_	MorphInd=^diri<n>_NSD$
+35	diri	diri	PRON	NSD	Reflex=Yes	34	nmod	_	MorphInd=^diri<n>_NSD$
 36	Emde	emde	PROPN	X--	_	35	nmod	_	SpaceAfter=No|MorphInd=^emde<x>_X--$
 37	.	.	PUNCT	Z--	_	28	punct	_	MorphInd=^.<z>_Z--$
 38	Selain	selain	ADP	ASP	_	43	case	_	MorphInd=^se+lain<a>_ASP$
@@ -6585,7 +6585,7 @@
 # text_en = In Indonesia, Imam Samudera has been appointed by Polda Metro Jaya as one of the leading terrorists in Indonesia.
 1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
 2	Indonesia	indonesia	PROPN	NSD	_	7	obl	_	MorphInd=^indonesia<n>_NSD$
-3	sendiri	sendiri	ADJ	ASP	_	2	amod	_	SpaceAfter=No|MorphInd=^sendiri<a>_ASP$
+3	sendiri	sendiri	DET	ASP	PronType=Emp	2	det	_	SpaceAfter=No|MorphInd=^sendiri<a>_ASP$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	Imam	imam	PROPN	NSD	_	7	nsubj:pass	_	MorphInd=^imam<n>_NSD$
 6	Samudera	samudera	PROPN	NSD	_	5	flat:name	_	MorphInd=^samudera<n>_NSD$
@@ -8768,7 +8768,7 @@
 17-18	kematiannya	_	_	_	_	_	_	_	MorphInd=^ke+mati<a>+an_NSD+dia<p>_PS3$
 17	kematian	kematian	NOUN	NSD	Number=Sing	16	obj	_	MorphInd=^ke+mati<a>+an_NSD$
 18	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	17	nmod:poss	_	MorphInd=^dia<p>_PS3$
-19	sendiri	sendiri	ADJ	ASP	_	17	amod	_	SpaceAfter=No|MorphInd=^sendiri<a>_ASP$
+19	sendiri	sendiri	DET	ASP	PronType=Emp	18	det	_	SpaceAfter=No|MorphInd=^sendiri<a>_ASP$
 20	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s354
@@ -9336,7 +9336,7 @@
 # text_en = Tommy is left alone at home, finding Rob's newspaper article about Jason.
 1	Tommy	tommy	PROPN	F--	_	2	nsubj:pass	_	MorphInd=^tommy<f>_F--$
 2	ditinggal	tinggal	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+tinggal<v>_VSP$
-3	sendiri	sendiri	ADJ	ASP	_	2	amod	_	MorphInd=^sendiri<a>_ASP$
+3	sendiri	sendiri	ADJ	ASP	_	2	advmod	_	MorphInd=^sendiri<a>_ASP$
 4	di	di	ADP	R--	_	5	case	_	MorphInd=^di<r>_R--$
 5	rumah	rumah	NOUN	NSD	Number=Sing	2	obl	_	SpaceAfter=No|MorphInd=^rumah<n>_NSD$
 6	,	,	PUNCT	Z--	_	7	punct	_	MorphInd=^,<z>_Z--$
@@ -9365,7 +9365,7 @@
 11	ditemukan	temu	VERB	VSP	Voice=Pass	8	xcomp	_	MorphInd=^di+temu<v>+kan_VSP$
 12	tewas	tewas	ADJ	ASP	_	11	amod	_	MorphInd=^tewas<a>_ASP$
 13	bunuh	bunuh	VERB	VSA	Voice=Act	11	advcl	_	MorphInd=^bunuh<v>_VSA$
-14	diri	diri	NOUN	NSD	Number=Sing	13	obj	_	MorphInd=^diri<n>_NSD$
+14	diri	diri	PRON	NSD	Reflex=Yes	13	obj	_	MorphInd=^diri<n>_NSD$
 15	pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
 16	5	5	NUM	CC-	NumType=Card	13	obl:tmod	_	MorphInd=^5<c>_CC-$
 17	Juni	juni	PROPN	NSD	_	16	flat	_	MorphInd=^juni<n>_NSD$
@@ -9887,7 +9887,7 @@
 7	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 8	Jepang	jepang	PROPN	NSD	_	9	nsubj	_	MorphInd=^jepang<n>_NSD$
 9	memfokuskan	fokus	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+fokus<n>+kan_VSA$
-10	diri	diri	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^diri<n>_NSD$
+10	diri	diri	PRON	NSD	Reflex=Yes	9	obj	_	MorphInd=^diri<n>_NSD$
 11	pada	pada	ADP	R--	_	12	case	_	MorphInd=^pada<r>_R--$
 12	operasi-operasi	operasi	NOUN	NSD	Number=Plur	9	obl	_	MorphInd=^operasi<n>_NSD$
 13	militer	militer	ADJ	NSD	_	12	amod	_	SpaceAfter=No|MorphInd=^militer<n>_NSD$
@@ -10136,7 +10136,7 @@
 20	rileks	rileks	ADJ	X--	_	17	xcomp	_	MorphInd=^rileks<x>_X--$
 21	dan	dan	CCONJ	H--	_	23	cc	_	MorphInd=^dan<h>_H--$
 22	rendah	rendah	ADJ	ASP	_	23	amod	_	MorphInd=^rendah<a>_ASP$
-23	diri	diri	NOUN	NSD	Number=Sing	20	conj	_	MorphInd=^diri<n>_NSD$
+23	diri	diri	PRON	NSD	Reflex=Yes	20	conj	_	MorphInd=^diri<n>_NSD$
 24	dibandingkan	banding	VERB	VSP	Voice=Pass	20	acl	_	MorphInd=^di+banding<v>+kan_VSP$
 25	Mansell	mansell	PROPN	X--	_	24	obj	_	SpaceAfter=No|MorphInd=^mansell<x>_X--$
 26	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
@@ -11651,7 +11651,7 @@
 42	,	,	PUNCT	Z--	_	39	punct	_	MorphInd=^,<z>_Z--$
 43	Liu	liu	PROPN	F--	_	44	nsubj	_	MorphInd=^liu<f>_F--$
 44	menggelari	gelar	VERB	VSA	Voice=Act	17	dep	_	MorphInd=^meN+gelar<v>+i_VSA$
-45	dirinya	diri	PRON	NSD+PS3	Number=Sing	44	obj	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
+45	dirinya	diri	PRON	NSD+PS3	Reflex=Yes	44	obj	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 46	sebagai	sebagai	ADP	R--	_	47	case	_	MorphInd=^sebagai<r>_R--$
 47	Pangeran	pangeran	PROPN	NSD	_	44	obl	_	MorphInd=^pangeran<n>_NSD$
 48	Handong	handong	PROPN	X--	_	47	flat:name	_	MorphInd=^handong<x>_X--$
@@ -12644,8 +12644,8 @@
 17	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	16	nmod:poss	_	MorphInd=^dia<p>_PS3$
 18	ingin	ingin	AUX	VSA	_	19	aux	_	MorphInd=^ingin<v>_VSA$
 19	memuaskan	puas	VERB	VSA	Voice=Act	10	advcl	_	MorphInd=^meN+puas<a>+kan_VSA$
-20	dirinya	diri	PRON	NSD+PS3	Number=Sing	19	obj	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
-21	sendiri	sendiri	ADJ	ASP	_	20	amod	_	MorphInd=^sendiri<a>_ASP$
+20	dirinya	diri	PRON	NSD+PS3	Reflex=Yes	19	obj	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
+21	sendiri	sendiri	DET	ASP	PronType=Emp	20	det	_	MorphInd=^sendiri<a>_ASP$
 22	dengan	dengan	ADP	R--	_	23	case	_	MorphInd=^dengan<r>_R--$
 23	reparasi	reparasi	NOUN	X--	_	19	obl	_	MorphInd=^reparasi<x>_X--$
 24	keuangan	keuangan	NOUN	NSD	Number=Sing	23	compound	_	SpaceAfter=No|MorphInd=^ke+uang<n>+an_NSD$
