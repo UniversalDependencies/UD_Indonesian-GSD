@@ -11,7 +11,7 @@
 8	Emma	emma	PROPN	F--	_	6	obl	_	MorphInd=^emma<f>_F--$
 9	Summerton	summerton	PROPN	X--	_	8	flat:name	_	MorphInd=^summerton<x>_X--$
 10	pada	pada	ADP	R--	_	11	case	_	MorphInd=^pada<r>_R--$
-11	bulan	bulan	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^bulan<n>_NSD$
+11	bulan	bulan	NOUN	NSD	Number=Sing	6	obl:tmod	_	MorphInd=^bulan<n>_NSD$
 12	April	april	PROPN	NSD	_	11	nmod	_	MorphInd=^april<n>_NSD$
 13	2010	2010	NUM	CC-	NumType=Card	12	nummod	_	MorphInd=^2010<c>_CC-$
 14	dan	dan	CCONJ	H--	_	16	cc	_	MorphInd=^dan<h>_H--$
@@ -53,7 +53,7 @@
 50	dan	dan	CCONJ	H--	_	51	cc	_	MorphInd=^dan<h>_H--$
 51	dirilis	rilis	VERB	VSP	Voice=Pass	33	conj	_	MorphInd=^di+rilis<v>_VSP$
 52	pada	pada	ADP	R--	_	53	case	_	MorphInd=^pada<r>_R--$
-53	tanggal	tanggal	NOUN	NSD	Number=Sing	51	obl	_	MorphInd=^tanggal<n>_NSD$
+53	tanggal	tanggal	NOUN	NSD	Number=Sing	51	obl:tmod	_	MorphInd=^tanggal<n>_NSD$
 54	21	21	NUM	CC-	NumType=Card	55	nummod	_	MorphInd=^21<c>_CC-$
 55	Juli	juli	PROPN	NSD	_	53	nmod	_	MorphInd=^juli<n>_NSD$
 56	melalui	melalui	ADP	R--	_	57	case	_	MorphInd=^melalui<r>_R--$
@@ -277,7 +277,7 @@
 23	drastis	drastis	ADJ	ASP	_	21	amod	_	MorphInd=^drastis<a>_ASP$
 24	dan	dan	CCONJ	H--	_	28	cc	_	MorphInd=^dan<h>_H--$
 25	pada	pada	ADP	R--	_	26	case	_	MorphInd=^pada<r>_R--$
-26	musim	musim	NOUN	NSD	Number=Sing	28	obl	_	MorphInd=^musim<n>_NSD$
+26	musim	musim	NOUN	NSD	Number=Sing	28	obl:tmod	_	MorphInd=^musim<n>_NSD$
 27	gugur	gugur	NOUN	VSA	_	26	compound	_	MorphInd=^gugur<v>_VSA$
 28	menjadi	jadi	VERB	VSA	Voice=Act	21	conj	_	MorphInd=^meN+jadi<a>_VSA$
 29	jelas	jelas	ADJ	ASP	_	28	obj	_	MorphInd=^jelas<a>_ASP$
@@ -1875,7 +1875,7 @@
 6	menduga	duga	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+duga<v>_VSA$
 7	kemungkinan	kemungkinan	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^kemungkinan<n>_NSD$
 8	pada	pada	ADP	R--	_	9	case	_	MorphInd=^pada<r>_R--$
-9	waktu	waktu	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^waktu<n>_NSD$
+9	waktu	waktu	NOUN	NSD	Number=Sing	6	obl:tmod	_	MorphInd=^waktu<n>_NSD$
 10	itu	itu	DET	B--	PronType=Dem	9	det	_	MorphInd=^itu<b>_B--$
 11	masalah	masalah	NOUN	NSD	Number=Sing	14	nsubj:pass	_	MorphInd=^masalah<n>_NSD$
 12	emosional	emosional	ADJ	ASP	_	11	amod	_	MorphInd=^emosional<a>_ASP$
@@ -2417,7 +2417,7 @@
 8	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 9	Vaterstetten	vaterstetten	PROPN	X--	_	14	nsubj	_	MorphInd=^vaterstetten<x>_X--$
 10	pada	pada	ADP	R--	_	11	case	_	MorphInd=^pada<r>_R--$
-11	tahun	tahun	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^tahun<n>_NSD$
+11	tahun	tahun	NOUN	NSD	Number=Sing	14	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 12	2006	2006	NUM	CC-	NumType=Card	11	nummod	_	SpaceAfter=No|MorphInd=^2006<c>_CC-$
 13	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
 14	memiliki	milik	VERB	VSA	Voice=Act	3	dep	_	MorphInd=^meN+milik<v>+i_VSA$
@@ -2465,7 +2465,7 @@
 4	dari	dari	ADP	R--	_	5	case	_	MorphInd=^dari<r>_R--$
 5	STSI	stsi	PROPN	X--	_	3	obl	_	MorphInd=^stsi<x>_X--$
 6	pada	pada	ADP	R--	_	7	case	_	MorphInd=^pada<r>_R--$
-7	tahun	tahun	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^tahun<n>_NSD$
+7	tahun	tahun	NOUN	NSD	Number=Sing	3	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 8	1999	1999	NUM	CC-	NumType=Card	7	nummod	_	SpaceAfter=No|MorphInd=^1999<c>_CC-$
 9	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
@@ -3171,7 +3171,7 @@
 5	South	south	PROPN	F--	_	3	nmod	_	MorphInd=^south<f>_F--$
 6	Carolina	carolina	PROPN	F--	_	5	flat:name	_	MorphInd=^carolina<f>_F--$
 7	pada	pada	ADP	R--	_	8	case	_	MorphInd=^pada<r>_R--$
-8	tanggal	tanggal	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^tanggal<n>_NSD$
+8	tanggal	tanggal	NOUN	NSD	Number=Sing	14	obl:tmod	_	MorphInd=^tanggal<n>_NSD$
 9	16	16	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^16<c>_CC-$
 10	April	april	PROPN	NSD	_	8	nmod	_	MorphInd=^april<n>_NSD$
 11	1947	1947	NUM	CC-	NumType=Card	10	nummod	_	SpaceAfter=No|MorphInd=^1947<c>_CC-$
@@ -3234,7 +3234,7 @@
 3	menara	menara	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^menara<n>_NSD$
 4	dibuat	buat	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+buat<v>_VSP$
 5	pada	pada	ADP	R--	_	6	case	_	MorphInd=^pada<r>_R--$
-6	November	november	PROPN	NSD	_	4	obl	_	MorphInd=^november<n>_NSD$
+6	November	november	PROPN	NSD	_	4	obl:tmod	_	MorphInd=^november<n>_NSD$
 7	2007	2007	NUM	CC-	NumType=Card	6	nummod	_	SpaceAfter=No|MorphInd=^2007<c>_CC-$
 8	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
@@ -3275,7 +3275,7 @@
 1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
 2	rumah	rumah	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^rumah<n>_NSD$
 3	pada	pada	ADP	R--	_	4	case	_	MorphInd=^pada<r>_R--$
-4	waktu	waktu	NOUN	NSD	Number=Sing	2	nmod	_	MorphInd=^waktu<n>_NSD$
+4	waktu	waktu	NOUN	NSD	Number=Sing	2	nmod:tmod	_	MorphInd=^waktu<n>_NSD$
 5	senggang	senggang	ADJ	X--	_	4	amod	_	SpaceAfter=No|MorphInd=^senggang<x>_X--$
 6	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 7	ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	MorphInd=^ia<p>_PS3$
@@ -3405,7 +3405,7 @@
 4	di	di	ADP	R--	_	5	case	_	MorphInd=^di<r>_R--$
 5	Jepang	jepang	PROPN	NSD	_	3	obl	_	MorphInd=^jepang<n>_NSD$
 6	pada	pada	ADP	R--	_	7	case	_	MorphInd=^pada<r>_R--$
-7	tahun	tahun	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^tahun<n>_NSD$
+7	tahun	tahun	NOUN	NSD	Number=Sing	3	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 8	1999	1999	NUM	CC-	NumType=Card	7	nummod	_	SpaceAfter=No|MorphInd=^1999<c>_CC-$
 9	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 10	sedangkan	sedangkan	SCONJ	S--	_	14	mark	_	MorphInd=^sedangkan<s>_S--$
@@ -3987,7 +3987,7 @@
 6	Golda	golda	PROPN	X--	_	3	appos	_	MorphInd=^golda<x>_X--$
 7	Meir	meir	PROPN	X--	_	6	flat:name	_	MorphInd=^meir<x>_X--$
 8	pada	pada	ADP	R--	_	9	case	_	MorphInd=^pada<r>_R--$
-9	tahun	tahun	NOUN	NSD	Number=Sing	1	obl	_	MorphInd=^tahun<n>_NSD$
+9	tahun	tahun	NOUN	NSD	Number=Sing	1	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 10	1972	1972	NUM	CC-	NumType=Card	9	nummod	_	SpaceAfter=No|MorphInd=^1972<c>_CC-$
 11	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 12	operasi	operasi	NOUN	NSD	Number=Sing	15	nsubj	_	MorphInd=^operasi<n>_NSD$
@@ -4023,7 +4023,7 @@
 6	dan	dan	CCONJ	H--	_	7	cc	_	MorphInd=^dan<h>_H--$
 7	Austria	austria	PROPN	F--	_	5	conj	_	MorphInd=^austria<f>_F--$
 8	pada	pada	ADP	R--	_	9	case	_	MorphInd=^pada<r>_R--$
-9	tahun	tahun	NOUN	NSD	Number=Sing	1	nmod	_	MorphInd=^tahun<n>_NSD$
+9	tahun	tahun	NOUN	NSD	Number=Sing	1	nmod:tmod	_	MorphInd=^tahun<n>_NSD$
 10	2005	2005	NUM	CC-	NumType=Card	9	nummod	_	MorphInd=^2005<c>_CC-$
 11	menyesalkan	sesal	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+sesal<n>+kan_VSA$
 12	kegagalan	kegagalan	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^ke+gagal<a>+an_NSD$
@@ -4193,7 +4193,7 @@
 # text = Pada hari kedua, peserta mengerjakan kelompok soal yang berbeda sesuai dengan pendaftaran.
 # text_en = On the second day, participants worked on different groups of questions according to registration.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	hari	hari	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^hari<n>_NSD$
+2	hari	hari	NOUN	NSD	Number=Sing	6	obl:tmod	_	MorphInd=^hari<n>_NSD$
 3	kedua	kedua	ADJ	CO-	NumType=Ord	2	amod	_	SpaceAfter=No|MorphInd=^ke+dua<c>_CO-$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	peserta	peserta	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^peserta<n>_NSD$
@@ -4320,7 +4320,7 @@
 13	yang	yang	PRON	S--	PronType=Rel	14	nsubj	_	MorphInd=^yang<s>_S--$
 14	berdiri	diri	VERB	VSA	Voice=Act	9	acl:relcl	_	MorphInd=^ber+diri<n>_VSA$
 15	pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
-16	tahun	tahun	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^tahun<n>_NSD$
+16	tahun	tahun	NOUN	NSD	Number=Sing	14	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 17	1980	1980	NUM	CC-	NumType=Card	16	nummod	_	SpaceAfter=No|MorphInd=^1980<c>_CC-$
 18	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
@@ -4516,7 +4516,7 @@
 6	untuk	untuk	ADP	R--	_	7	case	_	MorphInd=^untuk<r>_R--$
 7	klub	klub	NOUN	NSD	Number=Sing	3	nmod	_	MorphInd=^klub<n>_NSD$
 8	pada	pada	ADP	R--	_	9	case	_	MorphInd=^pada<r>_R--$
-9	tanggal	tanggal	NOUN	NSD	Number=Sing	3	nmod	_	MorphInd=^tanggal<n>_NSD$
+9	tanggal	tanggal	NOUN	NSD	Number=Sing	3	nmod:tmod	_	MorphInd=^tanggal<n>_NSD$
 10	28	28	NUM	CC-	NumType=Card	11	nummod	_	MorphInd=^28<c>_CC-$
 11	November	november	PROPN	NSD	_	9	nmod	_	SpaceAfter=No|MorphInd=^november<n>_NSD$
 12	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
@@ -4533,7 +4533,7 @@
 # text = Pada tahun 2011, Human Rights Watch melaporkan Pemerintah India telah "belum mengadili mereka yang bertanggung jawab atas pembunuhan massal".
 # text_en = In 2011, Human Rights Watch reported that the Government of India had "not yet brought to justice those responsible for the mass killings".
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tahun	tahun	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^tahun<n>_NSD$
+2	tahun	tahun	NOUN	NSD	Number=Sing	8	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 3	2011	2011	NUM	CC-	NumType=Card	2	nummod	_	SpaceAfter=No|MorphInd=^2011<c>_CC-$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	Human	human	PROPN	F--	_	8	nsubj	_	MorphInd=^human<f>_F--$
@@ -4820,7 +4820,7 @@
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
-5	waktu	waktu	NOUN	NSD	Number=Sing	20	obl	_	MorphInd=^waktu<n>_NSD$
+5	waktu	waktu	NOUN	NSD	Number=Sing	20	obl:tmod	_	MorphInd=^waktu<n>_NSD$
 6	yang	yang	PRON	S--	PronType=Rel	5	det	_	MorphInd=^yang<s>_S--$
 7	sama	sama	ADJ	ASP	_	5	amod	_	SpaceAfter=No|MorphInd=^sama<a>_ASP$
 8	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
@@ -5003,7 +5003,7 @@
 8	modern	modern	ADJ	ASP	_	5	acl:relcl	_	MorphInd=^modern<a>_ASP$
 9	pada	pada	ADP	R--	_	10	case	_	MorphInd=^pada<r>_R--$
 10-11	masanya	_	_	_	_	_	_	_	MorphInd=^masa<n>_NSD+dia<p>_PS3$|SpaceAfter=No
-10	masa	masa	NOUN	NSD	Number=Sing	8	nmod	_	MorphInd=^masa<n>_NSD$
+10	masa	masa	NOUN	NSD	Number=Sing	8	obl:tmod	_	MorphInd=^masa<n>_NSD$
 11	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	MorphInd=^dia<p>_PS3$
 12	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^,<z>_Z--$
 13	M1	m1	PROPN	F--	_	15	nsubj	_	MorphInd=^m1<f>_F--$
@@ -5037,7 +5037,7 @@
 20	of	of	PROPN	F--	_	19	nmod	_	MorphInd=^of<f>_F--$
 21	America	america	PROPN	F--	_	20	flat:name	_	MorphInd=^america<f>_F--$
 22	pada	pada	ADP	R--	_	23	case	_	MorphInd=^pada<r>_R--$
-23	Januari	januari	PROPN	NSD	_	17	obl	_	MorphInd=^januari<n>_NSD$
+23	Januari	januari	PROPN	NSD	_	17	obl:tmod	_	MorphInd=^januari<n>_NSD$
 24	2009	2009	NUM	CC-	NumType=Card	23	nummod	_	SpaceAfter=No|MorphInd=^2009<c>_CC-$
 25	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
@@ -5736,7 +5736,7 @@
 7	peringkat	peringkat	NOUN	NSD	Number=Sing	6	compound	_	MorphInd=^peringkat<n>_NSD$
 8	kedua	kedua	ADJ	CO-	NumType=Ord	7	amod	_	MorphInd=^ke+dua<c>_CO-$
 9	pada	pada	ADP	R--	_	10	case	_	MorphInd=^pada<r>_R--$
-10	tahun	tahun	NOUN	NSD	Number=Sing	6	nmod	_	MorphInd=^tahun<n>_NSD$
+10	tahun	tahun	NOUN	NSD	Number=Sing	6	nmod:tmod	_	MorphInd=^tahun<n>_NSD$
 11	1950	1950	NUM	CC-	NumType=Card	10	nummod	_	SpaceAfter=No|MorphInd=^1950<c>_CC-$
 12	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
 13	1959	1959	NUM	CC-	NumType=Card	11	conj	_	SpaceAfter=No|MorphInd=^1959<c>_CC-$
@@ -6481,7 +6481,7 @@
 # text = Pada tahun 2001, Bank Dunia memperkirakan bahwa partisipasi murni siswa Sekolah Dasar adalah 46 % dan 21 persen dari pelajar sekolah menengah yang terdiri dari siswa yang memenuhi syarat.
 # text_en = In 2001, the World Bank estimated that the net enrollment of primary school students was 46% and that 21 percent of secondary school students were made up of eligible students.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tahun	tahun	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^tahun<n>_NSD$
+2	tahun	tahun	NOUN	NSD	Number=Sing	7	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 3	2001	2001	NUM	CC-	NumType=Card	2	nummod	_	SpaceAfter=No|MorphInd=^2001<c>_CC-$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	Bank	bank	PROPN	NSD	_	7	nsubj	_	MorphInd=^bank<n>_NSD$
@@ -6977,7 +6977,7 @@
 12	pengeringan	penkeringan	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^peN+kering<a>+an_NSD$
 13	dan	dan	CCONJ	H--	_	19	cc	_	MorphInd=^dan<h>_H--$
 14	pada	pada	ADP	R--	_	15	case	_	MorphInd=^pada<r>_R--$
-15	tahun	tahun	NOUN	NSD	Number=Sing	19	obl	_	MorphInd=^tahun<n>_NSD$
+15	tahun	tahun	NOUN	NSD	Number=Sing	19	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 16	1927	1927	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^1927<c>_CC-$
 17	Amerika	amerika	PROPN	NSD	_	19	nsubj	_	MorphInd=^amerika<n>_NSD$
 18	Serikat	serikat	PROPN	NSD	_	17	flat:name	_	MorphInd=^serikat<n>_NSD$
@@ -6991,7 +6991,7 @@
 # text = Pada tanggal 14 Februari 1942 Palembang jatuh ke tangan jepang dan pada tanggal 8 Maret 1942 Belanda menyerah tanpa syarat.
 # text_en = On February 14, 1942 Palembang fell to the Japanese and on March 8, 1942 the Dutch surrendered unconditionally.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tanggal	tanggal	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^tanggal<n>_NSD$
+2	tanggal	tanggal	NOUN	NSD	Number=Sing	7	obl:tmod	_	MorphInd=^tanggal<n>_NSD$
 3	14	14	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^14<c>_CC-$
 4	Februari	februari	PROPN	NSD	_	2	nmod	_	MorphInd=^februari<n>_NSD$
 5	1942	1942	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^1942<c>_CC-$
@@ -7002,7 +7002,7 @@
 10	jepang	jepang	PROPN	NSD	_	9	nmod	_	MorphInd=^jepang<n>_NSD$
 11	dan	dan	CCONJ	H--	_	18	cc	_	MorphInd=^dan<h>_H--$
 12	pada	pada	ADP	R--	_	13	case	_	MorphInd=^pada<r>_R--$
-13	tanggal	tanggal	NOUN	NSD	Number=Sing	18	obl	_	MorphInd=^tanggal<n>_NSD$
+13	tanggal	tanggal	NOUN	NSD	Number=Sing	18	obl:tmod	_	MorphInd=^tanggal<n>_NSD$
 14	8	8	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^8<c>_CC-$
 15	Maret	maret	PROPN	NSD	_	13	nmod	_	MorphInd=^maret<n>_NSD$
 16	1942	1942	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^1942<c>_CC-$
@@ -7470,7 +7470,7 @@
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	dibentuk	bentuk	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+bentuk<n>_VSP$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
-5	tahun	tahun	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^tahun<n>_NSD$
+5	tahun	tahun	NOUN	NSD	Number=Sing	3	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 6	2010	2010	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^2010<c>_CC-$
 7	dari	dari	ADP	R--	_	8	case	_	MorphInd=^dari<r>_R--$
 8	pemekaran	penmekaran	NOUN	NSD	Number=Sing	5	nmod	_	MorphInd=^peN+mekar<a>+an_NSD$
@@ -8104,7 +8104,7 @@
 8	-	-	PUNCT	Z--	_	9	punct	_	MorphInd=^-<z>_Z--$
 9	seong	seong	PROPN	X--	_	7	fixed	_	MorphInd=^seong<x>_X--$
 10	pada	pada	ADP	R--	_	11	case	_	MorphInd=^pada<r>_R--$
-11	tahun	tahun	NOUN	NSD	Number=Sing	2	obl	_	MorphInd=^tahun<n>_NSD$
+11	tahun	tahun	NOUN	NSD	Number=Sing	2	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 12	371	371	NUM	CC-	NumType=Card	11	nummod	_	SpaceAfter=No|MorphInd=^371<c>_CC-$
 13	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 14	membunuh	bunuh	VERB	VSA	Voice=Act	2	xcomp	_	MorphInd=^meN+bunuh<v>_VSA$
@@ -8121,7 +8121,7 @@
 # text = Pada tanggal 24 Juni 1997, Anggun merilis album berbahasa Perancis pertamanya berjudul Au nom de la lune.
 # text_en = On June 24, 1997, Anggun released his first French album entitled Au nom de la lune.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tanggal	tanggal	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^tanggal<n>_NSD$
+2	tanggal	tanggal	NOUN	NSD	Number=Sing	8	obl:tmod	_	MorphInd=^tanggal<n>_NSD$
 3	24	24	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^24<c>_CC-$
 4	Juni	juni	PROPN	NSD	_	2	nmod	_	MorphInd=^juni<n>_NSD$
 5	1997	1997	NUM	CC-	NumType=Card	4	nummod	_	SpaceAfter=No|MorphInd=^1997<c>_CC-$
@@ -8213,7 +8213,7 @@
 17	Raja	raja	PROPN	NSD	_	16	obj	_	MorphInd=^raja<n>_NSD$
 18	Jungjong	jungjong	PROPN	X--	_	17	flat:name	_	MorphInd=^jungjong<x>_X--$
 19	pada	pada	ADP	R--	_	20	case	_	MorphInd=^pada<r>_R--$
-20	tahun	tahun	NOUN	NSD	Number=Sing	16	obl	_	MorphInd=^tahun<n>_NSD$
+20	tahun	tahun	NOUN	NSD	Number=Sing	16	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 21	1506	1506	NUM	CC-	NumType=Card	20	nummod	_	SpaceAfter=No|MorphInd=^1506<c>_CC-$
 22	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
@@ -8302,13 +8302,13 @@
 # text = Pada November 2006, sebuah rencana mengenai relokasi bandara ke Klyuchëvka, sekitar 24 km dari kota Angarsk, disetujui dan konstruksi dijadwalkan mulai pada tahun 2008.
 # text_en = In November 2006, a plan regarding the relocation of the airport to Klyuchëvka, about 24 km from the city of Angarsk, was approved and construction is scheduled to start in 2008.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	November	november	PROPN	NSD	_	7	nmod	_	MorphInd=^november<n>_NSD$
-3	2006	2006	NUM	CC-	NumType=Card	2	nummod	_	SpaceAfter=No|MorphInd=^2006<c>_CC-$
+2	November	november	PROPN	NSD	_	20	obl:tmod	_	MorphInd=^november<n>_NSD$
+3	2006	2006	NUM	CC-	NumType=Card	2	flat	_	SpaceAfter=No|MorphInd=^2006<c>_CC-$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	sebuah	sebuah	DET	B--	PronType=Ind	6	det	_	MorphInd=^sebuah<b>_B--$
-6	rencana	rencana	NOUN	NSD	Number=Sing	7	nsubj:pass	_	MorphInd=^rencana<n>_NSD$
-7	mengenai	mengenai	ADP	R--	_	0	root	_	MorphInd=^mengenai<r>_R--$
-8	relokasi	relokasi	NOUN	NSD	Number=Sing	7	nmod	_	MorphInd=^relokasi<n>_NSD$
+6	rencana	rencana	NOUN	NSD	Number=Sing	20	nsubj:pass	_	MorphInd=^rencana<n>_NSD$
+7	mengenai	mengenai	ADP	R--	_	8	case	_	MorphInd=^mengenai<r>_R--$
+8	relokasi	relokasi	NOUN	NSD	Number=Sing	6	nmod	_	MorphInd=^relokasi<n>_NSD$
 9	bandara	bandara	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^bandara<n>_NSD$
 10	ke	ke	ADP	R--	_	11	case	_	MorphInd=^ke<r>_R--$
 11	Klyuchëvka	klyuchëvka	PROPN	X--	_	8	nmod	_	SpaceAfter=No|MorphInd=^klyuchëvka<x>_X--$
@@ -8320,15 +8320,15 @@
 17	kota	kota	NOUN	NSD	Number=Sing	15	nmod	_	MorphInd=^kota<n>_NSD$
 18	Angarsk	angarsk	PROPN	X--	_	17	nmod	_	SpaceAfter=No|MorphInd=^angarsk<x>_X--$
 19	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
-20	disetujui	setuju	VERB	VSP	Voice=Pass	7	conj	_	MorphInd=^di+setuju<v>+i_VSP$
+20	disetujui	setuju	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+setuju<v>+i_VSP$
 21	dan	dan	CCONJ	H--	_	23	cc	_	MorphInd=^dan<h>_H--$
 22	konstruksi	konstruksi	NOUN	NSD	Number=Sing	23	nsubj:pass	_	MorphInd=^konstruksi<n>_NSD$
 23	dijadwalkan	jadwal	VERB	VSP	Voice=Pass	7	conj	_	MorphInd=^di+jadwal<n>+kan_VSP$
 24	mulai	mulai	VERB	VSA	Voice=Act	23	xcomp	_	MorphInd=^mulai<v>_VSA$
 25	pada	pada	ADP	R--	_	26	case	_	MorphInd=^pada<r>_R--$
-26	tahun	tahun	NOUN	NSD	Number=Sing	24	obl	_	MorphInd=^tahun<n>_NSD$
+26	tahun	tahun	NOUN	NSD	Number=Sing	24	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 27	2008	2008	NUM	CC-	NumType=Card	26	nummod	_	SpaceAfter=No|MorphInd=^2008<c>_CC-$
-28	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
+28	.	.	PUNCT	Z--	_	20	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s335
 # text = Schelotto memulai karier seniornya di klub Cesena.
@@ -8453,7 +8453,7 @@
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj:pass	_	MorphInd=^yang<s>_S--$
 13	didirikan	diri	VERB	VSP	Voice=Pass	8	acl:relcl	_	MorphInd=^di+diri<n>+kan_VSP$
 14	pada	pada	ADP	R--	_	15	case	_	MorphInd=^pada<r>_R--$
-15	tahun	tahun	NOUN	NSD	Number=Sing	13	obl	_	MorphInd=^tahun<n>_NSD$
+15	tahun	tahun	NOUN	NSD	Number=Sing	13	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 16	1985	1985	NUM	CC-	NumType=Card	15	nummod	_	SpaceAfter=No|MorphInd=^1985<c>_CC-$
 17	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
@@ -8851,7 +8851,7 @@
 # text = Pada tahun 2012, kota ini memiliki jumlah penduduk sebesar 60.435 jiwa dan memiliki luas wilayah 397 km2. Kota ini memiliki angka kepadatan penduduk 320 jiwa/km2.
 # text_en = In 2012, the city had a population of 60,435 people and an area of ​​397 km2. The city has a population density of 320 people/km2.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tahun	tahun	NOUN	NSD	Number=Sing	7	obl	_	MorphInd=^tahun<n>_NSD$
+2	tahun	tahun	NOUN	NSD	Number=Sing	7	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 3	2012	2012	NUM	CC-	NumType=Card	2	nummod	_	SpaceAfter=No|MorphInd=^2012<c>_CC-$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	kota	kota	NOUN	NSD	Number=Sing	7	nsubj	_	MorphInd=^kota<n>_NSD$
@@ -9193,7 +9193,7 @@
 14	ini	ini	DET	B--	PronType=Dem	13	det	_	MorphInd=^ini<b>_B--$
 15	dibentuk	bentuk	VERB	VSP	Voice=Pass	8	dep	_	MorphInd=^di+bentuk<n>_VSP$
 16	pada	pada	ADP	R--	_	17	case	_	MorphInd=^pada<r>_R--$
-17	tahun	tahun	NOUN	NSD	Number=Sing	15	obl	_	MorphInd=^tahun<n>_NSD$
+17	tahun	tahun	NOUN	NSD	Number=Sing	15	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 18	1908	1908	NUM	CC-	NumType=Card	17	nummod	_	MorphInd=^1908<c>_CC-$
 19	dan	dan	CCONJ	H--	_	21	cc	_	MorphInd=^dan<h>_H--$
 20	telah	telah	AUX	D--	_	21	aux	_	MorphInd=^telah<d>_D--$
@@ -9220,7 +9220,7 @@
 41	promosi	promosi	NOUN	NSD	Number=Sing	40	obj	_	MorphInd=^promosi<n>_NSD$
 42	pertama	pertama	ADJ	CO-	NumType=Ord	41	amod	_	MorphInd=^pertama<c>_CO-$
 43	pada	pada	ADP	R--	_	44	case	_	MorphInd=^pada<r>_R--$
-44	tahun	tahun	NOUN	NSD	Number=Sing	40	obl	_	MorphInd=^tahun<n>_NSD$
+44	tahun	tahun	NOUN	NSD	Number=Sing	40	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 45	1985	1985	NUM	CC-	NumType=Card	44	nummod	_	SpaceAfter=No|MorphInd=^1985<c>_CC-$
 46	.	.	PUNCT	Z--	_	15	punct	_	MorphInd=^.<z>_Z--$
 
@@ -9353,7 +9353,7 @@
 # text = Pada tahun 1995, pemain bass Hillery keluar untuk kemudian ditemukan tewas bunuh diri pada 5 Juni 1996.
 # text_en = In 1995, bass player Hillery left and was later found dead by suicide on June 5, 1996.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tahun	tahun	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^tahun<n>_NSD$
+2	tahun	tahun	NOUN	NSD	Number=Sing	8	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 3	1995	1995	NUM	CC-	NumType=Card	2	nummod	_	SpaceAfter=No|MorphInd=^1995<c>_CC-$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	pemain	penmain	NOUN	NSD	Number=Sing	8	nsubj:pass	_	MorphInd=^peN+main<v>_NSD$
@@ -9428,7 +9428,7 @@
 # text = Pada tahun 1918 ia mendapatkan ijazah terbangnya.
 # text_en = In 1918 he got his flying diploma.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tahun	tahun	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^tahun<n>_NSD$
+2	tahun	tahun	NOUN	NSD	Number=Sing	5	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 3	1918	1918	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^1918<c>_CC-$
 4	ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	MorphInd=^ia<p>_PS3$
 5	mendapatkan	dapat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+dapat<v>+kan_VSA$
@@ -9628,7 +9628,7 @@
 # text = Pada tahun 2008, akibat meningkatnya harga minyak, industri seperti otomotif mengalami tekanan harga dari ongkos bahan mentah dan mengubah perilaku membeli konsumen.
 # text_en = In 2008, due to rising oil prices, industries such as automotive experienced price pressures from the cost of raw materials and changed consumer buying behavior.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tahun	tahun	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^tahun<n>_NSD$
+2	tahun	tahun	NOUN	NSD	Number=Sing	14	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 3	2008	2008	NUM	CC-	NumType=Card	2	nummod	_	SpaceAfter=No|MorphInd=^2008<c>_CC-$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	akibat	akibat	SCONJ	NSD	_	6	mark	_	MorphInd=^akibat<n>_NSD$
@@ -9729,7 +9729,7 @@
 # text = Pada tahun 2007 daerah ini memiliki penduduk sebesar 18.886 jiwa.
 # text_en = In 2007 this area had a population of 18,886 inhabitants.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tahun	tahun	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^tahun<n>_NSD$
+2	tahun	tahun	NOUN	NSD	Number=Sing	6	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 3	2007	2007	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^2007<c>_CC-$
 4	daerah	daerah	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^daerah<n>_NSD$
 5	ini	ini	DET	B--	PronType=Dem	4	det	_	MorphInd=^ini<b>_B--$
@@ -10866,7 +10866,7 @@
 # text = Pada tanggal 8 Oktober 1990, 22 orang Palestina tewas terbunuh dan lebih dari 100 orang lainnya terluka oleh Polisi Perbatasan Israel pada peristiwa Kerusuhan Bukit Bait Suci 1990, yaitu sebuah kerusuhan yang dipicu oleh pengumuman dari anggota Setia Bait Suci bahwa mereka akan segera meletakkan batu pertama pembangunan Bait Suci Ketiga Yahudi di Bukit Bait Suci, atau yang juga dikenal oleh umat Islam dengan nama Al - Haram Asy - Syarif.
 # text_en = On October 8, 1990, 22 Palestinians were killed and more than 100 others injured by the Israeli Border Police during the 1990 Temple Mount Riots, a riot sparked by the announcement by Faithful Temple members that they would soon lay the foundation stone for construction. The Third Jewish Temple on the Temple Mount, or also known by Muslims as Al - Haram Ash - Sharif.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tanggal	tanggal	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^tanggal<n>_NSD$
+2	tanggal	tanggal	NOUN	NSD	Number=Sing	11	obl:tmod	_	MorphInd=^tanggal<n>_NSD$
 3	8	8	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^8<c>_CC-$
 4	Oktober	oktober	PROPN	NSD	_	2	nmod	_	MorphInd=^oktober<n>_NSD$
 5	1990	1990	NUM	CC-	NumType=Card	4	nummod	_	SpaceAfter=No|MorphInd=^1990<c>_CC-$
@@ -11114,14 +11114,14 @@
 4	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	MorphInd=^yang<s>_S--$
 5	naik	naik	VERB	VSA	Voice=Act	3	acl:relcl	_	MorphInd=^naik<v>_VSA$
 6	pada	pada	ADP	R--	_	7	case	_	MorphInd=^pada<r>_R--$
-7	tahun	tahun	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^tahun<n>_NSD$
+7	tahun	tahun	NOUN	NSD	Number=Sing	5	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 8	2004	2004	NUM	CC-	NumType=Card	7	nummod	_	MorphInd=^2004<c>_CC-$
 9	menjadi	jadi	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+jadi<a>_VSA$
 10	134.163	134.163	NUM	CC-	NumType=Card	11	nummod	_	MorphInd=^134.163<c>_CC-$
 11	penumpang	pentumpang	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^peN+tumpang<v>_NSD$
 12	naik	naik	VERB	VSA	Voice=Act	9	advcl	_	MorphInd=^naik<v>_VSA$
 13	pada	pada	ADP	R--	_	14	case	_	MorphInd=^pada<r>_R--$
-14	tahun	tahun	NOUN	NSD	Number=Sing	12	obl	_	MorphInd=^tahun<n>_NSD$
+14	tahun	tahun	NOUN	NSD	Number=Sing	12	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 15	2005	2005	NUM	CC-	NumType=Card	14	nummod	_	SpaceAfter=No|MorphInd=^2005<c>_CC-$
 16	.	.	PUNCT	Z--	_	9	punct	_	MorphInd=^.<z>_Z--$
 
@@ -11645,7 +11645,7 @@
 36	Liu	liu	PROPN	F--	_	35	nmod	_	SpaceAfter=No|MorphInd=^liu<f>_F--$
 37	.	.	PUNCT	Z--	_	17	punct	_	MorphInd=^.<z>_Z--$
 38	Pada	pada	ADP	R--	_	39	case	_	MorphInd=^pada<r>_R--$
-39	musim	musim	NOUN	NSD	Number=Sing	44	obl	_	MorphInd=^musim<n>_NSD$
+39	musim	musim	NOUN	NSD	Number=Sing	44	obl:tmod	_	MorphInd=^musim<n>_NSD$
 40	panas	panas	ADJ	ASP	_	39	amod	_	MorphInd=^panas<a>_ASP$
 41	622	622	NUM	CC-	NumType=Card	39	nummod	_	SpaceAfter=No|MorphInd=^622<c>_CC-$
 42	,	,	PUNCT	Z--	_	39	punct	_	MorphInd=^,<z>_Z--$
@@ -11725,7 +11725,7 @@
 10	menjadi	jadi	VERB	VSA	Voice=Act	9	xcomp	_	MorphInd=^meN+jadi<a>_VSA$
 11	beton	beton	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^beton<n>_NSD$
 12	pada	pada	ADP	R--	_	13	case	_	MorphInd=^pada<r>_R--$
-13	tahun	tahun	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^tahun<n>_NSD$
+13	tahun	tahun	NOUN	NSD	Number=Sing	9	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 14	1957	1957	NUM	CC-	NumType=Card	13	nummod	_	MorphInd=^1957<c>_CC-$
 15	dan	dan	CCONJ	H--	_	18	cc	_	MorphInd=^dan<h>_H--$
 16	landas	landas	NOUN	NSD	Number=Sing	18	nsubj:pass	_	MorphInd=^landas<n>_NSD$
@@ -11746,7 +11746,7 @@
 31	kaki	kaki	NOUN	NSD	Number=Sing	28	appos	_	SpaceAfter=No|MorphInd=^kaki<n>_NSD$
 32	)	)	PUNCT	Z--	_	31	punct	_	MorphInd=^)<z>_Z--$
 33	pada	pada	ADP	R--	_	34	case	_	MorphInd=^pada<r>_R--$
-34	tahun	tahun	NOUN	NSD	Number=Sing	18	obl	_	MorphInd=^tahun<n>_NSD$
+34	tahun	tahun	NOUN	NSD	Number=Sing	18	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 35	1967	1967	NUM	CC-	NumType=Card	34	nummod	_	SpaceAfter=No|MorphInd=^1967<c>_CC-$
 36	.	.	PUNCT	Z--	_	9	punct	_	MorphInd=^.<z>_Z--$
 
@@ -12117,7 +12117,7 @@
 6	Ohio	ohio	PROPN	F--	_	4	nmod	_	SpaceAfter=No|MorphInd=^ohio<f>_F--$
 7	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
 8	Pada	pada	ADP	R--	_	9	case	_	MorphInd=^pada<r>_R--$
-9	tahun	tahun	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^tahun<n>_NSD$
+9	tahun	tahun	NOUN	NSD	Number=Sing	14	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 10	2000	2000	NUM	CC-	NumType=Card	9	nummod	_	SpaceAfter=No|MorphInd=^2000<c>_CC-$
 11	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
 12	kota	kota	NOUN	NSD	Number=Sing	14	nsubj	_	MorphInd=^kota<n>_NSD$
@@ -12196,7 +12196,7 @@
 # text = Pada bulan Poush, dilakukan panen dan para petani memperoleh banyak makanan dan penghasilan.
 # text_en = In the month of Poush, the harvest is carried out and the farmers get a lot of food and income.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	bulan	bulan	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^bulan<n>_NSD$
+2	bulan	bulan	NOUN	NSD	Number=Sing	5	obl:tmod	_	MorphInd=^bulan<n>_NSD$
 3	Poush	poush	PROPN	X--	_	2	nmod	_	SpaceAfter=No|MorphInd=^poush<x>_X--$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	dilakukan	laku	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+laku<a>+kan_VSP$
@@ -12625,7 +12625,7 @@
 # text = Pada bulan April tahun itu, Ugolino sekali lagi menolak berdamai dengan Genoa, meskipun musuhnya ingin memuaskan dirinya sendiri dengan reparasi keuangan.
 # text_en = In April of that year, Ugolino again refused to make peace with Genoa, even though his adversary wanted to satisfy himself with financial reparations.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	bulan	bulan	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^bulan<n>_NSD$
+2	bulan	bulan	NOUN	NSD	Number=Sing	10	obl:tmod	_	MorphInd=^bulan<n>_NSD$
 3	April	april	PROPN	NSD	_	2	nmod	_	MorphInd=^april<n>_NSD$
 4	tahun	tahun	NOUN	NSD	Number=Sing	2	nmod	_	MorphInd=^tahun<n>_NSD$
 5	itu	itu	DET	B--	PronType=Dem	4	det	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
@@ -12822,7 +12822,7 @@
 # text = Pada bulan Mei 2011 lalu, ia memutuskan membeli 51% saham Mandala Airlines.
 # text_en = In May 2011, he decided to buy 51% stake in Mandala Airlines.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	bulan	bulan	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^bulan<n>_NSD$
+2	bulan	bulan	NOUN	NSD	Number=Sing	8	obl:tmod	_	MorphInd=^bulan<n>_NSD$
 3	Mei	mei	PROPN	NSD	_	2	nmod	_	MorphInd=^mei<n>_NSD$
 4	2011	2011	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^2011<c>_CC-$
 5	lalu	lalu	ADV	ASP	_	2	advmod	_	SpaceAfter=No|MorphInd=^lalu<a>_ASP$
@@ -13115,7 +13115,7 @@
 # text = Pada tahun 1271, setelah sebulan pertempuran, akhirnya istana tersebut jatuh ke tangan Baibar.
 # text_en = In 1271, after a month of fighting, the palace finally fell to Baibar.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
-2	tahun	tahun	NOUN	NSD	Number=Sing	12	obl	_	MorphInd=^tahun<n>_NSD$
+2	tahun	tahun	NOUN	NSD	Number=Sing	12	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 3	1271	1271	NUM	CC-	NumType=Card	2	nummod	_	SpaceAfter=No|MorphInd=^1271<c>_CC-$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	setelah	setelah	ADP	R--	_	7	case	_	MorphInd=^setelah<r>_R--$
@@ -13695,7 +13695,7 @@
 14	Loan	loan	PROPN	F--	_	8	flat:name	_	MorphInd=^loan<f>_F--$
 15	356	356	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^356<c>_CC-$
 16	pada	pada	ADP	R--	_	17	case	_	MorphInd=^pada<r>_R--$
-17	tahun	tahun	NOUN	NSD	Number=Sing	1	obl	_	MorphInd=^tahun<n>_NSD$
+17	tahun	tahun	NOUN	NSD	Number=Sing	1	obl:tmod	_	MorphInd=^tahun<n>_NSD$
 18	1987	1987	NUM	CC-	NumType=Card	17	nummod	_	MorphInd=^1987<c>_CC-$
 19	untuk	untuk	ADP	R--	_	21	case	_	MorphInd=^untuk<r>_R--$
 20	5	5	NUM	CC-	NumType=Card	21	nummod	_	MorphInd=^5<c>_CC-$
@@ -14137,7 +14137,7 @@
 13	V	v	NUM	F--	NumType=Card	12	nummod	_	SpaceAfter=No|MorphInd=^v<f>_F--$
 14	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 15	Pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
-16	April	april	PROPN	NSD	_	25	obl	_	MorphInd=^april<n>_NSD$
+16	April	april	PROPN	NSD	_	25	obl:tmod	_	MorphInd=^april<n>_NSD$
 17	1917	1917	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^1917<c>_CC-$
 18	Royal	royal	PROPN	F--	_	25	nsubj	_	MorphInd=^royal<f>_F--$
 19	Naval	naval	PROPN	F--	_	18	flat:name	_	MorphInd=^naval<f>_F--$
