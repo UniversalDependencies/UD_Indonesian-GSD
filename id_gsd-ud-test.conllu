@@ -1538,8 +1538,8 @@
 24	pada	pada	ADP	R--	_	25	case	_	MorphInd=^pada<r>_R--$
 25	saat	saat	NOUN	S--	Number=Sing	17	obl	_	MorphInd=^saat<s>_S--$
 26-27	terjadinya	_	_	_	_	_	_	_	MorphInd=^terjadi<v>_VSP+dia<p>_PS3$
-26	terjadi	terjadi	VERB	VSP	Voice=Pass	17	obj	_	MorphInd=^terjadi<v>_VSP$
-27	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	26	nmod:poss	_	MorphInd=^dia<p>_PS3$
+26	terjadi	terjadi	VERB	VSP	Voice=Pass	25	acl	_	MorphInd=^terjadi<v>_VSP$
+27	nya	dia	DET	PS3	Definite=Def|PronType=Art	26	det	_	MorphInd=^dia<p>_PS3$
 28	kemunduran	kemunduran	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^ke+mundur<v>+an_NSD$
 29	atau	atau	CCONJ	H--	_	30	cc	_	MorphInd=^atau<h>_H--$
 30	kemajuan	kemajuan	NOUN	NSD	Number=Sing	28	conj	_	MorphInd=^ke+maju<v>+an_NSD$
@@ -3780,10 +3780,10 @@
 # text = Persaingan antara keduanya berakhir dengan munculnya era USB. Zip drive tersedia dalam beberapa antarmuka (interface) termasuk Paralel port Zip drive eksternal sebenarnya adalah drive SCSI yang terpadu dengan paralel - ke - SCSI controller, artinya pelaksanaan SCSI bus secara benar tetapi tanpa penyangga sirkuit listrik yang diperlukan untuk menghubungkan perangkat eksternal lainnya.
 # text_en = The rivalry between the two ended with the advent of the USB era. Zip drives are available in several interfaces including Parallel port External Zip drives are actually SCSI drives integrated with a parallel-to-SCSI controller, meaning the proper execution of the SCSI bus but without the electrical circuit buffering required to connect other external devices.
 1	Persaingan	persaingan	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^per+saing<v>+an_NSD$
-2	antara	antara	ADP	R--	_	3	case	_	MorphInd=^antara<r>_R--$
+2	antara	antara	ADP	R--	_	4	case	_	MorphInd=^antara<r>_R--$
 3-4	keduanya	_	_	_	_	_	_	_	MorphInd=^ke+dua<c>_CO-+dia<p>_PS3$
-3	kedua	kedua	ADJ	CO-	NumType=Ord	1	amod	_	MorphInd=^ke+dua<c>_CO-$
-4	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	MorphInd=^dia<p>_PS3$
+3	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	4	nummod	_	MorphInd=^ke+dua<c>_CO-$
+4	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	1	nmod	_	MorphInd=^dia<p>_PS3$
 5	berakhir	akhir	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+akhir<n>_VSA$
 6	dengan	dengan	ADP	R--	_	7	case	_	MorphInd=^dengan<r>_R--$
 7-8	munculnya	_	_	_	_	_	_	_	MorphInd=^muncul<v>_VSA+dia<p>_PS3$
@@ -8994,7 +8994,7 @@
 13	ini	ini	DET	B--	PronType=Dem	14	nsubj	_	MorphInd=^ini<b>_B--$
 14-15	diyakininya	_	_	_	_	_	_	_	MorphInd=^di+yakin<a>+i_VSP+dia<p>_PS3$|SpaceAfter=No
 14	diyakini	yakin	VERB	VSP	Voice=Pass	6	acl:relcl	_	MorphInd=^di+yakin<a>+i_VSP$
-15	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	MorphInd=^dia<p>_PS3$
+15	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	14	obl:agent	_	MorphInd=^dia<p>_PS3$
 16	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s365
@@ -11529,7 +11529,7 @@
 12	saudara	saudara	NOUN	NSD	Number=Sing	1	conj	_	MorphInd=^saudara<n>_NSD$
 13-14	termudanya	_	_	_	_	_	_	_	MorphInd=^ter+muda<a>_ASS+dia<p>_PS3$|SpaceAfter=No
 13	termuda	termuda	ADJ	ASS	Degree=Sup	12	amod	_	MorphInd=^ter+muda<a>_ASS$
-14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	MorphInd=^dia<p>_PS3$
+14	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	MorphInd=^dia<p>_PS3$
 15	,	,	PUNCT	Z--	_	16	punct	_	MorphInd=^,<z>_Z--$
 16	Richard	richard	PROPN	F--	_	12	appos	_	SpaceAfter=No|MorphInd=^richard<f>_F--$
 17	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
