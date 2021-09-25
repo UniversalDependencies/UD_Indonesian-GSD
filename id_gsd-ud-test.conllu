@@ -408,7 +408,7 @@
 52	Kerajaan	kerajaan	PROPN	NSD	_	54	nsubj	_	MorphInd=^ke+raja<n>+an_NSD$
 53	sudah	sudah	AUX	D--	_	54	aux	_	MorphInd=^sudah<d>_D--$
 54	hancur	hancur	VERB	ASP	_	62	advcl	_	MorphInd=^hancur<a>_ASP$
-55	para	para	DET	B--	Number=Plur	56	det	_	MorphInd=^para<b>_B--$
+55	Para	para	DET	B--	Number=Plur	56	det	_	MorphInd=^para<b>_B--$
 56	kerabat	kerabat	NOUN	NSD	Number=Sing	62	nsubj	_	MorphInd=^kerabat<n>_NSD$
 57	Kerajaan	kerajaan	PROPN	NSD	_	56	nmod	_	MorphInd=^ke+raja<n>+an_NSD$
 58	secara	secara	ADP	R--	_	59	case:adv	_	MorphInd=^secara<r>_R--$
