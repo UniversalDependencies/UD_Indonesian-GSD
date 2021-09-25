@@ -2795,8 +2795,8 @@
 # sent_id = test-s108
 # text = Namun demikian, pada akhir-akhir ini budaya gotong royong hampir terkikis dengan masuknya budaya-budaya dari luar desa Padaherang dan kemajuan teknologi.
 # text_en = However, in recent times the culture of gotong royong has almost been eroded by the influx of cultures from outside the village of Padaherang and technological advances.
-1	Namun	namun	ADV	S--	_	2	advmod	_	MorphInd=^namun<s>_S--$
-2	demikian	demikian	PRON	S--	_	11	obl	_	SpaceAfter=No|MorphInd=^demikian<s>_S--$
+1	Namun	namun	ADV	S--	_	11	advmod	_	MorphInd=^namun<s>_S--$
+2	demikian	demikian	PRON	S--	PronType=Dem	1	fixed	_	SpaceAfter=No|MorphInd=^demikian<s>_S--$
 3	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
 5	akhir-akhir	akhir	NOUN	NSD	Number=Plur	11	obl	_	MorphInd=^akhir<n>_NSD$
@@ -2906,18 +2906,18 @@
 # text_en = This nature of learning makes many educators change their perspectives, practices, and assessments of students' views in specific directions that affect students drastically.
 1	Hakekat	hakekat	PROPN	NSD	_	4	nsubj	_	MorphInd=^hakekat<n>_NSD$
 2	belajar	belajar	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^belajar<n>_NSD$
-3	demikian	demikian	ADV	S--	_	4	advmod	_	MorphInd=^demikian<s>_S--$
+3	demikian	demikian	PRON	S--	PronType=Dem	2	nmod	_	MorphInd=^demikian<s>_S--$
 4	membuat	buat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+buat<v>_VSA$
 5	banyak	banyak	DET	B--	PronType=Ind	6	det	_	MorphInd=^banyak<b>_B--$
-6	pendidik	pendidik	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^peN+didik<v>_NSD$
-7	mengubah	ubah	VERB	VSA	Voice=Act	6	advcl	_	MorphInd=^meN+ubah<v>_VSA$
+6	pendidik	pendidik	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^peN+didik<v>_NSD$
+7	mengubah	ubah	VERB	VSA	Voice=Act	4	advcl	_	MorphInd=^meN+ubah<v>_VSA$
 8	perspektif	perspektif	NOUN	NSD	Number=Sing	7	obj	_	SpaceAfter=No|MorphInd=^perspektif<n>_NSD$
 9	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
 10	praktik	praktik	NOUN	NSD	Number=Sing	8	conj	_	SpaceAfter=No|MorphInd=^praktik<n>_NSD$
 11	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
 12	dan	dan	CCONJ	H--	_	13	cc	_	MorphInd=^dan<h>_H--$
 13	penilaian	pennilaian	NOUN	NSD	Number=Sing	8	conj	_	MorphInd=^peN+nilai<n>+an_NSD$
-14	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	13	det	_	MorphInd=^mereka<p>_PP3$
+14	mereka	mereka	PRON	PP3	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	MorphInd=^mereka<p>_PP3$
 15	terhadap	terhadap	ADP	R--	_	16	case	_	MorphInd=^terhadap<r>_R--$
 16	tampilan	tampilan	NOUN	NSD	Number=Sing	8	nmod	_	MorphInd=^tampil<v>+an_NSD$
 17	siswa	siswa	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^siswa<n>_NSD$
@@ -11109,7 +11109,7 @@
 # text = Demikian pula penumpang yang naik pada tahun 2004 menjadi 134.163 penumpang naik pada tahun 2005.
 # text_en = Similarly, passengers who rose in 2004 to 134,163 passengers rose in 2005.
 1	Demikian	demikian	ADV	S--	_	3	advmod	_	MorphInd=^demikian<s>_S--$
-2	pula	pula	ADV	D--	_	1	advmod	_	MorphInd=^pula<d>_D--$
+2	pula	pula	ADV	D--	_	1	fixed	_	MorphInd=^pula<d>_D--$
 3	penumpang	pentumpang	NOUN	NSD	Number=Sing	9	nsubj	_	MorphInd=^peN+tumpang<v>_NSD$
 4	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	MorphInd=^yang<s>_S--$
 5	naik	naik	VERB	VSA	Voice=Act	3	acl:relcl	_	MorphInd=^naik<v>_VSA$

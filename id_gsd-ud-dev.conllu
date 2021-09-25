@@ -4872,8 +4872,8 @@
 # sent_id = dev-s175
 # text = Dengan demikian, atom memiliki kuantitas belaka, termasuk juga massa.
 # text_en = Thus, atoms have mere quantities, including mass.
-1	Dengan	dengan	ADP	R--	_	2	case	_	MorphInd=^dengan<r>_R--$
-2	demikian	demikian	ADV	S--	_	5	xcomp	_	SpaceAfter=No|MorphInd=^demikian<s>_S--$
+1	Dengan	dengan	ADV	R--	_	5	advmod	_	MorphInd=^dengan<r>_R--$
+2	demikian	demikian	PRON	S--	PronType=Dem	1	fixed	_	SpaceAfter=No|MorphInd=^demikian<s>_S--$
 3	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 4	atom	atom	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^atom<n>_NSD$
 5	memiliki	milik	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+milik<v>+i_VSA$
