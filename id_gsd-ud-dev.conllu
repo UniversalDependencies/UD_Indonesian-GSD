@@ -7440,26 +7440,26 @@
 13	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s268
-# text = Mereka semuanya itu Allah Maha Kuasa tukarkan, tidak seperti mereka hidup ketika didunia."
+# text = Mereka semuanya itu, Allah Maha Kuasa tukarkan, tidak seperti mereka hidup ketika didunia.
 # text_en = All of them are Allah, the Almighty, in exchange, unlike them when they lived on earth."
-1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	0	root	_	MorphInd=^mereka<p>_PP3$
+1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	MorphInd=^mereka<p>_PP3$
 2-3	semuanya	_	_	_	_	_	_	_	MorphInd=^semua<b>_B--+dia<p>_PS3$
-2	semua	semua	DET	B--	PronType=Tot	1	acl	_	MorphInd=^semua<b>_B--$
+2	semua	semua	PRON	B--	PronType=Tot	1	nmod	_	MorphInd=^semua<b>_B--$
 3	nya	nya	DET	PS3	Definite=Def|PronType=Art	2	det	_	MorphInd=^dia<p>_PS3$
-4	itu	itu	DET	B--	PronType=Dem	2	det	_	MorphInd=^itu<b>_B--$
-5	Allah	allah	PROPN	NSD	_	8	nsubj	_	MorphInd=^allah<n>_NSD$
-6	Maha	maha	PROPN	D--	_	5	amod	_	MorphInd=^maha<d>_D--$
-7	Kuasa	kuasa	PROPN	NSD	_	6	amod	_	MorphInd=^kuasa<n>_NSD$
-8	tukarkan	tukar	VERB	VSA	Voice=Act	2	ccomp	_	SpaceAfter=No|MorphInd=^tukar<v>+kan_VSA$
-9	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
-10	tidak	tidak	PART	G--	Polarity=Neg	13	advmod	_	MorphInd=^tidak<g>_G--$
-11	seperti	seperti	SCONJ	R--	_	13	mark	_	MorphInd=^seperti<r>_R--$
-12	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	13	nsubj	_	MorphInd=^mereka<p>_PP3$
-13	hidup	hidup	VERB	NSD	_	1	xcomp	_	MorphInd=^hidup<n>_NSD$
-14	ketika	ketika	ADV	S--	_	13	advmod	_	MorphInd=^ketika<s>_S--$
-15	didunia	didunia	NOUN	VSP	_	14	nmod	_	SpaceAfter=No|MorphInd=^di+dunia<n>_VSP$
-16	.	.	PUNCT	Z--	_	1	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
-17	"	"	PUNCT	Z--	_	1	punct	_	MorphInd=^"<z>_Z--$
+4	itu	itu	DET	B--	PronType=Dem	2	det	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
+5	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
+6	Allah	allah	PROPN	NSD	_	9	nsubj	_	MorphInd=^allah<n>_NSD$
+7	Maha	maha	PROPN	D--	_	6	flat:name	_	MorphInd=^maha<d>_D--$
+8	Kuasa	kuasa	PROPN	NSD	_	6	flat:name	_	MorphInd=^kuasa<n>_NSD$
+9	tukarkan	tukar	VERB	VSA	Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^tukar<v>+kan_VSA$
+10	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
+11	tidak	tidak	PART	G--	Polarity=Neg	14	advmod	_	MorphInd=^tidak<g>_G--$
+12	seperti	seperti	SCONJ	R--	_	14	mark	_	MorphInd=^seperti<r>_R--$
+13	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	14	nsubj	_	MorphInd=^mereka<p>_PP3$
+14	hidup	hidup	VERB	NSD	_	9	advcl	_	MorphInd=^hidup<n>_NSD$
+15	ketika	ketika	ADP	S--	_	16	case	_	MorphInd=^ketika<s>_S--$
+16	didunia	didunia	NOUN	VSP	Number=Sing|Typo=Yes	14	obl	_	SpaceAfter=No|MorphInd=^di+dunia<n>_VSP$
+17	.	.	PUNCT	Z--	_	9	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s269
 # text = Pada tahun 2005, Schwab mulai menjadi sutradara.
@@ -9010,7 +9010,7 @@
 24	waktu	waktu	NOUN	NSD	Number=Sing	20	conj	_	MorphInd=^waktu<n>_NSD$
 25	tidur	tidur	NOUN	VSA	_	24	compound	_	MorphInd=^tidur<v>_VSA$
 26	atau	atau	CCONJ	H--	_	28	cc	_	MorphInd=^atau<h>_H--$
-27	ketika	ketika	ADV	S--	_	28	mark	_	MorphInd=^ketika<s>_S--$
+27	ketika	ketika	SCONJ	S--	_	28	mark	_	MorphInd=^ketika<s>_S--$
 28	terjaga	jaga	VERB	VSP	Voice=Pass	20	conj	_	MorphInd=^ter+jaga<v>_VSP$
 29	dari	dari	ADP	R--	_	30	case	_	MorphInd=^dari<r>_R--$
 30	kematian	kematian	NOUN	NSD	Number=Sing	28	obl	_	MorphInd=^ke+mati<a>+an_NSD$
