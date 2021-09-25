@@ -6246,7 +6246,7 @@
 12	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	MorphInd=^dia<p>_PS3$
 13	mengatur	atur	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^meN+atur<v>_VSA$
 14	tentang	tentang	ADP	R--	_	15	case	_	MorphInd=^tentang<r>_R--$
-15	bagaimana	bagaimana	ADV	W--	PronType=Int	13	xcomp	_	MorphInd=^bagaimana<w>_W--$
+15	bagaimana	bagaimana	ADV	W--	PronType=Rel	13	xcomp	_	MorphInd=^bagaimana<w>_W--$
 16	seharusnya	seharusnya	AUX	D--	_	18	aux	_	MorphInd=^seharusnya<d>_D--$
 17	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	18	nsubj	_	MorphInd=^mereka<p>_PP3$
 18	melaksanakan	laksana	VERB	VSA	Voice=Act	15	advcl	_	MorphInd=^meN+laksana<v>+kan_VSA$
@@ -13078,7 +13078,7 @@
 17	mengetahui	ketahui	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+ketahui<v>_VSA$
 18	secara	secara	ADP	R--	_	19	case:adv	_	MorphInd=^secara<r>_R--$
 19	pasti	pasti	ADJ	ASP	_	17	advmod	_	MorphInd=^pasti<a>_ASP$
-20	bagaimana	bagaimana	ADV	W--	PronType=Int	25	case	_	MorphInd=^bagaimana<w>_W--$
+20	bagaimana	bagaimana	ADV	W--	PronType=Rel	25	case	_	MorphInd=^bagaimana<w>_W--$
 21	awan	awan	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^awan<n>_NSD$
 22	indah	indah	ADJ	ASP	_	21	amod	_	MorphInd=^indah<a>_ASP$
 23	ini	ini	DET	B--	PronType=Dem	21	det	_	MorphInd=^ini<b>_B--$

@@ -3106,7 +3106,7 @@
 11	nya	nya	DET	PS3	Definite=Def|PronType=Art	10	det	_	MorphInd=^dia<p>_PS3$
 12	teori	teori	NOUN	NSD	Number=Sing	13	nsubj	_	MorphInd=^teori<n>_NSD$
 13	merupakan	merupakan	VERB	O--	_	2	conj	_	MorphInd=^merupakan<o>_O--$
-14	bagaimana	bagaimana	ADV	W--	PronType=Int	15	case	_	MorphInd=^bagaimana<w>_W--$
+14	bagaimana	bagaimana	ADV	W--	PronType=Rel	15	case	_	MorphInd=^bagaimana<w>_W--$
 15	konsep-konsep	konsep	NOUN	NSD	Number=Plur	13	obl	_	MorphInd=^konsep<n>_NSD$
 16	berhubungan	hubung	VERB	VSA	Voice=Act	15	acl	_	SpaceAfter=No|MorphInd=^ber+hubung<v>+an_VSA$
 17	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
