@@ -6119,7 +6119,7 @@
 4	bertanya	tanya	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+tanya<v>_VSA$
 5-6	kepadanya	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+dia<p>_PS3$|SpaceAfter=No
 5	kepada	kepada	ADP	R--	_	6	case	_	MorphInd=^kepada<r>_R--$
-6	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	obl	_	MorphInd=^dia<p>_PS3$
+6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	obl	_	MorphInd=^dia<p>_PS3$
 7	:	:	PUNCT	Z--	_	11	punct	_	MorphInd=^:<z>_Z--$
 8	Anak	anak	NOUN	NSD	Number=Sing	11	acl	_	MorphInd=^anak<n>_NSD$
 9-10	siapakah	_	_	_	_	_	_	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
@@ -10553,7 +10553,7 @@
 3	mengatakan	kata	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+kata<n>+kan_VSA$
 4-5	kepadanya	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+dia<p>_PS3$
 4	kepada	kepada	ADP	R--	_	5	case	_	MorphInd=^kepada<r>_R--$
-5	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	obl	_	MorphInd=^dia<p>_PS3$
+5	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	obl	_	MorphInd=^dia<p>_PS3$
 6	bahwa	bahwa	SCONJ	S--	_	3	mark	_	MorphInd=^bahwa<s>_S--$
 7	Surga	surga	PROPN	NSD	_	8	nsubj	_	MorphInd=^surga<n>_NSD$
 8	menghukum	hukum	VERB	VSA	Voice=Act	3	ccomp	_	MorphInd=^meN+hukum<v>_VSA$
@@ -11523,7 +11523,7 @@
 7	setia	setia	ADJ	NSD	_	8	amod	_	MorphInd=^setia<n>_NSD$
 8-9	kepadanya	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+dia<p>_PS3$|SpaceAfter=No
 8	kepada	kepada	ADP	R--	_	9	case	_	MorphInd=^kepada<r>_R--$
-9	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	obl	_	MorphInd=^dia<p>_PS3$
+9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	obl	_	MorphInd=^dia<p>_PS3$
 10	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
 11	dan	dan	CCONJ	H--	_	12	cc	_	MorphInd=^dan<h>_H--$
 12	saudara	saudara	NOUN	NSD	Number=Sing	1	conj	_	MorphInd=^saudara<n>_NSD$
