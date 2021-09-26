@@ -1227,7 +1227,7 @@
 5	tercium	cium	VERB	VSP	Voice=Pass	1	acl:relcl	_	MorphInd=^ter+cium<v>_VSP$
 6-7	olehku	_	_	_	_	_	_	_	MorphInd=^oleh<r>_R--+aku<p>_PS1$|SpaceAfter=No
 6	oleh	oleh	ADP	R--	_	7	case	_	MorphInd=^oleh<r>_R--$
-7	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	5	obl	_	MorphInd=^aku<p>_PS1$
+7	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	5	obl	_	MorphInd=^aku<p>_PS1$
 8	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s47
@@ -2393,7 +2393,7 @@
 12	ada	ada	VERB	ASP	_	10	acl:relcl	_	MorphInd=^ada<a>_ASP$
 13-14	padamu	_	_	_	_	_	_	_	MorphInd=^pada<r>_R--+kamu<p>_PS2$|SpaceAfter=No
 13	pada	pada	ADP	R--	_	14	case	_	MorphInd=^pada<r>_R--$
-14	mu	kamu	PRON	PS2	Number=Sing|Person=2|PronType=Prs	12	obl	_	MorphInd=^kamu<p>_PS2$
+14	mu	kamu	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	obl	_	MorphInd=^kamu<p>_PS2$
 15	?	?	PUNCT	Z--	_	9	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s80
@@ -14403,7 +14403,7 @@
 16	pada	pada	SCONJ	R--	_	17	mark	_	MorphInd=^pada<r>_R--$
 17-18	meletusnya	_	_	_	_	_	_	_	MorphInd=^meN+letus<v>_VSA+dia<p>_PS3$
 17	meletus	letus	VERB	VSA	Voice=Act	15	xcomp	_	MorphInd=^meN+letus<v>_VSA$
-18	nya	dia	DET	_	Definite=Def	17	det	_	MorphInd=^dia<p>_PS3$
+18	nya	dia	DET	_	Definite=Def|PronType=Art	17	det	_	MorphInd=^dia<p>_PS3$
 19	perang	perang	NOUN	NSD	Number=Sing	17	nsubj	_	MorphInd=^perang<n>_NSD$
 20	kemerdekaan	kemerdekaan	NOUN	NSD	Number=Sing	19	compound	_	MorphInd=^ke+merdeka<a>+an_NSD$
 21	tahun	tahun	NOUN	NSD	Number=Sing	19	nmod	_	MorphInd=^tahun<n>_NSD$
@@ -14799,7 +14799,7 @@
 6	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	5	nmod:poss	_	MorphInd=^aku<p>_PS1$
 7	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^(<z>_Z--$
 8	mau	mau	AUX	D--	_	10	aux	_	MorphInd=^mau<d>_D--$
-9	kalian	kalian	PRON	PP2	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	MorphInd=^kalian<p>_PP2$
+9	kalian	kalian	PRON	PP2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	10	nsubj	_	MorphInd=^kalian<p>_PP2$
 10	lihat	lihat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^lihat<v>_VSA$
 11	saya	saya	PRON	PS1	Number=Sing|Person=1|Polite=Form|PronType=Prs	10	obj	_	SpaceAfter=No|MorphInd=^saya<p>_PS1$
 12	?	?	PUNCT	Z--	_	10	punct	_	MorphInd=^?<z>_Z--$
