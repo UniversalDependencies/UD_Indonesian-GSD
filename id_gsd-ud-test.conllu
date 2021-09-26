@@ -960,7 +960,7 @@
 5	hari	hari	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^hari<n>_NSD$
 6-7	anak-anakmu	_	_	_	_	_	_	_	MorphInd=^anak<n>_NPD+kamu<p>_PS2$
 6	anak-anak	anak	NOUN	NPD	Number=Plur	8	nsubj	_	MorphInd=^anak<n>_NPD$
-7	mu	kamu	PRON	PS2	Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+7	mu	kamu	PRON	PS2	Number=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	6	nmod:poss	_	MorphInd=^kamu<p>_PS2$
 8	bertanya	tanya	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+tanya<v>_VSA$
 9	kepada	kepada	ADP	R--	_	10	case	_	MorphInd=^kepada<r>_R--$
 10-11	ayahnya	_	_	_	_	_	_	_	MorphInd=^ayah<n>_NSD+dia<p>_PS3$|SpaceAfter=No
@@ -3783,7 +3783,7 @@
 2	antara	antara	ADP	R--	_	4	case	_	MorphInd=^antara<r>_R--$
 3-4	keduanya	_	_	_	_	_	_	_	MorphInd=^ke+dua<c>_CO-+dia<p>_PS3$
 3	kedua	kedua	NUM	CO-	NumType=Card|PronType=Tot	4	nummod	_	MorphInd=^ke+dua<c>_CO-$
-4	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	1	nmod	_	MorphInd=^dia<p>_PS3$
+4	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod	_	MorphInd=^dia<p>_PS3$
 5	berakhir	akhir	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+akhir<n>_VSA$
 6	dengan	dengan	ADP	R--	_	7	case	_	MorphInd=^dengan<r>_R--$
 7-8	munculnya	_	_	_	_	_	_	_	MorphInd=^muncul<v>_VSA+dia<p>_PS3$
@@ -4871,7 +4871,7 @@
 10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
 11-12	panahmu	_	_	_	_	_	_	_	MorphInd=^panah<n>_NSD+kamu<p>_PS2$
 11	panah	panah	NOUN	NSD	Number=Sing	9	conj	_	MorphInd=^panah<n>_NSD$
-12	mu	kamu	PRON	PS2	Number=Sing|Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+12	mu	kamu	PRON	PS2	Number=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	11	nmod:poss	_	MorphInd=^kamu<p>_PS2$
 13	itu	itu	DET	B--	PronType=Dem	11	det	_	MorphInd=^itu<b>_B--$
 14	harus	harus	AUX	VSA	_	16	aux	_	MorphInd=^harus<v>_VSA$
 15	engkau	engkau	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	16	nsubj	_	MorphInd=^engkau<p>_PS2$
@@ -5719,7 +5719,7 @@
 10	dalam	dalam	ADP	R--	_	11	case	_	MorphInd=^dalam<r>_R--$
 11-12	hari-harimu	_	_	_	_	_	_	_	MorphInd=^hari<n>_NPD+kamu<p>_PS2$|SpaceAfter=No
 11	hari-hari	hari-hari	NOUN	NPD	Number=Plur	7	obl	_	MorphInd=^hari<n>_NPD$
-12	mu	kamu	PRON	PS2	Number=Sing|Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+12	mu	kamu	PRON	PS2	Number=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	11	nmod:poss	_	MorphInd=^kamu<p>_PS2$
 13	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 14	Viola	viola	PROPN	X--	_	11	appos	_	SpaceAfter=No|MorphInd=^viola<x>_X--$
 15	?	?	PUNCT	Z--	_	3	punct	_	MorphInd=^?<z>_Z--$
@@ -9319,7 +9319,7 @@
 11	'	'	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	Apa	apa	PRON	W--	PronType=Int	6	parataxis	_	MorphInd=^apa<w>_W--$
 13	pendapat	pendapat	NOUN	NSD	Number=Sing	12	acl	_	MorphInd=^peN+dapat<v>_NSD$
-14	kalian	kalian	PRON	PP2	Number=Sing|Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	MorphInd=^kalian<p>_PP2$
+14	kalian	kalian	PRON	PP2	Number=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	13	nmod:poss	_	MorphInd=^kalian<p>_PP2$
 15	tentang	tentang	ADP	VSA	_	16	case	_	MorphInd=^tentang<v>_VSA$
 16	apa	apa	PRON	W--	PronType=Int	12	nmod	_	MorphInd=^apa<w>_W--$
 17	yang	yang	PRON	S--	PronType=Rel	20	nsubj	_	MorphInd=^yang<s>_S--$
@@ -13440,7 +13440,7 @@
 4	nama	nama	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^nama<n>_NSD$
 5-6	wuku	_	_	_	_	_	_	_	MorphInd=^wu<f>_F--+aku<p>_PS1$
 5	wu	wu	NOUN	F--	_	4	compound	_	MorphInd=^wu<f>_F--$
-6	ku	aku	PRON	PS1	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	MorphInd=^aku<p>_PS1$
+6	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	5	nmod:poss	_	MorphInd=^aku<p>_PS1$
 7	Kuningan	kuningan	PROPN	NSD	_	5	nmod	_	MorphInd=^kuning<a>+an_NSD$
 8	mengilhami	ilham	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+ilham<n>+i_VSA$
 9	atau	atau	CCONJ	H--	_	10	cc	_	MorphInd=^atau<h>_H--$
@@ -14189,7 +14189,7 @@
 6	Allah	allah	PROPN	NSD	_	3	appos	_	MorphInd=^allah<n>_NSD$
 7-8	Tuhanku	_	_	_	_	_	_	_	MorphInd=^tuhan<n>_NSD+aku<p>_PS1$|SpaceAfter=No
 7	Tuhan	tuhan	PROPN	NSD	_	6	flat:name	_	MorphInd=^tuhan<n>_NSD$
-8	ku	aku	PRON	PS1	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	MorphInd=^aku<p>_PS1$
+8	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	7	nmod:poss	_	MorphInd=^aku<p>_PS1$
 9	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
 10	aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	11	nsubj	_	MorphInd=^aku<p>_PS1$
 11	mempunyai	punya	VERB	VSA	Voice=Act	6	parataxis	_	MorphInd=^meN+punya<v>+i_VSA$

@@ -1296,7 +1296,7 @@
 26	toko-toko	toko	NOUN	NSD	Number=Plur	24	obl	_	MorphInd=^toko<n>_NSD$
 27	buku	buku	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^buku<n>_NSD$
 28	terdekat	terdekat	ADJ	ASS	Degree=Sup	27	amod	_	MorphInd=^ter+dekat<a>_ASS$
-29	anda	anda	PRON	PS2	Number=Sing|Person=2|Poss=Yes|PronType=Prs	26	nmod:poss	_	SpaceAfter=No|MorphInd=^anda<p>_PS2$
+29	anda	anda	PRON	PS2	Number=Sing|Person=2|Polite=Form|Poss=Yes|PronType=Prs	26	nmod:poss	_	SpaceAfter=No|MorphInd=^anda<p>_PS2$
 30	,	,	PUNCT	Z--	_	33	punct	_	MorphInd=^,<z>_Z--$
 31	seperti	seperti	ADP	R--	_	33	case	_	MorphInd=^seperti<r>_R--$
 32	di	di	ADP	R--	_	33	case	_	MorphInd=^di<r>_R--$
@@ -1477,7 +1477,7 @@
 # text_en = Under his leadership, SMA Negeri 3 Madiun continues to grow.
 1	Dibawah	dibawah	ADP	VSP	Typo=Yes	2	case	_	MorphInd=^di+bawah<n>_VSP$
 2	Pimpinan	pimpinan	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^pimpin<v>+an_NSD$
-3	beliau	beliau	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	MorphInd=^beliau<p>_PS3$
+3	beliau	beliau	PRON	PS3	Number=Sing|Person=3|Polite=Form|Poss=Yes|PronType=Prs	2	nmod:poss	_	MorphInd=^beliau<p>_PS3$
 4	pun	pun	PART	T--	_	2	advmod:emph	_	MorphInd=^pun<t>_T--$
 5	SMA	sma	PROPN	NSD	_	10	nsubj	_	MorphInd=^sma<n>_NSD$
 6	Negeri	negeri	PROPN	NSD	_	5	flat:name	_	MorphInd=^negeri<n>_NSD$
@@ -4477,7 +4477,7 @@
 23	``	``	PUNCT	Z--	_	24	punct	_	SpaceAfter=No|MorphInd=^``<z>_Z--$
 24-25	Namaku	_	_	_	_	_	_	_	MorphInd=^nama<n>_NSD+aku<p>_PS1$|SpaceAfter=No
 24	Nama	nama	NOUN	NSD	Number=Sing	18	obj	_	MorphInd=^nama<n>_NSD$
-25	ku	aku	PRON	PS1	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	MorphInd=^aku<p>_PS1$
+25	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	24	nmod:poss	_	MorphInd=^aku<p>_PS1$
 26	?	?	PUNCT	Z--	_	18	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s160
@@ -6796,7 +6796,7 @@
 6	dan	dan	CCONJ	H--	_	7	cc	_	MorphInd=^dan<h>_H--$
 7-8	persembahanku	_	_	_	_	_	_	_	MorphInd=^per+sembah<v>+an_NSD+aku<p>_PS1$|SpaceAfter=No
 7	persembahan	persembahan	NOUN	NSD	Number=Sing	5	conj	_	MorphInd=^per+sembah<v>+an_NSD$
-8	ku	aku	PRON	PS1	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	MorphInd=^aku<p>_PS1$
+8	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	7	nmod:poss	_	MorphInd=^aku<p>_PS1$
 9	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s246
@@ -8910,7 +8910,7 @@
 5	memperhatikan	hati	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+per+hati<n>+kan_VSA$
 6-7	hamba-Ku	_	_	_	_	_	_	_	MorphInd=^hamba<n>_NSD+aku<p>_PS1$
 6	hamba-	hamba-	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^hamba<n>_NSD$
-7	Ku	aku	PRON	PS1	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	MorphInd=^aku<p>_PS1$
+7	Ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	6	nmod:poss	_	MorphInd=^aku<p>_PS1$
 8	Ayub	ayub	PROPN	NSD	_	6	appos	_	SpaceAfter=No|MorphInd=^ayub<n>_NSD$
 9	?	?	PUNCT	Z--	_	5	punct	_	MorphInd=^?<z>_Z--$
 
@@ -11003,17 +11003,17 @@
 20	cinta	cinta	VERB	NSD	_	17	parataxis	_	MorphInd=^cinta<n>_NSD$
 21-22	kepadamu	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+kamu<p>_PS2$|SpaceAfter=No
 21	kepada	kepada	NOUN	R--	_	20	obj	_	MorphInd=^kepada<r>_R--$
-22	mu	kamu	PRON	PS2	Number=Sing|Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+22	mu	kamu	PRON	PS2	Number=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	21	nmod:poss	_	MorphInd=^kamu<p>_PS2$
 23	,	,	PUNCT	Z--	_	28	punct	_	MorphInd=^,<z>_Z--$
 24	padahal	padahal	ADV	S--	_	28	advmod	_	MorphInd=^padahal<s>_S--$
 25-26	hatimu	_	_	_	_	_	_	_	MorphInd=^hati<n>_NSD+kamu<p>_PS2$
 25	hati	hati	NOUN	NSD	Number=Sing	28	nsubj	_	MorphInd=^hati<n>_NSD$
-26	mu	kamu	PRON	PS2	Number=Sing|Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	MorphInd=^kamu<p>_PS2$
+26	mu	kamu	PRON	PS2	Number=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	25	nmod:poss	_	MorphInd=^kamu<p>_PS2$
 27	tidak	tidak	PART	G--	Polarity=Neg	28	advmod	_	MorphInd=^tidak<g>_G--$
 28	tertuju	tuju	VERB	VSP	Voice=Pass	20	advcl	_	MorphInd=^ter+tuju<v>_VSP$
 29-30	kepadaku	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+aku<p>_PS1$|SpaceAfter=No
 29	kepada	kepada	NOUN	R--	_	28	obj	_	MorphInd=^kepada<r>_R--$
-30	ku	aku	PRON	PS1	Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	MorphInd=^aku<p>_PS1$
+30	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	29	nmod:poss	_	MorphInd=^aku<p>_PS1$
 31	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s408
@@ -14796,7 +14796,7 @@
 4	foto	foto	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^foto<n>_NSD$
 5-6	kopian-ku	_	_	_	_	_	_	_	MorphInd=^kopi<n>+an_NSD+aku<p>_PS1$|SpaceAfter=No
 5	kopian-	kopian-	NOUN	NSD	Number=Sing	4	nmod	_	MorphInd=^kopi<n>+an_NSD$
-6	ku	aku	PRON	PS1	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	MorphInd=^aku<p>_PS1$
+6	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	5	nmod:poss	_	MorphInd=^aku<p>_PS1$
 7	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^(<z>_Z--$
 8	mau	mau	AUX	D--	_	10	aux	_	MorphInd=^mau<d>_D--$
 9	kalian	kalian	PRON	PP2	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	MorphInd=^kalian<p>_PP2$
