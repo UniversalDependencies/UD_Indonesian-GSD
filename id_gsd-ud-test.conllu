@@ -6120,8 +6120,8 @@
 5-6	kepadanya	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+dia<p>_PS3$|SpaceAfter=No
 5	kepada	kepada	ADP	R--	_	6	case	_	MorphInd=^kepada<r>_R--$
 6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	4	obl	_	MorphInd=^dia<p>_PS3$
-7	:	:	PUNCT	Z--	_	11	punct	_	MorphInd=^:<z>_Z--$
-8	Anak	anak	NOUN	NSD	Number=Sing	11	acl	_	MorphInd=^anak<n>_NSD$
+7	:	:	PUNCT	Z--	_	8	punct	_	MorphInd=^:<z>_Z--$
+8	Anak	anak	NOUN	NSD	Number=Sing	4	parataxis	_	MorphInd=^anak<n>_NSD$
 9-10	siapakah	_	_	_	_	_	_	_	MorphInd=^siapa<w>_W--+kah<t>_T--$
 9	siapa	siapa	PRON	W--	PronType=Int	8	nmod	_	MorphInd=^siapa<w>_W--$
 10	kah	kah	PART	T--	_	9	advmod:emph	_	MorphInd=^kah<t>_T--$
@@ -11514,19 +11514,19 @@
 # sent_id = test-s461
 # text = George, yang pernah memberontak kini setia kepadanya, dan saudara termudanya, Richard, Adipati Gloucester.
 # text_en = George, who had once rebelled against him was now loyal to him, and his youngest brother, Richard, Duke of Gloucester.
-1	George	george	PROPN	F--	_	0	root	_	SpaceAfter=No|MorphInd=^george<f>_F--$
+1	George	george	PROPN	F--	_	7	nsubj	_	SpaceAfter=No|MorphInd=^george<f>_F--$
 2	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
 3	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	MorphInd=^yang<s>_S--$
 4	pernah	pernah	ADV	D--	_	5	advmod	_	MorphInd=^pernah<d>_D--$
 5	memberontak	berontak	VERB	VSA	Voice=Act	1	acl:relcl	_	MorphInd=^meN+berontak<v>_VSA$
-6	kini	kini	ADV	D--	_	5	advmod	_	MorphInd=^kini<d>_D--$
-7	setia	setia	ADJ	NSD	_	8	amod	_	MorphInd=^setia<n>_NSD$
+6	kini	kini	ADV	D--	_	7	advmod	_	MorphInd=^kini<d>_D--$
+7	setia	setia	ADJ	NSD	_	0	root	_	MorphInd=^setia<n>_NSD$
 8-9	kepadanya	_	_	_	_	_	_	_	MorphInd=^kepada<r>_R--+dia<p>_PS3$|SpaceAfter=No
 8	kepada	kepada	ADP	R--	_	9	case	_	MorphInd=^kepada<r>_R--$
 9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	obl	_	MorphInd=^dia<p>_PS3$
 10	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
 11	dan	dan	CCONJ	H--	_	12	cc	_	MorphInd=^dan<h>_H--$
-12	saudara	saudara	NOUN	NSD	Number=Sing	1	conj	_	MorphInd=^saudara<n>_NSD$
+12	saudara	saudara	NOUN	NSD	Number=Sing	9	conj	_	MorphInd=^saudara<n>_NSD$
 13-14	termudanya	_	_	_	_	_	_	_	MorphInd=^ter+muda<a>_ASS+dia<p>_PS3$|SpaceAfter=No
 13	termuda	termuda	ADJ	ASS	Degree=Sup	12	amod	_	MorphInd=^ter+muda<a>_ASS$
 14	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -11535,7 +11535,7 @@
 17	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
 18	Adipati	adipati	PROPN	X--	_	12	appos	_	MorphInd=^adipati<x>_X--$
 19	Gloucester	gloucester	PROPN	X--	_	18	flat:name	_	SpaceAfter=No|MorphInd=^gloucester<x>_X--$
-20	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
+20	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s462
 # text = Uekusa di grup sastra, sementara Kurosawa di grup seni rupa.
