@@ -13102,7 +13102,7 @@
 10	berarti	arti	VERB	VSA	Voice=Act	4	ccomp	_	MorphInd=^ber+arti<n>_VSA$
 11-12	terhentinya	_	_	_	_	_	_	_	MorphInd=^ter+henti<v>_VSP+dia<p>_PS3$
 11	terhenti	henti	VERB	VSP	Voice=Pass	10	xcomp	_	MorphInd=^ter+henti<v>_VSP$
-12	nya	dia	DET	PS3	Definite=Def|PronType=Art	11	det	_	MorphInd=^dia<p>_PS3$
+12	nya	nya	DET	PS3	Definite=Def|PronType=Art	11	det	_	MorphInd=^dia<p>_PS3$
 13	perjuangan	perjuangan	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^per+juang<v>+an_NSD$
 14	dalam	dalam	ADP	ASP	_	15	case	_	MorphInd=^dalam<a>_ASP$
 15	menegakkan	tegak	VERB	VSA	Voice=Act	11	acl	_	MorphInd=^meN+tegak<a>+kan_VSA$
@@ -14403,7 +14403,7 @@
 16	pada	pada	SCONJ	R--	_	17	mark	_	MorphInd=^pada<r>_R--$
 17-18	meletusnya	_	_	_	_	_	_	_	MorphInd=^meN+letus<v>_VSA+dia<p>_PS3$
 17	meletus	letus	VERB	VSA	Voice=Act	15	xcomp	_	MorphInd=^meN+letus<v>_VSA$
-18	nya	dia	DET	_	Definite=Def|PronType=Art	17	det	_	MorphInd=^dia<p>_PS3$
+18	nya	nya	DET	_	Definite=Def|PronType=Art	17	det	_	MorphInd=^dia<p>_PS3$
 19	perang	perang	NOUN	NSD	Number=Sing	17	nsubj	_	MorphInd=^perang<n>_NSD$
 20	kemerdekaan	kemerdekaan	NOUN	NSD	Number=Sing	19	compound	_	MorphInd=^ke+merdeka<a>+an_NSD$
 21	tahun	tahun	NOUN	NSD	Number=Sing	19	nmod	_	MorphInd=^tahun<n>_NSD$
@@ -14799,7 +14799,7 @@
 6	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	5	nmod:poss	_	MorphInd=^aku<p>_PS1$
 7	,	,	PUNCT	Z--	_	4	punct	_	MorphInd=^(<z>_Z--$
 8	mau	mau	AUX	D--	_	10	aux	_	MorphInd=^mau<d>_D--$
-9	kalian	kalian	PRON	PP2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	10	nsubj	_	MorphInd=^kalian<p>_PP2$
+9	kalian	kalian	PRON	PP2	Number=Plur|Person=2|Polite=Infm|PronType=Prs	10	nsubj	_	MorphInd=^kalian<p>_PP2$
 10	lihat	lihat	VERB	VSA	Voice=Act	0	root	_	MorphInd=^lihat<v>_VSA$
 11	saya	saya	PRON	PS1	Number=Sing|Person=1|Polite=Form|PronType=Prs	10	obj	_	SpaceAfter=No|MorphInd=^saya<p>_PS1$
 12	?	?	PUNCT	Z--	_	10	punct	_	MorphInd=^?<z>_Z--$

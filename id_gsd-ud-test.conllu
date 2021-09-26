@@ -1539,7 +1539,7 @@
 25	saat	saat	NOUN	S--	Number=Sing	17	obl	_	MorphInd=^saat<s>_S--$
 26-27	terjadinya	_	_	_	_	_	_	_	MorphInd=^terjadi<v>_VSP+dia<p>_PS3$
 26	terjadi	terjadi	VERB	VSP	Voice=Pass	25	acl	_	MorphInd=^terjadi<v>_VSP$
-27	nya	dia	DET	PS3	Definite=Def|PronType=Art	26	det	_	MorphInd=^dia<p>_PS3$
+27	nya	nya	DET	PS3	Definite=Def|PronType=Art	26	det	_	MorphInd=^dia<p>_PS3$
 28	kemunduran	kemunduran	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^ke+mundur<v>+an_NSD$
 29	atau	atau	CCONJ	H--	_	30	cc	_	MorphInd=^atau<h>_H--$
 30	kemajuan	kemajuan	NOUN	NSD	Number=Sing	28	conj	_	MorphInd=^ke+maju<v>+an_NSD$
@@ -9319,7 +9319,7 @@
 11	'	'	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	Apa	apa	PRON	W--	PronType=Int	6	parataxis	_	MorphInd=^apa<w>_W--$
 13	pendapat	pendapat	NOUN	NSD	Number=Sing	12	acl	_	MorphInd=^peN+dapat<v>_NSD$
-14	kalian	kalian	PRON	PP2	Number=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	13	nmod:poss	_	MorphInd=^kalian<p>_PP2$
+14	kalian	kalian	PRON	PP2	Number=Plur|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	13	nmod:poss	_	MorphInd=^kalian<p>_PP2$
 15	tentang	tentang	ADP	VSA	_	16	case	_	MorphInd=^tentang<v>_VSA$
 16	apa	apa	PRON	W--	PronType=Int	12	nmod	_	MorphInd=^apa<w>_W--$
 17	yang	yang	PRON	S--	PronType=Rel	20	nsubj	_	MorphInd=^yang<s>_S--$
