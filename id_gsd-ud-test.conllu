@@ -82,7 +82,7 @@
 1	Bagaimana	bagaimana	ADV	W--	PronType=Int	2	amod	_	MorphInd=^bagaimana<w>_W--$
 2	sejarah	sejarah	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^sejarah<n>_NSD$
 3-4	berdirinya	_	_	_	_	_	_	_	MorphInd=^ber+diri<n>_VSA+dia<p>_PS3$
-3	berdiri	berdiri	NOUN	VSA	_	2	compound	_	MorphInd=^ber+diri<n>_VSA$
+3	berdiri	diri	NOUN	VSA	_	2	compound	_	MorphInd=^ber+diri<n>_VSA$
 4	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	MorphInd=^dia<p>_PS3$
 5	SMAN	sman	PROPN	X--	_	2	nmod	_	MorphInd=^sman<x>_X--$
 6	1	1	NUM	CC-	_	5	flat	_	MorphInd=^1<c>_CC-$
@@ -2476,7 +2476,7 @@
 # text_en = For shelter, Komodo dragons dig holes 1 – 3 meters wide with their strong forelegs and claws.
 1	Untuk	untuk	ADP	R--	_	2	case	_	MorphInd=^untuk<r>_R--$
 2	tempat	tempat	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^tempat<n>_NSD$
-3	berlindung	berlindung	NOUN	VSA	_	2	compound	_	SpaceAfter=No|MorphInd=^ber+lindung<v>_VSA$
+3	berlindung	lindung	NOUN	VSA	_	2	compound	_	SpaceAfter=No|MorphInd=^ber+lindung<v>_VSA$
 4	,	,	PUNCT	Z--	_	2	punct	_	MorphInd=^,<z>_Z--$
 5	komodo	komodo	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^komodo<n>_NSD$
 6	menggali	gali	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+gali<v>_VSA$
@@ -2766,7 +2766,7 @@
 1	Tumbuhan	tumbuh	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^tumbuh<v>+an_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	masih	masih	ADV	D--	_	4	advmod	_	MorphInd=^masih<d>_D--$
-4	berkerabat	berkerabat	NOUN	VSA	_	0	root	_	MorphInd=^ber+kerabat<n>_VSA$
+4	berkerabat	kerabat	NOUN	VSA	_	0	root	_	MorphInd=^ber+kerabat<n>_VSA$
 5	dengan	dengan	ADP	R--	_	6	case	_	MorphInd=^dengan<r>_R--$
 6	peria	ria	NOUN	NSD	Number=Sing	4	nmod	_	SpaceAfter=No|MorphInd=^peN+ria<n>_NSD$
 7	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
@@ -7564,7 +7564,7 @@
 16	sebuah	buah	DET	B--	Definite=Ind|PronType=Art	17	det	_	MorphInd=^sebuah<b>_B--$
 17	kendaraan	kendara	NOUN	NSD	Number=Sing	12	nmod	_	MorphInd=^kendara<v>+an_NSD$
 18	angkutan	angkut	NOUN	NSD	Number=Sing	17	compound	_	MorphInd=^angkut<v>+an_NSD$
-19	bermotor	bermotor	NOUN	VSA	_	18	compound	_	MorphInd=^ber+motor<n>_VSA$
+19	bermotor	motor	NOUN	VSA	_	18	compound	_	MorphInd=^ber+motor<n>_VSA$
 20	roda	roda	NOUN	NSD	Number=Sing	18	compound	_	MorphInd=^roda<n>_NSD$
 21	empat	empat	NUM	CC-	NumType=Card	20	nummod	_	MorphInd=^empat<c>_CC-$
 22	yang	yang	PRON	S--	PronType=Rel	23	nsubj:pass	_	MorphInd=^yang<s>_S--$
@@ -11323,7 +11323,7 @@
 7	pencakar	cakar	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^peN+cakar<n>_NSD$
 8	langit	langit	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^langit<n>_NSD$
 9	postmodern	postmodern	ADJ	X--	_	8	amod	_	MorphInd=^postmodern<x>_X--$
-10	berlantai	berlantai	NOUN	VSA	_	8	compound	_	MorphInd=^ber+lantai<n>_VSA$
+10	berlantai	lantai	NOUN	VSA	_	8	compound	_	MorphInd=^ber+lantai<n>_VSA$
 11	65	65	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^65<c>_CC-$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj	_	MorphInd=^yang<s>_S--$
 13	selesai	selesai	VERB	ASP	_	7	acl:relcl	_	MorphInd=^selesai<a>_ASP$
@@ -12588,7 +12588,7 @@
 23	atau	atau	CCONJ	H--	_	24	cc	_	MorphInd=^atau<h>_H--$
 24	rendah	rendah	ADJ	ASP	_	22	conj	_	MorphInd=^rendah<a>_ASP$
 25	atau	atau	CCONJ	H--	_	26	cc	_	MorphInd=^atau<h>_H--$
-26	bertekanan	bertekanan	NOUN	VSA	_	22	conj	_	MorphInd=^ber+tekan<v>+an_VSA$
+26	bertekanan	tekan	NOUN	VSA	_	22	conj	_	MorphInd=^ber+tekan<v>+an_VSA$
 27	tinggi	tinggi	ADJ	ASP	_	26	amod	_	SpaceAfter=No|MorphInd=^tinggi<a>_ASP$
 28	)	)	PUNCT	Z--	_	22	punct	_	MorphInd=^)<z>_Z--$
 29	atau	atau	CCONJ	H--	_	30	cc	_	MorphInd=^atau<h>_H--$

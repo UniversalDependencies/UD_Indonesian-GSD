@@ -5878,7 +5878,7 @@
 27	dan	dan	CCONJ	H--	_	28	cc	_	MorphInd=^dan<h>_H--$
 28	pejalan	pejalan	VERB	NSD	_	25	conj	_	MorphInd=^pejalan<n>_NSD$
 29	kaki	kaki	NOUN	NSD	Number=Sing	28	obj	_	MorphInd=^kaki<n>_NSD$
-30	bergoyang	bergoyang	NOUN	VSA	_	29	compound	_	MorphInd=^ber+goyang<v>_VSA$
+30	bergoyang	goyang	NOUN	VSA	_	29	compound	_	MorphInd=^ber+goyang<v>_VSA$
 31	atas	atas	NOUN	R--	_	30	compound	_	MorphInd=^atas<r>_R--$
 32	-	-	PUNCT	Z--	_	33	punct	_	MorphInd=^-<z>_Z--$
 33	ke	ke	ADP	R--	_	29	case	_	MorphInd=^ke<r>_R--$
@@ -6715,7 +6715,7 @@
 1	Sebagai	sebagai	ADP	R--	_	2	case	_	MorphInd=^sebagai<r>_R--$
 2	akibat	akibat	NOUN	NSD	Number=Sing	17	obl	_	MorphInd=^akibat<n>_NSD$
 3-4	bertambahnya	_	_	_	_	_	_	_	MorphInd=^ber+tambah<v>_VSA+dia<p>_PS3$
-3	bertambah	bertambah	NOUN	VSA	_	2	compound	_	MorphInd=^ber+tambah<v>_VSA$
+3	bertambah	tambah	NOUN	VSA	_	2	compound	_	MorphInd=^ber+tambah<v>_VSA$
 4	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	MorphInd=^dia<p>_PS3$
 5	pembatasan	batas	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^peN+batas<n>+an_NSD$
 6	pemerintah	perintah	NOUN	NSD	Number=Sing	5	compound	_	SpaceAfter=No|MorphInd=^peN+perintah<n>_NSD$
@@ -6737,12 +6737,12 @@
 22	pembatasan	batas	NOUN	NSD	Number=Sing	23	nsubj	_	MorphInd=^peN+batas<n>+an_NSD$
 23	mewakili	wakil	VERB	VSA	Voice=Act	17	xcomp	_	MorphInd=^meN+wakil<n>+i_VSA$
 24-25	berkurangnya	_	_	_	_	_	_	_	MorphInd=^ber+kurang<a>_VSA+dia<p>_PS3$
-24	berkurang	berkurang	NOUN	VSA	_	23	obj	_	MorphInd=^ber+kurang<a>_VSA$
+24	berkurang	kurang	NOUN	VSA	_	23	obj	_	MorphInd=^ber+kurang<a>_VSA$
 25	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	MorphInd=^dia<p>_PS3$
 26	penawaran	tawar	NOUN	NSD	Number=Sing	24	compound	_	MorphInd=^peN+tawar<a>+an_NSD$
 27	dan	dan	CCONJ	H--	_	28	cc	_	MorphInd=^dan<h>_H--$
 28-29	bertambahnya	_	_	_	_	_	_	_	MorphInd=^ber+tambah<v>_VSA+dia<p>_PS3$
-28	bertambah	bertambah	NOUN	VSA	_	24	conj	_	MorphInd=^ber+tambah<v>_VSA$
+28	bertambah	tambah	NOUN	VSA	_	24	conj	_	MorphInd=^ber+tambah<v>_VSA$
 29	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	MorphInd=^dia<p>_PS3$
 30	kemungkinan	kemungkinan	NOUN	NSD	Number=Sing	28	compound	_	MorphInd=^kemungkinan<n>_NSD$
 31	rugi	rugi	NOUN	NSD	Number=Sing	30	compound	_	MorphInd=^rugi<n>_NSD$
@@ -11292,7 +11292,7 @@
 34	lain	lain	ADJ	ASP	_	36	amod	_	MorphInd=^lain<a>_ASP$
 35	dalam	dalam	ADP	ASP	_	36	case	_	MorphInd=^dalam<a>_ASP$
 36	bidang	bidang	NOUN	NSD	Number=Sing	30	nmod	_	MorphInd=^bidang<n>_NSD$
-37	bernyanyi	bernyanyi	NOUN	VSA	_	36	compound	_	SpaceAfter=No|MorphInd=^ber+nyanyi<v>_VSA$
+37	bernyanyi	nyanyi	NOUN	VSA	_	36	compound	_	SpaceAfter=No|MorphInd=^ber+nyanyi<v>_VSA$
 38	,	,	PUNCT	Z--	_	39	punct	_	MorphInd=^,<z>_Z--$
 39	menari	tari	VERB	VSA	Voice=Act	36	conj	_	MorphInd=^meN+tari<n>_VSA$
 40	dan	dan	CCONJ	H--	_	41	cc	_	MorphInd=^dan<h>_H--$
@@ -13488,7 +13488,7 @@
 17	gugus	gugus	NOUN	NSD	Number=Sing	15	obj	_	MorphInd=^gugus<n>_NSD$
 18	kepulauan	pulau	NOUN	NSD	Number=Sing	17	compound	_	SpaceAfter=No|MorphInd=^ke+pulau<n>+an_NSD$
 19	:	:	PUNCT	Z--	_	23	punct	_	MorphInd=^:<z>_Z--$
-20	Berikut	berikut	NOUN	VSA	_	23	nsubj	_	MorphInd=^ber+ikut<v>_VSA$
+20	Berikut	ikut	NOUN	VSA	_	23	nsubj	_	MorphInd=^ber+ikut<v>_VSA$
 21	ini	ini	DET	B--	PronType=Dem	20	det	_	MorphInd=^ini<b>_B--$
 22	adalah	adalah	AUX	O--	_	23	cop	_	MorphInd=^adalah<o>_O--$
 23	daftar	daftar	NOUN	NSD	Number=Sing	14	parataxis	_	MorphInd=^daftar<n>_NSD$

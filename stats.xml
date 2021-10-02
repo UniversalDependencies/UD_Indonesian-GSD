@@ -10,7 +10,7 @@
     <dev><sentences>559</sentences><tokens>12441</tokens><words>12679</words><fused>238</fused></dev>
     <test><sentences>557</sentences><tokens>11559</tokens><words>11774</words><fused>215</fused></test>
   </size>
-  <lemmas unique="16456" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
+  <lemmas unique="16413" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
   <forms unique="19424" /><!-- ,, ., yang, dan, di, nya, pada, ini, dengan, dari, ), (, adalah, untuk, dalam -->
   <fusions unique="1012" /><!-- apakah, ayahnya, dirinya, namanya, siapakah, akankah, penduduknya, anaknya, antaranya, keduanya, utamanya, artinya, pertamanya, ataupun, ibunya -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
