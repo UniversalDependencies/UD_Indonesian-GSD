@@ -10,7 +10,7 @@
     <dev><sentences>559</sentences><tokens>12441</tokens><words>12679</words><fused>238</fused></dev>
     <test><sentences>557</sentences><tokens>11559</tokens><words>11774</words><fused>215</fused></test>
   </size>
-  <lemmas unique="17352" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
+  <lemmas unique="16477" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
   <forms unique="19424" /><!-- ,, ., yang, dan, di, nya, pada, ini, dengan, dari, ), (, adalah, untuk, dalam -->
   <fusions unique="1012" /><!-- apakah, ayahnya, dirinya, namanya, siapakah, akankah, penduduknya, anaknya, antaranya, keduanya, utamanya, artinya, pertamanya, ataupun, ibunya -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -22,7 +22,7 @@
     <tag name="CCONJ">3585</tag><!-- dan, atau, tetapi, serta, namun, maupun, baik, akan, lain, sedangkan -->
     <tag name="DET">3755</tag><!-- ini, itu, buah, tersebut, nya, orang, beberapa, para, berbagai, semua -->
     <tag name="INTJ">4</tag><!-- hai, sayang, silakan, wah -->
-    <tag name="NOUN">26492</tag><!-- tahun, orang, desa, nama, kota, bagian, bahasa, wilayah, saat, tanggal -->
+    <tag name="NOUN">26492</tag><!-- tahun, orang, desa, nama, kota, bagi, bahasa, perintah, wilayah, saat -->
     <tag name="NUM">4268</tag><!-- satu, dua, 1, 2, 3, tiga, 5, kedua, 2010, 4 -->
     <tag name="PART">1004</tag><!-- tidak, kah, lah, pun, bukan, tak, belum, ya, jangan, non -->
     <tag name="PRON">6401</tag><!-- yang, dia, mereka, apa, diri, aku, kamu, kita, siapa, mana -->
