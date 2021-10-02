@@ -5328,12 +5328,14 @@
 41	tidak	tidak	PART	G--	Polarity=Neg	43	advmod	_	MorphInd=^tidak<g>_G--$
 42	dapat	dapat	AUX	M--	_	43	aux	_	MorphInd=^dapat<m>_M--$
 43	menolong	tolong	VERB	VSA	Voice=Act	22	conj	_	MorphInd=^meN+tolong<v>_VSA$
-44	dirinya	diri	PRON	NSD+PS3	Number=Sing	43	obj	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
-45	dari	dari	ADP	R--	_	46	case	_	MorphInd=^dari<r>_R--$
-46	kehancuran	kehancuran	NOUN	NSD	Number=Sing	43	obl	_	MorphInd=^ke+hancur<a>+an_NSD$
-47	dan	dan	CCONJ	H--	_	48	cc	_	MorphInd=^dan<h>_H--$
-48	kebinasaan	kebinasaan	NOUN	NSD	Number=Sing	46	conj	_	SpaceAfter=No|MorphInd=^ke+binasa<a>+an_NSD$
-49	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
+44-45	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
+44	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	43	obj	_	MorphInd=^diri<n>_NSD$
+45	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	44	nmod:poss	_	MorphInd=^dia<p>_PS3$
+46	dari	dari	ADP	R--	_	47	case	_	MorphInd=^dari<r>_R--$
+47	kehancuran	kehancuran	NOUN	NSD	Number=Sing	43	obl	_	MorphInd=^ke+hancur<a>+an_NSD$
+48	dan	dan	CCONJ	H--	_	49	cc	_	MorphInd=^dan<h>_H--$
+49	kebinasaan	kebinasaan	NOUN	NSD	Number=Sing	47	conj	_	SpaceAfter=No|MorphInd=^ke+binasa<a>+an_NSD$
+50	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s192
 # text = Antara 800 SM dan 600 SM, matematika Yunani pada umumnya berada di belakang kesusasteraan Yunani, dan hanya sedikit yang diketahui tentang matematika Yunani dari periode ini — yang hampir semuanya sudah pernah sampai melalui penulis sebelumnya, sejak pertengahan abad ke-4 SM. Sejarawan biasanya menempatkan permulaan matematika Yunani pada masa hidup Thales dari Miletus (kira - kira 624 - 548 SM).
@@ -5751,24 +5753,26 @@
 15	,	,	PUNCT	Z--	_	17	punct	_	MorphInd=^,<z>_Z--$
 16	untuk	untuk	ADP	R--	_	17	case	_	MorphInd=^untuk<r>_R--$
 17	kepentingan	kepentingan	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^ke+penting<a>+an_NSD$
-18	dirinya	diri	PRON	NSD+PS3	Number=Sing	17	nmod	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
-19	dan	dan	CCONJ	H--	_	20	cc	_	MorphInd=^dan<h>_H--$
-20	sesama	sesama	NOUN	D--	_	17	conj	_	MorphInd=^sesama<d>_D--$
-21	mereka	mereka	PRON	PP3	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	SpaceAfter=No|MorphInd=^mereka<p>_PP3$
-22	,	,	PUNCT	Z--	_	26	punct	_	MorphInd=^,<z>_Z--$
-23	sebagai	sebagai	ADP	R--	_	26	case	_	MorphInd=^sebagai<r>_R--$
-24	salah	salah	ADJ	ASP	_	25	advmod	_	MorphInd=^salah<a>_ASP$
-25	satu	satu	NUM	CC-	_	26	nummod	_	MorphInd=^satu<c>_CC-$
-26	sumbangsih	sumbangsih	NOUN	X--	_	6	obl	_	MorphInd=^sumbangsih<x>_X--$
-27	nyata	nyata	ADJ	ASP	_	26	amod	_	MorphInd=^nyata<a>_ASP$
-28	kepada	kepada	ADP	R--	_	29	case	_	MorphInd=^kepada<r>_R--$
-29	tanah	tanah	NOUN	NSD	Number=Sing	26	nmod	_	MorphInd=^tanah<n>_NSD$
-30	air	air	NOUN	NSD	Number=Sing	29	compound	_	SpaceAfter=No|MorphInd=^air<n>_NSD$
-31	,	,	PUNCT	Z--	_	32	punct	_	MorphInd=^,<z>_Z--$
-32	bangsa	bangsa	NOUN	NSD	Number=Sing	30	conj	_	MorphInd=^bangsa<n>_NSD$
-33	dan	dan	CCONJ	H--	_	34	cc	_	MorphInd=^dan<h>_H--$
-34	negara	negara	NOUN	NSD	Number=Sing	30	conj	_	SpaceAfter=No|MorphInd=^negara<n>_NSD$
-35	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
+18-19	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
+18	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	17	nmod	_	MorphInd=^diri<n>_NSD$
+19	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	MorphInd=^dia<p>_PS3$
+20	dan	dan	CCONJ	H--	_	21	cc	_	MorphInd=^dan<h>_H--$
+21	sesama	sesama	NOUN	D--	_	17	conj	_	MorphInd=^sesama<d>_D--$
+22	mereka	mereka	PRON	PP3	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	SpaceAfter=No|MorphInd=^mereka<p>_PP3$
+23	,	,	PUNCT	Z--	_	27	punct	_	MorphInd=^,<z>_Z--$
+24	sebagai	sebagai	ADP	R--	_	27	case	_	MorphInd=^sebagai<r>_R--$
+25	salah	salah	ADJ	ASP	_	26	advmod	_	MorphInd=^salah<a>_ASP$
+26	satu	satu	NUM	CC-	_	27	nummod	_	MorphInd=^satu<c>_CC-$
+27	sumbangsih	sumbangsih	NOUN	X--	_	6	obl	_	MorphInd=^sumbangsih<x>_X--$
+28	nyata	nyata	ADJ	ASP	_	27	amod	_	MorphInd=^nyata<a>_ASP$
+29	kepada	kepada	ADP	R--	_	30	case	_	MorphInd=^kepada<r>_R--$
+30	tanah	tanah	NOUN	NSD	Number=Sing	27	nmod	_	MorphInd=^tanah<n>_NSD$
+31	air	air	NOUN	NSD	Number=Sing	30	compound	_	SpaceAfter=No|MorphInd=^air<n>_NSD$
+32	,	,	PUNCT	Z--	_	33	punct	_	MorphInd=^,<z>_Z--$
+33	bangsa	bangsa	NOUN	NSD	Number=Sing	31	conj	_	MorphInd=^bangsa<n>_NSD$
+34	dan	dan	CCONJ	H--	_	35	cc	_	MorphInd=^dan<h>_H--$
+35	negara	negara	NOUN	NSD	Number=Sing	31	conj	_	SpaceAfter=No|MorphInd=^negara<n>_NSD$
+36	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s206
 # text = ``Apa?
@@ -6427,26 +6431,28 @@
 # text_en = Irene explained that she never knew this until her sister, Paula, told her.
 1	Irene	irene	PROPN	X--	_	2	nsubj	_	MorphInd=^irene<x>_X--$
 2	menjelaskan	jelas	VERB	VSA	Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^meN+jelas<a>+kan_VSA$
-3	,	,	PUNCT	Z--	_	8	punct	_	MorphInd=^,<z>_Z--$
-4	bahwa	bahwa	SCONJ	S--	_	8	mark	_	MorphInd=^bahwa<s>_S--$
-5	dirinya	diri	PRON	NSD+PS3	Number=Sing	8	nsubj	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
-6	tidak	tidak	PART	G--	Polarity=Neg	8	advmod	_	MorphInd=^tidak<g>_G--$
-7	pernah	pernah	ADV	D--	_	8	advmod	_	MorphInd=^pernah<d>_D--$
-8	mengetahui	ketahui	VERB	VSA	Voice=Act	2	ccomp	_	MorphInd=^meN+ketahui<v>_VSA$
-9	hal	hal	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^hal<n>_NSD$
-10	ini	ini	DET	B--	PronType=Dem	9	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
-11	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
-12	sampai	sampai	ADV	ASP	_	18	advmod	_	MorphInd=^sampai<a>_ASP$
-13-14	kakaknya	_	_	_	_	_	_	_	MorphInd=^kakak<n>_NSD+dia<p>_PS3$|SpaceAfter=No
-13	kakak	kakak	NOUN	NSD	Number=Sing	18	nsubj	_	MorphInd=^kakak<n>_NSD$
-14	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	MorphInd=^dia<p>_PS3$
-15	,	,	PUNCT	Z--	_	16	punct	_	MorphInd=^,<z>_Z--$
-16	Paula	paula	PROPN	X--	_	13	appos	_	SpaceAfter=No|MorphInd=^paula<x>_X--$
-17	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
-18-19	memberitahunya	_	_	_	_	_	_	_	MorphInd=^meN+beritahu<v>_VSA+dia<p>_PS3$|SpaceAfter=No
-18	memberitahu	beritahu	VERB	VSA	Voice=Act	8	advcl	_	MorphInd=^meN+beritahu<v>_VSA$
-19	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	18	obj	_	MorphInd=^dia<p>_PS3$
-20	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
+3	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
+4	bahwa	bahwa	SCONJ	S--	_	9	mark	_	MorphInd=^bahwa<s>_S--$
+5-6	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
+5	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	9	nsubj	_	MorphInd=^diri<n>_NSD$
+6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	MorphInd=^dia<p>_PS3$
+7	tidak	tidak	PART	G--	Polarity=Neg	9	advmod	_	MorphInd=^tidak<g>_G--$
+8	pernah	pernah	ADV	D--	_	9	advmod	_	MorphInd=^pernah<d>_D--$
+9	mengetahui	ketahui	VERB	VSA	Voice=Act	2	ccomp	_	MorphInd=^meN+ketahui<v>_VSA$
+10	hal	hal	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^hal<n>_NSD$
+11	ini	ini	DET	B--	PronType=Dem	10	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
+12	,	,	PUNCT	Z--	_	19	punct	_	MorphInd=^,<z>_Z--$
+13	sampai	sampai	ADV	ASP	_	19	advmod	_	MorphInd=^sampai<a>_ASP$
+14-15	kakaknya	_	_	_	_	_	_	_	MorphInd=^kakak<n>_NSD+dia<p>_PS3$|SpaceAfter=No
+14	kakak	kakak	NOUN	NSD	Number=Sing	19	nsubj	_	MorphInd=^kakak<n>_NSD$
+15	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	MorphInd=^dia<p>_PS3$
+16	,	,	PUNCT	Z--	_	17	punct	_	MorphInd=^,<z>_Z--$
+17	Paula	paula	PROPN	X--	_	14	appos	_	SpaceAfter=No|MorphInd=^paula<x>_X--$
+18	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
+19-20	memberitahunya	_	_	_	_	_	_	_	MorphInd=^meN+beritahu<v>_VSA+dia<p>_PS3$|SpaceAfter=No
+19	memberitahu	beritahu	VERB	VSA	Voice=Act	9	advcl	_	MorphInd=^meN+beritahu<v>_VSA$
+20	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	19	obj	_	MorphInd=^dia<p>_PS3$
+21	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s230
 # text = Ini adalah album audiophile pertama Cindy.
