@@ -1295,7 +1295,7 @@
 25	di	di	ADP	R--	_	26	case	_	MorphInd=^di<r>_R--$
 26	toko-toko	toko	NOUN	NSD	Number=Plur	24	obl	_	MorphInd=^toko<n>_NSD$
 27	buku	buku	NOUN	NSD	Number=Sing	26	compound	_	MorphInd=^buku<n>_NSD$
-28	terdekat	terdekat	ADJ	ASS	Degree=Sup	27	amod	_	MorphInd=^ter+dekat<a>_ASS$
+28	terdekat	dekat	ADJ	ASS	Degree=Sup	27	amod	_	MorphInd=^ter+dekat<a>_ASS$
 29	anda	anda	PRON	PS2	Number=Sing|Person=2|Polite=Form|Poss=Yes|PronType=Prs	26	nmod:poss	_	SpaceAfter=No|MorphInd=^anda<p>_PS2$
 30	,	,	PUNCT	Z--	_	33	punct	_	MorphInd=^,<z>_Z--$
 31	seperti	seperti	ADP	R--	_	33	case	_	MorphInd=^seperti<r>_R--$
@@ -1975,7 +1975,7 @@
 18	1997	1997	NUM	CC-	NumType=Card	17	nummod	_	MorphInd=^1997<c>_CC-$
 19	dengan	dengan	ADP	R--	_	20	case	_	MorphInd=^dengan<r>_R--$
 20	suara	suara	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^suara<n>_NSD$
-21	terbanyak	terbanyak	ADJ	ASS	Degree=Sup	20	amod	_	MorphInd=^ter+banyak<a>_ASS$
+21	terbanyak	banyak	ADJ	ASS	Degree=Sup	20	amod	_	MorphInd=^ter+banyak<a>_ASS$
 22	untuk	untuk	SCONJ	R--	_	23	mark	_	MorphInd=^untuk<r>_R--$
 23	menggantikan	ganti	VERB	VSA	Voice=Act	9	xcomp	_	MorphInd=^meN+ganti<v>+kan_VSA$
 24	PERMIAS	permias	PROPN	X--	_	23	obj	_	MorphInd=^permias<x>_X--$
@@ -2288,7 +2288,7 @@
 11	itu	itu	DET	B--	PronType=Dem	10	det	_	MorphInd=^itu<b>_B--$
 12	adalah	adalah	AUX	O--	_	14	cop	_	MorphInd=^adalah<o>_O--$
 13	yang	yang	PRON	S--	PronType=Rel	14	nsubj	_	MorphInd=^yang<s>_S--$
-14	tersempit	tersempit	ADJ	ASS	Degree=Sup	5	acl:relcl	_	SpaceAfter=No|MorphInd=^ter+sempit<a>_ASS$
+14	tersempit	sempit	ADJ	ASS	Degree=Sup	5	acl:relcl	_	SpaceAfter=No|MorphInd=^ter+sempit<a>_ASS$
 15	,	,	PUNCT	Z--	_	16	punct	_	MorphInd=^,<z>_Z--$
 16	atau	atau	CCONJ	H--	_	14	cc	_	MorphInd=^atau<h>_H--$
 17	pada	pada	ADP	R--	_	18	case	_	MorphInd=^pada<r>_R--$
@@ -3694,7 +3694,7 @@
 68	selama	selama	ADP	R--	_	70	case	_	MorphInd=^selama<r>_R--$
 69	satu	satu	NUM	CC-	_	70	nummod	_	MorphInd=^satu<c>_CC-$
 70	tahun	tahun	NOUN	NSD	Number=Sing	65	obl	_	MorphInd=^tahun<n>_NSD$
-71	terakhir	terakhir	ADJ	ASS	Degree=Sup	70	amod	_	SpaceAfter=No|MorphInd=^ter+akhir<n>_ASS$
+71	terakhir	akhir	ADJ	ASS	Degree=Sup	70	amod	_	SpaceAfter=No|MorphInd=^ter+akhir<n>_ASS$
 72	.	.	PUNCT	Z--	_	53	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s128
@@ -7226,7 +7226,7 @@
 12	semar	semar	NOUN	X--	_	11	compound	_	SpaceAfter=No|MorphInd=^semar<x>_X--$
 13	,	,	PUNCT	Z--	_	14	punct	_	MorphInd=^,<z>_Z--$
 14	bunga	bunga	NOUN	NSD	Number=Sing	11	conj	_	MorphInd=^bunga<n>_NSD$
-15	terbesar	terbesar	ADJ	ASS	Degree=Sup	14	amod	_	MorphInd=^ter+besar<a>_ASS$
+15	terbesar	besar	ADJ	ASS	Degree=Sup	14	amod	_	MorphInd=^ter+besar<a>_ASS$
 16	di	di	ADP	R--	_	17	case	_	MorphInd=^di<r>_R--$
 17	dunia	dunia	NOUN	NSD	Number=Sing	14	nmod	_	MorphInd=^dunia<n>_NSD$
 18	Rafflesia	rafflesia	PROPN	F--	_	17	nmod	_	MorphInd=^rafflesia<f>_F--$
@@ -7234,7 +7234,7 @@
 20	,	,	PUNCT	Z--	_	22	punct	_	MorphInd=^,<z>_Z--$
 21	dan	dan	CCONJ	H--	_	22	cc	_	MorphInd=^dan<h>_H--$
 22	bunga	bunga	NOUN	NSD	Number=Sing	11	conj	_	MorphInd=^bunga<n>_NSD$
-23	tertinggi	tertinggi	ADJ	ASS	Degree=Sup	22	amod	_	MorphInd=^ter+tinggi<a>_ASS$
+23	tertinggi	tinggi	ADJ	ASS	Degree=Sup	22	amod	_	MorphInd=^ter+tinggi<a>_ASS$
 24	Amorphophallus	amorphophallus	PROPN	X--	_	22	nmod	_	MorphInd=^amorphophallus<x>_X--$
 25	titanum	titanum	PROPN	X--	_	24	flat:name	_	SpaceAfter=No|MorphInd=^titanum<x>_X--$
 26	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
@@ -7383,7 +7383,7 @@
 34	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 35	Kapal	kapal	NOUN	NSD	Number=Sing	46	nsubj	_	MorphInd=^kapal<n>_NSD$
 36	super	super	ADJ	F--	_	35	amod	_	MorphInd=^super<f>_F--$
-37	terbesar	terbesar	ADJ	ASS	Degree=Sup	35	amod	_	MorphInd=^ter+besar<a>_ASS$
+37	terbesar	besar	ADJ	ASS	Degree=Sup	35	amod	_	MorphInd=^ter+besar<a>_ASS$
 38	yang	yang	PRON	S--	PronType=Rel	39	obj	_	MorphInd=^yang<s>_S--$
 39	beroperasi	operasi	VERB	VSA	Voice=Act	35	acl:relcl	_	MorphInd=^ber+operasi<n>_VSA$
 40	pada	pada	ADP	R--	_	41	case	_	MorphInd=^pada<r>_R--$
@@ -7654,7 +7654,7 @@
 7	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 8	empat	empat	NUM	CC-	NumType=Card	9	nummod	_	MorphInd=^empat<c>_CC-$
 9	unggulan	unggul	NOUN	NSD	Number=Sing	11	nsubj	_	MorphInd=^unggul<a>+an_NSD$
-10	teratas	teratas	ADJ	ASS	Degree=Sup	9	amod	_	MorphInd=^ter+atas<a>_ASS$
+10	teratas	atas	ADJ	ASS	Degree=Sup	9	amod	_	MorphInd=^ter+atas<a>_ASS$
 11	melaju	laju	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+laju<n>_VSA$
 12	ke	ke	ADP	R--	_	13	case	_	MorphInd=^ke<r>_R--$
 13	babak	babak	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^babak<n>_NSD$
@@ -7793,7 +7793,7 @@
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	adalah	adalah	AUX	O--	_	4	cop	_	MorphInd=^adalah<o>_O--$
 4	masjid	masjid	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^masjid<n>_NSD$
-5	terbesar	terbesar	ADJ	ASS	Degree=Sup	4	amod	_	MorphInd=^ter+besar<a>_ASS$
+5	terbesar	besar	ADJ	ASS	Degree=Sup	4	amod	_	MorphInd=^ter+besar<a>_ASS$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 7	India	india	PROPN	F--	_	4	nmod	_	SpaceAfter=No|MorphInd=^india<f>_F--$
 8	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
@@ -7839,7 +7839,7 @@
 8	bangsa	bangsa	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^bangsa<n>_NSD$
 9	Korea	korea	PROPN	NSD	_	8	nmod	_	MorphInd=^korea<n>_NSD$
 10	yang	yang	PRON	S--	PronType=Rel	11	nmod	_	MorphInd=^yang<s>_S--$
-11	terbesar	terbesar	ADJ	ASS	Degree=Sup	7	acl:relcl	_	MorphInd=^ter+besar<a>_ASS$
+11	terbesar	besar	ADJ	ASS	Degree=Sup	7	acl:relcl	_	MorphInd=^ter+besar<a>_ASS$
 12	dikarenakan	dikarenakan	VERB	S--	_	7	advcl	_	MorphInd=^dikarenakan<s>_S--$
 13	kesetiaan	setia	NOUN	NSD	Number=Sing	12	obj	_	SpaceAfter=No|MorphInd=^ke+setia<n>+an_NSD$
 14	,	,	PUNCT	Z--	_	15	punct	_	MorphInd=^,<z>_Z--$
@@ -9933,7 +9933,7 @@
 8	dipercaya	percaya	VERB	VSP	Voice=Pass	6	acl:relcl	_	MorphInd=^di+percaya<v>_VSP$
 9	sebagai	sebagai	ADP	R--	_	10	case	_	MorphInd=^sebagai<r>_R--$
 10	hewan	hewan	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^hewan<n>_NSD$
-11	terkuat	terkuat	ADJ	ASS	Degree=Sup	10	amod	_	MorphInd=^ter+kuat<a>_ASS$
+11	terkuat	kuat	ADJ	ASS	Degree=Sup	10	amod	_	MorphInd=^ter+kuat<a>_ASS$
 12	dan	dan	CCONJ	H--	_	13	cc	_	MorphInd=^dan<h>_H--$
 13	terganas	terganas	ADJ	X--	_	11	conj	_	MorphInd=^terganas<x>_X--$
 14	di	di	ADP	R--	_	15	case	_	MorphInd=^di<r>_R--$
@@ -11114,7 +11114,7 @@
 30	yang	yang	PRON	S--	PronType=Rel	31	nsubj	_	MorphInd=^yang<s>_S--$
 31	memberikan	beri	VERB	VSA	Voice=Act	21	acl:relcl	_	MorphInd=^meN+beri<v>+kan_VSA$
 32	info-info	info	NOUN	F--	Number=Plur	31	obj	_	MorphInd=^info<f>_F--$
-33	terbaru	terbaru	ADJ	ASS	Degree=Sup	32	amod	_	MorphInd=^ter+baru<a>_ASS$
+33	terbaru	baru	ADJ	ASS	Degree=Sup	32	amod	_	MorphInd=^ter+baru<a>_ASS$
 34	mengenai	mengenai	ADP	R--	_	35	case	_	MorphInd=^mengenai<r>_R--$
 35	dunia	dunia	NOUN	NSD	Number=Sing	32	nmod	_	MorphInd=^dunia<n>_NSD$
 36	film	film	NOUN	NSD	Number=Sing	35	compound	_	MorphInd=^film<n>_NSD$
@@ -12142,7 +12142,7 @@
 # text_en = One last fairy has yet to give a gift and uses it to partially reverse the evil fairy's curse, declaring that the princess will instead fall into a deep sleep for 100 years and be awakened by the son of a king.
 1	Satu	satu	NUM	CC-	_	2	nummod	_	MorphInd=^satu<c>_CC-$
 2	peri	ri	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^peN+ri<n>_NSD$
-3	terakhir	terakhir	ADJ	ASS	Degree=Sup	2	amod	_	MorphInd=^ter+akhir<n>_ASS$
+3	terakhir	akhir	ADJ	ASS	Degree=Sup	2	amod	_	MorphInd=^ter+akhir<n>_ASS$
 4	belum	belum	ADV	G--	_	5	advmod	_	MorphInd=^belum<g>_G--$
 5	memberikan	beri	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+beri<v>+kan_VSA$
 6	hadiah	hadiah	NOUN	NSD	Number=Sing	5	obj	_	MorphInd=^hadiah<n>_NSD$
@@ -12326,7 +12326,7 @@
 9	)	)	PUNCT	Z--	_	7	punct	_	MorphInd=^)<z>_Z--$
 10	merupakan	merupakan	VERB	O--	_	0	root	_	MorphInd=^merupakan<o>_O--$
 11	madrasah	madrasah	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^madrasah<n>_NSD$
-12	tertua	tertua	ADJ	ASS	Degree=Sup	11	amod	_	MorphInd=^ter+tua<a>_ASS$
+12	tertua	tua	ADJ	ASS	Degree=Sup	11	amod	_	MorphInd=^ter+tua<a>_ASS$
 13	kedua	kedua	ADJ	CO-	NumType=Ord	12	amod	_	MorphInd=^ke+dua<c>_CO-$
 14	di	di	ADP	R--	_	15	case	_	MorphInd=^di<r>_R--$
 15	Indonesia	indonesia	PROPN	NSD	_	11	nmod	_	SpaceAfter=No|MorphInd=^indonesia<n>_NSD$
@@ -12924,7 +12924,7 @@
 # text = Yang terdekat Beerenberg gunung berapi dapat menyebabkan angin Kármán, yang menciptakan kondisi pendaratan sulit.
 # text_en = The nearby Beerenberg volcano can cause Kármán winds, which create difficult landing conditions.
 1	Yang	yang	PRON	S--	PronType=Rel	2	nsubj	_	MorphInd=^yang<s>_S--$
-2	terdekat	terdekat	ADJ	ASS	Degree=Sup	3	acl	_	MorphInd=^ter+dekat<a>_ASS$
+2	terdekat	dekat	ADJ	ASS	Degree=Sup	3	acl	_	MorphInd=^ter+dekat<a>_ASS$
 3	Beerenberg	beerenberg	PROPN	X--	_	7	nsubj	_	MorphInd=^beerenberg<x>_X--$
 4	gunung	gunung	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^gunung<n>_NSD$
 5	berapi	api	VERB	VSA	Voice=Act	4	amod	_	MorphInd=^ber+api<n>_VSA$
@@ -12963,7 +12963,7 @@
 18	gol	gol	NOUN	NSD	Number=Sing	16	obj	_	MorphInd=^gol<n>_NSD$
 19	pada	pada	ADP	R--	_	20	case	_	MorphInd=^pada<r>_R--$
 20	menit	menit	NOUN	NSD	Number=Sing	16	obl:tmod	_	MorphInd=^menit<n>_NSD$
-21	terakhir	terakhir	ADJ	ASS	Degree=Sup	20	amod	_	MorphInd=^ter+akhir<n>_ASS$
+21	terakhir	akhir	ADJ	ASS	Degree=Sup	20	amod	_	MorphInd=^ter+akhir<n>_ASS$
 22	pada	pada	ADP	R--	_	23	case	_	MorphInd=^pada<r>_R--$
 23	pertandingan	tanding	NOUN	NSD	Number=Sing	16	obl	_	MorphInd=^per+tanding<v>+an_NSD$
 24	menghadapi	hadap	VERB	VSA	Voice=Act	23	acl	_	MorphInd=^meN+hadap<v>+i_VSA$
