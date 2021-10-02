@@ -5887,7 +5887,7 @@
 17	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s233
-# text = Peran pemangku agama mulai menyusut pada 1950 - an dan 1960 - an karena sebagian kekuatan hukum dan pendidikan dan tanggung jawab dialihkan kepada otoritas sekuler.
+# text = Peran pemangku agama mulai menyusut pada 1950-an dan 1960-an karena sebagian kekuatan hukum dan pendidikan dan tanggung jawab dialihkan kepada otoritas sekuler.
 # text_en = The role of religious holders began to shrink in the 1950s and 1960s as some legal and educational powers and responsibilities were transferred to secular authorities.
 1	Peran	peran	NOUN	NSD	Number=Sing	4	nsubj	_	MorphInd=^peran<n>_NSD$
 2	pemangku	penpangku	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^peN+pangku<v>_NSD$
@@ -5895,27 +5895,23 @@
 4	mulai	mulai	VERB	VSA	Voice=Act	0	root	_	MorphInd=^mulai<v>_VSA$
 5	menyusut	susut	VERB	VSA	Voice=Act	4	ccomp	_	MorphInd=^meN+susut<v>_VSA$
 6	pada	pada	ADP	R--	_	7	case	_	MorphInd=^pada<r>_R--$
-7	1950	1950	NUM	CC-	NumType=Card	5	obl:tmod	_	MorphInd=^1950<c>_CC-$
-8	-	-	PUNCT	Z--	_	9	punct	_	MorphInd=^-<z>_Z--$
-9	an	an	DET	F--	_	7	det	_	MorphInd=^an<f>_F--$
-10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
-11	1960	1960	NUM	CC-	NumType=Card	7	conj	_	MorphInd=^1960<c>_CC-$
-12	-	-	PUNCT	Z--	_	13	punct	_	MorphInd=^-<z>_Z--$
-13	an	an	DET	F--	_	11	det	_	MorphInd=^an<f>_F--$
-14	karena	karena	SCONJ	S--	_	23	mark	_	MorphInd=^karena<s>_S--$
-15	sebagian	sebagian	DET	ASP	_	16	det	_	MorphInd=^sebagian<a>_ASP$
-16	kekuatan	kekuatan	NOUN	NSD	Number=Sing	23	nsubj:pass	_	MorphInd=^ke+kuat<a>+an_NSD$
-17	hukum	hukum	NOUN	NSD	Number=Sing	16	compound	_	MorphInd=^hukum<n>_NSD$
-18	dan	dan	CCONJ	H--	_	19	cc	_	MorphInd=^dan<h>_H--$
-19	pendidikan	pendidikan	NOUN	NSD	Number=Sing	17	conj	_	MorphInd=^peN+didik<v>+an_NSD$
-20	dan	dan	CCONJ	H--	_	21	cc	_	MorphInd=^dan<h>_H--$
-21	tanggung	tanggung	NOUN	VSA	_	16	conj	_	MorphInd=^tanggung<v>_VSA$
-22	jawab	jawab	NOUN	VSA	_	21	compound	_	MorphInd=^jawab<v>_VSA$
-23	dialihkan	alih	VERB	VSP	Voice=Pass	4	advcl	_	MorphInd=^di+alih<v>+kan_VSP$
-24	kepada	kepada	ADP	R--	_	25	case	_	MorphInd=^kepada<r>_R--$
-25	otoritas	otoritas	NOUN	NSD	Number=Sing	23	obl	_	MorphInd=^otoritas<n>_NSD$
-26	sekuler	sekuler	ADJ	ASP	_	25	amod	_	SpaceAfter=No|MorphInd=^sekuler<a>_ASP$
-27	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
+7	1950-an	1950-an	NOUN	NSD	_	5	obl:tmod	_	MorphInd=^1950<c>_CC-+an<f>_F--$
+8	dan	dan	CCONJ	H--	_	9	cc	_	MorphInd=^dan<h>_H--$
+9	1960-an	1960-an	NOUN	NSD	_	7	conj	_	MorphInd=^1960<c>_CC-+an<f>_F--$
+10	karena	karena	SCONJ	S--	_	19	mark	_	MorphInd=^karena<s>_S--$
+11	sebagian	sebagian	DET	ASP	_	12	det	_	MorphInd=^sebagian<a>_ASP$
+12	kekuatan	kekuatan	NOUN	NSD	Number=Sing	19	nsubj:pass	_	MorphInd=^ke+kuat<a>+an_NSD$
+13	hukum	hukum	NOUN	NSD	Number=Sing	12	compound	_	MorphInd=^hukum<n>_NSD$
+14	dan	dan	CCONJ	H--	_	15	cc	_	MorphInd=^dan<h>_H--$
+15	pendidikan	pendidikan	NOUN	NSD	Number=Sing	13	conj	_	MorphInd=^peN+didik<v>+an_NSD$
+16	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
+17	tanggung	tanggung	NOUN	VSA	_	12	conj	_	MorphInd=^tanggung<v>_VSA$
+18	jawab	jawab	NOUN	VSA	_	17	compound	_	MorphInd=^jawab<v>_VSA$
+19	dialihkan	alih	VERB	VSP	Voice=Pass	4	advcl	_	MorphInd=^di+alih<v>+kan_VSP$
+20	kepada	kepada	ADP	R--	_	21	case	_	MorphInd=^kepada<r>_R--$
+21	otoritas	otoritas	NOUN	NSD	Number=Sing	19	obl	_	MorphInd=^otoritas<n>_NSD$
+22	sekuler	sekuler	ADJ	ASP	_	21	amod	_	SpaceAfter=No|MorphInd=^sekuler<a>_ASP$
+23	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s234
 # text = Bulan April sebelumnya, David Coulthard mengumumkan pengunduran dirinya dari tim, tetapi ia masih akan tetap tinggal di RBR sebagai konsultan.
@@ -13154,7 +13150,7 @@
 17	disusun	susun	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+susun<v>_VSP$
 18	lah	lah	PART	T--	_	17	advmod:emph	_	MorphInd=^lah<t>_T--$
 19	program	program	NOUN	NSD	Number=Sing	17	nsubj:pass	_	MorphInd=^program<n>_NSD$
-20	kerje	kerja	VERB	X--	Typo=Yes	19	acl	_	CorrectForm=kerja|MorphInd=^kerje<x>_X--$
+20	kerje	kerje	VERB	X--	Typo=Yes	19	acl	_	CorrectForm=kerja|MorphInd=^kerje<x>_X--$
 21	Pemerintah	penperintah	PROPN	NSD	_	19	nmod	_	MorphInd=^peN+perintah<n>_NSD$
 22	Daerah	daerah	PROPN	NSD	_	21	flat:name	_	SpaceAfter=No|MorphInd=^daerah<n>_NSD$
 23	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$

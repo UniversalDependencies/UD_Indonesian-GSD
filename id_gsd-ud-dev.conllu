@@ -4542,32 +4542,30 @@
 38	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s162
-# text = Pesawat ini dikembangkan pada tahun 1960 - an sebagai pesawat khusus untuk pertempuran COIN (COunter - INsurgency) atau anti - gerilya.
+# text = Pesawat ini dikembangkan pada tahun 1960-an sebagai pesawat khusus untuk pertempuran COIN (COunter - INsurgency) atau anti - gerilya.
 # text_en = This aircraft was developed in the 1960s as a special aircraft for COIN (Counter - INsurgency) or anti-guerrilla combat.
 1	Pesawat	pesawat	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^pesawat<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	dikembangkan	kembang	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+kembang<v>+kan_VSP$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
 5	tahun	tahun	NOUN	NSD	Number=Sing	3	obl:tmod	_	MorphInd=^tahun<n>_NSD$
-6	1960	1960	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^1960<c>_CC-$
-7	-	-	PUNCT	Z--	_	8	punct	_	MorphInd=^-<z>_Z--$
-8	an	an	NUM	F--	NumType=Card	6	amod	_	MorphInd=^an<f>_F--$
-9	sebagai	sebagai	ADP	R--	_	10	case	_	MorphInd=^sebagai<r>_R--$
-10	pesawat	pesawat	NOUN	NSD	Number=Sing	5	nmod	_	MorphInd=^pesawat<n>_NSD$
-11	khusus	khusus	ADJ	ASP	_	10	amod	_	MorphInd=^khusus<a>_ASP$
-12	untuk	untuk	ADP	R--	_	13	case	_	MorphInd=^untuk<r>_R--$
-13	pertempuran	pertempuran	NOUN	NSD	Number=Sing	10	nmod	_	MorphInd=^per+tempur<n>+an_NSD$
-14	COIN	coin	PROPN	X--	_	13	nmod	_	MorphInd=^coin<x>_X--$
-15	(	(	PUNCT	Z--	_	16	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-16	COunter	counter	PROPN	F--	_	13	appos	_	MorphInd=^counter<f>_F--$
-17	-	-	PUNCT	Z--	_	18	punct	_	MorphInd=^-<z>_Z--$
-18	INsurgency	insurgency	PROPN	X--	_	16	flat:name	_	SpaceAfter=No|MorphInd=^insurgency<x>_X--$
-19	)	)	PUNCT	Z--	_	16	punct	_	MorphInd=^)<z>_Z--$
-20	atau	atau	CCONJ	H--	_	21	cc	_	MorphInd=^atau<h>_H--$
-21	anti	anti	NOUN	ASP	_	13	conj	_	MorphInd=^anti<a>_ASP$
-22	-	-	PUNCT	Z--	_	23	punct	_	MorphInd=^-<z>_Z--$
-23	gerilya	gerilya	NOUN	NSD	Number=Sing	21	fixed	_	SpaceAfter=No|MorphInd=^gerilya<n>_NSD$
-24	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+6	1960-an	1960-an	NOUN	NSD	_	5	nmod	_	MorphInd=^1960<c>_CC-+an<f>_F--$
+7	sebagai	sebagai	ADP	R--	_	8	case	_	MorphInd=^sebagai<r>_R--$
+8	pesawat	pesawat	NOUN	NSD	Number=Sing	5	nmod	_	MorphInd=^pesawat<n>_NSD$
+9	khusus	khusus	ADJ	ASP	_	8	amod	_	MorphInd=^khusus<a>_ASP$
+10	untuk	untuk	ADP	R--	_	11	case	_	MorphInd=^untuk<r>_R--$
+11	pertempuran	pertempuran	NOUN	NSD	Number=Sing	8	nmod	_	MorphInd=^per+tempur<n>+an_NSD$
+12	COIN	coin	PROPN	X--	_	11	nmod	_	MorphInd=^coin<x>_X--$
+13	(	(	PUNCT	Z--	_	14	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+14	COunter	counter	PROPN	F--	_	11	appos	_	MorphInd=^counter<f>_F--$
+15	-	-	PUNCT	Z--	_	16	punct	_	MorphInd=^-<z>_Z--$
+16	INsurgency	insurgency	PROPN	X--	_	14	flat:name	_	SpaceAfter=No|MorphInd=^insurgency<x>_X--$
+17	)	)	PUNCT	Z--	_	14	punct	_	MorphInd=^)<z>_Z--$
+18	atau	atau	CCONJ	H--	_	19	cc	_	MorphInd=^atau<h>_H--$
+19	anti	anti	NOUN	ASP	_	11	conj	_	MorphInd=^anti<a>_ASP$
+20	-	-	PUNCT	Z--	_	21	punct	_	MorphInd=^-<z>_Z--$
+21	gerilya	gerilya	NOUN	NSD	Number=Sing	19	fixed	_	SpaceAfter=No|MorphInd=^gerilya<n>_NSD$
+22	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s163
 # text = Semakin jauh, maka warnanya berubah dari jingga menjadi biru.
@@ -4886,7 +4884,7 @@
 12	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s176
-# text = Goresan garis putih terlihat sangat menonjol dalam albumnya yang dibuat pada paruh akhir 1950 - an dan 1960 - an.
+# text = Goresan garis putih terlihat sangat menonjol dalam albumnya yang dibuat pada paruh akhir 1950-an dan 1960-an.
 # text_en = Scratches of white lines are very prominent in his albums, which were made in the late 1950s and 1960s.
 1	Goresan	goresan	NOUN	X--	_	4	nsubj:pass	_	MorphInd=^goresan<x>_X--$
 2	garis	garis	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^garis<n>_NSD$
@@ -4903,14 +4901,10 @@
 12	pada	pada	ADP	R--	_	13	case	_	MorphInd=^pada<r>_R--$
 13	paruh	paruh	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^paruh<n>_NSD$
 14	akhir	akhir	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^akhir<n>_NSD$
-15	1950	1950	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^1950<c>_CC-$
-16	-	-	PUNCT	Z--	_	17	punct	_	MorphInd=^-<z>_Z--$
-17	an	an	NUM	F--	NumType=Card	15	nummod	_	MorphInd=^an<f>_F--$
-18	dan	dan	CCONJ	H--	_	19	cc	_	MorphInd=^dan<h>_H--$
-19	1960	1960	NUM	CC-	NumType=Card	15	conj	_	MorphInd=^1960<c>_CC-$
-20	-	-	PUNCT	Z--	_	21	punct	_	MorphInd=^-<z>_Z--$
-21	an	an	NUM	F--	NumType=Card	19	nummod	_	SpaceAfter=No|MorphInd=^an<f>_F--$
-22	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
+15	1950-an	1950-an	NOUN	NSD	_	14	nmod	_	MorphInd=^1950<c>_CC-+an<f>_F--$
+16	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
+17	1960-an	1960-an	NOUN	NSD	_	15	conj	_	MorphInd=^1960<c>_CC-+an<f>_F--$|SpaceAfter=No
+18	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s177
 # text = Bawah radar utama, ada film diakui musik independen, seperti Hedwig and the Angry Inch dan Dancer in the Dark; dan film musikal asing, seperti 8 Women, The Other Side of the Bed dan Yes Nurse!
@@ -7444,7 +7438,7 @@
 # text_en = All of them are Allah, the Almighty, in exchange, unlike them when they lived on earth."
 1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	MorphInd=^mereka<p>_PP3$
 2-3	semuanya	_	_	_	_	_	_	_	MorphInd=^semua<b>_B--+dia<p>_PS3$
-2	semua	semua	PRON	B--	PronType=Tot	1	nmod	_	MorphInd=^semua<b>_B--$
+2	semua	semua	DET	B--	PronType=Tot	1	det	_	MorphInd=^semua<b>_B--$
 3	nya	nya	DET	PS3	Definite=Def|PronType=Art	2	det	_	MorphInd=^dia<p>_PS3$
 4	itu	itu	DET	B--	PronType=Dem	2	det	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
 5	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
@@ -8022,7 +8016,7 @@
 11	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s298
-# text = Pesaing Douglas Edwards with the News adalah Camel News Caravan yang diluncurkan tahun 1949 di NBC. Edwards menarik lebih banyak pemirsa pada pertengahan tahun 1950 - an, namun kalah setelah Chet Huntley dan David Brinkley dipasangkan oleh NBC pada Huntley - Brinkley Report.
+# text = Pesaing Douglas Edwards with the News adalah Camel News Caravan yang diluncurkan tahun 1949 di NBC. Edwards menarik lebih banyak pemirsa pada pertengahan tahun 1950-an, namun kalah setelah Chet Huntley dan David Brinkley dipasangkan oleh NBC pada Huntley - Brinkley Report.
 # text_en = A competitor to Douglas Edwards with the News was the Camel News Caravan, which was launched in 1949 on NBC. Edwards attracted more viewers in the mid-1950s, but lost out after Chet Huntley and David Brinkley were paired by NBC on Huntley - Brinkley Report.
 1	Pesaing	pesaing	PROPN	NSD	_	8	nsubj	_	MorphInd=^pesaing<n>_NSD$
 2	Douglas	douglas	PROPN	F--	_	1	flat:name	_	MorphInd=^douglas<f>_F--$
@@ -8049,27 +8043,25 @@
 23	pada	pada	ADP	R--	_	25	case	_	MorphInd=^pada<r>_R--$
 24	pertengahan	pertengahan	NOUN	NSD	Number=Sing	25	amod	_	MorphInd=^per+tengah<n>+an_NSD$
 25	tahun	tahun	NOUN	NSD	Number=Sing	22	obl	_	MorphInd=^tahun<n>_NSD$
-26	1950	1950	NUM	CC-	NumType=Card	25	nummod	_	MorphInd=^1950<c>_CC-$
-27	-	-	PUNCT	Z--	_	28	punct	_	MorphInd=^-<z>_Z--$
-28	an	an	NUM	F--	NumType=Card	26	amod	_	SpaceAfter=No|MorphInd=^an<f>_F--$
-29	,	,	PUNCT	Z--	_	31	punct	_	MorphInd=^,<z>_Z--$
-30	namun	namun	CCONJ	S--	_	31	cc	_	MorphInd=^namun<s>_S--$
-31	kalah	kalah	VERB	ASP	_	19	conj	_	MorphInd=^kalah<a>_ASP$
-32	setelah	setelah	ADP	R--	_	38	case	_	MorphInd=^setelah<r>_R--$
-33	Chet	chet	PROPN	X--	_	38	nsubj:pass	_	MorphInd=^chet<x>_X--$
-34	Huntley	huntley	PROPN	X--	_	33	flat:name	_	MorphInd=^huntley<x>_X--$
-35	dan	dan	CCONJ	H--	_	36	cc	_	MorphInd=^dan<h>_H--$
-36	David	david	PROPN	F--	_	33	conj	_	MorphInd=^david<f>_F--$
-37	Brinkley	brinkley	PROPN	X--	_	36	flat:name	_	MorphInd=^brinkley<x>_X--$
-38	dipasangkan	pasang	VERB	VSP	Voice=Pass	31	xcomp	_	MorphInd=^di+pasang<v>+kan_VSP$
-39	oleh	oleh	ADP	R--	_	40	case	_	MorphInd=^oleh<r>_R--$
-40	NBC	nbc	PROPN	F--	_	38	obl	_	MorphInd=^nbc<f>_F--$
-41	pada	pada	ADP	R--	_	42	case	_	MorphInd=^pada<r>_R--$
-42	Huntley	huntley	PROPN	X--	_	38	obl	_	MorphInd=^huntley<x>_X--$
-43	-	-	PUNCT	Z--	_	44	punct	_	MorphInd=^-<z>_Z--$
-44	Brinkley	brinkley	PROPN	X--	_	42	flat:name	_	MorphInd=^brinkley<x>_X--$
-45	Report	report	PROPN	F--	_	42	flat:name	_	SpaceAfter=No|MorphInd=^report<f>_F--$
-46	.	.	PUNCT	Z--	_	19	punct	_	MorphInd=^.<z>_Z--$
+26	1950-an	1950-an	NOUN	NSD	_	25	nmod	_	MorphInd=^1950<c>_CC-+an<f>_F--$|SpaceAfter=No
+27	,	,	PUNCT	Z--	_	29	punct	_	MorphInd=^,<z>_Z--$
+28	namun	namun	CCONJ	S--	_	29	cc	_	MorphInd=^namun<s>_S--$
+29	kalah	kalah	VERB	ASP	_	19	conj	_	MorphInd=^kalah<a>_ASP$
+30	setelah	setelah	ADP	R--	_	36	case	_	MorphInd=^setelah<r>_R--$
+31	Chet	chet	PROPN	X--	_	36	nsubj:pass	_	MorphInd=^chet<x>_X--$
+32	Huntley	huntley	PROPN	X--	_	31	flat:name	_	MorphInd=^huntley<x>_X--$
+33	dan	dan	CCONJ	H--	_	34	cc	_	MorphInd=^dan<h>_H--$
+34	David	david	PROPN	F--	_	31	conj	_	MorphInd=^david<f>_F--$
+35	Brinkley	brinkley	PROPN	X--	_	34	flat:name	_	MorphInd=^brinkley<x>_X--$
+36	dipasangkan	pasang	VERB	VSP	Voice=Pass	29	xcomp	_	MorphInd=^di+pasang<v>+kan_VSP$
+37	oleh	oleh	ADP	R--	_	38	case	_	MorphInd=^oleh<r>_R--$
+38	NBC	nbc	PROPN	F--	_	36	obl	_	MorphInd=^nbc<f>_F--$
+39	pada	pada	ADP	R--	_	40	case	_	MorphInd=^pada<r>_R--$
+40	Huntley	huntley	PROPN	X--	_	36	obl	_	MorphInd=^huntley<x>_X--$
+41	-	-	PUNCT	Z--	_	42	punct	_	MorphInd=^-<z>_Z--$
+42	Brinkley	brinkley	PROPN	X--	_	40	flat:name	_	MorphInd=^brinkley<x>_X--$
+43	Report	report	PROPN	F--	_	40	flat:name	_	SpaceAfter=No|MorphInd=^report<f>_F--$
+44	.	.	PUNCT	Z--	_	19	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s299
 # text = Asal - usulnya tari ini tidak diketahui secara jelas.
@@ -9228,43 +9220,41 @@
 43	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s336
-# text = Sejak akhir 1990 - an penyakit tumor muka Setan Tasmania telah mengurangi populasinya secara drastis dan kini mengancam kebertahanan spesies ini yang kemungkinan segera akan dimasukkan dalam daftar binatang yang terancam punah.
+# text = Sejak akhir 1990-an penyakit tumor muka Setan Tasmania telah mengurangi populasinya secara drastis dan kini mengancam kebertahanan spesies ini yang kemungkinan segera akan dimasukkan dalam daftar binatang yang terancam punah.
 # text_en = Since the late 1990s the Tasmanian Devil facial tumor has drastically reduced its population and is now threatening the survival of this species which may soon be included in the endangered animal list.
 1	Sejak	sejak	ADP	S--	_	2	case	_	MorphInd=^sejak<s>_S--$
-2	akhir	akhir	NOUN	NSD	Number=Sing	12	obl	_	MorphInd=^akhir<n>_NSD$
-3	1990	1990	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^1990<c>_CC-$
-4	-	-	PUNCT	Z--	_	5	punct	_	MorphInd=^-<z>_Z--$
-5	an	an	DET	F--	_	3	det	_	MorphInd=^an<f>_F--$
-6	penyakit	pensakit	NOUN	NSD	Number=Sing	12	nsubj	_	MorphInd=^peN+sakit<n>_NSD$
-7	tumor	tumor	NOUN	NSD	Number=Sing	6	compound	_	MorphInd=^tumor<n>_NSD$
-8	muka	muka	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^muka<n>_NSD$
-9	Setan	setan	NOUN	NSD	Number=Sing	8	compound	_	MorphInd=^setan<n>_NSD$
-10	Tasmania	tasmania	PROPN	X--	_	9	nmod	_	MorphInd=^tasmania<x>_X--$
-11	telah	telah	AUX	D--	_	12	aux	_	MorphInd=^telah<d>_D--$
-12	mengurangi	kurang	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+kurang<a>+i_VSA$
-13-14	populasinya	_	_	_	_	_	_	_	MorphInd=^populasi<n>_NSD+dia<p>_PS3$
-13	populasi	populasi	NOUN	NSD	Number=Sing	12	obj	_	MorphInd=^populasi<n>_NSD$
-14	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	MorphInd=^dia<p>_PS3$
-15	secara	secara	ADP	R--	_	16	case:adv	_	MorphInd=^secara<r>_R--$
-16	drastis	drastis	ADJ	ASP	_	12	advmod	_	MorphInd=^drastis<a>_ASP$
-17	dan	dan	CCONJ	H--	_	19	cc	_	MorphInd=^dan<h>_H--$
-18	kini	kini	ADV	D--	_	19	advmod	_	MorphInd=^kini<d>_D--$
-19	mengancam	ancam	VERB	VSA	Voice=Act	12	conj	_	MorphInd=^meN+ancam<v>_VSA$
-20	kebertahanan	kebertahanan	NOUN	X--	_	19	obj	_	MorphInd=^kebertahanan<x>_X--$
-21	spesies	spesies	NOUN	NSD	Number=Sing	20	compound	_	MorphInd=^spesies<n>_NSD$
-22	ini	ini	DET	B--	PronType=Dem	21	det	_	MorphInd=^ini<b>_B--$
-23	yang	yang	PRON	S--	PronType=Rel	27	nsubj:pass	_	MorphInd=^yang<s>_S--$
-24	kemungkinan	kemungkinan	NOUN	NSD	Number=Sing	27	compound	_	MorphInd=^kemungkinan<n>_NSD$
-25	segera	segera	ADV	D--	_	27	advmod	_	MorphInd=^segera<d>_D--$
-26	akan	akan	AUX	M--	_	27	aux	_	MorphInd=^akan<m>_M--$
-27	dimasukkan	masuk	VERB	VSP	Voice=Pass	21	acl:relcl	_	MorphInd=^di+masuk<v>+kan_VSP$
-28	dalam	dalam	ADP	ASP	_	29	case	_	MorphInd=^dalam<a>_ASP$
-29	daftar	daftar	NOUN	NSD	Number=Sing	27	obl	_	MorphInd=^daftar<n>_NSD$
-30	binatang	binatang	NOUN	NSD	Number=Sing	29	compound	_	MorphInd=^binatang<n>_NSD$
-31	yang	yang	PRON	S--	PronType=Rel	32	nsubj:pass	_	MorphInd=^yang<s>_S--$
-32	terancam	ancam	VERB	VSP	Voice=Pass	29	acl:relcl	_	MorphInd=^ter+ancam<v>_VSP$
-33	punah	punah	ADJ	NSD	_	32	amod	_	SpaceAfter=No|MorphInd=^punah<n>_NSD$
-34	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
+2	akhir	akhir	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^akhir<n>_NSD$
+3	1990-an	1990-an	NOUN	NSD	_	2	nmod	_	MorphInd=^1990<c>_CC-+an<f>_F--$
+4	penyakit	pensakit	NOUN	NSD	Number=Sing	10	nsubj	_	MorphInd=^peN+sakit<n>_NSD$
+5	tumor	tumor	NOUN	NSD	Number=Sing	4	compound	_	MorphInd=^tumor<n>_NSD$
+6	muka	muka	NOUN	NSD	Number=Sing	5	compound	_	MorphInd=^muka<n>_NSD$
+7	Setan	setan	NOUN	NSD	Number=Sing	6	compound	_	MorphInd=^setan<n>_NSD$
+8	Tasmania	tasmania	PROPN	X--	_	7	nmod	_	MorphInd=^tasmania<x>_X--$
+9	telah	telah	AUX	D--	_	10	aux	_	MorphInd=^telah<d>_D--$
+10	mengurangi	kurang	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+kurang<a>+i_VSA$
+11-12	populasinya	_	_	_	_	_	_	_	MorphInd=^populasi<n>_NSD+dia<p>_PS3$
+11	populasi	populasi	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^populasi<n>_NSD$
+12	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	MorphInd=^dia<p>_PS3$
+13	secara	secara	ADP	R--	_	14	case:adv	_	MorphInd=^secara<r>_R--$
+14	drastis	drastis	ADJ	ASP	_	10	advmod	_	MorphInd=^drastis<a>_ASP$
+15	dan	dan	CCONJ	H--	_	17	cc	_	MorphInd=^dan<h>_H--$
+16	kini	kini	ADV	D--	_	17	advmod	_	MorphInd=^kini<d>_D--$
+17	mengancam	ancam	VERB	VSA	Voice=Act	10	conj	_	MorphInd=^meN+ancam<v>_VSA$
+18	kebertahanan	kebertahanan	NOUN	X--	_	17	obj	_	MorphInd=^kebertahanan<x>_X--$
+19	spesies	spesies	NOUN	NSD	Number=Sing	18	compound	_	MorphInd=^spesies<n>_NSD$
+20	ini	ini	DET	B--	PronType=Dem	19	det	_	MorphInd=^ini<b>_B--$
+21	yang	yang	PRON	S--	PronType=Rel	25	nsubj:pass	_	MorphInd=^yang<s>_S--$
+22	kemungkinan	kemungkinan	NOUN	NSD	Number=Sing	25	compound	_	MorphInd=^kemungkinan<n>_NSD$
+23	segera	segera	ADV	D--	_	25	advmod	_	MorphInd=^segera<d>_D--$
+24	akan	akan	AUX	M--	_	25	aux	_	MorphInd=^akan<m>_M--$
+25	dimasukkan	masuk	VERB	VSP	Voice=Pass	19	acl:relcl	_	MorphInd=^di+masuk<v>+kan_VSP$
+26	dalam	dalam	ADP	ASP	_	27	case	_	MorphInd=^dalam<a>_ASP$
+27	daftar	daftar	NOUN	NSD	Number=Sing	25	obl	_	MorphInd=^daftar<n>_NSD$
+28	binatang	binatang	NOUN	NSD	Number=Sing	27	compound	_	MorphInd=^binatang<n>_NSD$
+29	yang	yang	PRON	S--	PronType=Rel	30	nsubj:pass	_	MorphInd=^yang<s>_S--$
+30	terancam	ancam	VERB	VSP	Voice=Pass	27	acl:relcl	_	MorphInd=^ter+ancam<v>_VSP$
+31	punah	punah	ADJ	NSD	_	30	amod	_	SpaceAfter=No|MorphInd=^punah<n>_NSD$
+32	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s337
 # text = Sementara itu, Direktorat Jenderal Penerbangan Sipil telah meminta penjelasan atas kecelakaan ini.
@@ -10026,25 +10016,23 @@
 18	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s372
-# text = Penerbangan sipil Chongqing dimulai sejak 1920 - an, dan memiliki sejarah lebih dari 90 tahun.
+# text = Penerbangan sipil Chongqing dimulai sejak 1920-an, dan memiliki sejarah lebih dari 90 tahun.
 # text_en = Chongqing civil aviation dates back to the 1920s, and has a history of more than 90 years.
 1	Penerbangan	penterbangan	NOUN	NSD	Number=Sing	4	nsubj:pass	_	MorphInd=^peN+terbang<v>+an_NSD$
 2	sipil	sipil	ADJ	ASP	_	1	amod	_	MorphInd=^sipil<a>_ASP$
 3	Chongqing	chongqing	PROPN	F--	_	1	nmod	_	MorphInd=^chongqing<f>_F--$
 4	dimulai	mulai	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+mulai<v>_VSP$
 5	sejak	sejak	ADP	S--	_	4	case	_	MorphInd=^sejak<s>_S--$
-6	1920	1920	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^1920<c>_CC-$
-7	-	-	PUNCT	Z--	_	8	punct	_	MorphInd=^-<z>_Z--$
-8	an	an	NUM	F--	NumType=Card	6	nummod	_	SpaceAfter=No|MorphInd=^an<f>_F--$
-9	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
-10	dan	dan	CCONJ	H--	_	11	cc	_	MorphInd=^dan<h>_H--$
-11	memiliki	milik	VERB	VSA	Voice=Act	4	conj	_	MorphInd=^meN+milik<v>+i_VSA$
-12	sejarah	sejarah	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^sejarah<n>_NSD$
-13	lebih	lebih	ADV	D--	_	16	advmod	_	MorphInd=^lebih<d>_D--$
-14	dari	dari	ADP	R--	_	16	case	_	MorphInd=^dari<r>_R--$
-15	90	90	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^90<c>_CC-$
-16	tahun	tahun	NOUN	NSD	Number=Sing	12	nmod	_	SpaceAfter=No|MorphInd=^tahun<n>_NSD$
-17	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
+6	1920-an	1920-an	NOUN	NSD	_	4	nmod	_	MorphInd=^1920<c>_CC-+an<f>_F--$|SpaceAfter=No
+7	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
+8	dan	dan	CCONJ	H--	_	9	cc	_	MorphInd=^dan<h>_H--$
+9	memiliki	milik	VERB	VSA	Voice=Act	4	conj	_	MorphInd=^meN+milik<v>+i_VSA$
+10	sejarah	sejarah	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^sejarah<n>_NSD$
+11	lebih	lebih	ADV	D--	_	14	advmod	_	MorphInd=^lebih<d>_D--$
+12	dari	dari	ADP	R--	_	14	case	_	MorphInd=^dari<r>_R--$
+13	90	90	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^90<c>_CC-$
+14	tahun	tahun	NOUN	NSD	Number=Sing	10	nmod	_	SpaceAfter=No|MorphInd=^tahun<n>_NSD$
+15	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s373
 # text = Sungai-sungai besar yang mengalir diantaranya adalah Kali Sragi dan Kali Sengkarang beserta anak-anak sungainya, yang kesemuanya bermuara ke Laut Jawa. Kajen, ibukota Kabupaten Pekalongan, berada di bagian tengah-tengah wilayah kabupaten, sekitar 25 km sebelah selatan Kota Pekalongan.
@@ -10334,7 +10322,7 @@
 # text = Artikel berikut menjelaskan proses kualifikasi menuju babak utama SAP Open 2011.
 # text_en = The following article describes the qualification process for the main round of SAP Open 2011.
 1	Artikel	artikel	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^artikel<n>_NSD$
-2	berikut	berikut	VERB	VSA	Voice=Act	1	acl	_	MorphInd=^ber+ikut<v>_VSA$
+2	berikut	ikut	VERB	VSA	Voice=Act	1	acl	_	MorphInd=^ber+ikut<v>_VSA$
 3	menjelaskan	jelas	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+jelas<a>+kan_VSA$
 4	proses	proses	NOUN	NSD	Number=Sing	3	obj	_	MorphInd=^proses<n>_NSD$
 5	kualifikasi	kualifikasi	NOUN	NSD	Number=Sing	4	compound	_	MorphInd=^kualifikasi<n>_NSD$
@@ -10520,7 +10508,7 @@
 3	ganja	ganja	NOUN	X--	_	2	compound	_	MorphInd=^ganja<x>_X--$
 4	berupa	rupa	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+rupa<n>_VSA$
 5	daun	daun	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^daun<n>_NSD$
-6	berikut	berikut	VERB	VSA	_	4	advcl	_	MorphInd=^ber+ikut<v>_VSA$
+6	berikut	ikut	VERB	VSA	_	4	advcl	_	MorphInd=^ber+ikut<v>_VSA$
 7	ranting	ranting	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^ranting<n>_NSD$
 8	dan	dan	CCONJ	H--	_	9	cc	_	MorphInd=^dan<h>_H--$
 9	bunga	bunga	NOUN	NSD	Number=Sing	7	conj	_	MorphInd=^bunga<n>_NSD$
@@ -10592,7 +10580,7 @@
 2	sumber	sumber	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^sumber<n>_NSD$
 3	mata	mata	NOUN	NSD	Number=Sing	2	compound	_	MorphInd=^mata<n>_NSD$
 4	air	air	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^air<n>_NSD$
-5	berlimpahh	limpah	VERB	X--	_	0	root	_	CorrectForm=berlimpah|MorphInd=^berlimpahh<x>_X--$
+5	berlimpahh	berlimpahh	VERB	X--	_	0	root	_	CorrectForm=berlimpah|MorphInd=^berlimpahh<x>_X--$
 6	terutama	terutama	ADV	ASS	_	8	advmod	_	MorphInd=^ter+utama<a>_ASS$
 7	di	di	ADP	R--	_	8	case	_	MorphInd=^di<r>_R--$
 8	RT	rt	NOUN	F--	Abbr=Yes	2	nmod	_	MorphInd=^rt<f>_F--$
@@ -13586,37 +13574,35 @@
 34	?	?	PUNCT	Z--	_	11	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s498
-# text = Pada awal tahun 1870 - an, Jepang kembali berusaha merebut Korea yang berada dalam pengaruh Cina. Pada tahun 1895, Maharani Myeongseong dibunuh oleh mata-mata Jepang.
+# text = Pada awal tahun 1870-an, Jepang kembali berusaha merebut Korea yang berada dalam pengaruh Cina. Pada tahun 1895, Maharani Myeongseong dibunuh oleh mata-mata Jepang.
 # text_en = In the early 1870s, Japan again tried to seize Korea which was under Chinese influence. In 1895, Empress Myeongseong was assassinated by Japanese spies.
 1	Pada	pada	ADP	R--	_	3	case	_	MorphInd=^pada<r>_R--$
 2	awal	awal	ADJ	NSD	_	3	amod	_	MorphInd=^awal<n>_NSD$
-3	tahun	tahun	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^tahun<n>_NSD$
-4	1870	1870	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^1870<c>_CC-$
-5	-	-	PUNCT	Z--	_	6	punct	_	MorphInd=^-<z>_Z--$
-6	an	an	NUM	F--	NumType=Card	4	nummod	_	SpaceAfter=No|MorphInd=^an<f>_F--$
-7	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
-8	Jepang	jepang	PROPN	NSD	_	10	nsubj	_	MorphInd=^jepang<n>_NSD$
-9	kembali	kembali	ADV	VSA	_	10	advmod	_	MorphInd=^kembali<v>_VSA$
-10	berusaha	usaha	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+usaha<n>_VSA$
-11	merebut	rebut	VERB	VSA	Voice=Act	10	xcomp	_	MorphInd=^meN+rebut<v>_VSA$
-12	Korea	korea	PROPN	NSD	_	11	obj	_	MorphInd=^korea<n>_NSD$
-13	yang	yang	PRON	S--	PronType=Rel	14	nsubj	_	MorphInd=^yang<s>_S--$
-14	berada	ada	VERB	VSA	Voice=Act	12	acl:relcl	_	MorphInd=^ber+ada<a>_VSA$
-15	dalam	dalam	ADP	ASP	_	16	case	_	MorphInd=^dalam<a>_ASP$
-16	pengaruh	pengaruh	NOUN	NSD	Number=Sing	14	obl	_	MorphInd=^pengaruh<n>_NSD$
-17	Cina	cina	PROPN	NSD	_	16	nmod	_	SpaceAfter=No|MorphInd=^cina<n>_NSD$
-18	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
-19	Pada	pada	ADP	R--	_	20	case	_	MorphInd=^pada<r>_R--$
-20	tahun	tahun	NOUN	NSD	Number=Sing	25	obl:tmod	_	MorphInd=^tahun<n>_NSD$
-21	1895	1895	NUM	CC-	NumType=Card	20	nummod	_	SpaceAfter=No|MorphInd=^1895<c>_CC-$
-22	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
-23	Maharani	maharani	PROPN	X--	_	25	nsubj:pass	_	MorphInd=^maharani<x>_X--$
-24	Myeongseong	myeongseong	PROPN	X--	_	23	flat:name	_	MorphInd=^myeongseong<x>_X--$
-25	dibunuh	bunuh	VERB	VSP	Voice=Pass	10	dep	_	MorphInd=^di+bunuh<v>_VSP$
-26	oleh	oleh	ADP	R--	_	27	case	_	MorphInd=^oleh<r>_R--$
-27	mata-mata	mata	NOUN	NSD	Number=Plur	25	obl	_	MorphInd=^mata<n>_NSD$
-28	Jepang	jepang	PROPN	NSD	_	27	nmod	_	SpaceAfter=No|MorphInd=^jepang<n>_NSD$
-29	.	.	PUNCT	Z--	_	25	punct	_	MorphInd=^.<z>_Z--$
+3	tahun	tahun	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^tahun<n>_NSD$
+4	1870-an	1870-an	NOUN	NSD	_	3	nmod	_	MorphInd=^1870<c>_CC-+an<f>_F--$|SpaceAfter=No
+5	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
+6	Jepang	jepang	PROPN	NSD	_	8	nsubj	_	MorphInd=^jepang<n>_NSD$
+7	kembali	kembali	ADV	VSA	_	8	advmod	_	MorphInd=^kembali<v>_VSA$
+8	berusaha	usaha	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+usaha<n>_VSA$
+9	merebut	rebut	VERB	VSA	Voice=Act	8	xcomp	_	MorphInd=^meN+rebut<v>_VSA$
+10	Korea	korea	PROPN	NSD	_	9	obj	_	MorphInd=^korea<n>_NSD$
+11	yang	yang	PRON	S--	PronType=Rel	12	nsubj	_	MorphInd=^yang<s>_S--$
+12	berada	ada	VERB	VSA	Voice=Act	10	acl:relcl	_	MorphInd=^ber+ada<a>_VSA$
+13	dalam	dalam	ADP	ASP	_	14	case	_	MorphInd=^dalam<a>_ASP$
+14	pengaruh	pengaruh	NOUN	NSD	Number=Sing	12	obl	_	MorphInd=^pengaruh<n>_NSD$
+15	Cina	cina	PROPN	NSD	_	14	nmod	_	SpaceAfter=No|MorphInd=^cina<n>_NSD$
+16	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
+17	Pada	pada	ADP	R--	_	18	case	_	MorphInd=^pada<r>_R--$
+18	tahun	tahun	NOUN	NSD	Number=Sing	23	obl:tmod	_	MorphInd=^tahun<n>_NSD$
+19	1895	1895	NUM	CC-	NumType=Card	18	nummod	_	SpaceAfter=No|MorphInd=^1895<c>_CC-$
+20	,	,	PUNCT	Z--	_	18	punct	_	MorphInd=^,<z>_Z--$
+21	Maharani	maharani	PROPN	X--	_	23	nsubj:pass	_	MorphInd=^maharani<x>_X--$
+22	Myeongseong	myeongseong	PROPN	X--	_	21	flat:name	_	MorphInd=^myeongseong<x>_X--$
+23	dibunuh	bunuh	VERB	VSP	Voice=Pass	8	dep	_	MorphInd=^di+bunuh<v>_VSP$
+24	oleh	oleh	ADP	R--	_	25	case	_	MorphInd=^oleh<r>_R--$
+25	mata-mata	mata	NOUN	NSD	Number=Plur	23	obl	_	MorphInd=^mata<n>_NSD$
+26	Jepang	jepang	PROPN	NSD	_	25	nmod	_	SpaceAfter=No|MorphInd=^jepang<n>_NSD$
+27	.	.	PUNCT	Z--	_	23	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s499
 # text = Tama dan Ambar juga mencoba menenangkan Kaffa.
@@ -14967,7 +14953,7 @@
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
 2	masukan	masukan	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^masuk<v>+an_NSD$
 3-4	keempatnya	_	_	_	_	_	_	_	MorphInd=^empat<c>_CC-+dia<p>_PS3$
-3	keempat	empat	ADJ	CC-	_	2	amod	_	MorphInd=^empat<c>_CC-$
+3	keempat	empat	ADJ	CC-	NumType=Ord	2	amod	_	MorphInd=^empat<c>_CC-$
 4	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	MorphInd=^dia<p>_PS3$
 5	ke	ke	ADP	R--	_	6	case	_	MorphInd=^ke<r>_R--$
 6	pasar	pasar	NOUN	NSD	Number=Sing	2	nmod	_	MorphInd=^pasar<n>_NSD$

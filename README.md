@@ -17,6 +17,7 @@ http://septinalarasati.com/morphind/).
   * The proclitics ku-, kau- separated as 1Sing/2Sing subjects ('I, you').
   * Stripped affixes from lemmas of verbs.
   * Fixed tokenization and tags of ordinal numerals.
+  * Fixed tokenization of decades ('1990-an').
   * Proper nouns do not have the Number feature (unlike common nouns).
   * Numerous legacy validation errors fixed.
 * 2021-05-15 v2.8
