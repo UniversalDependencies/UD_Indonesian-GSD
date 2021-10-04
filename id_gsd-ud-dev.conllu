@@ -5330,7 +5330,7 @@
 43	menolong	tolong	VERB	VSA	Voice=Act	22	conj	_	MorphInd=^meN+tolong<v>_VSA$
 44-45	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 44	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	43	obj	_	MorphInd=^diri<n>_NSD$
-45	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	44	nmod:poss	_	MorphInd=^dia<p>_PS3$
+45	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	nmod:poss	_	MorphInd=^dia<p>_PS3$
 46	dari	dari	ADP	R--	_	47	case	_	MorphInd=^dari<r>_R--$
 47	kehancuran	hancur	NOUN	NSD	Number=Sing	43	obl	_	MorphInd=^ke+hancur<a>+an_NSD$
 48	dan	dan	CCONJ	H--	_	49	cc	_	MorphInd=^dan<h>_H--$
@@ -5755,7 +5755,7 @@
 17	kepentingan	penting	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^ke+penting<a>+an_NSD$
 18-19	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 18	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	17	nmod	_	MorphInd=^diri<n>_NSD$
-19	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	MorphInd=^dia<p>_PS3$
+19	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	MorphInd=^dia<p>_PS3$
 20	dan	dan	CCONJ	H--	_	21	cc	_	MorphInd=^dan<h>_H--$
 21	sesama	sesama	NOUN	D--	_	17	conj	_	MorphInd=^sesama<d>_D--$
 22	mereka	mereka	PRON	PP3	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	SpaceAfter=No|MorphInd=^mereka<p>_PP3$
@@ -6435,7 +6435,7 @@
 4	bahwa	bahwa	SCONJ	S--	_	9	mark	_	MorphInd=^bahwa<s>_S--$
 5-6	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 5	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	9	nsubj	_	MorphInd=^diri<n>_NSD$
-6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	MorphInd=^dia<p>_PS3$
+6	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	MorphInd=^dia<p>_PS3$
 7	tidak	tidak	PART	G--	Polarity=Neg	9	advmod	_	MorphInd=^tidak<g>_G--$
 8	pernah	pernah	ADV	D--	_	9	advmod	_	MorphInd=^pernah<d>_D--$
 9	mengetahui	ketahui	VERB	VSA	Voice=Act	2	ccomp	_	MorphInd=^meN+ketahui<v>_VSA$

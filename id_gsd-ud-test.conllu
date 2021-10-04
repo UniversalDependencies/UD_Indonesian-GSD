@@ -2285,7 +2285,7 @@
 9	sementara	sementara	SCONJ	S--	_	14	mark	_	MorphInd=^sementara<s>_S--$
 10-11	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 10	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	14	nsubj	_	MorphInd=^diri<n>_NSD$
-11	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	MorphInd=^dia<p>_PS3$
+11	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	MorphInd=^dia<p>_PS3$
 12	semakin	semakin	ADV	D--	_	13	advmod	_	MorphInd=^semakin<d>_D--$
 13	lama	lama	ADJ	ASP	_	14	amod	_	MorphInd=^lama<a>_ASP$
 14	menjadi	jadi	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^meN+jadi<a>_VSA$
@@ -5717,7 +5717,7 @@
 6	kah	kah	PART	T--	_	5	advmod:emph	_	MorphInd=^kah<t>_T--$
 7-8	diriku	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+aku<p>_PS1$
 7	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	3	advcl	_	MorphInd=^diri<n>_NSD$
-8	ku	aku	PRON	PS1	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	MorphInd=^aku<p>_PS1$
+8	ku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|Poss=Yes|PronType=Prs	7	nmod:poss	_	MorphInd=^aku<p>_PS1$
 9	sebenarnya	sebenarnya	ADJ	D--	_	7	amod	_	MorphInd=^sebenarnya<d>_D--$
 10	di	di	ADP	R--	_	12	case	_	MorphInd=^di<r>_R--$
 11	dalam	dalam	ADP	R--	_	12	case	_	MorphInd=^dalam<r>_R--$
@@ -5930,7 +5930,7 @@
 8	pengunduran	undur	NOUN	NSD	Number=Sing	7	obj	_	MorphInd=^peN+undur<v>+an_NSD$
 9-10	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 9	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	8	det	_	MorphInd=^diri<n>_NSD$
-10	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	MorphInd=^dia<p>_PS3$
+10	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	MorphInd=^dia<p>_PS3$
 11	dari	dari	ADP	R--	_	12	case	_	MorphInd=^dari<r>_R--$
 12	tim	tim	NOUN	NSD	Number=Sing	8	nmod	_	SpaceAfter=No|MorphInd=^tim<n>_NSD$
 13	,	,	PUNCT	Z--	_	19	punct	_	MorphInd=^,<z>_Z--$
@@ -11655,7 +11655,7 @@
 44	menggelari	gelar	VERB	VSA	Voice=Act	17	dep	_	MorphInd=^meN+gelar<v>+i_VSA$
 45-46	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 45	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	44	obj	_	MorphInd=^diri<n>_NSD$
-46	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	45	nmod:poss	_	MorphInd=^dia<p>_PS3$
+46	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	MorphInd=^dia<p>_PS3$
 47	sebagai	sebagai	ADP	R--	_	48	case	_	MorphInd=^sebagai<r>_R--$
 48	Pangeran	pangeran	PROPN	NSD	_	44	obl	_	MorphInd=^pangeran<n>_NSD$
 49	Handong	handong	PROPN	X--	_	48	flat:name	_	MorphInd=^handong<x>_X--$
@@ -12650,7 +12650,7 @@
 19	memuaskan	puas	VERB	VSA	Voice=Act	10	advcl	_	MorphInd=^meN+puas<a>+kan_VSA$
 20-21	dirinya	_	_	_	_	_	_	_	MorphInd=^diri<n>_NSD+dia<p>_PS3$
 20	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	19	obj	_	MorphInd=^diri<n>_NSD$
-21	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	MorphInd=^dia<p>_PS3$
+21	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	MorphInd=^dia<p>_PS3$
 22	sendiri	sendiri	DET	ASP	PronType=Emp	20	det	_	MorphInd=^sendiri<a>_ASP$
 23	dengan	dengan	ADP	R--	_	24	case	_	MorphInd=^dengan<r>_R--$
 24	reparasi	reparasi	NOUN	X--	_	19	obl	_	MorphInd=^reparasi<x>_X--$
