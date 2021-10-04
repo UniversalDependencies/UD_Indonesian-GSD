@@ -2281,7 +2281,7 @@
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
 5	garis	garis	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^garis<n>_NSD$
 6	horizontal	horizontal	ADJ	F--	_	5	amod	_	MorphInd=^horizontal<f>_F--$
-7	di	di	SCONJ	R--	_	14	mark	_	MorphInd=^di<r>_R--$
+7	di	di	ADP	R--	_	14	mark	_	MWEPOS=SCONJ|MorphInd=^di<r>_R--$
 8	mana	mana	PRON	W--	PronType=Dem	7	fixed	_	MorphInd=^mana<w>_W--$
 9	garis	garis	NOUN	NSD	Number=Sing	14	nsubj	_	MorphInd=^garis<n>_NSD$
 10	pinggang	pinggang	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^pinggang<n>_NSD$
@@ -4039,7 +4039,7 @@
 20	yang	yang	PRON	S--	PronType=Rel	21	nsubj	_	MorphInd=^yang<s>_S--$
 21	menjelaskan	jelas	VERB	VSA	Voice=Act	15	acl:relcl	_	MorphInd=^meN+jelas<a>+kan_VSA$
 22	proses	proses	NOUN	NSD	Number=Sing	21	obj	_	MorphInd=^proses<n>_NSD$
-23	di	di	SCONJ	R--	_	26	mark	_	MorphInd=^di<r>_R--$
+23	di	di	ADP	R--	_	26	mark	_	MWEPOS=SCONJ|MorphInd=^di<r>_R--$
 24	mana	mana	PRON	W--	PronType=Dem	23	fixed	_	MorphInd=^mana<w>_W--$
 25	DNA	dna	PROPN	F--	_	26	nsubj	_	MorphInd=^dna<f>_F--$
 26	berubah	ubah	VERB	VSA	Voice=Act	22	acl:relcl	_	MorphInd=^ber+ubah<v>_VSA$

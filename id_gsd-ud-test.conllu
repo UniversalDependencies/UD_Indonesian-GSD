@@ -5619,11 +5619,11 @@
 28	merilis	rilis	VERB	VSA	Voice=Act	3	conj	_	MorphInd=^meN+rilis<v>_VSA$
 29	album	album	NOUN	NSD	Number=Sing	28	obj	_	MorphInd=^album<n>_NSD$
 30	akustik	akustik	NOUN	NSD	Number=Sing	29	compound	_	MorphInd=^akustik<n>_NSD$
-31	yang	yang	PRON	S--	PronType=Rel	33	obj	_	MorphInd=^yang<s>_S--$
-32	di	di	SCONJ	R--	_	33	mark	_	MorphInd=^di<r>_R--$
-33	beri	beri	VERB	VSA	Voice=Act	29	acl:relcl	_	MorphInd=^beri<v>_VSA$
-34	nama	nama	NOUN	NSD	Number=Sing	33	obj	_	MorphInd=^nama<n>_NSD$
-35	GN	gn	PROPN	X--	_	34	nmod	_	SpaceAfter=No|MorphInd=^gn<x>_X--$
+31	yang	yang	PRON	S--	PronType=Rel	32	nsubj	_	MorphInd=^yang<s>_S--$
+32	di	di	VERB	R--	Typo=Yes|Voice=Pass	29	acl:relcl	_	MorphInd=^di<r>_R--$
+33	beri	beri	VERB	VSA	Voice=Act	32	goeswith	_	MorphInd=^beri<v>_VSA$
+34	nama	nama	NOUN	NSD	Number=Sing	31	obl	_	MorphInd=^nama<n>_NSD$
+35	GN	gn	PROPN	X--	_	32	obl	_	SpaceAfter=No|MorphInd=^gn<x>_X--$
 36	'	'	PUNCT	_	_	35	punct	_	_
 37	R	r	PROPN	F--	_	35	flat:name	_	MorphInd=^r<f>_F--$
 38	Lies	lies	PROPN	X--	_	37	flat:name	_	MorphInd=^lies<x>_X--$
@@ -6569,18 +6569,18 @@
 # sent_id = test-s263
 # text = Di sini letak desanya berada di bagian tengah Sumbawa.
 # text_en = Here, the village is located in the center of Sumbawa.
-1	Di	di	SCONJ	R--	_	6	mark	_	MorphInd=^di<r>_R--$
-2	sini	sini	ADP	NSD	_	6	case	_	MorphInd=^sini<n>_NSD$
-3	letak	letak	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^letak<n>_NSD$
+1	Di	di	ADP	R--	_	2	case	_	MorphInd=^di<r>_R--$
+2	sini	sini	ADP	NSD	_	3	nmod	_	MorphInd=^sini<n>_NSD$
+3	letak	letak	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^letak<n>_NSD$
 4-5	desanya	_	_	_	_	_	_	_	MorphInd=^desa<n>_NSD+dia<p>_PS3$
-4	desa	desa	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^desa<n>_NSD$
+4	desa	desa	NOUN	NSD	Number=Sing	3	nmod	_	MorphInd=^desa<n>_NSD$
 5	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	MorphInd=^dia<p>_PS3$
-6	berada	ada	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+ada<a>_VSA$
+6	berada	ada	VERB	VSA	Voice=Act	3	acl	_	MorphInd=^ber+ada<a>_VSA$
 7	di	di	ADP	R--	_	8	case	_	MorphInd=^di<r>_R--$
 8	bagian	bagi	NOUN	NSD	Number=Sing	6	obl	_	MorphInd=^bagi<v>+an_NSD$
 9	tengah	tengah	ADP	NSD	_	10	case	_	MorphInd=^tengah<n>_NSD$
 10	Sumbawa	sumbawa	PROPN	F--	_	8	nmod	_	SpaceAfter=No|MorphInd=^sumbawa<f>_F--$
-11	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
+11	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s264
 # text = Di Indonesia sendiri, Imam Samudera ditetapkan Polda Metro Jaya sebagai salah satu tokoh pelaku teror di Indonesia.
@@ -7022,9 +7022,9 @@
 3	berakhir	akhir	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+akhir<n>_VSA$
 4	dengan	dengan	ADP	R--	_	5	case	_	MorphInd=^dengan<r>_R--$
 5	adegan	adegan	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^adegan<n>_NSD$
-6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
-7	mana	mana	PRON	W--	PronType=Int	3	obl	_	MorphInd=^mana<w>_W--$
-8	semua	semua	DET	B--	PronType=Tot	9	nsubj	_	MorphInd=^semua<b>_B--$
+6	di	di	ADP	R--	_	9	mark	_	MWEPOS=SCONJ|MorphInd=^di<r>_R--$
+7	mana	mana	PRON	W--	PronType=Int	6	fixed	_	MorphInd=^mana<w>_W--$
+8	semua	semua	PRON	B--	PronType=Tot	9	nsubj	_	MorphInd=^semua<b>_B--$
 9	berkumpul	kumpul	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^ber+kumpul<v>_VSA$
 10	di	di	ADP	R--	_	11	case	_	MorphInd=^di<r>_R--$
 11	depan	depan	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^depan<n>_NSD$
@@ -8181,15 +8181,15 @@
 32	Banyuputih	banyuputih	PROPN	X--	_	31	nmod	_	MorphInd=^banyuputih<x>_X--$
 33	yang	yang	PRON	S--	PronType=Rel	34	nsubj	_	MorphInd=^yang<s>_S--$
 34	terdapat	dapat	VERB	VSP	Voice=Pass	25	acl:relcl	_	MorphInd=^ter+dapat<v>_VSP$
-35	di	di	SCONJ	R--	_	34	mark	_	MorphInd=^di<r>_R--$
-36	5	5	NUM	CC-	NumType=Card	34	nummod	_	MorphInd=^5<c>_CC-$
+35	di	di	ADP	R--	_	40	case	_	MorphInd=^di<r>_R--$
+36	5	5	NUM	CC-	NumType=Card	40	nummod	_	MorphInd=^5<c>_CC-$
 37	(	(	PUNCT	Z--	_	38	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 38	lima	lima	NUM	CC-	NumType=Card	36	appos	_	SpaceAfter=No|MorphInd=^lima<c>_CC-$
 39	)	)	PUNCT	Z--	_	38	punct	_	MorphInd=^)<z>_Z--$
-40	desa	desa	NOUN	NSD	Number=Sing	34	obj	_	MorphInd=^desa<n>_NSD$
+40	desa	desa	NOUN	NSD	Number=Sing	34	obl	_	MorphInd=^desa<n>_NSD$
 41	sebanyak	sebanyak	ADP	R--	_	43	case	_	MorphInd=^sebanyak<r>_R--$
 42	20	20	NUM	CC-	NumType=Card	43	nummod	_	MorphInd=^20<c>_CC-$
-43	unit	unit	NOUN	NSD	Number=Sing	40	nmod	_	SpaceAfter=No|MorphInd=^unit<n>_NSD$
+43	unit	unit	NOUN	NSD	Number=Sing	34	obl	_	SpaceAfter=No|MorphInd=^unit<n>_NSD$
 44	.	.	PUNCT	Z--	_	25	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s328
@@ -9062,8 +9062,8 @@
 19	(	(	PUNCT	Z--	_	20	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 20	1042	1042	NUM	CC-	NumType=Card	18	appos	_	SpaceAfter=No|MorphInd=^1042<c>_CC-$
 21	)	)	PUNCT	Z--	_	20	punct	_	MorphInd=^)<z>_Z--$
-22	di	di	ADP	R--	_	23	case	_	MorphInd=^di<r>_R--$
-23	mana	mana	PRON	W--	PronType=Int	25	obl	_	MorphInd=^mana<w>_W--$
+22	di	di	ADP	R--	_	25	mark	_	MWEPOS=SCONJ|MorphInd=^di<r>_R--$
+23	mana	mana	PRON	W--	PronType=Int	22	fixed	_	MorphInd=^mana<w>_W--$
 24	ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	MorphInd=^ia<p>_PS3$
 25	meninggalkan	tinggal	VERB	VSA	Voice=Act	16	ccomp	_	MorphInd=^meN+tinggal<v>+kan_VSA$
 26	klaim	klaim	NOUN	NSD	Number=Sing	25	obj	_	MorphInd=^klaim<n>_NSD$
@@ -9213,9 +9213,9 @@
 32	dan	dan	CCONJ	H--	_	33	cc	_	MorphInd=^dan<h>_H--$
 33	Seri	seri	PROPN	ASP	_	29	conj	_	MorphInd=^seri<a>_ASP$
 34	A	a	PROPN	F--	_	33	flat:name	_	SpaceAfter=No|MorphInd=^a<f>_F--$
-35	,	,	PUNCT	Z--	_	37	punct	_	MorphInd=^,<z>_Z--$
-36	di	di	ADP	R--	_	37	case	_	MorphInd=^di<r>_R--$
-37	mana	mana	PRON	W--	PronType=Int	21	obl	_	MorphInd=^mana<w>_W--$
+35	,	,	PUNCT	Z--	_	40	punct	_	MorphInd=^,<z>_Z--$
+36	di	di	ADP	R--	_	40	mark	_	MWEPOS=SCONJ|MorphInd=^di<r>_R--$
+37	mana	mana	PRON	W--	PronType=Int	36	fixed	_	MorphInd=^mana<w>_W--$
 38	tim	tim	NOUN	NSD	Number=Sing	40	nsubj	_	MorphInd=^tim<n>_NSD$
 39	itu	itu	DET	B--	PronType=Dem	38	det	_	MorphInd=^itu<b>_B--$
 40	mendapat	dapat	VERB	VSA	Voice=Act	21	ccomp	_	MorphInd=^meN+dapat<v>_VSA$
@@ -9276,7 +9276,7 @@
 10	Sang	sang	PROPN	F--	_	11	nmod	_	MorphInd=^sang<f>_F--$
 11	Firaun	firaun	PROPN	NSD	_	9	nmod	_	SpaceAfter=No|MorphInd=^firaun<n>_NSD$
 12	,	,	PUNCT	Z--	_	26	punct	_	MorphInd=^,<z>_Z--$
-13	di	di	SCONJ	R--	_	26	mark	_	MorphInd=^di<r>_R--$
+13	di	di	ADP	R--	_	26	mark	_	MWEPOS=SCONJ|MorphInd=^di<r>_R--$
 14	mana	mana	PRON	W--	PronType=Dem	13	fixed	_	MorphInd=^mana<w>_W--$
 15	dalam	dalam	ADP	R--	_	16	case	_	MorphInd=^dalam<r>_R--$
 16	pertemuan	temu	NOUN	NSD	Number=Sing	26	obl	_	MorphInd=^per+temu<n>+an_NSD$
@@ -12602,8 +12602,8 @@
 # sent_id = test-s499
 # text = Di tengah keberhasilan menaklukan para pesaingnya, konflik antara putra-putra Gaozu, Li Jiancheng dan Li Shimin semakin tajam.
 # text_en = In the midst of successfully conquering his rivals, the conflict between the sons of Gaozu, Li Jiancheng and Li Shimin grew sharper.
-1	Di	di	SCONJ	R--	_	4	mark	_	MorphInd=^di<r>_R--$
-2	tengah	tengah	ADP	NSD	_	3	case	_	MorphInd=^tengah<n>_NSD$
+1	Di	di	ADP	R--	_	3	case	_	MorphInd=^di<r>_R--$
+2	tengah	tengah	NOUN	NSD	_	3	nmod:lmod	_	MorphInd=^tengah<n>_NSD$
 3	keberhasilan	berhasil	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^ke+berhasil<a>+an_NSD$
 4	menaklukan	menaklukan	VERB	X--	_	0	root	_	MorphInd=^menaklukan<x>_X--$
 5	para	para	DET	B--	Number=Plur	6	det	_	MorphInd=^para<b>_B--$
@@ -12879,9 +12879,9 @@
 14	sesuai	sesuai	ADJ	ASP	_	12	acl:relcl	_	MorphInd=^sesuai<a>_ASP$
 15	pada	pada	ADP	R--	_	16	case	_	MorphInd=^pada<r>_R--$
 16	kejahatan	jahat	NOUN	NSD	Number=Sing	12	nmod	_	MorphInd=^ke+jahat<a>+an_NSD$
-17	yang	yang	PRON	S--	PronType=Rel	19	obj	_	MorphInd=^yang<s>_S--$
-18	di	di	SCONJ	R--	_	19	mark	_	MorphInd=^di<r>_R--$
-19	lakukan	laku	VERB	VSA	Voice=Act	12	acl:relcl	_	MorphInd=^laku<a>+kan_VSA$
+17	yang	yang	PRON	S--	PronType=Rel	18	nsubj:pass	_	MorphInd=^yang<s>_S--$
+18	di	di	VERB	R--	Typo=Yes|Voice=Pass	16	acl:relcl	_	MorphInd=^di<r>_R--$
+19	lakukan	laku	VERB	VSA	Voice=Act	18	goeswith	_	MorphInd=^laku<a>+kan_VSA$
 20	Menurut	menurut	VERB	R--	_	21	advcl	_	MorphInd=^menurut<r>_R--$
 21	UU	uu	PROPN	NSD	_	31	obj	_	MorphInd=^uu<n>_NSD$
 22	No	no	PROPN	F--	_	21	flat:name	_	SpaceAfter=No|MorphInd=^no<f>_F--$
