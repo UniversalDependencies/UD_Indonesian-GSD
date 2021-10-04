@@ -12728,7 +12728,7 @@
 5	sudah	sudah	AUX	D--	_	6	aux	_	MorphInd=^sudah<d>_D--$
 6	membuang	buang	VERB	VSA	Voice=Act	0	root	_	MorphInd=^meN+buang<v>_VSA$
 7	kami	kami	PRON	PP1	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	6	obj	_	MorphInd=^kami<p>_PP1$
-8	sama	sama	ADV	ASP	_	6	advmod	_	MorphInd=^sama<a>_ASP$
+8	sama	sama	ADJ	ASP	_	6	advmod	_	MWEPOS=ADV|MorphInd=^sama<a>_ASP$
 9	sekali	sekali	ADV	D--	_	8	fixed	_	SpaceAfter=No|MorphInd=^sekali<d>_D--$
 10	?	?	PUNCT	Z--	_	6	punct	_	MorphInd=^?<z>_Z--$
 
