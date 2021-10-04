@@ -12482,8 +12482,8 @@
 # sent_id = dev-s458
 # text = Oleh karena ini, keduanya mengajak Dandy untuk membentuk band baru, meski harus beralih dari band beraliran metal ke pop dangdut melayu.
 # text_en = Because of this, the two invited Dandy to form a new band, even though they had to switch from a metal band to a Malay pop dangdut band.
-1	Oleh	oleh	SCONJ	R--	_	7	mark	_	MorphInd=^oleh<r>_R--$
-2	karena	karena	SCONJ	S--	_	1	fixed	_	MorphInd=^karena<s>_S--$
+1	Oleh	oleh	ADP	R--	_	7	advmod	_	MWEPOS=ADV|MorphInd=^oleh<r>_R--$
+2	karena	karena	ADP	S--	_	1	fixed	_	MorphInd=^karena<s>_S--$
 3	ini	ini	DET	B--	PronType=Dem	1	fixed	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
 4	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 5-6	keduanya	_	_	_	_	_	_	_	MorphInd=^ke+dua<c>_CO-+dia<p>_PS3$
