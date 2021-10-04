@@ -2112,7 +2112,7 @@
 # sent_id = test-s86
 # text = Akan tetapi, Grand Final Pentas Idola Cilik 2013 kali ini diselenggarakan di Studio 1 RCTI. Pada Bintang Grand Final Idola Cilik 2013 yang digelar sore hari Sabtu, 20 April 2013, Bagas akhirnya terpilih sebagai Juara Pertama Idola Cilik 2013 dan Difa menjadi Juara Kedua Idola Cilik 2013.
 # text_en = However, the Grand Final of the 2013 Little Idol Show was held at Studio 1 RCTI. In the 2013 Little Idola Grand Final Star which was held on Saturday, April 20 2013, Bagas was finally chosen as the First Winner of Little Idol 2013 and Difa became the Second Winner of Little Idol 2013.
-1	Akan	akan	ADV	M--	_	12	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	12	advmod	_	MWEPOS=ADV|MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	Grand	grand	PROPN	F--	_	12	nsubj:pass	_	MorphInd=^grand<f>_F--$
@@ -4818,7 +4818,7 @@
 # sent_id = test-s191
 # text = Akan tetapi, pada waktu yang sama, Peter dari Torres, Giudice Cagliari dan saudara laki-laki Konstantinus, memberontak melawan warga Pisa dan mengusir mereka, bersekutu dengan Genoa melawan mereka dan melawan Peter dari Arborea.
 # text_en = However, at the same time, Peter of Torres, Giudice Cagliari and brother Constantine, revolted against the Pisans and expelled them, allied with Genoa against them and against Peter of Arborea.
-1	Akan	akan	ADV	M--	_	20	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	20	advmod	_	MWEPOS=ADV|MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
 4	pada	pada	ADP	R--	_	5	case	_	MorphInd=^pada<r>_R--$
@@ -5553,7 +5553,7 @@
 # sent_id = test-s219
 # text = Akan tetapi, Gelimer menolak.
 # text_en = However, Gelimer refused.
-1	Akan	akan	ADV	M--	_	5	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	5	advmod	_	MWEPOS=ADV|MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	Gelimer	gelimer	PROPN	X--	_	5	nsubj	_	MorphInd=^gelimer<x>_X--$
@@ -7401,7 +7401,7 @@
 2	dinding	dinding	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^dinding<n>_NSD$
 3	ini	ini	DET	B--	PronType=Dem	2	det	_	MorphInd=^ini<b>_B--$
 4	terkenal	kenal	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^ter+kenal<v>_VSP$
-5	akan	akan	ADV	M--	_	6	advmod	_	MorphInd=^akan<m>_M--$
+5	akan	akan	ADP	M--	_	6	case	_	MorphInd=^akan<m>_M--$
 6-7	energinya	_	_	_	_	_	_	_	MorphInd=^energi<n>_NSD+dia<p>_PS3$
 6	energi	energi	NOUN	NSD	Number=Sing	4	obj	_	MorphInd=^energi<n>_NSD$
 7	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	MorphInd=^dia<p>_PS3$
@@ -8896,14 +8896,14 @@
 8	membunuh	bunuh	VERB	VSA	Voice=Act	6	xcomp	_	MorphInd=^meN+bunuh<v>_VSA$
 9	wanita	wanita	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^wanita<n>_NSD$
 10	tersebut	tersebut	DET	B--	PronType=Dem	9	det	_	SpaceAfter=No|MorphInd=^tersebut<b>_B--$
-11	,	,	PUNCT	Z--	_	12	punct	_	MorphInd=^,<z>_Z--$
-12	akan	akan	CCONJ	M--	_	2	conj	_	MorphInd=^akan<m>_M--$
-13	tetapi	tetapi	CCONJ	S--	_	12	cc	_	MorphInd=^tetapi<s>_S--$
+11	,	,	PUNCT	Z--	_	17	punct	_	MorphInd=^,<z>_Z--$
+12	akan	akan	AUX	M--	_	17	cc	_	MWEPOS=CCONJ|MorphInd=^akan<m>_M--$
+13	tetapi	tetapi	CCONJ	S--	_	12	fixed	_	MorphInd=^tetapi<s>_S--$
 14-15	usahanya	_	_	_	_	_	_	_	MorphInd=^usaha<n>_NSD+dia<p>_PS3$
-14	usaha	usaha	NOUN	NSD	Number=Sing	12	nsubj	_	MorphInd=^usaha<n>_NSD$
+14	usaha	usaha	NOUN	NSD	Number=Sing	17	nsubj	_	MorphInd=^usaha<n>_NSD$
 15	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	MorphInd=^dia<p>_PS3$
-16	tidak	tidak	PART	G--	Polarity=Neg	12	advmod	_	MorphInd=^tidak<g>_G--$
-17	berhasil	berhasil	VERB	ASP	_	12	fixed	_	SpaceAfter=No|MorphInd=^berhasil<a>_ASP$
+16	tidak	tidak	PART	G--	Polarity=Neg	17	advmod	_	MorphInd=^tidak<g>_G--$
+17	berhasil	berhasil	VERB	ASP	_	6	conj	_	SpaceAfter=No|MorphInd=^berhasil<a>_ASP$
 18	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s360
@@ -10464,7 +10464,7 @@
 149	Duta	duta	PROPN	NSD	_	148	flat:name	_	MorphInd=^duta<n>_NSD$
 150	Injili	injili	PROPN	VSA	_	149	flat:name	_	MorphInd=^injil<n>+i_VSA$
 151	percaya	percaya	VERB	VSA	Voice=Act	157	dep	_	MorphInd=^percaya<v>_VSA$
-152	akan	akan	ADV	M--	_	154	advmod	_	MorphInd=^akan<m>_M--$
+152	akan	akan	ADP	M--	_	154	case	_	MorphInd=^akan<m>_M--$
 153	tiga	tiga	NUM	CC-	NumType=Card	154	nummod	_	MorphInd=^tiga<c>_CC-$
 154	hal	hal	NOUN	NSD	Number=Sing	151	obj	_	SpaceAfter=No|MorphInd=^hal<n>_NSD$
 155	:	:	PUNCT	Z--	_	151	punct	_	MorphInd=^:<z>_Z--$
@@ -13036,7 +13036,7 @@
 # sent_id = test-s516
 # text = Akan tetapi Parlemen pihak Muslim Bosnia Herzegovina menolak rencana perjanjian tersebut.
 # text_en = However, the Muslim Parliament of Bosnia and Herzegovina rejected the proposed agreement.
-1	Akan	akan	ADV	M--	_	8	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	8	advmod	_	MWEPOS=ADV|MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	MorphInd=^tetapi<s>_S--$
 3	Parlemen	parlemen	NOUN	NSD	Number=Sing	8	nsubj	_	MorphInd=^parlemen<n>_NSD$
 4	pihak	pihak	NOUN	NSD	Number=Sing	3	compound	_	MorphInd=^pihak<n>_NSD$

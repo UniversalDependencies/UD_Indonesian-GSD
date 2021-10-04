@@ -126,7 +126,7 @@
 2	Permintaan	permintaan	PROPN	NSD	_	4	nsubj	_	MorphInd=^per+minta<v>+an_NSD$
 3	adalah	adalah	AUX	O--	_	4	cop	_	MorphInd=^adalah<o>_O--$
 4	keinginan	ingin	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^ke+ingin<v>+an_NSD$
-5	akan	akan	ADV	M--	_	4	advmod	_	MorphInd=^akan<m>_M--$
+5	akan	akan	ADP	M--	_	6	case	_	MorphInd=^akan<m>_M--$
 6	sesuatu	suatu	PRON	NSD	Number=Sing|PronType=Ind	4	compound	_	MorphInd=^sesuatu<n>_NSD$
 7	yang	yang	PRON	S--	PronType=Rel	8	nsubj:pass	_	MorphInd=^yang<s>_S--$
 8	didukung	dukung	VERB	VSP	Voice=Pass	4	acl:relcl	_	MorphInd=^di+dukung<v>_VSP$
@@ -2902,7 +2902,7 @@
 # sent_id = dev-s103
 # text = Akan tetapi, bentuk umum pelaksanaannya masih tetap ada, seperti thawaf, sa 'i, wukuf, dan melontar jumrah.
 # text_en = However, the general form of its implementation still exists, such as tawaf, sa'i, wukuf, and throwing jumrah.
-1	Akan	akan	ADV	M--	_	10	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	10	advmod	_	MWEPOS=ADV|MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|MorphInd=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 4	bentuk	bentuk	NOUN	NSD	Number=Sing	10	nsubj	_	MorphInd=^bentuk<n>_NSD$
@@ -3539,7 +3539,7 @@
 # sent_id = dev-s123
 # text = Akan tetapi ketika tekanan total berubah, kedua titik didih dan komposisi dari azeotrop berubah.
 # text_en = However, when the total pressure changes, both the boiling point and the composition of the azeotrope change.
-1	Akan	akan	ADV	M--	_	6	advmod	_	MorphInd=^akan<m>_M--$
+1	Akan	akan	AUX	M--	_	6	advmod	_	MWEPOS=ADV|MorphInd=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	MorphInd=^tetapi<s>_S--$
 3	ketika	ketika	SCONJ	S--	_	6	mark	_	MorphInd=^ketika<s>_S--$
 4	tekanan	tekan	NOUN	NSD	Number=Sing	6	nsubj	_	MorphInd=^tekan<v>+an_NSD$
