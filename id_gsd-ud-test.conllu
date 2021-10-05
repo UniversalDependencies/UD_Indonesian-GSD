@@ -889,9 +889,9 @@
 29	untuk	untuk	ADP	R--	_	30	case	_	MorphInd=^untuk<r>_R--$
 30	jalur	jalur	NOUN	NSD	Number=Sing	28	obl	_	MorphInd=^jalur<n>_NSD$
 31	pelayaran	layar	NOUN	NSD	Number=Sing	30	compound	_	MorphInd=^peN+layar<n>+an_NSD$
-32	ke	ke	ADP	R--	_	33	case	_	MorphInd=^ke<r>_R--$
-33	luar	luar	NOUN	NSD	Number=Sing	30	nmod	_	MorphInd=^luar<n>_NSD$
-34	negeri	negeri	NOUN	NSD	Number=Sing	33	compound	_	SpaceAfter=No|MorphInd=^negeri<n>_NSD$
+32	ke	ke	ADP	R--	_	34	case	_	MorphInd=^ke<r>_R--$
+33	luar	luar	NOUN	NSD	Number=Sing	34	nmod:lmod	_	MorphInd=^luar<n>_NSD$
+34	negeri	negeri	NOUN	NSD	Number=Sing	30	nmod	_	SpaceAfter=No|MorphInd=^negeri<n>_NSD$
 35	.	.	PUNCT	Z--	_	17	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s33
@@ -2813,9 +2813,9 @@
 13	masuk	masuk	NOUN	VSA	_	11	obl	_	MorphInd=^masuk<v>_VSA$
 14	nya	dia	PRON	PS3	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	MorphInd=^dia<p>_PS3$
 15	budaya-budaya	budaya	NOUN	NSD	Number=Plur	13	obj	_	MorphInd=^budaya<n>_NSD$
-16	dari	dari	ADP	R--	_	17	case	_	MorphInd=^dari<r>_R--$
-17	luar	luar	NOUN	NSD	Number=Sing	15	nmod	_	MorphInd=^luar<n>_NSD$
-18	desa	desa	NOUN	NSD	Number=Sing	17	compound	_	MorphInd=^desa<n>_NSD$
+16	dari	dari	ADP	R--	_	18	case	_	MorphInd=^dari<r>_R--$
+17	luar	luar	NOUN	NSD	Number=Sing	18	nmod:lmod	_	MorphInd=^luar<n>_NSD$
+18	desa	desa	NOUN	NSD	Number=Sing	15	nmod	_	MorphInd=^desa<n>_NSD$
 19	Padaherang	padaherang	PROPN	X--	_	18	nmod	_	MorphInd=^padaherang<x>_X--$
 20	dan	dan	CCONJ	H--	_	21	cc	_	MorphInd=^dan<h>_H--$
 21	kemajuan	maju	NOUN	NSD	Number=Sing	13	conj	_	MorphInd=^ke+maju<v>+an_NSD$
@@ -6215,9 +6215,9 @@
 30	kesadaran	sadar	NOUN	NSD	Number=Sing	29	obj	_	MorphInd=^ke+sadar<a>+an_NSD$
 31	akan	akan	ADP	M--	_	32	case	_	MorphInd=^akan<m>_M--$
 32	panginjilan	panginjilan	NOUN	X--	_	29	obl	_	MorphInd=^panginjilan<x>_X--$
-33	di	di	ADP	R--	_	34	case	_	MorphInd=^di<r>_R--$
-34	dalam	dalam	NOUN	R--	_	29	obl	_	MorphInd=^dalam<r>_R--$
-35	diri	diri	PRON	NSD	Reflex=Yes	34	nmod	_	MorphInd=^diri<n>_NSD$
+33	di	di	ADP	R--	_	35	case	_	MorphInd=^di<r>_R--$
+34	dalam	dalam	NOUN	R--	_	35	nmod:lmod	_	MorphInd=^dalam<r>_R--$
+35	diri	diri	PRON	NSD	Reflex=Yes	29	obl	_	MorphInd=^diri<n>_NSD$
 36	Emde	emde	PROPN	X--	_	35	nmod	_	SpaceAfter=No|MorphInd=^emde<x>_X--$
 37	.	.	PUNCT	Z--	_	28	punct	_	MorphInd=^.<z>_Z--$
 38	Selain	selain	ADP	ASP	_	43	case	_	MorphInd=^se+lain<a>_ASP$

@@ -10443,13 +10443,13 @@
 10	tenaga	tenaga	NOUN	NSD	Number=Sing	9	obj	_	MorphInd=^tenaga<n>_NSD$
 11-12	dalamnya	_	_	_	_	_	_	_	MorphInd=^dalam<n>_NSD+dia<p>_PS3$
 11	dalam	dalam	ADJ	NSD	_	10	amod	_	MorphInd=^dalam<n>_NSD$
-12	nya	nya	DET	PS3	Definite=Def|PronType=Art	11	det	_	MorphInd=^dia<p>_PS3$
+12	nya	nya	PRON	PS3	_	10	nmod:poss	_	MorphInd=^dia<p>_PS3$
 13	seperti	seperti	ADP	R--	_	10	case	_	MorphInd=^seperti<r>_R--$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj:pass	_	MorphInd=^yang<s>_S--$
 15	diajarkan	ajar	VERB	VSP	Voice=Pass	10	acl:relcl	_	MorphInd=^di+ajar<v>+kan_VSP$
-16	Sam	sam	PROPN	F--	_	15	obl	_	MorphInd=^sam<f>_F--$
-17	selama	selama	ADP	R--	_	15	case	_	MorphInd=^selama<r>_R--$
-18	ini	ini	DET	B--	PronType=Dem	15	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
+16	Sam	sam	PROPN	F--	_	15	obl:agent	_	MorphInd=^sam<f>_F--$
+17	selama	selama	ADP	R--	_	18	case	_	MorphInd=^selama<r>_R--$
+18	ini	ini	PRON	B--	PronType=Dem	15	obl	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
 19	?	?	PUNCT	Z--	_	9	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s388
@@ -12165,9 +12165,9 @@
 22	malah	malah	ADV	D--	_	24	advmod	_	MorphInd=^malah<d>_D--$
 23	akan	akan	AUX	M--	_	24	aux	_	MorphInd=^akan<m>_M--$
 24	jatuh	jatuh	VERB	VSA	Voice=Act	18	ccomp	_	MorphInd=^jatuh<v>_VSA$
-25	ke	ke	ADP	R--	_	26	case	_	MorphInd=^ke<r>_R--$
-26	dalam	dalam	NOUN	ASP	_	24	obl	_	MorphInd=^dalam<a>_ASP$
-27	tidur	tidur	NOUN	VSA	_	26	nmod	_	MorphInd=^tidur<v>_VSA$
+25	ke	ke	ADP	R--	_	27	case	_	MorphInd=^ke<r>_R--$
+26	dalam	dalam	NOUN	ASP	_	27	nmod:lmod	_	MorphInd=^dalam<a>_ASP$
+27	tidur	tidur	NOUN	VSA	_	24	obl	_	MorphInd=^tidur<v>_VSA$
 28	nyenyak	nyenyak	ADJ	X--	_	27	amod	_	MorphInd=^nyenyak<x>_X--$
 29	selama	selama	ADP	R--	_	31	case	_	MorphInd=^selama<r>_R--$
 30	100	100	NUM	CC-	NumType=Card	31	nummod	_	MorphInd=^100<c>_CC-$
@@ -12462,7 +12462,7 @@
 9	dan	dan	CCONJ	H--	_	10	cc	_	MorphInd=^dan<h>_H--$
 10	presisi	presisi	NOUN	X--	_	6	conj	_	MorphInd=^presisi<x>_X--$
 11	luar	luar	ADJ	ASP	_	10	amod	_	MorphInd=^luar<a>_ASP$
-12	biasa	biasa	ADJ	ASP	_	11	amod	_	MorphInd=^biasa<a>_ASP$
+12	biasa	biasa	ADJ	ASP	_	11	compound:a	_	MorphInd=^biasa<a>_ASP$
 13	sebagai	sebagai	ADP	R--	_	15	case	_	MorphInd=^sebagai<r>_R--$
 14	seorang	orang	DET	B--	Definite=Ind|PronType=Art	15	det	_	MorphInd=^seorang<b>_B--$
 15	pelukis	lukis	NOUN	NSD	Number=Sing	10	nmod	_	MorphInd=^peN+lukis<v>_NSD$
