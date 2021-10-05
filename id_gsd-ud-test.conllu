@@ -5195,7 +5195,7 @@
 19	sebagai	sebagai	ADP	R--	_	20	case	_	MorphInd=^sebagai<r>_R--$
 20	almanak	almanak	NOUN	X--	_	18	obl	_	MorphInd=^almanak<x>_X--$
 21	praktis	praktis	ADJ	ASP	_	20	amod	_	MorphInd=^praktis<a>_ASP$
-22	sehari	sehari	NOUN	ASP	_	20	amod	_	MorphInd=^se+hari<n>_ASP$
+22	sehari	sehari	ADJ	ASP	_	20	amod	_	MorphInd=^se+hari<n>_ASP$
 23	-	-	PUNCT	Z--	_	24	punct	_	MorphInd=^-<z>_Z--$
 24	hari	hari	NOUN	NSD	Number=Sing	22	fixed	_	SpaceAfter=No|MorphInd=^hari<n>_NSD$
 25	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
@@ -10396,9 +10396,9 @@
 82	dan	dan	CCONJ	H--	_	83	cc	_	MorphInd=^dan<h>_H--$
 83	sikap	sikap	NOUN	NSD	Number=Sing	81	conj	_	MorphInd=^sikap<n>_NSD$
 84	kehidupan	hidup	NOUN	NSD	Number=Sing	83	compound	_	MorphInd=^ke+hidup<n>+an_NSD$
-85	sehari	sehari	ADV	ASP	_	83	advmod	_	MorphInd=^se+hari<n>_ASP$
+85	sehari	sehari	ADJ	ASP	_	84	amod	_	MorphInd=^se+hari<n>_ASP$
 86	-	-	PUNCT	Z--	_	87	punct	_	MorphInd=^-<z>_Z--$
-87	hari	hari	ADV	NSD	_	85	fixed	_	MorphInd=^hari<n>_NSD$
+87	hari	hari	NOUN	NSD	_	85	fixed	_	MorphInd=^hari<n>_NSD$
 88	tanpa	tanpa	ADP	D--	_	90	case	_	MorphInd=^tanpa<d>_D--$
 89	harus	harus	AUX	VSA	_	90	aux	_	MorphInd=^harus<v>_VSA$
 90	berbicara	bicara	VERB	VSA	Voice=Act	76	xcomp	_	SpaceAfter=No|MorphInd=^ber+bicara<v>_VSA$
