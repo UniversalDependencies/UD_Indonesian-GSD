@@ -5,29 +5,29 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>5598</sentences><tokens>119871</tokens><words>122060</words><fused>2187</fused></total>
-    <train><sentences>4482</sentences><tokens>95907</tokens><words>97643</words><fused>1734</fused></train>
+    <total><sentences>5598</sentences><tokens>119847</tokens><words>122036</words><fused>2187</fused></total>
+    <train><sentences>4482</sentences><tokens>95883</tokens><words>97619</words><fused>1734</fused></train>
     <dev><sentences>559</sentences><tokens>12423</tokens><words>12661</words><fused>238</fused></dev>
     <test><sentences>557</sentences><tokens>11541</tokens><words>11756</words><fused>215</fused></test>
   </size>
-  <lemmas unique="16414" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
-  <forms unique="19452" /><!-- ,, ., yang, dan, di, nya, pada, ini, dengan, dari, ), (, adalah, untuk, dalam -->
+  <lemmas unique="16425" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
+  <forms unique="19463" /><!-- ,, ., yang, dan, di, nya, pada, ini, dengan, dari, ), (, adalah, untuk, dalam -->
   <fusions unique="1022" /><!-- apakah, ayahnya, dirinya, namanya, siapakah, akankah, penduduknya, anaknya, antaranya, keduanya, utamanya, artinya, pertamanya, ataupun, ibunya -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">4808</tag><!-- salah, pertama, besar, lain, baik, baru, lainnya, utama, kedua, sama -->
+    <tag name="ADJ">4801</tag><!-- salah, pertama, besar, lain, baik, baru, lainnya, utama, kedua, sama -->
     <tag name="ADP">11373</tag><!-- di, pada, dari, dengan, dalam, oleh, sebagai, untuk, ke, seperti -->
-    <tag name="ADV">3509</tag><!-- juga, lebih, kemudian, hanya, bagaimana, masih, sangat, apa, banyak, pernah -->
+    <tag name="ADV">3508</tag><!-- juga, lebih, kemudian, hanya, bagaimana, masih, sangat, apa, banyak, pernah -->
     <tag name="AUX">2254</tag><!-- adalah, akan, dapat, telah, bisa, harus, sudah, ialah, mampu, mungkin -->
     <tag name="CCONJ">3584</tag><!-- dan, atau, tetapi, serta, namun, maupun, baik, lain, sama, sedangkan -->
     <tag name="DET">3752</tag><!-- ini, itu, buah, tersebut, nya, orang, beberapa, para, berbagai, semua -->
     <tag name="INTJ">4</tag><!-- hai, sayang, silakan, wah -->
-    <tag name="NOUN">26419</tag><!-- tahun, orang, desa, nama, kota, bagi, bahasa, perintah, wilayah, saat -->
+    <tag name="NOUN">26418</tag><!-- tahun, orang, desa, nama, kota, bagi, bahasa, perintah, wilayah, saat -->
     <tag name="NUM">4267</tag><!-- satu, dua, 1, 2, 3, tiga, 5, kedua, 2010, 4 -->
-    <tag name="PART">1027</tag><!-- tidak, kah, lah, pun, bukan, tak, belum, ya, jangan, non -->
+    <tag name="PART">1024</tag><!-- tidak, kah, lah, pun, bukan, tak, belum, ya, jangan, loh -->
     <tag name="PRON">6424</tag><!-- yang, dia, mereka, apa, diri, aku, kamu, kita, siapa, mana -->
     <tag name="PROPN">22391</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
-    <tag name="PUNCT">17433</tag><!-- ,, ., ), (, -, ", ?, :, ', / -->
+    <tag name="PUNCT">17421</tag><!-- ,, ., ), (, -, ", ?, :, ', / -->
     <tag name="SCONJ">2077</tag><!-- untuk, bahwa, dengan, karena, ketika, sehingga, maka, jika, setelah, sementara -->
     <tag name="SYM">152</tag><!-- %, =, °, #, +, $, ', ′, €, //www.anayasa.gen.tr/1961constitution-text.pdf -->
     <tag name="VERB">12489</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, laku -->
@@ -49,7 +49,7 @@
     <feat name="Person" value="1" upos="PRON">196</feat><!-- kita, ku, aku, kami, saya -->
     <feat name="Person" value="2" upos="PRON">147</feat><!-- kamu, mu, engkau, anda, kalian, kau -->
     <feat name="Person" value="3" upos="PRON">2475</feat><!-- nya, ia, mereka, dia, beliau -->
-    <feat name="Polarity" value="Neg" upos="PART">578</feat><!-- tidak, bukan, tak, belum, kan, jangan, non, tiada -->
+    <feat name="Polarity" value="Neg" upos="PART">576</feat><!-- tidak, bukan, tak, belum, kan, jangan, tiada -->
     <feat name="Polite" value="Form" upos="PRON">52</feat><!-- beliau, saya, anda -->
     <feat name="Polite" value="Infm" upos="PRON">216</feat><!-- ku, kamu, mu, aku, engkau, kalian, kau -->
     <feat name="PronType" value="Art" upos="DET">874</feat><!-- sebuah, nya, seorang, suatu -->
@@ -69,10 +69,10 @@
   <deps unique="48">
     <dep name="acl">1196</dep>
     <dep name="acl:relcl">2715</dep>
-    <dep name="advcl">1341</dep>
-    <dep name="advmod">4204</dep>
+    <dep name="advcl">1340</dep>
+    <dep name="advmod">4201</dep>
     <dep name="advmod:emph">440</dep>
-    <dep name="amod">4232</dep>
+    <dep name="amod">4226</dep>
     <dep name="appos">2605</dep>
     <dep name="aux">1182</dep>
     <dep name="case">11121</dep>
@@ -81,7 +81,7 @@
     <dep name="cc:preconj">5</dep>
     <dep name="ccomp">450</dep>
     <dep name="clf">1</dep>
-    <dep name="compound">7293</dep>
+    <dep name="compound">7292</dep>
     <dep name="compound:a">9</dep>
     <dep name="conj">4946</dep>
     <dep name="cop">1058</dep>
@@ -106,12 +106,12 @@
     <dep name="nsubj:pass">2220</dep>
     <dep name="nummod">3832</dep>
     <dep name="obj">5891</dep>
-    <dep name="obl">5976</dep>
+    <dep name="obl">5975</dep>
     <dep name="obl:agent">62</dep>
     <dep name="obl:tmod">654</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">403</dep>
-    <dep name="punct">17432</dep>
+    <dep name="punct">17420</dep>
     <dep name="root">5598</dep>
     <dep name="vocative">9</dep>
     <dep name="xcomp">1386</dep>
