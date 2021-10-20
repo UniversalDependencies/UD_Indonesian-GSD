@@ -5,13 +5,13 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>5598</sentences><tokens>119931</tokens><words>122120</words><fused>2187</fused></total>
-    <train><sentences>4482</sentences><tokens>95959</tokens><words>97695</words><fused>1734</fused></train>
+    <total><sentences>5598</sentences><tokens>119929</tokens><words>122118</words><fused>2187</fused></total>
+    <train><sentences>4482</sentences><tokens>95957</tokens><words>97693</words><fused>1734</fused></train>
     <dev><sentences>559</sentences><tokens>12427</tokens><words>12665</words><fused>238</fused></dev>
     <test><sentences>557</sentences><tokens>11545</tokens><words>11760</words><fused>215</fused></test>
   </size>
   <lemmas unique="16408" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
-  <forms unique="19440" /><!-- ,, ., yang, dan, di, nya, pada, ini, dengan, dari, ), (, adalah, untuk, dalam -->
+  <forms unique="19441" /><!-- ,, ., yang, dan, di, nya, pada, ini, dengan, dari, ), (, adalah, untuk, dalam -->
   <fusions unique="1022" /><!-- apakah, ayahnya, dirinya, namanya, siapakah, akankah, penduduknya, anaknya, antaranya, keduanya, utamanya, artinya, pertamanya, ataupun, ibunya -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
@@ -27,10 +27,10 @@
     <tag name="PART">1028</tag><!-- tidak, kah, lah, pun, bukan, tak, belum, ya, jangan, non -->
     <tag name="PRON">6424</tag><!-- yang, dia, mereka, apa, diri, aku, kamu, kita, siapa, mana -->
     <tag name="PROPN">22391</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
-    <tag name="PUNCT">17463</tag><!-- ,, ., ), (, -, ", ?, :, ', / -->
+    <tag name="PUNCT">17462</tag><!-- ,, ., ), (, -, ", ?, :, ', / -->
     <tag name="SCONJ">2077</tag><!-- untuk, bahwa, dengan, karena, ketika, sehingga, maka, jika, setelah, sementara -->
     <tag name="SYM">152</tag><!-- %, =, °, #, +, $, ', ′, €, //www.anayasa.gen.tr/1961constitution-text.pdf -->
-    <tag name="VERB">12496</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, laku -->
+    <tag name="VERB">12495</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, laku -->
     <tag name="X">97</tag><!-- and, image, in, kok, x, assistent, b, resident, s, te -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -90,7 +90,7 @@
     <dep name="dep">510</dep>
     <dep name="det">3735</dep>
     <dep name="discourse">7</dep>
-    <dep name="fixed">336</dep>
+    <dep name="fixed">335</dep>
     <dep name="flat">388</dep>
     <dep name="flat:foreign">32</dep>
     <dep name="flat:name">8049</dep>
@@ -111,7 +111,7 @@
     <dep name="obl:tmod">654</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">403</dep>
-    <dep name="punct">17462</dep>
+    <dep name="punct">17461</dep>
     <dep name="root">5598</dep>
     <dep name="vocative">9</dep>
     <dep name="xcomp">1386</dep>
