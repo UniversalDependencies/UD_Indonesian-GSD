@@ -7024,7 +7024,7 @@
 5	adegan	adegan	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^adegan<n>_NSD$
 6	di	di	ADP	R--	_	9	mark	_	MWEPOS=SCONJ|MorphInd=^di<r>_R--$
 7	mana	mana	PRON	W--	PronType=Int	6	fixed	_	MorphInd=^mana<w>_W--$
-8	semua	semua	PRON	B--	PronType=Tot	9	nsubj	_	MorphInd=^semua<b>_B--$
+8	semua	semua	DET	B--	PronType=Tot	9	nsubj	_	MorphInd=^semua<b>_B--$
 9	berkumpul	kumpul	VERB	VSA	Voice=Act	3	advcl	_	MorphInd=^ber+kumpul<v>_VSA$
 10	di	di	ADP	R--	_	11	case	_	MorphInd=^di<r>_R--$
 11	depan	depan	NOUN	NSD	Number=Sing	9	obl	_	MorphInd=^depan<n>_NSD$
