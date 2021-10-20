@@ -11113,7 +11113,7 @@
 40	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s411
-# text = Buahnya biasanya dimakan segar sebagai buah meja atau diiris - iris sebagai campuran es buah.
+# text = Buahnya biasanya dimakan segar sebagai buah meja atau diiris-iris sebagai campuran es buah.
 # text_en = The fruit is usually eaten fresh as a table fruit or sliced ​​as a fruit ice mixture.
 1-2	Buahnya	_	_	_	_	_	_	_	MorphInd=^buah<n>_NSD+dia<p>_PS3$
 1	Buah	buah	NOUN	NSD	Number=Sing	4	nsubj:pass	_	MorphInd=^buah<n>_NSD$
@@ -11125,14 +11125,12 @@
 7	buah	buah	NOUN	NSD	Number=Sing	4	obl	_	MorphInd=^buah<n>_NSD$
 8	meja	meja	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^meja<n>_NSD$
 9	atau	atau	CCONJ	H--	_	10	cc	_	MorphInd=^atau<h>_H--$
-10	diiris	iris	VERB	VSP	Voice=Pass	4	conj	_	MorphInd=^di+iris<n>_VSP$
-11	-	-	PUNCT	Z--	_	12	punct	_	MorphInd=^-<z>_Z--$
-12	iris	iris	VERB	NSD	_	10	fixed	_	MorphInd=^iris<n>_NSD$
-13	sebagai	sebagai	ADP	R--	_	14	case	_	MorphInd=^sebagai<r>_R--$
-14	campuran	campur	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^campur<v>+an_NSD$
-15	es	es	NOUN	NSD	Number=Sing	14	compound	_	MorphInd=^es<n>_NSD$
-16	buah	buah	NOUN	NSD	Number=Sing	15	compound	_	SpaceAfter=No|MorphInd=^buah<n>_NSD$
-17	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
+10	diiris-iris	iris	VERB	VSP	Voice=Pass	4	conj	_	MorphInd=^di+iris<n>_VSP$
+11	sebagai	sebagai	ADP	R--	_	12	case	_	MorphInd=^sebagai<r>_R--$
+12	campuran	campur	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^campur<v>+an_NSD$
+13	es	es	NOUN	NSD	Number=Sing	12	compound	_	MorphInd=^es<n>_NSD$
+14	buah	buah	NOUN	NSD	Number=Sing	13	compound	_	SpaceAfter=No|MorphInd=^buah<n>_NSD$
+15	.	.	PUNCT	Z--	_	4	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s412
 # text = Banjir juga membuat sebagian jalur kereta api lumpuh.
