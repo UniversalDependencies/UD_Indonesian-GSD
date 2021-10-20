@@ -5168,7 +5168,7 @@
 15	.	.	PUNCT	Z--	_	9	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s206
-# text = Puisi ini terdiri dalam sajak bersuku lima dan selain menceritakan kisah asal - usul manusia, juga berfungsi sebagai almanak praktis sehari - hari.
+# text = Puisi ini terdiri dalam sajak bersuku lima dan selain menceritakan kisah asal - usul manusia, juga berfungsi sebagai almanak praktis sehari-hari.
 # text_en = This poem consists of five-syllable rhymes and apart from telling the story of human origins, it also serves as a practical daily almanac.
 1	Puisi	puisi	NOUN	X--	_	3	nsubj:pass	_	MorphInd=^puisi<x>_X--$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
@@ -5191,10 +5191,8 @@
 19	sebagai	sebagai	ADP	R--	_	20	case	_	MorphInd=^sebagai<r>_R--$
 20	almanak	almanak	NOUN	X--	_	18	obl	_	MorphInd=^almanak<x>_X--$
 21	praktis	praktis	ADJ	ASP	_	20	amod	_	MorphInd=^praktis<a>_ASP$
-22	sehari	sehari	ADJ	ASP	_	20	amod	_	MorphInd=^se+hari<n>_ASP$
-23	-	-	PUNCT	Z--	_	24	punct	_	MorphInd=^-<z>_Z--$
-24	hari	hari	NOUN	NSD	Number=Sing	22	fixed	_	SpaceAfter=No|MorphInd=^hari<n>_NSD$
-25	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+22	sehari-hari	sehari	ADJ	ASP	_	20	amod	_	MorphInd=^se+hari<n>_ASP$|SpaceAfter=No
+23	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s207
 # text = Bagaimana dengan ramalan Florence tentang akan terjadinya pasang tertinggi tersebut?
@@ -10301,7 +10299,7 @@
 16	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s413
-# text = 'SOLA GRACIA' ("dari Tuhan untuk kita, dan dari kita untuk Tuhan") Gereja Duta Injil memiliki pameo "Satu Duta Injil yang diberkati, bawa dua jiwa baru bagi Tuhan, Jadilah tiga Duta Injil Sejati, beribu - ribu malaikat diSurga bersorak sorai.." Dalam setiap acara reguler dan kebaktian, sangat ditekankan sikap jemaat sebagai Dua Injil yang sesungguhnya, dimana umat tersebut mampu membawa pesan keselamatan Tuhan dalam kesaksian dan sikap kehidupan sehari - hari tanpa harus berbicara, sehingga menjadi kitab terbuka bagi lingkungan dimanapun mereka berada... Web - site untuk jadwal kebaktian, updated info dan lain-lain Mal Ambasador, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Telp. (021) 5760617, 5760676 Fax. (021) 5760677 Umat Gereja Duta Injili percaya akan tiga hal: ialah Tuhan Pencipta, Ia selalu benar.
+# text = 'SOLA GRACIA' ("dari Tuhan untuk kita, dan dari kita untuk Tuhan") Gereja Duta Injil memiliki pameo "Satu Duta Injil yang diberkati, bawa dua jiwa baru bagi Tuhan, Jadilah tiga Duta Injil Sejati, beribu - ribu malaikat diSurga bersorak sorai.." Dalam setiap acara reguler dan kebaktian, sangat ditekankan sikap jemaat sebagai Dua Injil yang sesungguhnya, dimana umat tersebut mampu membawa pesan keselamatan Tuhan dalam kesaksian dan sikap kehidupan sehari-hari tanpa harus berbicara, sehingga menjadi kitab terbuka bagi lingkungan dimanapun mereka berada... Web - site untuk jadwal kebaktian, updated info dan lain-lain Mal Ambasador, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Telp. (021) 5760617, 5760676 Fax. (021) 5760677 Umat Gereja Duta Injili percaya akan tiga hal: ialah Tuhan Pencipta, Ia selalu benar.
 # text_en = 'SOLA GRACIA' ("from God to us, and from us to God") The Evangelical Missionary Church has the slogan "One blessed Gospel Ambassador, bring two new souls to God, Be three True Gospel Ambassadors, thousands of angels in Heaven shout for joy .." In every regular event and service, the congregation's attitude is emphasized as the true Two Gospels, where the people are able to carry the message of God's salvation in their testimonies and attitudes of daily life without having to speak, so that it becomes an open book for the environment wherever they are. .. Web - site for the schedule of services, updated info and others Ambasador Mall, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Tel. (021) 5760617, 5760676 Fax. (021) 5760677 Evangelical Ambassadors believe in three things: that God is the Creator, He is always right.
 1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	SOLA	sola	PROPN	X--	_	22	parataxis	_	MorphInd=^sola<x>_X--$
@@ -10388,86 +10386,84 @@
 82	dan	dan	CCONJ	H--	_	83	cc	_	MorphInd=^dan<h>_H--$
 83	sikap	sikap	NOUN	NSD	Number=Sing	81	conj	_	MorphInd=^sikap<n>_NSD$
 84	kehidupan	hidup	NOUN	NSD	Number=Sing	83	compound	_	MorphInd=^ke+hidup<n>+an_NSD$
-85	sehari	sehari	ADJ	ASP	_	84	amod	_	MorphInd=^se+hari<n>_ASP$
-86	-	-	PUNCT	Z--	_	87	punct	_	MorphInd=^-<z>_Z--$
-87	hari	hari	NOUN	NSD	_	85	fixed	_	MorphInd=^hari<n>_NSD$
-88	tanpa	tanpa	ADP	D--	_	90	case	_	MorphInd=^tanpa<d>_D--$
-89	harus	harus	AUX	VSA	_	90	aux	_	MorphInd=^harus<v>_VSA$
-90	berbicara	bicara	VERB	VSA	Voice=Act	76	xcomp	_	SpaceAfter=No|MorphInd=^ber+bicara<v>_VSA$
-91	,	,	PUNCT	Z--	_	93	punct	_	MorphInd=^,<z>_Z--$
-92	sehingga	sehingga	ADP	S--	_	93	case	_	MorphInd=^sehingga<s>_S--$
-93	menjadi	jadi	VERB	VSA	Voice=Act	76	advcl	_	MorphInd=^meN+jadi<a>_VSA$
-94	kitab	kitab	NOUN	NSD	Number=Sing	93	obj	_	MorphInd=^kitab<n>_NSD$
-95	terbuka	terbuka	ADJ	ASP	_	94	amod	_	MorphInd=^terbuka<a>_ASP$
-96	bagi	bagi	ADP	VSA	_	97	case	_	MorphInd=^bagi<v>_VSA$
-97	lingkungan	lingkung	NOUN	NSD	Number=Sing	94	nmod	_	MorphInd=^lingkung<v>+an_NSD$
-98-99	dimanapun	_	_	_	_	_	_	_	MorphInd=^dimana<w>_W--+pun<t>_T--$
-98	dimana	dimana	ADV	W--	PronType=Int	97	advmod	_	MorphInd=^dimana<w>_W--$
-99	pun	pun	PART	T--	_	98	advmod:emph	_	MorphInd=^pun<t>_T--$
-100	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	101	nsubj	_	MorphInd=^mereka<p>_PP3$
-101	berada	ada	VERB	VSA	Voice=Act	97	acl	_	SpaceAfter=No|MorphInd=^ber+ada<a>_VSA$
-102	.	.	PUNCT	Z--	_	93	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
-103	.	.	PUNCT	Z--	_	22	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
-104	.	.	PUNCT	Z--	_	22	punct	_	MorphInd=^.<z>_Z--$
-105	Web	web	NOUN	F--	_	157	nsubj	_	MorphInd=^web<f>_F--$
-106	-	-	PUNCT	Z--	_	107	punct	_	MorphInd=^-<z>_Z--$
-107	site	site	NOUN	F--	_	105	appos	_	MorphInd=^site<f>_F--$
-108	untuk	untuk	ADP	R--	_	109	case	_	MorphInd=^untuk<r>_R--$
-109	jadwal	jadwal	NOUN	NSD	Number=Sing	107	nmod	_	MorphInd=^jadwal<n>_NSD$
-110	kebaktian	bakti	NOUN	NSD	Number=Sing	109	compound	_	SpaceAfter=No|MorphInd=^ke+bakti<n>+an_NSD$
-111	,	,	PUNCT	Z--	_	112	punct	_	MorphInd=^,<z>_Z--$
-112	updated	updated	ADJ	X--	_	109	amod	_	MorphInd=^updated<x>_X--$
-113	info	info	NOUN	F--	_	112	compound	_	MorphInd=^info<f>_F--$
-114	dan	dan	CCONJ	H--	_	115	cc	_	MorphInd=^dan<h>_H--$
-115	lain-lain	lain	ADJ	ASP	_	109	conj	_	MorphInd=^lain<a>_ASP$
-116	Mal	mal	PROPN	F--	_	157	nsubj	_	MorphInd=^mal<f>_F--$
-117	Ambasador	ambasador	PROPN	X--	_	116	flat:name	_	SpaceAfter=No|MorphInd=^ambasador<x>_X--$
-118	,	,	PUNCT	Z--	_	119	punct	_	MorphInd=^,<z>_Z--$
-119	Lt	lt	PROPN	F--	_	116	appos	_	SpaceAfter=No|MorphInd=^lt<f>_F--$
-120	.	.	PUNCT	Z--	_	119	punct	_	MorphInd=^.<z>_Z--$
-121	5	5	NUM	CC-	NumType=Card	119	nummod	_	MorphInd=^5<c>_CC-$
-122	Jl	jl	PROPN	X--	_	119	flat:name	_	SpaceAfter=No|MorphInd=^jl<x>_X--$
-123	.	.	PUNCT	Z--	_	119	punct	_	MorphInd=^.<z>_Z--$
-124	Prof	prof	PROPN	F--	_	119	appos	_	SpaceAfter=No|MorphInd=^prof<f>_F--$
+85	sehari-hari	sehari	ADJ	ASP	_	84	amod	_	MorphInd=^se+hari<n>_ASP$
+86	tanpa	tanpa	ADP	D--	_	88	case	_	MorphInd=^tanpa<d>_D--$
+87	harus	harus	AUX	VSA	_	88	aux	_	MorphInd=^harus<v>_VSA$
+88	berbicara	bicara	VERB	VSA	Voice=Act	76	xcomp	_	SpaceAfter=No|MorphInd=^ber+bicara<v>_VSA$
+89	,	,	PUNCT	Z--	_	91	punct	_	MorphInd=^,<z>_Z--$
+90	sehingga	sehingga	ADP	S--	_	91	case	_	MorphInd=^sehingga<s>_S--$
+91	menjadi	jadi	VERB	VSA	Voice=Act	76	advcl	_	MorphInd=^meN+jadi<a>_VSA$
+92	kitab	kitab	NOUN	NSD	Number=Sing	91	obj	_	MorphInd=^kitab<n>_NSD$
+93	terbuka	terbuka	ADJ	ASP	_	92	amod	_	MorphInd=^terbuka<a>_ASP$
+94	bagi	bagi	ADP	VSA	_	95	case	_	MorphInd=^bagi<v>_VSA$
+95	lingkungan	lingkung	NOUN	NSD	Number=Sing	92	nmod	_	MorphInd=^lingkung<v>+an_NSD$
+96-97	dimanapun	_	_	_	_	_	_	_	MorphInd=^dimana<w>_W--+pun<t>_T--$
+96	dimana	dimana	ADV	W--	PronType=Int	95	advmod	_	MorphInd=^dimana<w>_W--$
+97	pun	pun	PART	T--	_	96	advmod:emph	_	MorphInd=^pun<t>_T--$
+98	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	99	nsubj	_	MorphInd=^mereka<p>_PP3$
+99	berada	ada	VERB	VSA	Voice=Act	95	acl	_	SpaceAfter=No|MorphInd=^ber+ada<a>_VSA$
+100	.	.	PUNCT	Z--	_	91	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
+101	.	.	PUNCT	Z--	_	22	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
+102	.	.	PUNCT	Z--	_	22	punct	_	MorphInd=^.<z>_Z--$
+103	Web	web	NOUN	F--	_	155	nsubj	_	MorphInd=^web<f>_F--$
+104	-	-	PUNCT	Z--	_	105	punct	_	MorphInd=^-<z>_Z--$
+105	site	site	NOUN	F--	_	103	appos	_	MorphInd=^site<f>_F--$
+106	untuk	untuk	ADP	R--	_	107	case	_	MorphInd=^untuk<r>_R--$
+107	jadwal	jadwal	NOUN	NSD	Number=Sing	105	nmod	_	MorphInd=^jadwal<n>_NSD$
+108	kebaktian	bakti	NOUN	NSD	Number=Sing	107	compound	_	SpaceAfter=No|MorphInd=^ke+bakti<n>+an_NSD$
+109	,	,	PUNCT	Z--	_	110	punct	_	MorphInd=^,<z>_Z--$
+110	updated	updated	ADJ	X--	_	107	amod	_	MorphInd=^updated<x>_X--$
+111	info	info	NOUN	F--	_	110	compound	_	MorphInd=^info<f>_F--$
+112	dan	dan	CCONJ	H--	_	113	cc	_	MorphInd=^dan<h>_H--$
+113	lain-lain	lain	ADJ	ASP	_	107	conj	_	MorphInd=^lain<a>_ASP$
+114	Mal	mal	PROPN	F--	_	155	nsubj	_	MorphInd=^mal<f>_F--$
+115	Ambasador	ambasador	PROPN	X--	_	114	flat:name	_	SpaceAfter=No|MorphInd=^ambasador<x>_X--$
+116	,	,	PUNCT	Z--	_	117	punct	_	MorphInd=^,<z>_Z--$
+117	Lt	lt	PROPN	F--	_	114	appos	_	SpaceAfter=No|MorphInd=^lt<f>_F--$
+118	.	.	PUNCT	Z--	_	117	punct	_	MorphInd=^.<z>_Z--$
+119	5	5	NUM	CC-	NumType=Card	117	nummod	_	MorphInd=^5<c>_CC-$
+120	Jl	jl	PROPN	X--	_	117	flat:name	_	SpaceAfter=No|MorphInd=^jl<x>_X--$
+121	.	.	PUNCT	Z--	_	117	punct	_	MorphInd=^.<z>_Z--$
+122	Prof	prof	PROPN	F--	_	117	appos	_	SpaceAfter=No|MorphInd=^prof<f>_F--$
+123	.	.	PUNCT	Z--	_	122	punct	_	MorphInd=^.<z>_Z--$
+124	Dr	dr	PROPN	F--	_	122	flat:name	_	SpaceAfter=No|MorphInd=^dr<f>_F--$
 125	.	.	PUNCT	Z--	_	124	punct	_	MorphInd=^.<z>_Z--$
-126	Dr	dr	PROPN	F--	_	124	flat:name	_	SpaceAfter=No|MorphInd=^dr<f>_F--$
-127	.	.	PUNCT	Z--	_	126	punct	_	MorphInd=^.<z>_Z--$
-128	Satrio	satrio	PROPN	X--	_	126	flat:name	_	MorphInd=^satrio<x>_X--$
-129	-	-	PUNCT	Z--	_	130	punct	_	MorphInd=^-<z>_Z--$
-130	Kuningan	kuningan	PROPN	NSD	_	128	flat:name	_	SpaceAfter=No|MorphInd=^kuning<a>+an_NSD$
-131	,	,	PUNCT	Z--	_	132	punct	_	MorphInd=^,<z>_Z--$
-132	Jakarta	jakarta	PROPN	NSD	_	126	flat:name	_	MorphInd=^jakarta<n>_NSD$
-133	Telp	telp	PROPN	X--	_	132	flat:name	_	SpaceAfter=No|MorphInd=^telp<x>_X--$
-134	.	.	PUNCT	Z--	_	116	punct	_	MorphInd=^.<z>_Z--$
-135	(	(	PUNCT	Z--	_	136	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-136	021	021	NUM	CC-	NumType=Card	116	appos	_	SpaceAfter=No|MorphInd=^021<c>_CC-$
-137	)	)	PUNCT	Z--	_	136	punct	_	MorphInd=^)<z>_Z--$
-138	5760617	5760617	NUM	CC-	NumType=Card	136	nummod	_	SpaceAfter=No|MorphInd=^5760617<c>_CC-$
-139	,	,	PUNCT	Z--	_	141	punct	_	MorphInd=^,<z>_Z--$
-140	5760676	5760676	NUM	CC-	NumType=Card	141	nummod	_	MorphInd=^5760676<c>_CC-$
-141	Fax	fax	PROPN	F--	_	136	appos	_	SpaceAfter=No|MorphInd=^fax<f>_F--$
-142	.	.	PUNCT	Z--	_	116	punct	_	MorphInd=^.<z>_Z--$
-143	(	(	PUNCT	Z--	_	144	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-144	021	021	NUM	CC-	NumType=Card	116	appos	_	SpaceAfter=No|MorphInd=^021<c>_CC-$
-145	)	)	PUNCT	Z--	_	144	punct	_	MorphInd=^)<z>_Z--$
-146	5760677	5760677	NUM	CC-	NumType=Card	144	nummod	_	MorphInd=^5760677<c>_CC-$
-147	Umat	umat	PROPN	NSD	_	151	nsubj	_	MorphInd=^umat<n>_NSD$
-148	Gereja	gereja	PROPN	NSD	_	147	flat:name	_	MorphInd=^gereja<n>_NSD$
-149	Duta	duta	PROPN	NSD	_	148	flat:name	_	MorphInd=^duta<n>_NSD$
-150	Injili	injili	PROPN	VSA	_	149	flat:name	_	MorphInd=^injil<n>+i_VSA$
-151	percaya	percaya	VERB	VSA	Voice=Act	157	dep	_	MorphInd=^percaya<v>_VSA$
-152	akan	akan	ADP	M--	_	154	case	_	MorphInd=^akan<m>_M--$
-153	tiga	tiga	NUM	CC-	NumType=Card	154	nummod	_	MorphInd=^tiga<c>_CC-$
-154	hal	hal	NOUN	NSD	Number=Sing	151	obj	_	SpaceAfter=No|MorphInd=^hal<n>_NSD$
-155	:	:	PUNCT	Z--	_	151	punct	_	MorphInd=^:<z>_Z--$
-156	ialah	ialah	AUX	O--	_	157	cop	_	MorphInd=^ialah<o>_O--$
-157	Tuhan	tuhan	NOUN	NSD	Number=Sing	22	dep	_	MorphInd=^tuhan<n>_NSD$
-158	Pencipta	pencipta	PROPN	NSD	_	157	nmod	_	SpaceAfter=No|MorphInd=^peN+cipta<v>_NSD$
-159	,	,	PUNCT	Z--	_	162	punct	_	MorphInd=^,<z>_Z--$
-160	Ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	162	nsubj	_	MorphInd=^ia<p>_PS3$
-161	selalu	selalu	ADV	D--	_	162	advmod	_	MorphInd=^selalu<d>_D--$
-162	benar	benar	ADJ	ASP	_	157	amod	_	SpaceAfter=No|MorphInd=^benar<a>_ASP$
-163	.	.	PUNCT	Z--	_	157	punct	_	MorphInd=^.<z>_Z--$
+126	Satrio	satrio	PROPN	X--	_	124	flat:name	_	MorphInd=^satrio<x>_X--$
+127	-	-	PUNCT	Z--	_	128	punct	_	MorphInd=^-<z>_Z--$
+128	Kuningan	kuningan	PROPN	NSD	_	126	flat:name	_	SpaceAfter=No|MorphInd=^kuning<a>+an_NSD$
+129	,	,	PUNCT	Z--	_	130	punct	_	MorphInd=^,<z>_Z--$
+130	Jakarta	jakarta	PROPN	NSD	_	124	flat:name	_	MorphInd=^jakarta<n>_NSD$
+131	Telp	telp	PROPN	X--	_	130	flat:name	_	SpaceAfter=No|MorphInd=^telp<x>_X--$
+132	.	.	PUNCT	Z--	_	114	punct	_	MorphInd=^.<z>_Z--$
+133	(	(	PUNCT	Z--	_	134	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+134	021	021	NUM	CC-	NumType=Card	114	appos	_	SpaceAfter=No|MorphInd=^021<c>_CC-$
+135	)	)	PUNCT	Z--	_	134	punct	_	MorphInd=^)<z>_Z--$
+136	5760617	5760617	NUM	CC-	NumType=Card	134	nummod	_	SpaceAfter=No|MorphInd=^5760617<c>_CC-$
+137	,	,	PUNCT	Z--	_	139	punct	_	MorphInd=^,<z>_Z--$
+138	5760676	5760676	NUM	CC-	NumType=Card	139	nummod	_	MorphInd=^5760676<c>_CC-$
+139	Fax	fax	PROPN	F--	_	134	appos	_	SpaceAfter=No|MorphInd=^fax<f>_F--$
+140	.	.	PUNCT	Z--	_	114	punct	_	MorphInd=^.<z>_Z--$
+141	(	(	PUNCT	Z--	_	142	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+142	021	021	NUM	CC-	NumType=Card	114	appos	_	SpaceAfter=No|MorphInd=^021<c>_CC-$
+143	)	)	PUNCT	Z--	_	142	punct	_	MorphInd=^)<z>_Z--$
+144	5760677	5760677	NUM	CC-	NumType=Card	142	nummod	_	MorphInd=^5760677<c>_CC-$
+145	Umat	umat	PROPN	NSD	_	149	nsubj	_	MorphInd=^umat<n>_NSD$
+146	Gereja	gereja	PROPN	NSD	_	145	flat:name	_	MorphInd=^gereja<n>_NSD$
+147	Duta	duta	PROPN	NSD	_	146	flat:name	_	MorphInd=^duta<n>_NSD$
+148	Injili	injili	PROPN	VSA	_	147	flat:name	_	MorphInd=^injil<n>+i_VSA$
+149	percaya	percaya	VERB	VSA	Voice=Act	155	dep	_	MorphInd=^percaya<v>_VSA$
+150	akan	akan	ADP	M--	_	152	case	_	MorphInd=^akan<m>_M--$
+151	tiga	tiga	NUM	CC-	NumType=Card	152	nummod	_	MorphInd=^tiga<c>_CC-$
+152	hal	hal	NOUN	NSD	Number=Sing	149	obj	_	SpaceAfter=No|MorphInd=^hal<n>_NSD$
+153	:	:	PUNCT	Z--	_	149	punct	_	MorphInd=^:<z>_Z--$
+154	ialah	ialah	AUX	O--	_	155	cop	_	MorphInd=^ialah<o>_O--$
+155	Tuhan	tuhan	NOUN	NSD	Number=Sing	22	dep	_	MorphInd=^tuhan<n>_NSD$
+156	Pencipta	pencipta	PROPN	NSD	_	155	nmod	_	SpaceAfter=No|MorphInd=^peN+cipta<v>_NSD$
+157	,	,	PUNCT	Z--	_	160	punct	_	MorphInd=^,<z>_Z--$
+158	Ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	160	nsubj	_	MorphInd=^ia<p>_PS3$
+159	selalu	selalu	ADV	D--	_	160	advmod	_	MorphInd=^selalu<d>_D--$
+160	benar	benar	ADJ	ASP	_	155	amod	_	SpaceAfter=No|MorphInd=^benar<a>_ASP$
+161	.	.	PUNCT	Z--	_	155	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s414
 # text = Jennings dengan mudah lulus tes kewarganegaraan.
