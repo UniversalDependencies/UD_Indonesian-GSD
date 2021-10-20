@@ -4538,7 +4538,7 @@
 38	?	?	PUNCT	Z--	_	2	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s162
-# text = Pesawat ini dikembangkan pada tahun 1960-an sebagai pesawat khusus untuk pertempuran COIN (COunter - INsurgency) atau anti - gerilya.
+# text = Pesawat ini dikembangkan pada tahun 1960-an sebagai pesawat khusus untuk pertempuran COIN (COunter - INsurgency) atau anti-gerilya.
 # text_en = This aircraft was developed in the 1960s as a special aircraft for COIN (Counter - INsurgency) or anti-guerrilla combat.
 1	Pesawat	pesawat	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^pesawat<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
@@ -4558,10 +4558,8 @@
 16	INsurgency	insurgency	PROPN	X--	_	14	flat:name	_	SpaceAfter=No|MorphInd=^insurgency<x>_X--$
 17	)	)	PUNCT	Z--	_	14	punct	_	MorphInd=^)<z>_Z--$
 18	atau	atau	CCONJ	H--	_	19	cc	_	MorphInd=^atau<h>_H--$
-19	anti	anti	NOUN	ASP	_	11	conj	_	MorphInd=^anti<a>_ASP$
-20	-	-	PUNCT	Z--	_	21	punct	_	MorphInd=^-<z>_Z--$
-21	gerilya	gerilya	NOUN	NSD	Number=Sing	19	fixed	_	SpaceAfter=No|MorphInd=^gerilya<n>_NSD$
-22	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+19	anti-gerilya	anti-gerilya	NOUN	NSD	Number=Sing	11	conj	_	MorphInd=^anti<a>_ASP+gerilya<n>_NSD$|SpaceAfter=No
+20	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s163
 # text = Semakin jauh, maka warnanya berubah dari jingga menjadi biru.
