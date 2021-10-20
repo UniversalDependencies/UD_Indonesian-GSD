@@ -2019,7 +2019,7 @@
 29	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s70
-# text = NMT 450, Nordic Mobile Telephone, standar komunikasi seluler analog yang bekerja pada frekuensi 450 MHz. Standar ini dikembangkan dan digunakan oleh negara-negara nordic tahun 1981 AMPS, Advanced Mobile Phone System, standar komunikasi seluler analog yang bekerja pada frekuensi 800 MHz. Standar ini dikembangkan dan digunakan tahun 1983 TACS, Total Access Communication System, standar komunikasi seluler analog; serupa dengan AMPS; hanya bekerja pada frekuensi 900 MHz. Standar ini dikembangkan dan digunakan 1985 NMT 900, Nordic Mobile Telephony, standar komunikasi seluler analog yang bekerja pada frekuensi 900 MHz. Standar ini dikembangkan dan digunakan oleh negara-negara nordic tahun 1986 GSM, Global System for Mobile Communication, standar komunikasi seluler digital yang bekerja pada frekuensi 900 MHz. Standar ini dikembangkan oleh gabungan negara - negara Eropa dan digunakan secara komersial pada tahun 1991.
+# text = NMT 450, Nordic Mobile Telephone, standar komunikasi seluler analog yang bekerja pada frekuensi 450 MHz. Standar ini dikembangkan dan digunakan oleh negara-negara nordic tahun 1981 AMPS, Advanced Mobile Phone System, standar komunikasi seluler analog yang bekerja pada frekuensi 800 MHz. Standar ini dikembangkan dan digunakan tahun 1983 TACS, Total Access Communication System, standar komunikasi seluler analog; serupa dengan AMPS; hanya bekerja pada frekuensi 900 MHz. Standar ini dikembangkan dan digunakan 1985 NMT 900, Nordic Mobile Telephony, standar komunikasi seluler analog yang bekerja pada frekuensi 900 MHz. Standar ini dikembangkan dan digunakan oleh negara-negara nordic tahun 1986 GSM, Global System for Mobile Communication, standar komunikasi seluler digital yang bekerja pada frekuensi 900 MHz. Standar ini dikembangkan oleh gabungan negara-negara Eropa dan digunakan secara komersial pada tahun 1991.
 # text_en = NMT 450, Nordic Mobile Telephone, an analog cellular communication standard operating at a frequency of 450 MHz. This standard was developed and used by the Nordic countries in 1981 AMPS, Advanced Mobile Phone System, an analog cellular communication standard that works at a frequency of 800 MHz. This standard was developed and used in 1983 TACS, Total Access Communication System, an analog cellular communications standard; similar to AMPS; only works at a frequency of 900 MHz. This standard was developed and used 1985 NMT 900, Nordic Mobile Telephony, an analog cellular communications standard operating at the 900 MHz frequency. This standard was developed and used by the Nordic countries in 1986 GSM, Global System for Mobile Communication, a digital cellular communication standard that works at a frequency of 900 MHz. This standard was developed by a combination of European countries and used commercially in 1991.
 1	NMT	nmt	PROPN	X--	_	0	root	_	MorphInd=^nmt<x>_X--$
 2	450	450	NUM	CC-	NumType=Card	1	nummod	_	SpaceAfter=No|MorphInd=^450<c>_CC-$
@@ -2155,18 +2155,16 @@
 132	dikembangkan	kembang	VERB	VSP	Voice=Pass	1	dep	_	MorphInd=^di+kembang<v>+kan_VSP$
 133	oleh	oleh	ADP	R--	_	134	case	_	MorphInd=^oleh<r>_R--$
 134	gabungan	gabung	NOUN	NSD	Number=Sing	132	obl	_	MorphInd=^gabung<v>+an_NSD$
-135	negara	negara	NOUN	NSD	Number=Sing	134	compound	_	MorphInd=^negara<n>_NSD$
-136	-	-	PUNCT	Z--	_	137	punct	_	MorphInd=^-<z>_Z--$
-137	negara	negara	NOUN	NSD	Number=Sing	135	compound	_	MorphInd=^negara<n>_NSD$
-138	Eropa	eropa	PROPN	NSD	_	137	nmod	_	MorphInd=^eropa<n>_NSD$
-139	dan	dan	CCONJ	H--	_	140	cc	_	MorphInd=^dan<h>_H--$
-140	digunakan	guna	VERB	VSP	Voice=Pass	132	conj	_	MorphInd=^di+guna<n>+kan_VSP$
-141	secara	secara	ADP	R--	_	142	case:adv	_	MorphInd=^secara<r>_R--$
-142	komersial	komersial	ADJ	ASP	_	140	advmod	_	MorphInd=^komersial<a>_ASP$
-143	pada	pada	ADP	R--	_	144	case	_	MorphInd=^pada<r>_R--$
-144	tahun	tahun	NOUN	NSD	Number=Sing	140	obl:tmod	_	MorphInd=^tahun<n>_NSD$
-145	1991	1991	NUM	CC-	NumType=Card	144	nummod	_	SpaceAfter=No|MorphInd=^1991<c>_CC-$
-146	.	.	PUNCT	Z--	_	132	punct	_	MorphInd=^.<z>_Z--$
+135	negara-negara	negara	NOUN	NSD	Number=Plur	134	compound	_	MorphInd=^negara<n>_NSD$
+136	Eropa	eropa	PROPN	NSD	_	135	nmod	_	MorphInd=^eropa<n>_NSD$
+137	dan	dan	CCONJ	H--	_	138	cc	_	MorphInd=^dan<h>_H--$
+138	digunakan	guna	VERB	VSP	Voice=Pass	132	conj	_	MorphInd=^di+guna<n>+kan_VSP$
+139	secara	secara	ADP	R--	_	140	case:adv	_	MorphInd=^secara<r>_R--$
+140	komersial	komersial	ADJ	ASP	_	138	advmod	_	MorphInd=^komersial<a>_ASP$
+141	pada	pada	ADP	R--	_	142	case	_	MorphInd=^pada<r>_R--$
+142	tahun	tahun	NOUN	NSD	Number=Sing	138	obl:tmod	_	MorphInd=^tahun<n>_NSD$
+143	1991	1991	NUM	CC-	NumType=Card	142	nummod	_	SpaceAfter=No|MorphInd=^1991<c>_CC-$
+144	.	.	PUNCT	Z--	_	132	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s71
 # text = Jenis-jenis otot yang ada dalam tubuh: Memiliki desain yang efektif untuk pergerakan yang spontan dan membutuhkan tenaga besar.
@@ -2644,47 +2642,45 @@
 13	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s90
-# text = Film ini dikenal untuk pemeran - pemerannya yang merupakan aktor-aktor bintang Uni Soviet: Marina Ladynina, Nikolai Kryuchkov, Boris Andreyev, Stepan Kayukov, Pyotr Alejnikov, Vladimir Kolchin, dan masih banyak lagi.
+# text = Film ini dikenal untuk pemeran-pemerannya yang merupakan aktor-aktor bintang Uni Soviet: Marina Ladynina, Nikolai Kryuchkov, Boris Andreyev, Stepan Kayukov, Pyotr Alejnikov, Vladimir Kolchin, dan masih banyak lagi.
 # text_en = The film is known for its cast of star actors from the Soviet Union: Marina Ladynina, Nikolai Kryuchkov, Boris Andreyev, Stepan Kayukov, Pyotr Alejnikov, Vladimir Kolchin, and many more.
 1	Film	film	NOUN	NSD	Number=Sing	3	nsubj:pass	_	MorphInd=^film<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	dikenal	kenal	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+kenal<v>_VSP$
 4	untuk	untuk	ADP	R--	_	5	case	_	MorphInd=^untuk<r>_R--$
-5	pemeran	peran	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^peN+peran<n>_NSD$
-6	-	-	PUNCT	Z--	_	7	punct	_	MorphInd=^-<z>_Z--$
-7-8	pemerannya	_	_	_	_	_	_	_	MorphInd=^peN+peran<n>_NSD+dia<p>_PS3$
-7	pemeran	peran	NOUN	NSD	Number=Sing	5	nmod	_	MorphInd=^peN+peran<n>_NSD$
-8	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	MorphInd=^dia<p>_PS3$
-9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	MorphInd=^yang<s>_S--$
-10	merupakan	merupakan	VERB	O--	_	5	acl:relcl	_	MorphInd=^merupakan<o>_O--$
-11	aktor-aktor	aktor	NOUN	NSD	Number=Plur	10	acl	_	MorphInd=^aktor<n>_NSD$
-12	bintang	bintang	NOUN	NSD	Number=Sing	11	compound	_	MorphInd=^bintang<n>_NSD$
-13	Uni	uni	PROPN	NSD	_	12	nmod	_	MorphInd=^uni<n>_NSD$
-14	Soviet	soviet	PROPN	F--	_	13	flat:name	_	SpaceAfter=No|MorphInd=^soviet<f>_F--$
-15	:	:	PUNCT	Z--	_	16	punct	_	MorphInd=^:<z>_Z--$
-16	Marina	marina	PROPN	F--	_	12	appos	_	MorphInd=^marina<f>_F--$
-17	Ladynina	ladynina	PROPN	X--	_	16	flat:name	_	SpaceAfter=No|MorphInd=^ladynina<x>_X--$
-18	,	,	PUNCT	Z--	_	19	punct	_	MorphInd=^,<z>_Z--$
-19	Nikolai	nikolai	PROPN	X--	_	16	conj	_	MorphInd=^nikolai<x>_X--$
-20	Kryuchkov	kryuchkov	PROPN	F--	_	19	flat:name	_	SpaceAfter=No|MorphInd=^kryuchkov<f>_F--$
-21	,	,	PUNCT	Z--	_	22	punct	_	MorphInd=^,<z>_Z--$
-22	Boris	boris	PROPN	F--	_	16	conj	_	MorphInd=^boris<f>_F--$
-23	Andreyev	andreyev	PROPN	X--	_	22	flat:name	_	SpaceAfter=No|MorphInd=^andreyev<x>_X--$
-24	,	,	PUNCT	Z--	_	25	punct	_	MorphInd=^,<z>_Z--$
-25	Stepan	stepan	PROPN	X--	_	16	conj	_	MorphInd=^stepan<x>_X--$
-26	Kayukov	kayukov	PROPN	X--	_	25	flat:name	_	SpaceAfter=No|MorphInd=^kayukov<x>_X--$
-27	,	,	PUNCT	Z--	_	28	punct	_	MorphInd=^,<z>_Z--$
-28	Pyotr	pyotr	PROPN	X--	_	16	conj	_	MorphInd=^pyotr<x>_X--$
-29	Alejnikov	alejnikov	PROPN	X--	_	28	flat:name	_	SpaceAfter=No|MorphInd=^alejnikov<x>_X--$
-30	,	,	PUNCT	Z--	_	31	punct	_	MorphInd=^,<z>_Z--$
-31	Vladimir	vladimir	PROPN	F--	_	16	conj	_	MorphInd=^vladimir<f>_F--$
-32	Kolchin	kolchin	PROPN	X--	_	31	flat:name	_	SpaceAfter=No|MorphInd=^kolchin<x>_X--$
-33	,	,	PUNCT	Z--	_	36	punct	_	MorphInd=^,<z>_Z--$
-34	dan	dan	CCONJ	H--	_	36	cc	_	MorphInd=^dan<h>_H--$
-35	masih	masih	ADV	D--	_	36	advmod	_	MorphInd=^masih<d>_D--$
-36	banyak	banyak	ADV	ASP	_	16	conj	_	MorphInd=^banyak<a>_ASP$
-37	lagi	lagi	ADV	D--	_	36	fixed	_	SpaceAfter=No|MorphInd=^lagi<d>_D--$
-38	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+5-6	pemeran-pemerannya	_	_	_	_	_	_	_	MorphInd=^peN+peran<n>_NSD+dia<p>_PS3$
+5	pemeran-pemeran	peran	NOUN	NSD	Number=Plur	3	obl	_	MorphInd=^peN+peran<n>_NSD$
+6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	MorphInd=^dia<p>_PS3$
+7	yang	yang	PRON	S--	PronType=Rel	8	nsubj	_	MorphInd=^yang<s>_S--$
+8	merupakan	merupakan	VERB	O--	_	5	acl:relcl	_	MorphInd=^merupakan<o>_O--$
+9	aktor-aktor	aktor	NOUN	NSD	Number=Plur	8	acl	_	MorphInd=^aktor<n>_NSD$
+10	bintang	bintang	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^bintang<n>_NSD$
+11	Uni	uni	PROPN	NSD	_	10	nmod	_	MorphInd=^uni<n>_NSD$
+12	Soviet	soviet	PROPN	F--	_	11	flat:name	_	SpaceAfter=No|MorphInd=^soviet<f>_F--$
+13	:	:	PUNCT	Z--	_	14	punct	_	MorphInd=^:<z>_Z--$
+14	Marina	marina	PROPN	F--	_	10	appos	_	MorphInd=^marina<f>_F--$
+15	Ladynina	ladynina	PROPN	X--	_	14	flat:name	_	SpaceAfter=No|MorphInd=^ladynina<x>_X--$
+16	,	,	PUNCT	Z--	_	17	punct	_	MorphInd=^,<z>_Z--$
+17	Nikolai	nikolai	PROPN	X--	_	14	conj	_	MorphInd=^nikolai<x>_X--$
+18	Kryuchkov	kryuchkov	PROPN	F--	_	17	flat:name	_	SpaceAfter=No|MorphInd=^kryuchkov<f>_F--$
+19	,	,	PUNCT	Z--	_	20	punct	_	MorphInd=^,<z>_Z--$
+20	Boris	boris	PROPN	F--	_	14	conj	_	MorphInd=^boris<f>_F--$
+21	Andreyev	andreyev	PROPN	X--	_	20	flat:name	_	SpaceAfter=No|MorphInd=^andreyev<x>_X--$
+22	,	,	PUNCT	Z--	_	23	punct	_	MorphInd=^,<z>_Z--$
+23	Stepan	stepan	PROPN	X--	_	14	conj	_	MorphInd=^stepan<x>_X--$
+24	Kayukov	kayukov	PROPN	X--	_	23	flat:name	_	SpaceAfter=No|MorphInd=^kayukov<x>_X--$
+25	,	,	PUNCT	Z--	_	26	punct	_	MorphInd=^,<z>_Z--$
+26	Pyotr	pyotr	PROPN	X--	_	14	conj	_	MorphInd=^pyotr<x>_X--$
+27	Alejnikov	alejnikov	PROPN	X--	_	26	flat:name	_	SpaceAfter=No|MorphInd=^alejnikov<x>_X--$
+28	,	,	PUNCT	Z--	_	29	punct	_	MorphInd=^,<z>_Z--$
+29	Vladimir	vladimir	PROPN	F--	_	14	conj	_	MorphInd=^vladimir<f>_F--$
+30	Kolchin	kolchin	PROPN	X--	_	29	flat:name	_	SpaceAfter=No|MorphInd=^kolchin<x>_X--$
+31	,	,	PUNCT	Z--	_	34	punct	_	MorphInd=^,<z>_Z--$
+32	dan	dan	CCONJ	H--	_	34	cc	_	MorphInd=^dan<h>_H--$
+33	masih	masih	ADV	D--	_	34	advmod	_	MorphInd=^masih<d>_D--$
+34	banyak	banyak	ADV	ASP	_	14	conj	_	MorphInd=^banyak<a>_ASP$
+35	lagi	lagi	ADV	D--	_	34	fixed	_	SpaceAfter=No|MorphInd=^lagi<d>_D--$
+36	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s91
 # text = Ritual-ritual Shaman dilakukan untuk mengobati yang sakit, mendamaikan keluarga-keluarga yang berantakan.
@@ -5338,7 +5334,7 @@
 50	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = dev-s192
-# text = Antara 800 SM dan 600 SM, matematika Yunani pada umumnya berada di belakang kesusasteraan Yunani, dan hanya sedikit yang diketahui tentang matematika Yunani dari periode ini — yang hampir semuanya sudah pernah sampai melalui penulis sebelumnya, sejak pertengahan abad ke-4 SM. Sejarawan biasanya menempatkan permulaan matematika Yunani pada masa hidup Thales dari Miletus (kira - kira 624 - 548 SM).
+# text = Antara 800 SM dan 600 SM, matematika Yunani pada umumnya berada di belakang kesusasteraan Yunani, dan hanya sedikit yang diketahui tentang matematika Yunani dari periode ini — yang hampir semuanya sudah pernah sampai melalui penulis sebelumnya, sejak pertengahan abad ke-4 SM. Sejarawan biasanya menempatkan permulaan matematika Yunani pada masa hidup Thales dari Miletus (kira-kira 624 - 548 SM).
 # text_en = Between 800 BC and 600 BC, Greek mathematics was generally behind Greek literature, and little is known about Greek mathematics from this period — almost all of which has been through earlier writers, since the mid-4th century BC. Historians usually place the beginning of Greek mathematics in the lifetime of Thales of Miletus (c. 624 - 548 BC).
 1	Antara	antara	ADP	R--	_	3	case	_	MorphInd=^antara<r>_R--$
 2	800	800	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^800<c>_CC-$
@@ -5400,15 +5396,13 @@
 57	dari	dari	ADP	R--	_	58	case	_	MorphInd=^dari<r>_R--$
 58	Miletus	miletus	PROPN	X--	_	54	nmod	_	MorphInd=^miletus<x>_X--$
 59	(	(	PUNCT	Z--	_	60	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-60	kira	kira	NOUN	VSA	_	58	appos	_	MorphInd=^kira<v>_VSA$
-61	-	-	PUNCT	Z--	_	62	punct	_	MorphInd=^-<z>_Z--$
-62	kira	kira	NOUN	VSA	_	60	compound	_	MorphInd=^kira<v>_VSA$
-63	624	624	NUM	CC-	NumType=Card	66	nummod	_	MorphInd=^624<c>_CC-$
-64	-	-	PUNCT	Z--	_	63	punct	_	MorphInd=^-<z>_Z--$
-65	548	548	NUM	CC-	NumType=Card	66	nummod	_	MorphInd=^548<c>_CC-$
-66	SM	sm	NOUN	X--	_	60	compound	_	SpaceAfter=No|MorphInd=^sm<x>_X--$
-67	)	)	PUNCT	Z--	_	60	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
-68	.	.	PUNCT	Z--	_	49	punct	_	MorphInd=^.<z>_Z--$
+60	kira-kira	kira	NOUN	VSA	Number=Plur	58	appos	_	MorphInd=^kira<v>_VSA$
+61	624	624	NUM	CC-	NumType=Card	64	nummod	_	MorphInd=^624<c>_CC-$
+62	-	-	PUNCT	Z--	_	61	punct	_	MorphInd=^-<z>_Z--$
+63	548	548	NUM	CC-	NumType=Card	64	nummod	_	MorphInd=^548<c>_CC-$
+64	SM	sm	NOUN	X--	_	60	compound	_	SpaceAfter=No|MorphInd=^sm<x>_X--$
+65	)	)	PUNCT	Z--	_	60	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
+66	.	.	PUNCT	Z--	_	49	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s193
 # text = Jawa Pos mengklaim sebagai "Harian Nasional yang Terbit dari Surabaya".
@@ -6120,10 +6114,10 @@
 21	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s220
-# text = Kelakuannya yang paling menjengkelkan bagi Naruto dan kawan - kawannya ialah kebiasaan Kakashi yang jarang datang tepat waktu (terlambat 3 jam sampai 12 jam) dengan alasan konyol seperti "Aku tersesat di jalan bernama kehidupan," ataupun "Di jalan aku bertemu wanita tua,". Dibalik itu semua, dia memiliki masa lalu yang pahit.
+# text = Kelakuannya yang paling menjengkelkan bagi Naruto dan kawan-kawannya ialah kebiasaan Kakashi yang jarang datang tepat waktu (terlambat 3 jam sampai 12 jam) dengan alasan konyol seperti "Aku tersesat di jalan bernama kehidupan," ataupun "Di jalan aku bertemu wanita tua,". Dibalik itu semua, dia memiliki masa lalu yang pahit.
 # text_en = His most annoying behavior for Naruto and his friends is Kakashi's habit of rarely arriving on time (3 hours to 12 hours late) with silly excuses such as "I got lost on the road called life," or "On the road I met an old woman,". Behind that, it has pathetic historic.
 1-2	Kelakuannya	_	_	_	_	_	_	_	MorphInd=^ke+laku<n>+an_NSD+dia<p>_PS3$
-1	Kelakuan	laku	NOUN	NSD	Number=Sing	14	nsubj	_	MorphInd=^ke+laku<n>+an_NSD$
+1	Kelakuan	laku	NOUN	NSD	Number=Sing	12	nsubj	_	MorphInd=^ke+laku<n>+an_NSD$
 2	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	MorphInd=^dia<p>_PS3$
 3	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	MorphInd=^yang<s>_S--$
 4	paling	paling	ADV	VSA	_	5	advmod	_	MorphInd=^paling<v>_VSA$
@@ -6131,64 +6125,62 @@
 6	bagi	bagi	ADP	R--	_	7	case	_	MorphInd=^bagi<r>_R--$
 7	Naruto	naruto	PROPN	X--	_	5	obl	_	MorphInd=^naruto<x>_X--$
 8	dan	dan	CCONJ	H--	_	9	cc	_	MorphInd=^dan<h>_H--$
-9	kawan	kawan	NOUN	NSD	Number=Sing	7	conj	_	MorphInd=^kawan<n>_NSD$
-10	-	-	PUNCT	Z--	_	11	punct	_	MorphInd=^-<z>_Z--$
-11-12	kawannya	_	_	_	_	_	_	_	MorphInd=^kawan<n>_NSD+dia<p>_PS3$
-11	kawan	kawan	NOUN	NSD	Number=Sing	9	nmod	_	MorphInd=^kawan<n>_NSD$
-12	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	MorphInd=^dia<p>_PS3$
-13	ialah	ialah	AUX	O--	_	14	cop	_	MorphInd=^ialah<o>_O--$
-14	kebiasaan	biasa	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^ke+biasa<a>+an_NSD$
-15	Kakashi	kakashi	PROPN	X--	_	14	nmod	_	MorphInd=^kakashi<x>_X--$
-16	yang	yang	PRON	S--	PronType=Rel	18	nsubj	_	MorphInd=^yang<s>_S--$
-17	jarang	jarang	ADV	ASP	_	18	advmod	_	MorphInd=^jarang<a>_ASP$
-18	datang	datang	VERB	VSA	Voice=Act	14	acl:relcl	_	MorphInd=^datang<v>_VSA$
-19	tepat	tepat	ADJ	ASP	_	20	amod	_	MorphInd=^tepat<a>_ASP$
-20	waktu	waktu	NOUN	NSD	Number=Sing	18	nmod	_	MorphInd=^waktu<n>_NSD$
-21	(	(	PUNCT	Z--	_	22	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-22	terlambat	terlambat	NOUN	ASP	_	20	appos	_	MorphInd=^terlambat<a>_ASP$
-23	3	3	NUM	CC-	NumType=Card	24	nummod	_	MorphInd=^3<c>_CC-$
-24	jam	jam	NOUN	NSD	Number=Sing	22	compound	_	MorphInd=^jam<n>_NSD$
-25	sampai	sampai	ADP	ASP	_	27	case	_	MorphInd=^sampai<a>_ASP$
-26	12	12	NUM	CC-	NumType=Card	27	nummod	_	MorphInd=^12<c>_CC-$
-27	jam	jam	NOUN	NSD	Number=Sing	22	nmod	_	SpaceAfter=No|MorphInd=^jam<n>_NSD$
-28	)	)	PUNCT	Z--	_	22	punct	_	MorphInd=^)<z>_Z--$
-29	dengan	dengan	ADP	R--	_	30	case	_	MorphInd=^dengan<r>_R--$
-30	alasan	alasan	NOUN	NSD	Number=Sing	18	obl	_	MorphInd=^alasan<n>_NSD$
-31	konyol	konyol	ADJ	NSD	_	30	amod	_	MorphInd=^konyol<n>_NSD$
-32	seperti	seperti	ADP	R--	_	30	case	_	MorphInd=^seperti<r>_R--$
-33	"	"	PUNCT	Z--	_	35	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
-34	Aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	35	nsubj	_	MorphInd=^aku<p>_PS1$
-35	tersesat	sesat	VERB	ASS	_	30	appos	_	MorphInd=^ter+sesat<a>_ASS$
-36	di	di	ADP	R--	_	37	case	_	MorphInd=^di<r>_R--$
-37	jalan	jalan	NOUN	NSD	Number=Sing	35	obl	_	MorphInd=^jalan<n>_NSD$
-38	bernama	nama	VERB	VSA	Voice=Act	37	acl	_	MorphInd=^ber+nama<n>_VSA$
-39	kehidupan	hidup	NOUN	NSD	Number=Sing	38	obj	_	SpaceAfter=No|MorphInd=^ke+hidup<n>+an_NSD$
-40	,	,	PUNCT	Z--	_	35	punct	_	SpaceAfter=No|MorphInd=^,<z>_Z--$
-41	"	"	PUNCT	Z--	_	35	punct	_	MorphInd=^"<z>_Z--$
-42-43	ataupun	_	_	_	_	_	_	_	MorphInd=^atau<h>_H--+pun<t>_T--$
-42	atau	atau	CCONJ	H--	_	48	cc	_	MorphInd=^atau<h>_H--$
-43	pun	pun	PART	T--	_	48	advmod:emph	_	MorphInd=^pun<t>_T--$
-44	"	"	PUNCT	Z--	_	48	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
-45	Di	di	ADP	R--	_	46	case	_	MorphInd=^di<r>_R--$
-46	jalan	jalan	NOUN	NSD	Number=Sing	48	obl	_	MorphInd=^jalan<n>_NSD$
-47	aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	48	nsubj	_	MorphInd=^aku<p>_PS1$
-48	bertemu	temu	VERB	VSA	Voice=Act	35	conj	_	MorphInd=^ber+temu<v>_VSA$
-49	wanita	wanita	NOUN	NSD	Number=Sing	48	obj	_	MorphInd=^wanita<n>_NSD$
-50	tua	tua	ADJ	ASP	_	49	amod	_	SpaceAfter=No|MorphInd=^tua<a>_ASP$
-51	,	,	PUNCT	Z--	_	48	punct	_	SpaceAfter=No|MorphInd=^,<z>_Z--$
-52	"	"	PUNCT	Z--	_	48	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
-53	.	.	PUNCT	Z--	_	14	punct	_	MorphInd=^.<z>_Z--$
-54	Dibalik	dibalik	ADP	VSP	_	59	case	_	MorphInd=^di+balik<v>_VSP$
-55	itu	itu	DET	B--	PronType=Dem	59	det	_	MorphInd=^itu<b>_B--$
-56	semua	semua	DET	B--	PronType=Tot	59	det	_	SpaceAfter=No|MorphInd=^semua<b>_B--$
-57	,	,	PUNCT	Z--	_	56	punct	_	MorphInd=^,<z>_Z--$
-58	dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	59	nsubj	_	MorphInd=^dia<p>_PS3$
-59	memiliki	milik	VERB	VSA	Voice=Act	14	dep	_	MorphInd=^meN+milik<v>+i_VSA$
-60	masa	masa	NOUN	NSD	Number=Sing	59	obj	_	MorphInd=^masa<n>_NSD$
-61	lalu	lalu	ADJ	ASP	_	60	amod	_	MorphInd=^lalu<a>_ASP$
-62	yang	yang	PRON	S--	PronType=Rel	63	nsubj	_	MorphInd=^yang<s>_S--$
-63	pahit	pahit	ADJ	ASP	_	60	acl:relcl	_	SpaceAfter=No|MorphInd=^pahit<a>_ASP$
-64	.	.	PUNCT	Z--	_	59	punct	_	MorphInd=^.<z>_Z--$
+9-10	kawan-kawannya	_	_	_	_	_	_	_	MorphInd=^kawan<n>_NSD+dia<p>_PS3$
+9	kawan-kawan	kawan	NOUN	NSD	Number=Plur	7	conj	_	MorphInd=^kawan<n>_NSD$
+10	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	MorphInd=^dia<p>_PS3$
+11	ialah	ialah	AUX	O--	_	12	cop	_	MorphInd=^ialah<o>_O--$
+12	kebiasaan	biasa	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^ke+biasa<a>+an_NSD$
+13	Kakashi	kakashi	PROPN	X--	_	12	nmod	_	MorphInd=^kakashi<x>_X--$
+14	yang	yang	PRON	S--	PronType=Rel	16	nsubj	_	MorphInd=^yang<s>_S--$
+15	jarang	jarang	ADV	ASP	_	16	advmod	_	MorphInd=^jarang<a>_ASP$
+16	datang	datang	VERB	VSA	Voice=Act	12	acl:relcl	_	MorphInd=^datang<v>_VSA$
+17	tepat	tepat	ADJ	ASP	_	18	amod	_	MorphInd=^tepat<a>_ASP$
+18	waktu	waktu	NOUN	NSD	Number=Sing	16	nmod	_	MorphInd=^waktu<n>_NSD$
+19	(	(	PUNCT	Z--	_	20	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+20	terlambat	terlambat	NOUN	ASP	_	18	appos	_	MorphInd=^terlambat<a>_ASP$
+21	3	3	NUM	CC-	NumType=Card	22	nummod	_	MorphInd=^3<c>_CC-$
+22	jam	jam	NOUN	NSD	Number=Sing	20	compound	_	MorphInd=^jam<n>_NSD$
+23	sampai	sampai	ADP	ASP	_	25	case	_	MorphInd=^sampai<a>_ASP$
+24	12	12	NUM	CC-	NumType=Card	25	nummod	_	MorphInd=^12<c>_CC-$
+25	jam	jam	NOUN	NSD	Number=Sing	20	nmod	_	SpaceAfter=No|MorphInd=^jam<n>_NSD$
+26	)	)	PUNCT	Z--	_	20	punct	_	MorphInd=^)<z>_Z--$
+27	dengan	dengan	ADP	R--	_	28	case	_	MorphInd=^dengan<r>_R--$
+28	alasan	alasan	NOUN	NSD	Number=Sing	16	obl	_	MorphInd=^alasan<n>_NSD$
+29	konyol	konyol	ADJ	NSD	_	28	amod	_	MorphInd=^konyol<n>_NSD$
+30	seperti	seperti	ADP	R--	_	28	case	_	MorphInd=^seperti<r>_R--$
+31	"	"	PUNCT	Z--	_	33	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
+32	Aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	33	nsubj	_	MorphInd=^aku<p>_PS1$
+33	tersesat	sesat	VERB	ASS	_	28	appos	_	MorphInd=^ter+sesat<a>_ASS$
+34	di	di	ADP	R--	_	35	case	_	MorphInd=^di<r>_R--$
+35	jalan	jalan	NOUN	NSD	Number=Sing	33	obl	_	MorphInd=^jalan<n>_NSD$
+36	bernama	nama	VERB	VSA	Voice=Act	35	acl	_	MorphInd=^ber+nama<n>_VSA$
+37	kehidupan	hidup	NOUN	NSD	Number=Sing	36	obj	_	SpaceAfter=No|MorphInd=^ke+hidup<n>+an_NSD$
+38	,	,	PUNCT	Z--	_	33	punct	_	SpaceAfter=No|MorphInd=^,<z>_Z--$
+39	"	"	PUNCT	Z--	_	33	punct	_	MorphInd=^"<z>_Z--$
+40-41	ataupun	_	_	_	_	_	_	_	MorphInd=^atau<h>_H--+pun<t>_T--$
+40	atau	atau	CCONJ	H--	_	46	cc	_	MorphInd=^atau<h>_H--$
+41	pun	pun	PART	T--	_	46	advmod:emph	_	MorphInd=^pun<t>_T--$
+42	"	"	PUNCT	Z--	_	46	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
+43	Di	di	ADP	R--	_	44	case	_	MorphInd=^di<r>_R--$
+44	jalan	jalan	NOUN	NSD	Number=Sing	46	obl	_	MorphInd=^jalan<n>_NSD$
+45	aku	aku	PRON	PS1	Number=Sing|Person=1|Polite=Infm|PronType=Prs	46	nsubj	_	MorphInd=^aku<p>_PS1$
+46	bertemu	temu	VERB	VSA	Voice=Act	33	conj	_	MorphInd=^ber+temu<v>_VSA$
+47	wanita	wanita	NOUN	NSD	Number=Sing	46	obj	_	MorphInd=^wanita<n>_NSD$
+48	tua	tua	ADJ	ASP	_	47	amod	_	SpaceAfter=No|MorphInd=^tua<a>_ASP$
+49	,	,	PUNCT	Z--	_	46	punct	_	SpaceAfter=No|MorphInd=^,<z>_Z--$
+50	"	"	PUNCT	Z--	_	46	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
+51	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
+52	Dibalik	dibalik	ADP	VSP	_	57	case	_	MorphInd=^di+balik<v>_VSP$
+53	itu	itu	DET	B--	PronType=Dem	57	det	_	MorphInd=^itu<b>_B--$
+54	semua	semua	DET	B--	PronType=Tot	57	det	_	SpaceAfter=No|MorphInd=^semua<b>_B--$
+55	,	,	PUNCT	Z--	_	54	punct	_	MorphInd=^,<z>_Z--$
+56	dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	57	nsubj	_	MorphInd=^dia<p>_PS3$
+57	memiliki	milik	VERB	VSA	Voice=Act	12	dep	_	MorphInd=^meN+milik<v>+i_VSA$
+58	masa	masa	NOUN	NSD	Number=Sing	57	obj	_	MorphInd=^masa<n>_NSD$
+59	lalu	lalu	ADJ	ASP	_	58	amod	_	MorphInd=^lalu<a>_ASP$
+60	yang	yang	PRON	S--	PronType=Rel	61	nsubj	_	MorphInd=^yang<s>_S--$
+61	pahit	pahit	ADJ	ASP	_	58	acl:relcl	_	SpaceAfter=No|MorphInd=^pahit<a>_ASP$
+62	.	.	PUNCT	Z--	_	57	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s221
 # text = Ketika polio menyerang Amerika selama dasawarsa seusai Perang Dunia II, penyakit itu disebut 'momok semua orang tua', karena menjangkiti anak-anak terutama yang berumur di bawah lima tahun.
@@ -8187,7 +8179,7 @@
 21	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s303
-# text = Akibat akuisisi ini dan sengketa hukum dengan Hearst Corporation, Mandrakesoft mengumumkan nama perusahaan menjadi Mandriva, dan bahwa Mandriva Linux akan menjadi nama baru bagi produk - produknya.
+# text = Akibat akuisisi ini dan sengketa hukum dengan Hearst Corporation, Mandrakesoft mengumumkan nama perusahaan menjadi Mandriva, dan bahwa Mandriva Linux akan menjadi nama baru bagi produk-produknya.
 # text_en = As a result of this acquisition and legal dispute with Hearst Corporation, Mandrakesoft announced the company name to Mandriva, and that Mandriva Linux would be the new name for its products.
 1	Akibat	akibat	ADP	NSD	_	2	case	_	MorphInd=^akibat<n>_NSD$
 2	akuisisi	akuisisi	NOUN	NSD	Number=Sing	12	obl	_	MorphInd=^akuisisi<n>_NSD$
@@ -8215,12 +8207,10 @@
 24	nama	nama	NOUN	NSD	Number=Sing	23	obj	_	MorphInd=^nama<n>_NSD$
 25	baru	baru	ADJ	ASP	_	24	amod	_	MorphInd=^baru<a>_ASP$
 26	bagi	bagi	ADP	R--	_	27	case	_	MorphInd=^bagi<r>_R--$
-27	produk	produk	NOUN	NSD	Number=Sing	24	nmod	_	MorphInd=^produk<n>_NSD$
-28	-	-	PUNCT	Z--	_	29	punct	_	MorphInd=^-<z>_Z--$
-29-30	produknya	_	_	_	_	_	_	_	MorphInd=^produk<n>_NSD+dia<p>_PS3$|SpaceAfter=No
-29	produk	produk	NOUN	NSD	Number=Sing	27	nmod	_	MorphInd=^produk<n>_NSD$
-30	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	29	nmod:poss	_	MorphInd=^dia<p>_PS3$
-31	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
+27-28	produk-produknya	_	_	_	_	_	_	_	MorphInd=^produk<n>_NSD+dia<p>_PS3$|SpaceAfter=No
+27	produk-produk	produk	NOUN	NSD	Number=Plur	24	nmod	_	MorphInd=^produk<n>_NSD$
+28	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	27	nmod:poss	_	MorphInd=^dia<p>_PS3$
+29	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s304
 # text = "Saya harap apa yang saya tulis menyumbang ke hal itu, tetapi itu bukanlah kekuatan yang menggerakkan.
@@ -12941,7 +12931,7 @@
 16	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s476
-# text = Pada 24 April 2012, setelah masuk sebagai pemain pengganti menggantikan Didier Drogba, Torres mencetak sebuah gol pada menit terakhir pada pertandingan menghadapi Barcelona di putaran kedua semifinal Liga Champions UEFA. Gol tersebut membuat pertandingan berakhir dengan skor imbang 2 – 2 sekaligus meloloskan Chelsea ke babak final dengan skor aggregat 3 – 2.
+# text = Pada 24 April 2012, setelah masuk sebagai pemain pengganti menggantikan Didier Drogba, Torres mencetak sebuah gol pada menit terakhir pada pertandingan menghadapi Barcelona di putaran kedua semifinal Liga Champions UEFA. Gol tersebut membuat pertandingan berakhir dengan skor imbang 2-2 sekaligus meloloskan Chelsea ke babak final dengan skor aggregat 3 – 2.
 # text_en = On 24 April 2012, after coming on as a substitute for Didier Drogba, Torres scored a goal in the last minute of the match against Barcelona in the second round of the UEFA Champions League semifinals. The goal made the match end in a 2-2 draw and at the same time passed Chelsea to the final with an aggregate score of 3-2.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
 2	24	24	NUM	CC-	NumType=Card	16	obl:tmod	_	MorphInd=^24<c>_CC-$
@@ -12984,22 +12974,20 @@
 39	dengan	dengan	ADP	R--	_	40	case	_	MorphInd=^dengan<r>_R--$
 40	skor	skor	NOUN	NSD	Number=Sing	38	obl	_	MorphInd=^skor<n>_NSD$
 41	imbang	imbang	ADJ	NSD	_	40	amod	_	MorphInd=^imbang<n>_NSD$
-42	2	2	NUM	CC-	NumType=Card	40	nummod	_	MorphInd=^2<c>_CC-$
-43	–	–	PUNCT	Z--	_	44	punct	_	MorphInd=^–<z>_Z--$
-44	2	2	NUM	CC-	NumType=Card	42	nummod	_	MorphInd=^2<c>_CC-$
-45	sekaligus	sekaligus	ADV	D--	_	46	advmod	_	MorphInd=^sekaligus<d>_D--$
-46	meloloskan	lolos	VERB	VSA	Voice=Act	38	conj	_	MorphInd=^meN+lolos<v>+kan_VSA$
-47	Chelsea	chelsea	PROPN	F--	_	46	obj	_	MorphInd=^chelsea<f>_F--$
-48	ke	ke	ADP	R--	_	49	case	_	MorphInd=^ke<r>_R--$
-49	babak	babak	NOUN	NSD	Number=Sing	46	obl	_	MorphInd=^babak<n>_NSD$
-50	final	final	NOUN	F--	_	49	amod	_	MorphInd=^final<f>_F--$
-51	dengan	dengan	ADP	R--	_	52	case	_	MorphInd=^dengan<r>_R--$
-52	skor	skor	NOUN	NSD	Number=Sing	46	obl	_	MorphInd=^skor<n>_NSD$
-53	aggregat	aggregat	ADJ	X--	_	52	amod	_	MorphInd=^aggregat<x>_X--$
-54	3	3	NUM	CC-	NumType=Card	52	nummod	_	MorphInd=^3<c>_CC-$
-55	–	–	PUNCT	Z--	_	56	punct	_	MorphInd=^–<z>_Z--$
-56	2	2	NUM	CC-	NumType=Card	54	nummod	_	SpaceAfter=No|MorphInd=^2<c>_CC-$
-57	.	.	PUNCT	Z--	_	36	punct	_	MorphInd=^.<z>_Z--$
+42	2-2	2	NUM	CC-	NumType=Card	40	nummod	_	MorphInd=^2<c>_CC-$
+43	sekaligus	sekaligus	ADV	D--	_	44	advmod	_	MorphInd=^sekaligus<d>_D--$
+44	meloloskan	lolos	VERB	VSA	Voice=Act	38	conj	_	MorphInd=^meN+lolos<v>+kan_VSA$
+45	Chelsea	chelsea	PROPN	F--	_	44	obj	_	MorphInd=^chelsea<f>_F--$
+46	ke	ke	ADP	R--	_	47	case	_	MorphInd=^ke<r>_R--$
+47	babak	babak	NOUN	NSD	Number=Sing	44	obl	_	MorphInd=^babak<n>_NSD$
+48	final	final	NOUN	F--	_	47	amod	_	MorphInd=^final<f>_F--$
+49	dengan	dengan	ADP	R--	_	50	case	_	MorphInd=^dengan<r>_R--$
+50	skor	skor	NOUN	NSD	Number=Sing	44	obl	_	MorphInd=^skor<n>_NSD$
+51	aggregat	aggregat	ADJ	X--	_	50	amod	_	MorphInd=^aggregat<x>_X--$
+52	3	3	NUM	CC-	NumType=Card	50	nummod	_	MorphInd=^3<c>_CC-$
+53	–	–	PUNCT	Z--	_	54	punct	_	MorphInd=^–<z>_Z--$
+54	2	2	NUM	CC-	NumType=Card	52	nummod	_	SpaceAfter=No|MorphInd=^2<c>_CC-$
+55	.	.	PUNCT	Z--	_	36	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s477
 # text = Tika membeli makanan di warung Mpok Yati, mereka membicarakan Bunga.

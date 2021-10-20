@@ -1358,30 +1358,28 @@
 21	"	"	PUNCT	Z--	_	17	punct	_	MorphInd=^"<z>_Z--$
 
 # sent_id = test-s51
-# text = Namun karena tulisan - tulisannya dianggap membahayakan pemerintahan kolonial, Trimurti dipenjarakan lagi oleh Belanda tahun 1939 - 1943.
+# text = Namun karena tulisan-tulisannya dianggap membahayakan pemerintahan kolonial, Trimurti dipenjarakan lagi oleh Belanda tahun 1939 - 1943.
 # text_en = However, because his writings were considered dangerous to the colonial government, Trimurti was imprisoned again by the Dutch in 1939 - 1943.
-1	Namun	namun	ADV	S--	_	7	advmod	_	MorphInd=^namun<s>_S--$
-2	karena	karena	SCONJ	S--	_	7	mark	_	MorphInd=^karena<s>_S--$
-3	tulisan	tulis	NOUN	NSD	Number=Sing	7	nsubj:pass	_	MorphInd=^tulis<v>+an_NSD$
-4	-	-	PUNCT	Z--	_	3	punct	_	MorphInd=^-<z>_Z--$
-5-6	tulisannya	_	_	_	_	_	_	_	MorphInd=^tulis<v>+an_NSD+dia<p>_PS3$
-5	tulisan	tulis	NOUN	NSD	Number=Sing	3	nmod	_	MorphInd=^tulis<v>+an_NSD$
-6	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	MorphInd=^dia<p>_PS3$
-7	dianggap	anggap	VERB	VSP	Voice=Pass	13	advcl	_	MorphInd=^di+anggap<v>_VSP$
-8	membahayakan	bahaya	VERB	VSA	Voice=Act	7	ccomp	_	MorphInd=^meN+bahaya<a>+kan_VSA$
-9	pemerintahan	perintah	NOUN	NSD	Number=Sing	8	obj	_	MorphInd=^peN+perintah<n>+an_NSD$
-10	kolonial	kolonial	NOUN	ASP	_	9	compound	_	SpaceAfter=No|MorphInd=^kolonial<a>_ASP$
-11	,	,	PUNCT	Z--	_	7	punct	_	MorphInd=^,<z>_Z--$
-12	Trimurti	trimurti	PROPN	X--	_	13	nsubj:pass	_	MorphInd=^trimurti<x>_X--$
-13	dipenjarakan	penjara	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+penjara<n>+kan_VSP$
-14	lagi	lagi	ADV	D--	_	13	advmod	_	MorphInd=^lagi<d>_D--$
-15	oleh	oleh	ADP	R--	_	16	case	_	MorphInd=^oleh<r>_R--$
-16	Belanda	belanda	PROPN	NSD	_	13	obl	_	MorphInd=^belanda<n>_NSD$
-17	tahun	tahun	NOUN	NSD	Number=Sing	13	obl	_	MorphInd=^tahun<n>_NSD$
-18	1939	1939	NUM	CC-	NumType=Card	17	nummod	_	MorphInd=^1939<c>_CC-$
-19	-	-	PUNCT	Z--	_	20	punct	_	MorphInd=^-<z>_Z--$
-20	1943	1943	NUM	CC-	NumType=Card	17	nummod	_	SpaceAfter=No|MorphInd=^1943<c>_CC-$
-21	.	.	PUNCT	Z--	_	13	punct	_	MorphInd=^.<z>_Z--$
+1	Namun	namun	ADV	S--	_	5	advmod	_	MorphInd=^namun<s>_S--$
+2	karena	karena	SCONJ	S--	_	5	mark	_	MorphInd=^karena<s>_S--$
+3-4	tulisan-tulisannya	_	_	_	_	_	_	_	MorphInd=^tulis<v>+an_NSD+dia<p>_PS3$
+3	tulisan-tulisan	tulis	NOUN	NSD	Number=Plur	5	nsubj:pass	_	MorphInd=^tulis<v>+an_NSD$
+4	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	MorphInd=^dia<p>_PS3$
+5	dianggap	anggap	VERB	VSP	Voice=Pass	11	advcl	_	MorphInd=^di+anggap<v>_VSP$
+6	membahayakan	bahaya	VERB	VSA	Voice=Act	5	ccomp	_	MorphInd=^meN+bahaya<a>+kan_VSA$
+7	pemerintahan	perintah	NOUN	NSD	Number=Sing	6	obj	_	MorphInd=^peN+perintah<n>+an_NSD$
+8	kolonial	kolonial	NOUN	ASP	_	7	compound	_	SpaceAfter=No|MorphInd=^kolonial<a>_ASP$
+9	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
+10	Trimurti	trimurti	PROPN	X--	_	11	nsubj:pass	_	MorphInd=^trimurti<x>_X--$
+11	dipenjarakan	penjara	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+penjara<n>+kan_VSP$
+12	lagi	lagi	ADV	D--	_	11	advmod	_	MorphInd=^lagi<d>_D--$
+13	oleh	oleh	ADP	R--	_	14	case	_	MorphInd=^oleh<r>_R--$
+14	Belanda	belanda	PROPN	NSD	_	11	obl	_	MorphInd=^belanda<n>_NSD$
+15	tahun	tahun	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^tahun<n>_NSD$
+16	1939	1939	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^1939<c>_CC-$
+17	-	-	PUNCT	Z--	_	18	punct	_	MorphInd=^-<z>_Z--$
+18	1943	1943	NUM	CC-	NumType=Card	15	nummod	_	SpaceAfter=No|MorphInd=^1943<c>_CC-$
+19	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s52
 # text = Sejarah topeng dan kostum Halloween sebelum tahun 1900 di Amerika atau di tempat lain masih sedikit yang diketahui karena keterbatasan sumber primer.
@@ -1906,7 +1904,7 @@
 13	.	.	PUNCT	Z--	_	7	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s76
-# text = Pada pewarnaan terpengaruh gaya Pop Art dengan warna - warnanya yang mencolok dan ramai.
+# text = Pada pewarnaan terpengaruh gaya Pop Art dengan warna-warnanya yang mencolok dan ramai.
 # text_en = The coloring is influenced by the Pop Art style with bright and lively colors.
 1	Pada	pada	ADP	R--	_	2	case	_	MorphInd=^pada<r>_R--$
 2	pewarnaan	warna	NOUN	NSD	Number=Sing	3	obl	_	MorphInd=^peN+warna<n>+an_NSD$
@@ -1915,16 +1913,14 @@
 5	Pop	pop	PROPN	F--	_	4	nmod	_	MorphInd=^pop<f>_F--$
 6	Art	art	PROPN	F--	_	5	flat:name	_	MorphInd=^art<f>_F--$
 7	dengan	pada	ADP	R--	_	8	case	_	MorphInd=^pada<r>_R--$
-8	warna	warna	NOUN	X--	_	4	compound	_	MorphInd=^denganwarna<x>_X--$
-9	-	-	PUNCT	Z--	_	8	punct	_	MorphInd=^-<z>_Z--$
-10-11	warnanya	_	_	_	_	_	_	_	MorphInd=^warna<n>_NSD+dia<p>_PS3$
-10	warna	warna	NOUN	NSD	Number=Sing	8	nmod	_	MorphInd=^warna<n>_NSD$
-11	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	MorphInd=^dia<p>_PS3$
-12	yang	yang	PRON	S--	PronType=Rel	13	nsubj	_	MorphInd=^yang<s>_S--$
-13	mencolok	colok	VERB	VSA	_	8	acl:relcl	_	MorphInd=^meN+colok<v>_VSA$
-14	dan	dan	CCONJ	H--	_	15	cc	_	MorphInd=^dan<h>_H--$
-15	ramai	ramai	ADJ	NSD	_	13	conj	_	SpaceAfter=No|MorphInd=^ramai<n>_NSD$
-16	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+8-9	warna-warnanya	_	_	_	_	_	_	_	MorphInd=^warna<n>_NSD+dia<p>_PS3$
+8	warna-warna	warna	NOUN	X--	Number=Plur	4	compound	_	MorphInd=^denganwarna<x>_X--$
+9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	MorphInd=^dia<p>_PS3$
+10	yang	yang	PRON	S--	PronType=Rel	11	nsubj	_	MorphInd=^yang<s>_S--$
+11	mencolok	colok	VERB	VSA	_	8	acl:relcl	_	MorphInd=^meN+colok<v>_VSA$
+12	dan	dan	CCONJ	H--	_	13	cc	_	MorphInd=^dan<h>_H--$
+13	ramai	ramai	ADJ	NSD	_	11	conj	_	SpaceAfter=No|MorphInd=^ramai<n>_NSD$
+14	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s77
 # text = Lophiiformes adalah ikan karnivora, mulutnya besar dan bergigi.
@@ -6733,26 +6729,24 @@
 11	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s272
-# text = Kabupaten ini dibentuk berdasarkan Undang - Undang Nomor 27 Tahun 2008 yang merupakan pemekaran dari Kabupaten Donggala.
+# text = Kabupaten ini dibentuk berdasarkan Undang-Undang Nomor 27 Tahun 2008 yang merupakan pemekaran dari Kabupaten Donggala.
 # text_en = This district was formed based on Law No. 27 of 2008 which is a division of Donggala Regency.
 1	Kabupaten	kabupaten	PROPN	NSD	_	3	nsubj:pass	_	MorphInd=^kabupaten<n>_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	MorphInd=^ini<b>_B--$
 3	dibentuk	bentuk	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^di+bentuk<n>_VSP$
 4	berdasarkan	dasar	VERB	VSA	Voice=Act	3	xcomp	_	MorphInd=^ber+dasar<n>+kan_VSA$
-5	Undang	undang	PROPN	NSD	_	4	obj	_	MorphInd=^undang<n>_NSD$
-6	-	-	PUNCT	Z--	_	7	punct	_	MorphInd=^-<z>_Z--$
-7	Undang	undang	PROPN	NSD	_	5	flat:name	_	MorphInd=^undang<n>_NSD$
-8	Nomor	nomor	PROPN	NSD	_	5	flat:name	_	MorphInd=^nomor<n>_NSD$
-9	27	27	NUM	CC-	NumType=Card	8	nummod	_	MorphInd=^27<c>_CC-$
-10	Tahun	tahun	PROPN	NSD	_	8	flat:name	_	MorphInd=^tahun<n>_NSD$
-11	2008	2008	NUM	CC-	NumType=Card	10	nummod	_	MorphInd=^2008<c>_CC-$
-12	yang	yang	PRON	S--	PronType=Rel	13	nsubj	_	MorphInd=^yang<s>_S--$
-13	merupakan	merupakan	VERB	O--	_	3	acl	_	MorphInd=^merupakan<o>_O--$
-14	pemekaran	mekar	NOUN	NSD	Number=Sing	13	obj	_	MorphInd=^peN+mekar<a>+an_NSD$
-15	dari	dari	ADP	R--	_	16	case	_	MorphInd=^dari<r>_R--$
-16	Kabupaten	kabupaten	PROPN	NSD	_	14	nmod	_	MorphInd=^kabupaten<n>_NSD$
-17	Donggala	donggala	PROPN	X--	_	16	flat:name	_	SpaceAfter=No|MorphInd=^donggala<x>_X--$
-18	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
+5	Undang-Undang	undang	PROPN	NSD	_	4	obj	_	MorphInd=^undang<n>_NSD$
+6	Nomor	nomor	PROPN	NSD	_	5	flat:name	_	MorphInd=^nomor<n>_NSD$
+7	27	27	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^27<c>_CC-$
+8	Tahun	tahun	PROPN	NSD	_	6	flat:name	_	MorphInd=^tahun<n>_NSD$
+9	2008	2008	NUM	CC-	NumType=Card	8	nummod	_	MorphInd=^2008<c>_CC-$
+10	yang	yang	PRON	S--	PronType=Rel	11	nsubj	_	MorphInd=^yang<s>_S--$
+11	merupakan	merupakan	VERB	O--	_	3	acl	_	MorphInd=^merupakan<o>_O--$
+12	pemekaran	mekar	NOUN	NSD	Number=Sing	11	obj	_	MorphInd=^peN+mekar<a>+an_NSD$
+13	dari	dari	ADP	R--	_	14	case	_	MorphInd=^dari<r>_R--$
+14	Kabupaten	kabupaten	PROPN	NSD	_	12	nmod	_	MorphInd=^kabupaten<n>_NSD$
+15	Donggala	donggala	PROPN	X--	_	14	flat:name	_	SpaceAfter=No|MorphInd=^donggala<x>_X--$
+16	.	.	PUNCT	Z--	_	3	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s273
 # text = Kondisi keluarganya - yang terdiri dari 10 anak - sangat memprihatinkan sehingga ia diadopsi oleh seorang pria yang bernama Wilson.
@@ -8145,7 +8139,7 @@
 20	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s327
-# text = Sebelum memasuki masa wajib belajar 9 tahun, anak-anak seyogyanya memasuki masa pra sekolah yaitu PAUD, dan Taman Kanak-Kanak (TK). Jumlah Taman Kanak – Kanak di Kecamatan Banyuputih yang terdapat di 5 (lima) desa sebanyak 20 unit.
+# text = Sebelum memasuki masa wajib belajar 9 tahun, anak-anak seyogyanya memasuki masa pra sekolah yaitu PAUD, dan Taman Kanak-Kanak (TK). Jumlah Taman Kanak-Kanak di Kecamatan Banyuputih yang terdapat di 5 (lima) desa sebanyak 20 unit.
 # text_en = Before entering the 9-year compulsory education period, children should enter the pre-school period, namely PAUD and Kindergarten (TK). The number of Kindergartens in Banyuputih District which is located in 5 (five) villages is 20 units.
 1	Sebelum	sebelum	SCONJ	S--	_	2	mark	_	MorphInd=^sebelum<s>_S--$
 2	memasuki	masuk	VERB	VSA	Voice=Act	11	advcl	_	MorphInd=^meN+masuk<v>+i_VSA$
@@ -8173,24 +8167,22 @@
 24	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 25	Jumlah	jumlah	NOUN	NSD	Number=Sing	11	dep	_	MorphInd=^jumlah<n>_NSD$
 26	Taman	taman	PROPN	NSD	_	25	nmod	_	MorphInd=^taman<n>_NSD$
-27	Kanak	kanak	PROPN	X--	_	26	flat:name	_	MorphInd=^kanak<x>_X--$
-28	–	–	PUNCT	Z--	_	29	punct	_	MorphInd=^–<z>_Z--$
-29	Kanak	kanak	PROPN	X--	_	27	flat:name	_	MorphInd=^kanak<x>_X--$
-30	di	di	ADP	R--	_	31	case	_	MorphInd=^di<r>_R--$
-31	Kecamatan	camat	NOUN	NSD	Number=Sing	25	nmod	_	MorphInd=^ke+camat<n>+an_NSD$
-32	Banyuputih	banyuputih	PROPN	X--	_	31	nmod	_	MorphInd=^banyuputih<x>_X--$
-33	yang	yang	PRON	S--	PronType=Rel	34	nsubj	_	MorphInd=^yang<s>_S--$
-34	terdapat	dapat	VERB	VSP	Voice=Pass	25	acl:relcl	_	MorphInd=^ter+dapat<v>_VSP$
-35	di	di	ADP	R--	_	40	case	_	MorphInd=^di<r>_R--$
-36	5	5	NUM	CC-	NumType=Card	40	nummod	_	MorphInd=^5<c>_CC-$
-37	(	(	PUNCT	Z--	_	38	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-38	lima	lima	NUM	CC-	NumType=Card	36	appos	_	SpaceAfter=No|MorphInd=^lima<c>_CC-$
-39	)	)	PUNCT	Z--	_	38	punct	_	MorphInd=^)<z>_Z--$
-40	desa	desa	NOUN	NSD	Number=Sing	34	obl	_	MorphInd=^desa<n>_NSD$
-41	sebanyak	sebanyak	ADP	R--	_	43	case	_	MorphInd=^sebanyak<r>_R--$
-42	20	20	NUM	CC-	NumType=Card	43	nummod	_	MorphInd=^20<c>_CC-$
-43	unit	unit	NOUN	NSD	Number=Sing	34	obl	_	SpaceAfter=No|MorphInd=^unit<n>_NSD$
-44	.	.	PUNCT	Z--	_	25	punct	_	MorphInd=^.<z>_Z--$
+27	Kanak-Kanak	kanak	PROPN	X--	_	26	flat:name	_	MorphInd=^kanak<x>_X--$
+28	di	di	ADP	R--	_	29	case	_	MorphInd=^di<r>_R--$
+29	Kecamatan	camat	NOUN	NSD	Number=Sing	25	nmod	_	MorphInd=^ke+camat<n>+an_NSD$
+30	Banyuputih	banyuputih	PROPN	X--	_	29	nmod	_	MorphInd=^banyuputih<x>_X--$
+31	yang	yang	PRON	S--	PronType=Rel	32	nsubj	_	MorphInd=^yang<s>_S--$
+32	terdapat	dapat	VERB	VSP	Voice=Pass	25	acl:relcl	_	MorphInd=^ter+dapat<v>_VSP$
+33	di	di	ADP	R--	_	38	case	_	MorphInd=^di<r>_R--$
+34	5	5	NUM	CC-	NumType=Card	38	nummod	_	MorphInd=^5<c>_CC-$
+35	(	(	PUNCT	Z--	_	36	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+36	lima	lima	NUM	CC-	NumType=Card	34	appos	_	SpaceAfter=No|MorphInd=^lima<c>_CC-$
+37	)	)	PUNCT	Z--	_	36	punct	_	MorphInd=^)<z>_Z--$
+38	desa	desa	NOUN	NSD	Number=Sing	32	obl	_	MorphInd=^desa<n>_NSD$
+39	sebanyak	sebanyak	ADP	R--	_	41	case	_	MorphInd=^sebanyak<r>_R--$
+40	20	20	NUM	CC-	NumType=Card	41	nummod	_	MorphInd=^20<c>_CC-$
+41	unit	unit	NOUN	NSD	Number=Sing	32	obl	_	SpaceAfter=No|MorphInd=^unit<n>_NSD$
+42	.	.	PUNCT	Z--	_	25	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s328
 # text = Yeonsangun akhirnya disingkirkan oleh sisa-sisa faksi Hungu dan adiknya yang lain ibu naik tahta jadi Raja Jungjong pada tahun 1506.
@@ -12861,7 +12853,7 @@
 13	?	?	PUNCT	Z--	_	4	punct	_	MorphInd=^?<z>_Z--$
 
 # sent_id = test-s510
-# text = ketika orang mengambil hak cipta seseorang maka orang tersebut akan mendapat hukuman yang sesuai pada kejahatan yang di lakukan Menurut UU No. 19 Tahun 2002 pasal 13, tidak ada hak cipta atas hasil rapat terbuka lembaga-lembaga Negara, peraturan perundang - undangan, pidato kenegaraan atau pidato pejabat Pemerintah, putusan pengadilan atau penetapan hakim, ataupun keputusan badan arbitrase atau keputusan badan - badan sejenis lainnya (misalnya keputusan-keputusan yang memutuskan suatu sengketa).
+# text = ketika orang mengambil hak cipta seseorang maka orang tersebut akan mendapat hukuman yang sesuai pada kejahatan yang di lakukan Menurut UU No. 19 Tahun 2002 pasal 13, tidak ada hak cipta atas hasil rapat terbuka lembaga-lembaga Negara, peraturan perundang - undangan, pidato kenegaraan atau pidato pejabat Pemerintah, putusan pengadilan atau penetapan hakim, ataupun keputusan badan arbitrase atau keputusan badan-badan sejenis lainnya (misalnya keputusan-keputusan yang memutuskan suatu sengketa).
 # text_en = when a person takes someone's copyright, that person will receive the appropriate punishment for the crime committed. 19 of 2002 article 13, there is no copyright on the results of open meetings of state institutions, laws and regulations, state speeches or speeches by government officials, court decisions or judges' decisions, or decisions of arbitration bodies or decisions of other similar bodies (eg. decisions that decide a dispute).
 1	ketika	ketika	SCONJ	S--	_	3	mark	_	MorphInd=^ketika<s>_S--$
 2	orang	orang	NOUN	NSD	Number=Sing	3	nsubj	_	MorphInd=^orang<n>_NSD$
@@ -12929,20 +12921,18 @@
 63	arbitrase	arbitrase	NOUN	NSD	Number=Sing	62	compound	_	MorphInd=^arbitrase<n>_NSD$
 64	atau	atau	CCONJ	H--	_	65	cc	_	MorphInd=^atau<h>_H--$
 65	keputusan	putus	NOUN	NSD	Number=Sing	61	conj	_	MorphInd=^ke+putus<a>+an_NSD$
-66	badan	badan	NOUN	NSD	Number=Sing	65	compound	_	MorphInd=^badan<n>_NSD$
-67	-	-	PUNCT	Z--	_	68	punct	_	MorphInd=^-<z>_Z--$
-68	badan	badan	NOUN	NSD	Number=Sing	66	compound	_	MorphInd=^badan<n>_NSD$
-69	sejenis	sejenis	NOUN	ASP	_	68	compound	_	MorphInd=^se+jenis<n>_ASP$
-70	lainnya	lainnya	ADJ	D--	_	66	amod	_	MorphInd=^lainnya<d>_D--$
-71	(	(	PUNCT	Z--	_	73	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
-72	misalnya	misalnya	ADP	B--	_	73	case	_	MorphInd=^misalnya<b>_B--$
-73	keputusan-keputusan	putus	NOUN	NSD	Number=Plur	65	appos	_	MorphInd=^ke+putus<a>+an_NSD$
-74	yang	yang	PRON	S--	PronType=Rel	75	nsubj	_	MorphInd=^yang<s>_S--$
-75	memutuskan	putus	VERB	VSA	Voice=Act	73	acl:relcl	_	MorphInd=^meN+putus<a>+kan_VSA$
-76	suatu	suatu	DET	B--	Definite=Ind|PronType=Art	77	det	_	MorphInd=^suatu<b>_B--$
-77	sengketa	sengketa	NOUN	NSD	Number=Sing	75	obj	_	SpaceAfter=No|MorphInd=^sengketa<n>_NSD$
-78	)	)	PUNCT	Z--	_	73	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
-79	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
+66	badan-badan	badan	NOUN	NSD	Number=Plur	65	compound	_	MorphInd=^badan<n>_NSD$
+67	sejenis	sejenis	NOUN	ASP	_	66	compound	_	MorphInd=^se+jenis<n>_ASP$
+68	lainnya	lainnya	ADJ	D--	_	66	amod	_	MorphInd=^lainnya<d>_D--$
+69	(	(	PUNCT	Z--	_	71	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
+70	misalnya	misalnya	ADP	B--	_	71	case	_	MorphInd=^misalnya<b>_B--$
+71	keputusan-keputusan	putus	NOUN	NSD	Number=Plur	65	appos	_	MorphInd=^ke+putus<a>+an_NSD$
+72	yang	yang	PRON	S--	PronType=Rel	73	nsubj	_	MorphInd=^yang<s>_S--$
+73	memutuskan	putus	VERB	VSA	Voice=Act	71	acl:relcl	_	MorphInd=^meN+putus<a>+kan_VSA$
+74	suatu	suatu	DET	B--	Definite=Ind|PronType=Art	75	det	_	MorphInd=^suatu<b>_B--$
+75	sengketa	sengketa	NOUN	NSD	Number=Sing	73	obj	_	SpaceAfter=No|MorphInd=^sengketa<n>_NSD$
+76	)	)	PUNCT	Z--	_	71	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
+77	.	.	PUNCT	Z--	_	11	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s511
 # text = Aran bermuara di sisi utara Baigura di Hélette.
@@ -13538,7 +13528,7 @@
 29	!	!	PUNCT	Z--	_	16	punct	_	MorphInd=^!<z>_Z--$
 
 # sent_id = test-s534
-# text = Karya-karya terawalnya masih terikat kepada bentuk - bentuk bahasa Melayu Klasik.
+# text = Karya-karya terawalnya masih terikat kepada bentuk-bentuk bahasa Melayu Klasik.
 # text_en = His earliest works are still tied to the forms of the Classical Malay language.
 1	Karya-karya	karya	NOUN	NSD	Number=Plur	5	nsubj	_	MorphInd=^karya<n>_NSD$
 2-3	terawalnya	_	_	_	_	_	_	_	MorphInd=^ter+awal<n>_VSP+dia<p>_PS3$
@@ -13547,13 +13537,11 @@
 4	masih	masih	ADV	D--	_	5	advmod	_	MorphInd=^masih<d>_D--$
 5	terikat	ikat	VERB	VSP	Voice=Pass	0	root	_	MorphInd=^ter+ikat<v>_VSP$
 6	kepada	kepada	ADP	R--	_	7	case	_	MorphInd=^kepada<r>_R--$
-7	bentuk	bentuk	NOUN	NSD	Number=Sing	5	obl	_	MorphInd=^bentuk<n>_NSD$
-8	-	-	PUNCT	Z--	_	9	punct	_	MorphInd=^-<z>_Z--$
-9	bentuk	bentuk	NOUN	NSD	Number=Sing	7	dep	_	MorphInd=^bentuk<n>_NSD$
-10	bahasa	bahasa	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^bahasa<n>_NSD$
-11	Melayu	melayu	PROPN	NSD	_	10	nmod	_	MorphInd=^melayu<n>_NSD$
-12	Klasik	klasik	PROPN	ASP	_	11	amod	_	SpaceAfter=No|MorphInd=^klasik<a>_ASP$
-13	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
+7	bentuk-bentuk	bentuk	NOUN	NSD	Number=Plur	5	obl	_	MorphInd=^bentuk<n>_NSD$
+8	bahasa	bahasa	NOUN	NSD	Number=Sing	7	compound	_	MorphInd=^bahasa<n>_NSD$
+9	Melayu	melayu	PROPN	NSD	_	8	nmod	_	MorphInd=^melayu<n>_NSD$
+10	Klasik	klasik	PROPN	ASP	_	9	amod	_	SpaceAfter=No|MorphInd=^klasik<a>_ASP$
+11	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s535
 # text = Film ini dirilis 17 April 2008, dua bulan setelah Ayat-ayat Cinta dirilis pada 28 Februari 2008.
