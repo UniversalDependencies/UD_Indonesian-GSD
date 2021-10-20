@@ -10695,7 +10695,7 @@
 23	:	:	PUNCT	Z--	_	5	punct	_	MorphInd=^:<z>_Z--$
 
 # sent_id = test-s426
-# text = Akupunktur berasal dari Tiongkok dan pada umumnya dikaitkan dengan Obat - obatan Tradisional Tiongkok.
+# text = Akupunktur berasal dari Tiongkok dan pada umumnya dikaitkan dengan Obat-obatan Tradisional Tiongkok.
 # text_en = Acupuncture originated in China and is generally associated with Traditional Chinese Medicine.
 1	Akupunktur	akupunktur	PROPN	X--	_	2	nsubj	_	MorphInd=^akupunktur<x>_X--$
 2	berasal	asal	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+asal<n>_VSA$
@@ -10706,12 +10706,10 @@
 7	umumnya	umumnya	ADJ	B--	_	8	xcomp	_	MorphInd=^umumnya<b>_B--$
 8	dikaitkan	kait	VERB	VSP	Voice=Pass	2	conj	_	MorphInd=^di+kait<v>+kan_VSP$
 9	dengan	dengan	ADP	R--	_	10	case	_	MorphInd=^dengan<r>_R--$
-10	Obat	obat	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^obat<n>_NSD$
-11	-	-	PUNCT	Z--	_	12	punct	_	MorphInd=^-<z>_Z--$
-12	obatan	obat	NOUN	NSD	Number=Sing	10	fixed	_	MorphInd=^obat<n>+an_NSD$
-13	Tradisional	tradisional	ADJ	ASP	_	10	amod	_	MorphInd=^tradisional<a>_ASP$
-14	Tiongkok	tiongkok	PROPN	X--	_	10	amod	_	SpaceAfter=No|MorphInd=^tiongkok<x>_X--$
-15	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
+10	Obat-obatan	obat	NOUN	NSD	Number=Sing	8	obl	_	MorphInd=^obat<n>_NSD$
+11	Tradisional	tradisional	ADJ	ASP	_	10	amod	_	MorphInd=^tradisional<a>_ASP$
+12	Tiongkok	tiongkok	PROPN	X--	_	10	amod	_	SpaceAfter=No|MorphInd=^tiongkok<x>_X--$
+13	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = test-s427
 # text = Jacques Rogge telah diberi gelar kehormatan oleh Raja Albert II.

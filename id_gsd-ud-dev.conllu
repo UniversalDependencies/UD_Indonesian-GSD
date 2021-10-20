@@ -6471,7 +6471,7 @@
 9	.	.	PUNCT	Z--	_	5	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s232
-# text = Pertempuran berlangsung seimbang tapi tidak berlangsung habis - habisan karena beberapa orang komandan kubu Pasukan Barat seperti Tani Morimoto pernah berguru kepada Hosokawa Yūsai yang dikenal ahli dalam seni menulis Kadō.
+# text = Pertempuran berlangsung seimbang tapi tidak berlangsung habis-habisan karena beberapa orang komandan kubu Pasukan Barat seperti Tani Morimoto pernah berguru kepada Hosokawa Yūsai yang dikenal ahli dalam seni menulis Kadō.
 # text_en = The battle was balanced but did not last forever because several commanders of the Western Army such as Tani Morimoto had studied with Hosokawa Yūsai who was known to be an expert in the art of writing Kadō.
 1	Pertempuran	pertempuran	PROPN	NSD	_	2	nsubj	_	MorphInd=^per+tempur<n>+an_NSD$
 2	berlangsung	langsung	VERB	VSA	Voice=Act	0	root	_	MorphInd=^ber+langsung<a>_VSA$
@@ -6479,32 +6479,30 @@
 4	tapi	tetapi	CCONJ	S--	_	6	cc	_	MorphInd=^tapi<s>_S--$
 5	tidak	tidak	PART	G--	Polarity=Neg	6	advmod	_	MorphInd=^tidak<g>_G--$
 6	berlangsung	langsung	VERB	VSA	Voice=Act	2	conj	_	MorphInd=^ber+langsung<a>_VSA$
-7	habis	habis	ADJ	ASP	_	6	amod	_	MorphInd=^habis<a>_ASP$
-8	-	-	PUNCT	Z--	_	9	punct	_	MorphInd=^-<z>_Z--$
-9	habisan	habisan	ADJ	NSD	_	7	fixed	_	MorphInd=^habis<a>+an_NSD$
-10	karena	karena	SCONJ	S--	_	21	mark	_	MorphInd=^karena<s>_S--$
-11	beberapa	beberapa	DET	B--	PronType=Ind	12	det	_	MorphInd=^beberapa<b>_B--$
-12	orang	orang	NOUN	NSD	Number=Sing	21	nsubj	_	MorphInd=^orang<n>_NSD$
-13	komandan	komandan	NOUN	NSD	Number=Sing	12	compound	_	MorphInd=^komandan<n>_NSD$
-14	kubu	kubu	NOUN	NSD	Number=Sing	12	compound	_	MorphInd=^kubu<n>_NSD$
-15	Pasukan	pasukan	PROPN	NSD	_	14	nmod	_	MorphInd=^pasukan<n>_NSD$
-16	Barat	barat	PROPN	NSD	_	15	amod	_	MorphInd=^barat<n>_NSD$
-17	seperti	seperti	ADP	R--	_	18	case	_	MorphInd=^seperti<r>_R--$
-18	Tani	tani	PROPN	NSD	_	14	nmod	_	MorphInd=^tani<n>_NSD$
-19	Morimoto	morimoto	PROPN	X--	_	18	flat:name	_	MorphInd=^morimoto<x>_X--$
-20	pernah	pernah	ADV	D--	_	21	advmod	_	MorphInd=^pernah<d>_D--$
-21	berguru	guru	VERB	VSA	Voice=Act	6	advcl	_	MorphInd=^ber+guru<n>_VSA$
-22	kepada	kepada	ADP	R--	_	23	case	_	MorphInd=^kepada<r>_R--$
-23	Hosokawa	hosokawa	PROPN	X--	_	21	obl	_	MorphInd=^hosokawa<x>_X--$
-24	Yūsai	yūsai	PROPN	X--	_	23	flat:name	_	MorphInd=^yūsai<x>_X--$
-25	yang	yang	PRON	S--	PronType=Rel	26	nsubj:pass	_	MorphInd=^yang<s>_S--$
-26	dikenal	kenal	VERB	VSP	Voice=Pass	23	acl:relcl	_	MorphInd=^di+kenal<v>_VSP$
-27	ahli	ahli	NOUN	NSD	Number=Sing	26	obj	_	MorphInd=^ahli<n>_NSD$
-28	dalam	dalam	ADP	ASP	_	29	case	_	MorphInd=^dalam<a>_ASP$
-29	seni	seni	NOUN	NSD	Number=Sing	27	nmod	_	MorphInd=^seni<n>_NSD$
-30	menulis	tulis	VERB	VSA	Voice=Act	29	acl	_	MorphInd=^meN+tulis<v>_VSA$
-31	Kadō	kadō	PROPN	X--	_	30	obj	_	SpaceAfter=No|MorphInd=^kadō<x>_X--$
-32	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
+7	habis-habisan	habis	ADJ	ASP	_	6	amod	_	MorphInd=^habis<a>_ASP$
+8	karena	karena	SCONJ	S--	_	19	mark	_	MorphInd=^karena<s>_S--$
+9	beberapa	beberapa	DET	B--	PronType=Ind	10	det	_	MorphInd=^beberapa<b>_B--$
+10	orang	orang	NOUN	NSD	Number=Sing	19	nsubj	_	MorphInd=^orang<n>_NSD$
+11	komandan	komandan	NOUN	NSD	Number=Sing	10	compound	_	MorphInd=^komandan<n>_NSD$
+12	kubu	kubu	NOUN	NSD	Number=Sing	10	compound	_	MorphInd=^kubu<n>_NSD$
+13	Pasukan	pasukan	PROPN	NSD	_	12	nmod	_	MorphInd=^pasukan<n>_NSD$
+14	Barat	barat	PROPN	NSD	_	13	amod	_	MorphInd=^barat<n>_NSD$
+15	seperti	seperti	ADP	R--	_	16	case	_	MorphInd=^seperti<r>_R--$
+16	Tani	tani	PROPN	NSD	_	12	nmod	_	MorphInd=^tani<n>_NSD$
+17	Morimoto	morimoto	PROPN	X--	_	16	flat:name	_	MorphInd=^morimoto<x>_X--$
+18	pernah	pernah	ADV	D--	_	19	advmod	_	MorphInd=^pernah<d>_D--$
+19	berguru	guru	VERB	VSA	Voice=Act	6	advcl	_	MorphInd=^ber+guru<n>_VSA$
+20	kepada	kepada	ADP	R--	_	21	case	_	MorphInd=^kepada<r>_R--$
+21	Hosokawa	hosokawa	PROPN	X--	_	19	obl	_	MorphInd=^hosokawa<x>_X--$
+22	Yūsai	yūsai	PROPN	X--	_	21	flat:name	_	MorphInd=^yūsai<x>_X--$
+23	yang	yang	PRON	S--	PronType=Rel	24	nsubj:pass	_	MorphInd=^yang<s>_S--$
+24	dikenal	kenal	VERB	VSP	Voice=Pass	21	acl:relcl	_	MorphInd=^di+kenal<v>_VSP$
+25	ahli	ahli	NOUN	NSD	Number=Sing	24	obj	_	MorphInd=^ahli<n>_NSD$
+26	dalam	dalam	ADP	ASP	_	27	case	_	MorphInd=^dalam<a>_ASP$
+27	seni	seni	NOUN	NSD	Number=Sing	25	nmod	_	MorphInd=^seni<n>_NSD$
+28	menulis	tulis	VERB	VSA	Voice=Act	27	acl	_	MorphInd=^meN+tulis<v>_VSA$
+29	Kadō	kadō	PROPN	X--	_	28	obj	_	SpaceAfter=No|MorphInd=^kadō<x>_X--$
+30	.	.	PUNCT	Z--	_	2	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s233
 # text = Hosogaya pertama direncanakan untuk melakukan serangan udara ke Dutch Harbor, diikuti serangan amfibi ke Pulau Adak, 480 mil di sebelah barat.
