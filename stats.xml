@@ -20,12 +20,12 @@
     <tag name="ADV">3508</tag><!-- juga, lebih, kemudian, hanya, bagaimana, masih, sangat, apa, banyak, pernah -->
     <tag name="AUX">2254</tag><!-- adalah, akan, dapat, telah, bisa, harus, sudah, ialah, mampu, mungkin -->
     <tag name="CCONJ">3584</tag><!-- dan, atau, tetapi, serta, namun, maupun, baik, lain, sama, sedangkan -->
-    <tag name="DET">3752</tag><!-- ini, itu, buah, tersebut, nya, orang, beberapa, para, berbagai, semua -->
+    <tag name="DET">3723</tag><!-- ini, itu, buah, tersebut, nya, orang, beberapa, para, berbagai, suatu -->
     <tag name="INTJ">4</tag><!-- hai, sayang, silakan, wah -->
     <tag name="NOUN">26417</tag><!-- tahun, orang, desa, nama, kota, bagi, bahasa, perintah, wilayah, saat -->
     <tag name="NUM">4267</tag><!-- satu, dua, 1, 2, 3, tiga, 5, kedua, 2010, 4 -->
     <tag name="PART">1024</tag><!-- tidak, kah, lah, pun, bukan, tak, belum, ya, jangan, loh -->
-    <tag name="PRON">6424</tag><!-- yang, dia, mereka, apa, diri, aku, kamu, kita, siapa, mana -->
+    <tag name="PRON">6453</tag><!-- yang, dia, mereka, apa, diri, aku, kamu, kita, siapa, mana -->
     <tag name="PROPN">22391</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, jepang, tengah -->
     <tag name="PUNCT">17419</tag><!-- ,, ., ), (, -, ", ?, :, ', / -->
     <tag name="SCONJ">2077</tag><!-- untuk, bahwa, dengan, karena, ketika, sehingga, maka, jika, setelah, sementara -->
@@ -88,7 +88,7 @@
     <dep name="csubj">27</dep>
     <dep name="csubj:pass">9</dep>
     <dep name="dep">510</dep>
-    <dep name="det">3735</dep>
+    <dep name="det">3723</dep>
     <dep name="discourse">7</dep>
     <dep name="fixed">311</dep>
     <dep name="flat">388</dep>
@@ -98,7 +98,7 @@
     <dep name="iobj">20</dep>
     <dep name="list">13</dep>
     <dep name="mark">2166</dep>
-    <dep name="nmod">8085</dep>
+    <dep name="nmod">8097</dep>
     <dep name="nmod:lmod">54</dep>
     <dep name="nmod:poss">1440</dep>
     <dep name="nmod:tmod">114</dep>

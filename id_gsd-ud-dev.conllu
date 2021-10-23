@@ -3769,7 +3769,7 @@
 55	bersangkutan	sangkut	VERB	VSA	Voice=Act	52	acl:relcl	_	MorphInd=^ber+sangkut<v>+an_VSA$
 56	(	(	PUNCT	Z--	_	57	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 57-58	semuanya	_	_	_	_	_	_	_	MorphInd=^semua<b>_B--+dia<p>_PS3$|SpaceAfter=No
-57	semua	semua	DET	B--	PronType=Tot	55	appos	_	MorphInd=^semua<b>_B--$
+57	semua	semua	PRON	B--	PronType=Tot	55	appos	_	MorphInd=^semua<b>_B--$
 58	nya	nya	DET	PS3	Definite=Def|PronType=Art	57	det	_	MorphInd=^dia<p>_PS3$
 59	)	)	PUNCT	Z--	_	57	punct	_	SpaceAfter=No|MorphInd=^)<z>_Z--$
 60	.	.	PUNCT	Z--	_	10	punct	_	MorphInd=^.<z>_Z--$
@@ -5366,7 +5366,7 @@
 30	yang	yang	PRON	S--	PronType=Rel	36	nsubj	_	MorphInd=^yang<s>_S--$
 31	hampir	hampir	ADV	D--	_	36	advmod	_	MorphInd=^hampir<d>_D--$
 32-33	semuanya	_	_	_	_	_	_	_	MorphInd=^semua<b>_B--+dia<p>_PS3$
-32	semua	semua	DET	B--	PronType=Tot	36	nsubj	_	MorphInd=^semua<b>_B--$
+32	semua	semua	PRON	B--	PronType=Tot	36	nsubj	_	MorphInd=^semua<b>_B--$
 33	nya	nya	DET	PS3	Definite=Def|PronType=Art	32	det	_	MorphInd=^dia<p>_PS3$
 34	sudah	sudah	AUX	D--	_	36	aux	_	MorphInd=^sudah<d>_D--$
 35	pernah	pernah	ADV	D--	_	36	advmod	_	MorphInd=^pernah<d>_D--$
@@ -6170,7 +6170,7 @@
 51	.	.	PUNCT	Z--	_	12	punct	_	MorphInd=^.<z>_Z--$
 52	Dibalik	dibalik	ADP	VSP	_	57	case	_	MorphInd=^di+balik<v>_VSP$
 53	itu	itu	DET	B--	PronType=Dem	57	det	_	MorphInd=^itu<b>_B--$
-54	semua	semua	DET	B--	PronType=Tot	57	det	_	SpaceAfter=No|MorphInd=^semua<b>_B--$
+54	semua	semua	PRON	B--	PronType=Tot	57	nmod	_	SpaceAfter=No|MorphInd=^semua<b>_B--$
 55	,	,	PUNCT	Z--	_	54	punct	_	MorphInd=^,<z>_Z--$
 56	dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	57	nsubj	_	MorphInd=^dia<p>_PS3$
 57	memiliki	milik	VERB	VSA	Voice=Act	12	dep	_	MorphInd=^meN+milik<v>+i_VSA$
@@ -7432,7 +7432,7 @@
 # text_en = All of them are Allah, the Almighty, in exchange, unlike them when they lived on earth."
 1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	MorphInd=^mereka<p>_PP3$
 2-3	semuanya	_	_	_	_	_	_	_	MorphInd=^semua<b>_B--+dia<p>_PS3$
-2	semua	semua	DET	B--	PronType=Tot	1	det	_	MorphInd=^semua<b>_B--$
+2	semua	semua	PRON	B--	PronType=Tot	1	nmod	_	MorphInd=^semua<b>_B--$
 3	nya	nya	DET	PS3	Definite=Def|PronType=Art	2	det	_	MorphInd=^dia<p>_PS3$
 4	itu	itu	DET	B--	PronType=Dem	2	det	_	SpaceAfter=No|MorphInd=^itu<b>_B--$
 5	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
@@ -9948,7 +9948,7 @@
 # text_en = What does all this mean?
 1	Apa	apa	PRON	W--	PronType=Int	0	root	_	MorphInd=^apa<w>_W--$
 2	arti	arti	NOUN	NSD	Number=Sing	1	acl	_	MorphInd=^arti<n>_NSD$
-3	semua	semua	DET	B--	PronType=Tot	2	det	_	MorphInd=^semua<b>_B--$
+3	semua	semua	PRON	B--	PronType=Tot	2	nmod	_	MorphInd=^semua<b>_B--$
 4	ini	ini	DET	B--	PronType=Dem	2	det	_	SpaceAfter=No|MorphInd=^ini<b>_B--$
 5	?	?	PUNCT	Z--	_	1	punct	_	MorphInd=^?<z>_Z--$
 
