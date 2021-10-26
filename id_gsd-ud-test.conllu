@@ -3180,7 +3180,7 @@
 16	:	:	PUNCT	Z--	_	15	punct	_	MorphInd=^:<z>_Z--$
 17	"	"	PUNCT	Z--	_	21	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 18-19	Janganlah	_	_	_	_	_	_	_	MorphInd=^jangan<g>_G--+lah<t>_T--$
-18	Jangan	jangan	ADV	G--	_	21	advmod	_	MorphInd=^jangan<g>_G--$
+18	Jangan	jangan	PART	G--	Polarity=Neg	21	advmod	_	MorphInd=^jangan<g>_G--$
 19	lah	lah	PART	T--	_	18	advmod:emph	_	MorphInd=^lah<t>_T--$
 20	kita	kita	PRON	PP1	Clusivity=In|Number=Plur|Person=1|PronType=Prs	21	nsubj:pass	_	MorphInd=^kita<p>_PP1$
 21	tertipu	tipu	VERB	VSP	Mood=Ind|Voice=Pass	14	advcl	_	SpaceAfter=No|MorphInd=^ter+tipu<n>_VSP$
