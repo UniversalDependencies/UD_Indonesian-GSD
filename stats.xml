@@ -34,7 +34,7 @@
     <tag name="X">97</tag><!-- and, image, in, kok, x, assistent, b, resident, s, te -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="29">
+  <feats unique="31">
     <feat name="Abbr" value="Yes" upos="NOUN,PART,PRON,PROPN">14</feat><!-- kan, yg, Dk, Dsn, RT, RUU, RW, dkk -->
     <feat name="Clusivity" value="Ex" upos="PRON">27</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">66</feat><!-- kita -->
@@ -42,6 +42,8 @@
     <feat name="Definite" value="Ind" upos="DET">655</feat><!-- sebuah, seorang, suatu -->
     <feat name="Degree" value="Sup" upos="ADJ">215</feat><!-- terbesar, terbaik, terakhir, terkenal, tertinggi, terdekat, tertua, teratas, terbanyak, terbaru -->
     <feat name="Foreign" value="Yes" upos="X">83</feat><!-- and, Image, in, kok, x, assistent, b, resident, s, te -->
+    <feat name="Mood" value="Imp" upos="VERB">2</feat><!-- Amankan, Sukseskan -->
+    <feat name="Mood" value="Ind" upos="VERB">10759</feat><!-- menjadi, memiliki, terletak, digunakan, berada, menggunakan, dikenal, terjadi, membuat, disebut -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">1573</feat><!-- mereka, beberapa, para, berbagai, kita, orang-orang, banyak, kami, anak-anak, sejumlah -->
     <feat name="Number" value="Sing" upos="DET,NOUN,PRON">22936</feat><!-- nya, tahun, ia, orang, desa, nama, kota, bagian, bahasa, dia -->
     <feat name="NumType" value="Card" upos="NUM">4193</feat><!-- satu, dua, 1, tiga, 3, 2, 5, kedua, 2010, 4 -->
@@ -62,8 +64,8 @@
     <feat name="PronType" value="Tot" upos="ADV,DET,NUM,PRON">345</feat><!-- semua, kedua, setiap, seluruh, segala, keseluruhan, ketiga, keempat, tiap, segenap -->
     <feat name="Reflex" value="Yes" upos="PRON">82</feat><!-- diri -->
     <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,SCONJ,VERB,X">100</feat><!-- dimana, dibawah, di, diatas, didalam, diluar, 141an, 1960an, Delapn, Kemana -->
-    <feat name="Voice" value="Act" upos="VERB">7386</feat><!-- menjadi, memiliki, berada, menggunakan, membuat, bermain, mulai, melakukan, kembali, berasal -->
-    <feat name="Voice" value="Pass" upos="VERB">3403</feat><!-- terletak, digunakan, dikenal, terjadi, disebut, terdapat, terdiri, dilakukan, ditemukan, dirilis -->
+    <feat name="Voice" value="Act" upos="VERB">7414</feat><!-- menjadi, memiliki, berada, menggunakan, membuat, bermain, mulai, melakukan, kembali, berasal -->
+    <feat name="Voice" value="Pass" upos="VERB">3404</feat><!-- terletak, digunakan, dikenal, terjadi, disebut, terdapat, terdiri, dilakukan, ditemukan, dirilis -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="48">
