@@ -167,7 +167,7 @@
 11	dari	dari	ADP	R--	_	12	case	_	MorphInd=^dari<r>_R--$
 12	Sydney	sydney	PROPN	F--	_	10	nmod	_	MorphInd=^sydney<f>_F--$
 13	dan	dan	CCONJ	H--	_	15	cc	_	MorphInd=^dan<h>_H--$
-14	satu	satu	NUM	CC-	_	15	nummod	_	MorphInd=^satu<c>_CC-$
+14	satu	satu	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^satu<c>_CC-$
 15	tim	tim	NOUN	NSD	Number=Sing	10	conj	_	MorphInd=^tim<n>_NSD$
 16	dari	dari	ADP	R--	_	17	case	_	MorphInd=^dari<r>_R--$
 17	Newcastle	newcastle	PROPN	F--	_	15	nmod	_	SpaceAfter=No|MorphInd=^newcastle<f>_F--$
@@ -1334,7 +1334,7 @@
 2	belakang	belakang	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^belakang<n>_NSD$
 3	AK	ak	PROPN	F--	_	1	nmod	_	MorphInd=^ak<f>_F--$
 4	-	-	PUNCT	Z--	_	5	punct	_	MorphInd=^-<z>_Z--$
-5	47	47	NUM	CC-	_	3	nummod	_	MorphInd=^47<c>_CC-$
+5	47	47	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^47<c>_CC-$
 6	bisa	bisa	AUX	M--	_	7	aux	_	MorphInd=^bisa<m>_M--$
 7	diatur	atur	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	SpaceAfter=No|MorphInd=^di+atur<v>_VSP$
 8	,	,	PUNCT	Z--	_	10	punct	_	MorphInd=^,<z>_Z--$
@@ -1481,7 +1481,7 @@
 4	pun	pun	PART	T--	_	2	advmod:emph	_	MorphInd=^pun<t>_T--$
 5	SMA	sma	PROPN	NSD	_	10	nsubj	_	MorphInd=^sma<n>_NSD$
 6	Negeri	negeri	PROPN	NSD	_	5	flat:name	_	MorphInd=^negeri<n>_NSD$
-7	3	3	NUM	CC-	_	8	nummod	_	MorphInd=^3<c>_CC-$
+7	3	3	NUM	CC-	NumType=Card	8	nummod	_	MorphInd=^3<c>_CC-$
 8	Madiun	madiun	PROPN	X--	_	6	flat:name	_	MorphInd=^madiun<x>_X--$
 9	terus	terus	ADV	ASP	_	10	advmod	_	MorphInd=^terus<a>_ASP$
 10	berkembang	kembang	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No|MorphInd=^ber+kembang<v>_VSA$
@@ -1848,7 +1848,7 @@
 8	dengan	dengan	SCONJ	R--	_	10	mark	_	MorphInd=^dengan<r>_R--$
 9	hanya	hanya	ADV	D--	_	10	advmod	_	MorphInd=^hanya<d>_D--$
 10	ada	ada	VERB	ASP	_	6	xcomp	_	MorphInd=^ada<a>_ASP$
-11	satu	satu	NUM	CC-	_	12	nummod	_	MorphInd=^satu<c>_CC-$
+11	satu	satu	NUM	CC-	NumType=Card	12	nummod	_	MorphInd=^satu<c>_CC-$
 12	penembak	tembak	NOUN	NSD	Number=Sing	10	obj	_	MorphInd=^peN+tembak<v>_NSD$
 13	saja	saja	ADV	D--	_	12	advmod	_	SpaceAfter=No|MorphInd=^saja<d>_D--$
 14	.	.	PUNCT	Z--	_	6	punct	_	SpaceAfter=No|MorphInd=^.<z>_Z--$
@@ -2618,7 +2618,7 @@
 12	sebagai	sebagai	ADP	R--	_	13	case	_	MorphInd=^sebagai<r>_R--$
 13	nama	nama	NOUN	NSD	Number=Sing	11	obl	_	MorphInd=^nama<n>_NSD$
 14	salah	salah	ADJ	ASP	_	15	advcl	_	MorphInd=^salah<a>_ASP$
-15	satu	satu	NUM	CC-	_	16	nummod	_	MorphInd=^satu<c>_CC-$
+15	satu	satu	NUM	CC-	NumType=Card	16	nummod	_	MorphInd=^satu<c>_CC-$
 16	pelabuhan	labuh	NOUN	NSD	Number=Sing	13	compound	_	MorphInd=^peN+labuh<v>+an_NSD$
 17	di	di	ADP	R--	_	18	case	_	MorphInd=^di<r>_R--$
 18	Argos	argos	PROPN	X--	_	11	obl	_	SpaceAfter=No|MorphInd=^argos<x>_X--$
@@ -2803,7 +2803,7 @@
 22	kelak	kelak	ADV	X--	_	23	advmod	_	MorphInd=^kelak<x>_X--$
 23	dinamai	nama	VERB	VSP	Mood=Ind|Voice=Pass	15	parataxis	_	MorphInd=^di+nama<n>+i_VSP$
 24	Sputnik	sputnik	PROPN	X--	_	23	obj	_	MorphInd=^sputnik<x>_X--$
-25	3	3	NUM	CC-	_	24	nummod	_	SpaceAfter=No|MorphInd=^3<c>_CC-$
+25	3	3	NUM	CC-	NumType=Card	24	nummod	_	SpaceAfter=No|MorphInd=^3<c>_CC-$
 26	.	.	PUNCT	Z--	_	15	punct	_	MorphInd=^.<z>_Z--$
 
 # sent_id = dev-s98
@@ -3027,7 +3027,7 @@
 17	Naira	naira	PROPN	X--	_	16	flat:name	_	MorphInd=^naira<x>_X--$
 18	adalah	adalah	AUX	O--	_	21	cop	_	MorphInd=^adalah<o>_O--$
 19	salah	salah	ADJ	ASP	_	20	advmod	_	MorphInd=^salah<a>_ASP$
-20	satu	satu	NUM	CC-	_	21	nummod	_	MorphInd=^satu<c>_CC-$
+20	satu	satu	NUM	CC-	NumType=Card	21	nummod	_	MorphInd=^satu<c>_CC-$
 21	pulau	pulau	NOUN	NSD	Number=Sing	8	parataxis	_	MorphInd=^pulau<n>_NSD$
 22	di	di	ADP	R--	_	23	case	_	MorphInd=^di<r>_R--$
 23	Kepulauan	kepulauan	PROPN	NSD	_	21	nmod	_	MorphInd=^ke+pulau<n>+an_NSD$
@@ -3228,7 +3228,7 @@
 11	,	,	PUNCT	Z--	_	3	punct	_	MorphInd=^,<z>_Z--$
 12	adalah	adalah	AUX	O--	_	15	cop	_	MorphInd=^adalah<o>_O--$
 13	salah	salah	ADJ	ASP	_	14	advmod	_	MorphInd=^salah<a>_ASP$
-14	satu	satu	NUM	CC-	_	15	nummod	_	MorphInd=^satu<c>_CC-$
+14	satu	satu	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^satu<c>_CC-$
 15	pemimpin	pimpin	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^peN+pimpin<v>_NSD$
 16	kaum	kaum	NOUN	NSD	Number=Sing	15	compound	_	MorphInd=^kaum<n>_NSD$
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj	_	MorphInd=^yang<s>_S--$
@@ -3281,7 +3281,7 @@
 9	,	,	PUNCT	Z--	_	13	punct	_	MorphInd=^,<z>_Z--$
 10	dan	dan	CCONJ	H--	_	13	cc	_	MorphInd=^dan<h>_H--$
 11	salah	salah	ADJ	ASP	_	12	advmod	_	MorphInd=^salah<a>_ASP$
-12	satu	satu	NUM	CC-	_	13	nummod	_	MorphInd=^satu<c>_CC-$
+12	satu	satu	NUM	CC-	NumType=Card	13	nummod	_	MorphInd=^satu<c>_CC-$
 13	tokoh	tokoh	NOUN	NSD	Number=Sing	4	conj	_	MorphInd=^tokoh<n>_NSD$
 14	utama	utama	ADJ	ASP	_	13	amod	_	MorphInd=^utama<a>_ASP$
 15	dalam	dalam	ADP	ASP	_	16	case	_	MorphInd=^dalam<a>_ASP$
@@ -3688,7 +3688,7 @@
 66	perkembangan	kembang	NOUN	NSD	Number=Sing	65	obj	_	MorphInd=^per+kembang<n>+an_NSD$
 67	TH	th	PROPN	X--	_	66	nmod	_	MorphInd=^th<x>_X--$
 68	selama	selama	ADP	R--	_	70	case	_	MorphInd=^selama<r>_R--$
-69	satu	satu	NUM	CC-	_	70	nummod	_	MorphInd=^satu<c>_CC-$
+69	satu	satu	NUM	CC-	NumType=Card	70	nummod	_	MorphInd=^satu<c>_CC-$
 70	tahun	tahun	NOUN	NSD	Number=Sing	65	obl	_	MorphInd=^tahun<n>_NSD$
 71	terakhir	akhir	ADJ	ASS	Degree=Sup	70	amod	_	SpaceAfter=No|MorphInd=^ter+akhir<n>_ASS$
 72	.	.	PUNCT	Z--	_	53	punct	_	MorphInd=^.<z>_Z--$
@@ -4486,7 +4486,7 @@
 5	Airawata	airawata	PROPN	X--	_	6	nsubj	_	MorphInd=^airawata<x>_X--$
 6	merupakan	merupakan	VERB	O--	_	0	root	_	MorphInd=^merupakan<o>_O--$
 7	salah	salah	ADJ	ASP	_	8	advmod	_	MorphInd=^salah<a>_ASP$
-8	satu	satu	NUM	CC-	_	9	nummod	_	MorphInd=^satu<c>_CC-$
+8	satu	satu	NUM	CC-	NumType=Card	9	nummod	_	MorphInd=^satu<c>_CC-$
 9	gajah	gajah	NOUN	F--	_	6	obj	_	MorphInd=^gajah<f>_F--$
 10	penjaga	jaga	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^peN+jaga<v>_NSD$
 11	alam	alam	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^alam<n>_NSD$
@@ -5754,7 +5754,7 @@
 23	,	,	PUNCT	Z--	_	27	punct	_	MorphInd=^,<z>_Z--$
 24	sebagai	sebagai	ADP	R--	_	27	case	_	MorphInd=^sebagai<r>_R--$
 25	salah	salah	ADJ	ASP	_	26	advmod	_	MorphInd=^salah<a>_ASP$
-26	satu	satu	NUM	CC-	_	27	nummod	_	MorphInd=^satu<c>_CC-$
+26	satu	satu	NUM	CC-	NumType=Card	27	nummod	_	MorphInd=^satu<c>_CC-$
 27	sumbangsih	sumbangsih	NOUN	X--	_	6	obl	_	MorphInd=^sumbangsih<x>_X--$
 28	nyata	nyata	ADJ	ASP	_	27	amod	_	MorphInd=^nyata<a>_ASP$
 29	kepada	kepada	ADP	R--	_	30	case	_	MorphInd=^kepada<r>_R--$
@@ -6045,10 +6045,10 @@
 3	2008	2008	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^2008<c>_CC-$
 4	adalah	adalah	AUX	O--	_	6	cop	_	MorphInd=^adalah<o>_O--$
 5	"	"	PUNCT	Z--	_	6	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
-6	Satu	satu	NUM	CC-	_	0	root	_	MorphInd=^satu<c>_CC-$
+6	Satu	satu	NUM	CC-	NumType=Card	0	root	_	MorphInd=^satu<c>_CC-$
 7	Dunia	dunia	PROPN	NSD	_	6	flat	_	SpaceAfter=No|MorphInd=^dunia<n>_NSD$
 8	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
-9	Satu	satu	NUM	CC-	_	6	appos	_	MorphInd=^satu<c>_CC-$
+9	Satu	satu	NUM	CC-	NumType=Card	6	appos	_	MorphInd=^satu<c>_CC-$
 10	Impian	impian	PROPN	NSD	_	9	flat	_	SpaceAfter=No|MorphInd=^impian<n>_NSD$
 11	"	"	PUNCT	Z--	_	6	punct	_	SpaceAfter=No|MorphInd=^"<z>_Z--$
 12	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
@@ -6400,7 +6400,7 @@
 11	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 12	adalah	adalah	AUX	O--	_	15	cop	_	MorphInd=^adalah<o>_O--$
 13	salah	salah	ADJ	ASP	_	14	advmod	_	MorphInd=^salah<a>_ASP$
-14	satu	satu	NUM	CC-	_	15	nummod	_	MorphInd=^satu<c>_CC-$
+14	satu	satu	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^satu<c>_CC-$
 15	anak	anak	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^anak<n>_NSD$
 16	dari	dari	ADP	R--	_	17	case	_	MorphInd=^dari<r>_R--$
 17	Mahalaleel	mahalaleel	PROPN	X--	_	15	nmod	_	MorphInd=^mahalaleel<x>_X--$
@@ -6655,7 +6655,7 @@
 5	FC	fc	PROPN	F--	_	3	obl	_	MorphInd=^fc<f>_F--$
 6	Seoul	seoul	PROPN	F--	_	5	flat:name	_	MorphInd=^seoul<f>_F--$
 7	saat	saat	SCONJ	S--	_	10	mark	_	MorphInd=^saat<s>_S--$
-8	Senol	senol	NUM	CC-	_	10	nsubj	_	MorphInd=^se+nol<c>_CC-$
+8	Senol	senol	NUM	CC-	NumType=Card	10	nsubj	_	MorphInd=^se+nol<c>_CC-$
 9	Gunes	gunes	PROPN	X--	_	8	flat	_	MorphInd=^gunes<x>_X--$
 10	menempatkkannya	menempatkkannya	VERB	X--	_	3	advcl	_	MorphInd=^menempatkkannya<x>_X--$
 11	pada	pada	ADP	R--	_	12	case	_	MorphInd=^pada<r>_R--$
@@ -6683,7 +6683,7 @@
 # text = Salah satu dari mereka dipersembahkan kepada Dretarastra, kakaknya yang buta.
 # text_en = One of them was dedicated to Dretarastra, his blind brother.
 1	Salah	salah	ADJ	ASP	_	2	advmod	_	MorphInd=^salah<a>_ASP$
-2	satu	satu	NUM	CC-	_	5	nsubj	_	MorphInd=^satu<c>_CC-$
+2	satu	satu	NUM	CC-	NumType=Card	5	nsubj	_	MorphInd=^satu<c>_CC-$
 3	dari	dari	ADP	R--	_	4	case	_	MorphInd=^dari<r>_R--$
 4	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	2	nmod	_	MorphInd=^mereka<p>_PP3$
 5	dipersembahkan	sembah	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	MorphInd=^di+per+sembah<v>+kan_VSP$
@@ -7057,7 +7057,7 @@
 2	Teungoh	teungoh	PROPN	X--	_	1	flat:name	_	MorphInd=^teungoh<x>_X--$
 3	merupakan	merupakan	VERB	O--	_	0	root	_	MorphInd=^merupakan<o>_O--$
 4	salah	salah	ADJ	ASP	_	5	advmod	_	MorphInd=^salah<a>_ASP$
-5	satu	satu	NUM	CC-	_	6	nummod	_	MorphInd=^satu<c>_CC-$
+5	satu	satu	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^satu<c>_CC-$
 6	gampong	gampong	NOUN	X--	_	3	acl	_	MorphInd=^gampong<x>_X--$
 7	yang	yang	PRON	S--	PronType=Rel	8	nsubj	_	MorphInd=^yang<s>_S--$
 8	ada	ada	VERB	ASP	_	6	acl:relcl	_	MorphInd=^ada<a>_ASP$
@@ -8542,9 +8542,9 @@
 51	juga	juga	ADV	D--	_	52	advmod	_	MorphInd=^juga<d>_D--$
 52	UU	uu	PROPN	NSD	_	44	nmod	_	MorphInd=^uu<n>_NSD$
 53	no	no	PROPN	F--	_	52	flat:name	_	MorphInd=^no<f>_F--$
-54	5	5	NUM	CC-	_	53	nummod	_	MorphInd=^5<c>_CC-$
+54	5	5	NUM	CC-	NumType=Card	53	nummod	_	MorphInd=^5<c>_CC-$
 55	/	/	PUNCT	Z--	_	54	punct	_	MorphInd=^/<z>_Z--$
-56	1990	1990	NUM	CC-	_	54	nummod	_	SpaceAfter=No|MorphInd=^1990<c>_CC-$
+56	1990	1990	NUM	CC-	NumType=Card	54	nummod	_	SpaceAfter=No|MorphInd=^1990<c>_CC-$
 57	,	,	PUNCT	Z--	_	52	punct	_	MorphInd=^,<z>_Z--$
 58	tidak	tidak	PART	G--	Polarity=Neg	59	advmod	_	MorphInd=^tidak<g>_G--$
 59	membatasi	batas	VERB	VSA	Mood=Ind|Voice=Act	42	advcl	_	MorphInd=^meN+batas<n>+i_VSA$
@@ -8679,7 +8679,7 @@
 8	,	,	PUNCT	Z--	_	5	punct	_	MorphInd=^,<z>_Z--$
 9	Romanus	romanus	PROPN	X--	_	10	nsubj	_	MorphInd=^romanus<x>_X--$
 10	memandu	pandu	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	MorphInd=^meN+pandu<v>_VSA$
-11	satu	satu	NUM	CC-	_	12	nummod	_	MorphInd=^satu<c>_CC-$
+11	satu	satu	NUM	CC-	NumType=Card	12	nummod	_	MorphInd=^satu<c>_CC-$
 12	detasemen	detasemen	NOUN	X--	_	10	obj	_	MorphInd=^detasemen<x>_X--$
 13	khusus	khusus	ADJ	ASP	_	12	amod	_	MorphInd=^khusus<a>_ASP$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj:pass	_	MorphInd=^yang<s>_S--$
@@ -8866,7 +8866,7 @@
 1	Kanigoro	kanigoro	PROPN	X--	_	5	nsubj	_	MorphInd=^kanigoro<x>_X--$
 2	adalah	adalah	AUX	O--	_	5	cop	_	MorphInd=^adalah<o>_O--$
 3	salah	salah	ADJ	ASP	_	4	advmod	_	MorphInd=^salah<a>_ASP$
-4	satu	satu	NUM	CC-	_	5	nummod	_	MorphInd=^satu<c>_CC-$
+4	satu	satu	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^satu<c>_CC-$
 5	desa	desa	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^desa<n>_NSD$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 7	wilayah	wilayah	NOUN	NSD	Number=Sing	5	nmod	_	MorphInd=^wilayah<n>_NSD$
@@ -9097,7 +9097,7 @@
 10	sekolah	sekolah	NOUN	NSD	Number=Sing	9	compound	_	MorphInd=^sekolah<n>_NSD$
 11	di	di	ADP	R--	_	12	case	_	MorphInd=^di<r>_R--$
 12	SMAN	sman	PROPN	X--	_	8	nmod	_	MorphInd=^sman<x>_X--$
-13	2	2	NUM	CC-	_	12	nummod	_	MorphInd=^2<c>_CC-$
+13	2	2	NUM	CC-	NumType=Card	12	nummod	_	MorphInd=^2<c>_CC-$
 14	Kota	kota	PROPN	NSD	_	12	flat:name	_	MorphInd=^kota<n>_NSD$
 15	Ternate	ternate	PROPN	F--	_	14	flat:name	_	MorphInd=^ternate<f>_F--$
 16	ditempuh	tempuh	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	MorphInd=^di+tempuh<v>_VSP$
@@ -9119,7 +9119,7 @@
 32	fasilitas	fasilitas	NOUN	NSD	Number=Sing	33	nsubj:pass	_	MorphInd=^fasilitas<n>_NSD$
 33	dimiliki	milik	VERB	VSP	Mood=Ind|Voice=Pass	16	dep	_	MorphInd=^di+milik<v>+i_VSP$
 34	SMAN	sman	PROPN	X--	_	33	obj	_	MorphInd=^sman<x>_X--$
-35	2	2	NUM	CC-	_	34	flat	_	MorphInd=^2<c>_CC-$
+35	2	2	NUM	CC-	NumType=Card	34	flat	_	MorphInd=^2<c>_CC-$
 36	Kota	kota	PROPN	NSD	_	34	flat:name	_	MorphInd=^kota<n>_NSD$
 37	Ternate	ternate	PROPN	F--	_	36	flat:name	_	MorphInd=^ternate<f>_F--$
 38	untuk	untuk	SCONJ	R--	_	39	mark	_	MorphInd=^untuk<r>_R--$
@@ -9146,7 +9146,7 @@
 2	Ilir	ilir	PROPN	X--	_	1	flat:name	_	MorphInd=^ilir<x>_X--$
 3	adalah	adalah	AUX	O--	_	6	cop	_	MorphInd=^adalah<o>_O--$
 4	salah	salah	ADJ	ASP	_	5	advmod	_	MorphInd=^salah<a>_ASP$
-5	satu	satu	NUM	CC-	_	6	nummod	_	MorphInd=^satu<c>_CC-$
+5	satu	satu	NUM	CC-	NumType=Card	6	nummod	_	MorphInd=^satu<c>_CC-$
 6	desa	desa	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^desa<n>_NSD$
 7	di	di	ADP	R--	_	8	case	_	MorphInd=^di<r>_R--$
 8	wilayah	wilayah	NOUN	NSD	Number=Sing	6	nmod	_	MorphInd=^wilayah<n>_NSD$
@@ -9315,7 +9315,7 @@
 11	,	,	PUNCT	Z--	_	1	punct	_	MorphInd=^,<z>_Z--$
 12	merupakan	merupakan	VERB	O--	_	0	root	_	MorphInd=^merupakan<o>_O--$
 13	salah	salah	ADJ	ASP	_	14	advmod	_	MorphInd=^salah<a>_ASP$
-14	satu	satu	NUM	CC-	_	15	nummod	_	MorphInd=^satu<c>_CC-$
+14	satu	satu	NUM	CC-	NumType=Card	15	nummod	_	MorphInd=^satu<c>_CC-$
 15	produsen	produsen	NOUN	NSD	Number=Sing	12	acl	_	MorphInd=^produsen<n>_NSD$
 16	rokok	rokok	NOUN	NSD	Number=Sing	15	compound	_	MorphInd=^rokok<n>_NSD$
 17	yang	yang	PRON	S--	PronType=Rel	19	nsubj	_	MorphInd=^yang<s>_S--$
@@ -9425,7 +9425,7 @@
 1	Tembalang	tembalang	PROPN	X--	_	5	nsubj	_	MorphInd=^tembalang<x>_X--$
 2	adalah	adalah	AUX	O--	_	5	cop	_	MorphInd=^adalah<o>_O--$
 3	salah	salah	ADJ	ASP	_	4	advmod	_	MorphInd=^salah<a>_ASP$
-4	satu	satu	NUM	CC-	_	5	nummod	_	MorphInd=^satu<c>_CC-$
+4	satu	satu	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^satu<c>_CC-$
 5	desa	desa	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^desa<n>_NSD$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 7	kecamatan	kecamatan	PROPN	NSD	_	5	nmod	_	MorphInd=^ke+camat<n>+an_NSD$
@@ -9791,7 +9791,7 @@
 5	Person	person	PROPN	F--	_	4	flat:name	_	MorphInd=^person<f>_F--$
 6	merukapan	merukapan	VERB	X--	_	0	root	_	MorphInd=^merukapan<x>_X--$
 7	salah	salah	ADJ	ASP	_	8	advmod	_	MorphInd=^salah<a>_ASP$
-8	satu	satu	NUM	CC-	_	9	nummod	_	MorphInd=^satu<c>_CC-$
+8	satu	satu	NUM	CC-	NumType=Card	9	nummod	_	MorphInd=^satu<c>_CC-$
 9	strategi	strategi	NOUN	NSD	Number=Sing	6	acl	_	MorphInd=^strategi<n>_NSD$
 10	yang	yang	PRON	S--	PronType=Rel	11	nsubj:pass	_	MorphInd=^yang<s>_S--$
 11	digunakan	guna	VERB	VSP	Mood=Ind|Voice=Pass	9	acl:relcl	_	MorphInd=^di+guna<n>+kan_VSP$
@@ -10372,7 +10372,7 @@
 10	bergantung	gantung	VERB	VSA	Mood=Ind|Voice=Act	3	ccomp	_	MorphInd=^ber+gantung<v>_VSA$
 11	pada	pada	ADP	R--	_	14	case	_	MorphInd=^pada<r>_R--$
 12	salah	salah	ADJ	ASP	_	13	advmod	_	MorphInd=^salah<a>_ASP$
-13	satu	satu	NUM	CC-	_	14	nummod	_	MorphInd=^satu<c>_CC-$
+13	satu	satu	NUM	CC-	NumType=Card	14	nummod	_	MorphInd=^satu<c>_CC-$
 14	anggota	anggota	NOUN	NSD	Number=Sing	10	obl	_	MorphInd=^anggota<n>_NSD$
 15	untuk	untuk	SCONJ	R--	_	16	mark	_	MorphInd=^untuk<r>_R--$
 16	membiayai	biaya	VERB	VSA	Mood=Ind|Voice=Act	14	acl	_	MorphInd=^meN+biaya<n>+i_VSA$
@@ -11723,7 +11723,7 @@
 3	Timur	timur	PROPN	NSD	_	2	amod	_	MorphInd=^timur<n>_NSD$
 4	adalah	adalah	AUX	O--	_	7	cop	_	MorphInd=^adalah<o>_O--$
 5	salah	salah	ADJ	ASP	_	6	advmod	_	MorphInd=^salah<a>_ASP$
-6	satu	satu	NUM	CC-	_	7	nummod	_	MorphInd=^satu<c>_CC-$
+6	satu	satu	NUM	CC-	NumType=Card	7	nummod	_	MorphInd=^satu<c>_CC-$
 7	kabupaten	kabupaten	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^kabupaten<n>_NSD$
 8	di	di	ADP	R--	_	9	case	_	MorphInd=^di<r>_R--$
 9	Provinsi	provinsi	PROPN	NSD	_	7	nmod	_	MorphInd=^provinsi<n>_NSD$
@@ -12000,7 +12000,7 @@
 18	yang	yang	PRON	S--	PronType=Rel	19	nsubj	_	MorphInd=^yang<s>_S--$
 19	merupakan	merupakan	VERB	O--	_	12	acl:relcl	_	MorphInd=^merupakan<o>_O--$
 20	salah	salah	ADJ	ASP	_	21	advmod	_	MorphInd=^salah<a>_ASP$
-21	satu	satu	NUM	CC-	_	22	nummod	_	MorphInd=^satu<c>_CC-$
+21	satu	satu	NUM	CC-	NumType=Card	22	nummod	_	MorphInd=^satu<c>_CC-$
 22	bank	bank	NOUN	NSD	Number=Sing	19	obj	_	MorphInd=^bank<n>_NSD$
 23	Irlandia	irlandia	PROPN	NSD	_	22	nmod	_	MorphInd=^irlandia<n>_NSD$
 24	'	'	PUNCT	_	_	26	punct	_	SpaceAfter=No
@@ -12124,7 +12124,7 @@
 # sent_id = dev-s444
 # text = Satu peri terakhir belum memberikan hadiah dan menggunakannya untuk sebagian membalikkan kutukan peri jahat itu, menyatakan bahwa sang putri malah akan jatuh ke dalam tidur nyenyak selama 100 tahun dan dibangunkan oleh putra seorang raja.
 # text_en = One last fairy has yet to give a gift and uses it to partially reverse the evil fairy's curse, declaring that the princess will instead fall into a deep sleep for 100 years and be awakened by the son of a king.
-1	Satu	satu	NUM	CC-	_	2	nummod	_	MorphInd=^satu<c>_CC-$
+1	Satu	satu	NUM	CC-	NumType=Card	2	nummod	_	MorphInd=^satu<c>_CC-$
 2	peri	ri	NOUN	NSD	Number=Sing	5	nsubj	_	MorphInd=^peN+ri<n>_NSD$
 3	terakhir	akhir	ADJ	ASS	Degree=Sup	2	amod	_	MorphInd=^ter+akhir<n>_ASS$
 4	belum	belum	ADV	G--	_	5	advmod	_	MorphInd=^belum<g>_G--$
@@ -12302,7 +12302,7 @@
 1	Madrasah	madrasah	PROPN	NSD	_	10	nsubj	_	MorphInd=^madrasah<n>_NSD$
 2	Aliyah	aliyah	PROPN	X--	_	1	flat:name	_	MorphInd=^aliyah<x>_X--$
 3	Negeri	negeri	PROPN	NSD	_	2	flat:name	_	MorphInd=^negeri<n>_NSD$
-4	1	1	NUM	CC-	_	3	nummod	_	MorphInd=^1<c>_CC-$
+4	1	1	NUM	CC-	NumType=Card	3	nummod	_	MorphInd=^1<c>_CC-$
 5	Jakarta	jakarta	PROPN	NSD	_	1	flat:name	_	MorphInd=^jakarta<n>_NSD$
 6	(	(	PUNCT	Z--	_	7	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 7	MAN	man	PROPN	F--	_	1	appos	_	MorphInd=^man<f>_F--$
@@ -12722,7 +12722,7 @@
 1	Tamangapa	tamangapa	PROPN	X--	_	5	nsubj	_	MorphInd=^tamangapa<x>_X--$
 2	adalah	adalah	AUX	O--	_	5	cop	_	MorphInd=^adalah<o>_O--$
 3	salah	salah	ADJ	ASP	_	4	advmod	_	MorphInd=^salah<a>_ASP$
-4	satu	satu	NUM	CC-	_	5	nummod	_	MorphInd=^satu<c>_CC-$
+4	satu	satu	NUM	CC-	NumType=Card	5	nummod	_	MorphInd=^satu<c>_CC-$
 5	kelurahan	lurah	NOUN	NSD	Number=Sing	0	root	_	MorphInd=^ke+lurah<n>+an_NSD$
 6	di	di	ADP	R--	_	7	case	_	MorphInd=^di<r>_R--$
 7	Kecamatan	kecamatan	PROPN	NSD	_	5	nmod	_	MorphInd=^ke+camat<n>+an_NSD$
@@ -12814,7 +12814,7 @@
 8	hingga	hingga	SCONJ	R--	_	10	mark	_	MorphInd=^hingga<r>_R--$
 9	Lisa	lisa	PROPN	F--	_	10	nsubj	_	MorphInd=^lisa<f>_F--$
 10	merasa	rasa	VERB	VSA	Mood=Ind|Voice=Act	5	advcl	_	MorphInd=^meN+rasa<v>_VSA$
-11	tak	tak	PART	G--	PronType=Neg	12	advmod	_	MorphInd=^tak<g>_G--$
+11	tak	tak	PART	G--	Polarity=Neg	12	advmod	_	MorphInd=^tak<g>_G--$
 12	bertepuk	tepuk	VERB	VSA	Mood=Ind|Voice=Act	10	xcomp	_	MorphInd=^ber+tepuk<v>_VSA$
 13	tangan	tangan	NOUN	NSD	Number=Sing	12	obj	_	MorphInd=^tangan<n>_NSD$
 14	sebelah	sebelah	ADP	D--	_	15	case	_	MorphInd=^sebelah<d>_D--$
@@ -13178,7 +13178,7 @@
 11	di	di	ADP	R--	_	12	case	_	MorphInd=^di<r>_R--$
 12	SD	sd	PROPN	NSD	_	8	nmod	_	MorphInd=^sd<n>_NSD$
 13	Negeri	negeri	PROPN	NSD	_	12	flat:name	_	MorphInd=^negeri<n>_NSD$
-14	3	3	NUM	CC-	_	13	flat	_	MorphInd=^3<c>_CC-$
+14	3	3	NUM	CC-	NumType=Card	13	flat	_	MorphInd=^3<c>_CC-$
 15	Jekulo	jekulo	PROPN	X--	_	12	flat:name	_	MorphInd=^jekulo<x>_X--$
 16	ditempuh	tempuh	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	MorphInd=^di+tempuh<v>_VSP$
 17	dalam	dalam	ADP	ASP	_	18	case	_	MorphInd=^dalam<a>_ASP$
@@ -13809,7 +13809,7 @@
 13	di	di	ADP	R--	_	14	case	_	MorphInd=^di<r>_R--$
 14	Blink	blink	PROPN	X--	_	11	obl	_	MorphInd=^blink<x>_X--$
 15	-	-	PUNCT	Z--	_	16	punct	_	MorphInd=^-<z>_Z--$
-16	182	182	NUM	CC-	_	14	nummod	_	SpaceAfter=No|MorphInd=^182<c>_CC-$
+16	182	182	NUM	CC-	NumType=Card	14	nummod	_	SpaceAfter=No|MorphInd=^182<c>_CC-$
 17	,	,	PUNCT	Z--	_	19	punct	_	MorphInd=^,<z>_Z--$
 18	seperti	seperti	ADP	R--	_	19	case	_	MorphInd=^seperti<r>_R--$
 19	drum	drum	NOUN	F--	_	11	obl	_	MorphInd=^drum<f>_F--$
@@ -13876,7 +13876,7 @@
 # text_en = Choose a name that will be used and it will automatically become the user's account, until later it is decided to cancel the registration.
 1	Pilih	pilih	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	MorphInd=^pilih<v>_VSA$
 2	salah	salah	ADJ	ASP	_	3	advmod	_	MorphInd=^salah<a>_ASP$
-3	satu	satu	NUM	CC-	_	4	nummod	_	MorphInd=^satu<c>_CC-$
+3	satu	satu	NUM	CC-	NumType=Card	4	nummod	_	MorphInd=^satu<c>_CC-$
 4	nama	nama	NOUN	NSD	Number=Sing	1	compound	_	MorphInd=^nama<n>_NSD$
 5	yang	yang	PRON	S--	PronType=Rel	7	nsubj:pass	_	MorphInd=^yang<s>_S--$
 6	akan	akan	AUX	M--	_	7	aux	_	MorphInd=^akan<m>_M--$
