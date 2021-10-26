@@ -34,14 +34,14 @@
     <tag name="X">100</tag><!-- and, image, in, kok, loh, x, assistent, b, resident, s -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="31">
+  <feats unique="32">
     <feat name="Abbr" value="Yes" upos="NOUN,PART,PRON,PROPN">14</feat><!-- kan, yg, Dk, Dsn, RT, RUU, RW, dkk -->
     <feat name="Clusivity" value="Ex" upos="PRON">27</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">66</feat><!-- kita -->
     <feat name="Definite" value="Def" upos="DET">219</feat><!-- nya -->
     <feat name="Definite" value="Ind" upos="DET">655</feat><!-- sebuah, seorang, suatu -->
     <feat name="Degree" value="Sup" upos="ADJ">215</feat><!-- terbesar, terbaik, terakhir, terkenal, tertinggi, terdekat, tertua, teratas, terbanyak, terbaru -->
-    <feat name="Foreign" value="Yes" upos="X">84</feat><!-- and, Image, in, kok, x, assistent, b, resident, s, te -->
+    <feat name="Foreign" value="Yes" upos="X">91</feat><!-- and, Image, in, kok, loh, x, assistent, b, resident, s -->
     <feat name="Mood" value="Imp" upos="VERB">2</feat><!-- Amankan, Sukseskan -->
     <feat name="Mood" value="Ind" upos="VERB">10759</feat><!-- menjadi, memiliki, terletak, digunakan, berada, menggunakan, dikenal, terjadi, membuat, disebut -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">1573</feat><!-- mereka, beberapa, para, berbagai, kita, orang-orang, banyak, kami, anak-anak, sejumlah -->
@@ -59,6 +59,7 @@
     <feat name="PronType" value="Emp" upos="DET">42</feat><!-- sendiri -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">470</feat><!-- beberapa, banyak, berbagai, sejumlah, seseorang, sesuatu, seorang, beragam -->
     <feat name="PronType" value="Int" upos="ADV,PRON">506</feat><!-- apa, bagaimana, siapa, mengapa, kenapa, dimana, mana, kapan, berapa, Kemana -->
+    <feat name="PronType" value="Neg" upos="PART">1</feat><!-- tak -->
     <feat name="PronType" value="Prs" upos="PRON">2845</feat><!-- nya, ia, mereka, dia, kita, ku, kamu, mu, aku, engkau -->
     <feat name="PronType" value="Rel" upos="ADV,PRON">3074</feat><!-- yang, bagaimana, siapa, yg, berapa, mengapa, apa, kapan -->
     <feat name="PronType" value="Tot" upos="ADV,DET,NUM,PRON">345</feat><!-- semua, kedua, setiap, seluruh, segala, keseluruhan, ketiga, keempat, tiap, segenap -->

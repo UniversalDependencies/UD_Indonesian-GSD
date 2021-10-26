@@ -10586,9 +10586,9 @@
 16	(	(	PUNCT	Z--	_	17	punct	_	SpaceAfter=No|MorphInd=^(<z>_Z--$
 17	singkil	singkil	PROPN	X--	_	14	appos	_	SpaceAfter=No|MorphInd=^singkil<x>_X--$
 18	)	)	PUNCT	Z--	_	17	punct	_	MorphInd=^)<z>_Z--$
-19	by	by	X	X--	_	20	dep	_	MorphInd=^by<x>_X--$
+19	by	by	X	X--	Foreign=Yes	20	dep	_	MorphInd=^by<x>_X--$
 20	anak	anak	NOUN	NSD	_	5	obl	_	MorphInd=^anak<n>_NSD$
-21	tomboy	tomboy	X	X--	_	20	nmod	_	MorphInd=^tomboy<x>_X--$
+21	tomboy	tomboy	X	X--	Foreign=Yes	20	nmod	_	MorphInd=^tomboy<x>_X--$
 22	jarenn	jarenn	PROPN	X--	_	20	nmod	_	MorphInd=^jarenn<x>_X--$
 23	dava	dava	PROPN	X--	_	21	flat:name	_	SpaceAfter=No|MorphInd=^dava<x>_X--$
 24	,	,	PUNCT	Z--	_	26	punct	_	SpaceAfter=No|MorphInd=^,<z>_Z--$
@@ -12814,7 +12814,7 @@
 8	hingga	hingga	SCONJ	R--	_	10	mark	_	MorphInd=^hingga<r>_R--$
 9	Lisa	lisa	PROPN	F--	_	10	nsubj	_	MorphInd=^lisa<f>_F--$
 10	merasa	rasa	VERB	VSA	Mood=Ind|Voice=Act	5	advcl	_	MorphInd=^meN+rasa<v>_VSA$
-11	tak	tak	PART	G--	_	12	advmod	_	MorphInd=^tak<g>_G--$
+11	tak	tak	PART	G--	PronType=Neg	12	advmod	_	MorphInd=^tak<g>_G--$
 12	bertepuk	tepuk	VERB	VSA	Mood=Ind|Voice=Act	10	xcomp	_	MorphInd=^ber+tepuk<v>_VSA$
 13	tangan	tangan	NOUN	NSD	Number=Sing	12	obj	_	MorphInd=^tangan<n>_NSD$
 14	sebelah	sebelah	ADP	D--	_	15	case	_	MorphInd=^sebelah<d>_D--$
