@@ -23,6 +23,7 @@ http://septinalarasati.com/morphind/).
   * Added features: Definite (values: Def, Ind), Mood (values: Ind, Imp)
   * Removed feature: Poss
   * Added text_en (English translation of each Indonesian sentence is generated using Google Translate)
+  * annotated some words with Abbr=Yes or Typo=Yes
 * 2021-05-15 v2.8
   * Fixed non-projective punctuation with Udapi ud.FixPunct.
   * Reduplicated plurals are now single tokens as in the other Indonesian treebanks.
