@@ -6,9 +6,23 @@ dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 # Introduction
 
-Lemmas, XPOS and morphological features added by MorphInd
-(created by Septina Dian Larasati, run and converted by Dan Zeman,
-http://septinalarasati.com/morphind/).
+* This treebank consists of 5598 sentences and 122K words. We divide it into three dataset:
+  * Training dataset consists of around 97K words
+  * Development dataset consists of around 11K words
+  * Testing dataset consists of around 12K words
+
+# Acknowledgments
+
+* The original Indonesian-GSD treebank was developed by Ryan McDonald in 2015 based on McDonald et al. (2013).
+* The treebank was converted to UD v2 by Dan Zeman in 2017.
+* Lemmas, XPOS, and morphological features added by MorphInd (created by Septina Dian Larasati, run and converted by Dan Zeman, http://septinalarasati.com/morphind/), in 2018.
+* Major corrections on word segmentation, lemmas, UPOS, FEATS, and DEPREL columns by Dan Zeman and Ika Alfina, in 2021.
+
+## References
+
+* Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg, Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang, Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee. ["**Universal Dependency Annotation for Multilingual Parsing**"](https://aclanthology.org/P13-2017.pdf). In Proceedings of ACL 2013.
+* Septina Dian Larasati, Vladislav Kuboň, and Daniel Zeman, ["**Indonesian Morphology Tool (MorphInd): Towards an Indonesian Corpus**"](https://link.springer.com/chapter/10.1007/978-3-642-23138-4_8). In Proceeding of SCFM 2011.
+
 
 # Changelog
 
@@ -23,7 +37,7 @@ http://septinalarasati.com/morphind/).
   * Added features: Definite (values: Def, Ind), Mood (values: Ind, Imp)
   * Removed feature: Poss
   * Added text_en (English translation of each Indonesian sentence is generated using Google Translate)
-  * annotated some words with Abbr=Yes or Typo=Yes
+  * Annotated some words with Abbr=Yes or Typo=Yes
 * 2021-05-15 v2.8
   * Fixed non-projective punctuation with Udapi ud.FixPunct.
   * Reduplicated plurals are now single tokens as in the other Indonesian treebanks.
