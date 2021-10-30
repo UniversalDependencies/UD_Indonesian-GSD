@@ -8,8 +8,8 @@ dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 * This treebank consists of 5598 sentences and 122K words, and was divided it into three dataset:
   * Training dataset consists of around 97K words
-  * Development dataset consists of around 11K words
-  * Testing dataset consists of around 12K words
+  * Development dataset consists of around 12K words
+  * Testing dataset consists of around 11K words
 
 # Acknowledgments
 
