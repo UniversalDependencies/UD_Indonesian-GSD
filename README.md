@@ -1,20 +1,19 @@
 # Summary
 
-The Indonesian UD is converted from the content head version of the [universal
-dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
+The Indonesian-GSD treebank was originally converted from the content head version of the [universal dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb) in 2015. In order to comply with the latest Indonesian annotation guidelines, the treebank has undergone a major revision since UD Dataset v2.8 (2021).
 
 
 # Introduction
 
-* This treebank consists of 5598 sentences and 122K words, and was divided it into three dataset:
+* The treebank consists of 5598 sentences and 122K words, and was divided it into three dataset:
   * Training dataset consists of around 97K words
   * Development dataset consists of around 12K words
   * Testing dataset consists of around 11K words
 
 # Acknowledgments
 
-* The original Indonesian-GSD treebank was developed by Ryan McDonald in 2015 based on McDonald et al. (2013).
-* The treebank was converted to UD v2 by Dan Zeman in 2017.
+* The original Indonesian-GSD treebank was developed by Ryan McDonald in 2015 based on method proposed by McDonald et al. (2013).
+* The treebank was converted to UD v2 guidelines by Dan Zeman in 2017.
 * Lemmas, XPOS, and morphological features added by MorphInd (created by Septina Dian Larasati, run and converted by Dan Zeman, http://septinalarasati.com/morphind/), in 2018.
 * Major corrections on word segmentation, lemmas, UPOS, FEATS, and DEPREL columns by Dan Zeman and Ika Alfina, in 2021.
 
@@ -27,17 +26,23 @@ dependency treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 # Changelog
 
 * 2021-11-15 v2.9
-  * The enclitics -ku, -mu, -nya, -kah, -lah, -pun, -tah separated from their host as syntactic words.
-  * The proclitics ku-, kau- separated as 1Sing/2Sing subjects ('I, you').
-  * Stripped affixes from lemmas of verbs.
-  * Fixed tokenization and tags of ordinal numerals.
-  * Fixed tokenization of decades ('1990-an').
-  * Proper nouns do not have the Number feature (unlike common nouns).
   * Numerous legacy validation errors fixed.
-  * Added features: Definite (values: Def, Ind), Mood (values: Ind, Imp)
-  * Removed feature: Poss
+  * Corrections on word segmentations:
+    * The enclitics -ku, -mu, -nya, -kah, -lah, -pun, -tah separated from their host as syntactic words.
+    * The proclitics ku-, kau- separated as 1Sing/2Sing subjects ('I, you').
+    * Fixed tokenization and tags of ordinal numerals.
+    * Fixed tokenization of decades ('1990-an').
+  * Corrections on lemmas:
+    * Stripped affixes from lemmas of verbs, nouns
+  * Corrections on features:
+    * Applied new features: Abbr (value: Yes), Definite (values: Def, Ind), Mood (values: Ind, Imp), Reflex (value: Yes), Typo (value: Yes)
+    * Applied new feature-values: NumType=Ord, PronType=Art, PronType=Emp
+    * Removed features: Gender, Number[psor], Poss, Person[psor]
+    * Removed feature-value: Degree=Pos  
+    * Proper nouns do not have the Number feature (unlike common nouns).
+  * Corrections on dependency relations:
+    * Applied 12 new subtypes for Indonesian, such as acl:relcl, case:adv, nmod:tmod, obl:tmod, etc
   * Added text_en (English translation of each Indonesian sentence is generated using Google Translate)
-  * Annotated some words with Abbr=Yes or Typo=Yes
 * 2021-05-15 v2.8
   * Fixed non-projective punctuation with Udapi ud.FixPunct.
   * Reduplicated plurals are now single tokens as in the other Indonesian treebanks.
