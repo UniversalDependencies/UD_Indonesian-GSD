@@ -43,9 +43,9 @@ The Indonesian-GSD treebank was originally converted from the content head versi
     * Removed feature-value: Degree=Pos  
     * Proper nouns do not have the Number feature (unlike common nouns).
   * Corrections on dependency relations:
-    * Applied 12 new subtypes for Indonesian, such as acl:relcl, case:adv, nmod:tmod, obl:tmod, etc
+    * Applied 12 new subtypes for Indonesian, such as acl:relcl, advmod:emph, case:adv, cc:preconj, etc.
     * Fixed incorrect DEPRELs
-  * Added text_en (English translation of each Indonesian sentence is generated using Google Translate)
+  * Added text_en (English translation of each Indonesian sentence was generated using Google Translate)
 * 2021-05-15 v2.8
   * Fixed non-projective punctuation with Udapi ud.FixPunct.
   * Reduplicated plurals are now single tokens as in the other Indonesian treebanks.
