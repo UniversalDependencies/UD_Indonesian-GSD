@@ -34,6 +34,8 @@ The Indonesian-GSD treebank was originally converted from the content head versi
     * Fixed tokenization of decades ('1990-an').
   * Corrections on lemmas:
     * Stripped affixes from lemmas of verbs, nouns
+  * Corrections on UPOS: 
+    * Fixed many incorrect UPOS
   * Corrections on features:
     * Applied new features: Abbr (value: Yes), Definite (values: Def, Ind), Mood (values: Ind, Imp), Reflex (value: Yes), Typo (value: Yes)
     * Applied new feature-values: NumType=Ord, PronType=Art, PronType=Emp
@@ -42,6 +44,7 @@ The Indonesian-GSD treebank was originally converted from the content head versi
     * Proper nouns do not have the Number feature (unlike common nouns).
   * Corrections on dependency relations:
     * Applied 12 new subtypes for Indonesian, such as acl:relcl, case:adv, nmod:tmod, obl:tmod, etc
+    * Fixed incorrect DEPRELs
   * Added text_en (English translation of each Indonesian sentence is generated using Google Translate)
 * 2021-05-15 v2.8
   * Fixed non-projective punctuation with Udapi ud.FixPunct.
