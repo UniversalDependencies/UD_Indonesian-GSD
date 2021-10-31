@@ -27,17 +27,19 @@ The Indonesian-GSD treebank was originally converted from the content head versi
 
 * 2021-11-15 v2.9
   * Numerous legacy validation errors fixed.
-  * Corrections on word segmentations:
+  * Corrections on tokenization/word segmentations:
     * The enclitics -ku, -mu, -nya, -kah, -lah, -pun, -tah separated from their host as syntactic words.
     * The proclitics ku-, kau- separated as 1Sing/2Sing subjects ('I, you').
-    * Fixed tokenization and tags of ordinal numerals.
+    * Fixed tokenization of ordinal numerals.
     * Fixed tokenization of decades ('1990-an').
     * Fixed tokenization for morphemes anti-, non-, sub-, multi-, kontra-
     * Fixed tokenizayion for reduplicated verbs, nouns, etc.
   * Corrections on lemmas:
     * Stripped affixes from lemmas of verbs, nouns
   * Corrections on UPOS: 
-    * Fixed numerous incorrect UPOS
+    * Fixed tags of ordinal numerals.
+    * Fixed tags of words that should be AUX 
+    * Fixed numerous other incorrect tags (mislabeled NOUN as VERB, or vice-versa)
   * Corrections on features:
     * Applied new features: Abbr (value: Yes), Definite (values: Def, Ind), Mood (values: Ind, Imp), Reflex (value: Yes), Typo (value: Yes)
     * Applied new feature-values: NumType=Ord, PronType=Art, PronType=Emp
@@ -46,7 +48,7 @@ The Indonesian-GSD treebank was originally converted from the content head versi
     * Proper nouns do not have the Number feature (unlike common nouns).
   * Corrections on dependency relations:
     * Applied 12 new subtypes for Indonesian, such as acl:relcl, advmod:emph, case:adv, cc:preconj, etc.
-    * Fixed incorrect DEPRELs
+    * Fixed numerous incorrect DEPRELs
   * Added text_en (English translation of each Indonesian sentence was generated using Google Translate)
 * 2021-05-15 v2.8
   * Fixed non-projective punctuation with Udapi ud.FixPunct.
@@ -124,11 +126,11 @@ Data available since: UD v1.1
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: news blog
-Lemmas: automatic
-UPOS: converted from manual
-XPOS: automatic
-Features: automatic
-Relations: converted from manual
+Lemmas: automatic with corrections
+UPOS: converted with corrections
+XPOS: automatic with corrections
+Features: automatic with corrections
+Relations: converted with corrections
 Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Larasati, Septina Dian; Alfina, Ika
 Contributing: to be adopted
 Contact: zeman@ufal.mff.cuni.cz
