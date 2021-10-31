@@ -32,10 +32,12 @@ The Indonesian-GSD treebank was originally converted from the content head versi
     * The proclitics ku-, kau- separated as 1Sing/2Sing subjects ('I, you').
     * Fixed tokenization and tags of ordinal numerals.
     * Fixed tokenization of decades ('1990-an').
+    * Fixed tokenization for morphemes anti-, non-, sub-, multi-, kontra-
+    * Fixed tokenizayion for reduplicated verbs, nouns, etc.
   * Corrections on lemmas:
     * Stripped affixes from lemmas of verbs, nouns
   * Corrections on UPOS: 
-    * Fixed many incorrect UPOS
+    * Fixed numerous incorrect UPOS
   * Corrections on features:
     * Applied new features: Abbr (value: Yes), Definite (values: Def, Ind), Mood (values: Ind, Imp), Reflex (value: Yes), Typo (value: Yes)
     * Applied new feature-values: NumType=Ord, PronType=Art, PronType=Emp
