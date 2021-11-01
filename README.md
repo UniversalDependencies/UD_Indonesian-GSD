@@ -5,7 +5,7 @@ The Indonesian-GSD treebank was originally converted from the content head versi
 
 # Introduction
 
-* The treebank consists of 5598 sentences and 122K words, and was divided it into three parts:
+* The treebank consists of 5598 sentences and 122K words, and was divided into three parts:
   * Training dataset consists of around 97K words
   * Development dataset consists of around 12K words
   * Testing dataset consists of around 11K words
@@ -16,7 +16,7 @@ The Indonesian-GSD treebank was originally converted from the content head versi
 * The original Indonesian-GSD treebank was developed by Ryan McDonald in 2015 based on the Indonesian treebank in a pre-UD Google treebank collection (McDonald et al. 2013).
 * The treebank was converted to UD v2 guidelines by Dan Zeman in 2017.
 * Lemmas, XPOS, and morphological features added by MorphInd (created by Septina Dian Larasati, run and converted by Dan Zeman, http://septinalarasati.com/morphind/), in 2018.
-* Major corrections on word segmentation, lemmas, UPOS, FEATS, and DEPREL columns by Dan Zeman and Ika Alfina, in 2021.
+* Major corrections on word segmentation, LEMMA, UPOS, FEATS, and DEPREL columns by Dan Zeman and Ika Alfina, in 2021.
 
 ## References
 
@@ -50,6 +50,7 @@ The Indonesian-GSD treebank was originally converted from the content head versi
   * Corrections on dependency relations:
     * Applied 12 new subtypes for Indonesian, such as acl:relcl, advmod:emph, case:adv, cc:preconj, etc.
     * Fixed numerous incorrect DEPRELs
+    * Fixed some udapi bugs (multi-subj, multi-obj, etc)
   * Added text_en (English translation of each Indonesian sentence was generated using Google Translate)
 * 2021-05-15 v2.8
   * Fixed non-projective punctuation with Udapi ud.FixPunct.
