@@ -5614,7 +5614,7 @@
 29	album	album	NOUN	NSD	Number=Sing	28	obj	_	Morf=^album<n>_NSD$
 30	akustik	akustik	NOUN	NSD	Number=Sing	29	compound	_	Morf=^akustik<n>_NSD$
 31	yang	yang	PRON	S--	PronType=Rel	32	nsubj	_	Morf=^yang<s>_S--$
-32	di	di	VERB	R--	Typo=Yes|Voice=Pass	29	acl:relcl	_	Morf=^di<r>_R--$
+32	di	di	VERB	R--	Typo=Yes|Voice=Pass	29	acl:relcl	_	CorrectForm=diberi|Morf=^di<r>_R--$
 33	beri	_	X	VSA	_	32	goeswith	_	Morf=^beri<v>_VSA$
 34	nama	nama	NOUN	NSD	Number=Sing	32	obl	_	Morf=^nama<n>_NSD$
 35	GN	gn	PROPN	X--	_	32	obl	_	SpaceAfter=No|Morf=^gn<x>_X--$
@@ -12866,7 +12866,7 @@
 15	pada	pada	ADP	R--	_	16	case	_	Morf=^pada<r>_R--$
 16	kejahatan	jahat	NOUN	NSD	Number=Sing	12	nmod	_	Morf=^ke+jahat<a>+an_NSD$
 17	yang	yang	PRON	S--	PronType=Rel	18	nsubj:pass	_	Morf=^yang<s>_S--$
-18	di	di	VERB	R--	Typo=Yes|Voice=Pass	16	acl:relcl	_	Morf=^di<r>_R--$
+18	di	di	VERB	R--	Typo=Yes|Voice=Pass	16	acl:relcl	_	CorrectForm=dilakukan|Morf=^di<r>_R--$
 19	lakukan	_	X	VSA	_	18	goeswith	_	Morf=^laku<a>+kan_VSA$
 20	Menurut	menurut	VERB	R--	_	21	advcl	_	Morf=^menurut<r>_R--$
 21	UU	uu	PROPN	NSD	_	31	obl	_	Morf=^uu<n>_NSD$
@@ -13149,7 +13149,7 @@
 22	Daerah	daerah	PROPN	NSD	_	21	flat:name	_	SpaceAfter=No|Morf=^daerah<n>_NSD$
 23	,	,	PUNCT	Z--	_	25	punct	_	Morf=^,<z>_Z--$
 24	yang	yang	PRON	S--	PronType=Rel	25	nsubj:pass	_	Morf=^yang<s>_S--$
-25	dititik	titik	VERB	VSP	Mood=Ind|Typo=Yes|Voice=Pass	19	acl:relcl	_	Morf=^di+titik<n>_VSP$
+25	dititik	titik	VERB	VSP	Mood=Ind|Typo=Yes|Voice=Pass	19	acl:relcl	_	CorrectForm=dititikberatkan|Morf=^di+titik<n>_VSP$
 26	beratkan	_	X	VSA	_	25	goeswith	_	Morf=^berat<a>+kan_VSA$
 27	pada	pada	ADP	R--	_	25	dep	_	SpaceAfter=No|Morf=^pada<r>_R--$
 28	:	:	PUNCT	Z--	_	25	punct	_	Morf=^:<z>_Z--$
