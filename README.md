@@ -28,6 +28,7 @@ The Indonesian-GSD treebank was originally converted from the content head versi
 
 * 2022-05-15 v2.10
   * The MISC attribute with the analysis from MorphInd renamed to Morf, as similar attributes in other UD treebanks.
+  * Fixed the annotation for 'goeswith'
 * 2021-11-15 v2.9
   * Numerous legacy validation errors fixed.
   * Corrections on tokenization/word segmentations:
