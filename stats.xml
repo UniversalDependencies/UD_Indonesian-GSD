@@ -22,16 +22,16 @@
     <tag name="CCONJ">3586</tag><!-- dan, atau, tetapi, serta, namun, maupun, baik, lain, sama, sedangkan -->
     <tag name="DET">3664</tag><!-- ini, itu, buah, tersebut, nya, orang, beberapa, para, berbagai, suatu -->
     <tag name="INTJ">5</tag><!-- hai, oh, sayang, silakan, wah -->
-    <tag name="NOUN">26431</tag><!-- tahun, orang, desa, nama, kota, bagi, bahasa, perintah, wilayah, saat -->
-    <tag name="NUM">4270</tag><!-- satu, dua, 1, 2, 3, tiga, 5, kedua, 2010, 4 -->
+    <tag name="NOUN">26430</tag><!-- tahun, orang, desa, nama, kota, bagi, bahasa, perintah, wilayah, saat -->
+    <tag name="NUM">4269</tag><!-- satu, dua, 1, 2, 3, tiga, 5, kedua, 2010, 4 -->
     <tag name="PART">1025</tag><!-- tidak, kah, lah, pun, bukan, tak, belum, jangan, ya, tiada -->
     <tag name="PRON">6423</tag><!-- yang, dia, mereka, apa, aku, diri, kamu, kita, siapa, mana -->
     <tag name="PROPN">22422</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, the, jepang -->
     <tag name="PUNCT">17408</tag><!-- ,, ., ), (, -, ", ?, :, ', / -->
     <tag name="SCONJ">2077</tag><!-- untuk, bahwa, dengan, karena, ketika, sehingga, maka, jika, setelah, sementara -->
     <tag name="SYM">153</tag><!-- %, =, °, #, +, $, ', ′, €, //www.anayasa.gen.tr/1961constitution-text.pdf -->
-    <tag name="VERB">12489</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, laku -->
-    <tag name="X">113</tag><!-- and, image, in, kok, loh, x, assistent, b, resident, s -->
+    <tag name="VERB">12471</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, diri -->
+    <tag name="X">133</tag><!-- _, and, image, in, kok, loh, x, assistent, b, resident -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="31">
@@ -43,10 +43,10 @@
     <feat name="Degree" value="Sup" upos="ADJ">215</feat><!-- terbesar, terbaik, terakhir, terkenal, tertinggi, terdekat, tertua, teratas, terbanyak, terbaru -->
     <feat name="Foreign" value="Yes" upos="X">89</feat><!-- and, Image, in, kok, loh, x, assistent, b, resident, s -->
     <feat name="Mood" value="Imp" upos="VERB">3</feat><!-- Amankan, Ijinkan, Sukseskan -->
-    <feat name="Mood" value="Ind" upos="VERB">10769</feat><!-- menjadi, memiliki, terletak, digunakan, berada, menggunakan, dikenal, terjadi, membuat, disebut -->
+    <feat name="Mood" value="Ind" upos="VERB">10752</feat><!-- menjadi, memiliki, terletak, digunakan, berada, menggunakan, dikenal, terjadi, membuat, disebut -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">1605</feat><!-- mereka, beberapa, para, berbagai, kita, banyak, orang-orang, kami, anak-anak, sejumlah -->
     <feat name="Number" value="Sing" upos="DET,NOUN,PRON">22902</feat><!-- nya, tahun, ia, orang, desa, nama, kota, bagian, bahasa, dia -->
-    <feat name="NumType" value="Card" upos="NUM">4270</feat><!-- satu, dua, 1, 2, 3, tiga, 5, kedua, 2010, 4 -->
+    <feat name="NumType" value="Card" upos="NUM">4269</feat><!-- satu, dua, 1, 2, 3, tiga, 5, kedua, 2010, 4 -->
     <feat name="NumType" value="Ord" upos="ADJ">395</feat><!-- pertama, kedua, ketiga, keempat, ke-13, ke-11, ke-18, ke-19, ke-20, ke-4 -->
     <feat name="Person" value="1" upos="PRON">198</feat><!-- kita, ku, aku, kami, saya -->
     <feat name="Person" value="2" upos="PRON">148</feat><!-- kamu, mu, engkau, anda, kalian, kau, beta -->
@@ -63,8 +63,8 @@
     <feat name="PronType" value="Rel" upos="ADV,PRON">3075</feat><!-- yang, bagaimana, siapa, yg, berapa, mengapa, apa, kapan -->
     <feat name="PronType" value="Tot" upos="ADV,DET,NUM,PRON">391</feat><!-- semua, kedua, setiap, seluruh, masing-masing, segala, keseluruhan, ketiga, per, keempat -->
     <feat name="Reflex" value="Yes" upos="PRON">85</feat><!-- diri -->
-    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,SCONJ,VERB,X">101</feat><!-- dimana, dibawah, di, diatas, didalam, diluar, 141an, 1960an, Delapn, Kemana -->
-    <feat name="Voice" value="Act" upos="VERB">7421</feat><!-- menjadi, memiliki, berada, menggunakan, membuat, bermain, mulai, melakukan, kembali, berasal -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PROPN,SCONJ,VERB,X">103</feat><!-- dimana, dibawah, di, diatas, didalam, diluar, 141an, 1960an, Co, Delapn -->
+    <feat name="Voice" value="Act" upos="VERB">7404</feat><!-- menjadi, memiliki, berada, menggunakan, membuat, bermain, mulai, melakukan, kembali, berasal -->
     <feat name="Voice" value="Pass" upos="VERB">3408</feat><!-- terletak, digunakan, dikenal, terjadi, disebut, terdapat, terdiri, dilakukan, ditemukan, dirilis -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
