@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Indonesian-GSD:
-commit 7e5a18678010c8265230d9c0575ba0657119f480
-Merge: 6f9b244 9ec9cec
+commit 49a20796b483e36b0063f032a9a482baa06025c3
+Merge: c3b624a af18a25
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 122021 of 122021 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60838632213586.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 48140 out of 122021 total words have one or more features.
+Features: 48123 out of 122021 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
