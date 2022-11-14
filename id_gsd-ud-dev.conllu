@@ -1659,7 +1659,7 @@
 18	Jakarta	jakarta	PROPN	NSD	_	17	flat:name	_	Morf=^jakarta<n>_NSD$
 19	ini	ini	DET	B--	PronType=Dem	18	det	_	Morf=^ini<b>_B--$
 20	juga	juga	ADV	D--	_	22	advmod	_	Morf=^juga<d>_D--$
-21	aktif	aktif	ADJ	ASP	_	22	nsubj	_	Morf=^aktif<a>_ASP$
+21	aktif	aktif	ADJ	ASP	_	22	advmod	_	Morf=^aktif<a>_ASP$
 22	mendorong	dorong	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+dorong<v>_VSA$
 23	penegakan	tegak	NOUN	NSD	Number=Sing	22	obj	_	Morf=^peN+tegak<a>+an_NSD$
 24	hukum	hukum	NOUN	VSA	_	23	compound	_	Morf=^hukum<v>_VSA$
@@ -2285,7 +2285,7 @@
 10	pinggang	pinggang	NOUN	NSD	Number=Sing	9	compound	_	Morf=^pinggang<n>_NSD$
 11	itu	itu	DET	B--	PronType=Dem	10	det	_	Morf=^itu<b>_B--$
 12	adalah	adalah	AUX	O--	_	14	cop	_	Morf=^adalah<o>_O--$
-13	yang	yang	PRON	S--	PronType=Rel	14	nsubj	_	Morf=^yang<s>_S--$
+13	yang	yang	DET	S--	_	14	det	_	Morf=^yang<s>_S--$
 14	tersempit	sempit	ADJ	ASS	Degree=Sup	5	acl:relcl	_	SpaceAfter=No|Morf=^ter+sempit<a>_ASS$
 15	,	,	PUNCT	Z--	_	16	punct	_	Morf=^,<z>_Z--$
 16	atau	atau	CCONJ	H--	_	14	cc	_	Morf=^atau<h>_H--$
@@ -2516,7 +2516,7 @@
 17	Hollywood	hollywood	PROPN	F--	_	16	nmod	_	Morf=^hollywood<f>_F--$
 18	Bowl	bowl	PROPN	F--	_	17	flat:name	_	SpaceAfter=No|Morf=^bowl<f>_F--$
 19	.	.	PUNCT	Z--	_	11	punct	_	Morf=^.<z>_Z--$
-20	Kali	kali	PROPN	VSA	_	23	nsubj	_	Morf=^kali<v>_VSA$
+20	Kali	kali	PROPN	VSA	_	23	obl:tmod	_	Morf=^kali<v>_VSA$
 21	ini	ini	DET	B--	PronType=Dem	20	det	_	Morf=^ini<b>_B--$
 22	ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	_	Morf=^ia<p>_PS3$
 23	ditugaskan	tugas	VERB	VSP	Mood=Ind|Voice=Pass	11	dep	_	Morf=^di+tugas<n>+kan_VSP$
@@ -2610,7 +2610,7 @@
 5	melahirkan	lahir	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+lahir<v>+kan_VSA$
 6	Nauplios	nauplios	PROPN	X--	_	5	obj	_	SpaceAfter=No|Morf=^nauplios<x>_X--$
 7	,	,	PUNCT	Z--	_	11	punct	_	Morf=^,<z>_Z--$
-8	yang	yang	PRON	S--	PronType=Rel	11	nsubj	_	Morf=^yang<s>_S--$
+8	yang	yang	PRON	S--	PronType=Rel	11	obl	_	Morf=^yang<s>_S--$
 9-10	namanya	_	_	_	_	_	_	_	Morf=^nama<n>_NSD+dia<p>_PS3$
 9	nama	nama	NOUN	NSD	Number=Sing	11	nsubj:pass	_	Morf=^nama<n>_NSD$
 10	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	Morf=^dia<p>_PS3$
@@ -4522,15 +4522,15 @@
 22	kah	kah	PART	T--	_	21	advmod:emph	_	Morf=^kah<t>_T--$
 23	kamu	kamu	PRON	PS2	Number=Sing|Person=2|Polite=Infm|PronType=Prs	24	nsubj	_	Morf=^kamu<p>_PS2$
 24	baca	baca	VERB	VSA	Mood=Ind|Voice=Act	2	parataxis	_	SpaceAfter=No|Morf=^baca<v>_VSA$
-25	,	,	PUNCT	Z--	_	33	punct	_	Morf=^,<z>_Z--$
+25	,	,	PUNCT	Z--	_	27	punct	_	Morf=^,<z>_Z--$
 26	bahwa	bahwa	SCONJ	S--	_	33	mark	_	Morf=^bahwa<s>_S--$
-27	Ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	33	nsubj	_	Morf=^ia<p>_PS3$
+27	Ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	24	obl	_	Morf=^ia<p>_PS3$
 28	yang	yang	PRON	S--	PronType=Rel	29	nsubj	_	Morf=^yang<s>_S--$
 29	menciptakan	cipta	VERB	VSA	Mood=Ind|Voice=Act	27	acl:relcl	_	Morf=^meN+cipta<v>+kan_VSA$
 30	manusia	manusia	NOUN	NSD	Number=Sing	29	obj	_	Morf=^manusia<n>_NSD$
 31	sejak	sejak	ADP	S--	_	32	case	_	Morf=^sejak<s>_S--$
 32	semula	semula	NOUN	NSD	Number=Sing	30	nmod	_	Morf=^semula<n>_NSD$
-33	menjadikan	jadi	VERB	VSA	Mood=Ind|Voice=Act	24	advcl	_	Morf=^meN+jadi<a>+kan_VSA$
+33	menjadikan	jadi	VERB	VSA	Mood=Ind|Voice=Act	29	conj	_	Morf=^meN+jadi<a>+kan_VSA$
 34	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	33	nsubj	_	Morf=^mereka<p>_PP3$
 35	laki-laki	laki	NOUN	NPD	Number=Sing	33	obl	_	Morf=^laki<n>_NPD$
 36	dan	dan	CCONJ	H--	_	37	cc	_	Morf=^dan<h>_H--$
@@ -4670,7 +4670,7 @@
 19	melindungi	lindung	VERB	VSA	Mood=Ind|Voice=Act	14	conj	_	Morf=^meN+lindung<v>+i_VSA$
 20	Miyano	miyano	PROPN	X--	_	19	obj	_	SpaceAfter=No|Morf=^miyano<x>_X--$
 21	,	,	PUNCT	Z--	_	27	punct	_	Morf=^,<z>_Z--$
-22	yang	yang	PRON	S--	PronType=Rel	27	nsubj	_	Morf=^yang<s>_S--$
+22	yang	yang	PRON	S--	PronType=Rel	27	obl	_	Morf=^yang<s>_S--$
 23-24	tubuhnya	_	_	_	_	_	_	_	Morf=^tubuh<n>_NSD+dia<p>_PS3$
 23	tubuh	tubuh	NOUN	NSD	Number=Sing	27	nsubj	_	Morf=^tubuh<n>_NSD$
 24	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	23	nmod:poss	_	Morf=^dia<p>_PS3$
@@ -5363,7 +5363,7 @@
 27	periode	periode	NOUN	NSD	Number=Sing	24	nmod	_	Morf=^periode<n>_NSD$
 28	ini	ini	DET	B--	PronType=Dem	27	det	_	Morf=^ini<b>_B--$
 29	—	—	PUNCT	Z--	_	36	punct	_	Morf=^—<z>_Z--$
-30	yang	yang	PRON	S--	PronType=Rel	36	nsubj	_	Morf=^yang<s>_S--$
+30	yang	yang	PRON	S--	PronType=Rel	36	obl	_	Morf=^yang<s>_S--$
 31	hampir	hampir	ADV	D--	_	36	advmod	_	Morf=^hampir<d>_D--$
 32-33	semuanya	_	_	_	_	_	_	_	Morf=^semua<b>_B--+dia<p>_PS3$
 32	semua	semua	PRON	B--	PronType=Tot	36	nsubj	_	Morf=^semua<b>_B--$
@@ -6598,7 +6598,7 @@
 9	membentuk	bentuk	VERB	VSA	Mood=Ind|Voice=Act	4	ccomp	_	Morf=^meN+bentuk<n>_VSA$
 10	sebuah	buah	DET	B--	Definite=Ind|PronType=Art	11	det	_	Morf=^sebuah<b>_B--$
 11	bank	bank	NOUN	NSD	Number=Sing	9	obj	_	Morf=^bank<n>_NSD$
-12	yang	yang	PRON	S--	PronType=Rel	15	nsubj	_	Morf=^yang<s>_S--$
+12	yang	yang	PRON	S--	PronType=Rel	15	obl	_	Morf=^yang<s>_S--$
 13-14	kegiatannya	_	_	_	_	_	_	_	Morf=^ke+giat<n>+an_NSD+dia<p>_PS3$
 13	kegiatan	giat	NOUN	NSD	Number=Sing	15	nsubj	_	Morf=^ke+giat<n>+an_NSD$
 14	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	Morf=^dia<p>_PS3$
@@ -7430,7 +7430,7 @@
 # sent_id = dev-s268
 # text = Mereka semuanya itu, Allah Maha Kuasa tukarkan, tidak seperti mereka hidup ketika didunia.
 # text_en = All of them are Allah, the Almighty, in exchange, unlike them when they lived on earth."
-1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Morf=^mereka<p>_PP3$
+1	Mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	9	obl	_	Morf=^mereka<p>_PP3$
 2-3	semuanya	_	_	_	_	_	_	_	Morf=^semua<b>_B--+dia<p>_PS3$
 2	semua	semua	PRON	B--	PronType=Tot	1	nmod	_	Morf=^semua<b>_B--$
 3	nya	nya	DET	PS3	Definite=Def|PronType=Art	2	det	_	Morf=^dia<p>_PS3$
@@ -8215,7 +8215,7 @@
 2	Saya	saya	PRON	PS1	Number=Sing|Person=1|Polite=Form|PronType=Prs	3	nsubj	_	Morf=^saya<p>_PS1$
 3	harap	harap	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^harap<v>_VSA$
 4	apa	apa	PRON	W--	PronType=Int	3	obj	_	Morf=^apa<w>_W--$
-5	yang	yang	PRON	S--	PronType=Rel	7	nsubj	_	Morf=^yang<s>_S--$
+5	yang	yang	PRON	S--	PronType=Rel	7	obl	_	Morf=^yang<s>_S--$
 6	saya	saya	PRON	PS1	Number=Sing|Person=1|Polite=Form|PronType=Prs	7	nsubj	_	Morf=^saya<p>_PS1$
 7	tulis	tulis	VERB	VSA	Mood=Ind|Voice=Act	4	acl:relcl	_	Morf=^tulis<v>_VSA$
 8	menyumbang	sumbang	VERB	VSA	Mood=Ind|Voice=Act	7	xcomp	_	Morf=^meN+sumbang<v>_VSA$
@@ -9579,7 +9579,7 @@
 29	2	2	NUM	CC-	NumType=Card	30	nummod	_	Morf=^2<c>_CC-$
 30	November	november	PROPN	NSD	_	28	nmod	_	Morf=^november<n>_NSD$
 31	1917	1917	NUM	CC-	NumType=Card	30	nummod	_	Morf=^1917<c>_CC-$
-32	yang	yang	PRON	S--	PronType=Rel	36	nsubj	_	Morf=^yang<s>_S--$
+32	yang	yang	PRON	S--	PronType=Rel	36	obl	_	Morf=^yang<s>_S--$
 33	mana	mana	PRON	W--	PronType=Int	32	fixed	_	Morf=^mana<w>_W--$
 34	Britania	britania	PROPN	X--	_	36	nsubj	_	Morf=^britania<x>_X--$
 35	Raya	raya	PROPN	ASP	_	34	flat:name	_	Morf=^raya<a>_ASP$
@@ -10046,7 +10046,7 @@
 14	sungai	sungai	NOUN	NSD	Number=Sing	13	compound	_	Morf=^sungai<n>_NSD$
 15	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	Morf=^dia<p>_PS3$
 16	,	,	PUNCT	Z--	_	19	punct	_	Morf=^,<z>_Z--$
-17	yang	yang	PRON	S--	PronType=Rel	19	nsubj	_	Morf=^yang<s>_S--$
+17	yang	yang	PRON	S--	PronType=Rel	19	obl	_	Morf=^yang<s>_S--$
 18	kesemuanya	semua	PRON	X--	PronType=Tot	19	nsubj	_	Morf=^kesemuanya<x>_X--$
 19	bermuara	muara	VERB	VSA	Mood=Ind|Voice=Act	13	acl:relcl	_	Morf=^ber+muara<n>_VSA$
 20	ke	ke	ADP	R--	_	21	case	_	Morf=^ke<r>_R--$
@@ -11228,14 +11228,14 @@
 80	bahan	bahan	NOUN	NSD	Number=Sing	78	obl	_	Morf=^bahan<n>_NSD$
 81	pembuat	buat	NOUN	NSD	Number=Sing	80	compound	_	Morf=^peN+buat<v>_NSD$
 82	kantung	kantung	NOUN	NSD	Number=Sing	81	obj	_	Morf=^kantung<n>_NSD$
-83	karena	karena	SCONJ	S--	_	86	mark	_	Morf=^karena<s>_S--$
-84	serat	serat	NOUN	NSD	Number=Sing	86	nsubj	_	Morf=^serat<n>_NSD$
+83	karena	karena	SCONJ	S--	_	88	mark	_	Morf=^karena<s>_S--$
+84	serat	serat	NOUN	NSD	Number=Sing	88	nsubj	_	Morf=^serat<n>_NSD$
 85	yang	yang	PRON	S--	PronType=Rel	86	nsubj	_	Morf=^yang<s>_S--$
 86-87	dihasilkannya	_	_	_	_	_	_	_	Morf=^di+hasil<n>+kan_VSP+dia<p>_PS3$
 86	dihasilkan	hasil	VERB	VSP	Mood=Ind|Voice=Pass	78	advcl	_	Morf=^di+hasil<n>+kan_VSP$
 87	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	86	obl:agent	_	Morf=^dia<p>_PS3$
-88	kuat	kuat	ADJ	ASP	_	86	amod	_	SpaceAfter=No|Morf=^kuat<a>_ASP$
-89	.	.	PUNCT	Z--	_	73	punct	_	Morf=^.<z>_Z--$
+88	kuat	kuat	ADJ	ASP	_	78	amod	_	SpaceAfter=No|Morf=^kuat<a>_ASP$
+89	.	.	PUNCT	Z--	_	15	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = dev-s414
 # text = Stagecoach Theatre Arts Ltd adalah sebuah sekolah seni teater profesional yang beroperasi di ribuan lokasi di seluruh dunia, dengan lebih dari 700 sekolah terdapat di Britania Raya. Pelatihan yang diajarkan antara lain dalam bidang bernyanyi, menari dan akting.
@@ -13141,7 +13141,7 @@
 24	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	23	nmod:poss	_	Morf=^dia<p>_PS3$
 25	,	,	PUNCT	Z--	_	28	punct	_	Morf=^,<z>_Z--$
 26	yang	yang	PRON	S--	PronType=Rel	28	nsubj	_	Morf=^yang<s>_S--$
-27	mana	mana	ADV	W--	PronType=Int	28	nsubj	_	Morf=^mana<w>_W--$
+27	mana	mana	ADV	W--	PronType=Int	26	fixed	_	Morf=^mana<w>_W--$
 28	berjalan	jalan	VERB	VSA	Mood=Ind|Voice=Act	12	acl:relcl	_	Morf=^ber+jalan<v>_VSA$
 29	lancar	lancar	ADV	ASP	_	28	advmod	_	Morf=^lancar<a>_ASP$
 30	pada	pada	ADP	R--	_	31	case	_	Morf=^pada<r>_R--$
@@ -13275,10 +13275,10 @@
 9	dari	dari	ADP	R--	_	10	case	_	Morf=^dari<r>_R--$
 10	kata	kata	NOUN	NSD	Number=Sing	8	obl	_	Morf=^kata<n>_NSD$
 11	Aesti	aesti	PROPN	X--	_	10	nmod	_	SpaceAfter=No|Morf=^aesti<x>_X--$
-12	,	,	PUNCT	Z--	_	15	punct	_	Morf=^,<z>_Z--$
-13	nama	nama	NOUN	NSD	Number=Sing	15	nsubj:pass	_	Morf=^nama<n>_NSD$
+12	,	,	PUNCT	Z--	_	11	punct	_	Morf=^,<z>_Z--$
+13	nama	nama	NOUN	NSD	Number=Sing	11	appos	_	Morf=^nama<n>_NSD$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj:pass	_	Morf=^yang<s>_S--$
-15	diberikan	beri	VERB	VSP	Mood=Ind|Voice=Pass	7	acl	_	Morf=^di+beri<v>+kan_VSP$
+15	diberikan	beri	VERB	VSP	Mood=Ind|Voice=Pass	13	acl:relcl	_	Morf=^di+beri<v>+kan_VSP$
 16	oleh	oleh	ADP	R--	_	17	case	_	Morf=^oleh<r>_R--$
 17	bangsa	bangsa	NOUN	NSD	Number=Sing	15	obl	_	Morf=^bangsa<n>_NSD$
 18	Jerman	jerman	PROPN	NSD	_	17	nmod	_	Morf=^jerman<n>_NSD$
@@ -14469,19 +14469,19 @@
 # sent_id = dev-s534
 # text = kemampuan ini pertama kali ia tunjukkan saat menghajar Ultros di pegunungan Crescent.
 # text_en = This ability was first shown when he beat Ultros in the Crescent Mountains.
-1	kemampuan	mampu	NOUN	NSD	Number=Sing	6	nsubj	_	Morf=^ke+mampu<a>+an_NSD$
+1	kemampuan	mampu	NOUN	NSD	Number=Sing	0	root	_	Morf=^ke+mampu<a>+an_NSD$
 2	ini	ini	DET	B--	PronType=Dem	1	det	_	Morf=^ini<b>_B--$
 3	pertama	pertama	ADJ	CO-	NumType=Ord	4	amod	_	Morf=^pertama<c>_CO-$
 4	kali	kali	NOUN	VSA	_	6	obl	_	Morf=^kali<v>_VSA$
 5	ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Morf=^ia<p>_PS3$
-6	tunjukkan	tunjuk	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^tunjuk<v>+kan_VSA$
+6	tunjukkan	tunjuk	VERB	VSA	Mood=Ind|Voice=Act	1	acl	_	Morf=^tunjuk<v>+kan_VSA$
 7	saat	saat	ADP	S--	_	8	case	_	Morf=^saat<s>_S--$
 8	menghajar	hajar	VERB	VSA	Mood=Ind|Voice=Act	6	xcomp	_	Morf=^meN+hajar<v>_VSA$
 9	Ultros	ultros	PROPN	X--	_	8	obj	_	Morf=^ultros<x>_X--$
 10	di	di	ADP	R--	_	11	case	_	Morf=^di<r>_R--$
 11	pegunungan	pegunungan	NOUN	NSD	Number=Sing	8	obl	_	Morf=^pegunungan<n>_NSD$
 12	Crescent	crescent	PROPN	X--	_	11	nmod	_	SpaceAfter=No|Morf=^crescent<x>_X--$
-13	.	.	PUNCT	Z--	_	6	punct	_	Morf=^.<z>_Z--$
+13	.	.	PUNCT	Z--	_	1	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = dev-s535
 # text = Kebanyakan orang Yahudi Polandia (sekitar 90 % dari populasi pra - perang) tewas selama Holocaust, sementara orang Kristen Polandia sebagian besar selamat dari pendudukan brutal Jerman.

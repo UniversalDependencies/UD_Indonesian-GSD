@@ -10405,7 +10405,7 @@
 100	.	.	PUNCT	Z--	_	91	punct	_	SpaceAfter=No|Morf=^.<z>_Z--$
 101	.	.	PUNCT	Z--	_	22	punct	_	SpaceAfter=No|Morf=^.<z>_Z--$
 102	.	.	PUNCT	Z--	_	22	punct	_	Morf=^.<z>_Z--$
-103	Web	web	NOUN	F--	_	155	nsubj	_	Morf=^web<f>_F--$
+103	Web	web	NOUN	F--	_	22	parataxis	_	Morf=^web<f>_F--$
 104	-	-	PUNCT	Z--	_	105	punct	_	Morf=^-<z>_Z--$
 105	site	site	NOUN	F--	_	103	appos	_	Morf=^site<f>_F--$
 106	untuk	untuk	ADP	R--	_	107	case	_	Morf=^untuk<r>_R--$
@@ -10457,12 +10457,12 @@
 152	hal	hal	NOUN	NSD	Number=Sing	149	obj	_	SpaceAfter=No|Morf=^hal<n>_NSD$
 153	:	:	PUNCT	Z--	_	149	punct	_	Morf=^:<z>_Z--$
 154	ialah	ialah	AUX	O--	_	155	cop	_	Morf=^ialah<o>_O--$
-155	Tuhan	tuhan	NOUN	NSD	Number=Sing	22	dep	_	Morf=^tuhan<n>_NSD$
+155	Tuhan	tuhan	NOUN	NSD	Number=Sing	22	parataxis	_	Morf=^tuhan<n>_NSD$
 156	Pencipta	pencipta	PROPN	NSD	_	155	nmod	_	SpaceAfter=No|Morf=^peN+cipta<v>_NSD$
 157	,	,	PUNCT	Z--	_	160	punct	_	Morf=^,<z>_Z--$
 158	Ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	160	nsubj	_	Morf=^ia<p>_PS3$
 159	selalu	selalu	ADV	D--	_	160	advmod	_	Morf=^selalu<d>_D--$
-160	benar	benar	ADJ	ASP	_	155	amod	_	SpaceAfter=No|Morf=^benar<a>_ASP$
+160	benar	benar	ADJ	ASP	_	155	acl	_	SpaceAfter=No|Morf=^benar<a>_ASP$
 161	.	.	PUNCT	Z--	_	155	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = test-s414
