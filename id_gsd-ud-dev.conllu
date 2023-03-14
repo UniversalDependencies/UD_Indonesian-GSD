@@ -2012,7 +2012,7 @@
 22	pada	pada	ADP	R--	_	23	case	_	Morf=^pada<r>_R--$
 23	pangkal	pangkal	NOUN	NSD	Number=Sing	21	obl	_	Morf=^pangkal<n>_NSD$
 24	3	3	NUM	CC-	NumType=Card	23	nummod	_	Morf=^3<c>_CC-$
-25	'	'	PUNCT	_	_	28	punct	_	SpaceAfter=No
+25	'	'	PUNCT	Z--	_	28	punct	_	SpaceAfter=No
 26	pre	pre	NOUN	F--	_	28	amod	_	Morf=^pre<f>_F--$
 27	-	-	PUNCT	Z--	_	26	punct	_	Morf=^-<z>_Z--$
 28	mRNA	mrna	PROPN	F--	_	23	nmod	_	SpaceAfter=No|Morf=^mrna<f>_F--$
@@ -2914,7 +2914,7 @@
 13	thawaf	thawaf	NOUN	X--	_	10	obl	_	SpaceAfter=No|Morf=^thawaf<x>_X--$
 14	,	,	PUNCT	Z--	_	15	punct	_	Morf=^,<z>_Z--$
 15	sa	sa	NOUN	F--	_	13	conj	_	Morf=^sa<f>_F--$
-16	'	'	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	'	'	PUNCT	Z--	_	17	punct	_	SpaceAfter=No
 17	i	i	NOUN	F--	_	15	compound	_	SpaceAfter=No|Morf=^i<f>_F--$
 18	,	,	PUNCT	Z--	_	19	punct	_	Morf=^,<z>_Z--$
 19	wukuf	wukuf	NOUN	X--	_	13	conj	_	SpaceAfter=No|Morf=^wukuf<x>_X--$
@@ -4761,10 +4761,10 @@
 3	pengalaman	pengalaman	NOUN	NSD	Number=Sing	2	compound	_	Morf=^pengalaman<n>_NSD$
 4	pemakaian	pakai	NOUN	NSD	Number=Sing	3	compound	_	Morf=^peN+pakai<v>+an_NSD$
 5	kata	kata	NOUN	NSD	Number=Sing	4	compound	_	Morf=^kata<n>_NSD$
-6	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	'	'	PUNCT	Z--	_	7	punct	_	SpaceAfter=No
 7	syariat	syariat	NOUN	X--	_	5	compound	_	Morf=^syariat<x>_X--$
 8	islam	islam	ADJ	NSD	_	7	amod	_	SpaceAfter=No|Morf=^islam<n>_NSD$
-9	'	'	PUNCT	_	_	7	punct	_	_
+9	'	'	PUNCT	Z--	_	7	punct	_	_
 10	pada	pada	ADP	R--	_	11	case	_	Morf=^pada<r>_R--$
 11	Piagam	piagam	PROPN	NSD	_	4	nmod	_	Morf=^piagam<n>_NSD$
 12	Jakarta	jakarta	PROPN	NSD	_	11	flat:name	_	SpaceAfter=No|Morf=^jakarta<n>_NSD$
@@ -6197,12 +6197,12 @@
 12	penyakit	sakit	NOUN	NSD	Number=Sing	14	nsubj:pass	_	Morf=^peN+sakit<n>_NSD$
 13	itu	itu	DET	B--	PronType=Dem	12	det	_	Morf=^itu<b>_B--$
 14	disebut	sebut	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	Morf=^di+sebut<v>_VSP$
-15	'	'	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	'	'	PUNCT	Z--	_	16	punct	_	SpaceAfter=No
 16	momok	momok	VERB	X--	_	14	obj	_	Morf=^momok<x>_X--$
 17	semua	semua	DET	B--	PronType=Tot	18	det	_	Morf=^semua<b>_B--$
 18	orang	orang	NOUN	NSD	Number=Sing	16	obl	_	Morf=^orang<n>_NSD$
 19	tua	tua	ADJ	ASP	_	18	amod	_	SpaceAfter=No|Morf=^tua<a>_ASP$
-20	'	'	PUNCT	_	_	16	punct	_	SpaceAfter=No
+20	'	'	PUNCT	Z--	_	16	punct	_	SpaceAfter=No
 21	,	,	PUNCT	Z--	_	23	punct	_	Morf=^,<z>_Z--$
 22	karena	karena	SCONJ	S--	_	23	mark	_	Morf=^karena<s>_S--$
 23	menjangkiti	jangkit	VERB	VSA	Mood=Ind|Voice=Act	14	advcl	_	Morf=^meN+jangkit<v>+i_VSA$
@@ -8971,7 +8971,7 @@
 1	Al	al	PROPN	F--	_	13	nsubj	_	Morf=^al<f>_F--$
 2	-	-	PUNCT	Z--	_	3	punct	_	Morf=^-<z>_Z--$
 3	Mu	mu	PROPN	F--	_	1	flat:name	_	Morf=^mu<f>_F--$
-4	'	'	PUNCT	_	_	5	punct	_	SpaceAfter=No
+4	'	'	PUNCT	Z--	_	5	punct	_	SpaceAfter=No
 5	aqqibat	aqqibat	NOUN	X--	_	1	compound	_	Morf=^aqqibat<x>_X--$
 6	(	(	PUNCT	Z--	_	7	punct	_	SpaceAfter=No|Morf=^(<z>_Z--$
 7	Arab	arab	PROPN	NSD	_	1	appos	_	SpaceAfter=No|Morf=^arab<n>_NSD$
@@ -11072,10 +11072,10 @@
 2	facebook	facebook	NOUN	F--	_	3	obl	_	Morf=^facebook<f>_F--$
 3	terdapat	dapat	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	Morf=^ter+dapat<v>_VSP$
 4	aplikasi	aplikasi	NOUN	NSD	Number=Sing	3	obj	_	Morf=^aplikasi<n>_NSD$
-5	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	'	'	PUNCT	Z--	_	6	punct	_	SpaceAfter=No
 6	Movie	movie	PROPN	X--	_	4	nmod	_	Morf=^movie<x>_X--$
 7	Theater	theater	PROPN	F--	_	6	flat:name	_	SpaceAfter=No|Morf=^theater<f>_F--$
-8	'	'	PUNCT	_	_	6	punct	_	_
+8	'	'	PUNCT	Z--	_	6	punct	_	_
 9	yang	yang	PRON	S--	PronType=Rel	10	nsubj	_	Morf=^yang<s>_S--$
 10	menghubungkan	hubung	VERB	VSA	Mood=Ind|Voice=Act	4	acl:relcl	_	Morf=^meN+hubung<v>+kan_VSA$
 11	facebook	facebook	NOUN	F--	_	10	obj	_	Morf=^facebook<f>_F--$
@@ -11703,7 +11703,7 @@
 2	Abbas	abbas	PROPN	F--	_	1	flat:name	_	Morf=^abbas<f>_F--$
 3	menjawab	jawab	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No|Morf=^meN+jawab<v>_VSA$
 4	,	,	PUNCT	Z--	_	9	punct	_	Morf=^,<z>_Z--$
-5	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+5	'	'	PUNCT	Z--	_	9	punct	_	SpaceAfter=No
 6	Agar	agar	SCONJ	S--	_	9	mark	_	Morf=^agar<s>_S--$
 7	beliau	beliau	PRON	PS3	Number=Sing|Person=3|Polite=Form|PronType=Prs	9	nsubj	_	Morf=^beliau<p>_PS3$
 8	tidak	tidak	PART	G--	Polarity=Neg	9	advmod	_	Morf=^tidak<g>_G--$
@@ -11712,7 +11712,7 @@
 10	umat	umat	NOUN	NSD	Number=Sing	9	obj	_	Morf=^umat<n>_NSD$
 11	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	Morf=^dia<p>_PS3$
 12	.	.	PUNCT	Z--	_	9	punct	_	SpaceAfter=No|Morf=^.<z>_Z--$
-13	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+13	'	'	PUNCT	Z--	_	9	punct	_	SpaceAfter=No
 14	"	"	PUNCT	Z--	_	9	punct	_	Morf=^"<z>_Z--$
 
 # sent_id = dev-s430
@@ -12003,10 +12003,10 @@
 21	satu	satu	NUM	CC-	NumType=Card	22	nummod	_	Morf=^satu<c>_CC-$
 22	bank	bank	NOUN	NSD	Number=Sing	19	obj	_	Morf=^bank<n>_NSD$
 23	Irlandia	irlandia	PROPN	NSD	_	22	nmod	_	Morf=^irlandia<n>_NSD$
-24	'	'	PUNCT	_	_	26	punct	_	SpaceAfter=No
+24	'	'	PUNCT	Z--	_	26	punct	_	SpaceAfter=No
 25	Empat	empat	NUM	CC-	NumType=Card	26	nummod	_	Morf=^empat<c>_CC-$
 26	Besar	besar	PROPN	ASP	_	23	flat:name	_	SpaceAfter=No|Morf=^besar<a>_ASP$
-27	'	'	PUNCT	_	_	26	punct	_	_
+27	'	'	PUNCT	Z--	_	26	punct	_	_
 28	tradisional	tradisional	ADJ	ASP	_	26	amod	_	SpaceAfter=No|Morf=^tradisional<a>_ASP$
 29	.	.	PUNCT	Z--	_	12	punct	_	Morf=^.<z>_Z--$
 
@@ -12198,10 +12198,10 @@
 29	dikenal	kenal	VERB	VSP	Mood=Ind|Voice=Pass	24	acl:relcl	_	Morf=^di+kenal<v>_VSP$
 30	dengan	dengan	ADP	R--	_	31	case	_	Morf=^dengan<r>_R--$
 31	nama	nama	NOUN	NSD	Number=Sing	29	obl	_	Morf=^nama<n>_NSD$
-32	'	'	PUNCT	_	_	33	punct	_	SpaceAfter=No
+32	'	'	PUNCT	Z--	_	33	punct	_	SpaceAfter=No
 33	Sarang	sarang	NOUN	NSD	Number=Sing	31	compound	_	Morf=^sarang<n>_NSD$
 34	Burung	burung	NOUN	NSD	Number=Sing	33	compound	_	SpaceAfter=No|Morf=^burung<n>_NSD$
-35	'	'	PUNCT	_	_	33	punct	_	_
+35	'	'	PUNCT	Z--	_	33	punct	_	_
 36	(	(	PUNCT	Z--	_	37	punct	_	SpaceAfter=No|Morf=^(<z>_Z--$
 37	en	en	PROPN	X--	_	33	appos	_	SpaceAfter=No|Morf=^en<x>_X--$
 38	:	:	PUNCT	Z--	_	39	punct	_	Morf=^:<z>_Z--$
@@ -12408,7 +12408,7 @@
 # text = Girls 'Generation juga menyanyikan lagu ini diberbagai acara musik seperti Inkigayo, Show!
 # text_en = Girls' Generation has also performed this song on various music shows such as Inkigayo, Show!
 1	Girls	girls	PROPN	X--	_	3	nmod	_	Morf=^girls<x>_X--$
-2	'	'	PUNCT	_	_	1	punct	_	SpaceAfter=No
+2	'	'	PUNCT	Z--	_	1	punct	_	SpaceAfter=No
 3	Generation	generation	PROPN	X--	_	5	nsubj	_	Morf=^generation<x>_X--$
 4	juga	juga	ADV	D--	_	5	advmod	_	Morf=^juga<d>_D--$
 5	menyanyikan	nyanyi	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+nyanyi<v>+kan_VSA$
@@ -13105,7 +13105,7 @@
 36	Al	al	PROPN	F--	_	33	appos	_	Morf=^al<f>_F--$
 37	-	-	PUNCT	Z--	_	38	punct	_	Morf=^-<z>_Z--$
 38	Ma	ma	PROPN	F--	_	36	flat:name	_	Morf=^ma<f>_F--$
-39	'	'	PUNCT	_	_	40	punct	_	SpaceAfter=No
+39	'	'	PUNCT	Z--	_	40	punct	_	SpaceAfter=No
 40	ruf	ruf	NOUN	X--	_	36	compound	_	Morf=^ruf<x>_X--$
 41	di	di	ADP	R--	_	42	case	_	Morf=^di<r>_R--$
 42	Cibubur	cibubur	PROPN	X--	_	33	nmod	_	SpaceAfter=No|Morf=^cibubur<x>_X--$
@@ -14310,7 +14310,7 @@
 7	Salafiyah	salafiyah	PROPN	X--	_	6	flat:name	_	Morf=^salafiyah<x>_X--$
 8	Bihaaru	bihaaru	PROPN	X--	_	7	flat:name	_	Morf=^bihaaru<x>_X--$
 9	Bahri	bahri	PROPN	X--	_	8	flat:name	_	Morf=^bahri<x>_X--$
-10	'	'	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	'	'	PUNCT	Z--	_	11	punct	_	SpaceAfter=No
 11	Asali	asali	PROPN	VSA	_	9	flat:name	_	Morf=^asal<n>+i_VSA$
 12	Fadlaailir	fadlaailir	PROPN	X--	_	11	flat:name	_	Morf=^fadlaailir<x>_X--$
 13	Rahmah	rahmah	PROPN	X--	_	12	flat:name	_	Morf=^rahmah<x>_X--$
@@ -14398,9 +14398,9 @@
 5	telah	telah	AUX	D--	_	6	aux	_	Morf=^telah<d>_D--$
 6	memiliki	milik	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+milik<v>+i_VSA$
 7	status	status	NOUN	NSD	Number=Sing	6	obj	_	Morf=^status<n>_NSD$
-8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	'	'	PUNCT	Z--	_	9	punct	_	SpaceAfter=No
 9	Terakreditasi	akreditasi	VERB	VSP	Mood=Ind|Voice=Pass	7	acl	_	SpaceAfter=No|Morf=^ter+akreditasi<n>_VSP$
-10	'	'	PUNCT	_	_	9	punct	_	_
+10	'	'	PUNCT	Z--	_	9	punct	_	_
 11	pada	pada	ADP	R--	_	12	case	_	Morf=^pada<r>_R--$
 12	Badan	badan	PROPN	NSD	_	6	obl	_	Morf=^badan<n>_NSD$
 13	Akreditasi	akreditasi	PROPN	NSD	_	12	flat:name	_	Morf=^akreditasi<n>_NSD$
@@ -14765,7 +14765,7 @@
 # text = Iye, wah foto kopian-ku, mau kalian lihat saya?
 # text_en = Yes, my photo copy, you want to see me?
 1	Iye	iye	X	X--	Foreign=Yes	4	nmod	_	SpaceAfter=No|Morf=^iye<x>_X--$
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	Z--	_	1	punct	_	_
 3	wah	wah	INTJ	I--	_	4	discourse	_	Morf=^wah<i>_I--$
 4	foto	foto	NOUN	NSD	Number=Sing	10	obl	_	Morf=^foto<n>_NSD$
 5-6	kopian-ku	_	_	_	_	_	_	_	Morf=^kopi<n>+an_NSD+aku<p>_PS1$|SpaceAfter=No
@@ -15028,7 +15028,7 @@
 # text_en = Tisha B 'Av (or, Tesha Be - Ab "The 9th of the month Ab") is a day of mourning for the Jews every year that falls on the 9th of the month Ab which is the 5th month of the Jewish calendar.
 1	Tisha	tisha	PROPN	X--	_	20	nsubj	_	Morf=^tisha<x>_X--$
 2	B	b	PROPN	F--	_	1	flat:name	_	Morf=^b<f>_F--$
-3	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	'	'	PUNCT	Z--	_	4	punct	_	SpaceAfter=No
 4	Av	av	PROPN	X--	_	1	appos	_	Morf=^av<x>_X--$
 5	(	(	PUNCT	Z--	_	6	punct	_	SpaceAfter=No|Morf=^(<z>_Z--$
 6	atau	atau	CCONJ	H--	_	4	appos	_	SpaceAfter=No|Morf=^atau<h>_H--$
