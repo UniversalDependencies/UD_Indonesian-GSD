@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Indonesian-GSD:
-commit e36e6eca1078c8ac680279f7bef5f777f526d88c
-Merge: b1e7281 7fd6961
+commit a12522b3c60aa5e6c95d2248f0d4589180d0dc45
+Merge: 6bebaef ba34ab7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 122019 of 122019 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60835354062463.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 149 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122019 words.
 Genres: found 2 out of 17 known.
-validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-dev.conllu
 *** PASSED ***
-validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-test.conllu
 *** PASSED ***
-validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.25) = 0.0192307692307692
