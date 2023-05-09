@@ -4228,7 +4228,7 @@
 2	Tuhan	tuhan	NOUN	NSD	Number=Sing	10	advcl	_	Morf=^tuhan<n>_NSD$
 3	itu	itu	DET	B--	PronType=Dem	2	det	_	Morf=^itu<b>_B--$
 4	fana	fana	ADJ	X--	_	2	amod	_	Morf=^fana<x>_X--$
-5	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	'	'	PUNCT	Z--	_	6	punct	_	SpaceAfter=No
 6	atau	atau	CCONJ	H--	_	7	cc	_	Morf=^atau<h>_H--$
 7	mati	mati	ADJ	ASP	_	4	conj	_	SpaceAfter=No|Morf=^mati<a>_ASP$
 8	,	,	PUNCT	Z--	_	2	punct	_	Morf=^,<z>_Z--$
@@ -5597,7 +5597,7 @@
 12	Sweet	sweet	PROPN	X--	_	13	amod	_	Morf=^sweet<x>_X--$
 13	Child	child	PROPN	F--	_	11	nmod	_	Morf=^child<f>_F--$
 14	O	o	PROPN	F--	_	13	flat:name	_	Morf=^o<f>_F--$
-15	'	'	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	'	'	PUNCT	Z--	_	16	punct	_	SpaceAfter=No
 16	Mine	mine	PROPN	X--	_	14	flat:name	_	SpaceAfter=No|Morf=^mine<x>_X--$
 17	,	,	PUNCT	Z--	_	18	punct	_	Morf=^,<z>_Z--$
 18	Paradise	paradise	PROPN	X--	_	13	conj	_	Morf=^paradise<x>_X--$
@@ -5618,7 +5618,7 @@
 33	beri	_	X	VSA	_	32	goeswith	_	Morf=^beri<v>_VSA$
 34	nama	nama	NOUN	NSD	Number=Sing	32	obl	_	Morf=^nama<n>_NSD$
 35	GN	gn	PROPN	X--	_	32	obl	_	SpaceAfter=No|Morf=^gn<x>_X--$
-36	'	'	PUNCT	_	_	35	punct	_	_
+36	'	'	PUNCT	Z--	_	35	punct	_	_
 37	R	r	PROPN	F--	_	35	flat:name	_	Morf=^r<f>_F--$
 38	Lies	lies	PROPN	X--	_	37	flat:name	_	Morf=^lies<x>_X--$
 39	dengan	dengan	ADP	R--	_	40	case	_	Morf=^dengan<r>_R--$
@@ -5651,7 +5651,7 @@
 66	fenomenal	fenomenal	ADJ	X--	_	65	amod	_	Morf=^fenomenal<x>_X--$
 67	seperti	seperti	ADP	R--	_	68	case	_	Morf=^seperti<r>_R--$
 68	Don	don	PROPN	F--	_	65	nmod	_	Morf=^don<f>_F--$
-69	'	'	PUNCT	_	_	70	punct	_	SpaceAfter=No
+69	'	'	PUNCT	Z--	_	70	punct	_	SpaceAfter=No
 70	t	t	PROPN	F--	_	68	conj	_	Morf=^t<f>_F--$
 71	Cry	cry	PROPN	X--	_	70	flat:name	_	SpaceAfter=No|Morf=^cry<x>_X--$
 72	,	,	PUNCT	Z--	_	73	punct	_	Morf=^,<z>_Z--$
@@ -5662,7 +5662,7 @@
 77	War	war	PROPN	F--	_	76	flat:name	_	SpaceAfter=No|Morf=^war<f>_F--$
 78	,	,	PUNCT	Z--	_	79	punct	_	Morf=^,<z>_Z--$
 79	Knockin	knockin	PROPN	X--	_	68	conj	_	SpaceAfter=No|Morf=^knockin<x>_X--$
-80	'	'	PUNCT	_	_	79	punct	_	_
+80	'	'	PUNCT	Z--	_	79	punct	_	_
 81	on	on	PROPN	F--	_	79	flat:name	_	Morf=^on<f>_F--$
 82	Heaven's	_	PROPN	_	_	81	flat:name	_	_
 83	Door	door	PROPN	X--	_	82	flat:name	_	SpaceAfter=No|Morf=^door<x>_X--$
@@ -7210,11 +7210,11 @@
 23	dalam	dalam	ADP	R--	_	24	case	_	Morf=^dalam<r>_R--$
 24	cerita-cerita	cerita	NOUN	NSD	Number=Plur	22	obl	_	Morf=^cerita<n>_NSD$
 25	singkat	singkat	ADJ	ASP	_	24	amod	_	Morf=^singkat<a>_ASP$
-26	'	'	PUNCT	_	_	27	punct	_	SpaceAfter=No
+26	'	'	PUNCT	Z--	_	27	punct	_	SpaceAfter=No
 27	Four	four	PROPN	F--	_	24	appos	_	Morf=^four<f>_F--$
 28	Million	million	PROPN	F--	_	27	flat:name	_	SpaceAfter=No|Morf=^million<f>_F--$
 29	.	.	PUNCT	Z--	_	27	punct	_	SpaceAfter=No|Morf=^.<z>_Z--$
-30	'	'	PUNCT	_	_	27	punct	_	SpaceAfter=No
+30	'	'	PUNCT	Z--	_	27	punct	_	SpaceAfter=No
 31	"	"	PUNCT	Z--	_	22	punct	_	Morf=^"<z>_Z--$
 
 # sent_id = test-s292
@@ -7300,9 +7300,9 @@
 15	saat	saat	NOUN	S--	Number=Sing	14	obl	_	Morf=^saat<s>_S--$
 16	ini	ini	DET	B--	PronType=Dem	15	det	_	Morf=^ini<b>_B--$
 17	adalah	adalah	AUX	O--	_	19	cop	_	Morf=^adalah<o>_O--$
-18	'	'	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	'	'	PUNCT	Z--	_	19	punct	_	SpaceAfter=No
 19	Toko	toko	PROPN	NSD	_	9	advcl	_	SpaceAfter=No|Morf=^toko<n>_NSD$
-20	'	'	PUNCT	_	_	19	punct	_	_
+20	'	'	PUNCT	Z--	_	19	punct	_	_
 21	kepunyaan	punya	NOUN	NSD	Number=Sing	19	compound	_	Morf=^ke+punya<v>+an_NSD$
 22	Yūko	yūko	PROPN	X--	_	21	nmod	_	SpaceAfter=No|Morf=^yūko<x>_X--$
 23	.	.	PUNCT	Z--	_	9	punct	_	Morf=^.<z>_Z--$
@@ -9308,7 +9308,7 @@
 8	saudara-saudara	saudara	NOUN	NPD	Number=Plur	6	obl	_	Morf=^saudara<n>_NPD$
 9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	Morf=^dia<p>_PS3$
 10	,	,	PUNCT	Z--	_	12	punct	_	Morf=^,<z>_Z--$
-11	'	'	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	'	'	PUNCT	Z--	_	12	punct	_	SpaceAfter=No
 12	Apa	apa	PRON	W--	PronType=Int	6	parataxis	_	Morf=^apa<w>_W--$
 13	pendapat	dapat	NOUN	NSD	Number=Sing	12	acl	_	Morf=^peN+dapat<v>_NSD$
 14	kalian	kalian	PRON	PP2	Number=Plur|Person=2|Polite=Infm|PronType=Prs	13	nmod:poss	_	Morf=^kalian<p>_PP2$
@@ -10301,10 +10301,10 @@
 # sent_id = test-s413
 # text = 'SOLA GRACIA' ("dari Tuhan untuk kita, dan dari kita untuk Tuhan") Gereja Duta Injil memiliki pameo "Satu Duta Injil yang diberkati, bawa dua jiwa baru bagi Tuhan, Jadilah tiga Duta Injil Sejati, beribu - ribu malaikat diSurga bersorak sorai.." Dalam setiap acara reguler dan kebaktian, sangat ditekankan sikap jemaat sebagai Dua Injil yang sesungguhnya, dimana umat tersebut mampu membawa pesan keselamatan Tuhan dalam kesaksian dan sikap kehidupan sehari-hari tanpa harus berbicara, sehingga menjadi kitab terbuka bagi lingkungan dimanapun mereka berada... Web - site untuk jadwal kebaktian, updated info dan lain-lain Mal Ambasador, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Telp. (021) 5760617, 5760676 Fax. (021) 5760677 Umat Gereja Duta Injili percaya akan tiga hal: ialah Tuhan Pencipta, Ia selalu benar.
 # text_en = 'SOLA GRACIA' ("from God to us, and from us to God") The Evangelical Missionary Church has the slogan "One blessed Gospel Ambassador, bring two new souls to God, Be three True Gospel Ambassadors, thousands of angels in Heaven shout for joy .." In every regular event and service, the congregation's attitude is emphasized as the true Two Gospels, where the people are able to carry the message of God's salvation in their testimonies and attitudes of daily life without having to speak, so that it becomes an open book for the environment wherever they are. .. Web - site for the schedule of services, updated info and others Ambasador Mall, Lt. 5 Jl. Prof. Dr. Satrio - Kuningan, Jakarta Tel. (021) 5760617, 5760676 Fax. (021) 5760677 Evangelical Ambassadors believe in three things: that God is the Creator, He is always right.
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	'	'	PUNCT	Z--	_	2	punct	_	SpaceAfter=No
 2	SOLA	sola	PROPN	X--	_	22	parataxis	_	Morf=^sola<x>_X--$
 3	GRACIA	gracia	PROPN	X--	_	2	flat:name	_	SpaceAfter=No|Morf=^gracia<x>_X--$
-4	'	'	PUNCT	_	_	2	punct	_	_
+4	'	'	PUNCT	Z--	_	2	punct	_	_
 5	(	(	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|Morf=^(<z>_Z--$
 6	"	"	PUNCT	Z--	_	8	punct	_	SpaceAfter=No|Morf=^"<z>_Z--$
 7	dari	dari	ADP	R--	_	8	case	_	Morf=^dari<r>_R--$
