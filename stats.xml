@@ -11,15 +11,15 @@
     <test><sentences>557</sentences><tokens>11541</tokens><words>11756</words><fused>215</fused></test>
   </size>
   <lemmas unique="16415" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
-  <forms unique="19457" /><!-- ,, ., yang, dan, di, nya, pada, ini, dengan, dari, ), (, adalah, untuk, dalam -->
+  <forms unique="19458" /><!-- ,, ., yang, dan, di, nya, pada, ini, dengan, dari, ), (, adalah, untuk, dalam -->
   <fusions unique="1022" /><!-- apakah, ayahnya, dirinya, namanya, siapakah, akankah, penduduknya, anaknya, antaranya, keduanya, utamanya, artinya, pertamanya, ataupun, ibunya -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">4801</tag><!-- salah, pertama, besar, lain, baik, baru, lainnya, utama, kedua, sama -->
-    <tag name="ADP">11371</tag><!-- di, pada, dari, dengan, dalam, oleh, sebagai, untuk, ke, seperti -->
+    <tag name="ADP">11370</tag><!-- di, pada, dari, dengan, dalam, oleh, sebagai, untuk, ke, seperti -->
     <tag name="ADV">3528</tag><!-- juga, lebih, kemudian, hanya, bagaimana, masih, apa, sangat, banyak, pernah -->
     <tag name="AUX">2255</tag><!-- adalah, akan, dapat, telah, bisa, harus, sudah, ialah, mampu, mungkin -->
-    <tag name="CCONJ">3586</tag><!-- dan, atau, tetapi, serta, namun, maupun, baik, lain, sama, sedangkan -->
+    <tag name="CCONJ">3587</tag><!-- dan, atau, tetapi, serta, namun, maupun, baik, lain, sama, sedangkan -->
     <tag name="DET">3670</tag><!-- ini, itu, buah, tersebut, nya, orang, beberapa, para, berbagai, suatu -->
     <tag name="INTJ">5</tag><!-- hai, oh, sayang, silakan, wah -->
     <tag name="NOUN">26431</tag><!-- tahun, orang, desa, nama, kota, bagi, bahasa, perintah, wilayah, saat -->
@@ -71,8 +71,8 @@
   <deps unique="48">
     <dep name="acl">1198</dep>
     <dep name="acl:relcl">2729</dep>
-    <dep name="advcl">1356</dep>
-    <dep name="advmod">4222</dep>
+    <dep name="advcl">1357</dep>
+    <dep name="advmod">4223</dep>
     <dep name="advmod:emph">440</dep>
     <dep name="amod">4211</dep>
     <dep name="appos">2604</dep>
@@ -80,27 +80,27 @@
     <dep name="case">11119</dep>
     <dep name="case:adv">120</dep>
     <dep name="cc">3544</dep>
-    <dep name="cc:preconj">7</dep>
+    <dep name="cc:preconj">8</dep>
     <dep name="ccomp">441</dep>
     <dep name="clf">11</dep>
-    <dep name="compound">7279</dep>
+    <dep name="compound">7280</dep>
     <dep name="compound:a">9</dep>
-    <dep name="conj">4946</dep>
+    <dep name="conj">4947</dep>
     <dep name="cop">1055</dep>
     <dep name="csubj">29</dep>
     <dep name="csubj:pass">7</dep>
     <dep name="dep">507</dep>
     <dep name="det">3676</dep>
     <dep name="discourse">8</dep>
-    <dep name="fixed">306</dep>
+    <dep name="fixed">295</dep>
     <dep name="flat">387</dep>
     <dep name="flat:foreign">46</dep>
-    <dep name="flat:name">8078</dep>
+    <dep name="flat:name">8080</dep>
     <dep name="goeswith">20</dep>
     <dep name="iobj">20</dep>
     <dep name="list">13</dep>
     <dep name="mark">2167</dep>
-    <dep name="nmod">8101</dep>
+    <dep name="nmod">8103</dep>
     <dep name="nmod:lmod">57</dep>
     <dep name="nmod:poss">1441</dep>
     <dep name="nmod:tmod">113</dep>
@@ -108,7 +108,7 @@
     <dep name="nsubj:pass">2214</dep>
     <dep name="nummod">3833</dep>
     <dep name="obj">5866</dep>
-    <dep name="obl">6033</dep>
+    <dep name="obl">6035</dep>
     <dep name="obl:agent">65</dep>
     <dep name="obl:tmod">660</dep>
     <dep name="orphan">2</dep>

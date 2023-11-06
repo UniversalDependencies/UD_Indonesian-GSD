@@ -8086,7 +8086,7 @@
 9	?	?	PUNCT	Z--	_	5	punct	_	Morf=^?<z>_Z--$
 
 # sent_id = test-s325
-# text = Ia mendesak ke arah Pyongyang dan Sugok - seong pada tahun 371, membunuh raja Goguryeo, Gogugwon di medan perang.
+# text = Ia mendesak ke arah Pyongyang dan Sugok-seong pada tahun 371, membunuh raja Goguryeo, Gogugwon di medan perang.
 # text_en = He pushed towards Pyongyang and Sugok-seong in 371, killing the king of Goguryeo, Gogugwon on the battlefield.
 1	Ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Morf=^ia<p>_PS3$
 2	mendesak	desak	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+desak<v>_VSA$
@@ -8094,9 +8094,9 @@
 4	arah	arah	NOUN	NSD	Number=Sing	2	obl	_	Morf=^arah<n>_NSD$
 5	Pyongyang	pyongyang	PROPN	F--	_	4	nmod	_	Morf=^pyongyang<f>_F--$
 6	dan	dan	CCONJ	H--	_	7	cc	_	Morf=^dan<h>_H--$
-7	Sugok	sugok	PROPN	X--	_	5	conj	_	Morf=^sugok<x>_X--$
-8	-	-	PUNCT	Z--	_	9	punct	_	Morf=^-<z>_Z--$
-9	seong	seong	PROPN	X--	_	7	fixed	_	Morf=^seong<x>_X--$
+7	Sugok	sugok	PROPN	X--	_	5	conj	_	SpaceAfter=No|Morf=^sugok<x>_X--$
+8	-	-	PUNCT	Z--	_	9	punct	_	SpaceAfter=No|Morf=^-<z>_Z--$
+9	seong	seong	PROPN	X--	_	7	flat:name	_	Morf=^seong<x>_X--$
 10	pada	pada	ADP	R--	_	11	case	_	Morf=^pada<r>_R--$
 11	tahun	tahun	NOUN	NSD	Number=Sing	2	obl:tmod	_	Morf=^tahun<n>_NSD$
 12	371	371	NUM	CC-	NumType=Card	11	nummod	_	SpaceAfter=No|Morf=^371<c>_CC-$
@@ -13296,11 +13296,11 @@
 19	.	.	PUNCT	Z--	_	5	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = test-s526
-# text = Porto - Novo (juga dikenal sebagai Hogbonou dan Adjacé) adalah ibukota sekaligus kota terbesar kedua di negara Benin, Afrika Barat.
-# text_en = Porto - Novo (also known as Hogbonou and Adjacé) is the capital and second largest city in the West African nation of Benin.
-1	Porto	porto	PROPN	F--	_	13	nsubj	_	Morf=^porto<f>_F--$
-2	-	-	PUNCT	Z--	_	3	punct	_	Morf=^-<z>_Z--$
-3	Novo	novo	PROPN	F--	_	1	fixed	_	Morf=^novo<f>_F--$
+# text = Porto-Novo (juga dikenal sebagai Hogbonou dan Adjacé) adalah ibukota sekaligus kota terbesar kedua di negara Benin, Afrika Barat.
+# text_en = Porto-Novo (also known as Hogbonou and Adjacé) is the capital and second largest city in the West African nation of Benin.
+1	Porto	porto	PROPN	F--	_	13	nsubj	_	SpaceAfter=No|Morf=^porto<f>_F--$
+2	-	-	PUNCT	Z--	_	3	punct	_	SpaceAfter=No|Morf=^-<z>_Z--$
+3	Novo	novo	PROPN	F--	_	1	flat:name	_	Morf=^novo<f>_F--$
 4	(	(	PUNCT	Z--	_	6	punct	_	SpaceAfter=No|Morf=^(<z>_Z--$
 5	juga	juga	ADV	D--	_	6	advmod	_	Morf=^juga<d>_D--$
 6	dikenal	kenal	VERB	VSP	Mood=Ind|Voice=Pass	1	appos	_	Morf=^di+kenal<v>_VSP$
