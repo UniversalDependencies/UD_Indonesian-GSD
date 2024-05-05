@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Indonesian-GSD:
-commit 7c4ffbb4e1a4ad7759c8b7ea098e4d75895a11ea
-Merge: 28e04d5 b098095
+commit f39fa90d352a934f49e39000366f544fc11ce822
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 12:12:00 2023 +0100
 Size: counted 122019 of 122019 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60835354062463.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -29,6 +29,18 @@ Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-train.conllu
+[Line 40084 Sent train-s1547 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40085 Sent train-s1547 Node 26]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40086 Sent train-s1547 Node 27]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40088 Sent train-s1547 Node 29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40089 Sent train-s1547 Node 30]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 34
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.25) = 0.0192307692307692
