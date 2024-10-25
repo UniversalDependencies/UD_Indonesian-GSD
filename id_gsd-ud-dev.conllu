@@ -3153,8 +3153,8 @@
 51	pembaruan	baru	NOUN	NSD	Number=Sing	50	compound	_	Morf=^peN+baru<a>+an_NSD$
 52	Aeroplan	aeroplan	PROPN	X--	_	50	nmod	_	Morf=^aeroplan<x>_X--$
 53	2007	2007	NUM	CC-	NumType=Card	52	nummod	_	Morf=^2007<c>_CC-$
-54	seperti	seperti	ADP	R--	_	50	case	_	Morf=^seperti<r>_R--$
-55	ini	ini	DET	B--	PronType=Dem	50	det	_	SpaceAfter=No|Morf=^ini<b>_B--$
+54	seperti	seperti	ADP	R--	_	55	case	_	Morf=^seperti<r>_R--$
+55	ini	ini	PRON	B--	PronType=Dem	50	nmod	_	SpaceAfter=No|Morf=^ini<b>_B--$
 56	:	:	PUNCT	Z--	_	57	punct	_	Morf=^:<z>_Z--$
 57	Tango	tango	PROPN	F--	_	55	nsubj	_	Morf=^tango<f>_F--$
 58	(	(	PUNCT	Z--	_	59	punct	_	SpaceAfter=No|Morf=^(<z>_Z--$
@@ -14508,7 +14508,7 @@
 20	orang	orang	NOUN	NSD	Number=Sing	25	nsubj	_	Morf=^orang<n>_NSD$
 21	Kristen	kristen	PROPN	NSD	_	20	amod	_	Morf=^kristen<n>_NSD$
 22	Polandia	polandia	PROPN	NSD	_	21	amod	_	Morf=^polandia<n>_NSD$
-23	sebagian	sebagian	DET	ASP	PronType=Ind	20	det	_	Morf=^sebagian<a>_ASP$
+23	sebagian	sebagian	NOUN	NSD	Number=Sing	20	nmod	_	Morf=^sebagian<a>_ASP$
 24	besar	besar	ADJ	ASP	_	23	amod	_	Morf=^besar<a>_ASP$
 25	selamat	selamat	VERB	ASP	_	15	advcl	_	Morf=^selamat<a>_ASP$
 26	dari	dari	ADP	R--	_	27	case	_	Morf=^dari<r>_R--$

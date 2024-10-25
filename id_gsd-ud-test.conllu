@@ -5923,7 +5923,7 @@
 7	mengumumkan	umum	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+umum<a>+kan_VSA$
 8	pengunduran	undur	NOUN	NSD	Number=Sing	7	obj	_	Morf=^peN+undur<v>+an_NSD$
 9-10	dirinya	_	_	_	_	_	_	_	Morf=^diri<n>_NSD+dia<p>_PS3$
-9	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	8	det	_	Morf=^diri<n>_NSD$
+9	diri	diri	PRON	NSD	PronType=Prs|Reflex=Yes	8	nmod	_	Morf=^diri<n>_NSD$
 10	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	Morf=^dia<p>_PS3$
 11	dari	dari	ADP	R--	_	12	case	_	Morf=^dari<r>_R--$
 12	tim	tim	NOUN	NSD	Number=Sing	8	nmod	_	SpaceAfter=No|Morf=^tim<n>_NSD$
@@ -12733,7 +12733,7 @@
 2	vektor	vektor	NOUN	NSD	Number=Sing	8	nsubj	_	Morf=^vektor<n>_NSD$
 3	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	Morf=^yang<s>_S--$
 4	tidak	tidak	PART	G--	Polarity=Neg	5	advmod	_	Morf=^tidak<g>_G--$
-5	memenuhi	penuh	VERB	VSA	Mood=Ind|Voice=Act	1	acl:relcl	_	Morf=^meN+penuh<a>+i_VSA$
+5	memenuhi	penuh	VERB	VSA	Mood=Ind|Voice=Act	2	acl:relcl	_	Morf=^meN+penuh<a>+i_VSA$
 6	syarat	syarat	NOUN	NSD	Number=Sing	5	obj	_	Morf=^syarat<n>_NSD$
 7	ini	ini	DET	B--	PronType=Dem	6	det	_	Morf=^ini<b>_B--$
 8	dinamakan	nama	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	Morf=^di+nama<n>+kan_VSP$
