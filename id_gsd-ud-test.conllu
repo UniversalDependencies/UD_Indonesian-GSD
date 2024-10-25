@@ -5897,7 +5897,7 @@
 8	dan	dan	CCONJ	H--	_	9	cc	_	Morf=^dan<h>_H--$
 9	1960-an	1960-an	NOUN	NSD	_	7	conj	_	Morf=^1960<c>_CC-+an<f>_F--$
 10	karena	karena	SCONJ	S--	_	19	mark	_	Morf=^karena<s>_S--$
-11	sebagian	sebagian	DET	ASP	PronType=Ind	12	det	_	Morf=^sebagian<a>_ASP$
+11	sebagian	bagi	NOUN	NSD	Number=Sing	12	nmod	_	Morf=^sebagian<a>_ASP$
 12	kekuatan	kuat	NOUN	NSD	Number=Sing	19	nsubj:pass	_	Morf=^ke+kuat<a>+an_NSD$
 13	hukum	hukum	NOUN	NSD	Number=Sing	12	compound	_	Morf=^hukum<n>_NSD$
 14	dan	dan	CCONJ	H--	_	15	cc	_	Morf=^dan<h>_H--$
@@ -7086,7 +7086,7 @@
 # sent_id = test-s287
 # text = Sebagian besar pemeluk agama Buddha Korea di Amerika mengikuti mazhab Chogye.
 # text_en = Most Korean Buddhists in America follow the Chogye school.
-1	Sebagian	sebagian	NOUN	ASP	_	9	nsubj	_	Morf=^sebagian<a>_ASP$
+1	Sebagian	bagi	NOUN	NSD	Number=Sing	9	nsubj	_	Morf=^sebagian<a>_ASP$
 2	besar	besar	ADJ	ASP	_	1	amod	_	Morf=^besar<a>_ASP$
 3	pemeluk	peluk	NOUN	NSD	Number=Sing	1	compound	_	Morf=^peN+peluk<v>_NSD$
 4	agama	agama	NOUN	NSD	Number=Sing	3	compound	_	Morf=^agama<n>_NSD$
@@ -9190,8 +9190,8 @@
 19	dan	dan	CCONJ	H--	_	21	cc	_	Morf=^dan<h>_H--$
 20	telah	telah	AUX	D--	_	21	aux	_	Morf=^telah<d>_D--$
 21	menghabiskan	habis	VERB	VSA	Mood=Ind|Voice=Act	15	conj	_	Morf=^meN+habis<a>+kan_VSA$
-22	sebagian	sebagian	NOUN	ASP	Number=Sing	21	obj	_	Morf=^sebagian<a>_ASP$
-23	besar	besar	ADJ	ASP	_	24	amod	_	Morf=^besar<a>_ASP$
+22	sebagian	bagi	NOUN	NSD	Number=Sing	21	obj	_	Morf=^sebagian<a>_ASP$
+23	besar	besar	ADJ	ASP	_	22	amod	_	Morf=^besar<a>_ASP$
 24	sejarah	sejarah	NOUN	NSD	Number=Sing	22	nmod	_	Morf=^sejarah<n>_NSD$
 25	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	24	nmod:poss	_	Morf=^mereka<p>_PP3$
 26	terpental	pental	VERB	X--	Mood=Ind|Voice=Pass	21	advcl	_	Morf=^terpental<x>_X--$
@@ -10163,7 +10163,7 @@
 # text = Bagi sebagian orang, Israel, Uni Eropa, atau Perserikatan Bangsa-Bangsa dipandang sebagai pemain-pemain utama yang peranannya telah diramalkan dalam Kitab Suci. Di antara para penulis pra - milenial dispensasional, ada orang-orang yang percaya bahwa orang Kristen secara adikodrati akan dikumpulkan ke surga oleh Yesus dalam suatu peristiwa yang disebut Pengangkatan, yang terjadi sebelum “Penderitaan Besar” yang dinubuatkan dalam Matius 24 - 25; Markus 13 dan Lukas 21.
 # text_en = For some, Israel, the European Union, or the United Nations are seen as the main players whose roles have been foretold in the Scriptures. Among the dispensational pre-millennial writers, there are those who believe that Christians will be supernaturally gathered into heaven by Jesus in an event called the Rapture, which takes place before the “Great Tribulation” prophesied in Matthew 24-25; Mark 13 and Luke 21.
 1	Bagi	bagi	ADP	VSA	_	3	case	_	Morf=^bagi<v>_VSA$
-2	sebagian	sebagian	DET	ASP	PronType=Ind	3	det	_	Morf=^sebagian<a>_ASP$
+2	sebagian	bagi	NOUN	NSD	Number=Sing	3	nmod	_	Morf=^sebagian<a>_ASP$
 3	orang	orang	NOUN	NSD	Number=Sing	13	obl	_	SpaceAfter=No|Morf=^orang<n>_NSD$
 4	,	,	PUNCT	Z--	_	5	punct	_	Morf=^,<z>_Z--$
 5	Israel	israel	PROPN	NSD	_	3	appos	_	SpaceAfter=No|Morf=^israel<n>_NSD$
@@ -12171,7 +12171,7 @@
 # sent_id = test-s483
 # text = Sebagian besar dari teks-teks ini ditulis setelah abad ke-11.
 # text_en = Most of these texts were written after the 11th century.
-1	Sebagian	sebagian	NOUN	ASP	_	6	nsubj:pass	_	Morf=^sebagian<a>_ASP$
+1	Sebagian	bagi	NOUN	NSD	Number=Sing	6	nsubj:pass	_	Morf=^sebagian<a>_ASP$
 2	besar	besar	ADJ	ASP	_	1	amod	_	Morf=^besar<a>_ASP$
 3	dari	dari	ADP	R--	_	4	case	_	Morf=^dari<r>_R--$
 4	teks-teks	teks	NOUN	NSD	Number=Plur	1	nmod	_	Morf=^teks<n>_NSD$
@@ -14043,10 +14043,10 @@
 5	di	di	ADP	R--	_	6	case	_	Morf=^di<r>_R--$
 6	sana	sana	NOUN	NSD	Number=Sing	4	obl	_	SpaceAfter=No|Morf=^sana<n>_NSD$
 7	,	,	PUNCT	Z--	_	8	punct	_	Morf=^,<z>_Z--$
-8	sebagian	sebagian	DET	ASP	PronType=Ind	4	det	_	Morf=^sebagian<a>_ASP$
-9	lagi	lagi	ADV	D--	_	4	advmod	_	Morf=^lagi<d>_D--$
+8	sebagian	bagi	NOUN	NSD	Number=Sing	4	obl	_	Morf=^sebagian<a>_ASP$
+9	lagi	lagi	ADV	D--	_	8	advmod	_	Morf=^lagi<d>_D--$
 10	di	di	ADP	R--	_	11	case	_	Morf=^di<r>_R--$
-11	Tanara	tanara	PROPN	X--	_	4	obl	_	SpaceAfter=No|Morf=^tanara<x>_X--$
+11	Tanara	tanara	PROPN	X--	_	8	nmod	_	SpaceAfter=No|Morf=^tanara<x>_X--$
 12	.	.	PUNCT	Z--	_	4	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = test-s552

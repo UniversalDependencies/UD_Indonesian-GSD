@@ -10,42 +10,42 @@
     <dev><sentences>559</sentences><tokens>12423</tokens><words>12661</words><fused>238</fused></dev>
     <test><sentences>557</sentences><tokens>11541</tokens><words>11756</words><fused>215</fused></test>
   </size>
-  <lemmas unique="16415" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
+  <lemmas unique="16416" /><!-- ,, ., yang, dan, di, dia, pada, ini, dari, dengan, ), (, adalah, untuk, dalam -->
   <forms unique="19458" /><!-- ,, ., yang, dan, di, nya, pada, ini, dengan, dari, ), (, adalah, untuk, dalam -->
   <fusions unique="1022" /><!-- apakah, ayahnya, dirinya, namanya, siapakah, akankah, penduduknya, anaknya, antaranya, keduanya, utamanya, artinya, pertamanya, ataupun, ibunya -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">4801</tag><!-- salah, pertama, besar, lain, baik, baru, lainnya, utama, kedua, sama -->
     <tag name="ADP">11370</tag><!-- di, pada, dari, dengan, dalam, oleh, sebagai, untuk, ke, seperti -->
-    <tag name="ADV">3528</tag><!-- juga, lebih, kemudian, hanya, bagaimana, masih, apa, sangat, banyak, pernah -->
+    <tag name="ADV">3527</tag><!-- juga, lebih, kemudian, hanya, bagaimana, masih, apa, sangat, banyak, pernah -->
     <tag name="AUX">2255</tag><!-- adalah, akan, dapat, telah, bisa, harus, sudah, ialah, mampu, mungkin -->
     <tag name="CCONJ">3587</tag><!-- dan, atau, tetapi, serta, namun, maupun, baik, lain, sama, sedangkan -->
-    <tag name="DET">3670</tag><!-- ini, itu, buah, tersebut, nya, orang, beberapa, para, berbagai, suatu -->
+    <tag name="DET">3618</tag><!-- ini, itu, buah, tersebut, nya, orang, beberapa, para, berbagai, suatu -->
     <tag name="INTJ">5</tag><!-- hai, oh, sayang, silakan, wah -->
-    <tag name="NOUN">26431</tag><!-- tahun, orang, desa, nama, kota, bagi, bahasa, perintah, wilayah, saat -->
+    <tag name="NOUN">26480</tag><!-- tahun, orang, desa, bagi, nama, kota, bahasa, perintah, wilayah, saat -->
     <tag name="NUM">4267</tag><!-- satu, dua, 1, 2, 3, tiga, 5, kedua, 2010, 4 -->
     <tag name="PART">1025</tag><!-- tidak, kah, lah, pun, bukan, tak, belum, jangan, ya, tiada -->
-    <tag name="PRON">6417</tag><!-- yang, dia, mereka, apa, aku, diri, kamu, kita, siapa, mana -->
-    <tag name="PROPN">22422</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, the, jepang -->
+    <tag name="PRON">6420</tag><!-- yang, dia, mereka, apa, aku, diri, kamu, kita, siapa, mana -->
+    <tag name="PROPN">22418</tag><!-- indonesia, kabupaten, kecamatan, jawa, provinsi, amerika, timur, barat, the, jepang -->
     <tag name="PUNCT">17407</tag><!-- ,, ., ), (, -, ", ?, :, ', / -->
     <tag name="SCONJ">2077</tag><!-- untuk, bahwa, dengan, karena, ketika, sehingga, maka, jika, setelah, sementara -->
     <tag name="SYM">153</tag><!-- %, =, °, #, +, $, ', ′, €, //www.anayasa.gen.tr/1961constitution-text.pdf -->
     <tag name="VERB">12471</tag><!-- jadi, ada, merupakan, milik, guna, dapat, kenal, mulai, buat, diri -->
-    <tag name="X">133</tag><!-- _, and, image, in, kok, loh, x, assistent, b, resident -->
+    <tag name="X">138</tag><!-- _, and, image, in, kok, loh, x, assistent, b, resident -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="31">
     <feat name="Abbr" value="Yes" upos="ADV,DET,NOUN,PART,PRON,PROPN">16</feat><!-- kan, yg, Dk, Dsn, Gimana, RT, RUU, RW, dkk, tsb -->
     <feat name="Clusivity" value="Ex" upos="PRON">27</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">66</feat><!-- kita -->
-    <feat name="Definite" value="Def" upos="DET">255</feat><!-- nya, sang, si, yang -->
+    <feat name="Definite" value="Def" upos="DET">254</feat><!-- nya, sang, si, yang -->
     <feat name="Definite" value="Ind" upos="DET">666</feat><!-- sebuah, seorang, suatu, seekor, Sauatu, sepucuk -->
     <feat name="Degree" value="Sup" upos="ADJ">215</feat><!-- terbesar, terbaik, terakhir, terkenal, tertinggi, terdekat, tertua, teratas, terbanyak, terbaru -->
-    <feat name="Foreign" value="Yes" upos="X">89</feat><!-- and, Image, in, kok, loh, x, assistent, b, resident, s -->
+    <feat name="Foreign" value="Yes" upos="X">115</feat><!-- and, Image, in, kok, loh, x, assistent, b, resident, s -->
     <feat name="Mood" value="Imp" upos="VERB">3</feat><!-- Amankan, Ijinkan, Sukseskan -->
     <feat name="Mood" value="Ind" upos="VERB">10752</feat><!-- menjadi, memiliki, terletak, digunakan, berada, menggunakan, dikenal, terjadi, membuat, disebut -->
-    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">1605</feat><!-- mereka, beberapa, para, berbagai, kita, banyak, orang-orang, kami, anak-anak, sejumlah -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">22902</feat><!-- nya, tahun, ia, orang, desa, nama, kota, bagian, bahasa, dia -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">1611</feat><!-- mereka, beberapa, para, berbagai, kita, banyak, orang-orang, kami, anak-anak, sejumlah -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">22957</feat><!-- nya, tahun, ia, orang, desa, nama, kota, bagian, bahasa, dia -->
     <feat name="NumType" value="Card" upos="NUM">4267</feat><!-- satu, dua, 1, 2, 3, tiga, 5, kedua, 2010, 4 -->
     <feat name="NumType" value="Ord" upos="ADJ">395</feat><!-- pertama, kedua, ketiga, keempat, ke-13, ke-11, ke-18, ke-19, ke-20, ke-4 -->
     <feat name="Person" value="1" upos="PRON">198</feat><!-- kita, ku, aku, kami, saya -->
@@ -54,14 +54,14 @@
     <feat name="Polarity" value="Neg" upos="PART">580</feat><!-- tidak, bukan, tak, belum, jangan, kan, tiada -->
     <feat name="Polite" value="Form" upos="PRON">53</feat><!-- beliau, saya, anda, Aku -->
     <feat name="Polite" value="Infm" upos="PRON">217</feat><!-- ku, kamu, mu, aku, engkau, kalian, kau -->
-    <feat name="PronType" value="Art" upos="DET">921</feat><!-- sebuah, nya, seorang, suatu, sang, si, seekor, yang, Sauatu, sepucuk -->
+    <feat name="PronType" value="Art" upos="DET">920</feat><!-- sebuah, nya, seorang, suatu, sang, si, seekor, yang, Sauatu, sepucuk -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">2030</feat><!-- ini, itu, tersebut, mana, demikian, begitu, tertentu, sini, berikut, sana -->
     <feat name="PronType" value="Emp" upos="DET">51</feat><!-- sendiri -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">703</feat><!-- beberapa, para, banyak, berbagai, sebagian, sejumlah, seseorang, sesuatu, kebanyakan, serangkaian -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">655</feat><!-- beberapa, para, banyak, berbagai, sejumlah, seseorang, sesuatu, kebanyakan, sekelompok, serangkaian -->
     <feat name="PronType" value="Int" upos="ADV,PRON">504</feat><!-- apa, bagaimana, siapa, mengapa, kenapa, dimana, mana, kapan, berapa, Kemana -->
     <feat name="PronType" value="Prs" upos="PRON">2904</feat><!-- nya, ia, mereka, dia, diri, kita, ku, kamu, aku, mu -->
     <feat name="PronType" value="Rel" upos="ADV,PRON">3069</feat><!-- yang, bagaimana, siapa, yg, berapa, mengapa, apa, kapan -->
-    <feat name="PronType" value="Tot" upos="ADV,DET,NUM,PRON">391</feat><!-- semua, kedua, setiap, seluruh, masing-masing, segala, keseluruhan, ketiga, per, keempat -->
+    <feat name="PronType" value="Tot" upos="ADV,DET,NUM,PRON">390</feat><!-- semua, kedua, setiap, seluruh, masing-masing, segala, keseluruhan, ketiga, per, keempat -->
     <feat name="Reflex" value="Yes" upos="PRON">85</feat><!-- diri -->
     <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PROPN,SCONJ,VERB,X">103</feat><!-- dimana, dibawah, di, diatas, didalam, diluar, 141an, 1960an, Co, Delapn -->
     <feat name="Voice" value="Act" upos="VERB">7404</feat><!-- menjadi, memiliki, berada, menggunakan, membuat, bermain, mulai, melakukan, kembali, berasal -->
@@ -72,9 +72,9 @@
     <dep name="acl">1198</dep>
     <dep name="acl:relcl">2729</dep>
     <dep name="advcl">1357</dep>
-    <dep name="advmod">4223</dep>
+    <dep name="advmod">4220</dep>
     <dep name="advmod:emph">440</dep>
-    <dep name="amod">4211</dep>
+    <dep name="amod">4210</dep>
     <dep name="appos">2604</dep>
     <dep name="aux">1182</dep>
     <dep name="case">11119</dep>
@@ -85,12 +85,12 @@
     <dep name="clf">11</dep>
     <dep name="compound">7280</dep>
     <dep name="compound:a">9</dep>
-    <dep name="conj">4947</dep>
+    <dep name="conj">4948</dep>
     <dep name="cop">1055</dep>
     <dep name="csubj">29</dep>
     <dep name="csubj:pass">7</dep>
     <dep name="dep">507</dep>
-    <dep name="det">3676</dep>
+    <dep name="det">3623</dep>
     <dep name="discourse">8</dep>
     <dep name="fixed">295</dep>
     <dep name="flat">387</dep>
@@ -100,15 +100,15 @@
     <dep name="iobj">20</dep>
     <dep name="list">13</dep>
     <dep name="mark">2167</dep>
-    <dep name="nmod">8103</dep>
+    <dep name="nmod">8153</dep>
     <dep name="nmod:lmod">57</dep>
     <dep name="nmod:poss">1441</dep>
     <dep name="nmod:tmod">113</dep>
     <dep name="nsubj">7091</dep>
     <dep name="nsubj:pass">2214</dep>
     <dep name="nummod">3833</dep>
-    <dep name="obj">5866</dep>
-    <dep name="obl">6035</dep>
+    <dep name="obj">5865</dep>
+    <dep name="obl">6042</dep>
     <dep name="obl:agent">65</dep>
     <dep name="obl:tmod">660</dep>
     <dep name="orphan">2</dep>

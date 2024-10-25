@@ -5183,7 +5183,7 @@
 58	Marfin	marfin	PROPN	X--	_	56	flat:name	_	Morf=^marfin<x>_X--$
 59	Bistäse	bistäse	PROPN	X--	_	58	flat:name	_	Morf=^bistäse<x>_X--$
 60	–	–	PUNCT	Z--	_	62	punct	_	Morf=^–<z>_Z--$
-61	sebagian	sebagian	DET	ASP	PronType=Ind	62	det	_	Morf=^sebagian<a>_ASP$
+61	sebagian	bagi	NOUN	NSD	Number=Sing	62	nmod	_	Morf=^sebagian<a>_ASP$
 62	kota	kota	NOUN	NSD	Number=Sing	56	appos	_	SpaceAfter=No|Morf=^kota<n>_NSD$
 63	,	,	PUNCT	Z--	_	65	punct	_	Morf=^,<z>_Z--$
 64	yang	yang	PRON	S--	PronType=Rel	65	nsubj:pass	_	Morf=^yang<s>_S--$
@@ -6373,7 +6373,7 @@
 38	organisasi	organisasi	NOUN	NSD	Number=Sing	36	obl	_	Morf=^organisasi<n>_NSD$
 39	politik	politik	NOUN	NSD	Number=Sing	38	compound	_	SpaceAfter=No|Morf=^politik<n>_NSD$
 40	,	,	PUNCT	Z--	_	44	punct	_	Morf=^,<z>_Z--$
-41	sebagian	sebagian	NOUN	ASP	_	44	nsubj:pass	_	Morf=^sebagian<a>_ASP$
+41	sebagian	bagi	NOUN	NSD	Number=Sing	44	nsubj:pass	_	Morf=^sebagian<a>_ASP$
 42-43	besarnya	_	_	_	_	_	_	_	Morf=^besar<a>_ASP+dia<p>_PS3$
 42	besar	besar	ADJ	ASP	_	41	amod	_	Morf=^besar<a>_ASP$
 43	nya	nya	DET	PS3	Definite=Def|PronType=Art	42	det	_	Morf=^dia<p>_PS3$
@@ -10233,9 +10233,9 @@
 1	Kambing	kambing	NOUN	NSD	Number=Sing	3	nsubj	_	Morf=^kambing<n>_NSD$
 2	betina	betina	ADJ	ASP	_	1	amod	_	Morf=^betina<a>_ASP$
 3	menghabiskan	habis	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+habis<a>+kan_VSA$
-4	sebagian	sebagian	DET	ASP	PronType=Ind	6	det	_	Morf=^sebagian<a>_ASP$
+4	sebagian	bagi	NOUN	NSD	Number=Sing	3	obl	_	Morf=^sebagian<a>_ASP$
 5	besar	besar	ADJ	ASP	_	6	amod	_	Morf=^besar<a>_ASP$
-6	kehidupan	hidup	NOUN	NSD	Number=Sing	3	obj	_	Morf=^ke+hidup<n>+an_NSD$
+6	kehidupan	hidup	NOUN	NSD	Number=Sing	4	nmod	_	Morf=^ke+hidup<n>+an_NSD$
 7	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	6	nmod:poss	_	Morf=^mereka<p>_PP3$
 8	dengan	dengan	ADP	R--	_	9	case	_	Morf=^dengan<r>_R--$
 9	anak-anak	anak	NOUN	NSD	Number=Plur	6	nmod	_	Morf=^anak<n>_NSD$
@@ -11136,7 +11136,7 @@
 1	Banjir	banjir	NOUN	NSD	Number=Sing	3	nsubj	_	Morf=^banjir<n>_NSD$
 2	juga	juga	ADV	D--	_	3	advmod	_	Morf=^juga<d>_D--$
 3	membuat	buat	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+buat<v>_VSA$
-4	sebagian	sebagian	DET	ASP	PronType=Ind	5	det	_	Morf=^sebagian<a>_ASP$
+4	sebagian	bagi	NOUN	NSD	Number=Sing	5	nmod	_	Morf=^sebagian<a>_ASP$
 5	jalur	jalur	NOUN	NSD	Number=Sing	3	obj	_	Morf=^jalur<n>_NSD$
 6	kereta	kereta	NOUN	NSD	Number=Sing	5	compound	_	Morf=^kereta<n>_NSD$
 7	api	api	NOUN	NSD	Number=Sing	6	compound	_	Morf=^api<n>_NSD$
@@ -12135,7 +12135,7 @@
 8	menggunakan	guna	VERB	VSA	Mood=Ind|Voice=Act	5	conj	_	Morf=^meN+guna<n>+kan_VSA$
 9	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	8	obj	_	Morf=^dia<p>_PS3$
 10	untuk	untuk	SCONJ	R--	_	12	mark	_	Morf=^untuk<r>_R--$
-11	sebagian	sebagian	NOUN	ASP	_	12	amod	_	Morf=^sebagian<a>_ASP$
+11	sebagian	bagi	NOUN	NSD	Number=Sing	12	amod	_	Morf=^sebagian<a>_ASP$
 12	membalikkan	balik	VERB	VSA	Mood=Ind|Voice=Act	8	xcomp	_	Morf=^meN+balik<v>+kan_VSA$
 13	kutukan	kutuk	NOUN	NSD	Number=Sing	12	obj	_	Morf=^kutuk<v>+an_NSD$
 14	peri	ri	NOUN	NSD	Number=Sing	13	compound	_	Morf=^peN+ri<n>_NSD$
@@ -14508,7 +14508,7 @@
 20	orang	orang	NOUN	NSD	Number=Sing	25	nsubj	_	Morf=^orang<n>_NSD$
 21	Kristen	kristen	PROPN	NSD	_	20	amod	_	Morf=^kristen<n>_NSD$
 22	Polandia	polandia	PROPN	NSD	_	21	amod	_	Morf=^polandia<n>_NSD$
-23	sebagian	sebagian	NOUN	NSD	Number=Sing	20	nmod	_	Morf=^sebagian<a>_ASP$
+23	sebagian	bagi	NOUN	NSD	Number=Sing	20	nmod	_	Morf=^sebagian<a>_ASP$
 24	besar	besar	ADJ	ASP	_	23	amod	_	Morf=^besar<a>_ASP$
 25	selamat	selamat	VERB	ASP	_	15	advcl	_	Morf=^selamat<a>_ASP$
 26	dari	dari	ADP	R--	_	27	case	_	Morf=^dari<r>_R--$
@@ -14984,8 +14984,8 @@
 20	Pakistan	pakistan	PROPN	F--	_	19	flat	_	SpaceAfter=No|Morf=^pakistan<f>_F--$
 21	,	,	PUNCT	Z--	_	25	punct	_	Morf=^,<z>_Z--$
 22	yang	yang	PRON	S--	PronType=Rel	25	nsubj	_	Morf=^yang<s>_S--$
-23	sebagian	sebagian	ADV	ASP	_	25	advmod	_	Morf=^sebagian<a>_ASP$
-24	besar	besar	ADJ	ASP	_	25	amod	_	Morf=^besar<a>_ASP$
+23	sebagian	bagi	NOUN	NSD	Number=Sing	22	nmod	_	Morf=^sebagian<a>_ASP$
+24	besar	besar	ADJ	ASP	_	23	amod	_	Morf=^besar<a>_ASP$
 25	berasal	asal	VERB	VSA	Mood=Ind|Voice=Act	19	acl	_	Morf=^ber+asal<n>_VSA$
 26	dari	dari	ADP	R--	_	27	case	_	Morf=^dari<r>_R--$
 27	Pakistan	pakistan	PROPN	F--	_	25	obl	_	Morf=^pakistan<f>_F--$
