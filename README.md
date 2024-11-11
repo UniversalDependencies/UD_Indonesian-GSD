@@ -25,6 +25,9 @@ The Indonesian-GSD treebank was originally converted from the content head versi
 
 
 # Changelog
+
+* 2024-10-25 v2.15
+  * Fixed errors and warnings.
 * 2023-05-15 v2.12
   * Punctuation gets XPOS tag Z-- even if MorphInd failed to tag it.
 * 2022-11-15 v2.11
