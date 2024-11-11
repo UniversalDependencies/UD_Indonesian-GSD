@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Indonesian-GSD:
-commit f39fa90d352a934f49e39000366f544fc11ce822
+commit 728e95af578a010a86f6f4d0d13b842bbc03f2ac
+Merge: 1b81eda 60d6214
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:12:00 2023 +0100
 Size: counted 122019 of 122019 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60835354062463.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 48115 out of 122019 total words have one or more features.
+Features: 48156 out of 122019 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL        149
-Udapi: found 149 bugs.
+               TOTAL        150
+Udapi: found 150 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122019 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-dev.conllu
@@ -29,18 +29,6 @@ Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-train.conllu
-[Line 40084 Sent train-s1547 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40085 Sent train-s1547 Node 26]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40086 Sent train-s1547 Node 27]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40088 Sent train-s1547 Node 29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40089 Sent train-s1547 Node 30]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40083 Sent train-s1547 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-...suppressing further errors regarding Warning
-Warnings: 34
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.25) = 0.0192307692307692
@@ -49,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.695475820478142) = 0.178327133455934
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.98778878699219) = 0.303935011382212
+(weight=0.307692307692308) * (score{udapi}=0.987706832542473) = 0.303909794628453
 (weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.733134510416394) * (availability=1) * (validity=1) = 0.733134510416394
+(TOTAL score=0.733109293662635) * (availability=1) * (validity=1) = 0.733109293662635
 STARS = 3.5
-UD_Indonesian-GSD	0.733134510416394	3.5
+UD_Indonesian-GSD	0.733109293662635	3.5
