@@ -413,7 +413,7 @@
 57	Kerajaan	kerajaan	PROPN	NSD	_	56	nmod	_	Morf=^ke+raja<n>+an_NSD$
 58	secara	secara	ADP	R--	_	59	case:adv	_	Morf=^secara<r>_R--$
 59	turun	turun	VERB	VSA	Mood=Ind|Voice=Act	56	acl	_	Morf=^turun<v>_VSA$
-60	temurun	temurun	VERB	ASP	_	59	fixed	_	Morf=^temurun<a>_ASP$
+60	temurun	temurun	VERB	ASP	_	59	compound	_	Morf=^temurun<a>_ASP$
 61	tetap	tetap	ADV	ASP	_	62	advmod	_	Morf=^tetap<a>_ASP$
 62	menjaga	jaga	VERB	VSA	Mood=Ind|Voice=Act	25	advcl	_	Morf=^meN+jaga<v>_VSA$
 63	beberapa	beberapa	DET	B--	PronType=Ind	64	det	_	Morf=^beberapa<b>_B--$
@@ -455,7 +455,7 @@
 # sent_id = test-s17
 # text = Sementara itu, seorang pelawak merayu seorang pembantu rumah tangga.
 # text_en = Meanwhile, a comedian seduces a housemaid.
-1	Sementara	sementara	ADV	D--	_	6	advmod	_	Morf=^sementara<d>_D--$
+1	Sementara	sementara	ADV	D--	ExtPos=ADV	6	advmod	_	Morf=^sementara<d>_D--$
 2	itu	itu	DET	B--	PronType=Dem	1	fixed	_	SpaceAfter=No|Morf=^itu<b>_B--$
 3	,	,	PUNCT	Z--	_	1	punct	_	Morf=^,<z>_Z--$
 4	seorang	orang	DET	B--	Definite=Ind|PronType=Art	5	det	_	Morf=^seorang<b>_B--$
@@ -463,8 +463,8 @@
 6	merayu	rayu	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+rayu<v>_VSA$
 7	seorang	orang	DET	B--	Definite=Ind|PronType=Art	8	det	_	Morf=^seorang<b>_B--$
 8	pembantu	bantu	NOUN	NSD	Number=Sing	6	obj	_	Morf=^peN+bantu<v>_NSD$
-9	rumah	rumah	NOUN	NSD	Number=Sing	8	compound	_	Morf=^rumah<n>_NSD$
-10	tangga	tangga	NOUN	NSD	Number=Sing	9	fixed	_	SpaceAfter=No|Morf=^tangga<n>_NSD$
+9	rumah	rumah	NOUN	NSD	Number=Sing	8	nmod	_	Morf=^rumah<n>_NSD$
+10	tangga	tangga	NOUN	NSD	Number=Sing	9	compound	_	SpaceAfter=No|Morf=^tangga<n>_NSD$
 11	.	.	PUNCT	Z--	_	6	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = test-s18
@@ -984,9 +984,9 @@
 4	pula	pula	ADV	D--	_	5	advmod	_	Morf=^pula<d>_D--$
 5	diberi	beri	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	Morf=^di+beri<v>_VSP$
 6	serta	serta	CCONJ	H--	_	7	cc	_	Morf=^serta<h>_H--$
-7	kolang	kolang	NOUN	X--	_	5	conj	_	Morf=^kolang<x>_X--$
-8	-	-	PUNCT	Z--	_	9	punct	_	Morf=^-<z>_Z--$
-9	kaling	kaling	NOUN	X--	_	7	fixed	_	SpaceAfter=No|Morf=^kaling<x>_X--$
+7	kolang	kolang	NOUN	X--	Typo=Yes	5	conj	_	Morf=^kolang<x>_X--$
+8	-	_	X	Z--	_	7	goeswith	_	Morf=^-<z>_Z--$
+9	kaling	_	X	X--	_	7	goeswith	_	SpaceAfter=No|Morf=^kaling<x>_X--$
 10	.	.	PUNCT	Z--	_	5	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = test-s38
@@ -1421,7 +1421,7 @@
 8	dan	dan	CCONJ	H--	_	9	cc	_	Morf=^dan<h>_H--$
 9	lawan	lawan	NOUN	VSA	_	7	conj	_	Morf=^lawan<v>_VSA$
 10	-	-	PUNCT	Z--	_	11	punct	_	Morf=^-<z>_Z--$
-11	fagosit	fagosit	NOUN	X--	_	9	fixed	_	Morf=^fagosit<x>_X--$
+11	fagosit	fagosit	X	X--	_	7	nmod	_	Morf=^fagosit<x>_X--$
 12	yang	yang	PRON	S--	PronType=Rel	13	nsubj:pass	_	Morf=^yang<s>_S--$
 13	terbunuh	bunuh	VERB	VSP	Mood=Ind|Voice=Pass	9	acl:relcl	_	Morf=^ter+bunuh<v>_VSP$
 14	dalam	dalam	ADP	R--	_	15	case	_	Morf=^dalam<r>_R--$
@@ -2108,7 +2108,7 @@
 # sent_id = test-s86
 # text = Akan tetapi, Grand Final Pentas Idola Cilik 2013 kali ini diselenggarakan di Studio 1 RCTI. Pada Bintang Grand Final Idola Cilik 2013 yang digelar sore hari Sabtu, 20 April 2013, Bagas akhirnya terpilih sebagai Juara Pertama Idola Cilik 2013 dan Difa menjadi Juara Kedua Idola Cilik 2013.
 # text_en = However, the Grand Final of the 2013 Little Idol Show was held at Studio 1 RCTI. In the 2013 Little Idola Grand Final Star which was held on Saturday, April 20 2013, Bagas was finally chosen as the First Winner of Little Idol 2013 and Difa became the Second Winner of Little Idol 2013.
-1	Akan	akan	AUX	M--	_	12	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
+1	Akan	akan	AUX	M--	ExtPos=ADV	12	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|Morf=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	Morf=^,<z>_Z--$
 4	Grand	grand	PROPN	F--	_	12	nsubj:pass	_	Morf=^grand<f>_F--$
@@ -2793,7 +2793,7 @@
 # sent_id = test-s108
 # text = Namun demikian, pada akhir-akhir ini budaya gotong royong hampir terkikis dengan masuknya budaya-budaya dari luar desa Padaherang dan kemajuan teknologi.
 # text_en = However, in recent times the culture of gotong royong has almost been eroded by the influx of cultures from outside the village of Padaherang and technological advances.
-1	Namun	namun	ADV	S--	_	11	advmod	_	Morf=^namun<s>_S--$
+1	Namun	namun	CCONJ	S--	ExtPos=ADV	11	advmod	_	Morf=^namun<s>_S--$
 2	demikian	demikian	PRON	S--	PronType=Dem	1	fixed	_	SpaceAfter=No|Morf=^demikian<s>_S--$
 3	,	,	PUNCT	Z--	_	11	punct	_	Morf=^,<z>_Z--$
 4	pada	pada	ADP	R--	_	5	case	_	Morf=^pada<r>_R--$
@@ -4547,7 +4547,7 @@
 15	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	14	obj	_	Morf=^mereka<p>_PP3$
 16	yang	yang	PRON	S--	PronType=Rel	17	nsubj	_	Morf=^yang<s>_S--$
 17	bertanggung	tanggung	VERB	VSA	Mood=Ind|Voice=Act	15	acl:relcl	_	Morf=^ber+tanggung<v>_VSA$
-18	jawab	jawab	VERB	VSA	Mood=Ind|Voice=Act	17	fixed	_	Morf=^jawab<v>_VSA$
+18	jawab	jawab	VERB	VSA	Mood=Ind|Voice=Act	17	compound	_	Morf=^jawab<v>_VSA$
 19	atas	atas	ADP	R--	_	20	case	_	Morf=^atas<r>_R--$
 20	pembunuhan	bunuh	NOUN	NSD	Number=Sing	17	obl	_	Morf=^peN+bunuh<v>+an_NSD$
 21	massal	massal	ADJ	NSD	_	20	amod	_	SpaceAfter=No|Morf=^massal<n>_NSD$
@@ -4602,9 +4602,9 @@
 13	memasuki	masuk	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+masuk<v>+i_VSA$
 14	Britania	britania	PROPN	X--	_	13	obj	_	Morf=^britania<x>_X--$
 15	secara	secara	ADP	R--	_	13	case:adv	_	Morf=^secara<r>_R--$
-16	bersama	bersama	ADV	VSA	_	13	advmod	_	Morf=^ber+sama<a>_VSA$
-17	-	-	PUNCT	Z--	_	18	punct	_	Morf=^-<z>_Z--$
-18	sama	sama	ADV	ASP	_	16	fixed	_	Morf=^sama<a>_ASP$
+16	bersama	bersama	ADV	VSA	Typo=Yes	13	advmod	_	Morf=^ber+sama<a>_VSA$
+17	-	_	X	Z--	_	16	goeswith	_	Morf=^-<z>_Z--$
+18	sama	_	X	ASP	_	16	goeswith	_	Morf=^sama<a>_ASP$
 19	sebagai	sebagai	ADP	R--	_	20	case	_	Morf=^sebagai<r>_R--$
 20	bagian	bagi	NOUN	NSD	Number=Sing	13	obl	_	Morf=^bagi<v>+an_NSD$
 21	dari	dari	ADP	R--	_	22	case	_	Morf=^dari<r>_R--$
@@ -4814,7 +4814,7 @@
 # sent_id = test-s191
 # text = Akan tetapi, pada waktu yang sama, Peter dari Torres, Giudice Cagliari dan saudara laki-laki Konstantinus, memberontak melawan warga Pisa dan mengusir mereka, bersekutu dengan Genoa melawan mereka dan melawan Peter dari Arborea.
 # text_en = However, at the same time, Peter of Torres, Giudice Cagliari and brother Constantine, revolted against the Pisans and expelled them, allied with Genoa against them and against Peter of Arborea.
-1	Akan	akan	AUX	M--	_	20	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
+1	Akan	akan	AUX	M--	ExtPos=ADV	20	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|Morf=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	20	punct	_	Morf=^,<z>_Z--$
 4	pada	pada	ADP	R--	_	5	case	_	Morf=^pada<r>_R--$
@@ -5030,7 +5030,7 @@
 15	Lynch	lynch	PROPN	F--	_	14	flat:name	_	Morf=^lynch<f>_F--$
 16	setelah	setelah	SCONJ	R--	_	17	mark	_	Morf=^setelah<r>_R--$
 17	diambil	ambil	VERB	VSP	Mood=Ind|Voice=Pass	3	advcl	_	Morf=^di+ambil<v>_VSP$
-18	alih	alih	VERB	VSA	Mood=Ind|Voice=Act	17	fixed	_	Morf=^alih<v>_VSA$
+18	alih	alih	VERB	VSA	Mood=Ind|Voice=Act	17	compound	_	Morf=^alih<v>_VSA$
 19	Bank	bank	PROPN	NSD	_	17	obj	_	Morf=^bank<n>_NSD$
 20	of	of	PROPN	F--	_	19	nmod	_	Morf=^of<f>_F--$
 21	America	america	PROPN	F--	_	20	flat:name	_	Morf=^america<f>_F--$
@@ -5181,9 +5181,9 @@
 9	selain	selain	ADV	ASP	_	10	advmod	_	Morf=^se+lain<a>_ASP$
 10	menceritakan	cerita	VERB	VSA	Mood=Ind|Voice=Act	3	conj	_	Morf=^meN+cerita<n>+kan_VSA$
 11	kisah	kisah	NOUN	NSD	Number=Sing	10	obj	_	Morf=^kisah<n>_NSD$
-12	asal	asal	NOUN	NSD	Number=Sing	11	compound	_	Morf=^asal<n>_NSD$
-13	-	-	PUNCT	Z--	_	14	punct	_	Morf=^-<z>_Z--$
-14	usul	usul	NOUN	VSA	_	12	fixed	_	Morf=^usul<v>_VSA$
+12	asal	asal	NOUN	NSD	Number=Sing|Typo=Yes	11	compound	_	Morf=^asal<n>_NSD$
+13	-	_	X	Z--	_	12	goeswith	_	Morf=^-<z>_Z--$
+14	usul	_	X	VSA	_	12	goeswith	_	Morf=^usul<v>_VSA$
 15	manusia	manusia	NOUN	NSD	Number=Sing	12	obj	_	SpaceAfter=No|Morf=^manusia<n>_NSD$
 16	,	,	PUNCT	Z--	_	18	punct	_	Morf=^,<z>_Z--$
 17	juga	juga	ADV	D--	_	18	advmod	_	Morf=^juga<d>_D--$
@@ -5516,9 +5516,9 @@
 31	pakaian	pakai	NOUN	NSD	Number=Sing	30	compound	_	SpaceAfter=No|Morf=^pakai<v>+an_NSD$
 32	,	,	PUNCT	Z--	_	33	punct	_	Morf=^,<z>_Z--$
 33	barang	barang	NOUN	NSD	Number=Sing	25	conj	_	Morf=^barang<n>_NSD$
-34	pecah	pecah	ADJ	VSA	_	33	amod	_	Morf=^pecah<v>_VSA$
-35	-	-	PUNCT	Z--	_	36	punct	_	Morf=^-<z>_Z--$
-36	belah	belah	ADJ	VSA	_	34	fixed	_	SpaceAfter=No|Morf=^belah<v>_VSA$
+34	pecah	pecah	ADJ	VSA	Typo=Yes	33	amod	_	Morf=^pecah<v>_VSA$
+35	-	_	X	Z--	_	34	goeswith	_	Morf=^-<z>_Z--$
+36	belah	_	X	VSA	_	34	goeswith	_	SpaceAfter=No|Morf=^belah<v>_VSA$
 37	,	,	PUNCT	Z--	_	38	punct	_	Morf=^,<z>_Z--$
 38	benda-benda	benda	NOUN	NSD	Number=Plur	25	conj	_	Morf=^benda<n>_NSD$
 39	kaca	kaca	NOUN	NSD	Number=Sing	38	compound	_	Morf=^kaca<n>_NSD$
@@ -5547,7 +5547,7 @@
 # sent_id = test-s219
 # text = Akan tetapi, Gelimer menolak.
 # text_en = However, Gelimer refused.
-1	Akan	akan	AUX	M--	_	5	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
+1	Akan	akan	AUX	M--	ExtPos=ADV	5	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|Morf=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	Morf=^,<z>_Z--$
 4	Gelimer	gelimer	PROPN	X--	_	5	nsubj	_	Morf=^gelimer<x>_X--$
@@ -6467,7 +6467,7 @@
 9	karena	karena	SCONJ	S--	_	11	mark	_	Morf=^karena<s>_S--$
 10	dia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Morf=^dia<p>_PS3$
 11	meninggal	tinggal	VERB	VSA	Mood=Ind|Voice=Act	4	advcl	_	Morf=^meN+tinggal<v>_VSA$
-12	dunia	dunia	VERB	NSD	_	11	fixed	_	Morf=^dunia<n>_NSD$
+12	dunia	dunia	VERB	NSD	_	11	obj	_	Morf=^dunia<n>_NSD$
 13	pada	pada	ADP	R--	_	14	case	_	Morf=^pada<r>_R--$
 14	usia	usia	NOUN	NSD	Number=Sing	11	obl	_	Morf=^usia<n>_NSD$
 15	muda	muda	ADJ	ASP	_	14	amod	_	SpaceAfter=No|Morf=^muda<a>_ASP$
@@ -6825,9 +6825,9 @@
 # sent_id = test-s276
 # text = Bersama - sama mereka bertiga disebut Rajo Tigo Selo, artinya tiga orang raja yang "bersila" atau bertahta.
 # text_en = Together the three of them are called Rajo Tigo Selo, meaning three kings who are "cross-legged" or on the throne.
-1	Bersama	sama	VERB	VSA	Mood=Ind|Voice=Act	6	advcl	_	Morf=^ber+sama<a>_VSA$
-2	-	-	PUNCT	Z--	_	3	punct	_	Morf=^-<z>_Z--$
-3	sama	sama	VERB	ASP	_	1	fixed	_	Morf=^sama<a>_ASP$
+1	Bersama	sama	VERB	VSA	Mood=Ind|Typo=Yes|Voice=Act	6	advcl	_	Morf=^ber+sama<a>_VSA$
+2	-	_	X	Z--	_	1	goeswith	_	Morf=^-<z>_Z--$
+3	sama	_	X	ASP	_	1	goeswith	_	Morf=^sama<a>_ASP$
 4	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	6	nsubj:pass	_	Morf=^mereka<p>_PP3$
 5	bertiga	tiga	VERB	CD-	_	4	amod	_	Morf=^ber+tiga<c>_CD-$
 6	disebut	sebut	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	Morf=^di+sebut<v>_VSP$
@@ -7014,7 +7014,7 @@
 3	berakhir	akhir	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^ber+akhir<n>_VSA$
 4	dengan	dengan	ADP	R--	_	5	case	_	Morf=^dengan<r>_R--$
 5	adegan	adegan	NOUN	NSD	Number=Sing	3	obl	_	Morf=^adegan<n>_NSD$
-6	di	di	ADP	R--	_	9	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
+6	di	di	ADP	R--	ExtPos=SCONJ	9	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
 7	mana	mana	PRON	W--	PronType=Int	6	fixed	_	Morf=^mana<w>_W--$
 8	semua	semua	PRON	B--	PronType=Tot	9	nsubj	_	Morf=^semua<b>_B--$
 9	berkumpul	kumpul	VERB	VSA	Mood=Ind|Voice=Act	3	advcl	_	Morf=^ber+kumpul<v>_VSA$
@@ -7398,9 +7398,9 @@
 6	energi	energi	NOUN	NSD	Number=Sing	4	obj	_	Morf=^energi<n>_NSD$
 7	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	Morf=^dia<p>_PS3$
 8	yang	yang	PRON	S--	PronType=Rel	9	nsubj	_	Morf=^yang<s>_S--$
-9	menyala	nyala	VERB	VSA	Mood=Ind|Voice=Act	6	acl:relcl	_	Morf=^meN+nyala<v>_VSA$
-10	-	-	PUNCT	Z--	_	11	punct	_	Morf=^-<z>_Z--$
-11	nyala	nyala	VERB	NSD	_	9	fixed	_	Morf=^nyala<n>_NSD$
+9	menyala	nyala	VERB	VSA	Mood=Ind|Typo=Yes|Voice=Act	6	acl:relcl	_	Morf=^meN+nyala<v>_VSA$
+10	-	_	X	Z--	_	9	goeswith	_	Morf=^-<z>_Z--$
+11	nyala	_	X	NSD	_	9	goeswith	_	Morf=^nyala<n>_NSD$
 12	dan	dan	CCONJ	H--	_	13	cc	_	Morf=^dan<h>_H--$
 13	gaya	gaya	NOUN	NSD	Number=Sing	6	conj	_	Morf=^gaya<n>_NSD$
 14	realisme	realisme	NOUN	X--	_	13	compound	_	Morf=^realisme<x>_X--$
@@ -7976,9 +7976,9 @@
 # sent_id = test-s320
 # text = Berturut - turut setelah itu ia menjabat sebagai Irpolda Sumut, Wakapolda Nusa Tenggara, Wakapolda Metro Jaya, Kapolda Metro Jaya clan kemudian Kapolri.
 # text_en = Successively after that he served as Irpolda of North Sumatra, Deputy Kapolda of Nusa Tenggara, Deputy Kapolda of Metro Jaya, Kapolda of Metro Jaya and later Chief of Police.
-1	Berturut	berturut	ADV	VSA	_	7	advmod	_	Morf=^ber+turut<v>_VSA$
-2	-	-	PUNCT	Z--	_	3	punct	_	Morf=^-<z>_Z--$
-3	turut	turut	ADV	VSA	_	1	fixed	_	Morf=^turut<v>_VSA$
+1	Berturut	berturut	ADV	VSA	Typo=Yes	7	advmod	_	Morf=^ber+turut<v>_VSA$
+2	-	_	X	Z--	_	1	goeswith	_	Morf=^-<z>_Z--$
+3	turut	_	X	VSA	_	1	goeswith	_	Morf=^turut<v>_VSA$
 4	setelah	setelah	ADP	R--	_	1	case	_	Morf=^setelah<r>_R--$
 5	itu	itu	DET	B--	PronType=Dem	1	det	_	Morf=^itu<b>_B--$
 6	ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Morf=^ia<p>_PS3$
@@ -8887,7 +8887,7 @@
 9	wanita	wanita	NOUN	NSD	Number=Sing	8	obj	_	Morf=^wanita<n>_NSD$
 10	tersebut	tersebut	DET	B--	PronType=Dem	9	det	_	SpaceAfter=No|Morf=^tersebut<b>_B--$
 11	,	,	PUNCT	Z--	_	17	punct	_	Morf=^,<z>_Z--$
-12	akan	akan	AUX	M--	_	17	cc	_	MWEPOS=CCONJ|Morf=^akan<m>_M--$
+12	akan	akan	AUX	M--	ExtPos=CCONJ	17	cc	_	MWEPOS=CCONJ|Morf=^akan<m>_M--$
 13	tetapi	tetapi	CCONJ	S--	_	12	fixed	_	Morf=^tetapi<s>_S--$
 14-15	usahanya	_	_	_	_	_	_	_	Morf=^usaha<n>_NSD+dia<p>_PS3$
 14	usaha	usaha	NOUN	NSD	Number=Sing	17	nsubj	_	Morf=^usaha<n>_NSD$
@@ -9052,7 +9052,7 @@
 19	(	(	PUNCT	Z--	_	20	punct	_	SpaceAfter=No|Morf=^(<z>_Z--$
 20	1042	1042	NUM	CC-	NumType=Card	18	appos	_	SpaceAfter=No|Morf=^1042<c>_CC-$
 21	)	)	PUNCT	Z--	_	20	punct	_	Morf=^)<z>_Z--$
-22	di	di	ADP	R--	_	25	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
+22	di	di	ADP	R--	ExtPos=SCONJ	25	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
 23	mana	mana	PRON	W--	PronType=Int	22	fixed	_	Morf=^mana<w>_W--$
 24	ia	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	Morf=^ia<p>_PS3$
 25	meninggalkan	tinggal	VERB	VSA	Mood=Ind|Voice=Act	16	ccomp	_	Morf=^meN+tinggal<v>+kan_VSA$
@@ -9204,7 +9204,7 @@
 33	Seri	seri	PROPN	ASP	_	29	conj	_	Morf=^seri<a>_ASP$
 34	A	a	PROPN	F--	_	33	flat:name	_	SpaceAfter=No|Morf=^a<f>_F--$
 35	,	,	PUNCT	Z--	_	40	punct	_	Morf=^,<z>_Z--$
-36	di	di	ADP	R--	_	40	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
+36	di	di	ADP	R--	ExtPos=SCONJ	40	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
 37	mana	mana	PRON	W--	PronType=Int	36	fixed	_	Morf=^mana<w>_W--$
 38	tim	tim	NOUN	NSD	Number=Sing	40	nsubj	_	Morf=^tim<n>_NSD$
 39	itu	itu	DET	B--	PronType=Dem	38	det	_	Morf=^itu<b>_B--$
@@ -9266,7 +9266,7 @@
 10	Sang	sang	PROPN	F--	_	11	nmod	_	Morf=^sang<f>_F--$
 11	Firaun	firaun	PROPN	NSD	_	9	nmod	_	SpaceAfter=No|Morf=^firaun<n>_NSD$
 12	,	,	PUNCT	Z--	_	26	punct	_	Morf=^,<z>_Z--$
-13	di	di	ADP	R--	_	26	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
+13	di	di	ADP	R--	ExtPos=SCONJ	26	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
 14	mana	mana	PRON	W--	PronType=Dem	13	fixed	_	Morf=^mana<w>_W--$
 15	dalam	dalam	ADP	R--	_	16	case	_	Morf=^dalam<r>_R--$
 16	pertemuan	temu	NOUN	NSD	Number=Sing	26	obl	_	Morf=^per+temu<n>+an_NSD$
@@ -9488,8 +9488,8 @@
 13	komuni	komuni	NOUN	X--	_	12	obj	_	Morf=^komuni<x>_X--$
 14	penuh	penuh	ADJ	ASP	_	13	amod	_	Morf=^penuh<a>_ASP$
 15	satu	satu	NOUN	CC-	_	13	nmod	_	Morf=^satu<c>_CC-$
-16	sama	sama	NOUN	ASP	_	15	fixed	_	Morf=^sama<a>_ASP$
-17	lain	lain	NOUN	ASP	_	15	fixed	_	SpaceAfter=No|Morf=^lain<a>_ASP$
+16	sama	sama	CCONJ	ASP	_	17	cc	_	Morf=^sama<a>_ASP$
+17	lain	lain	NOUN	ASP	_	15	conj	_	SpaceAfter=No|Morf=^lain<a>_ASP$
 18	.	.	PUNCT	Z--	_	4	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = test-s384
@@ -10113,7 +10113,7 @@
 5	,	,	PUNCT	Z--	_	2	punct	_	Morf=^,<z>_Z--$
 6	Prost	prost	PROPN	X--	_	7	nsubj	_	Morf=^prost<x>_X--$
 7	mengambil	ambil	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+ambil<v>_VSA$
-8	alih	alih	NOUN	VSA	_	7	fixed	_	Morf=^alih<v>_VSA$
+8	alih	alih	NOUN	VSA	_	7	compound	_	Morf=^alih<v>_VSA$
 9	posisi	posisi	NOUN	NSD	Number=Sing	7	obj	_	Morf=^posisi<n>_NSD$
 10	sebagai	sebagai	ADP	R--	_	11	case	_	Morf=^sebagai<r>_R--$
 11	pemimpin	pimpin	NOUN	NSD	Number=Sing	7	obl	_	Morf=^peN+pimpin<v>_NSD$
@@ -10346,9 +10346,9 @@
 42	Injil	injil	NOUN	NSD	Number=Sing	41	compound	_	Morf=^injil<n>_NSD$
 43	Sejati	sejati	ADJ	ASP	_	42	amod	_	SpaceAfter=No|Morf=^sejati<a>_ASP$
 44	,	,	PUNCT	Z--	_	50	punct	_	Morf=^,<z>_Z--$
-45	beribu	beribu	ADV	VSA	_	48	advmod	_	Morf=^ber+ibu<n>_VSA$
-46	-	-	PUNCT	Z--	_	47	punct	_	Morf=^-<z>_Z--$
-47	ribu	ribu	ADV	CC-	_	45	fixed	_	Morf=^ribu<c>_CC-$
+45	beribu	ribu	NUM	VSA	Typo=Yes	48	nummod	_	Morf=^ber+ibu<n>_VSA$
+46	-	_	X	Z--	_	45	goeswith	_	Morf=^-<z>_Z--$
+47	ribu	_	X	CC-	_	45	goeswith	_	Morf=^ribu<c>_CC-$
 48	malaikat	malaikat	NOUN	NSD	Number=Sing	50	nsubj	_	Morf=^malaikat<n>_NSD$
 49	diSurga	disurga	NOUN	VSP	_	48	obj	_	Morf=^di+surga<n>_VSP$
 50	bersorak	sorak	VERB	VSA	Mood=Ind|Voice=Act	38	parataxis	_	Morf=^ber+sorak<v>_VSA$
@@ -11096,7 +11096,7 @@
 # sent_id = test-s442
 # text = Demikian pula penumpang yang naik pada tahun 2004 menjadi 134.163 penumpang naik pada tahun 2005.
 # text_en = Similarly, passengers who rose in 2004 to 134,163 passengers rose in 2005.
-1	Demikian	demikian	ADV	S--	_	3	advmod	_	Morf=^demikian<s>_S--$
+1	Demikian	demikian	ADV	S--	ExtPos=ADV	3	advmod	_	Morf=^demikian<s>_S--$
 2	pula	pula	ADV	D--	_	1	fixed	_	Morf=^pula<d>_D--$
 3	penumpang	tumpang	NOUN	NSD	Number=Sing	9	nsubj	_	Morf=^peN+tumpang<v>_NSD$
 4	yang	yang	PRON	S--	PronType=Rel	5	nsubj	_	Morf=^yang<s>_S--$
@@ -12890,9 +12890,9 @@
 39	Negara	negara	NOUN	NSD	Number=Sing	38	compound	_	SpaceAfter=No|Morf=^negara<n>_NSD$
 40	,	,	PUNCT	Z--	_	41	punct	_	Morf=^,<z>_Z--$
 41	peraturan	atur	NOUN	NSD	Number=Sing	35	conj	_	Morf=^per+atur<v>+an_NSD$
-42	perundang	perundang	NOUN	X--	_	41	compound	_	Morf=^perundang<x>_X--$
-43	-	-	PUNCT	Z--	_	44	punct	_	Morf=^-<z>_Z--$
-44	undangan	undang	NOUN	NSD	Number=Sing	42	fixed	_	SpaceAfter=No|Morf=^undang<n>+an_NSD$
+42	perundang	perundang	NOUN	X--	Typo=Yes	41	nmod	_	Morf=^perundang<x>_X--$
+43	-	_	X	Z--	_	42	goeswith	_	Morf=^-<z>_Z--$
+44	undangan	_	X	NSD	_	42	goeswith	_	SpaceAfter=No|Morf=^undang<n>+an_NSD$
 45	,	,	PUNCT	Z--	_	46	punct	_	Morf=^,<z>_Z--$
 46	pidato	pidato	PROPN	NSD	_	35	conj	_	Morf=^pidato<n>_NSD$
 47	kenegaraan	negara	NOUN	NSD	Number=Sing	46	compound	_	Morf=^ke+negara<n>+an_NSD$
@@ -13020,7 +13020,7 @@
 # sent_id = test-s516
 # text = Akan tetapi Parlemen pihak Muslim Bosnia Herzegovina menolak rencana perjanjian tersebut.
 # text_en = However, the Muslim Parliament of Bosnia and Herzegovina rejected the proposed agreement.
-1	Akan	akan	AUX	M--	_	8	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
+1	Akan	akan	AUX	M--	ExtPos=ADV	8	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	Morf=^tetapi<s>_S--$
 3	Parlemen	parlemen	NOUN	NSD	Number=Sing	8	nsubj	_	Morf=^parlemen<n>_NSD$
 4	pihak	pihak	NOUN	NSD	Number=Sing	3	compound	_	Morf=^pihak<n>_NSD$
@@ -13576,7 +13576,7 @@
 11	kemudian	kemudian	ADV	S--	_	12	advmod	_	Morf=^kemudian<s>_S--$
 12	menetas	tetas	VERB	VSA	Mood=Ind|Voice=Act	3	advcl	_	Morf=^meN+tetas<v>_VSA$
 13	satu	satu	NUM	CC-	NumType=Card	12	nummod	_	Morf=^satu<c>_CC-$
-14	persatu	persatu	NUM	CC-	NumType=Card	13	fixed	_	SpaceAfter=No|Morf=^per+satu<c>_CC-$
+14	persatu	persatu	NUM	CC-	NumType=Card	13	compound	_	SpaceAfter=No|Morf=^per+satu<c>_CC-$
 15	,	,	PUNCT	Z--	_	17	punct	_	Morf=^,<z>_Z--$
 16	bukan	bukan	PART	G--	Polarity=Neg	17	advmod	_	Morf=^bukan<g>_G--$
 17	berbarengan	berbarengan	VERB	X--	_	12	advcl	_	SpaceAfter=No|Morf=^berbarengan<x>_X--$
@@ -13720,7 +13720,7 @@
 51	memadai	memadai	VERB	ASP	_	49	acl:relcl	_	Morf=^memadai<a>_ASP$
 52	dan	dan	CCONJ	H--	_	53	cc	_	Morf=^dan<h>_H--$
 53	siap	siap	VERB	ASP	_	51	conj	_	Morf=^siap<a>_ASP$
-54	pakai	pakai	VERB	VSA	Mood=Ind|Voice=Act	53	fixed	_	Morf=^pakai<v>_VSA$
+54	pakai	pakai	VERB	VSA	Mood=Ind|Voice=Act	53	compound	_	Morf=^pakai<v>_VSA$
 55	untuk	untuk	SCONJ	R--	_	56	mark	_	Morf=^untuk<r>_R--$
 56	mengisi	isi	VERB	VSA	Mood=Ind|Voice=Act	49	acl	_	Morf=^meN+isi<v>_VSA$
 57	kesempatan	kesempatan	NOUN	NSD	Number=Sing	56	obj	_	Morf=^kesempatan<n>_NSD$
