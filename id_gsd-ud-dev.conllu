@@ -1619,7 +1619,7 @@
 25	anggota	anggota	NOUN	NSD	Number=Sing	24	compound	_	Morf=^anggota<n>_NSD$
 26	lainnya	lainnya	ADJ	D--	_	25	amod	_	SpaceAfter=No|Morf=^lainnya<d>_D--$
 27	,	,	PUNCT	Z--	_	31	punct	_	Morf=^,<z>_Z--$
-28	yang	yang	SCONJ	S--	_	31	mark	_	Morf=^yang<s>_S--$
+28	yang	yang	PRON	S--	ExtPos=SCONJ	31	mark	_	Morf=^yang<s>_S--$
 29	mana	mana	PRON	W--	PronType=Dem	28	fixed	_	Morf=^mana<w>_W--$
 30	mereka	mereka	PRON	PP3	Number=Plur|Person=3|PronType=Prs	31	nsubj	_	Morf=^mereka<p>_PP3$
 31	menemukan	temu	VERB	VSA	Mood=Ind|Voice=Act	24	acl:relcl	_	Morf=^meN+temu<v>+kan_VSA$
@@ -2279,7 +2279,7 @@
 4	pada	pada	ADP	R--	_	5	case	_	Morf=^pada<r>_R--$
 5	garis	garis	NOUN	NSD	Number=Sing	3	obl	_	Morf=^garis<n>_NSD$
 6	horizontal	horizontal	ADJ	F--	_	5	amod	_	Morf=^horizontal<f>_F--$
-7	di	di	ADP	R--	_	14	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
+7	di	di	ADP	R--	ExtPos=SCONJ	14	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
 8	mana	mana	PRON	W--	PronType=Dem	7	fixed	_	Morf=^mana<w>_W--$
 9	garis	garis	NOUN	NSD	Number=Sing	14	nsubj	_	Morf=^garis<n>_NSD$
 10	pinggang	pinggang	NOUN	NSD	Number=Sing	9	compound	_	Morf=^pinggang<n>_NSD$
@@ -2679,7 +2679,7 @@
 32	dan	dan	CCONJ	H--	_	34	cc	_	Morf=^dan<h>_H--$
 33	masih	masih	ADV	D--	_	34	advmod	_	Morf=^masih<d>_D--$
 34	banyak	banyak	ADV	ASP	_	14	conj	_	Morf=^banyak<a>_ASP$
-35	lagi	lagi	ADV	D--	_	34	fixed	_	SpaceAfter=No|Morf=^lagi<d>_D--$
+35	lagi	lagi	ADV	D--	_	34	advmod	_	SpaceAfter=No|Morf=^lagi<d>_D--$
 36	.	.	PUNCT	Z--	_	3	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = dev-s91
@@ -2898,7 +2898,7 @@
 # sent_id = dev-s103
 # text = Akan tetapi, bentuk umum pelaksanaannya masih tetap ada, seperti thawaf, sa 'i, wukuf, dan melontar jumrah.
 # text_en = However, the general form of its implementation still exists, such as tawaf, sa'i, wukuf, and throwing jumrah.
-1	Akan	akan	AUX	M--	_	10	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
+1	Akan	akan	AUX	M--	ExtPos=ADV	10	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	SpaceAfter=No|Morf=^tetapi<s>_S--$
 3	,	,	PUNCT	Z--	_	1	punct	_	Morf=^,<z>_Z--$
 4	bentuk	bentuk	NOUN	NSD	Number=Sing	10	nsubj	_	Morf=^bentuk<n>_NSD$
@@ -3535,7 +3535,7 @@
 # sent_id = dev-s123
 # text = Akan tetapi ketika tekanan total berubah, kedua titik didih dan komposisi dari azeotrop berubah.
 # text_en = However, when the total pressure changes, both the boiling point and the composition of the azeotrope change.
-1	Akan	akan	AUX	M--	_	6	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
+1	Akan	akan	AUX	M--	ExtPos=ADV	6	advmod	_	MWEPOS=ADV|Morf=^akan<m>_M--$
 2	tetapi	tetapi	CCONJ	S--	_	1	fixed	_	Morf=^tetapi<s>_S--$
 3	ketika	ketika	SCONJ	S--	_	6	mark	_	Morf=^ketika<s>_S--$
 4	tekanan	tekan	NOUN	NSD	Number=Sing	6	nsubj	_	Morf=^tekan<v>+an_NSD$
@@ -3854,7 +3854,7 @@
 # text = Bagaimana pula kisah cinta segitiga antara Hafizah, Samsul dan Bambang?
 # text_en = What about the love triangle story between Hafizah, Samsul and Bambang?
 1	Bagaimana	bagaimana	ADV	W--	PronType=Int	3	amod	_	Morf=^bagaimana<w>_W--$
-2	pula	pula	ADJ	D--	_	1	fixed	_	Morf=^pula<d>_D--$
+2	pula	pula	ADV	D--	_	1	advmod	_	Morf=^pula<d>_D--$
 3	kisah	kisah	NOUN	NSD	Number=Sing	0	root	_	Morf=^kisah<n>_NSD$
 4	cinta	cinta	NOUN	NSD	Number=Sing	3	compound	_	Morf=^cinta<n>_NSD$
 5	segitiga	segitiga	ADJ	X--	_	4	amod	_	Morf=^segitiga<x>_X--$
@@ -4035,7 +4035,7 @@
 20	yang	yang	PRON	S--	PronType=Rel	21	nsubj	_	Morf=^yang<s>_S--$
 21	menjelaskan	jelas	VERB	VSA	Mood=Ind|Voice=Act	15	acl:relcl	_	Morf=^meN+jelas<a>+kan_VSA$
 22	proses	proses	NOUN	NSD	Number=Sing	21	obj	_	Morf=^proses<n>_NSD$
-23	di	di	ADP	R--	_	26	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
+23	di	di	ADP	R--	ExtPos=SCONJ	26	mark	_	MWEPOS=SCONJ|Morf=^di<r>_R--$
 24	mana	mana	PRON	W--	PronType=Dem	23	fixed	_	Morf=^mana<w>_W--$
 25	DNA	dna	PROPN	F--	_	26	nsubj	_	Morf=^dna<f>_F--$
 26	berubah	ubah	VERB	VSA	Mood=Ind|Voice=Act	22	acl:relcl	_	Morf=^ber+ubah<v>_VSA$
@@ -4864,7 +4864,7 @@
 # sent_id = dev-s175
 # text = Dengan demikian, atom memiliki kuantitas belaka, termasuk juga massa.
 # text_en = Thus, atoms have mere quantities, including mass.
-1	Dengan	dengan	ADV	R--	_	5	advmod	_	Morf=^dengan<r>_R--$
+1	Dengan	dengan	ADP	R--	ExtPos=ADV	5	advmod	_	Morf=^dengan<r>_R--$
 2	demikian	demikian	PRON	S--	PronType=Dem	1	fixed	_	SpaceAfter=No|Morf=^demikian<s>_S--$
 3	,	,	PUNCT	Z--	_	2	punct	_	Morf=^,<z>_Z--$
 4	atom	atom	NOUN	NSD	Number=Sing	5	nsubj	_	Morf=^atom<n>_NSD$
@@ -6308,7 +6308,7 @@
 4	sesuatu	suatu	PRON	NSD	Number=Sing|PronType=Ind	5	nsubj:pass	_	Morf=^sesuatu<n>_NSD$
 5	disebut	sebut	VERB	VSP	Mood=Ind|Voice=Pass	0	root	_	Morf=^di+sebut<v>_VSP$
 6	pengasih	kasih	NOUN	NSD	Number=Sing	5	obj	_	Morf=^peN+kasih<n>_NSD$
-7	akan	akan	CCONJ	M--	_	10	cc	_	Morf=^akan<m>_M--$
+7	akan	akan	AUX	M--	ExtPos=ADV	10	advmod	_	Morf=^akan<m>_M--$
 8	tetapi	tetapi	CCONJ	S--	_	7	fixed	_	Morf=^tetapi<s>_S--$
 9	sebenarnya	sebenarnya	ADV	D--	_	10	advmod	_	Morf=^sebenarnya<d>_D--$
 10	merupakan	merupakan	VERB	O--	_	5	conj	_	Morf=^merupakan<o>_O--$
@@ -6715,7 +6715,7 @@
 12	produksi	produksi	NOUN	NSD	Number=Sing	8	nmod	_	Morf=^produksi<n>_NSD$
 13	yang	yang	PRON	S--	PronType=Rel	14	nsubj	_	Morf=^yang<s>_S--$
 14	bersangkut	sangkut	VERB	VSA	Mood=Ind|Voice=Act	12	acl:relcl	_	Morf=^ber+sangkut<v>_VSA$
-15	paut	paut	VERB	VSA	Mood=Ind|Voice=Act	14	fixed	_	Morf=^paut<v>_VSA$
+15	paut	paut	VERB	VSA	Mood=Ind|Voice=Act	14	compound	_	Morf=^paut<v>_VSA$
 16	akan	akan	AUX	M--	_	17	aux	_	Morf=^akan<m>_M--$
 17	bertambah	tambah	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No|Morf=^ber+tambah<v>_VSA$
 18	,	,	PUNCT	Z--	_	23	punct	_	Morf=^,<z>_Z--$
@@ -6913,7 +6913,7 @@
 7	,	,	PUNCT	Z--	_	11	punct	_	Morf=^,<z>_Z--$
 8	sedangkan	sedangkan	SCONJ	S--	_	11	mark	_	Morf=^sedangkan<s>_S--$
 9	perdana	perdana	NOUN	ASP	_	11	nsubj:pass	_	Morf=^perdana<a>_ASP$
-10	menteri	menteri	NOUN	NSD	Number=Sing	9	fixed	_	Morf=^menteri<n>_NSD$
+10	menteri	menteri	NOUN	NSD	Number=Sing	9	compound	_	Morf=^menteri<n>_NSD$
 11	ditunjuk	tunjuk	VERB	VSP	Mood=Ind|Voice=Pass	3	ccomp	_	Morf=^di+tunjuk<v>_VSP$
 12	oleh	oleh	ADP	R--	_	13	case	_	Morf=^oleh<r>_R--$
 13	presiden	presiden	NOUN	NSD	Number=Sing	11	obl	_	SpaceAfter=No|Morf=^presiden<n>_NSD$
@@ -7684,9 +7684,9 @@
 18	tujuan	tuju	NOUN	NSD	Number=Sing	10	appos	_	Morf=^tuju<v>+an_NSD$
 19	nasional	nasional	ADJ	ASP	_	18	amod	_	Morf=^nasional<a>_ASP$
 20	yang	yang	PRON	S--	PronType=Rel	21	nsubj:pass	_	Morf=^yang<s>_S--$
-21	dicita	cita	VERB	VSP	Mood=Ind|Voice=Pass	18	acl:relcl	_	Morf=^di+cita<n>_VSP$
-22	–	–	PUNCT	Z--	_	23	punct	_	Morf=^–<z>_Z--$
-23	citakan	cita	VERB	VSA	Mood=Ind|Voice=Act	21	fixed	_	SpaceAfter=No|Morf=^cita<n>+kan_VSA$
+21	dicita	cita	VERB	VSP	Mood=Ind|Typo=Yes|Voice=Pass	18	acl:relcl	_	Morf=^di+cita<n>_VSP$
+22	–	_	X	Z--	_	21	goeswith	_	Morf=^–<z>_Z--$
+23	citakan	_	X	_	_	21	goeswith	_	SpaceAfter=No|Morf=^cita<n>+kan_VSA$
 24	.	.	PUNCT	Z--	_	10	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = dev-s280
@@ -8669,8 +8669,8 @@
 # sent_id = dev-s315
 # text = Pada saat pasukan Islam mengepung kota Busrah, Romanus memandu satu detasemen khusus yang dikomandani oleh Abdur Rahman untuk melewati terowongan tepat dibawah benteng kota.
 # text_en = When the Islamic troops besieged the city of Busrah, Romanus led a special detachment commanded by Abdur Rahman to pass through the tunnel just below the city fort.
-1	Pada	pada	SCONJ	R--	_	5	mark	_	Morf=^pada<r>_R--$
-2	saat	saat	NOUN	S--	_	1	fixed	_	Morf=^saat<s>_S--$
+1	Pada	pada	ADP	R--	_	2	case	_	Morf=^pada<r>_R--$
+2	saat	saat	NOUN	S--	_	5	nmod	_	Morf=^saat<s>_S--$
 3	pasukan	pasukan	NOUN	NSD	Number=Sing	5	nsubj	_	Morf=^pasukan<n>_NSD$
 4	Islam	islam	PROPN	NSD	_	3	nmod	_	Morf=^islam<n>_NSD$
 5	mengepung	kepung	VERB	VSA	Mood=Ind|Voice=Act	10	advcl	_	Morf=^meN+kepung<v>_VSA$
@@ -8946,9 +8946,9 @@
 7	hutan	hutan	NOUN	NSD	Number=Sing	4	obl	_	Morf=^hutan<n>_NSD$
 8	jati	jati	NOUN	NSD	Number=Sing	7	compound	_	Morf=^jati<n>_NSD$
 9	dan	dan	CCONJ	H--	_	10	cc	_	Morf=^dan<h>_H--$
-10	tempat	tempat	NOUN	NSD	Number=Sing	7	conj	_	Morf=^tempat<n>_NSD$
-11	-	-	PUNCT	Z--	_	12	punct	_	Morf=^-<z>_Z--$
-12	ternpat	ternpat	NOUN	X--	_	10	fixed	_	Morf=^ternpat<x>_X--$
+10	tempat	tempat	NOUN	NSD	Number=Sing|Typo=Yes	7	conj	_	Morf=^tempat<n>_NSD$
+11	-	_	X	Z--	_	10	goeswith	_	Morf=^-<z>_Z--$
+12	ternpat	_	X	X--	_	10	goeswith	_	Morf=^ternpat<x>_X--$
 13	lain	lain	ADJ	ASP	_	10	amod	_	Morf=^lain<a>_ASP$
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj	_	Morf=^yang<s>_S--$
 15	dekat	dekat	ADJ	ASP	_	10	acl:relcl	_	Morf=^dekat<a>_ASP$
@@ -9126,7 +9126,7 @@
 39	menunjang	tunjang	VERB	VSA	Mood=Ind|Voice=Act	33	xcomp	_	Morf=^meN+tunjang<v>_VSA$
 40	kegiatan	giat	NOUN	NSD	Number=Sing	39	obj	_	Morf=^ke+giat<n>+an_NSD$
 41	belajar	belajar	VERB	NSD	_	40	acl	_	Morf=^belajar<n>_NSD$
-42	mengajar	ajar	VERB	VSA	Mood=Ind|Voice=Act	41	fixed	_	SpaceAfter=No|Morf=^meN+ajar<v>_VSA$
+42	mengajar	ajar	VERB	VSA	Mood=Ind|Voice=Act	41	compound	_	SpaceAfter=No|Morf=^meN+ajar<v>_VSA$
 43	.	.	PUNCT	Z--	_	33	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = dev-s333
@@ -9251,7 +9251,7 @@
 # sent_id = dev-s337
 # text = Sementara itu, Direktorat Jenderal Penerbangan Sipil telah meminta penjelasan atas kecelakaan ini.
 # text_en = Meanwhile, the Directorate General of Civil Aviation has asked for an explanation for this accident.
-1	Sementara	sementara	SCONJ	D--	_	9	mark	_	Morf=^sementara<d>_D--$
+1	Sementara	sementara	ADV	D--	ExtPos=ADV	9	advmod	_	Morf=^sementara<d>_D--$
 2	itu	itu	DET	B--	PronType=Dem	1	fixed	_	SpaceAfter=No|Morf=^itu<b>_B--$
 3	,	,	PUNCT	Z--	_	1	punct	_	Morf=^,<z>_Z--$
 4	Direktorat	direktorat	PROPN	NSD	_	9	nsubj	_	Morf=^direktorat<n>_NSD$
@@ -9414,9 +9414,9 @@
 23	sewaan	sewa	NOUN	NSD	Number=Sing	16	conj	_	SpaceAfter=No|Morf=^sewa<n>+an_NSD$
 24	,	,	PUNCT	Z--	_	26	punct	_	Morf=^,<z>_Z--$
 25	yang	yang	PRON	S--	PronType=Rel	26	nsubj	_	Morf=^yang<s>_S--$
-26	berbeda	beda	VERB	VSA	Mood=Ind|Voice=Act	1	acl:relcl	_	Morf=^ber+beda<a>_VSA$
-27	-	-	PUNCT	Z--	_	28	punct	_	Morf=^-<z>_Z--$
-28	beda	beda	ADJ	ASP	_	26	fixed	_	SpaceAfter=No|Morf=^beda<a>_ASP$
+26	berbeda	beda	VERB	VSA	Mood=Ind|Typo=Yes|Voice=Act	1	acl:relcl	_	Morf=^ber+beda<a>_VSA$
+27	-	_	X	Z--	_	26	goeswith	_	Morf=^-<z>_Z--$
+28	beda	_	X	ASP	_	26	goeswith	_	SpaceAfter=No|Morf=^beda<a>_ASP$
 29	.	.	PUNCT	Z--	_	1	punct	_	Morf=^.<z>_Z--$
 
 # sent_id = dev-s344
@@ -9579,7 +9579,7 @@
 29	2	2	NUM	CC-	NumType=Card	30	nummod	_	Morf=^2<c>_CC-$
 30	November	november	PROPN	NSD	_	28	nmod	_	Morf=^november<n>_NSD$
 31	1917	1917	NUM	CC-	NumType=Card	30	nummod	_	Morf=^1917<c>_CC-$
-32	yang	yang	PRON	S--	PronType=Rel	36	obl	_	Morf=^yang<s>_S--$
+32	yang	yang	PRON	S--	ExtPos=SCONJ|PronType=Rel	36	mark	_	Morf=^yang<s>_S--$
 33	mana	mana	PRON	W--	PronType=Int	32	fixed	_	Morf=^mana<w>_W--$
 34	Britania	britania	PROPN	X--	_	36	nsubj	_	Morf=^britania<x>_X--$
 35	Raya	raya	PROPN	ASP	_	34	flat:name	_	Morf=^raya<a>_ASP$
@@ -10485,9 +10485,9 @@
 15	jauh	jauh	ADJ	ASP	_	13	acl:relcl	_	Morf=^jauh<a>_ASP$
 16	atau	atau	CCONJ	H--	_	17	cc	_	Morf=^atau<h>_H--$
 17	mengambil	ambil	VERB	VSA	Mood=Ind|Voice=Act	12	conj	_	Morf=^meN+ambil<v>_VSA$
-18	close	close	NOUN	F--	_	17	obj	_	Morf=^close<f>_F--$
+18	close	close	X	F--	_	17	obj	_	Morf=^close<f>_F--$
 19	-	-	PUNCT	Z--	_	20	punct	_	Morf=^-<z>_Z--$
-20	up	up	NOUN	F--	_	18	fixed	_	Morf=^up<f>_F--$
+20	up	up	X	F--	_	18	nmod	_	Morf=^up<f>_F--$
 21	yang	yang	PRON	S--	PronType=Rel	22	obj	_	Morf=^yang<s>_S--$
 22	dramatis	dramatis	ADJ	ASP	_	18	acl:relcl	_	SpaceAfter=No|Morf=^dramatis<a>_ASP$
 23	.	.	PUNCT	Z--	_	10	punct	_	Morf=^.<z>_Z--$
@@ -11018,7 +11018,7 @@
 14	yang	yang	PRON	S--	PronType=Rel	15	nsubj	_	Morf=^yang<s>_S--$
 15	datang	datang	VERB	VSA	Mood=Ind|Voice=Act	10	acl:relcl	_	Morf=^datang<v>_VSA$
 16	silih	silih	VERB	NSD	_	15	xcomp	_	Morf=^silih<n>_NSD$
-17	berganti	ganti	VERB	VSA	Mood=Ind|Voice=Act	16	fixed	_	Morf=^ber+ganti<v>_VSA$
+17	berganti	ganti	VERB	VSA	Mood=Ind|Voice=Act	16	compound	_	Morf=^ber+ganti<v>_VSA$
 18	tanpa	tanpa	ADP	D--	_	19	case	_	Morf=^tanpa<d>_D--$
 19	henti	henti	NOUN	VSA	_	16	obl	_	SpaceAfter=No|Morf=^henti<v>_VSA$
 20	?	?	PUNCT	Z--	_	5	punct	_	Morf=^?<z>_Z--$
@@ -11346,7 +11346,7 @@
 12	cerita	cerita	NOUN	NSD	Number=Sing	10	nmod	_	Morf=^cerita<n>_NSD$
 13	mengenai	mengenai	ADP	R--	_	14	case	_	Morf=^mengenai<r>_R--$
 14	asal	asal	NOUN	NSD	Number=Sing	12	nmod	_	Morf=^asal<n>_NSD$
-15	usul	usul	NOUN	VSA	_	14	fixed	_	Morf=^usul<v>_VSA$
+15	usul	usul	NOUN	VSA	_	14	compound	_	Morf=^usul<v>_VSA$
 16	beberapa	beberapa	DET	B--	PronType=Ind	17	det	_	Morf=^beberapa<b>_B--$
 17	tokoh	tokoh	NOUN	NSD	Number=Sing	14	nmod	_	Morf=^tokoh<n>_NSD$
 18	dan	dan	CCONJ	H--	_	19	cc	_	Morf=^dan<h>_H--$
@@ -12466,7 +12466,7 @@
 # sent_id = dev-s458
 # text = Oleh karena ini, keduanya mengajak Dandy untuk membentuk band baru, meski harus beralih dari band beraliran metal ke pop dangdut melayu.
 # text_en = Because of this, the two invited Dandy to form a new band, even though they had to switch from a metal band to a Malay pop dangdut band.
-1	Oleh	oleh	ADP	R--	_	7	advmod	_	MWEPOS=ADV|Morf=^oleh<r>_R--$
+1	Oleh	oleh	ADP	R--	ExtPos=ADV	7	advmod	_	MWEPOS=ADV|Morf=^oleh<r>_R--$
 2	karena	karena	ADP	S--	_	1	fixed	_	Morf=^karena<s>_S--$
 3	ini	ini	DET	B--	PronType=Dem	1	fixed	_	SpaceAfter=No|Morf=^ini<b>_B--$
 4	,	,	PUNCT	Z--	_	1	punct	_	Morf=^,<z>_Z--$
@@ -12712,7 +12712,7 @@
 5	sudah	sudah	AUX	D--	_	6	aux	_	Morf=^sudah<d>_D--$
 6	membuang	buang	VERB	VSA	Mood=Ind|Voice=Act	0	root	_	Morf=^meN+buang<v>_VSA$
 7	kami	kami	PRON	PP1	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	6	obj	_	Morf=^kami<p>_PP1$
-8	sama	sama	ADJ	ASP	_	6	advmod	_	MWEPOS=ADV|Morf=^sama<a>_ASP$
+8	sama	sama	ADJ	ASP	ExtPos=ADV	6	advmod	_	MWEPOS=ADV|Morf=^sama<a>_ASP$
 9	sekali	sekali	ADV	D--	_	8	fixed	_	SpaceAfter=No|Morf=^sekali<d>_D--$
 10	?	?	PUNCT	Z--	_	6	punct	_	Morf=^?<z>_Z--$
 
@@ -13095,9 +13095,9 @@
 26	dengan	dengan	SCONJ	R--	_	27	mark	_	Morf=^dengan<r>_R--$
 27	dibantu	bantu	VERB	VSP	Mood=Ind|Voice=Pass	32	xcomp	_	Morf=^di+bantu<v>_VSP$
 28	oleh	oleh	ADP	R--	_	29	case	_	Morf=^oleh<r>_R--$
-29	putera	putera	NOUN	F--	_	27	obl	_	Morf=^putera<f>_F--$
-30	-	-	PUNCT	Z--	_	31	punct	_	Morf=^-<z>_Z--$
-31	puterinya	puterinya	NOUN	X--	_	29	fixed	_	Morf=^puterinya<x>_X--$
+29	putera	putera	NOUN	F--	Typo=Yes	27	obl	_	Morf=^putera<f>_F--$
+30	-	_	X	Z--	_	29	goeswith	_	Morf=^-<z>_Z--$
+31	puterinya	_	X	X--	_	29	goeswith	_	Morf=^puterinya<x>_X--$
 32	mendirikan	diri	VERB	VSA	Mood=Ind|Voice=Act	4	advcl	_	Morf=^meN+diri<n>+kan_VSA$
 33	Yayasan	yayasan	PROPN	NSD	_	32	obj	_	Morf=^yayasan<n>_NSD$
 34	Pendidikan	pendidikan	PROPN	NSD	_	33	flat:name	_	Morf=^peN+didik<v>+an_NSD$
@@ -13140,7 +13140,7 @@
 23	dominan	dominan	NOUN	NSD	Number=Sing	22	compound	_	Morf=^dominan<n>_NSD$
 24	nya	dia	PRON	PS3	Number=Sing|Person=3|PronType=Prs	23	nmod:poss	_	Morf=^dia<p>_PS3$
 25	,	,	PUNCT	Z--	_	28	punct	_	Morf=^,<z>_Z--$
-26	yang	yang	PRON	S--	PronType=Rel	28	nsubj	_	Morf=^yang<s>_S--$
+26	yang	yang	PRON	S--	ExtPos=SCONJ|PronType=Rel	28	mark	_	Morf=^yang<s>_S--$
 27	mana	mana	ADV	W--	PronType=Int	26	fixed	_	Morf=^mana<w>_W--$
 28	berjalan	jalan	VERB	VSA	Mood=Ind|Voice=Act	12	acl:relcl	_	Morf=^ber+jalan<v>_VSA$
 29	lancar	lancar	ADV	ASP	_	28	advmod	_	Morf=^lancar<a>_ASP$
