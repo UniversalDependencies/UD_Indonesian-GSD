@@ -136,6 +136,7 @@ See https://github.com/ryanmcd/uni-dep-tb for more details
 Data available since: UD v1.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news blog
 Lemmas: automatic with corrections
 UPOS: converted with corrections
