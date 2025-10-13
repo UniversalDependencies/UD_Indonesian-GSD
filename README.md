@@ -26,6 +26,8 @@ The Indonesian-GSD treebank was originally converted from the content head versi
 
 # Changelog
 
+* 2024-10-13 v2.17
+  * Fixed errors and warnings.
 * 2024-10-25 v2.15
   * Fixed errors and warnings.
 * 2023-05-15 v2.12
