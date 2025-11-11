@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Indonesian-GSD:
-commit 17c5a7d8a7c16d1f2d753b70eef47b9afea195c4
-Merge: 28179c1 a1222f6
+commit f68e50c2abb3e670a7f6fe50a66d4f8fc408ff9d
+Merge: 475e401 50630b9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'id_gsd'
+Language code (from CoNLL-U file name) = 'id'
+Found the following data files: id_gsd-ud-dev.conllu, id_gsd-ud-test.conllu, id_gsd-ud-train.conllu
 Size: counted 122019 of 122019 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60835354062463.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,14 +19,10 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 48335 out of 122019 total words have one or more features.
+Features: 48334 out of 122019 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
-Udapi:
-               TOTAL         83
-Udapi: found 83 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 122019 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-dev.conllu
 *** PASSED ***
@@ -31,14 +31,13 @@ Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-GSD/id_gsd-ud-train.conllu
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.25) = 0.0192307692307692
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
-(weight=0.256410256410256) * (score{size}=0.695475820478142) = 0.178327133455934
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.993197780673502) = 0.305599317130308
-(weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.734296050955842) * (availability=1) * (validity=1) = 0.734296050955842
-STARS = 3.5
-UD_Indonesian-GSD	0.734296050955842	3.5
+(weight=0.111111111111111) * (score{features}=0.25) = 0.0277777777777778
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
+(weight=0.37037037037037) * (score{size}=0.695475820478142) = 0.257583637214127
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.9) = 0.1
+(weight=0.111111111111111) * (score{udeprels}=0.827027027027027) = 0.0918918918918919
+(TOTAL score=0.619228615525772) * (availability=1) * (validity=1) = 0.619228615525772
+STARS = 3
+UD_Indonesian-GSD	0.619228615525772	3
